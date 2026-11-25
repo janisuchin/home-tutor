@@ -10,6 +10,7 @@ import { getState, saveFamily, useAppState, wipeDevice } from '../../data/store'
 import { downloadAllForOffline } from '../../content/loader';
 import { hashPin, randomBytes, toHex } from '../../core/crypto';
 import { MODES, type FamilySettings, type ModeId } from '../../core/model';
+import { COUNTRIES } from '../../core/countries';
 
 export default function SettingsScreen() {
   const t = useT();
@@ -38,6 +39,12 @@ function Settings() {
           <Button small label={t('common.save')} onPress={() => saveFamily({ ...family, name: name.trim() || family.name })} />
           <Txt variant="label">{t('settings.mode')}</Txt>
           <Choice<ModeId> value={family.mode} onChange={(mode) => saveFamily({ ...family, mode })} options={MODES.map((m) => ({ value: m, label: `${m} · ${t(`mode.${m}.title`)}` }))} />
+          <Txt variant="label">{t('setup.country')}</Txt>
+          <Row wrap>
+            {COUNTRIES.map((c) => (
+              <Chip key={c.code} testID={`country-${c.code}`} label={`${c.flag} ${c.name}`} selected={family.country === c.code} onPress={() => saveFamily({ ...family, country: c.code })} />
+            ))}
+          </Row>
         </Card>
       </Section>
 
@@ -57,7 +64,7 @@ function Settings() {
       <Section title={t('settings.access')}>
         <Card>
           <Txt variant="label">{t('settings.uiLanguage')}</Txt>
-          <Choice value={s.uiLanguage} onChange={(uiLanguage) => setS({ uiLanguage })} options={availableLanguages().map((l) => ({ value: l, label: t(`lang.${l}`) }))} />
+          <Choice testID="ui-language" value={s.uiLanguage} onChange={(uiLanguage) => setS({ uiLanguage })} options={availableLanguages().map((l) => ({ value: l, label: t(`lang.${l}`) }))} />
           <Txt variant="small">{t('settings.moreLanguages')}</Txt>
           <Row wrap>
             <Chip testID="dyslexia" label={t('settings.dyslexia')} selected={s.dyslexiaFont} onPress={() => setS({ dyslexiaFont: !s.dyslexiaFont })} />

@@ -13,6 +13,8 @@ import { saveFamily, unlockParent, useAppState } from '../data/store';
 import { DEFAULT_FAMILY_SETTINGS, MODES, type Family, type ModeId } from '../core/model';
 import { hashPin, randomId, toHex, randomBytes } from '../core/crypto';
 import { COUNTRIES } from '../core/countries';
+import { defaultsFromLocale, deviceLocaleTag } from '../core/locale';
+import { availableLanguages, setLanguage } from '../i18n';
 
 const MODE_ICONS: Record<ModeId, string> = { A: '🧒', B: '👧', C: '👦', D: '👫', E: '👨‍👩‍👧‍👦', F: '🧑‍🏫', G: '🏫', H: '📽️' };
 
@@ -21,7 +23,9 @@ export default function Setup() {
   const existing = useAppState((s) => s.family);
   const [step, setStep] = useState(0);
   const [name, setName] = useState(existing?.name ?? '');
-  const [country, setCountry] = useState(existing?.country ?? 'IN');
+  const [deviceDefaults] = useState(() => defaultsFromLocale(deviceLocaleTag(), availableLanguages()));
+  const [country, setCountry] = useState(existing?.country ?? deviceDefaults.country);
+  const [uiLanguage, setUiLanguage] = useState(existing?.settings.uiLanguage ?? deviceDefaults.uiLanguage);
   const [mode, setMode] = useState<ModeId>(existing?.mode ?? 'A');
   const [pin, setPin] = useState('');
   const [pin2, setPin2] = useState('');
@@ -41,7 +45,7 @@ export default function Setup() {
       pinSalt: salt,
       pinHash: hashPin(pin, salt),
       consentAt: Date.now(),
-      settings: existing?.settings ?? { ...DEFAULT_FAMILY_SETTINGS },
+      settings: { ...(existing?.settings ?? DEFAULT_FAMILY_SETTINGS), uiLanguage },
       updatedAt: Date.now(),
     };
     saveFamily(fam);
@@ -60,6 +64,16 @@ export default function Setup() {
       {step === 0 && (
         <Card>
           <Field testID="family-name" label={t('setup.familyName')} value={name} onChangeText={setName} placeholder={t('setup.familyName.placeholder')} />
+          <Txt variant="label">{t('settings.uiLanguage')}</Txt>
+          <Choice
+            testID="setup-language"
+            value={uiLanguage}
+            onChange={(l) => {
+              setUiLanguage(l);
+              setLanguage(l);
+            }}
+            options={availableLanguages().map((l) => ({ value: l, label: t(`lang.${l}`) }))}
+          />
           <Txt variant="label">{t('setup.country')}</Txt>
           <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: space.sm }}>
             {COUNTRIES.map((c) => (

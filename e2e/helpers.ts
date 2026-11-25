@@ -62,3 +62,37 @@ export async function enterPin(page: Page, pin = PIN) {
 export async function noHorizontalScroll(page: Page) {
   return page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1);
 }
+
+/** Reads the signed-in session token straight from device storage (null when signed out). */
+export async function accountToken(page: Page): Promise<string | null> {
+  return page.evaluate(() => {
+    try {
+      return JSON.parse(localStorage.getItem('home-tutor:v1') ?? '{}')?.account?.token ?? null;
+    } catch {
+      return null;
+    }
+  });
+}
+
+/**
+ * Deletes the account a test signed up (DELETE /api/account, the delete-my-account route), so a
+ * run against the live URL leaves no accounts, records or Progress Keys behind.
+ */
+export async function deleteAccountByToken(page: Page, token: string | null) {
+  if (!token) return;
+  const res = await page.request.delete('/api/account', { headers: { authorization: `Bearer ${token}` } });
+  if (!res.ok() && res.status() !== 401) throw new Error(`account clean-up failed: ${res.status()}`);
+}
+
+/** Signs up a new account from the account screen (the family must already be seeded). */
+export async function signUp(page: Page, email: string, password = 'our family learns together') {
+  await tid(page, 'account-mode-signup').click();
+  await tid(page, 'email').fill(email);
+  await tid(page, 'password').fill(password);
+  await tid(page, 'account-consent').click();
+  await tid(page, 'account-submit').click();
+}
+
+export function testEmail(prefix: string) {
+  return `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2)}@example.org`;
+}

@@ -1,6 +1,6 @@
 # Home Tutor
 
-**Live app:** not deployed yet (see [docs/STATUS.md](docs/STATUS.md)). Planned address: https://home-tutor.german-journey.workers.dev
+**Live app:** https://home-tutor.german-journey.workers.dev
 
 Home Tutor is a free, child-friendly home-tutoring app for parents, tutors and teachers anywhere in
 the world. It works with one child, several siblings, a small group or a whole classroom, for children
@@ -72,8 +72,9 @@ npm run serve             # serve dist/ + a local API on http://localhost:8787
 npx playwright test       # end-to-end tests at phone, tablet, desktop and projector sizes
 ```
 
-Deploying needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` in the environment:
-`scripts/deploy.sh`.
+Deploy with `scripts/deploy.sh` after `npx wrangler login` (OAuth on a PC) or with
+`CLOUDFLARE_API_TOKEN` set. It builds the PWA, finds or creates the D1 database, applies any new
+migrations and deploys the Worker.
 
 ## Licence
 

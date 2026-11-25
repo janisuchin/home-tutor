@@ -6,7 +6,8 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import * as Font from 'expo-font';
 import { loadState, useAppState } from '../data/store';
 import { startAutoSync } from '../data/sync';
-import { isRtl, setLanguage } from '../i18n';
+import { availableLanguages, isRtl, setLanguage } from '../i18n';
+import { defaultsFromLocale, deviceLocaleTag } from '../core/locale';
 import { colors } from '../ui/theme';
 import { Mascot } from '../ui/Mascot';
 
@@ -27,7 +28,8 @@ export default function RootLayout() {
   }, []);
 
   useEffect(() => {
-    const lang = settings?.uiLanguage ?? 'en';
+    // Before a family exists (welcome screen), follow the device locale; English otherwise.
+    const lang = settings?.uiLanguage ?? defaultsFromLocale(deviceLocaleTag(), availableLanguages()).uiLanguage;
     setLanguage(lang);
     const rtl = isRtl(lang);
     if (Platform.OS === 'web' && typeof document !== 'undefined') {

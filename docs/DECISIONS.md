@@ -39,3 +39,12 @@ pictures, scale) are final and are not repeated as open questions.
 | D-031 | No licence file. The README says all rights reserved. | Owner decision 1. |
 | D-032 | AI tutor: interface plus a 501 stub route plus a feature flag typed `false`. No UI. | Owner decision 5. |
 | D-033 | Axe rule `scrollable-region-focusable` is disabled in e2e. | RN Web scroll views are divs without tabindex. All content inside is reachable by keyboard and is checked by the other rules. Revisit when adding a custom web ScrollView. |
+
+## Round 2 (2026-11-25)
+
+| # | Decision | Reason |
+|---|---|---|
+| D-034 | `scripts/deploy.sh` writes its temporary config to `wrangler.deploy.jsonc` **at the repo root** (gitignored, removed on exit), and checks `wrangler whoami` instead of requiring `CLOUDFLARE_API_TOKEN`/`CLOUDFLARE_ACCOUNT_ID`. | Wrangler resolves `main`, `assets.directory` and `migrations_dir` relative to the config file, so the old `.wrangler/deploy.jsonc` pointed into `.wrangler/`. Rewriting paths is fragile; a sibling file needs no rewriting. `whoami` works for both OAuth and token logins. |
+| D-035 | E2E tests that sign up always delete their account in a `finally` block via `DELETE /api/account`; one test also presses the real Delete-my-account button. | Owner request: a live run must leave no data behind, even when a test fails half-way. |
+| D-036 | Privacy contact is the public GitHub Issues page, with a warning not to post personal details there. | Owner decision. Never publish a personal email. |
+| D-037 | Set-up defaults come from the device locale (`navigator.languages[0]`, then `Intl`): the region picks the country (unknown region: Other; no region: a likely country for the language), the language picks the UI language if we have it, else English. Both can be changed at set-up and in Family settings. New children inherit the family country and UI language. | Owner decision. "Other" is more honest than guessing a country we do not list. |

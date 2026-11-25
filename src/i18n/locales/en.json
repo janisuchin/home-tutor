@@ -687,7 +687,8 @@
   "privacy.laws.title": "Laws we design for",
   "privacy.laws.body": "We follow data-minimisation principles from COPPA (USA), GDPR and the UK Age Appropriate Design Code, and India's DPDP Act. This notice is not legal advice; it will be reviewed before wider release.",
   "privacy.contact.title": "Questions",
-  "privacy.contact.body": "Contact details will be added when the project owner publishes them.",
+  "privacy.contact.body": "Questions, ideas or a privacy request? Open an issue on the project's public GitHub Issues page. It is public, so please never post your email, your children's names or any other personal details there. To delete your data, the quickest way is Delete my account in the app.",
+  "privacy.contact.link": "Open GitHub Issues",
 
   "about.title": "About Home Tutor",
   "about.mascot": "Meet Sprout, our helper. Like every child, Sprout grows a little every day.",

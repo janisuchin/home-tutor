@@ -57,7 +57,9 @@ function ChildEdit() {
         familyId: family?.id ?? '',
         name: '',
         birth: `${now.getFullYear() - 7}-01`,
-        country: family?.country ?? 'IN',
+        country: family?.country ?? 'OTHER',
+        primaryLanguage: family?.settings.uiLanguage ?? 'en',
+        languagesSpoken: [family?.settings.uiLanguage ?? 'en'],
         learnerTypes: family?.mode === 'E' ? ['siblings', 'parent-led'] : family?.mode === 'G' ? ['classroom'] : ['individual', 'parent-led'],
       }),
   );

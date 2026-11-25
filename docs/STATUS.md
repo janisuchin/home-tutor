@@ -5,11 +5,10 @@ fast-forwarded to `main`.
 
 ## Live links
 
-There are no live links yet. `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` were not in this
-run's environment, so the deploy step was skipped. Everything needed to deploy is in the repo:
-`scripts/deploy.sh` creates the D1 database, applies the migrations and deploys the `home-tutor`
-Worker, which serves both the PWA and the API. The planned address is
-https://home-tutor.german-journey.workers.dev.
+- **App and API:** https://home-tutor.german-journey.workers.dev
+- Deployed from the owner's PC from `main` (D1 database `home-tutor`, migration 0001 applied); the
+  full Playwright suite passed against the live URL, 44 of 44. Round 2 work is deployed by the PC
+  after this round (this cloud environment has no Cloudflare keys).
 
 ## Done
 
