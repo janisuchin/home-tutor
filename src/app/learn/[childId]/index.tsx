@@ -10,6 +10,9 @@ import { Mascot } from '../../../ui/Mascot';
 import { areaColors, colors, mascotColors, space, useTheme } from '../../../ui/theme';
 import { useT } from '../../../i18n';
 import { useCatalog, useChild, useChildEvents, useProgress } from '../../../data/hooks';
+import { loadBooks } from '../../../content/loader';
+import { suggestBooks } from '../../../core/engine/books';
+import type { Book } from '../../../core/content-types';
 import { addEvent, setPlan, useAppState } from '../../../data/store';
 import { currentMission, recommend, todayPlan } from '../../../core/engine/recommend';
 import { reasonText } from '../../../ui/reasons';
@@ -30,6 +33,11 @@ export default function ChildHome() {
   const progress = useProgress(child);
   const [question, setQuestion] = useState('');
   const [book, setBook] = useState('');
+  const [bookList, setBookList] = useState<Book[]>([]);
+  useEffect(() => {
+    loadBooks().then(setBookList).catch(() => {});
+  }, []);
+  const nextBook = useMemo(() => suggestBooks(bookList, child, family, events, Date.now(), 1)[0], [bookList, child, family, events]);
 
   const stored = useAppState((s) => s.plans?.[childId]);
   const today = dayKey();
@@ -205,6 +213,12 @@ export default function ChildHome() {
         </Section>
         <Section title={`📚 ${t('home.books')}`}>
           <Card>
+            {nextBook ? (
+              <Txt testID="next-book">
+                💡 {t('books.tryNext', { title: nextBook.book.title, author: nextBook.book.author })}
+              </Txt>
+            ) : null}
+            <Button small variant="secondary" icon="📚" testID="open-books" label={t('books.find')} onPress={() => router.push(`/learn/${child.id}/books`)} />
             <Field label={t('home.bookLabel')} value={book} onChangeText={setBook} />
             <Button
               small

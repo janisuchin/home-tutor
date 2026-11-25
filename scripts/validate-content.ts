@@ -16,7 +16,11 @@ import {
   type EmergencyNumber,
   type Career,
   type VocabPack,
+  type Book,
+  type Photo,
 } from '../src/core/content-types';
+import { ALLOWED_LICENCE, PHOTO_MAX_BYTES, PHOTO_MAX_WIDTH, THUMB_MAX_BYTES } from '../src/core/photos';
+import { statSync } from 'node:fs';
 
 export interface ValidationResult {
   errors: string[];
@@ -220,6 +224,38 @@ export function validateAll(root: string): ValidationResult {
     }
   } else errors.push('missing content/languages/');
 
+  // Photos (D-052): every photo credited, openly licensed, self-hosted and small.
+  const pathwayIds = new Set<string>();
+  for (const a of AREA_IDS) {
+    const f = join(root, 'content', 'areas', `${a}.json`);
+    if (existsSync(f)) for (const pw of (JSON.parse(readFileSync(f, 'utf8')) as AreaPack).pathways ?? []) pathwayIds.add(pw.id);
+  }
+  const careerIds = new Set<string>(existsSync(careersFile) ? (JSON.parse(readFileSync(careersFile, 'utf8')) as Career[]).map((c) => c.id) : []);
+  const healthOnly = new Set(allItems.filter((i) => i.healthModule).map((i) => i.id));
+  const photosFile = join(root, 'content', 'photos.json');
+  const photos: Photo[] = existsSync(photosFile) ? JSON.parse(readFileSync(photosFile, 'utf8')) : [];
+  const photoIds = new Set<string>();
+  for (const p of photos) errors.push(...validatePhoto(p, root, { itemIds, trees, pathwayIds, careerIds, healthOnly }));
+  for (const p of photos) {
+    if (photoIds.has(p.id)) errors.push(`photo ${p.id}: duplicate id`);
+    photoIds.add(p.id);
+  }
+  stats.photos = photos.length;
+
+  // Books (D-053): real books only, each with a library verification key, an age band and a type.
+  const booksFile = join(root, 'content', 'books.json');
+  const books: Book[] = existsSync(booksFile) ? JSON.parse(readFileSync(booksFile, 'utf8')) : [];
+  const bookIds = new Set<string>();
+  const workKeys = new Set<string>();
+  for (const b of books) {
+    errors.push(...validateBook(b));
+    if (bookIds.has(b.id)) errors.push(`book ${b.id}: duplicate id`);
+    if (b.verify?.workKey && workKeys.has(b.verify.workKey + b.band)) errors.push(`book ${b.id}: duplicate work in band`);
+    bookIds.add(b.id);
+    if (b.verify?.workKey) workKeys.add(b.verify.workKey + b.band);
+  }
+  stats.books = books.length;
+
   stats.items = allItems.length;
   stats.practical = allItems.filter((i) => i.practical).length;
   stats.simulations = allItems.filter((i) => i.kind === 'simulation').length;
@@ -227,6 +263,58 @@ export function validateAll(root: string): ValidationResult {
   stats.skillTrees = trees.size;
   stats.competencies = compIds.size;
   return { errors, warnings, stats };
+}
+
+export function validatePhoto(
+  p: Photo,
+  root: string,
+  ref: { itemIds: Set<string>; trees: Map<string, unknown>; pathwayIds: Set<string>; careerIds: Set<string>; healthOnly: Set<string> },
+): string[] {
+  const e: string[] = [];
+  const w = `photo ${p.id}`;
+  if (!ID_RE.test(p.id ?? '')) e.push(`${w}: id must be kebab-case`);
+  if (!isNonEmptyString(p.alt) || p.alt.length < 8) e.push(`${w}: alt text required`);
+  if (!isNonEmptyString(p.title)) e.push(`${w}: title required`);
+  const c = p.credit;
+  if (!c) e.push(`${w}: no credit`);
+  else {
+    for (const k of ['title', 'author', 'sourceUrl', 'licence', 'licenceUrl', 'provider', 'changes'] as const) if (!isNonEmptyString(c[k])) e.push(`${w}: credit.${k} required`);
+    if (isNonEmptyString(c.licence) && !ALLOWED_LICENCE.test(c.licence)) e.push(`${w}: licence not allowed (${c.licence}); only CC0, public domain, CC BY, CC BY-SA`);
+    if (isNonEmptyString(c.sourceUrl) && !/^https:\/\//.test(c.sourceUrl)) e.push(`${w}: sourceUrl must be https`);
+    if (isNonEmptyString(c.licenceUrl) && !/^https?:\/\//.test(c.licenceUrl)) e.push(`${w}: licenceUrl must be a URL`);
+    if (/\b(nc|nd)\b/i.test(c.licence ?? '') || /-(nc|nd)/i.test(c.licenceUrl ?? '')) e.push(`${w}: NC/ND licences are not allowed`);
+  }
+  if (!(p.width > 0 && p.width <= PHOTO_MAX_WIDTH)) e.push(`${w}: width must be 1-${PHOTO_MAX_WIDTH}`);
+  for (const [file, max] of [[`${p.id}.webp`, PHOTO_MAX_BYTES], [`${p.id}-thumb.webp`, THUMB_MAX_BYTES]] as const) {
+    const f = join(root, 'public', 'photos', file);
+    if (!existsSync(f)) e.push(`${w}: missing file public/photos/${file}`);
+    else if (statSync(f).size > max) e.push(`${w}: ${file} is ${statSync(f).size} bytes (limit ${max})`);
+  }
+  if (!Array.isArray(p.links) || !p.links.length) e.push(`${w}: links required`);
+  for (const id of p.links ?? []) {
+    if (!ref.itemIds.has(id) && !ref.trees.has(id) && !ref.pathwayIds.has(id) && !ref.careerIds.has(id)) e.push(`${w}: unknown link ${id}`);
+    if (ref.healthOnly.has(id)) e.push(`${w}: health lessons use diagrams, not photos (${id})`);
+  }
+  if (!Array.isArray(p.areas) || !p.areas.length || p.areas.some((a) => !(AREA_IDS as readonly string[]).includes(a))) e.push(`${w}: areas invalid`);
+  return e;
+}
+
+export function validateBook(b: Book): string[] {
+  const e: string[] = [];
+  const w = `book ${b.id}`;
+  if (!ID_RE.test(b.id ?? '')) e.push(`${w}: id must be kebab-case`);
+  for (const k of ['title', 'author', 'genre', 'why'] as const) if (!isNonEmptyString(b[k])) e.push(`${w}: ${k} required`);
+  if (!Number.isInteger(b.year) || b.year < 1 || b.year > 2026) e.push(`${w}: year invalid`);
+  if (!(AGE_BANDS as readonly string[]).includes(b.band)) e.push(`${w}: age band required`);
+  if (b.type !== 'fiction' && b.type !== 'non-fiction') e.push(`${w}: type must be fiction or non-fiction`);
+  if (b.verify?.source !== 'openlibrary' || !/^\/works\/OL\d+W$/.test(b.verify?.workKey ?? '')) e.push(`${w}: verification key (Open Library work key) required`);
+  if (!Array.isArray(b.areas) || !b.areas.length || b.areas.some((a) => !(AREA_IDS as readonly string[]).includes(a))) e.push(`${w}: areas invalid`);
+  if (!Array.isArray(b.interests)) e.push(`${w}: interests required`);
+  if (b.freeRead) {
+    if (!/^https:\/\/(www\.gutenberg\.org|standardebooks\.org|storyweaver\.org\.in)\//.test(b.freeRead.url)) e.push(`${w}: freeRead must be Project Gutenberg, Standard Ebooks or StoryWeaver`);
+    if (!isNonEmptyString(b.freeRead.licence)) e.push(`${w}: freeRead licence required`);
+  }
+  return e;
 }
 
 const isMain = process.argv[1] && /validate-content\.ts$/.test(process.argv[1]);

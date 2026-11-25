@@ -116,6 +116,8 @@ export interface FamilySettings {
   uiLanguage: string;
   /** AI tutor seam: OFF and hidden (owner decision 5). */
   aiTutor: false;
+  /** Reading list choices (D-053): a parent can hide a book or mark it approved. */
+  bookPrefs?: Record<string, 'hidden' | 'approved'>;
 }
 
 export interface Family {
@@ -168,6 +170,8 @@ export interface ProgressEvent {
   retry?: boolean;
   /** Done together with others (cooperation). */
   groupId?: string;
+  /** A book from the reading list (type 'book'); text keeps the title for the passport. */
+  bookId?: string;
 }
 
 export interface Group {
