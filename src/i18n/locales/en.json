@@ -819,5 +819,7 @@
   "live.voted": "{n} votes",
   "live.questions": "Questions from students ({n})",
   "live.end": "End the live class",
-  "live.error": "Live class problem ({code}). Check the internet and try again."
+  "live.error": "Live class problem ({code}). Check the internet and try again.",
+  "privacy.live.title": "Live classes, photos and books",
+  "privacy.live.body": "In a live class, students join with a code and have no name or account: their device gets a random number so it votes once. Polls and questions are deleted after 12 hours or when the teacher ends the class. The photos in lessons are stored on our own server, so showing them never contacts another website. Book links to free reading sites open only when you tap them."
 }

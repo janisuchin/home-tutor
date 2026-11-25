@@ -3,7 +3,7 @@ import { Linking } from 'react-native';
 import { Button, Card, Screen, Section, Txt } from '../ui/kit';
 import { useT } from '../i18n';
 
-const SECTIONS = ['short', 'collect', 'notCollect', 'device', 'cloud', 'children', 'key', 'rights', 'security', 'laws', 'contact'];
+const SECTIONS = ['short', 'collect', 'notCollect', 'device', 'cloud', 'children', 'key', 'live', 'rights', 'security', 'laws', 'contact'];
 /** Public contact point (owner decision, round 2). Never a personal email. */
 export const CONTACT_URL = 'https://github.com/janisuchin/home-tutor/issues';
 
