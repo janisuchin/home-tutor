@@ -7,6 +7,7 @@ import { randomCode, randomId } from '../../src/core/crypto';
 import { DEFAULT_ITERATIONS, emailHash, hashPassword, newToken, pbkdf2, safeEqual, secretHash, tokenHash } from './auth';
 import { aiTutorStub } from './ai-tutor';
 import { acceptInvite, createInvite, deleteTutorLinks, exportTutorLinks, listTutors, removeTutor, tutorLinks, tutorSync, updateTutor } from './tutors';
+import { deletePasskey, deletePasskeyStmts, listPasskeys, loginOptions, loginVerify, registerOptions, registerVerify } from './passkeys';
 import { clientIp, err, HttpError, json, rateLimit, readJson, type D1Stmt, type Env } from './http';
 
 export type { D1Like, D1Stmt, Env } from './http';
@@ -245,6 +246,7 @@ async function exportAll(env: Env, accountId: string) {
     progressKeys: keys.results,
     passportSnapshots: snaps.results.map((s) => ({ ...s, data: JSON.parse(s.data) })),
     tutors: await exportTutorLinks(env, accountId),
+    passkeys: (await env.DB.prepare('SELECT id, label, created_at, last_used_at FROM passkeys WHERE account_id = ?').bind(accountId).all<any>()).results,
   });
 }
 
@@ -255,6 +257,7 @@ async function deleteAccount(env: Env, accountId: string) {
     env.DB.prepare('DELETE FROM passport_snapshots WHERE account_id = ?').bind(accountId),
     env.DB.prepare('DELETE FROM sessions WHERE account_id = ?').bind(accountId),
     ...deleteTutorLinks(env, accountId),
+    ...deletePasskeyStmts(env, accountId),
     env.DB.prepare('DELETE FROM accounts WHERE id = ?').bind(accountId),
   ]);
   return json({ ok: true });
@@ -275,6 +278,11 @@ export async function handleApi(req: Request, env: Env): Promise<Response> {
     if (path === '/auth/login' && m === 'POST') return await login(req, env);
     if (path === '/auth/recover' && m === 'POST') return await recover(req, env);
     if (path === '/auth/logout' && m === 'POST') return await logout(req, env);
+    if (path === '/auth/passkey/options' && m === 'POST') return await loginOptions(req, env);
+    if (path === '/auth/passkey/verify' && m === 'POST') {
+      const id = await loginVerify(req, env);
+      return json({ token: await createSession(env, id), accountId: id });
+    }
     const passport = path.match(/^\/passport\/([A-Za-z0-9-]{8,40})$/);
     if (passport && m === 'GET') return await readPassport(req, env, passport[1]);
     if (path === '/ai-tutor' && m === 'POST') return aiTutorStub(env);
@@ -288,6 +296,12 @@ export async function handleApi(req: Request, env: Env): Promise<Response> {
     if (snap && m === 'PUT') return await putSnapshot(req, env, accountId, snap[1]);
     if (path === '/account/export' && m === 'GET') return await exportAll(env, accountId);
     if (path === '/account' && m === 'DELETE') return await deleteAccount(env, accountId);
+    // Passkeys (optional extra sign-in).
+    if (path === '/passkeys/register/options' && m === 'POST') return await registerOptions(req, env, accountId);
+    if (path === '/passkeys/register/verify' && m === 'POST') return await registerVerify(req, env, accountId);
+    if (path === '/passkeys' && m === 'GET') return await listPasskeys(env, accountId);
+    const pk = path.match(/^\/passkeys\/([A-Za-z0-9_-]{1,1024})$/);
+    if (pk && m === 'DELETE') return await deletePasskey(env, accountId, pk[1]);
     // Tutor accounts: parent side (/tutors) and tutor side (/tutor).
     if (path === '/tutors' && m === 'POST') return await createInvite(req, env, accountId);
     if (path === '/tutors' && m === 'GET') return await listTutors(env, accountId);

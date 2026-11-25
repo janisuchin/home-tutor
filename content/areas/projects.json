@@ -1652,6 +1652,244 @@
         "english",
         "careers"
       ]
+    },
+    {
+      "id": "prj-cardboard-box-house",
+      "kind": "project",
+      "area": "projects",
+      "subject": "family project",
+      "title": "Cardboard box house",
+      "emoji": "🏠",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Turn a big box into a little house. Who will live in it?",
+      "steps": [
+        "📦 Find a box with a grown-up.",
+        "✏️ Show where the door and window go. The grown-up cuts them.",
+        "🖍️ Draw bricks, flowers and a roof.",
+        "🧸 Put a toy inside. It is home!",
+        "🗣️ Show your family your house."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "sharp scissors or knives",
+          "staples in boxes",
+          "paper cuts"
+        ],
+        "notes": "An adult does all the cutting before or between sessions and removes staples. The child only draws, sticks and plays."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "a cardboard box",
+            "crayons"
+          ],
+          "description": "A small box house for a toy."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "a big box",
+            "paint",
+            "glue",
+            "scrap paper"
+          ],
+          "description": "A big box the child can sit inside, with a paper roof."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "several boxes",
+            "tape",
+            "fabric scraps"
+          ],
+          "description": "Join boxes into a street with curtains and a door that opens."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "paint",
+          "use": "crayons, chalk or coloured paper"
+        },
+        {
+          "instead": "a big box",
+          "use": "a sheet over two chairs as a den"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "plan"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        }
+      ],
+      "interests": [
+        "building"
+      ],
+      "languageHooks": [
+        "shapes",
+        "colours",
+        "family"
+      ],
+      "connects": [
+        "art",
+        "design"
+      ],
+      "check": [
+        {
+          "question": "Who does the cutting?",
+          "options": [
+            "🧑 A grown-up",
+            "🧒 Me"
+          ],
+          "answer": 0,
+          "explain": "Yes! Grown-ups use the scissors. You do the drawing."
+        },
+        {
+          "question": "A house has a...",
+          "options": [
+            "🚪 Door",
+            "🐟 Fin"
+          ],
+          "answer": 0,
+          "explain": "Yes! Houses have doors and windows."
+        }
+      ],
+      "adultNote": "Let the child decide where things go, even if it looks odd. Spread it over a few short sessions. Photograph or draw the finished house to remember it."
+    },
+    {
+      "id": "prj-picture-diary-week",
+      "kind": "project",
+      "area": "projects",
+      "subject": "family project",
+      "title": "My picture diary",
+      "emoji": "📔",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Draw one picture every day for a week. At the end, you have a story of your week!",
+      "steps": [
+        "📄 Fold paper to make a little book.",
+        "🌙 Before bed, think: what did I do today?",
+        "🖍️ Draw one picture of it.",
+        "🗣️ Tell a grown-up about it. They write your words.",
+        "📖 After seven days, read your diary together!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "crayons can be a choking risk for babies"
+        ],
+        "notes": "Keep small crayon pieces away from babies. Nothing else is needed."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "scrap paper",
+            "a pencil or crayon"
+          ],
+          "description": "Loose pages kept together in a pile."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "paper folded into a book",
+            "crayons",
+            "string"
+          ],
+          "description": "A folded book tied with string."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "a notebook",
+            "stickers",
+            "glue"
+          ],
+          "description": "Stick in a leaf, ticket or wrapper from the day."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a notebook",
+          "use": "folded scrap paper or the back of old envelopes"
+        },
+        {
+          "instead": "crayons",
+          "use": "a pencil or a stick of charcoal"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "plan"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "reflect"
+        }
+      ],
+      "interests": [
+        "drawing",
+        "stories"
+      ],
+      "languageHooks": [
+        "time",
+        "numbers",
+        "feelings"
+      ],
+      "connects": [
+        "art",
+        "literacy"
+      ],
+      "check": [
+        {
+          "question": "How many days in a week?",
+          "options": [
+            "7️⃣ Seven",
+            "2️⃣ Two"
+          ],
+          "answer": 0,
+          "explain": "Yes! A week has seven days."
+        },
+        {
+          "question": "In a diary you draw...",
+          "options": [
+            "🌞 What you did today",
+            "🦖 Only dinosaurs"
+          ],
+          "answer": 0,
+          "explain": "Yes! A diary shows your own days."
+        }
+      ],
+      "adultNote": "Write the child's words exactly as they say them. Name the days of the week as you go. Missed a day? Just carry on."
     }
   ]
 }

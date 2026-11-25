@@ -1519,6 +1519,237 @@
           "explain": "Selecting shows judgement."
         }
       ]
+    },
+    {
+      "id": "art-sock-puppet",
+      "kind": "activity",
+      "area": "arts-creativity",
+      "subject": "puppets",
+      "title": "Sock puppet friend",
+      "emoji": "🧦",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Turn an old sock into a puppet friend. Make it talk and sing!",
+      "steps": [
+        "🧦 Find an old, clean sock.",
+        "✋ Put your hand inside.",
+        "👀 Draw or stick on eyes and a mouth.",
+        "🗣️ Give your puppet a name.",
+        "🎭 Make your puppet say hello!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "buttons and googly eyes are a choking risk",
+          "glue"
+        ],
+        "notes": "Use paper eyes or drawn eyes, not buttons, for under-fives. Use child-safe glue and wash hands afterwards."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "an old sock",
+            "a marker or paper eyes"
+          ],
+          "description": "Draw a face on a sock."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "sock",
+            "glue",
+            "paper",
+            "wool scraps"
+          ],
+          "description": "Add paper ears and wool hair."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "several socks",
+            "a cardboard box theatre"
+          ],
+          "description": "Make a puppet family and a box theatre for a show."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a sock",
+          "use": "a paper bag or a glove"
+        },
+        {
+          "instead": "glue",
+          "use": "a little flour-and-water paste or tape"
+        }
+      ],
+      "competencies": [
+        "art-make-crafts",
+        "art-tell-a-story"
+      ],
+      "skills": [
+        {
+          "tree": "art-design-craft",
+          "node": "make"
+        },
+        {
+          "tree": "art-story-drama",
+          "node": "characters"
+        }
+      ],
+      "interests": [
+        "stories",
+        "art"
+      ],
+      "languageHooks": [
+        "greetings",
+        "body",
+        "feelings"
+      ],
+      "connects": [
+        "literacy",
+        "drama"
+      ],
+      "check": [
+        {
+          "question": "Your puppet needs eyes. Use...",
+          "options": [
+            "📄 Paper eyes",
+            "🔘 Tiny buttons"
+          ],
+          "answer": 0,
+          "explain": "Yes! Paper eyes are safe and fun."
+        },
+        {
+          "question": "How is your puppet feeling?",
+          "options": [
+            "😊 Happy",
+            "😢 Sad",
+            "😮 Surprised"
+          ],
+          "answer": 0,
+          "explain": "Any answer is right! Puppets can have every feeling."
+        }
+      ],
+      "adultNote": "Talk to the puppet, not the child: shy children often answer through a puppet. Use puppets later to talk about feelings or new situations."
+    },
+    {
+      "id": "art-leaf-rubbing",
+      "kind": "activity",
+      "area": "arts-creativity",
+      "subject": "drawing",
+      "title": "Leaf rubbing magic",
+      "emoji": "🍂",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Put a leaf under paper. Rub with a crayon. Watch the leaf appear!",
+      "steps": [
+        "🍂 Pick up a fallen leaf with a grown-up.",
+        "📄 Put the leaf under a sheet of paper.",
+        "🖍️ Rub the side of a crayon over it.",
+        "✨ Look! The lines of the leaf appear.",
+        "🌈 Try another leaf and another colour."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "unknown plants can sting or irritate skin",
+          "dirt and germs"
+        ],
+        "notes": "Collect only fallen leaves an adult says are safe. Do not pick living plants or put leaves in mouths. Wash hands afterwards."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "fallen leaves",
+            "paper",
+            "a crayon"
+          ],
+          "description": "One leaf rubbing."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "leaves",
+            "crayons with the paper peeled off"
+          ],
+          "description": "Many leaves and colours on one page."
+        },
+        "advanced": {
+          "cost": "Low cost",
+          "materials": [
+            "leaves",
+            "crayons",
+            "coins",
+            "textured mats"
+          ],
+          "description": "Rub other bumpy things too and guess what made each pattern."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "leaves",
+          "use": "a coin, a comb, a bumpy mat or a flat key"
+        },
+        {
+          "instead": "crayons",
+          "use": "a soft pencil on its side or charcoal"
+        }
+      ],
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "art-drawing",
+          "node": "marks"
+        },
+        {
+          "tree": "art-drawing",
+          "node": "observation"
+        }
+      ],
+      "interests": [
+        "drawing",
+        "nature",
+        "plants"
+      ],
+      "languageHooks": [
+        "nature",
+        "colours",
+        "shapes"
+      ],
+      "connects": [
+        "science"
+      ],
+      "check": [
+        {
+          "question": "Which leaves can we use?",
+          "options": [
+            "🍂 Fallen leaves",
+            "🌳 Pulled off a tree"
+          ],
+          "answer": 0,
+          "explain": "Yes! Fallen leaves are free, and the tree keeps growing."
+        },
+        {
+          "question": "Rub with the...",
+          "options": [
+            "🖍️ Side of the crayon",
+            "🦶 Your foot"
+          ],
+          "answer": 0,
+          "explain": "Yes! The side of the crayon shows the lines best."
+        }
+      ],
+      "adultNote": "Peel the paper off old crayons and use them on their side. Hold the paper still for small hands. Name the shapes and lines you see together."
     }
   ]
 }

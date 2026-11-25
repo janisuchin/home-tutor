@@ -974,6 +974,234 @@
         "civics",
         "careers"
       ]
+    },
+    {
+      "id": "fin-sort-the-coins",
+      "kind": "activity",
+      "area": "financial-literacy",
+      "subject": "counting money",
+      "title": "Sort the coins",
+      "emoji": "🪙",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Coins come in different sizes and colours. Let us sort them into little piles!",
+      "steps": [
+        "🧑‍🤝‍🧑 Sit at the table with a grown-up.",
+        "🪙 Your grown-up puts a few coins on a plate.",
+        "👀 Look: big or small? Gold or silver?",
+        "🥣 Put the same coins together in a pile.",
+        "🔢 Count each pile with your grown-up. Then the coins go back in the purse!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "coins are a choking risk for small children",
+          "coins are dirty"
+        ],
+        "notes": "An adult sits with the child for the whole activity, uses only a few coins, counts them all back in at the end, and keeps them away from babies and toddlers. Coins never go in mouths. Wash hands afterwards."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "a few real coins",
+            "a plate"
+          ],
+          "description": "Sort a handful of coins by size and colour with an adult."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "coins",
+            "cups or a muffin tray"
+          ],
+          "description": "Give each kind of coin its own cup."
+        },
+        "advanced": {
+          "cost": "Low cost",
+          "materials": [
+            "coins",
+            "paper",
+            "crayon"
+          ],
+          "description": "Rub a crayon over paper on a coin to see its picture, then match it."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "real coins",
+          "use": "big paper circles drawn as coins, or large bottle tops (still with an adult nearby)"
+        },
+        {
+          "instead": "cups or a muffin tray",
+          "use": "circles drawn on paper"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Choking",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/choking/"
+        },
+        {
+          "title": "Home safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/home-safety"
+        }
+      ],
+      "competencies": [
+        "fin-count-money"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "coins"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "numbers",
+        "colours",
+        "shapes"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Where do coins go?",
+          "options": [
+            "👛 In a purse",
+            "👄 In my mouth"
+          ],
+          "answer": 0,
+          "explain": "Yes! Coins stay out of mouths and go back in the purse."
+        },
+        {
+          "question": "Which pile has more? 🪙🪙🪙 or 🪙",
+          "options": [
+            "🪙🪙🪙",
+            "🪙"
+          ],
+          "answer": 0,
+          "explain": "Yes! Three is more than one."
+        }
+      ],
+      "adultNote": "Use your local coins so the child learns what they look like. Name each coin as you sort. Count every coin back in before you finish."
+    },
+    {
+      "id": "fin-first-saving-jar",
+      "kind": "activity",
+      "area": "financial-literacy",
+      "subject": "saving",
+      "title": "My first saving jar",
+      "emoji": "🫙",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Saving means keeping a little and waiting. Watch your jar fill up with stars!",
+      "steps": [
+        "🫙 Find a plastic jar or a box.",
+        "🖍️ Draw something you would like on a paper. Stick it on the jar.",
+        "⭐ When you help or wait well, put a paper star in the jar.",
+        "🔢 Count the stars with a grown-up.",
+        "🎉 Five stars? You saved enough for a treat, like an extra story!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "glass jars can break",
+          "small objects are a choking risk"
+        ],
+        "notes": "Use a plastic jar or a box and big paper stars, not real coins or buttons, for under-fives."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "a box",
+            "paper",
+            "crayons"
+          ],
+          "description": "A box with paper stars inside."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "a clear plastic jar",
+            "paper stars"
+          ],
+          "description": "A see-through jar so the child can watch it fill."
+        },
+        "advanced": {
+          "cost": "Low cost",
+          "materials": [
+            "plastic jar",
+            "stickers",
+            "a picture chart"
+          ],
+          "description": "Add a chart with five boxes to colour in as the stars grow."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "paper stars",
+          "use": "pegs, big leaves or paper strips"
+        },
+        {
+          "instead": "plastic jar",
+          "use": "an old box, bag or sock"
+        }
+      ],
+      "competencies": [
+        "fin-reach-saving-goal"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "saving"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "numbers",
+        "time"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Saving means...",
+          "options": [
+            "⏳ Keep it and wait",
+            "🗑️ Throw it away"
+          ],
+          "answer": 0,
+          "explain": "Yes! Saving is keeping something for later."
+        },
+        {
+          "question": "More stars in the jar means...",
+          "options": [
+            "🎉 Closer to my treat",
+            "😢 Further away"
+          ],
+          "answer": 0,
+          "explain": "Yes! Every star gets you closer."
+        }
+      ],
+      "adultNote": "This is a first taste of saving and waiting. Keep the goal small and close (a few days). Real coins can come later, from about age 6."
     }
   ]
 }

@@ -957,6 +957,139 @@
           "explain": "Yes. Match your confidence to the evidence."
         }
       ]
+    },
+    {
+      "id": "phil-is-it-kind",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "kindness",
+      "title": "Is it kind?",
+      "emoji": "💛",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Let us think: what makes something kind? Say why!",
+      "steps": [
+        "🧸 Sharing a toy. Kind? 👍 or 👎",
+        "😢 A friend falls down. You help them up. Kind?",
+        "🙊 Saying a mean word. Kind?",
+        "🤔 Say why: \"It is kind because...\"",
+        "💛 Think of one kind thing you can do today."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-give-reasons"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "fairness"
+        },
+        {
+          "tree": "phil-thinking",
+          "node": "reasons"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "languageHooks": [
+        "feelings",
+        "family"
+      ],
+      "connects": [
+        "civics"
+      ],
+      "check": [
+        {
+          "question": "A friend is sad. What is kind?",
+          "options": [
+            "🤗 Ask \"Are you OK?\"",
+            "😝 Laugh at them"
+          ],
+          "answer": 0,
+          "explain": "Yes! Asking shows you care."
+        },
+        {
+          "question": "Sharing a toy is...",
+          "options": [
+            "👍 Kind",
+            "👎 Not kind"
+          ],
+          "answer": 0,
+          "explain": "Yes! Sharing is kind."
+        }
+      ],
+      "adultNote": "Ask \"why?\" and \"how would they feel?\" rather than giving the answer. Notice and name real kind acts during the day."
+    },
+    {
+      "id": "phil-special-days",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "celebrations",
+      "title": "How families celebrate",
+      "emoji": "🎉",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Families celebrate special days in different ways. How does yours?",
+      "steps": [
+        "🎂 Some families have a cake and sing songs.",
+        "🍲 Some families cook a special meal together.",
+        "🏮 Some families light lamps or wear new clothes.",
+        "👵 Some families visit grandparents or friends.",
+        "🖍️ Draw your family's special day. What do you like best?"
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "phil-worldviews",
+          "node": "festivals"
+        },
+        {
+          "tree": "phil-worldviews",
+          "node": "many-beliefs"
+        }
+      ],
+      "interests": [
+        "stories",
+        "cooking"
+      ],
+      "languageHooks": [
+        "family",
+        "food",
+        "feelings"
+      ],
+      "connects": [
+        "civics",
+        "art"
+      ],
+      "check": [
+        {
+          "question": "Do all families celebrate in the same way?",
+          "options": [
+            "🌍 No, in many ways",
+            "1️⃣ Yes, all the same"
+          ],
+          "answer": 0,
+          "explain": "Yes! Families celebrate in many different ways."
+        },
+        {
+          "question": "Your friend celebrates differently. You can...",
+          "options": [
+            "🙂 Ask about it kindly",
+            "😝 Say it is wrong"
+          ],
+          "answer": 0,
+          "explain": "Yes! Asking kindly helps us learn about each other."
+        }
+      ],
+      "adultNote": "Keep it descriptive and neutral: \"some families...\". Include birthdays and family days, and families who do not mark religious festivals. No family way is better than another."
     }
   ]
 }

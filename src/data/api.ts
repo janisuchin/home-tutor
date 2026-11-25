@@ -89,6 +89,14 @@ export const api = {
   publishPassport: (token: string, childId: string, snapshot: PassportSnapshot) =>
     call<{ ok: true }>(`/passport-snapshot/${childId}`, { method: 'PUT', token, body: JSON.stringify(snapshot) }),
   readPassport: (code: string) => call<{ snapshot: PassportSnapshot; expiresAt?: number }>(`/passport/${encodeURIComponent(code)}`),
+  // Passkeys (optional extra sign-in; WebAuthn JSON passes through untouched).
+  passkeyRegisterOptions: (token: string) => call<{ challengeId: string; options: any }>('/passkeys/register/options', { method: 'POST', token, body: '{}' }),
+  passkeyRegisterVerify: (token: string, challengeId: string, response: unknown, label: string) =>
+    call<{ id: string }>('/passkeys/register/verify', { method: 'POST', token, body: JSON.stringify({ challengeId, response, label }) }),
+  listPasskeys: (token: string) => call<{ passkeys: { id: string; label: string; createdAt: number; lastUsedAt?: number }[] }>('/passkeys', { token }),
+  deletePasskey: (token: string, id: string) => call<{ ok: true }>(`/passkeys/${id}`, { method: 'DELETE', token }),
+  passkeyLoginOptions: () => call<{ challengeId: string; options: any }>('/auth/passkey/options', { method: 'POST', body: '{}' }),
+  passkeyLoginVerify: (challengeId: string, response: unknown) => call<AuthResult>('/auth/passkey/verify', { method: 'POST', body: JSON.stringify({ challengeId, response }) }),
   // Tutor accounts: the parent side.
   inviteTutor: (token: string, childIds: string[], label: string, familyLabel: string) =>
     call<{ id: string; code: string; expiresAt: number }>('/tutors', { method: 'POST', token, body: JSON.stringify({ childIds, label, familyLabel }) }),

@@ -1060,6 +1060,177 @@
           "explain": "Citing gives credit and lets readers check."
         }
       ]
+    },
+    {
+      "id": "il-i-can-ask",
+      "kind": "lesson",
+      "area": "independent-learning",
+      "subject": "asking questions",
+      "title": "I can ask a question",
+      "emoji": "🙋",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "When you do not know, you can ask! Asking is how we learn.",
+      "steps": [
+        "🤔 Think of something you want to know.",
+        "🙋 Put up your hand or say \"Can I ask a question?\"",
+        "❓ Start with a question word: who, what, where, why?",
+        "👂 Listen to the answer.",
+        "😊 Say \"thank you!\""
+      ],
+      "practical": false,
+      "competencies": [
+        "il-ask-good-questions"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "question-words"
+        },
+        {
+          "tree": "il-learning",
+          "node": "curiosity"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "languageHooks": [
+        "greetings",
+        "family"
+      ],
+      "check": [
+        {
+          "question": "You do not know something. What can you do?",
+          "options": [
+            "🙋 Ask a question",
+            "🙈 Hide"
+          ],
+          "answer": 0,
+          "explain": "Yes! Asking is a great way to learn."
+        },
+        {
+          "question": "Someone answers your question. You say...",
+          "options": [
+            "😊 Thank you!",
+            "😶 Nothing"
+          ],
+          "answer": 0,
+          "explain": "Yes! Saying thank you is kind."
+        }
+      ],
+      "adultNote": "Praise the asking, not just the answer. If you do not know, say \"Let us find out together.\" Try to answer at least one question fully each day."
+    },
+    {
+      "id": "il-tidy-up-routine",
+      "kind": "activity",
+      "area": "independent-learning",
+      "subject": "routines",
+      "title": "My tidy-up routine",
+      "emoji": "🧺",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Play is finished? Let us tidy up, one step at a time!",
+      "steps": [
+        "🎵 Sing a tidy-up song.",
+        "🧸 Put the soft toys in the basket.",
+        "🧱 Put the blocks in their box.",
+        "📚 Put the books on the shelf.",
+        "👍 Look around. All tidy? Well done!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "tripping on toys",
+          "heavy boxes"
+        ],
+        "notes": "Children carry only small, light things. Adults lift heavy boxes and put things on high shelves."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "a box or basket"
+          ],
+          "description": "One box for all the toys."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "several boxes",
+            "paper",
+            "crayons"
+          ],
+          "description": "Draw a picture on each box so the child knows what goes where."
+        },
+        "advanced": {
+          "cost": "Low cost",
+          "materials": [
+            "boxes",
+            "a picture chart"
+          ],
+          "description": "A picture chart of the tidy-up steps to follow alone."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "toy boxes",
+          "use": "cardboard boxes, bags or a sheet laid on the floor"
+        },
+        {
+          "instead": "a tidy-up song",
+          "use": "count to twenty together"
+        }
+      ],
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "il-learning",
+          "node": "planning"
+        },
+        {
+          "tree": "il-learning",
+          "node": "practice"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "languageHooks": [
+        "numbers",
+        "colours"
+      ],
+      "connects": [
+        "life skills"
+      ],
+      "check": [
+        {
+          "question": "Where do the books go?",
+          "options": [
+            "📚 On the shelf",
+            "🛁 In the bath"
+          ],
+          "answer": 0,
+          "explain": "Yes! Books live on the shelf."
+        },
+        {
+          "question": "Play is finished. What comes next?",
+          "options": [
+            "🧺 Tidy up",
+            "🙈 Run away"
+          ],
+          "answer": 0,
+          "explain": "Yes! Tidy up, then the toys are ready for next time."
+        }
+      ],
+      "adultNote": "Keep the same order each day so it becomes a habit. Tidy alongside the child at first, then step back. A picture on each box helps children work alone."
     }
   ]
 }

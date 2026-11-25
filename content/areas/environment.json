@@ -1157,6 +1157,225 @@
         "civics",
         "technology"
       ]
+    },
+    {
+      "id": "env-turn-off-the-tap",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "saving water",
+      "title": "Turn off the tap",
+      "emoji": "🚰",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Water is precious. Turn off the tap when you are not using it!",
+      "steps": [
+        "💧 Wet your toothbrush or your hands.",
+        "🚰 Turn the tap off.",
+        "🪥 Brush your teeth or soap your hands.",
+        "🚰 Turn the tap on to rinse, then off again.",
+        "🌍 Well done, water saver!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "hot water can burn",
+          "wet floors are slippery",
+          "climbing to reach the sink"
+        ],
+        "notes": "Use the cold tap only. Use a sturdy step if needed, with an adult nearby. Wipe up splashes."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "a tap",
+            "a toothbrush"
+          ],
+          "description": "Turn the tap off while brushing."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "a cup"
+          ],
+          "description": "Use a cup of water to rinse your mouth instead of running water."
+        },
+        "advanced": {
+          "cost": "Low cost",
+          "materials": [
+            "paper",
+            "crayons",
+            "a sticker chart"
+          ],
+          "description": "A water saver chart by the sink for a week."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a tap",
+          "use": "a jug or bucket of water: pour only what you need"
+        },
+        {
+          "instead": "a sticker chart",
+          "use": "draw a drop on paper each day you remember"
+        }
+      ],
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "reduce-reuse-recycle"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "languageHooks": [
+        "body",
+        "nature"
+      ],
+      "connects": [
+        "health",
+        "science"
+      ],
+      "check": [
+        {
+          "question": "Brushing teeth. The tap should be...",
+          "options": [
+            "🚫💧 Off",
+            "💦 On all the time"
+          ],
+          "answer": 0,
+          "explain": "Yes! Turn it off and save water."
+        },
+        {
+          "question": "Who needs water?",
+          "options": [
+            "🌍 Everyone: people, plants, animals",
+            "🚫 Nobody"
+          ],
+          "answer": 0,
+          "explain": "Yes! Every living thing needs water."
+        }
+      ],
+      "adultNote": "Do it together at the same times every day. If your water comes from a well, tank or tap outside, show how to pour only what is needed."
+    },
+    {
+      "id": "env-water-a-plant",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "plants",
+      "title": "Water a plant",
+      "emoji": "🪴",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Plants are alive. They need water to grow. You can help!",
+      "steps": [
+        "👆 Touch the soil. Is it dry?",
+        "🥤 Fill a small cup with water.",
+        "💧 Pour it slowly onto the soil, not the leaves.",
+        "👀 Look at the leaves. Are they green and happy?",
+        "📅 Check again tomorrow."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "some house plants are harmful if eaten",
+          "spilt water is slippery",
+          "soil germs"
+        ],
+        "notes": "Choose a plant an adult knows is safe. Never eat leaves or soil. Wipe spills and wash hands afterwards."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "a plant",
+            "a cup of water"
+          ],
+          "description": "Water one plant with a cup."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "a plastic bottle with small holes in the lid"
+          ],
+          "description": "A home-made watering can."
+        },
+        "advanced": {
+          "cost": "Low cost",
+          "materials": [
+            "seeds",
+            "a pot",
+            "soil"
+          ],
+          "description": "Grow your own plant from a seed and look after it."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a watering can",
+          "use": "a cup, a spoon or a bottle with holes in the lid"
+        },
+        {
+          "instead": "a house plant",
+          "use": "a plant outside, a bean in a cup, or a carrot top in a saucer of water"
+        }
+      ],
+      "competencies": [
+        "life-grow-5-plants"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "observe"
+        },
+        {
+          "tree": "env-earth-care",
+          "node": "ecosystems"
+        }
+      ],
+      "interests": [
+        "plants",
+        "nature"
+      ],
+      "languageHooks": [
+        "nature",
+        "colours",
+        "time"
+      ],
+      "connects": [
+        "science"
+      ],
+      "check": [
+        {
+          "question": "A plant needs...",
+          "options": [
+            "💧 Water",
+            "🍭 Sweets"
+          ],
+          "answer": 0,
+          "explain": "Yes! Plants need water, light and soil."
+        },
+        {
+          "question": "Pour the water on the...",
+          "options": [
+            "🟫 Soil",
+            "🍃 Top of the leaves"
+          ],
+          "answer": 0,
+          "explain": "Yes! The roots drink from the soil."
+        }
+      ],
+      "adultNote": "Give a small cup so the plant is not drowned. Let the child feel the soil first: wet means wait. Some house plants are toxic, so choose a safe one."
     }
   ]
 }

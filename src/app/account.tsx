@@ -4,7 +4,7 @@
  * Children never have accounts: the parent account owns the child profiles.
  */
 import { confirmAsync } from '../ui/confirm';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { router } from 'expo-router';
 import { Button, Card, Choice, Field, Notice, Row, Screen, Txt, Chip } from '../ui/kit';
 import { ParentGate } from '../ui/ParentGate';
@@ -13,6 +13,7 @@ import { getState, saveFamily, setAccount, unlockParent, useAppState, wipeDevice
 import { api, ApiError } from '../data/api';
 import { syncNow } from '../data/sync';
 import { clearTutoring, syncTutoring } from '../data/tutoring';
+import { addPasskey, passkeysSupported, signInWithPasskey } from '../data/passkeys';
 import { formatCode, hashPin, randomBytes, toHex } from '../core/crypto';
 import { downloadJson } from '../ui/download';
 
@@ -134,6 +135,7 @@ function Account() {
             />
           </Row>
         </Card>
+        {passkeysSupported() ? <PasskeysCard token={account.token} /> : null}
         <Button variant="ghost" icon="🧑‍🏫" testID="account-tutoring" label={t('tutoring.title')} onPress={() => router.push('/tutoring')} />
         {family ? (
           <Card>
@@ -217,9 +219,87 @@ function Account() {
         ) : null}
         {error ? <Notice tone="danger" text={error} /> : null}
         <Button testID="account-submit" label={busy ? t('common.loading') : t(`account.${mode}`)} disabled={busy} onPress={submit} />
+        {mode === 'login' && passkeysSupported() ? (
+          <Button
+            variant="ghost"
+            icon="🔑"
+            testID="passkey-login"
+            label={t('passkey.signIn')}
+            disabled={busy}
+            onPress={async () => {
+              setError('');
+              setBusy(true);
+              try {
+                const r = await signInWithPasskey();
+                await afterAuth(r.token, r.accountId);
+              } catch (e) {
+                setError(e instanceof ApiError ? errorText(t, e) : t('passkey.cancelled'));
+              } finally {
+                setBusy(false);
+              }
+            }}
+          />
+        ) : null}
       </Card>
       <Txt variant="small">{t('account.privacyNote')}</Txt>
       <Button small variant="ghost" label={t('nav.privacy')} onPress={() => router.push('/privacy')} />
     </Screen>
+  );
+}
+
+function PasskeysCard({ token }: { token: string }) {
+  const t = useT();
+  const [list, setList] = useState<{ id: string; label: string; createdAt: number; lastUsedAt?: number }[]>([]);
+  const [label, setLabel] = useState('');
+  const [note, setNote] = useState<{ tone: 'ok' | 'danger'; text: string }>();
+  const reload = () =>
+    api
+      .listPasskeys(token)
+      .then((r) => setList(r.passkeys))
+      .catch(() => {});
+  useEffect(() => {
+    void reload();
+  }, [token]);
+  return (
+    <Card testID="passkeys">
+      <Txt variant="h3">🔑 {t('passkey.title')}</Txt>
+      <Txt variant="small">{t('passkey.body')}</Txt>
+      {list.map((p) => (
+        <Row key={p.id} wrap>
+          <Txt style={{ flex: 1 }} testID="passkey-item">
+            {p.label || t('passkey.unnamed')} · {new Date(p.createdAt).toLocaleDateString()}
+          </Txt>
+          <Button
+            small
+            variant="ghost"
+            label={t('passkey.remove')}
+            onPress={async () => {
+              if (!(await confirmAsync(t('passkey.removeConfirm')))) return;
+              await api.deletePasskey(token, p.id).catch(() => {});
+              void reload();
+            }}
+          />
+        </Row>
+      ))}
+      <Field testID="passkey-label" label={t('passkey.label')} value={label} onChangeText={setLabel} placeholder={t('passkey.labelHint')} />
+      <Button
+        small
+        icon="➕"
+        testID="add-passkey"
+        label={t('passkey.add')}
+        onPress={async () => {
+          setNote(undefined);
+          try {
+            await addPasskey(token, label.trim());
+            setLabel('');
+            setNote({ tone: 'ok', text: t('passkey.added') });
+            void reload();
+          } catch (e) {
+            setNote({ tone: 'danger', text: e instanceof ApiError ? errorText(t, e) : t('passkey.cancelled') });
+          }
+        }}
+      />
+      {note ? <Notice tone={note.tone} text={note.text} /> : null}
+    </Card>
   );
 }

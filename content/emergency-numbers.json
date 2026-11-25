@@ -179,16 +179,16 @@
     "countryCode": "IE",
     "country": "Ireland",
     "general": "112",
+    "police": "999",
+    "ambulance": "999",
+    "fire": "999",
     "source": {
       "title": "112 - the European emergency number",
       "publisher": "European Commission",
       "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
     },
     "verified": true,
-    "note": "999 and 112 both work.",
-    "police": "999",
-    "ambulance": "999",
-    "fire": "999"
+    "note": "999 and 112 both work."
   },
   {
     "countryCode": "IT",
@@ -533,12 +533,12 @@
     "ambulance": "103",
     "fire": "101",
     "source": {
-      "title": "EMERCOM of Russia",
-      "publisher": "Ministry of Emergency Situations of Russia",
-      "url": "https://en.mchs.gov.ru/"
+      "title": "Travel advice and advisories for Russia",
+      "publisher": "Government of Canada",
+      "url": "https://travel.gc.ca/destinations/russia"
     },
-    "verified": false,
-    "note": "112 from any phone; 101, 102, 103 also used."
+    "verified": true,
+    "note": "112 from any phone; 101 fire, 102 police and 103 ambulance also work."
   },
   {
     "countryCode": "BR",
@@ -568,16 +568,16 @@
   {
     "countryCode": "AR",
     "country": "Argentina",
-    "general": "911",
+    "police": "911",
     "ambulance": "107",
     "fire": "100",
     "source": {
-      "title": "Government of Argentina",
-      "publisher": "Government of Argentina",
-      "url": "https://www.argentina.gob.ar/"
+      "title": "Argentina travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/argentina/getting-help"
     },
-    "verified": false,
-    "note": "911 in many cities; 107 ambulance and 100 fire are also used. Check locally."
+    "verified": true,
+    "note": "Police: 911 or 101. 911 can also send an ambulance. Numbers can vary by province."
   },
   {
     "countryCode": "CL",
@@ -586,23 +586,24 @@
     "ambulance": "131",
     "fire": "132",
     "source": {
-      "title": "Government of Chile",
-      "publisher": "Government of Chile",
-      "url": "https://www.gob.cl/"
+      "title": "Chile travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/chile/getting-help"
     },
-    "verified": false
+    "verified": true
   },
   {
     "countryCode": "CO",
     "country": "Colombia",
     "general": "123",
+    "fire": "119",
     "source": {
-      "title": "Government of Colombia",
-      "publisher": "Government of Colombia",
-      "url": "https://www.gov.co/"
+      "title": "Colombia travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/colombia/getting-help"
     },
-    "verified": false,
-    "note": "123 is the national emergency line."
+    "verified": true,
+    "note": "123 is the national emergency line for police and ambulance; 119 for fire."
   },
   {
     "countryCode": "PE",
@@ -611,11 +612,11 @@
     "ambulance": "106",
     "fire": "116",
     "source": {
-      "title": "Government of Peru",
-      "publisher": "Government of Peru",
-      "url": "https://www.gob.pe/"
+      "title": "Peru travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/peru/getting-help"
     },
-    "verified": false,
+    "verified": true,
     "note": "Check locally; SAMU ambulance is 106."
   },
   {
@@ -624,49 +625,51 @@
     "general": "112",
     "police": "10111",
     "ambulance": "10177",
+    "fire": "10177",
     "source": {
-      "title": "South African Government",
-      "publisher": "South African Government",
-      "url": "https://www.gov.za/"
+      "title": "South Africa travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-africa/getting-help"
     },
-    "verified": false,
-    "note": "112 from mobile phones."
+    "verified": true,
+    "note": "112 from mobile phones; 10177 for ambulance and fire, 10111 for police."
   },
   {
     "countryCode": "NG",
     "country": "Nigeria",
     "general": "112",
     "source": {
-      "title": "Nigerian Communications Commission",
-      "publisher": "Nigerian Communications Commission",
-      "url": "https://www.ncc.gov.ng/"
+      "title": "Nigeria travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/nigeria/getting-help"
     },
-    "verified": false,
-    "note": "112 is the national emergency number; coverage varies."
+    "verified": true,
+    "note": "112 is the national emergency number; ambulance services are very limited."
   },
   {
     "countryCode": "KE",
     "country": "Kenya",
     "general": "999",
     "source": {
-      "title": "National Police Service Kenya",
-      "publisher": "National Police Service Kenya",
-      "url": "https://www.nationalpolice.go.ke/"
+      "title": "Kenya travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/kenya/getting-help"
     },
-    "verified": false,
-    "note": "999 and 112 are both used."
+    "verified": true,
+    "note": "999 for ambulance, fire and police."
   },
   {
     "countryCode": "GH",
     "country": "Ghana",
     "general": "112",
+    "police": "192",
     "source": {
-      "title": "Government of Ghana",
-      "publisher": "Government of Ghana",
-      "url": "https://www.ghana.gov.gh/"
+      "title": "Ghana travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/ghana/getting-help"
     },
-    "verified": false,
-    "note": "112 is the national emergency number."
+    "verified": true,
+    "note": "999 also works for ambulance, fire and police; 192 for police."
   },
   {
     "countryCode": "EG",
@@ -675,48 +678,51 @@
     "ambulance": "123",
     "fire": "180",
     "source": {
-      "title": "Egyptian Government portal",
-      "publisher": "Government of Egypt",
-      "url": "https://www.egypt.gov.eg/"
+      "title": "Egypt travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/egypt/getting-help"
     },
-    "verified": false
+    "verified": true,
+    "note": "Tourist police: 126."
   },
   {
     "countryCode": "MA",
     "country": "Morocco",
-    "police": "19",
-    "ambulance": "15",
-    "fire": "15",
+    "police": "190",
+    "ambulance": "150",
+    "fire": "150",
     "source": {
-      "title": "Government of Morocco",
-      "publisher": "Government of Morocco",
-      "url": "https://www.maroc.ma/"
+      "title": "Morocco travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/morocco/getting-help"
     },
-    "verified": false
+    "verified": true,
+    "note": "150 is for fire and ambulance. Gendarmerie (rural police): 177."
   },
   {
     "countryCode": "PK",
     "country": "Pakistan",
     "police": "15",
     "ambulance": "1122",
+    "fire": "1122",
     "source": {
-      "title": "Punjab Emergency Service (Rescue 1122)",
-      "publisher": "Government of Punjab, Pakistan",
-      "url": "https://rescue.gov.pk/"
+      "title": "Pakistan travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/pakistan/getting-help"
     },
-    "verified": false,
-    "note": "Numbers vary by province; 1122 rescue in many areas, 15 police."
+    "verified": true,
+    "note": "1122 rescue for ambulance and fire; 15 police. Services vary by province."
   },
   {
     "countryCode": "BD",
     "country": "Bangladesh",
     "general": "999",
     "source": {
-      "title": "National Emergency Service 999",
-      "publisher": "Bangladesh Police",
-      "url": "https://www.police.gov.bd/"
+      "title": "Bangladesh travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/bangladesh/getting-help"
     },
-    "verified": false,
+    "verified": true,
     "note": "999 is the national emergency service."
   },
   {
@@ -726,11 +732,12 @@
     "ambulance": "102",
     "fire": "101",
     "source": {
-      "title": "Nepal Police",
-      "publisher": "Nepal Police",
-      "url": "https://www.nepalpolice.gov.np/"
+      "title": "Nepal travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/nepal/getting-help"
     },
-    "verified": false
+    "verified": true,
+    "note": "Tourist police (English spoken): 1144."
   },
   {
     "countryCode": "LK",
@@ -739,12 +746,12 @@
     "ambulance": "1990",
     "fire": "110",
     "source": {
-      "title": "Sri Lanka Police",
-      "publisher": "Sri Lanka Police",
-      "url": "https://www.police.lk/"
+      "title": "Sri Lanka travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/sri-lanka/getting-help"
     },
     "verified": false,
-    "note": "1990 is the national ambulance service."
+    "note": "1990 is the national ambulance service. Official sources disagree on fire: UK FCDO lists 111, Canada lists 110. Police 119 or 118."
   },
   {
     "countryCode": "AE",
@@ -753,11 +760,11 @@
     "ambulance": "998",
     "fire": "997",
     "source": {
-      "title": "Emergency numbers",
-      "publisher": "UAE Government portal",
-      "url": "https://u.ae/en/information-and-services/justice-safety-and-the-law/emergency-numbers"
+      "title": "United Arab Emirates travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates/getting-help"
     },
-    "verified": false
+    "verified": true
   },
   {
     "countryCode": "SA",
@@ -767,12 +774,12 @@
     "ambulance": "997",
     "fire": "998",
     "source": {
-      "title": "Unified National Platform",
-      "publisher": "Government of Saudi Arabia",
-      "url": "https://my.gov.sa/"
+      "title": "Saudi Arabia travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia/getting-help"
     },
-    "verified": false,
-    "note": "911 is the unified number in some regions."
+    "verified": true,
+    "note": "911 is the unified number. Call 112 if you do not have a Saudi SIM card. Police 999, ambulance 997 and fire 998 are listed by the Government of Canada (travel.gc.ca/destinations/saudi-arabia)."
   },
   {
     "countryCode": "IL",
@@ -781,11 +788,12 @@
     "ambulance": "101",
     "fire": "102",
     "source": {
-      "title": "Government of Israel",
-      "publisher": "Government of Israel",
-      "url": "https://www.gov.il/en"
+      "title": "Israel travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/israel/getting-help"
     },
-    "verified": false
+    "verified": true,
+    "note": "In the West Bank and Gaza, dial 101 for an ambulance."
   },
   {
     "countryCode": "ID",
@@ -795,23 +803,23 @@
     "ambulance": "119",
     "fire": "113",
     "source": {
-      "title": "Government of Indonesia",
-      "publisher": "Government of Indonesia",
-      "url": "https://indonesia.go.id/"
+      "title": "Indonesia travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/indonesia/getting-help"
     },
     "verified": false,
-    "note": "112 in many areas; 110 police, 118 or 119 ambulance, 113 fire."
+    "note": "Not confirmed: UK FCDO lists ambulance 118, fire 112, police 110; local sources list 112 general, 113 fire, 118 or 119 ambulance. Check locally."
   },
   {
     "countryCode": "PH",
     "country": "Philippines",
     "general": "911",
     "source": {
-      "title": "Official Gazette of the Philippines",
-      "publisher": "Government of the Philippines",
-      "url": "https://www.officialgazette.gov.ph/"
+      "title": "Philippines travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/philippines/getting-help"
     },
-    "verified": false,
+    "verified": true,
     "note": "911 is the national emergency hotline."
   },
   {
@@ -831,27 +839,31 @@
   {
     "countryCode": "MY",
     "country": "Malaysia",
-    "general": "999",
+    "police": "999",
+    "ambulance": "999",
+    "fire": "994",
     "source": {
-      "title": "Government of Malaysia",
-      "publisher": "Government of Malaysia",
-      "url": "https://www.malaysia.gov.my/"
+      "title": "Malaysia travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/malaysia/getting-help"
     },
-    "verified": false,
-    "note": "112 also works from mobile phones."
+    "verified": true,
+    "note": "999 for police and ambulance, 994 for fire. 112 also works from mobile phones."
   },
   {
     "countryCode": "TH",
     "country": "Thailand",
+    "general": "191",
     "police": "191",
     "ambulance": "1669",
     "fire": "199",
     "source": {
-      "title": "Government of Thailand",
-      "publisher": "Royal Thai Government",
-      "url": "https://www.thaigov.go.th/"
+      "title": "Thailand travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/thailand/getting-help"
     },
-    "verified": false
+    "verified": true,
+    "note": "191 for police and general emergencies; 1669 ambulance, 199 fire. Tourist police: 1155."
   },
   {
     "countryCode": "VN",
@@ -860,10 +872,11 @@
     "ambulance": "115",
     "fire": "114",
     "source": {
-      "title": "Government of Vietnam",
-      "publisher": "Government of Vietnam",
-      "url": "https://www.chinhphu.vn/"
+      "title": "Vietnam travel advice: getting help",
+      "publisher": "UK Foreign, Commonwealth & Development Office",
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/getting-help"
     },
-    "verified": false
+    "verified": true,
+    "note": "Emergency lines are operated in Vietnamese only. 112 is national search and rescue."
   }
 ]

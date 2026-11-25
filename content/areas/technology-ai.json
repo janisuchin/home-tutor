@@ -1514,6 +1514,142 @@
         }
       ],
       "adultNote": "Check the minimum age and privacy terms of any AI service. The offline version: discuss real examples from news on paper."
+    },
+    {
+      "id": "tech-machines-at-home",
+      "kind": "lesson",
+      "area": "technology-ai",
+      "subject": "everyday machines",
+      "title": "Machines at home",
+      "emoji": "⚙️",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Machines help us every day. Let us find them, look, and not touch!",
+      "steps": [
+        "👀 Look around your home with a grown-up.",
+        "🧊 The fridge keeps food cold.",
+        "🧺 The washing machine cleans clothes.",
+        "🔘 Push a button, the machine does a job!",
+        "✋ Ask a grown-up before you touch any machine."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "tech-computing",
+          "node": "input-output"
+        },
+        {
+          "tree": "tech-digital-citizenship",
+          "node": "ask-first"
+        }
+      ],
+      "interests": [
+        "machines"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "tools"
+      ],
+      "connects": [
+        "science",
+        "life skills"
+      ],
+      "check": [
+        {
+          "question": "Which machine keeps food cold?",
+          "options": [
+            "🧊 Fridge",
+            "🔦 Torch"
+          ],
+          "answer": 0,
+          "explain": "Yes! The fridge keeps food cold and fresh."
+        },
+        {
+          "question": "Before you touch a machine, you...",
+          "options": [
+            "🙋 Ask a grown-up",
+            "👆 Just press it"
+          ],
+          "answer": 0,
+          "explain": "Yes! Always ask first."
+        }
+      ],
+      "adultNote": "Only look at machines on this tour. Make clear that plugs, sockets, cookers, kettles and irons are for adults only. Name what each machine \"takes in\" and \"gives out\"."
+    },
+    {
+      "id": "tech-screen-then-play",
+      "kind": "lesson",
+      "area": "technology-ai",
+      "subject": "screen time",
+      "title": "Screen time, then play time",
+      "emoji": "⏰",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Screens are fun for a little while. Then it is time to move and play!",
+      "steps": [
+        "📺 Watch or play with a grown-up for a short time.",
+        "⏰ The timer rings. Screen time is finished.",
+        "😌 Say \"bye-bye screen\" and put it away.",
+        "🤸 Now move: jump, dance or play with toys.",
+        "😴 No screens before bed. Read a book instead!"
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Physical activity",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        }
+      ],
+      "competencies": [
+        "tech-digital-balance"
+      ],
+      "skills": [
+        {
+          "tree": "tech-digital-citizenship",
+          "node": "wellbeing"
+        }
+      ],
+      "interests": [
+        "computers",
+        "games"
+      ],
+      "languageHooks": [
+        "time",
+        "body"
+      ],
+      "connects": [
+        "health",
+        "physical-education"
+      ],
+      "check": [
+        {
+          "question": "The timer rings. What do you do?",
+          "options": [
+            "👋 Bye-bye screen",
+            "😠 Keep watching"
+          ],
+          "answer": 0,
+          "explain": "Yes! Well done for stopping."
+        },
+        {
+          "question": "Before bed, it is good to...",
+          "options": [
+            "📖 Read a book",
+            "📱 Play on a screen"
+          ],
+          "answer": 0,
+          "explain": "Yes! Books help us get sleepy."
+        }
+      ],
+      "adultNote": "The World Health Organization advises that young children sit still in front of screens as little as possible and move a lot; watch together when you can. A warning (\"two more minutes\") and a set routine make stopping easier. Model it yourself."
     }
   ]
 }

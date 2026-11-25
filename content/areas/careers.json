@@ -1073,6 +1073,135 @@
         "civics-social"
       ],
       "adultNote": "Check any local rules on young people selling goods or services."
+    },
+    {
+      "id": "car-thank-a-helper",
+      "kind": "activity",
+      "area": "careers",
+      "subject": "community helpers",
+      "title": "Thank a helper",
+      "emoji": "💌",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Many people help us every day. Let us make a thank-you picture for one of them!",
+      "steps": [
+        "🤔 Think of a helper: someone who brings letters, takes the rubbish, or helps at the shop.",
+        "🖍️ Draw a picture of them doing their job.",
+        "❤️ Add a big heart or a smiley face.",
+        "🗣️ Say what they do. A grown-up writes \"thank you\".",
+        "💌 Give it to them with your grown-up."
+      ],
+      "practical": false,
+      "competencies": [
+        "car-name-jobs"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "community-helpers"
+        }
+      ],
+      "interests": [
+        "helping",
+        "drawing"
+      ],
+      "languageHooks": [
+        "greetings",
+        "colours"
+      ],
+      "connects": [
+        "civics",
+        "art"
+      ],
+      "check": [
+        {
+          "question": "Who brings letters?",
+          "options": [
+            "📮 Postal worker",
+            "👩‍🍳 Cook"
+          ],
+          "answer": 0,
+          "explain": "Yes! Postal workers bring letters and parcels."
+        },
+        {
+          "question": "When someone helps us, we say...",
+          "options": [
+            "😊 Thank you!",
+            "😶 Nothing"
+          ],
+          "answer": 0,
+          "explain": "Yes! Saying thank you makes helpers happy."
+        }
+      ],
+      "adultNote": "Choose a helper the child sees often. Show that any person can do any job. Always give the picture together; the child does not approach strangers alone."
+    },
+    {
+      "id": "car-who-made-breakfast",
+      "kind": "lesson",
+      "area": "careers",
+      "subject": "community helpers",
+      "title": "Who helped make my breakfast?",
+      "emoji": "🥣",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Lots of people help bring food to your table. Who are they?",
+      "steps": [
+        "👩‍🌾 A farmer grows the grain and the fruit.",
+        "🚚 A driver takes the food to the shop.",
+        "🛒 A shop worker puts it on the shelf.",
+        "🧑‍🍳 Someone at home makes the breakfast.",
+        "🙏 Say thank you to all of them!"
+      ],
+      "practical": false,
+      "competencies": [
+        "car-name-jobs"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "community-helpers"
+        }
+      ],
+      "interests": [
+        "farming",
+        "cooking",
+        "helping"
+      ],
+      "languageHooks": [
+        "food",
+        "fruit"
+      ],
+      "connects": [
+        "geography",
+        "civics"
+      ],
+      "check": [
+        {
+          "question": "Who grows food?",
+          "options": [
+            "👩‍🌾 A farmer",
+            "✈️ A pilot"
+          ],
+          "answer": 0,
+          "explain": "Yes! Farmers grow food for all of us."
+        },
+        {
+          "question": "Who takes food to the shop?",
+          "options": [
+            "🚚 A driver",
+            "🦷 A dentist"
+          ],
+          "answer": 0,
+          "explain": "Yes! Drivers bring food from farms to shops."
+        }
+      ],
+      "adultNote": "Use whatever your family eats. Show that farmers, drivers and cooks can be anyone. Point out the journey next time you shop together."
     }
   ]
 }

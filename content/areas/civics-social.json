@@ -1210,6 +1210,180 @@
         "environment",
         "financial-literacy"
       ]
+    },
+    {
+      "id": "civ-helping-at-home",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "responsibilities",
+      "title": "I help at home",
+      "emoji": "🏡",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Everyone in a family can help. Pick a little job you can do!",
+      "steps": [
+        "🧦 Match the socks into pairs.",
+        "🥄 Put spoons on the table for dinner.",
+        "🧺 Put your clothes in the wash basket.",
+        "🌱 Help water a plant.",
+        "🤝 Ask \"Can I help?\" Helping makes the family a team!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "sharp knives",
+          "breakable plates and glasses",
+          "spilt water can be slippery"
+        ],
+        "notes": "Give children unbreakable things only: spoons, plastic cups, socks. Adults handle knives, glass and hot food. Mop spills straight away."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "socks",
+            "spoons"
+          ],
+          "description": "One small job each day."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "paper",
+            "crayons"
+          ],
+          "description": "A picture chart of the child's jobs to tick off."
+        },
+        "advanced": {
+          "cost": "Low cost",
+          "materials": [
+            "a child-sized broom or cloth",
+            "stickers"
+          ],
+          "description": "A weekly helper chart with a new job to learn."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a helper chart",
+          "use": "one sticker or a drawn smiley face on the wall"
+        },
+        {
+          "instead": "a child-sized broom",
+          "use": "a small cloth or dustpan brush"
+        }
+      ],
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "rights-responsibilities"
+        },
+        {
+          "tree": "civ-social-skills",
+          "node": "kindness-cooperation"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "languageHooks": [
+        "family",
+        "kitchen",
+        "numbers"
+      ],
+      "connects": [
+        "life skills"
+      ],
+      "check": [
+        {
+          "question": "Which job is safe for you?",
+          "options": [
+            "🥄 Spoons on the table",
+            "🔪 Using a knife"
+          ],
+          "answer": 0,
+          "explain": "Yes! Spoons are a great job. Knives are for grown-ups."
+        },
+        {
+          "question": "In a family, who can help?",
+          "options": [
+            "👨‍👩‍👧 Everyone",
+            "🙋 Only one person"
+          ],
+          "answer": 0,
+          "explain": "Yes! Everyone can help, big and small."
+        }
+      ],
+      "adultNote": "Offer every job to every child, whatever their gender. Thank the effort, not the perfect result. Small, regular jobs build a sense of belonging."
+    },
+    {
+      "id": "civ-talking-spoon",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "communication",
+      "title": "The talking spoon",
+      "emoji": "🥄",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Whoever holds the spoon talks. Everyone else listens. Then pass it on!",
+      "steps": [
+        "🧑‍🤝‍🧑 Sit in a circle with your family.",
+        "🥄 Hold the spoon. Say one thing you liked today.",
+        "👂 Everyone else listens with quiet mouths.",
+        "➡️ Pass the spoon to the next person.",
+        "👏 Clap for good listening!"
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-take-turns",
+        "civ-active-listener"
+      ],
+      "skills": [
+        {
+          "tree": "civ-social-skills",
+          "node": "communication"
+        }
+      ],
+      "interests": [
+        "helping",
+        "games"
+      ],
+      "languageHooks": [
+        "family",
+        "feelings"
+      ],
+      "connects": [
+        "literacy"
+      ],
+      "check": [
+        {
+          "question": "Someone else has the spoon. You...",
+          "options": [
+            "👂 Listen",
+            "📢 Shout"
+          ],
+          "answer": 0,
+          "explain": "Yes! Listening is kind."
+        },
+        {
+          "question": "When is it your turn to talk?",
+          "options": [
+            "🥄 When I hold the spoon",
+            "⏰ Any time"
+          ],
+          "answer": 0,
+          "explain": "Yes! The spoon shows whose turn it is."
+        }
+      ],
+      "adultNote": "Keep each turn short. Model good listening yourself. Any object works: a spoon, a stone or a toy. Use it at mealtimes to build the habit."
     }
   ]
 }
