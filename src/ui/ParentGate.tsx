@@ -11,9 +11,10 @@ import { useT } from '../i18n';
 import { getState, unlockParent, useAppState, useParentUnlocked } from '../data/store';
 import { hashPin } from '../core/crypto';
 
-export function ParentGate({ children, title }: { children: ReactNode; title?: string }) {
+export function ParentGate({ children, title, optional }: { children: ReactNode; title?: string; optional?: boolean }) {
   const unlocked = useParentUnlocked();
   const family = useAppState((s) => s.family);
+  if (!family && optional) return <>{children}</>;
   if (!family) {
     return (
       <Screen title={title}>

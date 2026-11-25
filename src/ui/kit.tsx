@@ -346,6 +346,7 @@ export function Chip({
       onPress={onPress}
       accessibilityRole="checkbox"
       accessibilityState={{ checked: selected }}
+      aria-checked={selected}
       accessibilityLabel={label}
       style={({ pressed }) => [
         styles.chip,
@@ -394,6 +395,7 @@ function RadioChip({ label, selected, onPress, icon, testID }: { label: string; 
       onPress={onPress}
       accessibilityRole="radio"
       accessibilityState={{ selected, checked: selected }}
+      aria-checked={selected}
       accessibilityLabel={label}
       style={({ pressed }) => [
         styles.chip,

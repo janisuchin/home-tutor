@@ -18,16 +18,13 @@ type Mode = 'signup' | 'login' | 'recover';
 
 export default function AccountScreen() {
   const t = useT();
-  const family = useAppState((s) => s.family);
-  // A family that already exists on this device must unlock with the PIN first.
-  if (family) {
-    return (
-      <ParentGate title={t('account.title')}>
-        <Account />
-      </ParentGate>
-    );
-  }
-  return <Account />;
+  // A family that already exists on this device must unlock with the PIN first. The gate is
+  // optional when there is no family yet (signing in on a new device).
+  return (
+    <ParentGate title={t('account.title')} optional>
+      <Account />
+    </ParentGate>
+  );
 }
 
 function errorText(t: (k: string, v?: any) => string, e: unknown) {

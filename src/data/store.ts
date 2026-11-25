@@ -50,6 +50,8 @@ export interface AppState {
   attendance: Record<string, Record<string, string[]>>;
   polls: Poll[];
   questions: ClassQuestion[];
+  /** Today's plan is fixed for the day once made, so finished items stay ticked. */
+  plans: Record<string, { day: string; ids: string[] }>;
 }
 
 const STORAGE_KEY = 'home-tutor:v1';
@@ -66,6 +68,7 @@ export const emptyState = (): AppState => ({
   attendance: {},
   polls: [],
   questions: [],
+  plans: {},
 });
 
 let state: AppState = emptyState();
@@ -80,11 +83,28 @@ function emit() {
   for (const l of listeners) l();
 }
 
+function persistNow() {
+  if (saveTimer) clearTimeout(saveTimer);
+  saveTimer = undefined;
+  AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(state)).catch(() => {});
+}
+
 function scheduleSave() {
   if (saveTimer) clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(state)).catch(() => {});
-  }, 250);
+  saveTimer = setTimeout(persistNow, 250);
+}
+
+// Never lose a save when the tab closes, reloads or goes to the background.
+if (typeof window !== 'undefined' && typeof window.addEventListener === 'function') {
+  const flush = () => {
+    if (saveTimer) persistNow();
+  };
+  window.addEventListener('pagehide', flush);
+  window.addEventListener('beforeunload', flush);
+  if (typeof document !== 'undefined')
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden') flush();
+    });
 }
 
 export function getState(): AppState {
@@ -220,6 +240,10 @@ export function setQuestions(questions: ClassQuestion[]) {
   update((s) => ({ ...s, questions }));
 }
 
+export function setPlan(childId: string, day: string, ids: string[]) {
+  update((s) => ({ ...s, plans: { ...s.plans, [childId]: { day, ids } } }));
+}
+
 export function trackUsage(childId: string, seconds: number) {
   update((s) => ({ ...s, usage: { ...s.usage, [childId]: addUsage(s.usage[childId], seconds) } }));
 }
@@ -231,8 +255,9 @@ export function grantExtraMinutes(childId: string, minutes: number) {
   });
 }
 
+/** Signing in (or out) queues every local record, so the first sync uploads all device data. */
 export function setAccount(account: AppState['account']) {
-  update((s) => ({ ...s, account, sync: account ? s.sync : { cursor: 0, dirty: allRecordKeys(s) } }));
+  update((s) => ({ ...s, account, sync: { ...s.sync, cursor: 0, dirty: [...new Set([...s.sync.dirty, ...allRecordKeys(s)])] } }));
 }
 
 export function setSyncInfo(info: Partial<AppState['sync']>) {
@@ -316,7 +341,8 @@ export function applyRemote(records: SyncRecord[]) {
         break;
     }
   }
-  s.events = [...s.events, ...newEvents];
+  const deleted = new Set(Object.values(s.children).filter((c) => c.deleted).map((c) => c.id));
+  s.events = [...s.events, ...newEvents].filter((e) => !deleted.has(e.childId));
   state = s;
   scheduleSave();
   emit();

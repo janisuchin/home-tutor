@@ -2,7 +2,7 @@
  * Child home (brief section 34): current mission, today's learning, skill progress, projects,
  * achievements, books, questions, interests and goals. Picture-first for ages 3-5.
  */
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Button, Card, Field, Grid, Pill, ProgressBar, Row, SafetyBadge, Screen, Section, SpeakButton, Tile, Txt, say } from '../../../ui/kit';
@@ -10,11 +10,11 @@ import { Mascot } from '../../../ui/Mascot';
 import { areaColors, colors, mascotColors, space, useTheme } from '../../../ui/theme';
 import { useT } from '../../../i18n';
 import { useCatalog, useChild, useChildEvents, useProgress } from '../../../data/hooks';
-import { addEvent, useAppState } from '../../../data/store';
-import { currentMission, todayPlan } from '../../../core/engine/recommend';
+import { addEvent, setPlan, useAppState } from '../../../data/store';
+import { currentMission, recommend, todayPlan } from '../../../core/engine/recommend';
 import { reasonText } from '../../../ui/reasons';
 import { achievements } from '../../../core/engine/insights';
-import { minutesLeft } from '../../../core/screen-time';
+import { dayKey, minutesLeft } from '../../../core/screen-time';
 import { INTERESTS } from '../../../core/countries';
 
 
@@ -31,7 +31,21 @@ export default function ChildHome() {
   const [question, setQuestion] = useState('');
   const [book, setBook] = useState('');
 
-  const plan = useMemo(() => (catalog ? todayPlan(child, family, catalog, events) : []), [catalog, child, family, events]);
+  const stored = useAppState((s) => s.plans?.[childId]);
+  const today = dayKey();
+  const plan = useMemo(() => {
+    if (!catalog) return [];
+    const fresh = () => todayPlan(child, family, catalog, events);
+    if (stored && stored.day === today) {
+      const recs = recommend(child, family, catalog, events);
+      const kept = stored.ids.map((id) => recs.find((r) => r.item.id === id)).filter((r): r is NonNullable<typeof r> => !!r);
+      if (kept.length) return kept;
+    }
+    return fresh();
+  }, [catalog, child, family, events, stored, today]);
+  useEffect(() => {
+    if (plan.length && (!stored || stored.day !== today)) setPlan(childId, today, plan.map((r) => r.item.id));
+  }, [plan, stored, today, childId]);
   const mission = useMemo(() => (catalog ? currentMission(child, family, catalog, events) : undefined), [catalog, child, family, events]);
   const badges = useMemo(() => (progress ? achievements(progress) : []), [progress]);
   const picture = th.look === 'picture';
@@ -149,12 +163,15 @@ export default function ChildHome() {
               key={b.id}
               accessible
               accessibilityLabel={`${t(b.titleKey)}${b.earned ? '' : ` (${Math.round(b.progress * 100)}%)`}`}
-              style={{ alignItems: 'center', width: 92, opacity: b.earned ? 1 : 0.45, gap: 2 }}
+              style={{ alignItems: 'center', width: 92, gap: 2 }}
             >
-              <Txt variant="title">{b.emoji}</Txt>
-              <Txt variant="small" center>
+              <View style={{ opacity: b.earned ? 1 : 0.35 }} importantForAccessibility="no-hide-descendants" accessibilityElementsHidden>
+                <Txt variant="title">{b.emoji}</Txt>
+              </View>
+              <Txt variant="small" center color={b.earned ? colors.text : colors.muted}>
                 {t(b.titleKey)}
               </Txt>
+              {!b.earned ? <ProgressBar value={b.progress} label={t(b.titleKey)} /> : null}
             </View>
           ))}
         </Row>

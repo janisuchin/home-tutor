@@ -13,3 +13,4 @@ test-results/
 .DS_Store
 public/content/
 src/content-generated/
+test-results/

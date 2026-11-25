@@ -8,7 +8,7 @@ import { api, ApiError } from './api';
 import { applyRemote, getState, onLocalChange, recordFor, setAccount, setSyncInfo } from './store';
 import type { SyncRecord } from '../core/sync/merge';
 import { buildPassport } from '../core/engine/passport';
-import { getCatalogSync } from '../content/loader';
+import { loadCatalog } from '../content/loader';
 
 let running = false;
 let timer: ReturnType<typeof setTimeout> | undefined;
@@ -43,8 +43,9 @@ export async function syncNow(): Promise<'ok' | 'offline' | 'signed-out' | 'erro
 /** Children with an active Progress Key get their passport snapshot refreshed after each sync. */
 async function publishPassports() {
   const s = getState();
-  const catalog = getCatalogSync();
-  if (!s.account || !catalog) return;
+  if (!s.account) return;
+  const catalog = await loadCatalog().catch(() => undefined);
+  if (!catalog) return;
   const now = Date.now();
   const childIds = new Set(
     Object.values(s.keys)

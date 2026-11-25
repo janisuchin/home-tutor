@@ -11,7 +11,7 @@ export type Visibility =
   | { visible: true; needsAdult: boolean; needsProfessional: boolean }
   | { visible: false; reason: 'health-off' | 'area-off' | 'age' | 'worldview' };
 
-const WORLDVIEW_SUBJECTS = ['worldviews', 'religions', 'religion', 'beliefs'];
+const WORLDVIEW_SUBJECTS = ['worldviews', 'religions', 'religion', 'beliefs', 'beliefs and practices', 'festivals'];
 
 /** Bands a child may draw from: their own band, plus one band up/down when their level allows. */
 export function allowedBands(child: Child, now = new Date()): AgeBand[] {
