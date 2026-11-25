@@ -1,0 +1,41 @@
+# Decisions
+
+This run was unattended, so every choice was made without asking. Each one is recorded here with
+its reason. The owner decisions of 2026-11-25 (name, stack, accounts, health, AI, languages,
+pictures, scale) are final and are not repeated as open questions.
+
+| # | Decision | Reason |
+|---|---|---|
+| D-001 | Expo SDK 58 (latest), Expo Router, React Native Web, TypeScript strict. Routes in `src/app`. | Owner decision 2: one codebase for web, Android and iOS. SDK 58 is the current stable release. |
+| D-002 | Web output `single` (an SPA), not static rendering. | Simplest offline PWA. Workers assets give an SPA fallback, and the service worker caches one shell. SEO is not a goal for a family app. |
+| D-003 | A tiny in-house i18n (`src/i18n`), not i18next. | It is about 1 KB against 40 KB or more. All strings are in `locales/en.json`, `isRtl()` sets the document direction, and a unit test fails on any missing key. Hindi and Gujarati are later rounds. |
+| D-004 | **One Worker** (`home-tutor`) serves both the PWA assets and `/api/*` (`run_worker_first` for `/api/*`), not two Workers. | Same origin: no CORS for the web, one deploy, one URL, fewer moving parts and lower cost. The brief's "API worker" and "web worker" are the same deployable. Splitting later is a config change. |
+| D-005 | Sign-in uses email + password with a one-time recovery key, and **the email is stored only as a hash**. | There is no email service (owner decision 3). We never need to send to the address, so storing a hash is the minimum data. The trade-off: we can never contact users. |
+| D-006 | Passwords use PBKDF2-SHA256 at 100,000 iterations. | This is the strongest setting WebCrypto allows in Workers (100k cap). Argon2 would need WASM and use more CPU per request. |
+| D-007 | The parent PIN is a salted, iterated SHA-256 hash on the device, unlocked for 15 minutes in memory. | It keeps young children out of parent and tutor areas on a shared device. It is not account security, and it works offline on every platform (pure JS SHA-256, since Hermes has no `crypto.subtle`). |
+| D-008 | Progress is an **append-only event log**; mutable records use last-writer-wins. | Offline devices then never conflict on progress (union of events), and family and child edits converge deterministically. The tests cover both cases. |
+| D-009 | Progress Key snapshots are **built on the parent's device** and uploaded after sync. | The server then never needs the content catalogue or progress logic, and the snapshot holds only what the parent's app chose to share (first name, age, capabilities). The key code is stored as a hash. |
+| D-010 | Progress Keys need a signed-in account; the printable passport works offline without one. | A key must be openable on someone else's device, which needs the cloud. Printing covers families without accounts. |
+| D-011 | Health modules are four modules: `body-basics`, `growing-up-girl`, `growing-up-boy`, `adolescent-health`. All are OFF by default, shown only within their own age bands, and never shared in group lessons. | Owner decision 4 and brief section 22 mode D (health pathways stay private). Mode B/C set-up shows a note but still leaves the switch to the parent. |
+| D-012 | Sex is asked only as "for health lessons only", with "prefer not to say". The girl module is hidden for boys and the boy module for girls; both are available for "prefer not to say". | Gender must only switch on health modules and never limit learning. A unit test checks that non-health visibility is identical for girls and boys. |
+| D-013 | Birth is stored as **year and month** only. | Minimal data (COPPA/GDPR-K). Age bands and levels need no more. |
+| D-014 | Levels 1-10 per subject start from an age default or a parent override, and rise when the child completes and passes items at or above their level. | Brief section 24: level is separate from age. It is simple, explainable and offline. |
+| D-015 | Adult confirmation is required for the stages Can demonstrate, Can apply and Can teach, and for real-world evidence. | Brief section 27 and the passport's credibility. The child can record Knows and Understands on their own. |
+| D-016 | Achievements are badges that are never lost. There are **no streaks** and no leaderboards. Daily screen-time limits are set per child, with a friendly off-screen page. | Brief section 34: avoid video-game addiction. Reward effort, curiosity, persistence, mastery, cooperation and real-world accomplishment. |
+| D-017 | Today's plan is fixed for the day once it is made. | Otherwise finished items vanish and the plan reshuffles, which is confusing for children (found in e2e). |
+| D-018 | Content is web-fetched per area and cached by the service worker. Native builds bundle all content. | Small first load on slow or expensive connections (owner decision 8). Native works with no network at all. |
+| D-019 | Content was written by five parallel helper agents against a strict schema, then validated and reviewed. | The fastest way to cover 17 areas × 5 age bands in one round. The validator enforces the safety rules, so mistakes fail the build. |
+| D-020 | Source URLs use organisation topic or home pages wherever the writer was unsure of a deep link. | A wrong deep link is worse than a stable topic page. Some links could not be fetched from the build sandbox (proxy blocks); see STATUS open questions. |
+| D-021 | Emergency numbers are marked `verified: true` only when an official source documents them (43 of 66). The others show "unverified, check locally". | The brief says to mark any number we cannot verify. |
+| D-022 | The mascot "Sprout" (a round seed-friend with a two-leaf sprout) is drawn with react-native-svg. App icons are rendered from the same SVG with Playwright. | Owner decision 7: no AI images; original art drawn in code. |
+| D-023 | Default font is the system font. The dyslexia-friendly option uses Atkinson Hyperlegible (SIL OFL) with wider letter spacing and line height, downloaded only when switched on. | A zero-cost default and a recognised legibility font. OpenDyslexic has weaker evidence, and Atkinson also helps low vision. |
+| D-024 | Read-aloud uses `expo-speech` (Web Speech API on the web). | Owner decision 7: free, on-device, offline on most devices. |
+| D-025 | The worldview setting has three modes: comparative (default), family tradition first, and not now (hides lessons with subject worldviews, beliefs and practices, or festivals; philosophy and ethics stay). | Brief section 32: the parent picks the religious or worldview approach. Teaching stays comparative and neutral. |
+| D-026 | Presentation mode is a projector context that scales type by 1.6. Lesson steps move with arrow keys, PageUp/Down or a TV remote, plus tap targets. Polls and class questions are local to the teacher's device in v1. | Mode H. Real multi-device voting needs realtime infrastructure (Durable Objects) and is deferred. |
+| D-027 | Classroom groups, assignments and attendance are local and synced records; attendance and polls are device-local in v1. | This keeps v1 simple. Attendance sync is listed as next work. |
+| D-028 | The local test server (`scripts/serve-dist.ts`) runs the **real** Worker API handler on Node's built-in SQLite through a D1-compatible shim. | The e2e tests exercise real auth, sync and keys without Cloudflare credentials. |
+| D-029 | CI runs on GitHub Actions: validate → content → typecheck → unit → build → Playwright (4 viewports + axe). | The repo is public, so the minutes are free (owner decision 8). |
+| D-030 | The D1 `database_id` in `wrangler.jsonc` is a zero placeholder. `scripts/deploy.sh` writes the real id into an untracked copy at deploy time. | Never commit account identifiers to the public repo. |
+| D-031 | No licence file. The README says all rights reserved. | Owner decision 1. |
+| D-032 | AI tutor: interface plus a 501 stub route plus a feature flag typed `false`. No UI. | Owner decision 5. |
+| D-033 | Axe rule `scrollable-region-focusable` is disabled in e2e. | RN Web scroll views are divs without tabindex. All content inside is reachable by keyboard and is checked by the other rules. Revisit when adding a custom web ScrollView. |
