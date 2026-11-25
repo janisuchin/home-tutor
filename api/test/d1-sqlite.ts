@@ -1,6 +1,6 @@
 /** A tiny D1-compatible wrapper over Node's built-in SQLite, for tests and the local server. */
 import { DatabaseSync } from 'node:sqlite';
-import { readFileSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { D1Like, D1Stmt } from '../src/index';
 
@@ -30,7 +30,9 @@ class Stmt implements D1Stmt {
 
 export function createTestDb(): D1Like {
   const db = new DatabaseSync(':memory:');
-  db.exec(readFileSync(join(__dirname, '..', 'migrations', '0001_init.sql'), 'utf8'));
+  // Apply every migration in order, exactly as `wrangler d1 migrations apply` does.
+  const dir = join(__dirname, '..', 'migrations');
+  for (const f of readdirSync(dir).filter((x) => x.endsWith('.sql')).sort()) db.exec(readFileSync(join(dir, f), 'utf8'));
   return {
     prepare: (sql: string) => new Stmt(db, sql),
     async batch(stmts: D1Stmt[]) {

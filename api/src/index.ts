@@ -6,83 +6,17 @@ import { pickWinner, type SyncRecord, type RecordKind } from '../../src/core/syn
 import { randomCode, randomId } from '../../src/core/crypto';
 import { DEFAULT_ITERATIONS, emailHash, hashPassword, newToken, pbkdf2, safeEqual, secretHash, tokenHash } from './auth';
 import { aiTutorStub } from './ai-tutor';
+import { acceptInvite, createInvite, deleteTutorLinks, exportTutorLinks, listTutors, removeTutor, tutorLinks, tutorSync, updateTutor } from './tutors';
+import { clientIp, err, HttpError, json, rateLimit, readJson, type D1Stmt, type Env } from './http';
 
-export interface D1Like {
-  prepare(sql: string): D1Stmt;
-  batch(stmts: D1Stmt[]): Promise<unknown[]>;
-}
-export interface D1Stmt {
-  bind(...values: unknown[]): D1Stmt;
-  first<T = any>(): Promise<T | null>;
-  all<T = any>(): Promise<{ results: T[] }>;
-  run(): Promise<unknown>;
-}
-
-export interface Env {
-  DB: D1Like;
-  ASSETS?: { fetch(req: Request): Promise<Response> };
-  PASSWORD_ITERATIONS?: string;
-  AI_TUTOR_ENABLED?: string;
-}
+export type { D1Like, D1Stmt, Env } from './http';
+export { rateLimit } from './http';
 
 const SYNC_KINDS: RecordKind[] = ['family', 'child', 'event', 'group', 'assignment'];
 const SESSION_DAYS = 90;
-const MAX_BODY = 1_000_000;
 const MAX_RECORD = 64_000;
 const MAX_CHANGES = 500;
 const PAGE = 1000;
-
-const json = (data: unknown, status = 200) =>
-  new Response(JSON.stringify(data), {
-    status,
-    headers: {
-      'content-type': 'application/json; charset=utf-8',
-      'cache-control': 'no-store',
-      'x-content-type-options': 'nosniff',
-      'referrer-policy': 'no-referrer',
-      // Native apps call the API cross-origin with a bearer token (no cookies), so * is safe.
-      'access-control-allow-origin': '*',
-    },
-  });
-const err = (status: number, error: string) => json({ error }, status);
-
-function clientIp(req: Request): string {
-  return req.headers.get('cf-connecting-ip') ?? req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? 'local';
-}
-
-/** Fixed-window rate limit stored in D1. Returns true when the call is allowed. */
-export async function rateLimit(db: D1Like, key: string, limit: number, windowSec: number, now = Date.now()): Promise<boolean> {
-  const row = await db.prepare('SELECT window_start, count FROM rate_limits WHERE key = ?').bind(key).first<{ window_start: number; count: number }>();
-  const windowStart = now - (now % (windowSec * 1000));
-  if (!row || row.window_start !== windowStart) {
-    await db.prepare('INSERT OR REPLACE INTO rate_limits (key, window_start, count) VALUES (?, ?, 1)').bind(key, windowStart).run();
-    return true;
-  }
-  if (row.count >= limit) return false;
-  await db.prepare('UPDATE rate_limits SET count = count + 1 WHERE key = ?').bind(key).run();
-  return true;
-}
-
-async function readJson(req: Request): Promise<any> {
-  const len = Number(req.headers.get('content-length') ?? 0);
-  if (len > MAX_BODY) throw new HttpError(413, 'too_large');
-  const text = await req.text();
-  if (text.length > MAX_BODY) throw new HttpError(413, 'too_large');
-  try {
-    return text ? JSON.parse(text) : {};
-  } catch {
-    throw new HttpError(400, 'bad_json');
-  }
-}
-
-class HttpError extends Error {
-  constructor(
-    public status: number,
-    public code: string,
-  ) {
-    super(code);
-  }
-}
 
 async function requireAccount(req: Request, env: Env): Promise<string> {
   const h = req.headers.get('authorization') ?? '';
@@ -310,6 +244,7 @@ async function exportAll(env: Env, accountId: string) {
     records: records.results.map((r) => ({ ...r, data: JSON.parse(r.data) })),
     progressKeys: keys.results,
     passportSnapshots: snaps.results.map((s) => ({ ...s, data: JSON.parse(s.data) })),
+    tutors: await exportTutorLinks(env, accountId),
   });
 }
 
@@ -319,6 +254,7 @@ async function deleteAccount(env: Env, accountId: string) {
     env.DB.prepare('DELETE FROM progress_keys WHERE account_id = ?').bind(accountId),
     env.DB.prepare('DELETE FROM passport_snapshots WHERE account_id = ?').bind(accountId),
     env.DB.prepare('DELETE FROM sessions WHERE account_id = ?').bind(accountId),
+    ...deleteTutorLinks(env, accountId),
     env.DB.prepare('DELETE FROM accounts WHERE id = ?').bind(accountId),
   ]);
   return json({ ok: true });
@@ -352,6 +288,16 @@ export async function handleApi(req: Request, env: Env): Promise<Response> {
     if (snap && m === 'PUT') return await putSnapshot(req, env, accountId, snap[1]);
     if (path === '/account/export' && m === 'GET') return await exportAll(env, accountId);
     if (path === '/account' && m === 'DELETE') return await deleteAccount(env, accountId);
+    // Tutor accounts: parent side (/tutors) and tutor side (/tutor).
+    if (path === '/tutors' && m === 'POST') return await createInvite(req, env, accountId);
+    if (path === '/tutors' && m === 'GET') return await listTutors(env, accountId);
+    const tl = path.match(/^\/tutors\/([0-9a-f-]{36})$/);
+    if (tl && m === 'PUT') return await updateTutor(req, env, accountId, tl[1]);
+    if (tl && m === 'DELETE') return await removeTutor(env, accountId, tl[1]);
+    if (path === '/tutor/accept' && m === 'POST') return await acceptInvite(req, env, accountId);
+    if (path === '/tutor/links' && m === 'GET') return await tutorLinks(env, accountId);
+    const ts = path.match(/^\/tutor\/links\/([0-9a-f-]{36})\/sync$/);
+    if (ts && m === 'POST') return await tutorSync(req, env, accountId, ts[1]);
     return err(404, 'not_found');
   } catch (e) {
     if (e instanceof HttpError) return err(e.status, e.code);
