@@ -181,3 +181,34 @@ describe('screen time', () => {
     expect(dayKey(NOW)).toMatch(/^\d{4}-\d{2}-\d{2}$/);
   });
 });
+
+describe('class report', async () => {
+  const { buildClassReport } = await import('../src/core/engine/class-report');
+  const { child: mk } = await import('./helpers');
+  const now = new Date('2026-11-25T12:00:00').getTime();
+  const day = (d: number) => new Date(now - d * 86400_000);
+  const key = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const group = { id: 'g1', name: 'Class 4', kind: 'classroom' as const, childIds: ['a', 'b', 'gone'], updatedAt: 1 };
+  const kids = [mk({ id: 'a', name: 'Ana' }), mk({ id: 'b', name: 'Ben' }), { ...mk({ id: 'gone', name: 'Old' }), deleted: true }];
+  const attendance = { [key(day(1))]: ['a', 'b'], [key(day(2))]: ['a'], [key(day(3))]: [], [key(day(40))]: ['b'] };
+  const events = [
+    { id: 'e1', childId: 'a', at: day(1).getTime(), type: 'completed' as const, itemId: 'x', by: 'tutor' as const, groupId: 'g1' },
+    { id: 'e2', childId: 'a', at: day(2).getTime(), type: 'check' as const, score: 0.5, by: 'child' as const },
+    { id: 'e3', childId: 'a', at: day(2).getTime(), type: 'check' as const, score: 1, by: 'child' as const },
+    { id: 'e4', childId: 'b', at: day(1).getTime(), type: 'minutes' as const, minutes: 20, by: 'child' as const },
+    { id: 'e5', childId: 'b', at: day(50).getTime(), type: 'completed' as const, itemId: 'y', by: 'child' as const },
+    { id: 'e6', childId: 'b', at: day(1).getTime(), type: 'stage' as const, competencyId: 'c', stage: 'can-apply' as const, by: 'parent' as const },
+  ];
+  it('counts sessions, attendance and progress in the period only, without deleted children', () => {
+    const r = buildClassReport(group, kids, attendance, events as any, undefined, { days: 30, now });
+    expect(r.sessions).toBe(2); // empty days and days outside the period do not count
+    expect(r.rows.map((x) => x.name)).toEqual(['Ana', 'Ben']);
+    const [ana, ben] = r.rows;
+    expect(ana).toMatchObject({ present: 2, attendancePct: 100, completed: 1, groupLessons: 1, checks: 2, avgScore: 75 });
+    expect(ben).toMatchObject({ present: 1, attendancePct: 50, completed: 0, minutes: 20, confirmedStages: 1 });
+    expect(r.averageAttendancePct).toBe(75);
+    const longer = buildClassReport(group, kids, attendance, events as any, undefined, { days: 90, now });
+    expect(longer.sessions).toBe(3);
+    expect(longer.rows[1].completed).toBe(1);
+  });
+});

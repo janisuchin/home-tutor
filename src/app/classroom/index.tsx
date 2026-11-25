@@ -142,7 +142,11 @@ function Classroom() {
             </Grid>
           </Section>
 
-          <Button testID="present" icon="📽️" variant="secondary" label={t('classroom.present')} onPress={() => router.push(`/classroom/present?group=${group.id}`)} />
+          <Row wrap>
+            <Button testID="present" icon="📽️" variant="secondary" label={t('classroom.present')} onPress={() => router.push(`/classroom/present?group=${group.id}`)} />
+            <Button testID="class-report" icon="🖨️" variant="ghost" label={t('report.open')} onPress={() => router.push(`/classroom/report?group=${group.id}`)} />
+          </Row>
+          <Txt variant="small">{t('classroom.attendanceSynced')}</Txt>
         </>
       ) : null}
       <View style={{ height: 24 }} />

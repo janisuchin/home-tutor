@@ -211,3 +211,14 @@ describe('account data rights', () => {
     expect(r.body.enabled).toBe(false);
   });
 });
+
+describe('attendance records', () => {
+  it('sync attendance days as last-writer-wins records', async () => {
+    const s = await signup('att@example.org');
+    const rec = (updatedAt: number, childIds: string[]) => ({ kind: 'attendance', id: 'g1:2026-11-25', updatedAt, data: { groupId: 'g1', day: '2026-11-25', childIds } });
+    expect((await call('POST', '/sync', { cursor: 0, changes: [rec(2000, ['a', 'b'])] }, s.token)).body.rejected).toBe(0);
+    await call('POST', '/sync', { cursor: 0, changes: [rec(1000, ['a'])] }, s.token); // older: loses
+    const r = await call('POST', '/sync', { cursor: 0, changes: [] }, s.token);
+    expect(r.body.changes.find((c: any) => c.kind === 'attendance').data.childIds).toEqual(['a', 'b']);
+  });
+});

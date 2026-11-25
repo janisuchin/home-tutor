@@ -48,6 +48,8 @@ export interface AppState {
   activeChildId?: string;
   /** Attendance: groupId -> day -> childIds present. */
   attendance: Record<string, Record<string, string[]>>;
+  /** When each attendance day was last changed, by record id "groupId:day" (synced as records). */
+  attendanceAt?: Record<string, number>;
   polls: Poll[];
   questions: ClassQuestion[];
   /** Today's plan is fixed for the day once made, so finished items stay ticked. */
@@ -118,13 +120,36 @@ export function isLoaded() {
 export async function loadState(): Promise<AppState> {
   try {
     const raw = await AsyncStorage.getItem(STORAGE_KEY);
-    if (raw) state = { ...emptyState(), ...JSON.parse(raw) };
+    if (raw) state = migrate({ ...emptyState(), ...JSON.parse(raw) });
   } catch {
     state = emptyState();
   }
   loaded = true;
   emit();
   return state;
+}
+
+/** Round 1 kept attendance on the device only: give it timestamps and queue it for sync. */
+function migrate(s: AppState): AppState {
+  const at = { ...(s.attendanceAt ?? {}) };
+  const dirty = new Set(s.sync.dirty);
+  let changed = false;
+  for (const [groupId, days] of Object.entries(s.attendance ?? {}))
+    for (const day of Object.keys(days)) {
+      const id = attendanceId(groupId, day);
+      if (!at[id]) {
+        at[id] = Date.now();
+        dirty.add(recordKey({ kind: 'attendance', id }));
+        changed = true;
+      }
+    }
+  return changed ? { ...s, attendanceAt: at, sync: { ...s.sync, dirty: [...dirty] } } : s;
+}
+
+export const attendanceId = (groupId: string, day: string) => `${groupId}:${day}`;
+function splitAttendanceId(id: string): [string, string] {
+  const i = id.lastIndexOf(':');
+  return [id.slice(0, i), id.slice(i + 1)];
 }
 
 export function subscribe(l: () => void) {
@@ -190,18 +215,34 @@ export function saveChild(child: Child) {
 export function deleteChild(id: string) {
   const c = state.children[id];
   if (!c) return;
+  // Deleting a child also removes them from attendance (those days are re-synced).
+  const touched: string[] = [];
+  const attendance: AppState['attendance'] = {};
+  const attendanceAt = { ...(state.attendanceAt ?? {}) };
+  for (const [g, days] of Object.entries(state.attendance)) {
+    attendance[g] = {};
+    for (const [day, ids] of Object.entries(days)) {
+      attendance[g][day] = ids.filter((x) => x !== id);
+      if (ids.includes(id)) {
+        touched.push(recordKey({ kind: 'attendance', id: attendanceId(g, day) }));
+        attendanceAt[attendanceId(g, day)] = Date.now();
+      }
+    }
+  }
   update(
     (s) => {
       const children = { ...s.children, [id]: { ...c, deleted: true, updatedAt: Date.now() } };
       return {
         ...s,
+        attendance,
+        attendanceAt,
         children,
         events: s.events.filter((e) => e.childId !== id),
         activeChildId: s.activeChildId === id ? undefined : s.activeChildId,
         sync: { ...s.sync, deletedChildren: [...(s.sync.deletedChildren ?? []), id] },
       };
     },
-    [recordKey({ kind: 'child', id })],
+    [recordKey({ kind: 'child', id }), ...touched],
   );
 }
 
@@ -230,7 +271,15 @@ export function saveKey(k: ProgressKeyInfo) {
 }
 
 export function setAttendance(groupId: string, day: string, childIds: string[]) {
-  update((s) => ({ ...s, attendance: { ...s.attendance, [groupId]: { ...(s.attendance[groupId] ?? {}), [day]: childIds } } }));
+  const id = attendanceId(groupId, day);
+  update(
+    (s) => ({
+      ...s,
+      attendance: { ...s.attendance, [groupId]: { ...(s.attendance[groupId] ?? {}), [day]: childIds } },
+      attendanceAt: { ...(s.attendanceAt ?? {}), [id]: Date.now() },
+    }),
+    [recordKey({ kind: 'attendance', id })],
+  );
 }
 
 export function setPolls(polls: Poll[]) {
@@ -280,6 +329,7 @@ export function allRecordKeys(s: AppState): string[] {
   for (const e of s.events) keys.push(recordKey({ kind: 'event', id: e.id }));
   for (const id of Object.keys(s.groups)) keys.push(recordKey({ kind: 'group', id }));
   for (const id of Object.keys(s.assignments)) keys.push(recordKey({ kind: 'assignment', id }));
+  for (const [g, days] of Object.entries(s.attendance)) for (const day of Object.keys(days)) keys.push(recordKey({ kind: 'attendance', id: attendanceId(g, day) }));
   return keys;
 }
 
@@ -306,6 +356,11 @@ export function recordFor(s: AppState, key: string): SyncRecord | undefined {
       const a = s.assignments[id];
       return a ? { kind, id, updatedAt: a.updatedAt, deleted: a.deleted, data: a } : undefined;
     }
+    case 'attendance': {
+      const [groupId, day] = splitAttendanceId(id);
+      const childIds = s.attendance[groupId]?.[day];
+      return childIds ? { kind, id, updatedAt: s.attendanceAt?.[id] ?? 1, data: { groupId, day, childIds } } : undefined;
+    }
   }
   return undefined;
 }
@@ -313,7 +368,7 @@ export function recordFor(s: AppState, key: string): SyncRecord | undefined {
 /** Apply records that came from the server, last-writer-wins, without marking them dirty. */
 export function applyRemote(records: SyncRecord[]) {
   if (!records.length) return;
-  const s = { ...state, children: { ...state.children }, groups: { ...state.groups }, assignments: { ...state.assignments } };
+  const s = { ...state, children: { ...state.children }, groups: { ...state.groups }, assignments: { ...state.assignments }, attendance: { ...state.attendance }, attendanceAt: { ...(state.attendanceAt ?? {}) } };
   const eventIds = new Set(s.events.map((e) => e.id));
   const newEvents: ProgressEvent[] = [];
   for (const r of records) {
@@ -339,6 +394,13 @@ export function applyRemote(records: SyncRecord[]) {
       case 'assignment':
         s.assignments[r.id] = { ...(r.data as Assignment), deleted: r.deleted };
         break;
+      case 'attendance': {
+        const d = r.data as { groupId: string; day: string; childIds: string[] };
+        if (!d || typeof d.groupId !== 'string' || typeof d.day !== 'string' || !Array.isArray(d.childIds)) break;
+        s.attendance[d.groupId] = { ...(s.attendance[d.groupId] ?? {}), [d.day]: d.childIds };
+        s.attendanceAt[r.id] = r.updatedAt;
+        break;
+      }
     }
   }
   const deleted = new Set(Object.values(s.children).filter((c) => c.deleted).map((c) => c.id));

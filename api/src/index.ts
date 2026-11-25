@@ -12,7 +12,7 @@ import { clientIp, err, HttpError, json, rateLimit, readJson, type D1Stmt, type 
 export type { D1Like, D1Stmt, Env } from './http';
 export { rateLimit } from './http';
 
-const SYNC_KINDS: RecordKind[] = ['family', 'child', 'event', 'group', 'assignment'];
+const SYNC_KINDS: RecordKind[] = ['family', 'child', 'event', 'group', 'assignment', 'attendance'];
 const SESSION_DAYS = 90;
 const MAX_RECORD = 64_000;
 const MAX_CHANGES = 500;

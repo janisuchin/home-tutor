@@ -1,11 +1,11 @@
 /**
  * Offline-first sync. Every synced thing is a record { kind, id, updatedAt, deleted?, data }.
- * - Mutable records (family, child, group, assignment) merge last-writer-wins on updatedAt;
+ * - Mutable records (family, child, group, assignment, attendance) merge last-writer-wins on updatedAt;
  *   ties break on a stable comparison of the JSON so every device ends up identical.
  * - Progress events are immutable: they merge by union and never conflict.
  * The same functions run on the device and in the Worker.
  */
-export type RecordKind = 'family' | 'child' | 'event' | 'group' | 'assignment' | 'key';
+export type RecordKind = 'family' | 'child' | 'event' | 'group' | 'assignment' | 'attendance' | 'key';
 
 export interface SyncRecord<T = unknown> {
   kind: RecordKind;

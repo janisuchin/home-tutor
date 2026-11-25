@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { enterPin, seed, tid } from './helpers';
+import { accountToken, deleteAccountByToken, enterPin, seed, signUp, testEmail, tid } from './helpers';
 
 test('@projector classroom: group, attendance, shared lesson, presentation, poll and questions', async ({ page }) => {
   await seed(page, {
@@ -42,6 +42,41 @@ test('@projector classroom: group, attendance, shared lesson, presentation, poll
   await tid(page, 'class-question').fill('Why is the sky blue?');
   await tid(page, 'add-question').click();
   await expect(page.getByText('Why is the sky blue?').locator('visible=true')).toBeVisible();
+
+  // Printable class report: attendance and the shared lesson marked done for those present.
+  await page.goto('/classroom');
+  await enterPin(page).catch(() => {});
+  await tid(page, 'class-report').click();
+  await expect(tid(page, 'class-report')).toBeVisible();
+  await expect(tid(page, 'report-sessions')).toHaveText('Sessions with attendance: 1');
+  await expect(tid(page, 'report-row-Ana')).toContainText('1/1');
+  await expect(tid(page, 'report-row-Chen')).toContainText('0/1');
+  await expect(tid(page, 'print-report')).toBeVisible();
+});
+
+test('attendance syncs to the cloud as records', async ({ page }) => {
+  let token: string | null = null;
+  try {
+    await seed(page, { mode: 'G', children: [{ name: 'Ana', birth: '2016-01' }, { name: 'Ben', birth: '2016-07' }] });
+    await page.goto('/classroom');
+    await enterPin(page);
+    await tid(page, 'group-name').fill('Class 5');
+    await tid(page, 'member-Ana').click();
+    await tid(page, 'member-Ben').click();
+    await tid(page, 'create-group').click();
+    await tid(page, 'present-Ben').click();
+    await page.goto('/account');
+    await enterPin(page).catch(() => {});
+    await signUp(page, testEmail('class'));
+    await expect(page.getByText('All saved in the cloud.').locator('visible=true')).toBeVisible();
+    token = await accountToken(page);
+    const r = await page.request.post('/api/sync', { headers: { authorization: `Bearer ${token}` }, data: { cursor: 0, changes: [] } });
+    const att = (await r.json()).changes.filter((c: any) => c.kind === 'attendance');
+    expect(att).toHaveLength(1);
+    expect(att[0].data.childIds).toEqual(['child-1']);
+  } finally {
+    await deleteAccountByToken(page, token);
+  }
 });
 
 test('tutor dashboard shows recommendations and group compatibility', async ({ page }) => {
