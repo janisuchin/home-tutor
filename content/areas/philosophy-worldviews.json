@@ -1,0 +1,962 @@
+{
+  "area": "philosophy-worldviews",
+  "title": "Philosophy and worldviews",
+  "emoji": "🤔",
+  "description": "Wonder, fairness, logic and ethics, thinkers from many cultures, and a respectful, neutral look at the world's religious and non-religious worldviews.",
+  "skillTrees": [
+    {
+      "id": "phil-thinking",
+      "area": "philosophy-worldviews",
+      "title": "Thinking well",
+      "emoji": "🤔",
+      "nodes": [
+        {
+          "id": "wonder",
+          "title": "Wonder",
+          "description": "Ask big questions and enjoy not knowing yet."
+        },
+        {
+          "id": "fairness",
+          "title": "Fairness",
+          "description": "Think about what is fair and why."
+        },
+        {
+          "id": "reasons",
+          "title": "Giving reasons",
+          "description": "Back up ideas with reasons."
+        },
+        {
+          "id": "thinking-about-thinking",
+          "title": "Thinking about thinking",
+          "description": "Notice how you know things and when you might be wrong."
+        },
+        {
+          "id": "logic",
+          "title": "Logic",
+          "description": "Tell valid arguments from invalid ones and spot fallacies."
+        },
+        {
+          "id": "ethics",
+          "title": "Ethics",
+          "description": "Weigh right and wrong using different ethical approaches."
+        },
+        {
+          "id": "argument",
+          "title": "Building arguments",
+          "description": "Write and defend a careful argument, and answer objections."
+        }
+      ]
+    },
+    {
+      "id": "phil-worldviews",
+      "area": "philosophy-worldviews",
+      "title": "Worldviews",
+      "emoji": "🌍",
+      "nodes": [
+        {
+          "id": "festivals",
+          "title": "Festivals",
+          "description": "Learn how people celebrate around the world."
+        },
+        {
+          "id": "many-beliefs",
+          "title": "Many beliefs",
+          "description": "Know that people hold different religious and non-religious worldviews."
+        },
+        {
+          "id": "beliefs-practices",
+          "title": "Beliefs and practices",
+          "description": "Describe what followers of major worldviews believe and do."
+        },
+        {
+          "id": "philosophers",
+          "title": "Philosophers of the world",
+          "description": "Meet thinkers from many cultures and times."
+        },
+        {
+          "id": "dialogue",
+          "title": "Respectful dialogue",
+          "description": "Discuss beliefs and values respectfully with people who differ."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "phil-ask-big-questions",
+      "area": "philosophy-worldviews",
+      "group": "intellectual",
+      "title": "Can ask and explore big questions",
+      "emoji": "❓"
+    },
+    {
+      "id": "phil-give-reasons",
+      "area": "philosophy-worldviews",
+      "group": "intellectual",
+      "title": "Can give reasons for an opinion",
+      "emoji": "💡"
+    },
+    {
+      "id": "phil-reason-argument",
+      "area": "philosophy-worldviews",
+      "group": "intellectual",
+      "title": "Can build and test a reasoned argument",
+      "emoji": "🧠"
+    },
+    {
+      "id": "phil-spot-fallacy",
+      "area": "philosophy-worldviews",
+      "group": "intellectual",
+      "title": "Can spot common mistakes in reasoning",
+      "emoji": "🕵️"
+    },
+    {
+      "id": "phil-ethical-reasoning",
+      "area": "philosophy-worldviews",
+      "group": "intellectual",
+      "title": "Can weigh a moral dilemma from several viewpoints",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "phil-describe-worldviews",
+      "area": "philosophy-worldviews",
+      "group": "global",
+      "title": "Can describe several worldviews accurately and respectfully",
+      "emoji": "🌍"
+    },
+    {
+      "id": "phil-respectful-dialogue",
+      "area": "philosophy-worldviews",
+      "group": "personal",
+      "title": "Can discuss beliefs respectfully with people who differ",
+      "emoji": "🤝"
+    },
+    {
+      "id": "phil-know-philosophers",
+      "area": "philosophy-worldviews",
+      "group": "global",
+      "title": "Can describe ideas of philosophers from three different cultures",
+      "emoji": "📜"
+    }
+  ],
+  "items": [
+    {
+      "id": "phil-i-wonder",
+      "kind": "activity",
+      "area": "philosophy-worldviews",
+      "subject": "wonder",
+      "title": "I wonder...",
+      "emoji": "✨",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Big questions are fun. There are many possible answers!",
+      "steps": [
+        "🌙 I wonder... why is the sky dark at night?",
+        "🐶 I wonder... do dogs dream?",
+        "⭐ I wonder... where does the sky end?",
+        "🙋 What do YOU wonder?",
+        "🎨 Draw your wonder question.",
+        "💭 Ask: what do you think, and why?"
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-ask-big-questions"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "wonder"
+        }
+      ],
+      "interests": [
+        "space",
+        "animals",
+        "stories"
+      ],
+      "connects": [
+        "science"
+      ],
+      "adultNote": "There is no need to give the answer. Say \"What do you think?\" and \"Why?\" Wonder is the start of philosophy and science."
+    },
+    {
+      "id": "phil-is-it-fair",
+      "kind": "activity",
+      "area": "philosophy-worldviews",
+      "subject": "fairness",
+      "title": "Is it fair?",
+      "emoji": "⚖️",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Let's think about sharing and fairness.",
+      "steps": [
+        "🧸🧸🧸🧸 There are 4 toys and 2 friends.",
+        "🤔 Is it fair if one friend gets all 4?",
+        "✌️ What if each gets 2?",
+        "👶 What if one friend is a baby who can only use 1?",
+        "💬 Fair does not always mean the same. Talk about it!"
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-give-reasons"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "fairness"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "civics-social"
+      ],
+      "check": [
+        {
+          "question": "4 toys, 2 friends. Equal shares are...",
+          "options": [
+            "2 each",
+            "3 and 1"
+          ],
+          "answer": 0,
+          "explain": "Yes, 2 each is equal."
+        }
+      ]
+    },
+    {
+      "id": "phil-festivals-of-light",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "festivals",
+      "title": "Festivals of light",
+      "emoji": "🪔",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "People all over the world use lights in celebrations.",
+      "steps": [
+        "🪔 Diwali: Hindus, Sikhs and Jains light lamps and share sweets.",
+        "🕎 Hanukkah: Jewish families light candles for eight nights.",
+        "🎄 Christmas: many Christians decorate with lights to celebrate the birth of Jesus.",
+        "🏮 Lantern Festival: many people in China and elsewhere hang lanterns at the end of the New Year celebrations.",
+        "🎨 Draw a paper lantern or lamp.",
+        "💬 Do you have a celebration with lights?"
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-describe-worldviews"
+      ],
+      "skills": [
+        {
+          "tree": "phil-worldviews",
+          "node": "festivals"
+        }
+      ],
+      "interests": [
+        "art",
+        "stories"
+      ],
+      "languageHooks": [
+        "colours"
+      ],
+      "connects": [
+        "arts-creativity",
+        "civics-social",
+        "geography"
+      ],
+      "adultNote": "Describe each tradition as \"many people who follow this tradition believe...\" and never say which is true. Families choose their own approach in settings; this content is for understanding, not for belief. Draw lights rather than using real candles."
+    },
+    {
+      "id": "phil-how-do-i-know",
+      "kind": "activity",
+      "area": "philosophy-worldviews",
+      "subject": "thinking about thinking",
+      "title": "How do I know?",
+      "emoji": "🧠",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Some things we see, some we are told, some we work out. Let's sort them!",
+      "steps": [
+        "Say three things you know, for example \"it is raining\" or \"the Earth is round\".",
+        "For each, ask: how do I know? Did I see it, was I told, or did I work it out?",
+        "Ask: could I be wrong? How could I check?",
+        "Try a trick: look at a straw in a glass of water. Does it look bent? Is it really?",
+        "Talk: why is it good to say \"I am not sure\" sometimes?"
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-ask-big-questions",
+        "phil-give-reasons"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "thinking-about-thinking"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "id": "phil-same-tower",
+      "kind": "activity",
+      "area": "philosophy-worldviews",
+      "subject": "wonder",
+      "title": "Is it still the same tower?",
+      "emoji": "🧱",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "An ancient puzzle: if you change every part of something, is it still the same thing?",
+      "steps": [
+        "Build a tower from 6 blocks, cups or boxes.",
+        "Swap one block for a new one. Is it the same tower?",
+        "Keep swapping until every block is new. Same tower now?",
+        "What if you rebuild a tower with all the old blocks? Which one is the \"real\" one?",
+        "Greek thinkers told this puzzle about a ship called the Ship of Theseus.",
+        "Think: you are always growing new cells. Are you the same you as when you were a baby?"
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-ask-big-questions",
+        "phil-give-reasons"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "wonder"
+        }
+      ],
+      "interests": [
+        "building"
+      ],
+      "connects": [
+        "science",
+        "history"
+      ]
+    },
+    {
+      "id": "phil-people-believe-differently",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "worldviews",
+      "title": "People believe different things",
+      "emoji": "🌈",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Around the world, people have different ideas about big questions like how the world began and how to live well.",
+      "steps": [
+        "Some people follow a religion, such as Buddhism, Christianity, Hinduism, Islam, Judaism or Sikhism.",
+        "Some people are not religious. Some call themselves humanists, atheists or agnostics.",
+        "Many people mix traditions, or follow local and Indigenous traditions.",
+        "People in the same family can believe different things.",
+        "We can learn about beliefs with curiosity and respect, even if we believe something different.",
+        "Talk with your family: what matters most to us?"
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-describe-worldviews",
+        "phil-respectful-dialogue"
+      ],
+      "skills": [
+        {
+          "tree": "phil-worldviews",
+          "node": "many-beliefs"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "check": [
+        {
+          "question": "If a friend believes something different from you, it is kind to...",
+          "options": [
+            "be curious and respectful",
+            "laugh at them"
+          ],
+          "answer": 0,
+          "explain": "Yes. Respect lets everyone learn from each other."
+        }
+      ],
+      "adultNote": "Describe each tradition as \"many people who follow this tradition believe...\" and never say which is true. Families choose their own approach in settings; this content is for understanding, not for belief."
+    },
+    {
+      "id": "phil-because",
+      "kind": "activity",
+      "area": "philosophy-worldviews",
+      "subject": "reasons",
+      "title": "Because...",
+      "emoji": "💡",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "An opinion is stronger when you give a good reason.",
+      "steps": [
+        "Say an opinion: \"Cats make better pets than dogs.\"",
+        "Add \"because\" and a reason.",
+        "Is it a strong reason or a weak one? \"Because I said so\" is weak!",
+        "Strong reasons can be checked, are relevant, and would make sense to other people.",
+        "Play: one person gives an opinion, the other must give the best reason for the opposite view.",
+        "Change your mind if you hear a better reason - that is clever, not weak."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-give-reasons"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "reasons"
+        }
+      ],
+      "interests": [
+        "animals",
+        "games"
+      ],
+      "connects": [
+        "language",
+        "civics-social"
+      ],
+      "check": [
+        {
+          "question": "Which is the stronger reason for \"We should walk to the park\"?",
+          "options": [
+            "\"Because it is close and the weather is nice.\"",
+            "\"Because.\""
+          ],
+          "answer": 0,
+          "explain": "Yes. It gives facts others can check."
+        }
+      ]
+    },
+    {
+      "id": "phil-major-worldviews",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "beliefs and practices",
+      "title": "A tour of world worldviews",
+      "emoji": "🗺️",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 30,
+      "summary": "Learn what followers of some major worldviews believe and practise, in their own terms.",
+      "steps": [
+        "Buddhism: many Buddhists follow the teachings of the Buddha about ending suffering, including kindness and meditation.",
+        "Christianity: Christians believe in one God and follow the teachings of Jesus, whom they believe is the Son of God.",
+        "Hinduism: a family of traditions; many Hindus believe in a supreme reality (Brahman) shown in many forms, and in dharma (right living) and rebirth.",
+        "Islam: Muslims believe in one God (Allah) and follow the Qur'an and the example of the Prophet Muhammad.",
+        "Judaism: Jews believe in one God who made a covenant with the Jewish people, and follow the Torah.",
+        "Sikhism: Sikhs believe in one God and follow the teachings of the Gurus, written in the Guru Granth Sahib.",
+        "Non-religious worldviews: humanists, for example, look to reason, evidence and shared human values to decide how to live.",
+        "Make a chart: name, main beliefs, holy texts or key ideas, places to gather, one festival."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-describe-worldviews"
+      ],
+      "skills": [
+        {
+          "tree": "phil-worldviews",
+          "node": "beliefs-practices"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "history",
+        "geography",
+        "civics-social"
+      ],
+      "check": [
+        {
+          "question": "Which sentence is the respectful way to describe a belief?",
+          "options": [
+            "\"Many Sikhs believe...\"",
+            "\"Sikhs are wrong that...\""
+          ],
+          "answer": 0,
+          "explain": "Yes. We describe what people believe without judging which is right."
+        }
+      ],
+      "adultNote": "Describe each tradition as \"many people who follow this tradition believe...\" and never say which is true. Families choose their own approach in settings; this content is for understanding, not for belief. There are many other traditions (for example Jainism, Bahá'í, Shinto, Daoism, Zoroastrianism and Indigenous traditions) worth exploring too."
+    },
+    {
+      "id": "phil-philosophers-of-the-world",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "philosophers",
+      "title": "Thinkers from around the world",
+      "emoji": "📜",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 30,
+      "summary": "People in every part of the world have asked big questions. Meet some of them.",
+      "steps": [
+        "Confucius (China, about 2,500 years ago) taught about kindness, respect and how to be a good person in a family and a state.",
+        "Siddhartha Gautama, the Buddha (South Asia, about 2,500 years ago), taught about the causes of suffering and how to end it.",
+        "Socrates (ancient Athens) asked people questions to test what they really knew.",
+        "Hypatia (Alexandria, Egypt, about 1,600 years ago) taught mathematics, astronomy and philosophy.",
+        "Ibn Rushd (Córdoba, in what is now Spain, about 850 years ago) wrote about reason, faith and the ideas of Aristotle.",
+        "Zera Yacob (Ethiopia, about 400 years ago) wrote about using reason to search for truth.",
+        "Pick one thinker. Write one question they might ask you today."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-know-philosophers"
+      ],
+      "skills": [
+        {
+          "tree": "phil-worldviews",
+          "node": "philosophers"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "history",
+        "geography"
+      ]
+    },
+    {
+      "id": "phil-if-then-logic",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "logic",
+      "title": "If... then... logic",
+      "emoji": "🔗",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 5,
+      "minutes": 25,
+      "summary": "Logic helps us see whether a conclusion really follows from its reasons.",
+      "steps": [
+        "An argument has premises (reasons) and a conclusion.",
+        "Valid: \"All cats are mammals. Tom is a cat. So Tom is a mammal.\"",
+        "An argument can be valid but have a false premise: \"All birds can fly. Penguins are birds. So penguins can fly.\" The logic works, but the first premise is false.",
+        "Watch out for this trap: \"If it rains, the ground is wet. The ground is wet. So it rained.\" Not valid - a hose could have done it!",
+        "Write three arguments of your own: one valid and true, one valid with a false premise, one invalid.",
+        "Swap with someone and test each other."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-reason-argument"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "logic"
+        }
+      ],
+      "interests": [
+        "games",
+        "animals"
+      ],
+      "connects": [
+        "mathematics",
+        "technology-ai"
+      ],
+      "check": [
+        {
+          "question": "\"If it rains, the ground is wet. The ground is wet, so it rained.\" This is...",
+          "options": [
+            "valid",
+            "invalid"
+          ],
+          "answer": 1,
+          "explain": "Invalid. Something else could have made the ground wet."
+        }
+      ]
+    },
+    {
+      "id": "phil-fallacy-hunt",
+      "kind": "activity",
+      "area": "philosophy-worldviews",
+      "subject": "logic",
+      "title": "Fallacy hunt",
+      "emoji": "🕵️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 25,
+      "summary": "Fallacies are tricks or mistakes in reasoning. Learn five and hunt for them.",
+      "steps": [
+        "Attacking the person: \"Don't listen to her, she's young.\" (ignores the argument)",
+        "Straw man: twisting someone's view into a weaker one, then knocking it down.",
+        "Bandwagon: \"Everyone is buying it, so it must be good.\"",
+        "False choice: \"Either you agree with me or you don't care at all.\"",
+        "Slippery slope: \"If we allow this, disaster will surely follow\" (without evidence for each step).",
+        "Look at adverts, posters or arguments in conversations. Find one example of each.",
+        "Rewrite one so it uses a fair reason instead."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-spot-fallacy",
+        "phil-reason-argument"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "logic"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "civics-social",
+        "technology-ai"
+      ],
+      "adultNote": "Use examples from a range of sources and views so the focus is reasoning, not taking sides."
+    },
+    {
+      "id": "phil-moral-dilemmas",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "ethics",
+      "title": "Tricky choices",
+      "emoji": "🧭",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "Philosophers have different ways of deciding what is right. Try them on a tricky choice.",
+      "steps": [
+        "Dilemma: you promised to meet a friend, but on the way you see a neighbour who needs help carrying shopping. What do you do?",
+        "Consequences: which choice leads to the best results for everyone?",
+        "Duties and rules: what promises or duties do you have?",
+        "Virtues: what would a kind, honest, brave person do?",
+        "Care: who depends on you, and how will they feel?",
+        "Many religious and non-religious traditions also offer guidance, such as versions of \"treat others as you would like to be treated\".",
+        "Write your choice and the reasons from two different approaches."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-ethical-reasoning"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "ethics"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "check": [
+        {
+          "question": "Asking \"what would a kind and honest person do?\" is which approach?",
+          "options": [
+            "Virtues",
+            "Consequences"
+          ],
+          "answer": 0,
+          "explain": "Yes. Virtue ethics asks what a person of good character would do."
+        }
+      ]
+    },
+    {
+      "id": "phil-compare-practices",
+      "kind": "activity",
+      "area": "philosophy-worldviews",
+      "subject": "beliefs and practices",
+      "title": "Comparing practices",
+      "emoji": "📊",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 5,
+      "minutes": 40,
+      "summary": "Compare how different traditions mark life events, gather and reflect.",
+      "steps": [
+        "Pick three worldviews, including at least one non-religious one.",
+        "Research: how do people mark a birth, coming of age, marriage or death?",
+        "Research: where do people gather, and what do they do there?",
+        "Research: are there food customs, fasting or special clothes?",
+        "Make a comparison table. Look for similarities as well as differences.",
+        "Note where people within one tradition do things differently from each other.",
+        "Use sources written by members of each tradition, plus a neutral encyclopedia."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-describe-worldviews"
+      ],
+      "skills": [
+        {
+          "tree": "phil-worldviews",
+          "node": "beliefs-practices"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "history",
+        "civics-social",
+        "geography"
+      ],
+      "adultNote": "Describe each tradition as \"many people who follow this tradition believe...\" and never say which is true. Families choose their own approach in settings; this content is for understanding, not for belief."
+    },
+    {
+      "id": "phil-write-an-argument",
+      "kind": "project",
+      "area": "philosophy-worldviews",
+      "subject": "argument",
+      "title": "Write a philosophical argument",
+      "emoji": "🧠",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 120,
+      "summary": "Write a short essay that answers a big question with a careful argument, then answer the best objection.",
+      "steps": [
+        "Choose a question, such as \"Is it ever right to break a promise?\" or \"Can machines think?\"",
+        "Write your answer in one sentence (your thesis).",
+        "List your premises. Check each one: is it true? Does the conclusion follow?",
+        "Find the strongest objection someone could make.",
+        "Write a reply to the objection - or change your view if it wins!",
+        "Write it up in 600-1000 words.",
+        "Read it to someone and ask them to argue back."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A writing project."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil"
+          ],
+          "description": "Plan and handwrite the essay."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "Library books on philosophy"
+          ],
+          "description": "Read what two philosophers said about your question and include them."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Computer or phone"
+          ],
+          "description": "Type, edit and share the essay; record a discussion about it."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Philosophy books",
+          "use": "Free public-domain texts or a free online encyclopedia of philosophy"
+        },
+        {
+          "instead": "Discussion partner",
+          "use": "Write the objection and reply as a dialogue between two characters"
+        }
+      ],
+      "competencies": [
+        "phil-reason-argument"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "argument"
+        }
+      ],
+      "interests": [
+        "stories",
+        "computers"
+      ],
+      "connects": [
+        "languages",
+        "civics-social"
+      ]
+    },
+    {
+      "id": "phil-worldview-interview",
+      "kind": "activity",
+      "area": "philosophy-worldviews",
+      "subject": "dialogue",
+      "title": "Listening across worldviews",
+      "emoji": "🤝",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 45,
+      "summary": "Learn about someone's beliefs or values by asking good questions and listening respectfully.",
+      "steps": [
+        "With an adult, choose someone known to your family to talk to, or a published interview or autobiography.",
+        "Prepare open questions: \"What matters most to you?\" \"What do you celebrate and why?\"",
+        "Listen to understand, not to argue. Repeat back what you heard.",
+        "Do not ask people to justify or defend their beliefs unless they want to.",
+        "Write a short summary they would agree is fair.",
+        "Reflect: what did you learn, and what do you share with them?"
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-respectful-dialogue",
+        "phil-describe-worldviews"
+      ],
+      "skills": [
+        {
+          "tree": "phil-worldviews",
+          "node": "dialogue"
+        }
+      ],
+      "interests": [
+        "stories",
+        "helping"
+      ],
+      "connects": [
+        "civics-social",
+        "careers"
+      ],
+      "adultNote": "Describe each tradition as \"many people who follow this tradition believe...\" and never say which is true. Families choose their own approach in settings; this content is for understanding, not for belief. Arrange and supervise any interview; never with strangers online."
+    },
+    {
+      "id": "phil-ethics-today",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "ethics",
+      "title": "Big ethical questions today",
+      "emoji": "🌐",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 40,
+      "summary": "Use ethics to think about real modern questions where thoughtful people disagree.",
+      "steps": [
+        "Choose one: how should we treat animals? Who is responsible when AI makes a mistake? What do we owe future generations?",
+        "List the people (and animals) affected.",
+        "Apply two approaches: consequences and duties/rights.",
+        "Find two thoughtful people or organisations who disagree, and summarise each view fairly.",
+        "Say where you stand and what evidence could change your mind."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-ethical-reasoning",
+        "phil-reason-argument"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "ethics"
+        }
+      ],
+      "interests": [
+        "animals",
+        "computers"
+      ],
+      "connects": [
+        "technology-ai",
+        "environment",
+        "civics-social"
+      ]
+    },
+    {
+      "id": "phil-knowledge-evidence",
+      "kind": "lesson",
+      "area": "philosophy-worldviews",
+      "subject": "thinking about thinking",
+      "title": "How do we know what we know?",
+      "emoji": "🔬",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 30,
+      "summary": "Epistemology is the study of knowledge. When should we believe something?",
+      "steps": [
+        "Sources of knowledge: our senses, reasoning, memory and testimony (what others tell us).",
+        "Each can mislead: senses are tricked by illusions, memories change, people make mistakes.",
+        "Science tests ideas with evidence and lets other people check the results.",
+        "Good thinkers match how strongly they believe to how strong the evidence is.",
+        "Note that some questions (like what makes life meaningful) are explored through philosophy and worldviews as well as science.",
+        "Pick a belief you hold. Rate your confidence 1-10 and list the evidence."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-reason-argument"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "thinking-about-thinking"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "science",
+        "independent-learning"
+      ],
+      "check": [
+        {
+          "question": "Good thinkers believe something...",
+          "options": [
+            "as strongly as the evidence supports",
+            "as strongly as they want to"
+          ],
+          "answer": 0,
+          "explain": "Yes. Match your confidence to the evidence."
+        }
+      ]
+    }
+  ]
+}

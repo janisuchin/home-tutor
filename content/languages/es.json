@@ -1,0 +1,484 @@
+{
+  "language": "es",
+  "name": "Spanish",
+  "nativeName": "Español",
+  "ttsLang": "es-ES",
+  "concepts": {
+    "numbers": [
+      {
+        "en": "one",
+        "word": "uno"
+      },
+      {
+        "en": "two",
+        "word": "dos"
+      },
+      {
+        "en": "three",
+        "word": "tres"
+      },
+      {
+        "en": "four",
+        "word": "cuatro"
+      },
+      {
+        "en": "five",
+        "word": "cinco"
+      },
+      {
+        "en": "six",
+        "word": "seis"
+      },
+      {
+        "en": "seven",
+        "word": "siete"
+      },
+      {
+        "en": "eight",
+        "word": "ocho"
+      },
+      {
+        "en": "nine",
+        "word": "nueve"
+      },
+      {
+        "en": "ten",
+        "word": "diez"
+      }
+    ],
+    "colours": [
+      {
+        "en": "red",
+        "word": "rojo"
+      },
+      {
+        "en": "blue",
+        "word": "azul"
+      },
+      {
+        "en": "green",
+        "word": "verde"
+      },
+      {
+        "en": "yellow",
+        "word": "amarillo"
+      },
+      {
+        "en": "black",
+        "word": "negro"
+      },
+      {
+        "en": "white",
+        "word": "blanco"
+      }
+    ],
+    "shapes": [
+      {
+        "en": "circle",
+        "word": "el círculo"
+      },
+      {
+        "en": "square",
+        "word": "el cuadrado"
+      },
+      {
+        "en": "triangle",
+        "word": "el triángulo"
+      },
+      {
+        "en": "star",
+        "word": "la estrella"
+      },
+      {
+        "en": "rectangle",
+        "word": "el rectángulo"
+      }
+    ],
+    "family": [
+      {
+        "en": "mother",
+        "word": "la madre"
+      },
+      {
+        "en": "father",
+        "word": "el padre"
+      },
+      {
+        "en": "sister",
+        "word": "la hermana"
+      },
+      {
+        "en": "brother",
+        "word": "el hermano"
+      },
+      {
+        "en": "grandmother",
+        "word": "la abuela"
+      },
+      {
+        "en": "grandfather",
+        "word": "el abuelo"
+      }
+    ],
+    "food": [
+      {
+        "en": "bread",
+        "word": "el pan"
+      },
+      {
+        "en": "rice",
+        "word": "el arroz"
+      },
+      {
+        "en": "water",
+        "word": "el agua"
+      },
+      {
+        "en": "milk",
+        "word": "la leche"
+      },
+      {
+        "en": "egg",
+        "word": "el huevo"
+      },
+      {
+        "en": "fish (as food)",
+        "word": "el pescado"
+      }
+    ],
+    "fruit": [
+      {
+        "en": "apple",
+        "word": "la manzana"
+      },
+      {
+        "en": "banana",
+        "word": "el plátano"
+      },
+      {
+        "en": "orange",
+        "word": "la naranja"
+      },
+      {
+        "en": "grapes",
+        "word": "las uvas"
+      },
+      {
+        "en": "mango",
+        "word": "el mango"
+      },
+      {
+        "en": "watermelon",
+        "word": "la sandía"
+      }
+    ],
+    "animals": [
+      {
+        "en": "dog",
+        "word": "el perro"
+      },
+      {
+        "en": "cat",
+        "word": "el gato"
+      },
+      {
+        "en": "horse",
+        "word": "el caballo"
+      },
+      {
+        "en": "cow",
+        "word": "la vaca"
+      },
+      {
+        "en": "bird",
+        "word": "el pájaro"
+      },
+      {
+        "en": "fish (alive)",
+        "word": "el pez"
+      }
+    ],
+    "body": [
+      {
+        "en": "head",
+        "word": "la cabeza"
+      },
+      {
+        "en": "eye",
+        "word": "el ojo"
+      },
+      {
+        "en": "ear",
+        "word": "la oreja"
+      },
+      {
+        "en": "nose",
+        "word": "la nariz"
+      },
+      {
+        "en": "mouth",
+        "word": "la boca"
+      },
+      {
+        "en": "hand",
+        "word": "la mano"
+      },
+      {
+        "en": "foot",
+        "word": "el pie"
+      }
+    ],
+    "greetings": [
+      {
+        "en": "hello",
+        "word": "Hola"
+      },
+      {
+        "en": "good morning",
+        "word": "Buenos días"
+      },
+      {
+        "en": "goodbye",
+        "word": "Adiós"
+      },
+      {
+        "en": "please",
+        "word": "Por favor"
+      },
+      {
+        "en": "thank you",
+        "word": "Gracias"
+      },
+      {
+        "en": "how are you?",
+        "word": "¿Cómo estás?"
+      }
+    ],
+    "weather": [
+      {
+        "en": "sun",
+        "word": "el sol"
+      },
+      {
+        "en": "rain",
+        "word": "la lluvia"
+      },
+      {
+        "en": "cloud",
+        "word": "la nube"
+      },
+      {
+        "en": "wind",
+        "word": "el viento"
+      },
+      {
+        "en": "snow",
+        "word": "la nieve"
+      },
+      {
+        "en": "it is hot",
+        "word": "hace calor"
+      },
+      {
+        "en": "it is cold",
+        "word": "hace frío"
+      }
+    ],
+    "maths": [
+      {
+        "en": "plus",
+        "word": "más"
+      },
+      {
+        "en": "minus",
+        "word": "menos"
+      },
+      {
+        "en": "equals",
+        "word": "es igual a"
+      },
+      {
+        "en": "times",
+        "word": "por"
+      },
+      {
+        "en": "number",
+        "word": "el número"
+      },
+      {
+        "en": "half",
+        "word": "la mitad"
+      }
+    ],
+    "science": [
+      {
+        "en": "science",
+        "word": "la ciencia"
+      },
+      {
+        "en": "experiment",
+        "word": "el experimento"
+      },
+      {
+        "en": "plant",
+        "word": "la planta"
+      },
+      {
+        "en": "light",
+        "word": "la luz"
+      },
+      {
+        "en": "energy",
+        "word": "la energía"
+      }
+    ],
+    "geography": [
+      {
+        "en": "mountain",
+        "word": "la montaña"
+      },
+      {
+        "en": "river",
+        "word": "el río"
+      },
+      {
+        "en": "sea",
+        "word": "el mar"
+      },
+      {
+        "en": "country",
+        "word": "el país"
+      },
+      {
+        "en": "city",
+        "word": "la ciudad"
+      },
+      {
+        "en": "map",
+        "word": "el mapa"
+      }
+    ],
+    "kitchen": [
+      {
+        "en": "plate",
+        "word": "el plato"
+      },
+      {
+        "en": "cup",
+        "word": "la taza"
+      },
+      {
+        "en": "spoon",
+        "word": "la cuchara"
+      },
+      {
+        "en": "fork",
+        "word": "el tenedor"
+      },
+      {
+        "en": "knife",
+        "word": "el cuchillo"
+      },
+      {
+        "en": "cooking pot",
+        "word": "la olla"
+      }
+    ],
+    "tools": [
+      {
+        "en": "hammer",
+        "word": "el martillo"
+      },
+      {
+        "en": "screwdriver",
+        "word": "el destornillador"
+      },
+      {
+        "en": "saw",
+        "word": "la sierra"
+      },
+      {
+        "en": "scissors",
+        "word": "las tijeras"
+      },
+      {
+        "en": "ruler",
+        "word": "la regla"
+      }
+    ],
+    "nature": [
+      {
+        "en": "tree",
+        "word": "el árbol"
+      },
+      {
+        "en": "flower",
+        "word": "la flor"
+      },
+      {
+        "en": "leaf",
+        "word": "la hoja"
+      },
+      {
+        "en": "grass",
+        "word": "la hierba"
+      },
+      {
+        "en": "sky",
+        "word": "el cielo"
+      },
+      {
+        "en": "stone",
+        "word": "la piedra"
+      }
+    ],
+    "time": [
+      {
+        "en": "day",
+        "word": "el día"
+      },
+      {
+        "en": "night",
+        "word": "la noche"
+      },
+      {
+        "en": "today",
+        "word": "hoy"
+      },
+      {
+        "en": "tomorrow",
+        "word": "mañana"
+      },
+      {
+        "en": "yesterday",
+        "word": "ayer"
+      },
+      {
+        "en": "week",
+        "word": "la semana"
+      }
+    ],
+    "feelings": [
+      {
+        "en": "happy",
+        "word": "feliz"
+      },
+      {
+        "en": "sad",
+        "word": "triste"
+      },
+      {
+        "en": "angry",
+        "word": "enfadado"
+      },
+      {
+        "en": "scared",
+        "word": "asustado"
+      },
+      {
+        "en": "tired",
+        "word": "cansado"
+      }
+    ]
+  }
+}

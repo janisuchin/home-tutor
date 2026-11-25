@@ -1,0 +1,605 @@
+{
+  "language": "ar",
+  "name": "Arabic",
+  "nativeName": "العربية",
+  "ttsLang": "ar-SA",
+  "rtl": true,
+  "concepts": {
+    "numbers": [
+      {
+        "en": "one",
+        "word": "واحد",
+        "romanised": "wahid"
+      },
+      {
+        "en": "two",
+        "word": "اثنان",
+        "romanised": "ithnan"
+      },
+      {
+        "en": "three",
+        "word": "ثلاثة",
+        "romanised": "thalatha"
+      },
+      {
+        "en": "four",
+        "word": "أربعة",
+        "romanised": "arbaa"
+      },
+      {
+        "en": "five",
+        "word": "خمسة",
+        "romanised": "khamsa"
+      },
+      {
+        "en": "six",
+        "word": "ستة",
+        "romanised": "sitta"
+      },
+      {
+        "en": "seven",
+        "word": "سبعة",
+        "romanised": "saba"
+      },
+      {
+        "en": "eight",
+        "word": "ثمانية",
+        "romanised": "thamaniya"
+      },
+      {
+        "en": "nine",
+        "word": "تسعة",
+        "romanised": "tisa"
+      },
+      {
+        "en": "ten",
+        "word": "عشرة",
+        "romanised": "ashara"
+      }
+    ],
+    "colours": [
+      {
+        "en": "red",
+        "word": "أحمر",
+        "romanised": "ahmar"
+      },
+      {
+        "en": "blue",
+        "word": "أزرق",
+        "romanised": "azraq"
+      },
+      {
+        "en": "green",
+        "word": "أخضر",
+        "romanised": "akhdar"
+      },
+      {
+        "en": "yellow",
+        "word": "أصفر",
+        "romanised": "asfar"
+      },
+      {
+        "en": "black",
+        "word": "أسود",
+        "romanised": "aswad"
+      },
+      {
+        "en": "white",
+        "word": "أبيض",
+        "romanised": "abyad"
+      }
+    ],
+    "shapes": [
+      {
+        "en": "circle",
+        "word": "دائرة",
+        "romanised": "daira"
+      },
+      {
+        "en": "square",
+        "word": "مربع",
+        "romanised": "murabba"
+      },
+      {
+        "en": "triangle",
+        "word": "مثلث",
+        "romanised": "muthallath"
+      },
+      {
+        "en": "star",
+        "word": "نجمة",
+        "romanised": "najma"
+      },
+      {
+        "en": "rectangle",
+        "word": "مستطيل",
+        "romanised": "mustatil"
+      }
+    ],
+    "family": [
+      {
+        "en": "mother",
+        "word": "أم",
+        "romanised": "umm"
+      },
+      {
+        "en": "father",
+        "word": "أب",
+        "romanised": "ab"
+      },
+      {
+        "en": "sister",
+        "word": "أخت",
+        "romanised": "ukht"
+      },
+      {
+        "en": "brother",
+        "word": "أخ",
+        "romanised": "akh"
+      },
+      {
+        "en": "grandmother",
+        "word": "جدة",
+        "romanised": "jadda"
+      },
+      {
+        "en": "grandfather",
+        "word": "جد",
+        "romanised": "jadd"
+      }
+    ],
+    "food": [
+      {
+        "en": "bread",
+        "word": "خبز",
+        "romanised": "khubz"
+      },
+      {
+        "en": "rice",
+        "word": "أرز",
+        "romanised": "aruzz"
+      },
+      {
+        "en": "water",
+        "word": "ماء",
+        "romanised": "maa"
+      },
+      {
+        "en": "milk",
+        "word": "حليب",
+        "romanised": "halib"
+      },
+      {
+        "en": "egg",
+        "word": "بيضة",
+        "romanised": "bayda"
+      },
+      {
+        "en": "fish",
+        "word": "سمك",
+        "romanised": "samak"
+      }
+    ],
+    "fruit": [
+      {
+        "en": "apple",
+        "word": "تفاحة",
+        "romanised": "tuffaha"
+      },
+      {
+        "en": "banana",
+        "word": "موزة",
+        "romanised": "mawza"
+      },
+      {
+        "en": "orange",
+        "word": "برتقالة",
+        "romanised": "burtuqala"
+      },
+      {
+        "en": "grapes",
+        "word": "عنب",
+        "romanised": "inab"
+      },
+      {
+        "en": "mango",
+        "word": "مانجو",
+        "romanised": "manju"
+      },
+      {
+        "en": "watermelon",
+        "word": "بطيخ",
+        "romanised": "battikh"
+      },
+      {
+        "en": "dates",
+        "word": "تمر",
+        "romanised": "tamr"
+      }
+    ],
+    "animals": [
+      {
+        "en": "dog",
+        "word": "كلب",
+        "romanised": "kalb"
+      },
+      {
+        "en": "cat",
+        "word": "قطة",
+        "romanised": "qitta"
+      },
+      {
+        "en": "horse",
+        "word": "حصان",
+        "romanised": "hisan"
+      },
+      {
+        "en": "cow",
+        "word": "بقرة",
+        "romanised": "baqara"
+      },
+      {
+        "en": "bird",
+        "word": "طائر",
+        "romanised": "tair"
+      },
+      {
+        "en": "camel",
+        "word": "جمل",
+        "romanised": "jamal"
+      }
+    ],
+    "body": [
+      {
+        "en": "head",
+        "word": "رأس",
+        "romanised": "ras"
+      },
+      {
+        "en": "eye",
+        "word": "عين",
+        "romanised": "ayn"
+      },
+      {
+        "en": "ear",
+        "word": "أذن",
+        "romanised": "udhun"
+      },
+      {
+        "en": "nose",
+        "word": "أنف",
+        "romanised": "anf"
+      },
+      {
+        "en": "mouth",
+        "word": "فم",
+        "romanised": "fam"
+      },
+      {
+        "en": "hand",
+        "word": "يد",
+        "romanised": "yad"
+      },
+      {
+        "en": "foot",
+        "word": "قدم",
+        "romanised": "qadam"
+      }
+    ],
+    "greetings": [
+      {
+        "en": "hello",
+        "word": "مرحبا",
+        "romanised": "marhaban"
+      },
+      {
+        "en": "peace be upon you (common greeting)",
+        "word": "السلام عليكم",
+        "romanised": "as-salamu alaykum"
+      },
+      {
+        "en": "good morning",
+        "word": "صباح الخير",
+        "romanised": "sabah al-khayr"
+      },
+      {
+        "en": "goodbye",
+        "word": "مع السلامة",
+        "romanised": "maa as-salama"
+      },
+      {
+        "en": "thank you",
+        "word": "شكرا",
+        "romanised": "shukran"
+      },
+      {
+        "en": "please (to a boy or man)",
+        "word": "من فضلك",
+        "romanised": "min fadlak"
+      },
+      {
+        "en": "please (to a girl or woman)",
+        "word": "من فضلكِ",
+        "romanised": "min fadliki"
+      }
+    ],
+    "weather": [
+      {
+        "en": "sun",
+        "word": "شمس",
+        "romanised": "shams"
+      },
+      {
+        "en": "rain",
+        "word": "مطر",
+        "romanised": "matar"
+      },
+      {
+        "en": "cloud",
+        "word": "غيمة",
+        "romanised": "ghayma"
+      },
+      {
+        "en": "wind",
+        "word": "رياح",
+        "romanised": "riyah"
+      },
+      {
+        "en": "snow",
+        "word": "ثلج",
+        "romanised": "thalj"
+      },
+      {
+        "en": "hot",
+        "word": "حار",
+        "romanised": "harr"
+      },
+      {
+        "en": "cold",
+        "word": "بارد",
+        "romanised": "barid"
+      }
+    ],
+    "maths": [
+      {
+        "en": "plus",
+        "word": "زائد",
+        "romanised": "zaid"
+      },
+      {
+        "en": "minus",
+        "word": "ناقص",
+        "romanised": "naqis"
+      },
+      {
+        "en": "equals",
+        "word": "يساوي",
+        "romanised": "yusawi"
+      },
+      {
+        "en": "number",
+        "word": "عدد",
+        "romanised": "adad"
+      },
+      {
+        "en": "half",
+        "word": "نصف",
+        "romanised": "nisf"
+      }
+    ],
+    "science": [
+      {
+        "en": "science",
+        "word": "علوم",
+        "romanised": "ulum"
+      },
+      {
+        "en": "experiment",
+        "word": "تجربة",
+        "romanised": "tajriba"
+      },
+      {
+        "en": "plant",
+        "word": "نبات",
+        "romanised": "nabat"
+      },
+      {
+        "en": "light",
+        "word": "ضوء",
+        "romanised": "daw"
+      },
+      {
+        "en": "energy",
+        "word": "طاقة",
+        "romanised": "taqa"
+      }
+    ],
+    "geography": [
+      {
+        "en": "mountain",
+        "word": "جبل",
+        "romanised": "jabal"
+      },
+      {
+        "en": "river",
+        "word": "نهر",
+        "romanised": "nahr"
+      },
+      {
+        "en": "sea",
+        "word": "بحر",
+        "romanised": "bahr"
+      },
+      {
+        "en": "desert",
+        "word": "صحراء",
+        "romanised": "sahra"
+      },
+      {
+        "en": "country",
+        "word": "بلد",
+        "romanised": "balad"
+      },
+      {
+        "en": "city",
+        "word": "مدينة",
+        "romanised": "madina"
+      },
+      {
+        "en": "map",
+        "word": "خريطة",
+        "romanised": "kharita"
+      }
+    ],
+    "kitchen": [
+      {
+        "en": "plate",
+        "word": "صحن",
+        "romanised": "sahn"
+      },
+      {
+        "en": "cup",
+        "word": "كوب",
+        "romanised": "kub"
+      },
+      {
+        "en": "spoon",
+        "word": "ملعقة",
+        "romanised": "milaqa"
+      },
+      {
+        "en": "fork",
+        "word": "شوكة",
+        "romanised": "shawka"
+      },
+      {
+        "en": "knife",
+        "word": "سكين",
+        "romanised": "sikkin"
+      },
+      {
+        "en": "cooking pot",
+        "word": "قدر",
+        "romanised": "qidr"
+      }
+    ],
+    "tools": [
+      {
+        "en": "hammer",
+        "word": "مطرقة",
+        "romanised": "mitraqa"
+      },
+      {
+        "en": "screwdriver",
+        "word": "مفك",
+        "romanised": "mifakk"
+      },
+      {
+        "en": "saw",
+        "word": "منشار",
+        "romanised": "minshar"
+      },
+      {
+        "en": "scissors",
+        "word": "مقص",
+        "romanised": "miqass"
+      },
+      {
+        "en": "ruler",
+        "word": "مسطرة",
+        "romanised": "mistara"
+      }
+    ],
+    "nature": [
+      {
+        "en": "tree",
+        "word": "شجرة",
+        "romanised": "shajara"
+      },
+      {
+        "en": "flower",
+        "word": "زهرة",
+        "romanised": "zahra"
+      },
+      {
+        "en": "leaf",
+        "word": "ورقة",
+        "romanised": "waraqa"
+      },
+      {
+        "en": "grass",
+        "word": "عشب",
+        "romanised": "ushb"
+      },
+      {
+        "en": "sky",
+        "word": "سماء",
+        "romanised": "samaa"
+      },
+      {
+        "en": "stone",
+        "word": "حجر",
+        "romanised": "hajar"
+      }
+    ],
+    "time": [
+      {
+        "en": "day",
+        "word": "يوم",
+        "romanised": "yawm"
+      },
+      {
+        "en": "night",
+        "word": "ليل",
+        "romanised": "layl"
+      },
+      {
+        "en": "today",
+        "word": "اليوم",
+        "romanised": "al-yawm"
+      },
+      {
+        "en": "tomorrow",
+        "word": "غدا",
+        "romanised": "ghadan"
+      },
+      {
+        "en": "yesterday",
+        "word": "أمس",
+        "romanised": "ams"
+      },
+      {
+        "en": "week",
+        "word": "أسبوع",
+        "romanised": "usbu"
+      }
+    ],
+    "feelings": [
+      {
+        "en": "happy",
+        "word": "سعيد",
+        "romanised": "said"
+      },
+      {
+        "en": "sad",
+        "word": "حزين",
+        "romanised": "hazin"
+      },
+      {
+        "en": "angry",
+        "word": "غاضب",
+        "romanised": "ghadib"
+      },
+      {
+        "en": "scared",
+        "word": "خائف",
+        "romanised": "khaif"
+      },
+      {
+        "en": "tired",
+        "word": "متعب",
+        "romanised": "mutab"
+      }
+    ]
+  }
+}

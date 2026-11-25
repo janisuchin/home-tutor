@@ -1,0 +1,869 @@
+[
+  {
+    "countryCode": "AT",
+    "country": "Austria",
+    "general": "112",
+    "police": "133",
+    "ambulance": "144",
+    "fire": "122",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "BE",
+    "country": "Belgium",
+    "general": "112",
+    "police": "101",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "BG",
+    "country": "Bulgaria",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works from any phone, free of charge."
+  },
+  {
+    "countryCode": "HR",
+    "country": "Croatia",
+    "general": "112",
+    "police": "192",
+    "ambulance": "194",
+    "fire": "193",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "CY",
+    "country": "Cyprus",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works from any phone, free of charge."
+  },
+  {
+    "countryCode": "CZ",
+    "country": "Czechia",
+    "general": "112",
+    "police": "158",
+    "ambulance": "155",
+    "fire": "150",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "DK",
+    "country": "Denmark",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 is the only national emergency number."
+  },
+  {
+    "countryCode": "EE",
+    "country": "Estonia",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 is the only national emergency number."
+  },
+  {
+    "countryCode": "FI",
+    "country": "Finland",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 is the only national emergency number."
+  },
+  {
+    "countryCode": "FR",
+    "country": "France",
+    "general": "112",
+    "police": "17",
+    "ambulance": "15",
+    "fire": "18",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "DE",
+    "country": "Germany",
+    "general": "112",
+    "police": "110",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "GR",
+    "country": "Greece",
+    "general": "112",
+    "police": "100",
+    "ambulance": "166",
+    "fire": "199",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "HU",
+    "country": "Hungary",
+    "general": "112",
+    "police": "107",
+    "ambulance": "104",
+    "fire": "105",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "IE",
+    "country": "Ireland",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "999 and 112 both work.",
+    "police": "999",
+    "ambulance": "999",
+    "fire": "999"
+  },
+  {
+    "countryCode": "IT",
+    "country": "Italy",
+    "general": "112",
+    "police": "113",
+    "ambulance": "118",
+    "fire": "115",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "LV",
+    "country": "Latvia",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works from any phone, free of charge."
+  },
+  {
+    "countryCode": "LT",
+    "country": "Lithuania",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works from any phone, free of charge."
+  },
+  {
+    "countryCode": "LU",
+    "country": "Luxembourg",
+    "general": "112",
+    "police": "113",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "MT",
+    "country": "Malta",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 is the only national emergency number."
+  },
+  {
+    "countryCode": "NL",
+    "country": "Netherlands",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 is the only national emergency number."
+  },
+  {
+    "countryCode": "PL",
+    "country": "Poland",
+    "general": "112",
+    "police": "997",
+    "ambulance": "999",
+    "fire": "998",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "PT",
+    "country": "Portugal",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 is the only national emergency number."
+  },
+  {
+    "countryCode": "RO",
+    "country": "Romania",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 is the only national emergency number."
+  },
+  {
+    "countryCode": "SK",
+    "country": "Slovakia",
+    "general": "112",
+    "police": "158",
+    "ambulance": "155",
+    "fire": "150",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "SI",
+    "country": "Slovenia",
+    "general": "112",
+    "police": "113",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works everywhere; national numbers also exist."
+  },
+  {
+    "countryCode": "ES",
+    "country": "Spain",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 works from any phone, free of charge."
+  },
+  {
+    "countryCode": "SE",
+    "country": "Sweden",
+    "general": "112",
+    "source": {
+      "title": "112 - the European emergency number",
+      "publisher": "European Commission",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    },
+    "verified": true,
+    "note": "112 is the only national emergency number."
+  },
+  {
+    "countryCode": "GB",
+    "country": "United Kingdom",
+    "general": "999",
+    "source": {
+      "title": "When to call 999",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/"
+    },
+    "verified": true,
+    "note": "112 also works. 111 is the non-emergency NHS line."
+  },
+  {
+    "countryCode": "US",
+    "country": "United States",
+    "general": "911",
+    "source": {
+      "title": "911.gov",
+      "publisher": "US National 911 Program",
+      "url": "https://www.911.gov/"
+    },
+    "verified": true,
+    "note": "Text-to-911 is available in some areas."
+  },
+  {
+    "countryCode": "CA",
+    "country": "Canada",
+    "general": "911",
+    "source": {
+      "title": "9-1-1 service",
+      "publisher": "Canadian Radio-television and Telecommunications Commission",
+      "url": "https://crtc.gc.ca/eng/phone/911/"
+    },
+    "verified": true,
+    "note": "911 across Canada."
+  },
+  {
+    "countryCode": "AU",
+    "country": "Australia",
+    "general": "000",
+    "source": {
+      "title": "Triple Zero",
+      "publisher": "Australian Government",
+      "url": "https://www.triplezero.gov.au/"
+    },
+    "verified": true,
+    "note": "112 also works from mobile phones."
+  },
+  {
+    "countryCode": "NZ",
+    "country": "New Zealand",
+    "general": "111",
+    "source": {
+      "title": "New Zealand Police",
+      "publisher": "New Zealand Police",
+      "url": "https://www.police.govt.nz/"
+    },
+    "verified": true,
+    "note": "Ask for police, fire or ambulance."
+  },
+  {
+    "countryCode": "IN",
+    "country": "India",
+    "general": "112",
+    "police": "100",
+    "ambulance": "108",
+    "fire": "101",
+    "source": {
+      "title": "Emergency Response Support System (112)",
+      "publisher": "Ministry of Home Affairs, India",
+      "url": "https://112.gov.in/"
+    },
+    "verified": true,
+    "note": "112 is the single number; 100, 101, 102 and 108 also widely used."
+  },
+  {
+    "countryCode": "JP",
+    "country": "Japan",
+    "police": "110",
+    "ambulance": "119",
+    "fire": "119",
+    "source": {
+      "title": "Fire and Disaster Management Agency",
+      "publisher": "Fire and Disaster Management Agency, Japan",
+      "url": "https://www.fdma.go.jp/en/"
+    },
+    "verified": true,
+    "note": "119 is for fire and ambulance."
+  },
+  {
+    "countryCode": "CN",
+    "country": "China",
+    "police": "110",
+    "ambulance": "120",
+    "fire": "119",
+    "source": {
+      "title": "Central People's Government portal",
+      "publisher": "Government of the People's Republic of China",
+      "url": "https://www.gov.cn/"
+    },
+    "verified": true
+  },
+  {
+    "countryCode": "KR",
+    "country": "South Korea",
+    "police": "112",
+    "ambulance": "119",
+    "fire": "119",
+    "source": {
+      "title": "Korea National Police Agency",
+      "publisher": "Korean Government",
+      "url": "https://www.police.go.kr/eng/"
+    },
+    "verified": true,
+    "note": "119 is for fire and ambulance."
+  },
+  {
+    "countryCode": "CH",
+    "country": "Switzerland",
+    "general": "112",
+    "police": "117",
+    "ambulance": "144",
+    "fire": "118",
+    "source": {
+      "title": "Federal Office for Civil Protection",
+      "publisher": "Swiss Federal Government",
+      "url": "https://www.babs.admin.ch/en"
+    },
+    "verified": true,
+    "note": "112 also works."
+  },
+  {
+    "countryCode": "NO",
+    "country": "Norway",
+    "police": "112",
+    "ambulance": "113",
+    "fire": "110",
+    "source": {
+      "title": "Norwegian Police",
+      "publisher": "Norwegian Police Service",
+      "url": "https://www.politiet.no/en/"
+    },
+    "verified": true
+  },
+  {
+    "countryCode": "IS",
+    "country": "Iceland",
+    "general": "112",
+    "source": {
+      "title": "112 Iceland",
+      "publisher": "Neyðarlínan (Emergency Line Iceland)",
+      "url": "https://www.112.is/en"
+    },
+    "verified": true,
+    "note": "112 is the only national emergency number."
+  },
+  {
+    "countryCode": "TR",
+    "country": "Turkey",
+    "general": "112",
+    "source": {
+      "title": "112 Emergency Call Centres",
+      "publisher": "Republic of Turkey Ministry of Interior",
+      "url": "https://www.112.gov.tr/"
+    },
+    "verified": true,
+    "note": "112 is the single emergency number."
+  },
+  {
+    "countryCode": "RU",
+    "country": "Russia",
+    "general": "112",
+    "police": "102",
+    "ambulance": "103",
+    "fire": "101",
+    "source": {
+      "title": "EMERCOM of Russia",
+      "publisher": "Ministry of Emergency Situations of Russia",
+      "url": "https://en.mchs.gov.ru/"
+    },
+    "verified": false,
+    "note": "112 from any phone; 101, 102, 103 also used."
+  },
+  {
+    "countryCode": "BR",
+    "country": "Brazil",
+    "police": "190",
+    "ambulance": "192",
+    "fire": "193",
+    "source": {
+      "title": "Government of Brazil",
+      "publisher": "Government of Brazil",
+      "url": "https://www.gov.br/"
+    },
+    "verified": true
+  },
+  {
+    "countryCode": "MX",
+    "country": "Mexico",
+    "general": "911",
+    "source": {
+      "title": "911 Emergencias",
+      "publisher": "Government of Mexico",
+      "url": "https://www.gob.mx/911"
+    },
+    "verified": true,
+    "note": "911 is the national emergency number."
+  },
+  {
+    "countryCode": "AR",
+    "country": "Argentina",
+    "general": "911",
+    "ambulance": "107",
+    "fire": "100",
+    "source": {
+      "title": "Government of Argentina",
+      "publisher": "Government of Argentina",
+      "url": "https://www.argentina.gob.ar/"
+    },
+    "verified": false,
+    "note": "911 in many cities; 107 ambulance and 100 fire are also used. Check locally."
+  },
+  {
+    "countryCode": "CL",
+    "country": "Chile",
+    "police": "133",
+    "ambulance": "131",
+    "fire": "132",
+    "source": {
+      "title": "Government of Chile",
+      "publisher": "Government of Chile",
+      "url": "https://www.gob.cl/"
+    },
+    "verified": false
+  },
+  {
+    "countryCode": "CO",
+    "country": "Colombia",
+    "general": "123",
+    "source": {
+      "title": "Government of Colombia",
+      "publisher": "Government of Colombia",
+      "url": "https://www.gov.co/"
+    },
+    "verified": false,
+    "note": "123 is the national emergency line."
+  },
+  {
+    "countryCode": "PE",
+    "country": "Peru",
+    "police": "105",
+    "ambulance": "106",
+    "fire": "116",
+    "source": {
+      "title": "Government of Peru",
+      "publisher": "Government of Peru",
+      "url": "https://www.gob.pe/"
+    },
+    "verified": false,
+    "note": "Check locally; SAMU ambulance is 106."
+  },
+  {
+    "countryCode": "ZA",
+    "country": "South Africa",
+    "general": "112",
+    "police": "10111",
+    "ambulance": "10177",
+    "source": {
+      "title": "South African Government",
+      "publisher": "South African Government",
+      "url": "https://www.gov.za/"
+    },
+    "verified": false,
+    "note": "112 from mobile phones."
+  },
+  {
+    "countryCode": "NG",
+    "country": "Nigeria",
+    "general": "112",
+    "source": {
+      "title": "Nigerian Communications Commission",
+      "publisher": "Nigerian Communications Commission",
+      "url": "https://www.ncc.gov.ng/"
+    },
+    "verified": false,
+    "note": "112 is the national emergency number; coverage varies."
+  },
+  {
+    "countryCode": "KE",
+    "country": "Kenya",
+    "general": "999",
+    "source": {
+      "title": "National Police Service Kenya",
+      "publisher": "National Police Service Kenya",
+      "url": "https://www.nationalpolice.go.ke/"
+    },
+    "verified": false,
+    "note": "999 and 112 are both used."
+  },
+  {
+    "countryCode": "GH",
+    "country": "Ghana",
+    "general": "112",
+    "source": {
+      "title": "Government of Ghana",
+      "publisher": "Government of Ghana",
+      "url": "https://www.ghana.gov.gh/"
+    },
+    "verified": false,
+    "note": "112 is the national emergency number."
+  },
+  {
+    "countryCode": "EG",
+    "country": "Egypt",
+    "police": "122",
+    "ambulance": "123",
+    "fire": "180",
+    "source": {
+      "title": "Egyptian Government portal",
+      "publisher": "Government of Egypt",
+      "url": "https://www.egypt.gov.eg/"
+    },
+    "verified": false
+  },
+  {
+    "countryCode": "MA",
+    "country": "Morocco",
+    "police": "19",
+    "ambulance": "15",
+    "fire": "15",
+    "source": {
+      "title": "Government of Morocco",
+      "publisher": "Government of Morocco",
+      "url": "https://www.maroc.ma/"
+    },
+    "verified": false
+  },
+  {
+    "countryCode": "PK",
+    "country": "Pakistan",
+    "police": "15",
+    "ambulance": "1122",
+    "source": {
+      "title": "Punjab Emergency Service (Rescue 1122)",
+      "publisher": "Government of Punjab, Pakistan",
+      "url": "https://rescue.gov.pk/"
+    },
+    "verified": false,
+    "note": "Numbers vary by province; 1122 rescue in many areas, 15 police."
+  },
+  {
+    "countryCode": "BD",
+    "country": "Bangladesh",
+    "general": "999",
+    "source": {
+      "title": "National Emergency Service 999",
+      "publisher": "Bangladesh Police",
+      "url": "https://www.police.gov.bd/"
+    },
+    "verified": false,
+    "note": "999 is the national emergency service."
+  },
+  {
+    "countryCode": "NP",
+    "country": "Nepal",
+    "police": "100",
+    "ambulance": "102",
+    "fire": "101",
+    "source": {
+      "title": "Nepal Police",
+      "publisher": "Nepal Police",
+      "url": "https://www.nepalpolice.gov.np/"
+    },
+    "verified": false
+  },
+  {
+    "countryCode": "LK",
+    "country": "Sri Lanka",
+    "police": "119",
+    "ambulance": "1990",
+    "fire": "110",
+    "source": {
+      "title": "Sri Lanka Police",
+      "publisher": "Sri Lanka Police",
+      "url": "https://www.police.lk/"
+    },
+    "verified": false,
+    "note": "1990 is the national ambulance service."
+  },
+  {
+    "countryCode": "AE",
+    "country": "United Arab Emirates",
+    "police": "999",
+    "ambulance": "998",
+    "fire": "997",
+    "source": {
+      "title": "Emergency numbers",
+      "publisher": "UAE Government portal",
+      "url": "https://u.ae/en/information-and-services/justice-safety-and-the-law/emergency-numbers"
+    },
+    "verified": false
+  },
+  {
+    "countryCode": "SA",
+    "country": "Saudi Arabia",
+    "general": "911",
+    "police": "999",
+    "ambulance": "997",
+    "fire": "998",
+    "source": {
+      "title": "Unified National Platform",
+      "publisher": "Government of Saudi Arabia",
+      "url": "https://my.gov.sa/"
+    },
+    "verified": false,
+    "note": "911 is the unified number in some regions."
+  },
+  {
+    "countryCode": "IL",
+    "country": "Israel",
+    "police": "100",
+    "ambulance": "101",
+    "fire": "102",
+    "source": {
+      "title": "Government of Israel",
+      "publisher": "Government of Israel",
+      "url": "https://www.gov.il/en"
+    },
+    "verified": false
+  },
+  {
+    "countryCode": "ID",
+    "country": "Indonesia",
+    "general": "112",
+    "police": "110",
+    "ambulance": "119",
+    "fire": "113",
+    "source": {
+      "title": "Government of Indonesia",
+      "publisher": "Government of Indonesia",
+      "url": "https://indonesia.go.id/"
+    },
+    "verified": false,
+    "note": "112 in many areas; 110 police, 118 or 119 ambulance, 113 fire."
+  },
+  {
+    "countryCode": "PH",
+    "country": "Philippines",
+    "general": "911",
+    "source": {
+      "title": "Official Gazette of the Philippines",
+      "publisher": "Government of the Philippines",
+      "url": "https://www.officialgazette.gov.ph/"
+    },
+    "verified": false,
+    "note": "911 is the national emergency hotline."
+  },
+  {
+    "countryCode": "SG",
+    "country": "Singapore",
+    "police": "999",
+    "ambulance": "995",
+    "fire": "995",
+    "source": {
+      "title": "Singapore Civil Defence Force",
+      "publisher": "Singapore Civil Defence Force",
+      "url": "https://www.scdf.gov.sg/"
+    },
+    "verified": true,
+    "note": "995 is for fire and ambulance."
+  },
+  {
+    "countryCode": "MY",
+    "country": "Malaysia",
+    "general": "999",
+    "source": {
+      "title": "Government of Malaysia",
+      "publisher": "Government of Malaysia",
+      "url": "https://www.malaysia.gov.my/"
+    },
+    "verified": false,
+    "note": "112 also works from mobile phones."
+  },
+  {
+    "countryCode": "TH",
+    "country": "Thailand",
+    "police": "191",
+    "ambulance": "1669",
+    "fire": "199",
+    "source": {
+      "title": "Government of Thailand",
+      "publisher": "Royal Thai Government",
+      "url": "https://www.thaigov.go.th/"
+    },
+    "verified": false
+  },
+  {
+    "countryCode": "VN",
+    "country": "Vietnam",
+    "police": "113",
+    "ambulance": "115",
+    "fire": "114",
+    "source": {
+      "title": "Government of Vietnam",
+      "publisher": "Government of Vietnam",
+      "url": "https://www.chinhphu.vn/"
+    },
+    "verified": false
+  }
+]

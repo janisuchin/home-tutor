@@ -1,0 +1,599 @@
+{
+  "language": "ru",
+  "name": "Russian",
+  "nativeName": "Русский",
+  "ttsLang": "ru-RU",
+  "concepts": {
+    "numbers": [
+      {
+        "en": "one",
+        "word": "один",
+        "romanised": "odin"
+      },
+      {
+        "en": "two",
+        "word": "два",
+        "romanised": "dva"
+      },
+      {
+        "en": "three",
+        "word": "три",
+        "romanised": "tri"
+      },
+      {
+        "en": "four",
+        "word": "четыре",
+        "romanised": "chetyre"
+      },
+      {
+        "en": "five",
+        "word": "пять",
+        "romanised": "pyat"
+      },
+      {
+        "en": "six",
+        "word": "шесть",
+        "romanised": "shest"
+      },
+      {
+        "en": "seven",
+        "word": "семь",
+        "romanised": "sem"
+      },
+      {
+        "en": "eight",
+        "word": "восемь",
+        "romanised": "vosem"
+      },
+      {
+        "en": "nine",
+        "word": "девять",
+        "romanised": "devyat"
+      },
+      {
+        "en": "ten",
+        "word": "десять",
+        "romanised": "desyat"
+      }
+    ],
+    "colours": [
+      {
+        "en": "red",
+        "word": "красный",
+        "romanised": "krasnyy"
+      },
+      {
+        "en": "blue",
+        "word": "синий",
+        "romanised": "siniy"
+      },
+      {
+        "en": "light blue",
+        "word": "голубой",
+        "romanised": "goluboy"
+      },
+      {
+        "en": "green",
+        "word": "зелёный",
+        "romanised": "zelyonyy"
+      },
+      {
+        "en": "yellow",
+        "word": "жёлтый",
+        "romanised": "zhyoltyy"
+      },
+      {
+        "en": "black",
+        "word": "чёрный",
+        "romanised": "chyornyy"
+      },
+      {
+        "en": "white",
+        "word": "белый",
+        "romanised": "belyy"
+      }
+    ],
+    "shapes": [
+      {
+        "en": "circle",
+        "word": "круг",
+        "romanised": "krug"
+      },
+      {
+        "en": "square",
+        "word": "квадрат",
+        "romanised": "kvadrat"
+      },
+      {
+        "en": "triangle",
+        "word": "треугольник",
+        "romanised": "treugolnik"
+      },
+      {
+        "en": "star",
+        "word": "звезда",
+        "romanised": "zvezda"
+      },
+      {
+        "en": "rectangle",
+        "word": "прямоугольник",
+        "romanised": "pryamougolnik"
+      }
+    ],
+    "family": [
+      {
+        "en": "mum",
+        "word": "мама",
+        "romanised": "mama"
+      },
+      {
+        "en": "dad",
+        "word": "папа",
+        "romanised": "papa"
+      },
+      {
+        "en": "sister",
+        "word": "сестра",
+        "romanised": "sestra"
+      },
+      {
+        "en": "brother",
+        "word": "брат",
+        "romanised": "brat"
+      },
+      {
+        "en": "grandmother",
+        "word": "бабушка",
+        "romanised": "babushka"
+      },
+      {
+        "en": "grandfather",
+        "word": "дедушка",
+        "romanised": "dedushka"
+      }
+    ],
+    "food": [
+      {
+        "en": "bread",
+        "word": "хлеб",
+        "romanised": "khleb"
+      },
+      {
+        "en": "rice",
+        "word": "рис",
+        "romanised": "ris"
+      },
+      {
+        "en": "water",
+        "word": "вода",
+        "romanised": "voda"
+      },
+      {
+        "en": "milk",
+        "word": "молоко",
+        "romanised": "moloko"
+      },
+      {
+        "en": "egg",
+        "word": "яйцо",
+        "romanised": "yaytso"
+      },
+      {
+        "en": "fish",
+        "word": "рыба",
+        "romanised": "ryba"
+      }
+    ],
+    "fruit": [
+      {
+        "en": "apple",
+        "word": "яблоко",
+        "romanised": "yabloko"
+      },
+      {
+        "en": "banana",
+        "word": "банан",
+        "romanised": "banan"
+      },
+      {
+        "en": "orange",
+        "word": "апельсин",
+        "romanised": "apelsin"
+      },
+      {
+        "en": "grapes",
+        "word": "виноград",
+        "romanised": "vinograd"
+      },
+      {
+        "en": "mango",
+        "word": "манго",
+        "romanised": "mango"
+      },
+      {
+        "en": "watermelon",
+        "word": "арбуз",
+        "romanised": "arbuz"
+      }
+    ],
+    "animals": [
+      {
+        "en": "dog",
+        "word": "собака",
+        "romanised": "sobaka"
+      },
+      {
+        "en": "cat",
+        "word": "кошка",
+        "romanised": "koshka"
+      },
+      {
+        "en": "horse",
+        "word": "лошадь",
+        "romanised": "loshad"
+      },
+      {
+        "en": "cow",
+        "word": "корова",
+        "romanised": "korova"
+      },
+      {
+        "en": "bird",
+        "word": "птица",
+        "romanised": "ptitsa"
+      },
+      {
+        "en": "fish",
+        "word": "рыба",
+        "romanised": "ryba"
+      }
+    ],
+    "body": [
+      {
+        "en": "head",
+        "word": "голова",
+        "romanised": "golova"
+      },
+      {
+        "en": "eye",
+        "word": "глаз",
+        "romanised": "glaz"
+      },
+      {
+        "en": "ear",
+        "word": "ухо",
+        "romanised": "ukho"
+      },
+      {
+        "en": "nose",
+        "word": "нос",
+        "romanised": "nos"
+      },
+      {
+        "en": "mouth",
+        "word": "рот",
+        "romanised": "rot"
+      },
+      {
+        "en": "hand / arm",
+        "word": "рука",
+        "romanised": "ruka"
+      },
+      {
+        "en": "foot / leg",
+        "word": "нога",
+        "romanised": "noga"
+      }
+    ],
+    "greetings": [
+      {
+        "en": "hello (polite)",
+        "word": "Здравствуйте",
+        "romanised": "zdravstvuyte"
+      },
+      {
+        "en": "hi (friendly)",
+        "word": "Привет",
+        "romanised": "privet"
+      },
+      {
+        "en": "good morning",
+        "word": "Доброе утро",
+        "romanised": "dobroye utro"
+      },
+      {
+        "en": "goodbye",
+        "word": "До свидания",
+        "romanised": "do svidaniya"
+      },
+      {
+        "en": "please",
+        "word": "Пожалуйста",
+        "romanised": "pozhaluysta"
+      },
+      {
+        "en": "thank you",
+        "word": "Спасибо",
+        "romanised": "spasibo"
+      },
+      {
+        "en": "how are things?",
+        "word": "Как дела?",
+        "romanised": "kak dela"
+      }
+    ],
+    "weather": [
+      {
+        "en": "sun",
+        "word": "солнце",
+        "romanised": "solntse"
+      },
+      {
+        "en": "rain",
+        "word": "дождь",
+        "romanised": "dozhd"
+      },
+      {
+        "en": "cloud",
+        "word": "облако",
+        "romanised": "oblako"
+      },
+      {
+        "en": "wind",
+        "word": "ветер",
+        "romanised": "veter"
+      },
+      {
+        "en": "snow",
+        "word": "снег",
+        "romanised": "sneg"
+      },
+      {
+        "en": "it is hot",
+        "word": "жарко",
+        "romanised": "zharko"
+      },
+      {
+        "en": "it is cold",
+        "word": "холодно",
+        "romanised": "kholodno"
+      }
+    ],
+    "maths": [
+      {
+        "en": "plus",
+        "word": "плюс",
+        "romanised": "plyus"
+      },
+      {
+        "en": "minus",
+        "word": "минус",
+        "romanised": "minus"
+      },
+      {
+        "en": "equals",
+        "word": "равно",
+        "romanised": "ravno"
+      },
+      {
+        "en": "number",
+        "word": "число",
+        "romanised": "chislo"
+      },
+      {
+        "en": "half",
+        "word": "половина",
+        "romanised": "polovina"
+      }
+    ],
+    "science": [
+      {
+        "en": "science",
+        "word": "наука",
+        "romanised": "nauka"
+      },
+      {
+        "en": "experiment",
+        "word": "опыт",
+        "romanised": "opyt"
+      },
+      {
+        "en": "plant",
+        "word": "растение",
+        "romanised": "rasteniye"
+      },
+      {
+        "en": "light",
+        "word": "свет",
+        "romanised": "svet"
+      },
+      {
+        "en": "energy",
+        "word": "энергия",
+        "romanised": "energiya"
+      }
+    ],
+    "geography": [
+      {
+        "en": "mountain",
+        "word": "гора",
+        "romanised": "gora"
+      },
+      {
+        "en": "river",
+        "word": "река",
+        "romanised": "reka"
+      },
+      {
+        "en": "sea",
+        "word": "море",
+        "romanised": "more"
+      },
+      {
+        "en": "country",
+        "word": "страна",
+        "romanised": "strana"
+      },
+      {
+        "en": "city",
+        "word": "город",
+        "romanised": "gorod"
+      },
+      {
+        "en": "map",
+        "word": "карта",
+        "romanised": "karta"
+      }
+    ],
+    "kitchen": [
+      {
+        "en": "plate",
+        "word": "тарелка",
+        "romanised": "tarelka"
+      },
+      {
+        "en": "cup",
+        "word": "чашка",
+        "romanised": "chashka"
+      },
+      {
+        "en": "spoon",
+        "word": "ложка",
+        "romanised": "lozhka"
+      },
+      {
+        "en": "fork",
+        "word": "вилка",
+        "romanised": "vilka"
+      },
+      {
+        "en": "knife",
+        "word": "нож",
+        "romanised": "nozh"
+      },
+      {
+        "en": "saucepan",
+        "word": "кастрюля",
+        "romanised": "kastryulya"
+      }
+    ],
+    "tools": [
+      {
+        "en": "hammer",
+        "word": "молоток",
+        "romanised": "molotok"
+      },
+      {
+        "en": "screwdriver",
+        "word": "отвёртка",
+        "romanised": "otvyortka"
+      },
+      {
+        "en": "saw",
+        "word": "пила",
+        "romanised": "pila"
+      },
+      {
+        "en": "scissors",
+        "word": "ножницы",
+        "romanised": "nozhnitsy"
+      },
+      {
+        "en": "ruler",
+        "word": "линейка",
+        "romanised": "lineyka"
+      }
+    ],
+    "nature": [
+      {
+        "en": "tree",
+        "word": "дерево",
+        "romanised": "derevo"
+      },
+      {
+        "en": "flower",
+        "word": "цветок",
+        "romanised": "tsvetok"
+      },
+      {
+        "en": "leaf",
+        "word": "лист",
+        "romanised": "list"
+      },
+      {
+        "en": "grass",
+        "word": "трава",
+        "romanised": "trava"
+      },
+      {
+        "en": "sky",
+        "word": "небо",
+        "romanised": "nebo"
+      },
+      {
+        "en": "stone",
+        "word": "камень",
+        "romanised": "kamen"
+      }
+    ],
+    "time": [
+      {
+        "en": "day",
+        "word": "день",
+        "romanised": "den"
+      },
+      {
+        "en": "night",
+        "word": "ночь",
+        "romanised": "noch"
+      },
+      {
+        "en": "today",
+        "word": "сегодня",
+        "romanised": "segodnya"
+      },
+      {
+        "en": "tomorrow",
+        "word": "завтра",
+        "romanised": "zavtra"
+      },
+      {
+        "en": "yesterday",
+        "word": "вчера",
+        "romanised": "vchera"
+      },
+      {
+        "en": "week",
+        "word": "неделя",
+        "romanised": "nedelya"
+      }
+    ],
+    "feelings": [
+      {
+        "en": "happy (cheerful)",
+        "word": "весёлый",
+        "romanised": "vesyolyy"
+      },
+      {
+        "en": "sad",
+        "word": "грустный",
+        "romanised": "grustnyy"
+      },
+      {
+        "en": "angry",
+        "word": "сердитый",
+        "romanised": "serdityy"
+      },
+      {
+        "en": "tired",
+        "word": "усталый",
+        "romanised": "ustalyy"
+      },
+      {
+        "en": "fear",
+        "word": "страх",
+        "romanised": "strakh"
+      }
+    ]
+  }
+}

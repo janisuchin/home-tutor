@@ -1,0 +1,1775 @@
+{
+  "area": "special-interests",
+  "title": "Special interests",
+  "emoji": "🔭",
+  "description": "Deep-dive starters for the things children love, from dinosaurs and space to horses and gears, building up to real specialisation by 15-17.",
+  "skillTrees": [
+    {
+      "id": "spi-deep-dive",
+      "area": "special-interests",
+      "title": "Deep dive into an interest",
+      "emoji": "🔭",
+      "nodes": [
+        {
+          "id": "spark",
+          "title": "Spark",
+          "description": "Notice something that fascinates you."
+        },
+        {
+          "id": "explore",
+          "title": "Explore",
+          "description": "Try simple activities and look at books and pictures."
+        },
+        {
+          "id": "investigate",
+          "title": "Investigate",
+          "description": "Ask your own questions and test them."
+        },
+        {
+          "id": "create",
+          "title": "Create",
+          "description": "Make something: a model, a chart, a song, a garden."
+        },
+        {
+          "id": "share",
+          "title": "Share and teach",
+          "description": "Explain what you know to someone else."
+        },
+        {
+          "id": "specialise",
+          "title": "Specialise",
+          "description": "Build meaningful depth in one area over months."
+        },
+        {
+          "id": "contribute",
+          "title": "Contribute",
+          "description": "Use your expertise to help others or add new knowledge."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "spi-interest-journal",
+      "area": "special-interests",
+      "group": "personal",
+      "title": "Keeps an interest journal with 10 entries",
+      "emoji": "📔",
+      "target": 10
+    },
+    {
+      "id": "spi-run-experiment",
+      "area": "special-interests",
+      "group": "intellectual",
+      "title": "Can run a fair test about an interest and record results",
+      "emoji": "🧪"
+    },
+    {
+      "id": "spi-teach-topic",
+      "area": "special-interests",
+      "group": "intellectual",
+      "title": "Can teach a favourite topic to someone else",
+      "emoji": "🧑‍🏫"
+    },
+    {
+      "id": "spi-independent-research",
+      "area": "special-interests",
+      "group": "intellectual",
+      "title": "Can research a topic independently and write it up",
+      "emoji": "📚"
+    },
+    {
+      "id": "spi-specialisation",
+      "area": "special-interests",
+      "group": "intellectual",
+      "title": "Has developed meaningful depth in one area",
+      "emoji": "🏅"
+    },
+    {
+      "id": "spi-grow-plant",
+      "area": "special-interests",
+      "group": "practical",
+      "title": "Can grow a plant from seed",
+      "emoji": "🌱"
+    }
+  ],
+  "items": [
+    {
+      "id": "spi-moon-diary",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "space",
+      "title": "Moon diary",
+      "emoji": "🌙",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "The Moon changes shape. Let's draw it!",
+      "steps": [
+        "🌙 Look at the Moon with a grown-up.",
+        "✏️ Draw its shape.",
+        "📅 Look again another night.",
+        "🌓 Is it bigger? Smaller?",
+        "🌕 Find a full, round Moon!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Being outside in the dark"
+        ],
+        "notes": "Look from a window, or go outside only with an adult. Never look at the Sun."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil",
+            "A window"
+          ],
+          "description": "Draw the Moon from a window."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Notebook",
+            "Crayons"
+          ],
+          "description": "Keep a Moon notebook for a month."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Binoculars"
+          ],
+          "description": "Look at Moon craters through binoculars with an adult."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Binoculars",
+          "use": "Your eyes are enough!"
+        },
+        {
+          "instead": "Clear sky",
+          "use": "Pictures of Moon phases in a book"
+        }
+      ],
+      "competencies": [
+        "spi-interest-journal"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "spark"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "explore"
+        }
+      ],
+      "interests": [
+        "space"
+      ],
+      "languageHooks": [
+        "shapes",
+        "time",
+        "nature"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "id": "spi-dino-stomp",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "dinosaurs",
+      "title": "Dinosaur footprints",
+      "emoji": "🦖",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Some dinosaurs were huge! How big was a dinosaur foot?",
+      "steps": [
+        "🦶 Draw round your foot on paper.",
+        "🦖 Some big dinosaur footprints were longer than your arm!",
+        "📏 Make a big dino footprint from newspaper.",
+        "🦕 Stomp like a big dinosaur. Tiptoe like a small one!",
+        "❓ Which dinosaur do you like best?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Slipping on paper",
+          "Bumping into furniture"
+        ],
+        "notes": "Stomp on a clear, non-slip floor or outside."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Old newspaper",
+            "Pencil"
+          ],
+          "description": "Draw and compare footprints."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "Large paper",
+            "Crayons"
+          ],
+          "description": "Make a footprint trail across the room."
+        },
+        "advanced": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Chalk"
+          ],
+          "description": "Draw life-size dinosaur outlines outside with chalk."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Large paper",
+          "use": "Opened-out cardboard boxes"
+        },
+        {
+          "instead": "Chalk",
+          "use": "A stick in sand or soil"
+        }
+      ],
+      "competencies": [
+        "spi-interest-journal"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "spark"
+        }
+      ],
+      "interests": [
+        "dinosaurs",
+        "animals"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "science"
+      ]
+    },
+    {
+      "id": "spi-vehicle-spotter",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "machines and vehicles",
+      "title": "Vehicle spotter",
+      "emoji": "🚗",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Vehicles help us move. How many can you spot?",
+      "steps": [
+        "🚗 Car - how many wheels?",
+        "🚌 Bus - big or small?",
+        "🚲 Bike - 2 wheels!",
+        "🚜 Tractor - big wheels!",
+        "👀 Look out of the window or at a book.",
+        "🖍️ Draw your favourite vehicle."
+      ],
+      "practical": false,
+      "competencies": [
+        "spi-interest-journal"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "spark"
+        }
+      ],
+      "interests": [
+        "machines"
+      ],
+      "languageHooks": [
+        "numbers",
+        "colours"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "🚲 How many wheels?",
+          "options": [
+            "2",
+            "4"
+          ],
+          "answer": 0,
+          "explain": "Yes! A bicycle has 2 wheels."
+        }
+      ],
+      "adultNote": "Watch from a window or a safe spot well away from the road."
+    },
+    {
+      "id": "spi-ocean-zones",
+      "kind": "lesson",
+      "area": "special-interests",
+      "subject": "oceans",
+      "title": "Into the deep ocean",
+      "emoji": "🌊",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "The ocean has layers. The deeper you go, the darker and colder it gets.",
+      "steps": [
+        "Sunlight zone: lots of light. Most sea plants (algae), turtles and many fish live here.",
+        "Twilight zone: dim light. Some animals make their own light!",
+        "Midnight zone: no sunlight. Animals like anglerfish live here.",
+        "The deepest places are trenches, deeper than the tallest mountain is high.",
+        "Draw a tall picture of the ocean with each zone and an animal in each."
+      ],
+      "practical": false,
+      "competencies": [
+        "spi-teach-topic"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "explore"
+        }
+      ],
+      "interests": [
+        "ocean",
+        "animals"
+      ],
+      "languageHooks": [
+        "geography",
+        "animals"
+      ],
+      "connects": [
+        "science",
+        "geography",
+        "environment"
+      ],
+      "check": [
+        {
+          "question": "Where is there no sunlight?",
+          "options": [
+            "Sunlight zone",
+            "Midnight zone"
+          ],
+          "answer": 1,
+          "explain": "Yes, the midnight zone is completely dark."
+        }
+      ]
+    },
+    {
+      "id": "spi-how-horses-sense",
+      "kind": "lesson",
+      "area": "special-interests",
+      "subject": "horses",
+      "title": "How horses see and hear",
+      "emoji": "🐴",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Horses notice the world differently from us. Understanding them helps keep everyone safe.",
+      "steps": [
+        "Horses have eyes on the sides of their heads, so they see almost all the way around.",
+        "They have blind spots right behind and just in front of their nose.",
+        "Their ears turn towards sounds. Ears pointing back can mean a horse is upset.",
+        "Horses are prey animals, so sudden movements and noises can frighten them.",
+        "Safety: never walk right behind a horse, and only go near one with an experienced adult.",
+        "Draw a horse from above and shade where it cannot see."
+      ],
+      "practical": false,
+      "competencies": [
+        "spi-teach-topic"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "explore"
+        }
+      ],
+      "interests": [
+        "horses",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "body"
+      ],
+      "connects": [
+        "science",
+        "nature-animals"
+      ],
+      "check": [
+        {
+          "question": "Where should you NOT stand near a horse?",
+          "options": [
+            "Right behind it",
+            "Where it can see you, with an adult"
+          ],
+          "answer": 0,
+          "explain": "Right. A horse cannot see directly behind and might kick if startled."
+        }
+      ]
+    },
+    {
+      "id": "spi-sprout-a-seed",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "gardening",
+      "title": "Sprout a seed in a jar",
+      "emoji": "🌱",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Watch a seed wake up and grow roots and a shoot!",
+      "steps": [
+        "🫙 Put damp paper inside a clear jar or cup.",
+        "🫘 Push a dried bean between the paper and the glass.",
+        "💧 Keep the paper damp, not soaking.",
+        "👀 Look every day. What comes out first, the root or the shoot?",
+        "✏️ Draw it each day.",
+        "🪴 When it has leaves, plant it in soil."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Glass can break",
+          "Do not eat raw seeds or beans"
+        ],
+        "notes": "Use a plastic cup if possible. Wash hands after. Raw dried beans are not for eating."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Plastic cup",
+            "Kitchen paper or newspaper",
+            "A dried bean or lentil"
+          ],
+          "description": "Sprout one bean and watch it."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "Packet of seeds",
+            "Small pot of soil"
+          ],
+          "description": "Plant the sprout in soil and keep growing it."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Several seed types",
+            "Pots",
+            "Ruler"
+          ],
+          "description": "Compare how fast different seeds grow and measure them."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Clear jar",
+          "use": "A clear plastic bag taped to a window"
+        },
+        {
+          "instead": "Bean seeds",
+          "use": "Dried lentils, chickpeas or cress seeds from the kitchen"
+        },
+        {
+          "instead": "Garden",
+          "use": "Any container with a hole in the bottom"
+        }
+      ],
+      "competencies": [
+        "spi-grow-plant",
+        "spi-interest-journal"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "explore"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        }
+      ],
+      "interests": [
+        "plants"
+      ],
+      "languageHooks": [
+        "nature",
+        "science"
+      ],
+      "connects": [
+        "science",
+        "environment"
+      ]
+    },
+    {
+      "id": "spi-water-xylophone",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "music",
+      "title": "Water xylophone",
+      "emoji": "🎶",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Different amounts of water make different notes. Make your own instrument!",
+      "steps": [
+        "Line up 5 identical cups or jars.",
+        "Pour a different amount of water in each.",
+        "Tap each gently with a wooden spoon.",
+        "Which has the highest note? The lowest?",
+        "Arrange them from low to high.",
+        "Play a simple tune you know. Then make up your own!",
+        "Science: the sound comes from the cup and water vibrating. More water usually makes a lower note when tapped."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Glass can crack if hit hard",
+          "Spilled water is slippery"
+        ],
+        "notes": "Tap gently. Use thick jars or sturdy cups, and wipe up spills."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Cups or jars",
+            "Water",
+            "Wooden spoon"
+          ],
+          "description": "Make a five-note instrument."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "Food colouring"
+          ],
+          "description": "Colour each note so you can write colour music."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Phone tuner app"
+          ],
+          "description": "Tune each jar to a real musical scale."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Glass jars",
+          "use": "Sturdy metal cups or bowls"
+        },
+        {
+          "instead": "Wooden spoon",
+          "use": "A pencil"
+        }
+      ],
+      "competencies": [
+        "spi-run-experiment"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "create"
+        }
+      ],
+      "interests": [
+        "music"
+      ],
+      "languageHooks": [
+        "numbers",
+        "colours"
+      ],
+      "connects": [
+        "science",
+        "arts-creativity",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "spi-shake-butter",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "cooking science",
+      "title": "Shake cream into butter",
+      "emoji": "🧈",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 25,
+      "summary": "Shake cream long enough and it turns into butter. Why?",
+      "steps": [
+        "Pour cold cream into a jar with a tight lid, half full.",
+        "Shake! Take turns.",
+        "After a while it becomes whipped cream, then suddenly lumps appear.",
+        "The lumps are butter. The liquid is buttermilk.",
+        "Science: shaking breaks the tiny fat balls open so the fat sticks together.",
+        "Rinse the butter in cold water and taste it on bread."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Dairy allergy",
+          "Glass jar can slip"
+        ],
+        "notes": "Check for allergies first. Use a plastic jar if you can. Wash hands before and after. Keep the butter in the fridge."
+      },
+      "versions": {
+        "basic": {
+          "cost": "About 2 USD",
+          "materials": [
+            "Cream",
+            "Jar with lid"
+          ],
+          "description": "Shake to make butter."
+        },
+        "better": {
+          "cost": "About 3 USD",
+          "materials": [
+            "Cream",
+            "Jar",
+            "Pinch of salt",
+            "Herbs"
+          ],
+          "description": "Make flavoured butter and compare tastes."
+        },
+        "advanced": {
+          "cost": "About 5 USD",
+          "materials": [
+            "Two kinds of cream",
+            "Timer"
+          ],
+          "description": "Test which cream turns to butter faster and why."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Jar with lid",
+          "use": "A clean plastic bottle with a cap"
+        },
+        {
+          "instead": "Cream",
+          "use": "Watch a video of the process if cream is too costly"
+        }
+      ],
+      "competencies": [
+        "spi-run-experiment"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "food",
+        "kitchen"
+      ],
+      "connects": [
+        "science",
+        "life-skills"
+      ]
+    },
+    {
+      "id": "spi-heart-rate-science",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "sport science",
+      "title": "Heartbeat science",
+      "emoji": "❤️",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 25,
+      "summary": "Measure how exercise changes your heart rate, like a sport scientist.",
+      "steps": [
+        "Sit still for 2 minutes. Find your pulse on your wrist or neck.",
+        "Count beats for 15 seconds and multiply by 4. That is beats per minute.",
+        "Do 1 minute of star jumps or jogging on the spot.",
+        "Measure again straight away, then every minute until it returns to normal.",
+        "Draw a line graph of your results.",
+        "Think: why does your heart speed up? What does recovery time tell you?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Overexertion",
+          "Slipping"
+        ],
+        "notes": "Exercise at a comfortable level on a non-slip surface. Stop if you feel dizzy, sick or in pain, and tell an adult. Children with heart or breathing conditions should follow their doctor's advice."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "A clock with a second hand or a timer",
+            "Paper"
+          ],
+          "description": "Measure and graph your own heart rate."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "Family members"
+          ],
+          "description": "Compare results across family members and different exercises."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Fitness watch or phone heart-rate app"
+          ],
+          "description": "Compare your hand count with a device. Which is more accurate?"
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Stopwatch",
+          "use": "Count \"one-and-two-and\" or use a phone clock"
+        },
+        {
+          "instead": "Running track",
+          "use": "Jogging on the spot indoors"
+        }
+      ],
+      "competencies": [
+        "spi-run-experiment"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        }
+      ],
+      "interests": [
+        "sport",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "mathematics",
+        "physical-education",
+        "health"
+      ]
+    },
+    {
+      "id": "spi-paper-bridge",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "building and architecture",
+      "title": "Strongest paper bridge",
+      "emoji": "🌉",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 30,
+      "summary": "Engineers use shapes to make bridges strong. How strong can you make a paper bridge?",
+      "steps": [
+        "Put two piles of books 20 cm apart.",
+        "Lay a flat sheet of paper across. Add coins. How many before it falls?",
+        "Now fold the paper: try a zigzag, a tube or a U-shape.",
+        "Test each with coins and record results.",
+        "Which shape is strongest? Why?",
+        "Look for these shapes in real bridges and buildings."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Paper cuts",
+          "Small coins near younger children"
+        ],
+        "notes": "Keep coins away from toddlers. Handle paper edges carefully."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Books",
+            "Coins"
+          ],
+          "description": "Test three paper shapes."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "Card",
+            "Tape",
+            "Straws"
+          ],
+          "description": "Build a truss bridge from straws."
+        },
+        "advanced": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Wooden craft sticks",
+            "Glue"
+          ],
+          "description": "Build a stick bridge and test it with a bag of rice."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Coins",
+          "use": "Small stones, dried beans or washers"
+        },
+        {
+          "instead": "Books",
+          "use": "Two boxes or chairs"
+        }
+      ],
+      "competencies": [
+        "spi-run-experiment"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "create"
+        }
+      ],
+      "interests": [
+        "building",
+        "machines"
+      ],
+      "languageHooks": [
+        "shapes",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "mathematics",
+        "careers"
+      ]
+    },
+    {
+      "id": "spi-art-around-the-world",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "art history",
+      "title": "Art through time and around the world",
+      "emoji": "🖼️",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 40,
+      "summary": "People have made art for tens of thousands of years, everywhere on Earth. Make an art timeline!",
+      "steps": [
+        "Cave paintings: some of the oldest known paintings are tens of thousands of years old.",
+        "Ancient Egypt: wall paintings and sculptures for tombs and temples.",
+        "Chinese ink painting: mountains and water painted with brushes on silk or paper.",
+        "Islamic art: beautiful geometric patterns and calligraphy.",
+        "European Renaissance: painters studied perspective and the human body.",
+        "Indian miniature painting, Japanese woodblock prints, West African sculpture, and modern art too.",
+        "Make a timeline on a long strip of paper. Draw your own small copy of one artwork in its style."
+      ],
+      "practical": false,
+      "competencies": [
+        "spi-teach-topic"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "explore"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "create"
+        }
+      ],
+      "interests": [
+        "art",
+        "stories"
+      ],
+      "connects": [
+        "history",
+        "arts-creativity",
+        "geography"
+      ],
+      "adultNote": "Free museum websites and library books have high-quality images. Talk about where art comes from and who made it."
+    },
+    {
+      "id": "spi-design-a-game",
+      "kind": "project",
+      "area": "special-interests",
+      "subject": "coding games",
+      "title": "Design your own game",
+      "emoji": "🎮",
+      "ageBands": [
+        "12-14",
+        "9-11"
+      ],
+      "level": 5,
+      "minutes": 120,
+      "summary": "Game designers test ideas on paper before coding. Design a game, test it, then code it if you can.",
+      "steps": [
+        "Choose a goal: what does the player try to do?",
+        "Write the rules: turns, moves, how you win.",
+        "Make a paper prototype: a board, cards or a sketch of each screen.",
+        "Play-test with family. Write down what is confusing or boring.",
+        "Change one rule at a time and test again.",
+        "Optional: code a simple version with block or text coding.",
+        "Teach someone new to play it."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Long screen time"
+        ],
+        "notes": "Take breaks from screens. Paper versions need no screen at all."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil",
+            "Bottle tops as counters"
+          ],
+          "description": "Make a paper board game."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Card",
+            "Dice",
+            "Coloured pens"
+          ],
+          "description": "Make a polished board or card game."
+        },
+        "advanced": {
+          "cost": "Free with a computer or phone",
+          "materials": [
+            "Free block-coding or game-making website"
+          ],
+          "description": "Turn your design into a simple digital game."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Computer",
+          "use": "A paper prototype is a real game designer's tool"
+        },
+        {
+          "instead": "Dice",
+          "use": "Numbered paper slips in a cup"
+        }
+      ],
+      "competencies": [
+        "spi-teach-topic",
+        "spi-run-experiment"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "create"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "share"
+        }
+      ],
+      "interests": [
+        "games",
+        "computers",
+        "art"
+      ],
+      "connects": [
+        "technology-ai",
+        "mathematics",
+        "arts-creativity"
+      ]
+    },
+    {
+      "id": "spi-star-map",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "space",
+      "title": "Find the constellations",
+      "emoji": "✨",
+      "ageBands": [
+        "12-14",
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 40,
+      "summary": "Stars form patterns called constellations. People in different cultures saw different pictures in the same stars.",
+      "steps": [
+        "Find a dark spot with an adult, away from bright lights.",
+        "Wait 15 minutes for your eyes to adjust.",
+        "Use a star chart (printed or on a phone with the screen dimmed) to find one easy constellation.",
+        "Sketch it and note the date and time.",
+        "Research what different cultures called that star pattern.",
+        "Look again in a month. Has it moved? Why?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Being outside in the dark",
+          "Tripping",
+          "Cold"
+        ],
+        "notes": "Observation only. An adult is with you outside. Dress warmly and use a torch to walk."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil",
+            "A free star chart from a library"
+          ],
+          "description": "Find and sketch one constellation."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Torch covered with red paper or cellophane"
+          ],
+          "description": "Use red light to read charts without spoiling night vision."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Binoculars or a small telescope"
+          ],
+          "description": "Look for star clusters and the moons of Jupiter."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Star chart",
+          "use": "A dimmed phone with a free star-map app"
+        },
+        {
+          "instead": "Dark sky",
+          "use": "Draw constellations from a book indoors"
+        }
+      ],
+      "competencies": [
+        "spi-interest-journal",
+        "spi-independent-research"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        }
+      ],
+      "interests": [
+        "space",
+        "stories"
+      ],
+      "languageHooks": [
+        "nature",
+        "time"
+      ],
+      "connects": [
+        "science",
+        "history",
+        "geography"
+      ]
+    },
+    {
+      "id": "spi-make-a-fossil",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "dinosaurs",
+      "title": "Be a fossil detective",
+      "emoji": "🦴",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 40,
+      "summary": "Fossils form over millions of years. Make a model fossil and learn how real ones are found and studied.",
+      "steps": [
+        "Learn: most fossils form when a living thing is buried quickly in mud or sand, which slowly turns to rock.",
+        "Press a shell, leaf or toy dinosaur into salt dough or clay to make an imprint (\"trace fossil\").",
+        "Let it air-dry for a day or two.",
+        "Bury the fossils in a tray of sand. Ask someone to dig them out carefully with a brush, like a palaeontologist.",
+        "Record each find: draw it, measure it, guess what made it.",
+        "Research one real fossil find and how scientists worked out its age."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Salt dough is not food",
+          "Sand in eyes",
+          "Plaster gets warm as it sets"
+        ],
+        "notes": "Wash hands after. Do not eat the dough. Dig gently. Plaster is for adults to mix; never put hands or body parts in setting plaster."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Flour",
+            "Salt",
+            "Water",
+            "Leaves or shells"
+          ],
+          "description": "Make salt dough fossils."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Air-dry clay",
+            "Paintbrush",
+            "Tray of sand"
+          ],
+          "description": "Run a full fossil dig."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Plaster of Paris",
+            "Small moulds"
+          ],
+          "description": "With an adult, make plaster cast fossils."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Clay",
+          "use": "Salt dough (2 cups flour, 1 cup salt, about 1 cup water)"
+        },
+        {
+          "instead": "Sand tray",
+          "use": "A box of soil outside"
+        },
+        {
+          "instead": "Plaster of Paris",
+          "use": "Salt dough"
+        }
+      ],
+      "competencies": [
+        "spi-run-experiment",
+        "spi-independent-research"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "create"
+        }
+      ],
+      "interests": [
+        "dinosaurs",
+        "animals"
+      ],
+      "connects": [
+        "science",
+        "history"
+      ]
+    },
+    {
+      "id": "spi-gears-and-ratios",
+      "kind": "activity",
+      "area": "special-interests",
+      "subject": "machines and vehicles",
+      "title": "How gears work",
+      "emoji": "⚙️",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Gears trade speed for strength. Count the teeth to work out a gear ratio.",
+      "steps": [
+        "Look at a bicycle (with an adult) and find the front and back gears (sprockets).",
+        "Count the teeth on the front gear you are using and the back gear.",
+        "Gear ratio = front teeth ÷ back teeth. A bigger number means more speed, harder pedalling.",
+        "Turn the pedal one full turn slowly and count how many times the back wheel turns.",
+        "Does it match your ratio?",
+        "Find other gears: in a hand whisk, a clock or a toy."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Fingers caught in chain or spokes",
+          "Bike falling over",
+          "Greasy hands"
+        ],
+        "notes": "Keep fingers away from the chain and wheel while turning. Have an adult hold the bike steady or turn it upside down safely. Wash hands after."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "A bicycle or hand whisk"
+          ],
+          "description": "Count teeth and calculate the ratio."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Card",
+            "Drawing pins",
+            "Bottle tops"
+          ],
+          "description": "Make cardboard gears and test ratios."
+        },
+        "advanced": {
+          "cost": "Under 20 USD",
+          "materials": [
+            "A gear model kit"
+          ],
+          "description": "Build gear trains and measure speed and force."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Bicycle",
+          "use": "A hand whisk, egg beater or drawings of gears"
+        },
+        {
+          "instead": "Gear kit",
+          "use": "Bottle-top gears with card teeth"
+        }
+      ],
+      "competencies": [
+        "spi-run-experiment"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        }
+      ],
+      "interests": [
+        "machines",
+        "sport"
+      ],
+      "languageHooks": [
+        "numbers",
+        "tools"
+      ],
+      "connects": [
+        "mathematics",
+        "science",
+        "careers"
+      ]
+    },
+    {
+      "id": "spi-horse-science-deep-dive",
+      "kind": "lesson",
+      "area": "special-interests",
+      "subject": "horses",
+      "title": "Equine science",
+      "emoji": "🐎",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 40,
+      "summary": "Go deeper into horses: anatomy, digestion, welfare and the careers that care for them.",
+      "steps": [
+        "Anatomy: horses walk on a single toe, the hoof. Hooves grow and need regular care from a farrier.",
+        "Digestion: horses evolved to graze for many hours a day on grasses and hay.",
+        "Welfare: good care means the right food and water, shelter, exercise, company of other horses and vet care.",
+        "Behaviour: horses are herd animals and communicate with body language, such as ear and tail position.",
+        "Careers: equine vet, farrier, stable manager, equine physiotherapist, researcher.",
+        "Research one topic in depth and make a one-page fact sheet.",
+        "Any hands-on time with horses should be with a qualified, experienced adult."
+      ],
+      "practical": false,
+      "competencies": [
+        "spi-independent-research",
+        "spi-teach-topic"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "specialise"
+        }
+      ],
+      "interests": [
+        "horses",
+        "animals",
+        "medicine"
+      ],
+      "languageHooks": [
+        "animals",
+        "body"
+      ],
+      "connects": [
+        "science",
+        "careers",
+        "nature-animals",
+        "mathematics"
+      ],
+      "adultNote": "Riding and handling are covered by qualified instructors, not this lesson."
+    },
+    {
+      "id": "spi-garden-experiment",
+      "kind": "project",
+      "area": "special-interests",
+      "subject": "gardening",
+      "title": "A real growing experiment",
+      "emoji": "🧪",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 300,
+      "summary": "Design a fair test with plants and analyse the results like a scientist.",
+      "steps": [
+        "Ask a question, such as \"Does more light make beans grow taller?\"",
+        "Choose one thing to change (the variable) and keep everything else the same.",
+        "Grow at least 3 plants per group so results are fair.",
+        "Measure every few days for 3-4 weeks and record in a table.",
+        "Draw a graph and work out the average for each group.",
+        "Write a short report: question, method, results, conclusion and what you would improve."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Soil can carry germs",
+          "Some plants and seeds are poisonous"
+        ],
+        "notes": "Wear gloves or wash hands after handling soil. Use common food-crop seeds and do not eat seeds or experimental plants."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Yogurt pots or cut bottles",
+            "Soil",
+            "Kitchen seeds like dried beans"
+          ],
+          "description": "Grow plants in containers on a windowsill."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Seed packet",
+            "Ruler",
+            "Plant labels"
+          ],
+          "description": "Run a careful test with 3 groups."
+        },
+        "advanced": {
+          "cost": "Under 20 USD",
+          "materials": [
+            "Seed trays",
+            "Compost",
+            "Simple soil test kit"
+          ],
+          "description": "Test soil type or fertiliser and compare with a soil test."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Garden",
+          "use": "Containers on a windowsill or balcony"
+        },
+        {
+          "instead": "Pots",
+          "use": "Yogurt pots or cut plastic bottles with holes"
+        },
+        {
+          "instead": "Ruler",
+          "use": "A strip of paper marked with a ruler at a library"
+        }
+      ],
+      "competencies": [
+        "spi-run-experiment",
+        "spi-grow-plant",
+        "spi-independent-research"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "share"
+        }
+      ],
+      "interests": [
+        "plants"
+      ],
+      "languageHooks": [
+        "science",
+        "nature",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "mathematics",
+        "environment"
+      ]
+    },
+    {
+      "id": "spi-training-plan",
+      "kind": "project",
+      "area": "special-interests",
+      "subject": "sport science",
+      "title": "Design a safe training plan",
+      "emoji": "🏋️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 240,
+      "summary": "Use sport science to plan four weeks of training for a goal you choose.",
+      "steps": [
+        "Pick a goal: run 2 km without stopping, improve flexibility, or learn a skill.",
+        "Measure your starting point safely.",
+        "Plan: warm-up, main activity, cool-down. Increase difficulty gradually, a little each week.",
+        "Include rest days: muscles get stronger while recovering.",
+        "Think about sleep, water and food.",
+        "Keep a training log and measure again after 4 weeks.",
+        "Write what worked and what you would change."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Overtraining and injury",
+          "Exercising in heat"
+        ],
+        "notes": "Build up gradually, warm up and cool down, drink water and stop if anything hurts. Anyone with a health condition or injury should check with a doctor first. Avoid heavy weights without qualified coaching."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper log",
+            "Clock"
+          ],
+          "description": "Bodyweight exercises or running, logged on paper."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Skipping rope"
+          ],
+          "description": "Add skipping for fitness."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Fitness watch or phone app",
+            "Coach"
+          ],
+          "description": "Track data and get feedback from a qualified coach."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Gym",
+          "use": "Bodyweight exercises at home or a park"
+        },
+        {
+          "instead": "Running track",
+          "use": "A measured route with an adult's approval"
+        }
+      ],
+      "competencies": [
+        "spi-run-experiment",
+        "spi-specialisation"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "specialise"
+        }
+      ],
+      "interests": [
+        "sport",
+        "medicine"
+      ],
+      "connects": [
+        "physical-education",
+        "health",
+        "mathematics",
+        "careers"
+      ]
+    },
+    {
+      "id": "spi-choose-specialisation",
+      "kind": "project",
+      "area": "special-interests",
+      "subject": "specialisation",
+      "title": "Choose your specialisation",
+      "emoji": "🏅",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 8,
+      "minutes": 1200,
+      "summary": "Pick one area to explore in real depth over several months. Become someone who truly knows and can do something.",
+      "steps": [
+        "Look back at your interest journal and passport: what keeps pulling you back?",
+        "Choose one area. It can change later - depth in anything teaches you how to go deep.",
+        "Set a big question or goal, for example \"Grow 20 kinds of vegetables\", \"Build a working robot\" or \"Understand how black holes form\".",
+        "Make a learning plan: books, courses, projects, and people (an adult helps find mentors).",
+        "Spend a few hours every week for at least 3 months. Keep a log.",
+        "Create something real: a portfolio, a report, a model, a performance.",
+        "Contribute: teach a younger child, give a talk, or help a community group with your skills."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Depends on the chosen area"
+        ],
+        "notes": "Check the safety rating of every practical activity in your plan. Anything amber or red needs the right supervision."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Library books",
+            "Notebook"
+          ],
+          "description": "Self-directed study and projects with free resources."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Materials for one project"
+          ],
+          "description": "Add a real build, garden, performance or experiment."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Online course",
+            "Mentor",
+            "Specialist kit"
+          ],
+          "description": "Work with a mentor or take a recognised course."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Mentor",
+          "use": "Letters or calls with a family friend who works in the field, or recorded public lectures"
+        },
+        {
+          "instead": "Specialist equipment",
+          "use": "Basic version of the project with household materials"
+        }
+      ],
+      "competencies": [
+        "spi-specialisation",
+        "spi-independent-research",
+        "spi-teach-topic"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "specialise"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "contribute"
+        }
+      ],
+      "interests": [
+        "space",
+        "dinosaurs",
+        "machines",
+        "music",
+        "sport",
+        "cooking",
+        "horses",
+        "ocean",
+        "building",
+        "computers",
+        "games",
+        "art",
+        "plants",
+        "animals"
+      ],
+      "connects": [
+        "independent-learning",
+        "careers",
+        "projects"
+      ],
+      "adultNote": "This is the brief's \"at least one area of meaningful depth\". Let the young person choose; support with time, materials and introductions."
+    },
+    {
+      "id": "spi-research-report",
+      "kind": "project",
+      "area": "special-interests",
+      "subject": "specialisation",
+      "title": "Write a research report",
+      "emoji": "📚",
+      "ageBands": [
+        "15-17",
+        "12-14"
+      ],
+      "level": 7,
+      "minutes": 300,
+      "summary": "Research a question in your interest area and write a report others can learn from.",
+      "steps": [
+        "Write a clear, focused question.",
+        "Find at least 5 sources: books, reputable websites, interviews or your own data.",
+        "Check each source: who wrote it, when, and what evidence do they use?",
+        "Take notes in your own words, and record where each idea came from.",
+        "Write: introduction, what you found, discussion, conclusion and references.",
+        "Ask someone to review it, then improve it.",
+        "Share it: present it to family or a group."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A research and writing project."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Library",
+            "Notebook"
+          ],
+          "description": "Handwritten report from library sources."
+        },
+        "better": {
+          "cost": "Free with a phone",
+          "materials": [
+            "Phone"
+          ],
+          "description": "Use free reputable online sources and type notes."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Computer",
+            "Printer"
+          ],
+          "description": "Produce a formatted report with charts and references."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Internet access",
+          "use": "A public library"
+        },
+        {
+          "instead": "Printer",
+          "use": "Read it aloud or handwrite a neat copy"
+        }
+      ],
+      "competencies": [
+        "spi-independent-research",
+        "spi-teach-topic"
+      ],
+      "skills": [
+        {
+          "tree": "spi-deep-dive",
+          "node": "investigate"
+        },
+        {
+          "tree": "spi-deep-dive",
+          "node": "share"
+        }
+      ],
+      "interests": [
+        "space",
+        "dinosaurs",
+        "ocean",
+        "animals",
+        "horses",
+        "machines",
+        "music",
+        "art",
+        "plants"
+      ],
+      "connects": [
+        "independent-learning",
+        "languages",
+        "mathematics"
+      ]
+    }
+  ]
+}

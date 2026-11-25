@@ -1,0 +1,589 @@
+{
+  "language": "ja",
+  "name": "Japanese",
+  "nativeName": "日本語",
+  "ttsLang": "ja-JP",
+  "concepts": {
+    "numbers": [
+      {
+        "en": "one",
+        "word": "一",
+        "romanised": "ichi"
+      },
+      {
+        "en": "two",
+        "word": "二",
+        "romanised": "ni"
+      },
+      {
+        "en": "three",
+        "word": "三",
+        "romanised": "san"
+      },
+      {
+        "en": "four",
+        "word": "四",
+        "romanised": "yon (shi)"
+      },
+      {
+        "en": "five",
+        "word": "五",
+        "romanised": "go"
+      },
+      {
+        "en": "six",
+        "word": "六",
+        "romanised": "roku"
+      },
+      {
+        "en": "seven",
+        "word": "七",
+        "romanised": "nana (shichi)"
+      },
+      {
+        "en": "eight",
+        "word": "八",
+        "romanised": "hachi"
+      },
+      {
+        "en": "nine",
+        "word": "九",
+        "romanised": "kyuu"
+      },
+      {
+        "en": "ten",
+        "word": "十",
+        "romanised": "juu"
+      }
+    ],
+    "colours": [
+      {
+        "en": "red",
+        "word": "赤",
+        "romanised": "aka"
+      },
+      {
+        "en": "blue",
+        "word": "青",
+        "romanised": "ao"
+      },
+      {
+        "en": "green",
+        "word": "緑",
+        "romanised": "midori"
+      },
+      {
+        "en": "yellow",
+        "word": "黄色",
+        "romanised": "kiiro"
+      },
+      {
+        "en": "black",
+        "word": "黒",
+        "romanised": "kuro"
+      },
+      {
+        "en": "white",
+        "word": "白",
+        "romanised": "shiro"
+      }
+    ],
+    "shapes": [
+      {
+        "en": "circle",
+        "word": "丸",
+        "romanised": "maru"
+      },
+      {
+        "en": "square",
+        "word": "四角",
+        "romanised": "shikaku"
+      },
+      {
+        "en": "triangle",
+        "word": "三角",
+        "romanised": "sankaku"
+      },
+      {
+        "en": "star",
+        "word": "星",
+        "romanised": "hoshi"
+      },
+      {
+        "en": "rectangle",
+        "word": "長方形",
+        "romanised": "chouhoukei"
+      }
+    ],
+    "family": [
+      {
+        "en": "mother",
+        "word": "お母さん",
+        "romanised": "okaasan"
+      },
+      {
+        "en": "father",
+        "word": "お父さん",
+        "romanised": "otousan"
+      },
+      {
+        "en": "older sister",
+        "word": "お姉さん",
+        "romanised": "oneesan"
+      },
+      {
+        "en": "older brother",
+        "word": "お兄さん",
+        "romanised": "oniisan"
+      },
+      {
+        "en": "grandmother",
+        "word": "おばあさん",
+        "romanised": "obaasan"
+      },
+      {
+        "en": "grandfather",
+        "word": "おじいさん",
+        "romanised": "ojiisan"
+      }
+    ],
+    "food": [
+      {
+        "en": "bread",
+        "word": "パン",
+        "romanised": "pan"
+      },
+      {
+        "en": "cooked rice / meal",
+        "word": "ごはん",
+        "romanised": "gohan"
+      },
+      {
+        "en": "water",
+        "word": "水",
+        "romanised": "mizu"
+      },
+      {
+        "en": "milk",
+        "word": "牛乳",
+        "romanised": "gyuunyuu"
+      },
+      {
+        "en": "egg",
+        "word": "卵",
+        "romanised": "tamago"
+      },
+      {
+        "en": "fish",
+        "word": "魚",
+        "romanised": "sakana"
+      }
+    ],
+    "fruit": [
+      {
+        "en": "apple",
+        "word": "りんご",
+        "romanised": "ringo"
+      },
+      {
+        "en": "banana",
+        "word": "バナナ",
+        "romanised": "banana"
+      },
+      {
+        "en": "orange",
+        "word": "オレンジ",
+        "romanised": "orenji"
+      },
+      {
+        "en": "grapes",
+        "word": "ぶどう",
+        "romanised": "budou"
+      },
+      {
+        "en": "mango",
+        "word": "マンゴー",
+        "romanised": "mangoo"
+      },
+      {
+        "en": "watermelon",
+        "word": "すいか",
+        "romanised": "suika"
+      }
+    ],
+    "animals": [
+      {
+        "en": "dog",
+        "word": "犬",
+        "romanised": "inu"
+      },
+      {
+        "en": "cat",
+        "word": "猫",
+        "romanised": "neko"
+      },
+      {
+        "en": "horse",
+        "word": "馬",
+        "romanised": "uma"
+      },
+      {
+        "en": "cow",
+        "word": "牛",
+        "romanised": "ushi"
+      },
+      {
+        "en": "bird",
+        "word": "鳥",
+        "romanised": "tori"
+      },
+      {
+        "en": "fish",
+        "word": "魚",
+        "romanised": "sakana"
+      }
+    ],
+    "body": [
+      {
+        "en": "head",
+        "word": "頭",
+        "romanised": "atama"
+      },
+      {
+        "en": "eye",
+        "word": "目",
+        "romanised": "me"
+      },
+      {
+        "en": "ear",
+        "word": "耳",
+        "romanised": "mimi"
+      },
+      {
+        "en": "nose",
+        "word": "鼻",
+        "romanised": "hana"
+      },
+      {
+        "en": "mouth",
+        "word": "口",
+        "romanised": "kuchi"
+      },
+      {
+        "en": "hand",
+        "word": "手",
+        "romanised": "te"
+      },
+      {
+        "en": "foot / leg",
+        "word": "足",
+        "romanised": "ashi"
+      }
+    ],
+    "greetings": [
+      {
+        "en": "hello",
+        "word": "こんにちは",
+        "romanised": "konnichiwa"
+      },
+      {
+        "en": "good morning",
+        "word": "おはようございます",
+        "romanised": "ohayou gozaimasu"
+      },
+      {
+        "en": "goodbye",
+        "word": "さようなら",
+        "romanised": "sayounara"
+      },
+      {
+        "en": "please",
+        "word": "お願いします",
+        "romanised": "onegaishimasu"
+      },
+      {
+        "en": "thank you",
+        "word": "ありがとう",
+        "romanised": "arigatou"
+      },
+      {
+        "en": "how are you?",
+        "word": "お元気ですか",
+        "romanised": "ogenki desu ka"
+      }
+    ],
+    "weather": [
+      {
+        "en": "sunny",
+        "word": "晴れ",
+        "romanised": "hare"
+      },
+      {
+        "en": "rain",
+        "word": "雨",
+        "romanised": "ame"
+      },
+      {
+        "en": "cloud",
+        "word": "雲",
+        "romanised": "kumo"
+      },
+      {
+        "en": "wind",
+        "word": "風",
+        "romanised": "kaze"
+      },
+      {
+        "en": "snow",
+        "word": "雪",
+        "romanised": "yuki"
+      },
+      {
+        "en": "hot (weather)",
+        "word": "暑い",
+        "romanised": "atsui"
+      },
+      {
+        "en": "cold (weather)",
+        "word": "寒い",
+        "romanised": "samui"
+      }
+    ],
+    "maths": [
+      {
+        "en": "number",
+        "word": "数",
+        "romanised": "kazu"
+      },
+      {
+        "en": "addition",
+        "word": "足し算",
+        "romanised": "tashizan"
+      },
+      {
+        "en": "subtraction",
+        "word": "引き算",
+        "romanised": "hikizan"
+      },
+      {
+        "en": "multiplication",
+        "word": "掛け算",
+        "romanised": "kakezan"
+      },
+      {
+        "en": "half",
+        "word": "半分",
+        "romanised": "hanbun"
+      }
+    ],
+    "science": [
+      {
+        "en": "science",
+        "word": "科学",
+        "romanised": "kagaku"
+      },
+      {
+        "en": "experiment",
+        "word": "実験",
+        "romanised": "jikken"
+      },
+      {
+        "en": "plant",
+        "word": "植物",
+        "romanised": "shokubutsu"
+      },
+      {
+        "en": "light",
+        "word": "光",
+        "romanised": "hikari"
+      },
+      {
+        "en": "energy",
+        "word": "エネルギー",
+        "romanised": "enerugii"
+      }
+    ],
+    "geography": [
+      {
+        "en": "mountain",
+        "word": "山",
+        "romanised": "yama"
+      },
+      {
+        "en": "river",
+        "word": "川",
+        "romanised": "kawa"
+      },
+      {
+        "en": "sea",
+        "word": "海",
+        "romanised": "umi"
+      },
+      {
+        "en": "country",
+        "word": "国",
+        "romanised": "kuni"
+      },
+      {
+        "en": "city",
+        "word": "都市",
+        "romanised": "toshi"
+      },
+      {
+        "en": "map",
+        "word": "地図",
+        "romanised": "chizu"
+      }
+    ],
+    "kitchen": [
+      {
+        "en": "plate",
+        "word": "皿",
+        "romanised": "sara"
+      },
+      {
+        "en": "cup",
+        "word": "コップ",
+        "romanised": "koppu"
+      },
+      {
+        "en": "spoon",
+        "word": "スプーン",
+        "romanised": "supuun"
+      },
+      {
+        "en": "fork",
+        "word": "フォーク",
+        "romanised": "fooku"
+      },
+      {
+        "en": "kitchen knife",
+        "word": "包丁",
+        "romanised": "houchou"
+      },
+      {
+        "en": "chopsticks",
+        "word": "箸",
+        "romanised": "hashi"
+      }
+    ],
+    "tools": [
+      {
+        "en": "hammer",
+        "word": "金づち",
+        "romanised": "kanazuchi"
+      },
+      {
+        "en": "screwdriver",
+        "word": "ドライバー",
+        "romanised": "doraibaa"
+      },
+      {
+        "en": "saw",
+        "word": "のこぎり",
+        "romanised": "nokogiri"
+      },
+      {
+        "en": "scissors",
+        "word": "はさみ",
+        "romanised": "hasami"
+      },
+      {
+        "en": "ruler",
+        "word": "定規",
+        "romanised": "jougi"
+      }
+    ],
+    "nature": [
+      {
+        "en": "tree",
+        "word": "木",
+        "romanised": "ki"
+      },
+      {
+        "en": "flower",
+        "word": "花",
+        "romanised": "hana"
+      },
+      {
+        "en": "leaf",
+        "word": "葉っぱ",
+        "romanised": "happa"
+      },
+      {
+        "en": "grass",
+        "word": "草",
+        "romanised": "kusa"
+      },
+      {
+        "en": "sky",
+        "word": "空",
+        "romanised": "sora"
+      },
+      {
+        "en": "stone",
+        "word": "石",
+        "romanised": "ishi"
+      }
+    ],
+    "time": [
+      {
+        "en": "daytime",
+        "word": "昼",
+        "romanised": "hiru"
+      },
+      {
+        "en": "night",
+        "word": "夜",
+        "romanised": "yoru"
+      },
+      {
+        "en": "today",
+        "word": "今日",
+        "romanised": "kyou"
+      },
+      {
+        "en": "tomorrow",
+        "word": "明日",
+        "romanised": "ashita"
+      },
+      {
+        "en": "yesterday",
+        "word": "昨日",
+        "romanised": "kinou"
+      },
+      {
+        "en": "week",
+        "word": "週",
+        "romanised": "shuu"
+      }
+    ],
+    "feelings": [
+      {
+        "en": "happy",
+        "word": "うれしい",
+        "romanised": "ureshii"
+      },
+      {
+        "en": "sad",
+        "word": "悲しい",
+        "romanised": "kanashii"
+      },
+      {
+        "en": "scared",
+        "word": "怖い",
+        "romanised": "kowai"
+      },
+      {
+        "en": "tired",
+        "word": "疲れた",
+        "romanised": "tsukareta"
+      },
+      {
+        "en": "fun / enjoyable",
+        "word": "楽しい",
+        "romanised": "tanoshii"
+      }
+    ]
+  }
+}

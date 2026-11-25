@@ -1,0 +1,539 @@
+{
+  "language": "gu",
+  "name": "Gujarati",
+  "nativeName": "ગુજરાતી",
+  "ttsLang": "gu-IN",
+  "concepts": {
+    "numbers": [
+      {
+        "en": "one",
+        "word": "એક",
+        "romanised": "ek"
+      },
+      {
+        "en": "two",
+        "word": "બે",
+        "romanised": "be"
+      },
+      {
+        "en": "three",
+        "word": "ત્રણ",
+        "romanised": "tran"
+      },
+      {
+        "en": "four",
+        "word": "ચાર",
+        "romanised": "chaar"
+      },
+      {
+        "en": "five",
+        "word": "પાંચ",
+        "romanised": "paanch"
+      },
+      {
+        "en": "six",
+        "word": "છ",
+        "romanised": "chha"
+      },
+      {
+        "en": "seven",
+        "word": "સાત",
+        "romanised": "saat"
+      },
+      {
+        "en": "eight",
+        "word": "આઠ",
+        "romanised": "aath"
+      },
+      {
+        "en": "nine",
+        "word": "નવ",
+        "romanised": "nav"
+      },
+      {
+        "en": "ten",
+        "word": "દસ",
+        "romanised": "das"
+      }
+    ],
+    "colours": [
+      {
+        "en": "red",
+        "word": "લાલ",
+        "romanised": "laal"
+      },
+      {
+        "en": "blue",
+        "word": "વાદળી",
+        "romanised": "vaadali"
+      },
+      {
+        "en": "green",
+        "word": "લીલો",
+        "romanised": "lilo"
+      },
+      {
+        "en": "yellow",
+        "word": "પીળો",
+        "romanised": "peelo"
+      },
+      {
+        "en": "black",
+        "word": "કાળો",
+        "romanised": "kaalo"
+      },
+      {
+        "en": "white",
+        "word": "સફેદ",
+        "romanised": "safed"
+      }
+    ],
+    "shapes": [
+      {
+        "en": "circle",
+        "word": "વર્તુળ",
+        "romanised": "vartul"
+      },
+      {
+        "en": "square",
+        "word": "ચોરસ",
+        "romanised": "choras"
+      },
+      {
+        "en": "triangle",
+        "word": "ત્રિકોણ",
+        "romanised": "trikon"
+      },
+      {
+        "en": "star",
+        "word": "તારો",
+        "romanised": "taaro"
+      },
+      {
+        "en": "rectangle",
+        "word": "લંબચોરસ",
+        "romanised": "lambchoras"
+      }
+    ],
+    "family": [
+      {
+        "en": "mother",
+        "word": "મા",
+        "romanised": "maa"
+      },
+      {
+        "en": "father",
+        "word": "પિતા",
+        "romanised": "pita"
+      },
+      {
+        "en": "sister",
+        "word": "બહેન",
+        "romanised": "bahen"
+      },
+      {
+        "en": "brother",
+        "word": "ભાઈ",
+        "romanised": "bhai"
+      },
+      {
+        "en": "grandmother (father's mother)",
+        "word": "દાદી",
+        "romanised": "daadi"
+      },
+      {
+        "en": "grandfather (father's father)",
+        "word": "દાદા",
+        "romanised": "daada"
+      }
+    ],
+    "food": [
+      {
+        "en": "flatbread",
+        "word": "રોટલી",
+        "romanised": "rotli"
+      },
+      {
+        "en": "cooked rice",
+        "word": "ભાત",
+        "romanised": "bhaat"
+      },
+      {
+        "en": "water",
+        "word": "પાણી",
+        "romanised": "paani"
+      },
+      {
+        "en": "milk",
+        "word": "દૂધ",
+        "romanised": "doodh"
+      },
+      {
+        "en": "lentils",
+        "word": "દાળ",
+        "romanised": "daal"
+      }
+    ],
+    "fruit": [
+      {
+        "en": "apple",
+        "word": "સફરજન",
+        "romanised": "safarjan"
+      },
+      {
+        "en": "banana",
+        "word": "કેળું",
+        "romanised": "kelu"
+      },
+      {
+        "en": "grapes",
+        "word": "દ્રાક્ષ",
+        "romanised": "draaksh"
+      },
+      {
+        "en": "mango",
+        "word": "કેરી",
+        "romanised": "keri"
+      },
+      {
+        "en": "watermelon",
+        "word": "તરબૂચ",
+        "romanised": "tarbooch"
+      }
+    ],
+    "animals": [
+      {
+        "en": "dog",
+        "word": "કૂતરો",
+        "romanised": "kutro"
+      },
+      {
+        "en": "cat",
+        "word": "બિલાડી",
+        "romanised": "bilaadi"
+      },
+      {
+        "en": "horse",
+        "word": "ઘોડો",
+        "romanised": "ghodo"
+      },
+      {
+        "en": "cow",
+        "word": "ગાય",
+        "romanised": "gaay"
+      },
+      {
+        "en": "bird",
+        "word": "પક્ષી",
+        "romanised": "pakshi"
+      },
+      {
+        "en": "fish",
+        "word": "માછલી",
+        "romanised": "maachhli"
+      },
+      {
+        "en": "elephant",
+        "word": "હાથી",
+        "romanised": "haathi"
+      }
+    ],
+    "body": [
+      {
+        "en": "head",
+        "word": "માથું",
+        "romanised": "maathu"
+      },
+      {
+        "en": "eye",
+        "word": "આંખ",
+        "romanised": "aankh"
+      },
+      {
+        "en": "ear",
+        "word": "કાન",
+        "romanised": "kaan"
+      },
+      {
+        "en": "nose",
+        "word": "નાક",
+        "romanised": "naak"
+      },
+      {
+        "en": "mouth",
+        "word": "મોં",
+        "romanised": "mon"
+      },
+      {
+        "en": "hand",
+        "word": "હાથ",
+        "romanised": "haath"
+      },
+      {
+        "en": "foot / leg",
+        "word": "પગ",
+        "romanised": "pag"
+      }
+    ],
+    "greetings": [
+      {
+        "en": "hello",
+        "word": "નમસ્તે",
+        "romanised": "namaste"
+      },
+      {
+        "en": "how are you?",
+        "word": "કેમ છો?",
+        "romanised": "kem chho"
+      },
+      {
+        "en": "goodbye",
+        "word": "આવજો",
+        "romanised": "aavjo"
+      },
+      {
+        "en": "please",
+        "word": "કૃપા કરીને",
+        "romanised": "krupa karine"
+      },
+      {
+        "en": "thank you",
+        "word": "આભાર",
+        "romanised": "aabhaar"
+      }
+    ],
+    "weather": [
+      {
+        "en": "sunshine",
+        "word": "તડકો",
+        "romanised": "tadko"
+      },
+      {
+        "en": "rain",
+        "word": "વરસાદ",
+        "romanised": "varsaad"
+      },
+      {
+        "en": "cloud",
+        "word": "વાદળ",
+        "romanised": "vaadal"
+      },
+      {
+        "en": "wind",
+        "word": "પવન",
+        "romanised": "pavan"
+      },
+      {
+        "en": "heat",
+        "word": "ગરમી",
+        "romanised": "garmi"
+      },
+      {
+        "en": "cold",
+        "word": "ઠંડી",
+        "romanised": "thandi"
+      }
+    ],
+    "maths": [
+      {
+        "en": "addition",
+        "word": "સરવાળો",
+        "romanised": "saravaalo"
+      },
+      {
+        "en": "subtraction",
+        "word": "બાદબાકી",
+        "romanised": "baadbaaki"
+      },
+      {
+        "en": "multiplication",
+        "word": "ગુણાકાર",
+        "romanised": "gunaakaar"
+      },
+      {
+        "en": "number",
+        "word": "સંખ્યા",
+        "romanised": "sankhya"
+      },
+      {
+        "en": "equal",
+        "word": "બરાબર",
+        "romanised": "baraabar"
+      }
+    ],
+    "science": [
+      {
+        "en": "science",
+        "word": "વિજ્ઞાન",
+        "romanised": "vigyaan"
+      },
+      {
+        "en": "experiment",
+        "word": "પ્રયોગ",
+        "romanised": "prayog"
+      },
+      {
+        "en": "plant",
+        "word": "છોડ",
+        "romanised": "chhod"
+      },
+      {
+        "en": "light",
+        "word": "પ્રકાશ",
+        "romanised": "prakaash"
+      },
+      {
+        "en": "energy",
+        "word": "ઊર્જા",
+        "romanised": "oorja"
+      }
+    ],
+    "geography": [
+      {
+        "en": "mountain",
+        "word": "પર્વત",
+        "romanised": "parvat"
+      },
+      {
+        "en": "river",
+        "word": "નદી",
+        "romanised": "nadi"
+      },
+      {
+        "en": "sea",
+        "word": "દરિયો",
+        "romanised": "dariyo"
+      },
+      {
+        "en": "country",
+        "word": "દેશ",
+        "romanised": "desh"
+      },
+      {
+        "en": "city",
+        "word": "શહેર",
+        "romanised": "shaher"
+      },
+      {
+        "en": "map",
+        "word": "નકશો",
+        "romanised": "naksho"
+      }
+    ],
+    "kitchen": [
+      {
+        "en": "plate",
+        "word": "થાળી",
+        "romanised": "thaali"
+      },
+      {
+        "en": "small bowl",
+        "word": "વાટકી",
+        "romanised": "vaatki"
+      },
+      {
+        "en": "spoon",
+        "word": "ચમચી",
+        "romanised": "chamchi"
+      },
+      {
+        "en": "knife",
+        "word": "છરી",
+        "romanised": "chhari"
+      }
+    ],
+    "tools": [
+      {
+        "en": "hammer",
+        "word": "હથોડી",
+        "romanised": "hathodi"
+      },
+      {
+        "en": "saw",
+        "word": "કરવત",
+        "romanised": "karvat"
+      },
+      {
+        "en": "scissors",
+        "word": "કાતર",
+        "romanised": "kaatar"
+      },
+      {
+        "en": "ruler",
+        "word": "ફૂટપટ્ટી",
+        "romanised": "footpatti"
+      }
+    ],
+    "nature": [
+      {
+        "en": "tree",
+        "word": "ઝાડ",
+        "romanised": "jhaad"
+      },
+      {
+        "en": "flower",
+        "word": "ફૂલ",
+        "romanised": "phool"
+      },
+      {
+        "en": "grass",
+        "word": "ઘાસ",
+        "romanised": "ghaas"
+      },
+      {
+        "en": "sky",
+        "word": "આકાશ",
+        "romanised": "aakaash"
+      },
+      {
+        "en": "stone",
+        "word": "પથ્થર",
+        "romanised": "paththar"
+      }
+    ],
+    "time": [
+      {
+        "en": "day",
+        "word": "દિવસ",
+        "romanised": "divas"
+      },
+      {
+        "en": "night",
+        "word": "રાત",
+        "romanised": "raat"
+      },
+      {
+        "en": "today",
+        "word": "આજે",
+        "romanised": "aaje"
+      },
+      {
+        "en": "week",
+        "word": "અઠવાડિયું",
+        "romanised": "athvaadiyu"
+      }
+    ],
+    "feelings": [
+      {
+        "en": "happy",
+        "word": "ખુશ",
+        "romanised": "khush"
+      },
+      {
+        "en": "sad",
+        "word": "ઉદાસ",
+        "romanised": "udaas"
+      },
+      {
+        "en": "anger",
+        "word": "ગુસ્સો",
+        "romanised": "gusso"
+      },
+      {
+        "en": "fear",
+        "word": "ડર",
+        "romanised": "dar"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1493 @@
+[
+  {
+    "id": "doctor",
+    "family": "medicine",
+    "title": "Doctor",
+    "emoji": "🧑‍⚕️",
+    "description": "Doctors find out why people are unwell and help them get better and stay healthy.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Play doctor with a teddy and a pretend stethoscope",
+      "Learn the names of body parts",
+      "Count your pulse before and after jumping"
+    ],
+    "subjects": [
+      "biology",
+      "chemistry",
+      "health",
+      "first aid"
+    ],
+    "interests": [
+      "medicine",
+      "helping"
+    ]
+  },
+  {
+    "id": "nurse",
+    "family": "medicine",
+    "title": "Nurse",
+    "emoji": "🧑‍⚕️",
+    "description": "Nurses care for patients, give treatments, and help people and families understand their health.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Practise caring for a toy patient",
+      "Learn how to wash hands properly",
+      "Learn first-aid basics with an adult"
+    ],
+    "subjects": [
+      "biology",
+      "health",
+      "first aid",
+      "communication"
+    ],
+    "interests": [
+      "medicine",
+      "helping"
+    ]
+  },
+  {
+    "id": "veterinarian",
+    "family": "medicine",
+    "title": "Veterinarian",
+    "emoji": "🐾",
+    "description": "Vets keep pets, farm animals and wildlife healthy and treat them when they are sick or hurt.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Watch a pet or bird and note what is normal for it",
+      "Learn animal body parts",
+      "Read about how to care for a pet"
+    ],
+    "subjects": [
+      "biology",
+      "chemistry",
+      "animal science"
+    ],
+    "interests": [
+      "animals",
+      "medicine",
+      "horses"
+    ]
+  },
+  {
+    "id": "equine-vet",
+    "family": "medicine",
+    "title": "Equine vet",
+    "emoji": "🐴",
+    "description": "Equine vets specialise in horses, ponies and donkeys, from check-ups to emergencies.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Learn the parts of a horse",
+      "Calculate how much food and water a horse needs each day",
+      "Read about horse welfare"
+    ],
+    "subjects": [
+      "biology",
+      "chemistry",
+      "animal science",
+      "mathematics"
+    ],
+    "interests": [
+      "horses",
+      "animals",
+      "medicine"
+    ]
+  },
+  {
+    "id": "paramedic",
+    "family": "medicine",
+    "title": "Paramedic",
+    "emoji": "🚑",
+    "description": "Paramedics respond to emergencies, give urgent care and take patients safely to hospital.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Learn your local emergency number",
+      "Practise saying your address clearly",
+      "Learn first-aid basics"
+    ],
+    "subjects": [
+      "biology",
+      "first aid",
+      "communication"
+    ],
+    "interests": [
+      "medicine",
+      "helping"
+    ]
+  },
+  {
+    "id": "mechanical-engineer",
+    "family": "engineering",
+    "title": "Mechanical engineer",
+    "emoji": "⚙️",
+    "description": "Mechanical engineers design and improve machines, from bicycles and engines to robots.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Look closely at how bicycle gears work",
+      "Build a cardboard machine with moving parts",
+      "Take apart (with an adult) an old broken toy"
+    ],
+    "subjects": [
+      "physics",
+      "mathematics",
+      "design and technology"
+    ],
+    "interests": [
+      "machines",
+      "building"
+    ]
+  },
+  {
+    "id": "civil-engineer",
+    "family": "engineering",
+    "title": "Civil engineer",
+    "emoji": "🌉",
+    "description": "Civil engineers plan and build bridges, roads, water systems and buildings that are safe and last.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Build a paper bridge and test it with coins",
+      "Find how water reaches your home",
+      "Build towers from straws or sticks"
+    ],
+    "subjects": [
+      "physics",
+      "mathematics",
+      "geography"
+    ],
+    "interests": [
+      "building",
+      "machines"
+    ]
+  },
+  {
+    "id": "electrical-engineer",
+    "family": "engineering",
+    "title": "Electrical engineer",
+    "emoji": "💡",
+    "description": "Electrical engineers design systems that make, move and use electricity, from power grids to phones.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "With an adult, build a simple battery and bulb circuit",
+      "Read your home electricity meter",
+      "Find out how your local electricity is made"
+    ],
+    "subjects": [
+      "physics",
+      "mathematics",
+      "computing"
+    ],
+    "interests": [
+      "machines",
+      "computers"
+    ]
+  },
+  {
+    "id": "marine-biologist",
+    "family": "science",
+    "title": "Marine biologist",
+    "emoji": "🐋",
+    "description": "Marine biologists study life in the oceans, from tiny plankton to whales.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Learn the ocean zones",
+      "Visit a beach or pond with an adult and record what you see",
+      "Draw a food chain from the sea"
+    ],
+    "subjects": [
+      "biology",
+      "geography",
+      "chemistry"
+    ],
+    "interests": [
+      "ocean",
+      "animals"
+    ]
+  },
+  {
+    "id": "palaeontologist",
+    "family": "science",
+    "title": "Palaeontologist",
+    "emoji": "🦕",
+    "description": "Palaeontologists study fossils to learn about dinosaurs and ancient life.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Make a fossil imprint in clay or dough",
+      "Sort pictures of dinosaurs by what they ate",
+      "Make a timeline of life on Earth"
+    ],
+    "subjects": [
+      "biology",
+      "geology",
+      "history"
+    ],
+    "interests": [
+      "dinosaurs",
+      "animals"
+    ]
+  },
+  {
+    "id": "environmental-scientist",
+    "family": "science",
+    "title": "Environmental scientist",
+    "emoji": "🌍",
+    "description": "Environmental scientists study air, water, soil and wildlife to protect nature and people.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Measure rainfall with a jar",
+      "Count birds or insects in one spot each week",
+      "Test which soil holds water best"
+    ],
+    "subjects": [
+      "biology",
+      "chemistry",
+      "geography",
+      "statistics"
+    ],
+    "interests": [
+      "plants",
+      "animals",
+      "ocean"
+    ]
+  },
+  {
+    "id": "astronomer",
+    "family": "science",
+    "title": "Astronomer",
+    "emoji": "🔭",
+    "description": "Astronomers study stars, planets and galaxies to understand the universe.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Draw the Moon each night for a month",
+      "Find a constellation with an adult",
+      "Make a scale model of the solar system"
+    ],
+    "subjects": [
+      "physics",
+      "mathematics",
+      "computing"
+    ],
+    "interests": [
+      "space"
+    ]
+  },
+  {
+    "id": "software-developer",
+    "family": "technology",
+    "title": "Software developer",
+    "emoji": "💻",
+    "description": "Software developers write and test the programs that run apps, websites, games and machines.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Play \"be a robot\" with step-by-step instructions",
+      "Write an algorithm for making a sandwich",
+      "Try a free block-coding site in a browser"
+    ],
+    "subjects": [
+      "computing",
+      "mathematics",
+      "design"
+    ],
+    "interests": [
+      "computers",
+      "games"
+    ]
+  },
+  {
+    "id": "data-scientist",
+    "family": "technology",
+    "title": "Data scientist",
+    "emoji": "📊",
+    "description": "Data scientists collect and analyse data to find patterns and help people make better decisions.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Run a family survey and draw a bar chart",
+      "Track the weather for a month and look for patterns",
+      "Count and graph birds you see"
+    ],
+    "subjects": [
+      "mathematics",
+      "statistics",
+      "computing"
+    ],
+    "interests": [
+      "computers",
+      "games"
+    ]
+  },
+  {
+    "id": "cybersecurity-analyst",
+    "family": "technology",
+    "title": "Cybersecurity analyst",
+    "emoji": "🛡️",
+    "description": "Cybersecurity analysts protect computers, networks and people's data from attacks.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Create a secret code and break a friend's code",
+      "Learn the three-random-words password trick",
+      "Practise spotting scam messages"
+    ],
+    "subjects": [
+      "computing",
+      "mathematics"
+    ],
+    "interests": [
+      "computers",
+      "games"
+    ]
+  },
+  {
+    "id": "accountant",
+    "family": "finance",
+    "title": "Accountant",
+    "emoji": "🧾",
+    "description": "Accountants keep track of money for people and organisations and help them plan and follow the rules.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Keep a record of pocket money in and out",
+      "Help plan a shopping budget",
+      "Add up a receipt"
+    ],
+    "subjects": [
+      "mathematics",
+      "economics"
+    ],
+    "interests": [
+      "money"
+    ]
+  },
+  {
+    "id": "financial-planner",
+    "family": "finance",
+    "title": "Financial planner",
+    "emoji": "💰",
+    "description": "Financial planners help people save, budget and plan for the future.",
+    "ageBands": [
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Make a savings plan for something you want",
+      "Learn how interest works",
+      "Compare prices of the same item in different sizes"
+    ],
+    "subjects": [
+      "mathematics",
+      "economics",
+      "communication"
+    ],
+    "interests": [
+      "money",
+      "helping"
+    ]
+  },
+  {
+    "id": "actuary",
+    "family": "finance",
+    "title": "Actuary",
+    "emoji": "🎲",
+    "description": "Actuaries use maths and statistics to measure risk, for example for insurance and pensions.",
+    "ageBands": [
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Roll dice 100 times and record the results",
+      "Work out the chance of rain from a month of weather records",
+      "Play strategy games and think about odds"
+    ],
+    "subjects": [
+      "mathematics",
+      "statistics",
+      "economics"
+    ],
+    "interests": [
+      "money",
+      "games"
+    ]
+  },
+  {
+    "id": "shop-manager",
+    "family": "business",
+    "title": "Shop manager",
+    "emoji": "🏪",
+    "description": "Shop managers run stores: they order stock, look after staff and help customers.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Play shop with price labels",
+      "Count stock in the kitchen cupboard",
+      "Plan the layout of a pretend shop"
+    ],
+    "subjects": [
+      "mathematics",
+      "economics",
+      "communication"
+    ],
+    "interests": [
+      "money",
+      "helping"
+    ]
+  },
+  {
+    "id": "marketing-specialist",
+    "family": "business",
+    "title": "Marketing specialist",
+    "emoji": "📣",
+    "description": "Marketing specialists help people find out about products and services, and learn what customers need.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Design a poster for a family event",
+      "Survey family about their favourite snack",
+      "Compare how two adverts try to persuade you"
+    ],
+    "subjects": [
+      "economics",
+      "art",
+      "languages",
+      "statistics"
+    ],
+    "interests": [
+      "art",
+      "money"
+    ]
+  },
+  {
+    "id": "logistics-manager",
+    "family": "business",
+    "title": "Logistics manager",
+    "emoji": "🚚",
+    "description": "Logistics managers plan how goods travel from factories to shops and homes, quickly and safely.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Plan the shortest route for errands on a map",
+      "Pack a bag so everything fits",
+      "Find out how a parcel travels"
+    ],
+    "subjects": [
+      "mathematics",
+      "geography",
+      "computing"
+    ],
+    "interests": [
+      "machines",
+      "money"
+    ]
+  },
+  {
+    "id": "farmer",
+    "family": "agriculture",
+    "title": "Farmer",
+    "emoji": "👩‍🌾",
+    "description": "Farmers grow crops and raise animals to produce food, fibre and fuel.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Grow beans or herbs in a container",
+      "Make compost from vegetable scraps",
+      "Visit a farm or market with an adult"
+    ],
+    "subjects": [
+      "biology",
+      "geography",
+      "economics",
+      "mathematics"
+    ],
+    "interests": [
+      "plants",
+      "animals"
+    ]
+  },
+  {
+    "id": "horticulturist",
+    "family": "agriculture",
+    "title": "Horticulturist",
+    "emoji": "🌱",
+    "description": "Horticulturists grow and care for fruit, vegetables, flowers and trees, in gardens, nurseries and parks.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Grow cress on damp paper",
+      "Take cuttings from a plant with an adult",
+      "Record how fast seeds sprout in light and dark"
+    ],
+    "subjects": [
+      "biology",
+      "chemistry",
+      "geography"
+    ],
+    "interests": [
+      "plants"
+    ]
+  },
+  {
+    "id": "stable-manager",
+    "family": "agriculture",
+    "title": "Stable manager",
+    "emoji": "🐎",
+    "description": "Stable managers look after horses' feeding, health, exercise and housing, and run the yard.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Work out a feeding schedule for a pretend horse",
+      "Learn how to stay safe around horses",
+      "Budget the yearly cost of keeping a horse"
+    ],
+    "subjects": [
+      "animal science",
+      "mathematics",
+      "business"
+    ],
+    "interests": [
+      "horses",
+      "animals",
+      "money"
+    ]
+  },
+  {
+    "id": "plumber",
+    "family": "skilled trades",
+    "title": "Plumber",
+    "emoji": "🔧",
+    "description": "Plumbers install and repair pipes, taps, toilets and heating so homes have clean water and safe drains.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Find the water shut-off valve at home with an adult",
+      "Watch how a tap works",
+      "Make a water pipe model with straws"
+    ],
+    "subjects": [
+      "physics",
+      "mathematics",
+      "design and technology"
+    ],
+    "interests": [
+      "machines",
+      "building",
+      "helping"
+    ]
+  },
+  {
+    "id": "electrician",
+    "family": "skilled trades",
+    "title": "Electrician",
+    "emoji": "⚡",
+    "description": "Electricians install and repair wiring, lights and sockets so electricity is safe to use.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Learn electrical safety rules at home",
+      "With an adult, build a battery and bulb circuit",
+      "Find where the fuse box is (do not touch it)"
+    ],
+    "subjects": [
+      "physics",
+      "mathematics"
+    ],
+    "interests": [
+      "machines",
+      "building"
+    ]
+  },
+  {
+    "id": "bicycle-mechanic",
+    "family": "skilled trades",
+    "title": "Bicycle mechanic",
+    "emoji": "🚲",
+    "description": "Bicycle mechanics fix and maintain bikes: brakes, gears, chains and punctures.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Check bike tyre pressure",
+      "Clean and oil a bike chain with an adult",
+      "Learn how to fix a puncture"
+    ],
+    "subjects": [
+      "physics",
+      "design and technology",
+      "business"
+    ],
+    "interests": [
+      "machines",
+      "sport"
+    ]
+  },
+  {
+    "id": "farrier",
+    "family": "skilled trades",
+    "title": "Farrier",
+    "emoji": "🐴",
+    "description": "Farriers trim and care for horses' hooves and fit horseshoes. It needs long training.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Learn the parts of a horse's hoof",
+      "Read about why horses need hoof care",
+      "Draw and measure a horseshoe shape"
+    ],
+    "subjects": [
+      "animal science",
+      "physics",
+      "design and technology"
+    ],
+    "interests": [
+      "horses",
+      "animals",
+      "machines"
+    ]
+  },
+  {
+    "id": "carpenter",
+    "family": "skilled trades",
+    "title": "Carpenter",
+    "emoji": "🪚",
+    "description": "Carpenters build and repair things made of wood, from furniture to house frames.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Measure and draw a plan for a box",
+      "Build with cardboard first",
+      "With an adult, sand and paint a piece of wood"
+    ],
+    "subjects": [
+      "mathematics",
+      "design and technology"
+    ],
+    "interests": [
+      "building"
+    ]
+  },
+  {
+    "id": "motor-mechanic",
+    "family": "skilled trades",
+    "title": "Motor vehicle mechanic",
+    "emoji": "🚗",
+    "description": "Motor mechanics check, service and repair cars, vans and motorbikes, including electric vehicles.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Watch an adult check tyre pressure and oil",
+      "Learn the main parts of a car",
+      "Draw how an electric motor turns"
+    ],
+    "subjects": [
+      "physics",
+      "design and technology",
+      "computing"
+    ],
+    "interests": [
+      "machines"
+    ]
+  },
+  {
+    "id": "chef",
+    "family": "hospitality",
+    "title": "Chef",
+    "emoji": "🧑‍🍳",
+    "description": "Chefs plan menus and cook food in restaurants, schools, hospitals and hotels.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Help make a simple salad",
+      "Learn to wash hands and keep the kitchen clean",
+      "Plan a menu for a family meal"
+    ],
+    "subjects": [
+      "nutrition",
+      "chemistry",
+      "mathematics"
+    ],
+    "interests": [
+      "cooking"
+    ]
+  },
+  {
+    "id": "baker",
+    "family": "hospitality",
+    "title": "Baker",
+    "emoji": "🥖",
+    "description": "Bakers make bread, cakes and pastries, often starting very early in the morning.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Measure ingredients for a simple recipe",
+      "Watch dough rise and talk about yeast",
+      "Weigh flour on a kitchen scale"
+    ],
+    "subjects": [
+      "chemistry",
+      "mathematics",
+      "nutrition"
+    ],
+    "interests": [
+      "cooking"
+    ]
+  },
+  {
+    "id": "hotel-manager",
+    "family": "hospitality",
+    "title": "Hotel manager",
+    "emoji": "🏨",
+    "description": "Hotel managers make sure guests are welcomed and looked after and that the hotel runs smoothly.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Plan a \"welcome\" for a visiting relative",
+      "Make a cleaning and room plan",
+      "Learn greetings in another language"
+    ],
+    "subjects": [
+      "business",
+      "languages",
+      "communication"
+    ],
+    "interests": [
+      "helping",
+      "money"
+    ]
+  },
+  {
+    "id": "musician",
+    "family": "arts",
+    "title": "Musician",
+    "emoji": "🎵",
+    "description": "Musicians compose, perform and record music, alone or in groups.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Make shakers and drums from containers",
+      "Clap rhythms and copy them",
+      "Learn a song from another country"
+    ],
+    "subjects": [
+      "music",
+      "mathematics",
+      "languages"
+    ],
+    "interests": [
+      "music"
+    ]
+  },
+  {
+    "id": "illustrator",
+    "family": "arts",
+    "title": "Illustrator",
+    "emoji": "🖍️",
+    "description": "Illustrators draw pictures for books, games, adverts and science.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Draw a picture for a story you like",
+      "Make a comic strip",
+      "Draw a plant or animal carefully from life"
+    ],
+    "subjects": [
+      "art",
+      "languages"
+    ],
+    "interests": [
+      "art",
+      "stories"
+    ]
+  },
+  {
+    "id": "actor",
+    "family": "arts",
+    "title": "Actor",
+    "emoji": "🎭",
+    "description": "Actors bring characters to life on stage, screen and radio.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Act out a favourite story",
+      "Read a poem with feeling",
+      "Make a puppet show"
+    ],
+    "subjects": [
+      "drama",
+      "languages",
+      "history"
+    ],
+    "interests": [
+      "stories",
+      "art"
+    ]
+  },
+  {
+    "id": "graphic-designer",
+    "family": "design",
+    "title": "Graphic designer",
+    "emoji": "🎨",
+    "description": "Graphic designers use pictures, colours and words to make posters, logos, signs and apps clear and attractive.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Design a logo for your family",
+      "Make a poster with a clear message",
+      "Collect signs and decide which are easiest to read"
+    ],
+    "subjects": [
+      "art",
+      "computing",
+      "languages"
+    ],
+    "interests": [
+      "art",
+      "computers"
+    ]
+  },
+  {
+    "id": "fashion-designer",
+    "family": "design",
+    "title": "Fashion designer",
+    "emoji": "👗",
+    "description": "Fashion designers create clothes and accessories, choosing shapes, fabrics and colours.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Draw outfit designs",
+      "With an adult, sew a button or simple seam",
+      "Redesign an old T-shirt"
+    ],
+    "subjects": [
+      "art",
+      "design and technology",
+      "mathematics"
+    ],
+    "interests": [
+      "art"
+    ]
+  },
+  {
+    "id": "architect",
+    "family": "design",
+    "title": "Architect",
+    "emoji": "🏛️",
+    "description": "Architects design buildings and spaces that are safe, useful and beautiful.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Draw a plan of your room from above",
+      "Build a model house from boxes",
+      "Look at buildings and sort their shapes"
+    ],
+    "subjects": [
+      "mathematics",
+      "art",
+      "physics",
+      "history"
+    ],
+    "interests": [
+      "building",
+      "art"
+    ]
+  },
+  {
+    "id": "lawyer",
+    "family": "law",
+    "title": "Lawyer",
+    "emoji": "⚖️",
+    "description": "Lawyers give legal advice, write agreements and speak for people in courts.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Hold a fair debate at home",
+      "Write family rules together",
+      "Read about children's rights"
+    ],
+    "subjects": [
+      "languages",
+      "history",
+      "civics"
+    ],
+    "interests": [
+      "helping",
+      "stories"
+    ]
+  },
+  {
+    "id": "judge",
+    "family": "law",
+    "title": "Judge",
+    "emoji": "👩‍⚖️",
+    "description": "Judges listen to both sides in court, apply the law and make fair decisions.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Listen to two sides of a family disagreement and suggest a fair solution",
+      "Learn how laws are made",
+      "Practise weighing evidence"
+    ],
+    "subjects": [
+      "civics",
+      "languages",
+      "philosophy"
+    ],
+    "interests": [
+      "helping"
+    ]
+  },
+  {
+    "id": "paralegal",
+    "family": "law",
+    "title": "Paralegal",
+    "emoji": "📁",
+    "description": "Paralegals support lawyers by researching, organising documents and preparing cases.",
+    "ageBands": [
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Organise family documents into folders (with permission)",
+      "Research a question using a library",
+      "Summarise a news story fairly"
+    ],
+    "subjects": [
+      "languages",
+      "civics",
+      "computing"
+    ],
+    "interests": [
+      "stories"
+    ]
+  },
+  {
+    "id": "teacher",
+    "family": "education",
+    "title": "Teacher",
+    "emoji": "🧑‍🏫",
+    "description": "Teachers help people of all ages learn new knowledge and skills.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Teach a younger child or a teddy something you know",
+      "Make a quiz for your family",
+      "Explain how to do something in 3 steps"
+    ],
+    "subjects": [
+      "languages",
+      "mathematics",
+      "psychology"
+    ],
+    "interests": [
+      "helping",
+      "stories"
+    ]
+  },
+  {
+    "id": "early-years-educator",
+    "family": "education",
+    "title": "Early years educator",
+    "emoji": "🧸",
+    "description": "Early years educators care for and teach babies and young children through play.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Read a picture book to a younger child",
+      "Make up a counting song",
+      "Plan a play activity for a toddler with an adult"
+    ],
+    "subjects": [
+      "child development",
+      "languages",
+      "music"
+    ],
+    "interests": [
+      "helping",
+      "stories"
+    ]
+  },
+  {
+    "id": "librarian",
+    "family": "education",
+    "title": "Librarian",
+    "emoji": "📚",
+    "description": "Librarians help people find books and information, and run reading and learning activities.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Sort your books into groups",
+      "Make a reading list for a friend",
+      "Visit a library"
+    ],
+    "subjects": [
+      "languages",
+      "computing",
+      "history"
+    ],
+    "interests": [
+      "stories"
+    ]
+  },
+  {
+    "id": "firefighter",
+    "family": "public service",
+    "title": "Firefighter",
+    "emoji": "🚒",
+    "description": "Firefighters put out fires, rescue people and teach fire safety.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Learn your family fire escape plan",
+      "Check that smoke alarms work, with an adult",
+      "Learn your local emergency number"
+    ],
+    "subjects": [
+      "physics",
+      "chemistry",
+      "first aid"
+    ],
+    "interests": [
+      "helping",
+      "machines"
+    ]
+  },
+  {
+    "id": "police-officer",
+    "family": "public service",
+    "title": "Police officer",
+    "emoji": "👮",
+    "description": "Police officers help keep communities safe, respond to emergencies and investigate crimes.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Learn your address and emergency number",
+      "Play a detective game looking for clues",
+      "Learn road safety rules"
+    ],
+    "subjects": [
+      "civics",
+      "languages",
+      "psychology"
+    ],
+    "interests": [
+      "helping"
+    ]
+  },
+  {
+    "id": "social-worker",
+    "family": "public service",
+    "title": "Social worker",
+    "emoji": "🤝",
+    "description": "Social workers support children, families and adults through hard times and help keep them safe.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Practise active listening with a family member",
+      "Learn about children's rights",
+      "Help someone who needs a hand"
+    ],
+    "subjects": [
+      "psychology",
+      "civics",
+      "communication"
+    ],
+    "interests": [
+      "helping"
+    ]
+  },
+  {
+    "id": "town-planner",
+    "family": "public service",
+    "title": "Town planner",
+    "emoji": "🏘️",
+    "description": "Town planners decide where homes, parks, roads and shops should go so places work well for people.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Draw a map of your street",
+      "Design a new park for your area",
+      "Count traffic at one spot for 10 minutes with an adult"
+    ],
+    "subjects": [
+      "geography",
+      "mathematics",
+      "civics"
+    ],
+    "interests": [
+      "building",
+      "helping"
+    ]
+  },
+  {
+    "id": "research-scientist",
+    "family": "research",
+    "title": "Research scientist",
+    "emoji": "🔬",
+    "description": "Research scientists ask questions and run careful experiments to discover new knowledge.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Ask a question and test it with a fair experiment",
+      "Keep a science notebook",
+      "Repeat an experiment to check results"
+    ],
+    "subjects": [
+      "biology",
+      "chemistry",
+      "physics",
+      "statistics"
+    ],
+    "interests": [
+      "medicine",
+      "plants",
+      "space"
+    ]
+  },
+  {
+    "id": "archaeologist",
+    "family": "research",
+    "title": "Archaeologist",
+    "emoji": "🏺",
+    "description": "Archaeologists study objects and places from the past to learn how people lived.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Bury and dig up objects in a sandpit or tray",
+      "Interview a grandparent about the past",
+      "Map your local old buildings"
+    ],
+    "subjects": [
+      "history",
+      "geography",
+      "science"
+    ],
+    "interests": [
+      "stories",
+      "building"
+    ]
+  },
+  {
+    "id": "sports-scientist",
+    "family": "research",
+    "title": "Sports scientist",
+    "emoji": "🏃",
+    "description": "Sports scientists study how the body moves and how people can train and recover safely.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Measure your pulse before and after exercise",
+      "Time a sprint and graph your progress",
+      "Learn about warm-ups"
+    ],
+    "subjects": [
+      "biology",
+      "physics",
+      "statistics"
+    ],
+    "interests": [
+      "sport",
+      "medicine"
+    ]
+  },
+  {
+    "id": "entrepreneur",
+    "family": "entrepreneurship",
+    "title": "Entrepreneur",
+    "emoji": "🚀",
+    "description": "Entrepreneurs spot problems and start businesses or projects to solve them.",
+    "ageBands": [
+      "3-5",
+      "6-8",
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Run a pretend shop",
+      "Think of a problem at home and invent a solution",
+      "Plan a tiny business and work out costs"
+    ],
+    "subjects": [
+      "economics",
+      "mathematics",
+      "communication"
+    ],
+    "interests": [
+      "money",
+      "helping"
+    ]
+  },
+  {
+    "id": "social-entrepreneur",
+    "family": "entrepreneurship",
+    "title": "Social entrepreneur",
+    "emoji": "🌱",
+    "description": "Social entrepreneurs start projects or businesses that help communities or the environment.",
+    "ageBands": [
+      "9-11",
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Organise a book or toy swap",
+      "Plan a small community project",
+      "Find out about a local charity"
+    ],
+    "subjects": [
+      "economics",
+      "civics",
+      "environment"
+    ],
+    "interests": [
+      "helping",
+      "money"
+    ]
+  },
+  {
+    "id": "app-founder",
+    "family": "entrepreneurship",
+    "title": "App or game studio founder",
+    "emoji": "🎮",
+    "description": "Founders of app and game studios turn an idea into a product and build a team to make it.",
+    "ageBands": [
+      "12-14",
+      "15-17"
+    ],
+    "tryAtHome": [
+      "Design a paper prototype of an app or game",
+      "Ask friends to test your game and give feedback",
+      "Make a simple budget for your idea"
+    ],
+    "subjects": [
+      "computing",
+      "economics",
+      "design"
+    ],
+    "interests": [
+      "computers",
+      "games",
+      "money"
+    ]
+  }
+]

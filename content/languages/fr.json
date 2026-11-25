@@ -1,0 +1,484 @@
+{
+  "language": "fr",
+  "name": "French",
+  "nativeName": "Français",
+  "ttsLang": "fr-FR",
+  "concepts": {
+    "numbers": [
+      {
+        "en": "one",
+        "word": "un"
+      },
+      {
+        "en": "two",
+        "word": "deux"
+      },
+      {
+        "en": "three",
+        "word": "trois"
+      },
+      {
+        "en": "four",
+        "word": "quatre"
+      },
+      {
+        "en": "five",
+        "word": "cinq"
+      },
+      {
+        "en": "six",
+        "word": "six"
+      },
+      {
+        "en": "seven",
+        "word": "sept"
+      },
+      {
+        "en": "eight",
+        "word": "huit"
+      },
+      {
+        "en": "nine",
+        "word": "neuf"
+      },
+      {
+        "en": "ten",
+        "word": "dix"
+      }
+    ],
+    "colours": [
+      {
+        "en": "red",
+        "word": "rouge"
+      },
+      {
+        "en": "blue",
+        "word": "bleu"
+      },
+      {
+        "en": "green",
+        "word": "vert"
+      },
+      {
+        "en": "yellow",
+        "word": "jaune"
+      },
+      {
+        "en": "black",
+        "word": "noir"
+      },
+      {
+        "en": "white",
+        "word": "blanc"
+      }
+    ],
+    "shapes": [
+      {
+        "en": "circle",
+        "word": "le cercle"
+      },
+      {
+        "en": "square",
+        "word": "le carré"
+      },
+      {
+        "en": "triangle",
+        "word": "le triangle"
+      },
+      {
+        "en": "star",
+        "word": "l'étoile"
+      },
+      {
+        "en": "rectangle",
+        "word": "le rectangle"
+      }
+    ],
+    "family": [
+      {
+        "en": "mother",
+        "word": "la mère"
+      },
+      {
+        "en": "father",
+        "word": "le père"
+      },
+      {
+        "en": "sister",
+        "word": "la sœur"
+      },
+      {
+        "en": "brother",
+        "word": "le frère"
+      },
+      {
+        "en": "grandmother",
+        "word": "la grand-mère"
+      },
+      {
+        "en": "grandfather",
+        "word": "le grand-père"
+      }
+    ],
+    "food": [
+      {
+        "en": "bread",
+        "word": "le pain"
+      },
+      {
+        "en": "rice",
+        "word": "le riz"
+      },
+      {
+        "en": "water",
+        "word": "l'eau"
+      },
+      {
+        "en": "milk",
+        "word": "le lait"
+      },
+      {
+        "en": "egg",
+        "word": "l'œuf"
+      },
+      {
+        "en": "cheese",
+        "word": "le fromage"
+      }
+    ],
+    "fruit": [
+      {
+        "en": "apple",
+        "word": "la pomme"
+      },
+      {
+        "en": "banana",
+        "word": "la banane"
+      },
+      {
+        "en": "orange",
+        "word": "l'orange"
+      },
+      {
+        "en": "grapes",
+        "word": "le raisin"
+      },
+      {
+        "en": "mango",
+        "word": "la mangue"
+      },
+      {
+        "en": "watermelon",
+        "word": "la pastèque"
+      }
+    ],
+    "animals": [
+      {
+        "en": "dog",
+        "word": "le chien"
+      },
+      {
+        "en": "cat",
+        "word": "le chat"
+      },
+      {
+        "en": "horse",
+        "word": "le cheval"
+      },
+      {
+        "en": "cow",
+        "word": "la vache"
+      },
+      {
+        "en": "bird",
+        "word": "l'oiseau"
+      },
+      {
+        "en": "fish",
+        "word": "le poisson"
+      }
+    ],
+    "body": [
+      {
+        "en": "head",
+        "word": "la tête"
+      },
+      {
+        "en": "eye",
+        "word": "l'œil"
+      },
+      {
+        "en": "ear",
+        "word": "l'oreille"
+      },
+      {
+        "en": "nose",
+        "word": "le nez"
+      },
+      {
+        "en": "mouth",
+        "word": "la bouche"
+      },
+      {
+        "en": "hand",
+        "word": "la main"
+      },
+      {
+        "en": "foot",
+        "word": "le pied"
+      }
+    ],
+    "greetings": [
+      {
+        "en": "hello / good morning",
+        "word": "Bonjour"
+      },
+      {
+        "en": "hi",
+        "word": "Salut"
+      },
+      {
+        "en": "goodbye",
+        "word": "Au revoir"
+      },
+      {
+        "en": "please",
+        "word": "S'il vous plaît"
+      },
+      {
+        "en": "thank you",
+        "word": "Merci"
+      },
+      {
+        "en": "how are you?",
+        "word": "Comment ça va ?"
+      }
+    ],
+    "weather": [
+      {
+        "en": "sun",
+        "word": "le soleil"
+      },
+      {
+        "en": "rain",
+        "word": "la pluie"
+      },
+      {
+        "en": "cloud",
+        "word": "le nuage"
+      },
+      {
+        "en": "wind",
+        "word": "le vent"
+      },
+      {
+        "en": "snow",
+        "word": "la neige"
+      },
+      {
+        "en": "it is hot",
+        "word": "il fait chaud"
+      },
+      {
+        "en": "it is cold",
+        "word": "il fait froid"
+      }
+    ],
+    "maths": [
+      {
+        "en": "plus",
+        "word": "plus"
+      },
+      {
+        "en": "minus",
+        "word": "moins"
+      },
+      {
+        "en": "equals",
+        "word": "égale"
+      },
+      {
+        "en": "times",
+        "word": "fois"
+      },
+      {
+        "en": "number",
+        "word": "le nombre"
+      },
+      {
+        "en": "half",
+        "word": "la moitié"
+      }
+    ],
+    "science": [
+      {
+        "en": "science",
+        "word": "la science"
+      },
+      {
+        "en": "experiment",
+        "word": "l'expérience"
+      },
+      {
+        "en": "plant",
+        "word": "la plante"
+      },
+      {
+        "en": "light",
+        "word": "la lumière"
+      },
+      {
+        "en": "energy",
+        "word": "l'énergie"
+      }
+    ],
+    "geography": [
+      {
+        "en": "mountain",
+        "word": "la montagne"
+      },
+      {
+        "en": "river",
+        "word": "la rivière"
+      },
+      {
+        "en": "sea",
+        "word": "la mer"
+      },
+      {
+        "en": "country",
+        "word": "le pays"
+      },
+      {
+        "en": "city",
+        "word": "la ville"
+      },
+      {
+        "en": "map",
+        "word": "la carte"
+      }
+    ],
+    "kitchen": [
+      {
+        "en": "plate",
+        "word": "l'assiette"
+      },
+      {
+        "en": "cup",
+        "word": "la tasse"
+      },
+      {
+        "en": "spoon",
+        "word": "la cuillère"
+      },
+      {
+        "en": "fork",
+        "word": "la fourchette"
+      },
+      {
+        "en": "knife",
+        "word": "le couteau"
+      },
+      {
+        "en": "saucepan",
+        "word": "la casserole"
+      }
+    ],
+    "tools": [
+      {
+        "en": "hammer",
+        "word": "le marteau"
+      },
+      {
+        "en": "screwdriver",
+        "word": "le tournevis"
+      },
+      {
+        "en": "saw",
+        "word": "la scie"
+      },
+      {
+        "en": "scissors",
+        "word": "les ciseaux"
+      },
+      {
+        "en": "ruler",
+        "word": "la règle"
+      }
+    ],
+    "nature": [
+      {
+        "en": "tree",
+        "word": "l'arbre"
+      },
+      {
+        "en": "flower",
+        "word": "la fleur"
+      },
+      {
+        "en": "leaf",
+        "word": "la feuille"
+      },
+      {
+        "en": "grass",
+        "word": "l'herbe"
+      },
+      {
+        "en": "sky",
+        "word": "le ciel"
+      },
+      {
+        "en": "stone",
+        "word": "la pierre"
+      }
+    ],
+    "time": [
+      {
+        "en": "day",
+        "word": "le jour"
+      },
+      {
+        "en": "night",
+        "word": "la nuit"
+      },
+      {
+        "en": "today",
+        "word": "aujourd'hui"
+      },
+      {
+        "en": "tomorrow",
+        "word": "demain"
+      },
+      {
+        "en": "yesterday",
+        "word": "hier"
+      },
+      {
+        "en": "week",
+        "word": "la semaine"
+      }
+    ],
+    "feelings": [
+      {
+        "en": "happy",
+        "word": "content"
+      },
+      {
+        "en": "sad",
+        "word": "triste"
+      },
+      {
+        "en": "angry",
+        "word": "en colère"
+      },
+      {
+        "en": "scared",
+        "word": "effrayé"
+      },
+      {
+        "en": "tired",
+        "word": "fatigué"
+      }
+    ]
+  }
+}

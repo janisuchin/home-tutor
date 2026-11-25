@@ -1,0 +1,1225 @@
+{
+  "area": "languages",
+  "title": "Languages",
+  "emoji": "🗣️",
+  "description": "Reading and storytelling in the home language, and a step-by-step path in any study language, woven into maths, science, cooking and culture.",
+  "skillTrees": [
+    {
+      "id": "lang-path",
+      "area": "languages",
+      "title": "Study language path",
+      "emoji": "🗺️",
+      "nodes": [
+        {
+          "id": "exposure",
+          "title": "Exposure",
+          "description": "Hear and enjoy the new language through songs, words and play."
+        },
+        {
+          "id": "recognition",
+          "title": "Recognition",
+          "description": "Recognise common words and sounds when you hear or see them."
+        },
+        {
+          "id": "basic-communication",
+          "title": "Basic communication",
+          "description": "Greet, introduce yourself, count and ask simple questions."
+        },
+        {
+          "id": "functional",
+          "title": "Functional",
+          "description": "Handle everyday situations like shopping, directions and food."
+        },
+        {
+          "id": "intermediate",
+          "title": "Intermediate",
+          "description": "Talk and write about daily life, dates, plans and opinions."
+        },
+        {
+          "id": "advanced",
+          "title": "Advanced",
+          "description": "Hold conversations, read authentic texts and understand culture."
+        },
+        {
+          "id": "academic",
+          "title": "Academic / professional",
+          "description": "Use the language for school subjects, research and work."
+        }
+      ]
+    },
+    {
+      "id": "lang-home-literacy",
+      "area": "languages",
+      "title": "Home language reading and writing",
+      "emoji": "📖",
+      "nodes": [
+        {
+          "id": "listening-sounds",
+          "title": "Listening to sounds",
+          "description": "Hear rhymes and the first sounds in words."
+        },
+        {
+          "id": "phonics",
+          "title": "Phonics",
+          "description": "Match sounds to letters or symbols and blend them."
+        },
+        {
+          "id": "early-reading",
+          "title": "Early reading",
+          "description": "Read simple words and short sentences."
+        },
+        {
+          "id": "storytelling",
+          "title": "Storytelling",
+          "description": "Tell and retell stories with a beginning, middle and end."
+        },
+        {
+          "id": "fluent-reading",
+          "title": "Fluent reading",
+          "description": "Read longer texts with understanding."
+        },
+        {
+          "id": "writing",
+          "title": "Writing",
+          "description": "Write clear sentences, stories and letters."
+        },
+        {
+          "id": "academic-writing",
+          "title": "Academic writing",
+          "description": "Write essays that argue, explain and use evidence."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "lang-greet-in-study-language",
+      "area": "languages",
+      "group": "global",
+      "title": "Can greet someone in the study language",
+      "emoji": "👋"
+    },
+    {
+      "id": "lang-count-to-10",
+      "area": "languages",
+      "group": "global",
+      "title": "Can count to 10 in the study language",
+      "emoji": "🔟"
+    },
+    {
+      "id": "lang-name-everyday-things",
+      "area": "languages",
+      "group": "global",
+      "title": "Can name 30 everyday things in the study language",
+      "emoji": "🏷️",
+      "target": 30
+    },
+    {
+      "id": "lang-introduce-self",
+      "area": "languages",
+      "group": "global",
+      "title": "Can introduce themselves in the study language",
+      "emoji": "🙋"
+    },
+    {
+      "id": "lang-order-food",
+      "area": "languages",
+      "group": "global",
+      "title": "Can order food and ask for things politely in the study language",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "lang-hold-conversation",
+      "area": "languages",
+      "group": "global",
+      "title": "Can hold a 5-minute conversation in the study language",
+      "emoji": "💬"
+    },
+    {
+      "id": "lang-subject-vocabulary",
+      "area": "languages",
+      "group": "academic",
+      "title": "Can use maths and science words in the study language",
+      "emoji": "🧪"
+    },
+    {
+      "id": "lang-read-authentic-text",
+      "area": "languages",
+      "group": "global",
+      "title": "Can read and summarise a short authentic text in the study language",
+      "emoji": "📰"
+    },
+    {
+      "id": "lang-read-aloud",
+      "area": "languages",
+      "group": "academic",
+      "title": "Can read a short book aloud in the home language",
+      "emoji": "📖"
+    },
+    {
+      "id": "lang-tell-story",
+      "area": "languages",
+      "group": "academic",
+      "title": "Can tell a story with a beginning, middle and end",
+      "emoji": "🧚"
+    },
+    {
+      "id": "lang-write-essay",
+      "area": "languages",
+      "group": "academic",
+      "title": "Can write a clear essay in the home language",
+      "emoji": "✍️"
+    }
+  ],
+  "items": [
+    {
+      "id": "lang-hello-song",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "greetings",
+      "title": "Hello in a new language",
+      "emoji": "👋",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Let's say hello in a new language!",
+      "steps": [
+        "👂 Listen to the new hello word.",
+        "👋 Wave and say it back.",
+        "🧸 Say hello to a teddy.",
+        "👨‍👩‍👧 Say hello to your family.",
+        "🎵 Sing it to a tune you know."
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-greet-in-study-language"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "exposure"
+        }
+      ],
+      "interests": [
+        "music"
+      ],
+      "languageHooks": [
+        "greetings"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "adultNote": "Tap the speaker button to hear the word. It is fine if you are learning too: learning together is powerful."
+    },
+    {
+      "id": "lang-finger-counting",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "numbers",
+      "title": "Count my fingers",
+      "emoji": "🖐️",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Count to five, then ten, in the new language.",
+      "steps": [
+        "🖐️ Hold up one hand.",
+        "👂 Listen to each number.",
+        "☝️ Say one, two, three... as you lift fingers.",
+        "🙌 Now use two hands to get to ten!",
+        "🍎 Count real things: spoons, toys, steps."
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-count-to-10"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "exposure"
+        },
+        {
+          "tree": "lang-path",
+          "node": "recognition"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "How many? ✋",
+          "options": [
+            "5",
+            "3"
+          ],
+          "answer": 0,
+          "explain": "Yes, five fingers! Can you say five in the new language?"
+        }
+      ]
+    },
+    {
+      "id": "lang-sound-spy",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "phonics",
+      "title": "I spy a sound",
+      "emoji": "🔍",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Listen for the first sound in words.",
+      "steps": [
+        "👂 Grown-up says: \"I spy something that starts with mmm...\"",
+        "👀 Look around!",
+        "🥛 Is it milk? Mmm-ilk!",
+        "🔁 Now you choose a sound.",
+        "👏 Clap each sound in your name."
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-read-aloud"
+      ],
+      "skills": [
+        {
+          "tree": "lang-home-literacy",
+          "node": "listening-sounds"
+        },
+        {
+          "tree": "lang-home-literacy",
+          "node": "phonics"
+        }
+      ],
+      "interests": [
+        "games",
+        "stories"
+      ],
+      "connects": [
+        "core-academics"
+      ],
+      "adultNote": "Use the sound, not the letter name (\"mmm\" not \"em\"). Works in any home language."
+    },
+    {
+      "id": "lang-picture-story",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "storytelling",
+      "title": "Tell a story from pictures",
+      "emoji": "🧚",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Look at pictures and tell what happens.",
+      "steps": [
+        "📚 Pick a picture book or draw 3 pictures.",
+        "1️⃣ What happens first?",
+        "2️⃣ Then what?",
+        "3️⃣ How does it end?",
+        "🎭 Use a funny voice for a character!",
+        "❤️ How did the character feel?"
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-tell-story"
+      ],
+      "skills": [
+        {
+          "tree": "lang-home-literacy",
+          "node": "storytelling"
+        }
+      ],
+      "interests": [
+        "stories",
+        "art"
+      ],
+      "languageHooks": [
+        "feelings",
+        "animals"
+      ],
+      "connects": [
+        "arts-creativity"
+      ],
+      "adultNote": "Wordless picture books, family photos or a child's own drawings all work. Ask \"what might happen next?\""
+    },
+    {
+      "id": "lang-colour-hunt",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "vocabulary",
+      "title": "Colour hunt",
+      "emoji": "🎨",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Find something of each colour and say the colour word in the new language.",
+      "steps": [
+        "👂 Listen to the colour word.",
+        "🔴 Find something red!",
+        "🔵 Find something blue!",
+        "🟢 Green? 🟡 Yellow?",
+        "🗣️ Say the colour word each time.",
+        "🏆 Can you find all of them?"
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-name-everyday-things"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "recognition"
+        }
+      ],
+      "interests": [
+        "art",
+        "games"
+      ],
+      "languageHooks": [
+        "colours"
+      ],
+      "connects": [
+        "arts-creativity"
+      ]
+    },
+    {
+      "id": "lang-family-words",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "vocabulary",
+      "title": "My family in a new language",
+      "emoji": "👨‍👩‍👧‍👦",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Draw your family and label them with new words.",
+      "steps": [
+        "Draw the people in your family or the people who care for you.",
+        "Listen to the family words in the study language.",
+        "Write or copy the word under each person.",
+        "Point and say each word.",
+        "Find out: does the language have different words for older and younger brothers or sisters?"
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-name-everyday-things"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "recognition"
+        },
+        {
+          "tree": "lang-path",
+          "node": "basic-communication"
+        }
+      ],
+      "interests": [
+        "art",
+        "stories"
+      ],
+      "languageHooks": [
+        "family"
+      ],
+      "connects": [
+        "civics-social",
+        "arts-creativity"
+      ],
+      "adultNote": "Families come in many shapes. Include whoever the child sees as family."
+    },
+    {
+      "id": "lang-blend-sounds",
+      "kind": "lesson",
+      "area": "languages",
+      "subject": "phonics",
+      "title": "Blend sounds into words",
+      "emoji": "🔤",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Say each sound, then push them together to read a word.",
+      "steps": [
+        "Look at a short word, like \"c-a-t\".",
+        "Say each sound: c... a... t.",
+        "Now say them faster: c-a-t, cat!",
+        "Try five more short words.",
+        "Read a short sentence with your finger under each word.",
+        "Celebrate: you are reading!"
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-read-aloud"
+      ],
+      "skills": [
+        {
+          "tree": "lang-home-literacy",
+          "node": "phonics"
+        },
+        {
+          "tree": "lang-home-literacy",
+          "node": "early-reading"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "core-academics"
+      ],
+      "adultNote": "Use words from your home language. For languages with syllable-based scripts, blend syllables instead of single sounds."
+    },
+    {
+      "id": "lang-introduce-yourself",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "speaking",
+      "title": "Introduce yourself",
+      "emoji": "🙋",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Say hello, your name, your age and how you feel in the study language.",
+      "steps": [
+        "Learn the greeting word.",
+        "Learn how to say \"My name is...\".",
+        "Learn how to say your age with a number word.",
+        "Add a feeling word: \"I am happy.\"",
+        "Practise in a mirror, then with a family member.",
+        "Record yourself (if you have a phone) and listen back."
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-introduce-self",
+        "lang-greet-in-study-language"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "basic-communication"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "languageHooks": [
+        "greetings",
+        "numbers",
+        "feelings"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "adultNote": "Look up \"my name is\" in a free dictionary or phrasebook if the app does not have it yet. Pronunciation will improve with listening."
+    },
+    {
+      "id": "lang-cafe-roleplay",
+      "kind": "simulation",
+      "area": "languages",
+      "subject": "everyday conversation",
+      "title": "At the cafe",
+      "emoji": "☕",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Pretend you are in a cafe in a country where your study language is spoken.",
+      "steps": [
+        "Look at the food and fruit words first.",
+        "Choose what to do at each step.",
+        "Then act it out with a family member."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A pretend role play. No real food needed."
+      },
+      "competencies": [
+        "lang-order-food"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "functional"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "greetings",
+        "food",
+        "fruit",
+        "numbers"
+      ],
+      "connects": [
+        "financial-literacy",
+        "civics-social"
+      ],
+      "simulation": {
+        "scenario": "You walk into a small cafe. The person behind the counter smiles at you.",
+        "steps": [
+          {
+            "prompt": "What do you do first?",
+            "options": [
+              {
+                "text": "Greet them using the greeting word",
+                "correct": true,
+                "feedback": "Great. Greeting first is polite in almost every culture."
+              },
+              {
+                "text": "Point at the food without speaking",
+                "correct": false,
+                "feedback": "You can point too, but try a greeting first."
+              }
+            ]
+          },
+          {
+            "prompt": "You want some fruit and water. How do you ask?",
+            "options": [
+              {
+                "text": "Say the fruit word and water word, and add \"please\"",
+                "correct": true,
+                "feedback": "Yes! Simple words plus please work well."
+              },
+              {
+                "text": "Say it in your home language very loudly",
+                "correct": false,
+                "feedback": "Louder does not help. Try your study-language words, even just one."
+              }
+            ]
+          },
+          {
+            "prompt": "They tell you the price. You did not understand the number.",
+            "options": [
+              {
+                "text": "Politely ask them to say it again, or to write it down",
+                "correct": true,
+                "feedback": "Perfect. Asking again is a key language skill."
+              },
+              {
+                "text": "Walk away",
+                "correct": false,
+                "feedback": "No need. Ask for help: most people are happy to repeat."
+              }
+            ]
+          },
+          {
+            "prompt": "You get your food. What do you say?",
+            "options": [
+              {
+                "text": "Thank you in the study language",
+                "correct": true,
+                "feedback": "Lovely. Ending kindly makes a great impression."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Try saying thank you: it is one of the most useful words."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "lang-weather-report",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "speaking",
+      "title": "Daily weather report",
+      "emoji": "🌦️",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 5,
+      "summary": "Be a weather reporter in the study language every day for a week.",
+      "steps": [
+        "Look outside: sunny, rainy, cloudy, windy or snowy?",
+        "Say the weather word in the study language.",
+        "Add hot or cold.",
+        "Add \"today\" in the study language.",
+        "Write a weather chart for the week.",
+        "At the end, count: how many sunny days?"
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-name-everyday-things"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "basic-communication"
+        },
+        {
+          "tree": "lang-path",
+          "node": "functional"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "languageHooks": [
+        "weather",
+        "time",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "geography"
+      ]
+    },
+    {
+      "id": "lang-sentence-order",
+      "kind": "lesson",
+      "area": "languages",
+      "subject": "sentence structure",
+      "title": "Word order puzzle",
+      "emoji": "🧩",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "Different languages put words in different orders. Let's compare!",
+      "steps": [
+        "In English we say: \"I eat an apple\" (who, action, thing).",
+        "Some languages say \"I an apple eat\" (who, thing, action), like Japanese, Hindi and Gujarati.",
+        "Some often put the action first (action, who, thing), like written standard Arabic.",
+        "Find out the usual order in your study language.",
+        "Write three short sentences in your home language and rearrange them into the study language order.",
+        "Notice other differences: do adjectives come before or after nouns?"
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-introduce-self"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "functional"
+        },
+        {
+          "tree": "lang-path",
+          "node": "intermediate"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "languageHooks": [
+        "food",
+        "fruit"
+      ],
+      "connects": [
+        "core-academics"
+      ],
+      "check": [
+        {
+          "question": "In a \"who, thing, action\" language, \"I eat an apple\" becomes...",
+          "options": [
+            "I an apple eat",
+            "Eat I an apple"
+          ],
+          "answer": 0,
+          "explain": "Yes. The action comes at the end."
+        }
+      ]
+    },
+    {
+      "id": "lang-dates-and-times",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "dates",
+      "title": "Dates, days and times",
+      "emoji": "📅",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "Learn to say today's date, the day and the time in the study language.",
+      "steps": [
+        "Learn the words for today, tomorrow and yesterday.",
+        "Learn the days of the week from a free calendar or phrasebook.",
+        "Learn how to say the date. Is the day or the month said first?",
+        "Practise numbers above 10: how are 11-31 built?",
+        "Each morning for a week, say the day and date aloud.",
+        "Bonus: write family birthdays in the study language."
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-count-to-10"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "intermediate"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "languageHooks": [
+        "time",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ]
+    },
+    {
+      "id": "lang-maths-words",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "subject vocabulary",
+      "title": "Maths in another language",
+      "emoji": "➕",
+      "ageBands": [
+        "12-14",
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "Solve simple sums out loud in the study language.",
+      "steps": [
+        "Learn the words for plus, minus, equals and half.",
+        "Read simple sums aloud: 3 + 4 = 7.",
+        "Learn shape words and describe shapes you see.",
+        "Make a quiz for a family member using study-language maths words.",
+        "Notice: how does the language build bigger numbers?"
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-subject-vocabulary"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "intermediate"
+        },
+        {
+          "tree": "lang-path",
+          "node": "academic"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "languageHooks": [
+        "maths",
+        "numbers",
+        "shapes"
+      ],
+      "connects": [
+        "mathematics"
+      ]
+    },
+    {
+      "id": "lang-science-words",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "subject vocabulary",
+      "title": "Science words in your study language",
+      "emoji": "🔬",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 25,
+      "summary": "Describe a simple experiment using study-language science words.",
+      "steps": [
+        "Learn the words for science, experiment, plant, light and energy.",
+        "Learn body and nature words.",
+        "Choose an experiment you already know, such as a plant growing toward light.",
+        "Label a diagram in the study language.",
+        "Explain the experiment in three short sentences in the study language.",
+        "Find out: does your study language borrow science words from other languages?"
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-subject-vocabulary"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "intermediate"
+        },
+        {
+          "tree": "lang-path",
+          "node": "academic"
+        }
+      ],
+      "interests": [
+        "plants"
+      ],
+      "languageHooks": [
+        "science",
+        "body",
+        "nature"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "id": "lang-word-parts",
+      "kind": "lesson",
+      "area": "languages",
+      "subject": "morphology",
+      "title": "How words are built",
+      "emoji": "🧱",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 5,
+      "minutes": 25,
+      "summary": "Many words are built from smaller parts. Knowing the parts helps you guess new words.",
+      "steps": [
+        "In English, \"un-happy-ness\" has three parts: a prefix, a root and a suffix.",
+        "German joins words: a glove is a \"hand-shoe\" (Handschuh).",
+        "Chinese characters can contain parts that hint at meaning or sound.",
+        "Arabic builds many words from three-letter roots: k-t-b links words about writing and books.",
+        "Hindi, Gujarati and many European languages share roots from very old languages.",
+        "Find five words in your study language that share a part. What does the part mean?"
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-subject-vocabulary"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "intermediate"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "core-academics",
+        "history"
+      ],
+      "check": [
+        {
+          "question": "What does the prefix \"un-\" usually mean in English?",
+          "options": [
+            "not",
+            "very"
+          ],
+          "answer": 0,
+          "explain": "Yes: unhappy means not happy."
+        }
+      ]
+    },
+    {
+      "id": "lang-study-diary",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "writing",
+      "title": "Five-line diary",
+      "emoji": "📔",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 15,
+      "summary": "Write five short lines in your study language about your day.",
+      "steps": [
+        "Line 1: the date and the weather.",
+        "Line 2: what you ate.",
+        "Line 3: what you did.",
+        "Line 4: how you felt.",
+        "Line 5: what you will do tomorrow.",
+        "Look up words you need in a free dictionary, and underline new ones.",
+        "Once a week, read your diary aloud and fix mistakes."
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-name-everyday-things"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "intermediate"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "languageHooks": [
+        "time",
+        "weather",
+        "food",
+        "feelings"
+      ],
+      "connects": [
+        "independent-learning"
+      ]
+    },
+    {
+      "id": "lang-real-conversation",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "everyday conversation",
+      "title": "A real conversation",
+      "emoji": "💬",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 30,
+      "summary": "Hold a five-minute conversation with someone who speaks your study language.",
+      "steps": [
+        "With an adult, find a safe speaking partner: a family member, community member, teacher or supervised class.",
+        "Prepare 5 questions: about family, food, hobbies, weather and plans.",
+        "Prepare useful phrases: \"Could you say that again?\" and \"How do you say...?\"",
+        "Have the conversation. It is fine to make mistakes.",
+        "Afterwards, write down 5 new words you heard.",
+        "Repeat every week and time how long you can keep going."
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-hold-conversation"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "advanced"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "languageHooks": [
+        "greetings",
+        "family",
+        "food",
+        "weather",
+        "time"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "adultNote": "Only use speaking partners an adult has arranged and can supervise. Do not use open chat apps with strangers. If no speaker is available, the child can shadow (repeat aloud) recorded audio from public broadcasters."
+    },
+    {
+      "id": "lang-culture-world-project",
+      "kind": "world-project",
+      "area": "languages",
+      "subject": "cultural context",
+      "title": "Gateway to another culture",
+      "emoji": "🌏",
+      "ageBands": [
+        "15-17",
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 180,
+      "summary": "Explore a country where your study language is spoken: its geography, food, history and everyday life.",
+      "steps": [
+        "Map the country and label mountains, rivers, seas and cities in the study language.",
+        "Learn about its history and how people live today.",
+        "Learn the names of five foods and kitchen items.",
+        "Optional: with an adult, cook a simple dish from the country.",
+        "Learn about a festival and how people celebrate it.",
+        "Present what you learned, using at least 15 study-language words."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Hot pans and stoves",
+          "Knives",
+          "Food allergies"
+        ],
+        "notes": "Cooking is optional and needs an adult. Wash hands, keep raw and cooked food apart, cook food thoroughly and check allergies first."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Library books or an atlas"
+          ],
+          "description": "Draw a map and make a poster with study-language labels."
+        },
+        "better": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Ingredients for one simple dish"
+          ],
+          "description": "Cook a simple dish together and label the ingredients."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Phone or computer"
+          ],
+          "description": "Make a short video tour of the country with study-language narration."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Special ingredients",
+          "use": "Local ingredients that are similar, or a no-cook dish"
+        },
+        {
+          "instead": "Atlas",
+          "use": "A free online map"
+        },
+        {
+          "instead": "Cooking",
+          "use": "Describe a dish from pictures and make a pretend menu"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics/food-safety"
+        }
+      ],
+      "competencies": [
+        "lang-name-everyday-things",
+        "lang-read-authentic-text"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "advanced"
+        }
+      ],
+      "interests": [
+        "cooking",
+        "stories"
+      ],
+      "languageHooks": [
+        "geography",
+        "food",
+        "kitchen"
+      ],
+      "connects": [
+        "geography",
+        "history",
+        "life-skills",
+        "civics-social"
+      ]
+    },
+    {
+      "id": "lang-authentic-reading",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "reading",
+      "title": "Read the real thing",
+      "emoji": "📰",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 8,
+      "minutes": 30,
+      "summary": "Read a short real text written for speakers of your study language, and summarise it.",
+      "steps": [
+        "Choose something short: a children's news story, a recipe, a song, a poem or a science article for learners.",
+        "Read it once for the general idea. Do not look up every word.",
+        "Read again and underline 10 words you need. Look them up.",
+        "Write a 3-sentence summary in your home language, then in the study language.",
+        "Note one thing about the culture you learned from the text."
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-read-authentic-text"
+      ],
+      "skills": [
+        {
+          "tree": "lang-path",
+          "node": "advanced"
+        },
+        {
+          "tree": "lang-path",
+          "node": "academic"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "independent-learning",
+        "civics-social"
+      ],
+      "adultNote": "Public broadcasters and libraries often have free learner-level news in many languages."
+    },
+    {
+      "id": "lang-persuasive-essay",
+      "kind": "activity",
+      "area": "languages",
+      "subject": "academic writing",
+      "title": "Write a persuasive essay",
+      "emoji": "✍️",
+      "ageBands": [
+        "15-17",
+        "12-14"
+      ],
+      "level": 7,
+      "minutes": 60,
+      "summary": "Write an essay in your home language that argues for a view using evidence.",
+      "steps": [
+        "Pick a question, for example \"Should every child learn a second language?\"",
+        "Plan: introduction, three reasons with evidence, a counter-argument, conclusion.",
+        "Write a clear thesis sentence: what do you think and why?",
+        "Use linking words: however, therefore, for example.",
+        "Read it aloud and fix anything unclear.",
+        "Ask someone to read it and give one compliment and one suggestion."
+      ],
+      "practical": false,
+      "competencies": [
+        "lang-write-essay"
+      ],
+      "skills": [
+        {
+          "tree": "lang-home-literacy",
+          "node": "academic-writing"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "philosophy-worldviews",
+        "civics-social"
+      ]
+    }
+  ]
+}

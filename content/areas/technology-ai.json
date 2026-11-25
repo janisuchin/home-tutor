@@ -1,0 +1,1519 @@
+{
+  "area": "technology-ai",
+  "title": "Technology and AI",
+  "emoji": "💻",
+  "description": "Unplugged computing, programming, data, how computers and the internet work, AI literacy and staying safe online. Paper and phone options for everything.",
+  "skillTrees": [
+    {
+      "id": "tech-programming",
+      "area": "technology-ai",
+      "title": "Programming",
+      "emoji": "💻",
+      "nodes": [
+        {
+          "id": "sequences",
+          "title": "Sequences",
+          "description": "Put steps in the right order."
+        },
+        {
+          "id": "patterns",
+          "title": "Patterns",
+          "description": "Spot and continue repeating patterns."
+        },
+        {
+          "id": "algorithms",
+          "title": "Algorithms",
+          "description": "Write clear step-by-step instructions."
+        },
+        {
+          "id": "loops",
+          "title": "Loops",
+          "description": "Repeat steps without writing them again."
+        },
+        {
+          "id": "conditions",
+          "title": "Conditions",
+          "description": "Use \"if... then... else\" to make choices."
+        },
+        {
+          "id": "variables",
+          "title": "Variables",
+          "description": "Store and change values like a score."
+        },
+        {
+          "id": "block-coding",
+          "title": "Block coding",
+          "description": "Snap code blocks together to make programs."
+        },
+        {
+          "id": "text-coding",
+          "title": "Text coding",
+          "description": "Type programs in a real programming language."
+        },
+        {
+          "id": "debugging",
+          "title": "Debugging",
+          "description": "Find and fix mistakes calmly."
+        },
+        {
+          "id": "build-program",
+          "title": "Build a program",
+          "description": "Plan, build and test a program that solves a problem."
+        }
+      ]
+    },
+    {
+      "id": "tech-computing",
+      "area": "technology-ai",
+      "title": "How computers work",
+      "emoji": "🖥️",
+      "nodes": [
+        {
+          "id": "input-output",
+          "title": "Input and output",
+          "description": "Computers take input, process it and give output."
+        },
+        {
+          "id": "data",
+          "title": "Data",
+          "description": "Collect, sort and show information."
+        },
+        {
+          "id": "networks",
+          "title": "Networks and the internet",
+          "description": "How messages travel between computers."
+        },
+        {
+          "id": "ai",
+          "title": "Artificial intelligence",
+          "description": "What AI is, what it is not, and how it learns from data."
+        },
+        {
+          "id": "robotics",
+          "title": "Robotics",
+          "description": "Machines that sense, decide and act."
+        }
+      ]
+    },
+    {
+      "id": "tech-digital-citizenship",
+      "area": "technology-ai",
+      "title": "Safe and healthy online",
+      "emoji": "🛡️",
+      "nodes": [
+        {
+          "id": "ask-first",
+          "title": "Ask first",
+          "description": "Ask a trusted adult before using apps or going online."
+        },
+        {
+          "id": "private-info",
+          "title": "Private information",
+          "description": "Keep personal information private."
+        },
+        {
+          "id": "passwords",
+          "title": "Passwords",
+          "description": "Make and protect strong passwords."
+        },
+        {
+          "id": "scams",
+          "title": "Spotting scams",
+          "description": "Recognise tricks like fake messages."
+        },
+        {
+          "id": "wellbeing",
+          "title": "Digital wellbeing",
+          "description": "Balance screens with sleep, play and people."
+        },
+        {
+          "id": "responsible-ai",
+          "title": "Using AI responsibly",
+          "description": "Use AI tools honestly and check their answers."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "tech-follow-algorithm",
+      "area": "technology-ai",
+      "group": "digital",
+      "title": "Can follow and write step-by-step instructions",
+      "emoji": "🧭"
+    },
+    {
+      "id": "tech-simple-program",
+      "area": "technology-ai",
+      "group": "digital",
+      "title": "Can build a simple program",
+      "emoji": "💻"
+    },
+    {
+      "id": "tech-debug",
+      "area": "technology-ai",
+      "group": "digital",
+      "title": "Can find and fix a bug in a program",
+      "emoji": "🐞"
+    },
+    {
+      "id": "tech-strong-passwords",
+      "area": "technology-ai",
+      "group": "digital",
+      "title": "Can make and protect strong passwords",
+      "emoji": "🔐"
+    },
+    {
+      "id": "tech-online-safety",
+      "area": "technology-ai",
+      "group": "digital",
+      "title": "Knows how to stay safe online and when to tell an adult",
+      "emoji": "🛡️"
+    },
+    {
+      "id": "tech-spot-scams",
+      "area": "technology-ai",
+      "group": "digital",
+      "title": "Can spot a scam or phishing message",
+      "emoji": "🎣"
+    },
+    {
+      "id": "tech-ai-literacy",
+      "area": "technology-ai",
+      "group": "digital",
+      "title": "Can explain what AI is, what it is not, and why it can be wrong",
+      "emoji": "🤖"
+    },
+    {
+      "id": "tech-collect-data",
+      "area": "technology-ai",
+      "group": "digital",
+      "title": "Can collect data and show it in a chart",
+      "emoji": "📊"
+    },
+    {
+      "id": "tech-explain-internet",
+      "area": "technology-ai",
+      "group": "digital",
+      "title": "Can explain how the internet sends information",
+      "emoji": "🌐"
+    },
+    {
+      "id": "tech-digital-balance",
+      "area": "technology-ai",
+      "group": "personal",
+      "title": "Can plan a healthy balance of screen time",
+      "emoji": "⚖️"
+    }
+  ],
+  "items": [
+    {
+      "id": "tech-pattern-train",
+      "kind": "activity",
+      "area": "technology-ai",
+      "subject": "patterns",
+      "title": "Pattern train",
+      "emoji": "🚂",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Patterns repeat. Can you make one?",
+      "steps": [
+        "🔴🔵🔴🔵 Look! Red, blue, red, blue.",
+        "🧦 Line up big things: sock, spoon, sock, spoon.",
+        "❓ What comes next?",
+        "🚂 Make your own pattern train.",
+        "👏 Ask a grown-up to guess what comes next!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Small objects can be a choking risk"
+        ],
+        "notes": "Use objects bigger than the child's fist. An adult stays nearby."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Socks",
+            "Spoons",
+            "Cups"
+          ],
+          "description": "Make patterns with things from home."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "Coloured paper squares"
+          ],
+          "description": "Cut big paper squares and make colour patterns."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Large building blocks"
+          ],
+          "description": "Build patterned towers with large blocks."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Coloured blocks",
+          "use": "Leaves and stones (big ones) or socks and spoons"
+        }
+      ],
+      "competencies": [
+        "tech-follow-algorithm"
+      ],
+      "skills": [
+        {
+          "tree": "tech-programming",
+          "node": "patterns"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "languageHooks": [
+        "colours",
+        "shapes"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "🔴🔵🔴🔵 What comes next?",
+          "options": [
+            "🔴",
+            "🟢"
+          ],
+          "answer": 0,
+          "explain": "Yes! Red comes next."
+        }
+      ]
+    },
+    {
+      "id": "tech-be-a-robot",
+      "kind": "activity",
+      "area": "technology-ai",
+      "subject": "sequences",
+      "title": "Be a robot",
+      "emoji": "🤖",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Robots follow instructions exactly. Can you?",
+      "steps": [
+        "🤖 You are the robot!",
+        "⬆️ Grown-up says \"step forward\".",
+        "↩️ \"Turn.\" ⬆️ \"Step, step.\"",
+        "🧸 Can the robot reach the teddy?",
+        "🔄 Swap! Now you give the instructions."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Bumping into furniture"
+        ],
+        "notes": "Clear a space and walk slowly. Small steps only."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "A teddy or toy as the goal"
+          ],
+          "description": "Give spoken instructions to reach the toy."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil"
+          ],
+          "description": "Draw arrow cards ⬆️ ↩️ ↪️ and lay them in a line as the program."
+        },
+        "advanced": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Masking tape"
+          ],
+          "description": "Tape a grid on the floor and plan the whole route before the robot moves."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Masking tape grid",
+          "use": "Floor tiles, a rug pattern or chalk outside"
+        },
+        {
+          "instead": "Arrow cards",
+          "use": "Point with your hands"
+        }
+      ],
+      "competencies": [
+        "tech-follow-algorithm"
+      ],
+      "skills": [
+        {
+          "tree": "tech-programming",
+          "node": "sequences"
+        }
+      ],
+      "interests": [
+        "games",
+        "machines"
+      ],
+      "connects": [
+        "mathematics",
+        "physical-education"
+      ],
+      "adultNote": "Follow the instructions exactly as given, even when they are \"wrong\" - that is the fun and the lesson."
+    },
+    {
+      "id": "tech-ask-a-grown-up",
+      "kind": "lesson",
+      "area": "technology-ai",
+      "subject": "online safety",
+      "title": "Ask a grown-up first",
+      "emoji": "🙋",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Before you tap or play online, ask a grown-up.",
+      "steps": [
+        "📱 Want to use a phone or tablet? Ask first.",
+        "🙋 Something pops up? Show a grown-up.",
+        "🤐 Your name and home are private.",
+        "😟 Feel funny or scared? Tell a grown-up straight away.",
+        "👍 You will not be in trouble for telling."
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-online-safety"
+      ],
+      "skills": [
+        {
+          "tree": "tech-digital-citizenship",
+          "node": "ask-first"
+        }
+      ],
+      "interests": [
+        "computers"
+      ],
+      "check": [
+        {
+          "question": "A game asks where you live. What do you do?",
+          "options": [
+            "🙋 Ask a grown-up",
+            "⌨️ Type it in"
+          ],
+          "answer": 0,
+          "explain": "Yes! Ask a grown-up. Where you live is private."
+        }
+      ],
+      "adultNote": "Agree simple family rules now (where devices are used, for how long). Children who are not punished for telling keep telling."
+    },
+    {
+      "id": "tech-arrow-maze",
+      "kind": "activity",
+      "area": "technology-ai",
+      "subject": "algorithms",
+      "title": "Arrow maze treasure hunt",
+      "emoji": "🗺️",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Write a program of arrows to guide a character to the treasure.",
+      "steps": [
+        "Draw a 5 x 5 grid on paper.",
+        "Put a smiley in one corner and a treasure in another.",
+        "Draw a few walls the character cannot pass.",
+        "Write the program as arrows: ➡️ ➡️ ⬇️ ...",
+        "Ask someone to follow your arrows with a finger.",
+        "Did it work? If not, find the wrong arrow and fix it. That is called debugging!"
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-follow-algorithm",
+        "tech-debug"
+      ],
+      "skills": [
+        {
+          "tree": "tech-programming",
+          "node": "algorithms"
+        },
+        {
+          "tree": "tech-programming",
+          "node": "debugging"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "connects": [
+        "mathematics",
+        "geography"
+      ],
+      "check": [
+        {
+          "question": "Your program goes the wrong way. What is fixing it called?",
+          "options": [
+            "Debugging",
+            "Deleting"
+          ],
+          "answer": 0,
+          "explain": "Yes! Every programmer debugs. Mistakes help us learn."
+        }
+      ]
+    },
+    {
+      "id": "tech-what-is-a-computer",
+      "kind": "lesson",
+      "area": "technology-ai",
+      "subject": "how computers work",
+      "title": "Input, process, output",
+      "emoji": "🖥️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "A computer takes in information, does something with it, and gives an answer.",
+      "steps": [
+        "Input: information goes in, like pressing keys, touching a screen or speaking.",
+        "Process: the computer follows instructions (a program) very fast.",
+        "Output: something comes out, like a picture, a sound or words.",
+        "Storage: computers can save information to use later.",
+        "Computers are everywhere: phones, washing machines, cars, calculators.",
+        "Find three machines at home that have a tiny computer inside. Name their inputs and outputs."
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-follow-algorithm"
+      ],
+      "skills": [
+        {
+          "tree": "tech-computing",
+          "node": "input-output"
+        }
+      ],
+      "interests": [
+        "computers",
+        "machines"
+      ],
+      "connects": [
+        "science"
+      ],
+      "check": [
+        {
+          "question": "A microphone is...",
+          "options": [
+            "an input",
+            "an output"
+          ],
+          "answer": 0,
+          "explain": "Yes. It takes sound into the device."
+        },
+        {
+          "question": "A speaker is...",
+          "options": [
+            "an input",
+            "an output"
+          ],
+          "answer": 1,
+          "explain": "Yes. Sound comes out of it."
+        }
+      ]
+    },
+    {
+      "id": "tech-private-info-sim",
+      "kind": "simulation",
+      "area": "technology-ai",
+      "subject": "online safety",
+      "title": "A stranger in the game chat",
+      "emoji": "💬",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Someone you do not know sends you a message in a game. What do you do?",
+      "steps": [
+        "Read the messages.",
+        "Choose the safest answer.",
+        "Talk about it with a trusted adult."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A pretend scenario. If a real message ever worries the child, an adult should help report and block."
+      },
+      "competencies": [
+        "tech-online-safety"
+      ],
+      "skills": [
+        {
+          "tree": "tech-digital-citizenship",
+          "node": "private-info"
+        }
+      ],
+      "interests": [
+        "games",
+        "computers"
+      ],
+      "simulation": {
+        "scenario": "You are playing an online game. A player you do not know writes: \"Hi! You're really good. What school do you go to?\"",
+        "steps": [
+          {
+            "prompt": "What do you do?",
+            "options": [
+              {
+                "text": "Do not answer the question, and tell a trusted adult",
+                "correct": true,
+                "feedback": "Great. Your school, home and full name are private."
+              },
+              {
+                "text": "Tell them your school",
+                "correct": false,
+                "feedback": "That is private information. Strangers online may not be who they say."
+              }
+            ]
+          },
+          {
+            "prompt": "They write: \"Don't tell your parents, it's our secret. Send me a photo.\"",
+            "options": [
+              {
+                "text": "Stop chatting, block them and show an adult right away",
+                "correct": true,
+                "feedback": "Exactly right. Asking for secrets and photos is a warning sign."
+              },
+              {
+                "text": "Send a photo but keep it a secret",
+                "correct": false,
+                "feedback": "Never. A safe person never asks a child to keep secrets from their family."
+              }
+            ]
+          },
+          {
+            "prompt": "You feel worried you will be in trouble. Should you still tell?",
+            "options": [
+              {
+                "text": "Yes - telling is always the right thing",
+                "correct": true,
+                "feedback": "Yes. You have done nothing wrong by telling."
+              },
+              {
+                "text": "No, just delete the game",
+                "correct": false,
+                "feedback": "Please still tell an adult. They can help report the person."
+              }
+            ]
+          }
+        ]
+      },
+      "adultNote": "Reassure the child they will not lose devices for telling you. Know how to block and report in the apps your child uses."
+    },
+    {
+      "id": "tech-loop-dance",
+      "kind": "activity",
+      "area": "technology-ai",
+      "subject": "loops",
+      "title": "Loop dance",
+      "emoji": "💃",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "A loop repeats steps. Make a dance program with loops!",
+      "steps": [
+        "Choose 3 moves: clap 👏, jump ⬆️, spin 🔄.",
+        "Write a dance: clap, clap, clap, clap, jump.",
+        "Now write it shorter with a loop: REPEAT 4 [clap], jump.",
+        "Make a longer dance that uses two loops.",
+        "Ask someone to \"run\" your dance program.",
+        "Bonus: add a condition: IF the music stops THEN freeze."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Bumping into furniture",
+          "Dizziness from spinning"
+        ],
+        "notes": "Clear a space. Keep spins slow and stop if dizzy."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil"
+          ],
+          "description": "Write the dance program on paper and perform it."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "Phone for music"
+          ],
+          "description": "Play music and add \"IF music stops THEN freeze\"."
+        },
+        "advanced": {
+          "cost": "Free",
+          "materials": [
+            "Phone or computer",
+            "Free block-coding website"
+          ],
+          "description": "Program a cartoon character to do the same dance with loop blocks."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Computer or laptop",
+          "use": "A phone or tablet browser with a free coding website"
+        },
+        {
+          "instead": "Music player",
+          "use": "Sing or clap a beat"
+        }
+      ],
+      "competencies": [
+        "tech-follow-algorithm"
+      ],
+      "skills": [
+        {
+          "tree": "tech-programming",
+          "node": "loops"
+        },
+        {
+          "tree": "tech-programming",
+          "node": "conditions"
+        }
+      ],
+      "interests": [
+        "music",
+        "sport"
+      ],
+      "connects": [
+        "physical-education",
+        "arts-creativity",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "tech-strong-passwords",
+      "kind": "lesson",
+      "area": "technology-ai",
+      "subject": "cybersecurity",
+      "title": "Super-strong passwords",
+      "emoji": "🔐",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "A strong password keeps your accounts safe. Learn the three-random-words trick.",
+      "steps": [
+        "Weak passwords are short or easy to guess, like \"123456\" or your pet's name.",
+        "Strong idea: join three random words, for example \"teapot-river-violin\" (do not use this one!).",
+        "Longer is stronger. Add a number or symbol if a site asks.",
+        "Use a different password for every important account, especially email.",
+        "Never share passwords with friends. Trusted adults can help you store them safely.",
+        "Turn on two-step checks (a code sent to a trusted device) when an adult helps you set up an account.",
+        "Practise: make three pretend passwords on paper and rate them weak, OK or strong. Then tear up the paper."
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-strong-passwords"
+      ],
+      "skills": [
+        {
+          "tree": "tech-digital-citizenship",
+          "node": "passwords"
+        }
+      ],
+      "interests": [
+        "computers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Which is stronger?",
+          "options": [
+            "fluffy1",
+            "cactus-lantern-orbit"
+          ],
+          "answer": 1,
+          "explain": "Yes. Longer, random words are much harder to guess."
+        },
+        {
+          "question": "Should you use the same password everywhere?",
+          "options": [
+            "Yes, it is easier",
+            "No, one leak would unlock everything"
+          ],
+          "answer": 1,
+          "explain": "Use a different one for each important account."
+        }
+      ]
+    },
+    {
+      "id": "tech-what-is-ai",
+      "kind": "lesson",
+      "area": "technology-ai",
+      "subject": "AI literacy",
+      "title": "What is AI (and what is it not)?",
+      "emoji": "🤖",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "AI is computer software that learns patterns from lots of examples. It is useful, but it is not magic and it can be wrong.",
+      "steps": [
+        "AI stands for artificial intelligence.",
+        "Many AI tools are trained on huge amounts of examples (data) and learn patterns from them.",
+        "AI can recognise faces, translate languages, suggest videos or write text.",
+        "AI is NOT a person. It does not have feelings, and it does not truly know you.",
+        "AI can be wrong. It can make up facts that sound confident. Always check important things.",
+        "AI can be unfair if its training examples were unfair.",
+        "Never tell an AI chatbot your full name, address, school, passwords or photos of yourself.",
+        "Find three places AI might be used in your life. Are they helpful? What could go wrong?"
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-ai-literacy",
+        "tech-online-safety"
+      ],
+      "skills": [
+        {
+          "tree": "tech-computing",
+          "node": "ai"
+        },
+        {
+          "tree": "tech-digital-citizenship",
+          "node": "private-info"
+        }
+      ],
+      "interests": [
+        "computers"
+      ],
+      "connects": [
+        "philosophy",
+        "science"
+      ],
+      "check": [
+        {
+          "question": "An AI chatbot gives you a fact for homework. What should you do?",
+          "options": [
+            "Copy it straight away",
+            "Check it in another reliable source"
+          ],
+          "answer": 1,
+          "explain": "Yes. AI can sound sure and still be wrong."
+        },
+        {
+          "question": "Does an AI chatbot have feelings?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "answer": 1,
+          "explain": "No. It can copy the way people talk, but it does not feel."
+        }
+      ],
+      "adultNote": "Check the age rules of any AI tool before your child uses it, and supervise use."
+    },
+    {
+      "id": "tech-train-a-sorter",
+      "kind": "activity",
+      "area": "technology-ai",
+      "subject": "AI literacy",
+      "title": "Train a pretend AI",
+      "emoji": "🃏",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 25,
+      "summary": "Be the AI! Learn from examples, then see what happens when the examples are not fair.",
+      "steps": [
+        "Draw 12 small cards: 6 fruits and 6 vegetables (or animals that fly / do not fly).",
+        "Teacher shows you 8 cards with labels. That is your \"training data\".",
+        "Write your rule: how do you tell them apart?",
+        "Teacher shows the last 4 cards without labels. Use your rule to guess.",
+        "How many did you get right? That is your \"accuracy\".",
+        "Now try again, but the training cards are only red fruits. Does your rule work for a banana?",
+        "Talk: if training data leaves things out, AI can make unfair mistakes."
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-ai-literacy",
+        "tech-collect-data"
+      ],
+      "skills": [
+        {
+          "tree": "tech-computing",
+          "node": "ai"
+        },
+        {
+          "tree": "tech-computing",
+          "node": "data"
+        }
+      ],
+      "interests": [
+        "computers",
+        "games",
+        "plants"
+      ],
+      "languageHooks": [
+        "fruit",
+        "animals"
+      ],
+      "connects": [
+        "science",
+        "mathematics",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "tech-tally-survey",
+      "kind": "activity",
+      "area": "technology-ai",
+      "subject": "data",
+      "title": "Favourite fruit survey",
+      "emoji": "📊",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 25,
+      "summary": "Collect data, make a chart and find out what it tells you.",
+      "steps": [
+        "Choose a question, like \"What is your favourite fruit?\"",
+        "Ask at least 8 people (family, neighbours with an adult, or friends by phone).",
+        "Record answers with tally marks: |||| counts as 5.",
+        "Draw a bar chart on paper: one bar for each answer.",
+        "Write two sentences: what is most popular? What surprised you?",
+        "Think: would the answer change if you asked different people?"
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-collect-data"
+      ],
+      "skills": [
+        {
+          "tree": "tech-computing",
+          "node": "data"
+        }
+      ],
+      "interests": [
+        "plants",
+        "cooking"
+      ],
+      "languageHooks": [
+        "fruit",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "|||| ||| shows...",
+          "options": [
+            "7",
+            "8"
+          ],
+          "answer": 1,
+          "explain": "The bundle is 5 plus 3 more makes 8."
+        }
+      ]
+    },
+    {
+      "id": "tech-first-program",
+      "kind": "project",
+      "area": "technology-ai",
+      "subject": "programming",
+      "title": "Build a guess-the-number game",
+      "emoji": "🎲",
+      "ageBands": [
+        "12-14",
+        "9-11"
+      ],
+      "level": 5,
+      "minutes": 60,
+      "summary": "Build a simple program: the computer picks a secret number and gives hints until you guess it.",
+      "steps": [
+        "Plan on paper first: what does the program need to do?",
+        "Step 1: pick a secret number from 1 to 20 and store it in a variable.",
+        "Step 2: ask the player for a guess.",
+        "Step 3: IF guess is too high, say \"Lower\". IF too low, say \"Higher\".",
+        "Step 4: REPEAT until the guess is right, then say \"You got it!\"",
+        "Build it with block coding or text coding, or run it on paper with a friend as the computer.",
+        "Test it. Find and fix bugs. Then add a guess counter."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Long screen time"
+        ],
+        "notes": "Take a break from screens every 30 minutes."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil",
+            "Dice"
+          ],
+          "description": "Write the program as a flow chart. One person is the \"computer\" and follows it exactly."
+        },
+        "better": {
+          "cost": "Free with a phone",
+          "materials": [
+            "Phone or tablet browser",
+            "Free block-coding website"
+          ],
+          "description": "Snap blocks together for variables, loops and \"if\" blocks."
+        },
+        "advanced": {
+          "cost": "Free with a computer",
+          "materials": [
+            "Computer",
+            "Free online text-coding editor"
+          ],
+          "description": "Type the program in a beginner text language and add a score."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Computer or laptop",
+          "use": "Paper and pencil: write the program and run it by hand, step by step"
+        },
+        {
+          "instead": "Computer or laptop",
+          "use": "A phone or tablet browser with a free coding website"
+        },
+        {
+          "instead": "Random number generator",
+          "use": "Roll dice or pick a numbered card"
+        }
+      ],
+      "competencies": [
+        "tech-simple-program",
+        "tech-debug"
+      ],
+      "skills": [
+        {
+          "tree": "tech-programming",
+          "node": "variables"
+        },
+        {
+          "tree": "tech-programming",
+          "node": "conditions"
+        },
+        {
+          "tree": "tech-programming",
+          "node": "loops"
+        },
+        {
+          "tree": "tech-programming",
+          "node": "build-program"
+        }
+      ],
+      "interests": [
+        "computers",
+        "games"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "adultNote": "Many free, reputable coding sites run in a phone browser without installing anything. Check privacy settings and do not let the child create accounts without you."
+    },
+    {
+      "id": "tech-phishing-sim",
+      "kind": "simulation",
+      "area": "technology-ai",
+      "subject": "cybersecurity",
+      "title": "Is this message a trick?",
+      "emoji": "🎣",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 15,
+      "summary": "Scammers send fake messages to steal passwords or money. Can you spot them?",
+      "steps": [
+        "Read each message.",
+        "Decide what is safe.",
+        "Look for warning signs."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Pretend messages only. Never click links in real suspicious messages."
+      },
+      "competencies": [
+        "tech-spot-scams"
+      ],
+      "skills": [
+        {
+          "tree": "tech-digital-citizenship",
+          "node": "scams"
+        }
+      ],
+      "interests": [
+        "computers",
+        "money"
+      ],
+      "connects": [
+        "financial-literacy",
+        "civics-social"
+      ],
+      "simulation": {
+        "scenario": "You get a message: \"URGENT! Your game account will be deleted in 1 hour. Click here and enter your password to keep it.\"",
+        "steps": [
+          {
+            "prompt": "What is the biggest warning sign?",
+            "options": [
+              {
+                "text": "It rushes you and asks for your password",
+                "correct": true,
+                "feedback": "Yes. Pressure plus a password request is a classic trick."
+              },
+              {
+                "text": "It mentions your game",
+                "correct": false,
+                "feedback": "Scammers often mention things you use to look real. Look for rushing and requests."
+              }
+            ]
+          },
+          {
+            "prompt": "What should you do?",
+            "options": [
+              {
+                "text": "Do not click. Open the game the normal way to check, and tell an adult",
+                "correct": true,
+                "feedback": "Perfect. Go to the real site or app yourself."
+              },
+              {
+                "text": "Click the link quickly before it is too late",
+                "correct": false,
+                "feedback": "The hurry is part of the trick. Real companies do not ask for your password like this."
+              }
+            ]
+          },
+          {
+            "prompt": "A message says you won a prize but must pay a small fee first. This is...",
+            "options": [
+              {
+                "text": "Probably a scam",
+                "correct": true,
+                "feedback": "Right. Real prizes do not ask you to pay first."
+              },
+              {
+                "text": "A great deal",
+                "correct": false,
+                "feedback": "Be careful. \"Pay to get a prize\" is a common scam."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "tech-screen-balance",
+      "kind": "activity",
+      "area": "technology-ai",
+      "subject": "digital wellbeing",
+      "title": "My screen balance plan",
+      "emoji": "⚖️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "Screens can be fun and useful. A good plan leaves time for sleep, people and moving.",
+      "steps": [
+        "For 3 days, write down roughly when and why you use screens.",
+        "Sort each use: learning, making, chatting, relaxing or just scrolling.",
+        "Notice: how did you feel after each type?",
+        "Make a plan: screen-free times (meals, the hour before bed), and things you want more of.",
+        "Use helpful settings: turn off non-urgent notifications, keep devices out of the bedroom at night.",
+        "Review the plan with a family member after a week."
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-digital-balance"
+      ],
+      "skills": [
+        {
+          "tree": "tech-digital-citizenship",
+          "node": "wellbeing"
+        }
+      ],
+      "interests": [
+        "computers",
+        "sport"
+      ],
+      "connects": [
+        "health",
+        "independent-learning"
+      ],
+      "adultNote": "Make a family plan rather than a rule just for the child. Adults modelling the plan makes it work."
+    },
+    {
+      "id": "tech-how-internet-works",
+      "kind": "lesson",
+      "area": "technology-ai",
+      "subject": "networks",
+      "title": "How does the internet work?",
+      "emoji": "🌐",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "The internet is a giant network of computers that pass small packets of data to each other.",
+      "steps": [
+        "Your message is split into small pieces called packets.",
+        "Each packet has an address, like a letter. Computers on the internet have IP addresses.",
+        "Routers pass packets along, often taking different paths, then they are put back together.",
+        "DNS works like a phone book: it turns a website name into an address.",
+        "The padlock in a browser means the connection is encrypted: scrambled so others cannot read it.",
+        "Unplugged demo: write a sentence on 5 numbered slips, pass them around a room in random order, then rebuild the sentence."
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-explain-internet"
+      ],
+      "skills": [
+        {
+          "tree": "tech-computing",
+          "node": "networks"
+        }
+      ],
+      "interests": [
+        "computers"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "What does DNS do?",
+          "options": [
+            "Turns website names into addresses",
+            "Makes the internet faster"
+          ],
+          "answer": 0,
+          "explain": "Yes. It is like a phone book for the internet."
+        }
+      ]
+    },
+    {
+      "id": "tech-solve-a-problem-program",
+      "kind": "project",
+      "area": "technology-ai",
+      "subject": "programming",
+      "title": "Code a program that solves a real problem",
+      "emoji": "🧑‍💻",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 240,
+      "summary": "Plan, build and test a program that helps someone, like a budget tracker, a quiz or a chore rota.",
+      "steps": [
+        "Interview a \"user\" (a family member): what problem would they like solved?",
+        "Write the requirements: what must it do? What would be nice?",
+        "Design: draw the screens or text prompts, and a flow chart.",
+        "Build a small working version first, then add features.",
+        "Test with real users. Write down every bug and fix it.",
+        "Write short instructions for the user and comments in your code.",
+        "Reflect: what would you build next?"
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Long screen time",
+          "Storing other people's private data"
+        ],
+        "notes": "Take regular breaks. Do not collect real personal details; use pretend data."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil"
+          ],
+          "description": "Design the program fully on paper with pseudocode and a hand-run test table."
+        },
+        "better": {
+          "cost": "Free with a phone",
+          "materials": [
+            "Phone browser",
+            "Free online code editor"
+          ],
+          "description": "Write and run short programs in a mobile browser."
+        },
+        "advanced": {
+          "cost": "Free with a computer",
+          "materials": [
+            "Computer",
+            "Free programming language and editor"
+          ],
+          "description": "Build a fuller program and save it in a project folder."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Computer or laptop",
+          "use": "Paper and pencil: write the program and run it by hand, step by step"
+        },
+        {
+          "instead": "Computer or laptop",
+          "use": "A phone or tablet browser with a free coding website"
+        }
+      ],
+      "competencies": [
+        "tech-simple-program",
+        "tech-debug"
+      ],
+      "skills": [
+        {
+          "tree": "tech-programming",
+          "node": "text-coding"
+        },
+        {
+          "tree": "tech-programming",
+          "node": "debugging"
+        },
+        {
+          "tree": "tech-programming",
+          "node": "build-program"
+        }
+      ],
+      "interests": [
+        "computers",
+        "helping"
+      ],
+      "connects": [
+        "mathematics",
+        "financial-literacy",
+        "careers"
+      ]
+    },
+    {
+      "id": "tech-design-a-robot",
+      "kind": "project",
+      "area": "technology-ai",
+      "subject": "robotics",
+      "title": "Design a helper robot",
+      "emoji": "🦾",
+      "ageBands": [
+        "15-17",
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 120,
+      "summary": "Robots sense, think and act. Design a robot that solves a small problem.",
+      "steps": [
+        "Pick a problem, like watering a plant when soil is dry.",
+        "Sense: what sensor does it need? (soil moisture, light, distance)",
+        "Think: write the program as IF... THEN... rules.",
+        "Act: what moves or changes? (a pump, a motor, a light)",
+        "Build a cardboard model and label each part.",
+        "Advanced: with an adult, build a working version with a low-cost microcontroller kit.",
+        "Present your robot and explain its sense-think-act loop."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Scissors and craft knives",
+          "Batteries can overheat if short-circuited",
+          "Small parts"
+        ],
+        "notes": "An adult supervises cutting and any electronics. Use low-voltage battery kits only, never mains electricity. Disconnect batteries when not in use."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Cardboard",
+            "Tape",
+            "Scissors",
+            "Paper"
+          ],
+          "description": "Build a model robot and write its program on paper."
+        },
+        "better": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Battery pack",
+            "Small motor",
+            "LED",
+            "Wires"
+          ],
+          "description": "Make a simple circuit that turns a motor or light on with a switch."
+        },
+        "advanced": {
+          "cost": "Under 40 USD",
+          "materials": [
+            "Microcontroller board",
+            "Sensor",
+            "Motor",
+            "Computer or phone"
+          ],
+          "description": "Program a real sensor to control a motor or light."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Microcontroller kit",
+          "use": "A cardboard model and a paper program"
+        },
+        {
+          "instead": "Craft knife",
+          "use": "Child-safe scissors"
+        },
+        {
+          "instead": "Computer",
+          "use": "Some boards can be programmed from a phone browser"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Society for the Prevention of Accidents",
+          "publisher": "RoSPA",
+          "url": "https://www.rospa.com"
+        },
+        {
+          "title": "Electrical safety advice",
+          "publisher": "Electrical Safety First",
+          "url": "https://www.electricalsafetyfirst.org.uk"
+        }
+      ],
+      "competencies": [
+        "tech-simple-program"
+      ],
+      "skills": [
+        {
+          "tree": "tech-computing",
+          "node": "robotics"
+        },
+        {
+          "tree": "tech-programming",
+          "node": "conditions"
+        }
+      ],
+      "interests": [
+        "machines",
+        "building",
+        "computers",
+        "plants"
+      ],
+      "connects": [
+        "science",
+        "mathematics",
+        "careers"
+      ],
+      "adultNote": "Keep to low-voltage kits. Coin and button batteries are dangerous if swallowed: keep them away from younger siblings."
+    },
+    {
+      "id": "tech-use-ai-responsibly",
+      "kind": "lesson",
+      "area": "technology-ai",
+      "subject": "AI literacy",
+      "title": "Using AI tools wisely",
+      "emoji": "🧠",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "AI tools can help you learn, but they can also mislead you. Use them like a clever but unreliable helper.",
+      "steps": [
+        "Use AI to explain, quiz you or give feedback, not to do your thinking for you.",
+        "Be honest: say when you used AI in your work.",
+        "Check facts, numbers and quotes against reliable sources. AI can invent sources.",
+        "Ask: whose data trained this? Who might it treat unfairly?",
+        "Deepfakes are fake pictures, voices or videos made with AI. Check before you believe or share.",
+        "Privacy: never enter personal details, other people's information or passwords.",
+        "Try it: ask an AI tool (with an adult) a question you already know the answer to. Was it right?"
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-ai-literacy"
+      ],
+      "skills": [
+        {
+          "tree": "tech-digital-citizenship",
+          "node": "responsible-ai"
+        },
+        {
+          "tree": "tech-computing",
+          "node": "ai"
+        }
+      ],
+      "interests": [
+        "computers"
+      ],
+      "connects": [
+        "philosophy",
+        "civics-social",
+        "independent-learning"
+      ],
+      "check": [
+        {
+          "question": "An AI tool gives you a source for an essay. You should...",
+          "options": [
+            "use it without checking",
+            "find and read the source yourself"
+          ],
+          "answer": 1,
+          "explain": "AI can make up sources that do not exist."
+        }
+      ],
+      "adultNote": "Check the minimum age and privacy terms of any AI service. The offline version: discuss real examples from news on paper."
+    }
+  ]
+}

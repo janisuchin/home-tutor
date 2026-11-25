@@ -1,0 +1,1215 @@
+{
+  "area": "civics-social",
+  "title": "Civics and social learning",
+  "emoji": "🤝",
+  "description": "Feelings, friendship, fairness, community, rights, how societies are run and how to think for yourself about news.",
+  "skillTrees": [
+    {
+      "id": "civ-social-skills",
+      "area": "civics-social",
+      "title": "Feelings and friendship",
+      "emoji": "🤝",
+      "nodes": [
+        {
+          "id": "feelings",
+          "title": "Feelings",
+          "description": "Notice and name your own feelings."
+        },
+        {
+          "id": "friendship",
+          "title": "Friendship",
+          "description": "Know what makes a good friend."
+        },
+        {
+          "id": "communication",
+          "title": "Communication",
+          "description": "Listen well and say what you need kindly."
+        },
+        {
+          "id": "kindness-cooperation",
+          "title": "Kindness and cooperation",
+          "description": "Take turns, share and work as a team."
+        },
+        {
+          "id": "conflict-resolution",
+          "title": "Solving disagreements",
+          "description": "Calm down, listen and find a fair solution."
+        }
+      ]
+    },
+    {
+      "id": "civ-citizenship",
+      "area": "civics-social",
+      "title": "Citizenship",
+      "emoji": "🏛️",
+      "nodes": [
+        {
+          "id": "rules-fairness",
+          "title": "Rules and fairness",
+          "description": "Why groups make rules and what makes them fair."
+        },
+        {
+          "id": "community",
+          "title": "Community",
+          "description": "The people and services that help us."
+        },
+        {
+          "id": "rights-responsibilities",
+          "title": "Rights and responsibilities",
+          "description": "Children's rights and the duties that go with them."
+        },
+        {
+          "id": "government",
+          "title": "How governments work",
+          "description": "Compare different ways countries are run."
+        },
+        {
+          "id": "voting-laws",
+          "title": "Voting and laws",
+          "description": "How votes are counted and how laws are made."
+        },
+        {
+          "id": "media-literacy",
+          "title": "Media literacy",
+          "description": "Check where information comes from before trusting it."
+        },
+        {
+          "id": "debate",
+          "title": "Fair debate",
+          "description": "Argue for a view while treating others fairly."
+        },
+        {
+          "id": "comparative-societies",
+          "title": "Comparing societies",
+          "description": "Understand how everyday life differs around the world."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "civ-name-feelings",
+      "area": "civics-social",
+      "group": "personal",
+      "title": "Can name and talk about feelings",
+      "emoji": "😊"
+    },
+    {
+      "id": "civ-take-turns",
+      "area": "civics-social",
+      "group": "personal",
+      "title": "Can take turns and share in a group",
+      "emoji": "🔄"
+    },
+    {
+      "id": "civ-resolve-conflict",
+      "area": "civics-social",
+      "group": "life",
+      "title": "Can solve a disagreement calmly and fairly",
+      "emoji": "🕊️"
+    },
+    {
+      "id": "civ-active-listener",
+      "area": "civics-social",
+      "group": "life",
+      "title": "Can listen carefully and repeat back what was said",
+      "emoji": "👂"
+    },
+    {
+      "id": "civ-community-helpers",
+      "area": "civics-social",
+      "group": "life",
+      "title": "Can name community helpers and how they help",
+      "emoji": "🚒"
+    },
+    {
+      "id": "civ-know-child-rights",
+      "area": "civics-social",
+      "group": "global",
+      "title": "Can explain some rights every child has",
+      "emoji": "🧒"
+    },
+    {
+      "id": "civ-compare-governments",
+      "area": "civics-social",
+      "group": "academic",
+      "title": "Can compare how different governments work",
+      "emoji": "🏛️"
+    },
+    {
+      "id": "civ-explain-voting",
+      "area": "civics-social",
+      "group": "academic",
+      "title": "Can explain how a vote and a new law work",
+      "emoji": "🗳️"
+    },
+    {
+      "id": "civ-check-information",
+      "area": "civics-social",
+      "group": "digital",
+      "title": "Can check if a news story or post is reliable",
+      "emoji": "🔎"
+    },
+    {
+      "id": "civ-debate-fairly",
+      "area": "civics-social",
+      "group": "intellectual",
+      "title": "Can debate an issue fairly",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "civ-compare-societies",
+      "area": "civics-social",
+      "group": "global",
+      "title": "Can compare everyday life in two societies",
+      "emoji": "🌍"
+    }
+  ],
+  "items": [
+    {
+      "id": "civ-feelings-faces",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "feelings",
+      "title": "Feelings faces",
+      "emoji": "😊",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Faces can show how we feel. Let's make some!",
+      "steps": [
+        "😊 Make a happy face.",
+        "😢 Make a sad face.",
+        "😠 Make a cross face.",
+        "😨 Make a scared face.",
+        "🗣️ Say: \"I feel happy when...\"",
+        "🤗 Big feelings are OK. We can tell a grown-up."
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-name-feelings"
+      ],
+      "skills": [
+        {
+          "tree": "civ-social-skills",
+          "node": "feelings"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "languageHooks": [
+        "feelings"
+      ],
+      "connects": [
+        "language",
+        "health"
+      ],
+      "check": [
+        {
+          "question": "This face 😢 feels...",
+          "options": [
+            "Happy",
+            "Sad"
+          ],
+          "answer": 1,
+          "explain": "Yes, tears can mean sad. It is OK to feel sad."
+        }
+      ],
+      "adultNote": "Use a mirror if you have one. Name feelings during the day too (\"You look proud!\"). All feelings are allowed; some actions are not."
+    },
+    {
+      "id": "civ-taking-turns-ball",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "kindness and cooperation",
+      "title": "Roll the ball, take a turn",
+      "emoji": "⚽",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Taking turns makes games fun for everyone.",
+      "steps": [
+        "🧑‍🤝‍🧑 Sit in a circle.",
+        "⚽ Roll the ball to someone.",
+        "🗣️ Say their name.",
+        "⏳ Wait for the ball to come back.",
+        "👏 Clap for good waiting!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Tripping on toys",
+          "Hard balls can hurt"
+        ],
+        "notes": "Use a soft ball and a clear floor space."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Rolled-up socks"
+          ],
+          "description": "Roll a sock ball between family members."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "Soft ball"
+          ],
+          "description": "Use a soft ball and add a turn-taking song."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Soft ball",
+            "Sand timer"
+          ],
+          "description": "Use a sand timer so each person gets an equal turn."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Soft ball",
+          "use": "Rolled-up socks or a scrunched paper ball"
+        },
+        {
+          "instead": "Sand timer",
+          "use": "Count slowly to ten together"
+        }
+      ],
+      "competencies": [
+        "civ-take-turns"
+      ],
+      "skills": [
+        {
+          "tree": "civ-social-skills",
+          "node": "kindness-cooperation"
+        }
+      ],
+      "interests": [
+        "sport",
+        "games"
+      ],
+      "connects": [
+        "physical-education",
+        "mathematics"
+      ],
+      "adultNote": "With one child, play with an adult or a toy that \"takes a turn\". Praise waiting, not winning."
+    },
+    {
+      "id": "civ-who-helps-us",
+      "kind": "lesson",
+      "area": "civics-social",
+      "subject": "community helpers",
+      "title": "Who helps us?",
+      "emoji": "🚒",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Lots of people help our community every day.",
+      "steps": [
+        "🚒 Firefighters put out fires.",
+        "🧑‍⚕️ Doctors and nurses help sick people.",
+        "👮 Police officers help keep people safe.",
+        "🧑‍🌾 Farmers grow our food.",
+        "🧹 Cleaners keep places tidy.",
+        "👋 Who helps you? Draw them!"
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-community-helpers"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "community"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "connects": [
+        "careers",
+        "first-aid"
+      ],
+      "check": [
+        {
+          "question": "Who puts out fires?",
+          "options": [
+            "🚒 Firefighter",
+            "🧑‍🍳 Chef"
+          ],
+          "answer": 0,
+          "explain": "Yes! Firefighters put out fires and rescue people."
+        }
+      ],
+      "adultNote": "Mention that anyone can do any of these jobs. Teach how to get help where you live (see the emergency numbers screen)."
+    },
+    {
+      "id": "civ-good-friend",
+      "kind": "lesson",
+      "area": "civics-social",
+      "subject": "friendship",
+      "title": "What makes a good friend?",
+      "emoji": "🧑‍🤝‍🧑",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Good friends are kind, fair and listen to each other.",
+      "steps": [
+        "Think of a time a friend was kind to you.",
+        "Good friends share, take turns and say sorry.",
+        "Good friends do not make you keep secrets that feel bad.",
+        "You can be a good friend too.",
+        "Draw a \"friend recipe\": what goes into a good friend?"
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-name-feelings"
+      ],
+      "skills": [
+        {
+          "tree": "civ-social-skills",
+          "node": "friendship"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "language",
+        "health"
+      ],
+      "check": [
+        {
+          "question": "A friend takes your toy without asking. What can you say?",
+          "options": [
+            "\"Please ask me first.\"",
+            "Nothing, and stay upset"
+          ],
+          "answer": 0,
+          "explain": "Saying how you feel, calmly, helps friends understand."
+        },
+        {
+          "question": "Should a friend ask you to keep a secret that makes you feel bad?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "answer": 1,
+          "explain": "No. Tell a trusted adult about any secret that worries you."
+        }
+      ],
+      "adultNote": "Children who are home-educated may have fewer peers; siblings, cousins and neighbours count as friends."
+    },
+    {
+      "id": "civ-family-rules",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "rules and fairness",
+      "title": "Make fair family rules",
+      "emoji": "📜",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Rules help groups get along. Fair rules work for everyone.",
+      "steps": [
+        "Talk about a rule you already have at home.",
+        "Ask: who does this rule help?",
+        "Think of a new rule together, for example about tidying up.",
+        "Check it is fair: does it work for everyone?",
+        "Write or draw the rule and put it on the wall.",
+        "After a week, talk about whether it worked."
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-resolve-conflict"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "rules-fairness"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "connects": [
+        "philosophy",
+        "language"
+      ],
+      "check": [
+        {
+          "question": "A fair rule...",
+          "options": [
+            "works for everyone in the group",
+            "only helps the oldest person"
+          ],
+          "answer": 0,
+          "explain": "Fair rules think about everyone they affect."
+        }
+      ],
+      "adultNote": "Let the child genuinely change at least one small rule. This is a first taste of how rules and laws are made."
+    },
+    {
+      "id": "civ-one-swing-sim",
+      "kind": "simulation",
+      "area": "civics-social",
+      "subject": "conflict resolution",
+      "title": "Only one swing",
+      "emoji": "🛝",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Two children want the same swing. What can you do?",
+      "steps": [
+        "Read the story.",
+        "Choose what to do at each step.",
+        "Talk about your choices with a grown-up."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A talking game. No physical activity."
+      },
+      "competencies": [
+        "civ-resolve-conflict"
+      ],
+      "skills": [
+        {
+          "tree": "civ-social-skills",
+          "node": "conflict-resolution"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "connects": [
+        "philosophy"
+      ],
+      "simulation": {
+        "scenario": "You and another child both run to the only swing at the same time. You both feel cross.",
+        "steps": [
+          {
+            "prompt": "First, what helps?",
+            "options": [
+              {
+                "text": "Take a deep breath to calm down",
+                "correct": true,
+                "feedback": "Yes. Calm bodies help us think."
+              },
+              {
+                "text": "Push them off",
+                "correct": false,
+                "feedback": "Pushing can hurt someone. Let's find a better way."
+              }
+            ]
+          },
+          {
+            "prompt": "Now what can you say?",
+            "options": [
+              {
+                "text": "\"Can we take turns? You go, then me.\"",
+                "correct": true,
+                "feedback": "Great idea. Taking turns is fair."
+              },
+              {
+                "text": "\"It's mine!\"",
+                "correct": false,
+                "feedback": "That might start an argument. Try asking to share."
+              },
+              {
+                "text": "\"Let's count to 20 each.\"",
+                "correct": true,
+                "feedback": "Yes! Counting makes turns equal."
+              }
+            ]
+          },
+          {
+            "prompt": "The other child will not take turns. What now?",
+            "options": [
+              {
+                "text": "Ask a grown-up to help",
+                "correct": true,
+                "feedback": "Good choice. Adults can help when we are stuck."
+              },
+              {
+                "text": "Shout at them",
+                "correct": false,
+                "feedback": "Shouting rarely helps. A grown-up can help."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "civ-i-statements",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "communication",
+      "title": "Say it with \"I feel...\"",
+      "emoji": "🗣️",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "\"I feel\" sentences help people understand you without starting a fight.",
+      "steps": [
+        "Learn the pattern: \"I feel ___ when ___ because ___. Could we ___?\"",
+        "Example: \"I feel upset when you use my pens without asking, because they break. Could you ask first?\"",
+        "Practise turning three \"You always...\" sentences into \"I feel...\" sentences.",
+        "Now practise listening: your partner says one, you repeat it back in your own words.",
+        "Swap roles."
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-active-listener",
+        "civ-resolve-conflict"
+      ],
+      "skills": [
+        {
+          "tree": "civ-social-skills",
+          "node": "communication"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "languageHooks": [
+        "feelings"
+      ],
+      "connects": [
+        "language"
+      ],
+      "check": [
+        {
+          "question": "Which one is an \"I feel\" sentence?",
+          "options": [
+            "\"You never listen!\"",
+            "\"I feel ignored when I'm interrupted.\""
+          ],
+          "answer": 1,
+          "explain": "Yes. It says how you feel without blaming."
+        }
+      ]
+    },
+    {
+      "id": "civ-child-rights",
+      "kind": "lesson",
+      "area": "civics-social",
+      "subject": "rights and responsibilities",
+      "title": "Rights every child has",
+      "emoji": "🧒",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Nearly every country in the world has agreed that children have special rights.",
+      "steps": [
+        "In 1989 the United Nations agreed the Convention on the Rights of the Child.",
+        "It says every child has rights, wherever they live.",
+        "Some rights: to be safe, to learn, to play, to have healthy food and care, to have a name, and to be listened to.",
+        "Rights belong to every child equally, whatever their gender, religion, language or ability.",
+        "Rights come with respect: my rights matter, and so do other people's.",
+        "Pick three rights and draw what each looks like in real life."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Convention on the Rights of the Child",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/child-rights-convention"
+        }
+      ],
+      "competencies": [
+        "civ-know-child-rights"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "rights-responsibilities"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "connects": [
+        "philosophy",
+        "history"
+      ],
+      "check": [
+        {
+          "question": "Who do children's rights belong to?",
+          "options": [
+            "Only some children",
+            "Every child"
+          ],
+          "answer": 1,
+          "explain": "Every child has these rights."
+        },
+        {
+          "question": "Which of these is a right in the Convention?",
+          "options": [
+            "To play",
+            "To have a phone"
+          ],
+          "answer": 0,
+          "explain": "Play and rest are rights. A phone is nice to have, but it is not a right."
+        }
+      ],
+      "adultNote": "If anything here worries the child about their own safety, listen calmly and seek help from local child-protection services."
+    },
+    {
+      "id": "civ-rights-and-duties",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "rights and responsibilities",
+      "title": "Rights and responsibilities pairs",
+      "emoji": "🔗",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "With each right comes a way we can respect other people's rights.",
+      "steps": [
+        "Write five rights on cards, for example \"the right to learn\".",
+        "For each one, write a matching responsibility, for example \"let others learn too\".",
+        "Mix the cards up and match them again.",
+        "Talk: who else has responsibilities to make sure children's rights happen? (parents, governments)"
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Convention on the Rights of the Child",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/child-rights-convention"
+        }
+      ],
+      "competencies": [
+        "civ-know-child-rights"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "rights-responsibilities"
+        }
+      ],
+      "interests": [
+        "helping",
+        "games"
+      ],
+      "connects": [
+        "philosophy"
+      ],
+      "adultNote": "Make clear that rights are not \"earned\" by good behaviour: children have them anyway."
+    },
+    {
+      "id": "civ-how-governments-work",
+      "kind": "lesson",
+      "area": "civics-social",
+      "subject": "government",
+      "title": "How are countries run?",
+      "emoji": "🏛️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Countries are run in different ways. Let's compare how decisions are made.",
+      "steps": [
+        "Every government needs ways to make laws, carry them out and settle disputes.",
+        "In a representative democracy, people vote for representatives. Some have a president chosen separately (presidential); others have a prime minister chosen from parliament (parliamentary).",
+        "In a direct democracy, people vote on some decisions themselves, for example in a referendum.",
+        "In a constitutional monarchy, a king or queen is head of state, but elected leaders make most decisions.",
+        "In an absolute monarchy, the monarch holds most power.",
+        "In a one-party state, one political party leads the government and other parties cannot compete for power.",
+        "Many countries mix features. Make a table: who makes laws, how leaders are chosen, how leaders can be changed.",
+        "Pick two countries and fill in the table using an atlas or a reliable encyclopedia."
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-compare-governments"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "government"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "connects": [
+        "history",
+        "geography",
+        "philosophy"
+      ],
+      "check": [
+        {
+          "question": "In a parliamentary system, the prime minister usually...",
+          "options": [
+            "comes from the parliament",
+            "is chosen by the monarch alone"
+          ],
+          "answer": 0,
+          "explain": "Yes. In most parliamentary systems the leader needs the support of parliament."
+        },
+        {
+          "question": "A referendum is when...",
+          "options": [
+            "people vote directly on a question",
+            "a court decides a case"
+          ],
+          "answer": 0,
+          "explain": "Right. It is a form of direct democracy."
+        }
+      ],
+      "adultNote": "Keep this descriptive and comparative. Avoid telling the child which party or leader to support; encourage questions about how each system protects people and handles disagreement."
+    },
+    {
+      "id": "civ-how-voting-works",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "voting",
+      "title": "Hold a family vote",
+      "emoji": "🗳️",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 30,
+      "summary": "Different ways of counting votes can give different results. Try it!",
+      "steps": [
+        "Choose a real family decision, for example which dinner to cook on Friday, with 3-4 options.",
+        "Vote 1: everyone picks one favourite. The most votes wins (\"first past the post\").",
+        "Vote 2: everyone ranks the options 1, 2, 3. Remove the last place and move those votes to their next choice until one option has more than half (\"ranked choice\").",
+        "Compare: did the same option win both times?",
+        "Learn: many countries use proportional representation, where seats match the share of votes.",
+        "Discuss: why do people vote in secret? Why does every vote count the same?"
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-explain-voting"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "voting-laws"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "philosophy"
+      ],
+      "check": [
+        {
+          "question": "Why is voting often secret?",
+          "options": [
+            "So people can choose freely without pressure",
+            "To make counting faster"
+          ],
+          "answer": 0,
+          "explain": "Secret ballots protect people from pressure or fear."
+        }
+      ]
+    },
+    {
+      "id": "civ-how-laws-are-made",
+      "kind": "lesson",
+      "area": "civics-social",
+      "subject": "laws",
+      "title": "How does a law get made?",
+      "emoji": "📜",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 25,
+      "summary": "Laws are rules for a whole country. Most go through several steps before they apply.",
+      "steps": [
+        "Laws protect people, settle disagreements and organise shared services.",
+        "In many countries: an idea is written as a draft law (a bill).",
+        "Lawmakers debate it and may change it.",
+        "They vote. Some countries need two chambers or a head of state to agree.",
+        "Courts can decide what a law means and whether it follows the constitution.",
+        "Find out how laws are made in your country. Draw it as a flow chart.",
+        "Compare with one other country."
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-explain-voting"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "voting-laws"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "connects": [
+        "history",
+        "philosophy"
+      ],
+      "check": [
+        {
+          "question": "What is a bill?",
+          "options": [
+            "A draft law",
+            "A finished law that cannot change"
+          ],
+          "answer": 0,
+          "explain": "Yes, a bill is a proposed law."
+        }
+      ]
+    },
+    {
+      "id": "civ-check-before-share",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "media literacy",
+      "title": "Check before you share",
+      "emoji": "🔎",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 25,
+      "summary": "Not everything online or in the news is true. Learn four quick checks.",
+      "steps": [
+        "Stop: notice how the post makes you feel. Strong feelings are a sign to slow down.",
+        "Source: who made this? Are they known and accountable?",
+        "Search: do other trusted sources report the same thing?",
+        "Trace: find the original photo, quote or study.",
+        "Practise on three headlines an adult picks for you, from paper or screen.",
+        "Score each one: reliable, unsure or misleading, and explain why."
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-check-information"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "media-literacy"
+        }
+      ],
+      "interests": [
+        "computers"
+      ],
+      "connects": [
+        "technology-ai",
+        "philosophy"
+      ],
+      "check": [
+        {
+          "question": "A post makes you very angry. What should you do first?",
+          "options": [
+            "Share it fast",
+            "Slow down and check it"
+          ],
+          "answer": 1,
+          "explain": "Strong emotions are a reason to check before sharing."
+        },
+        {
+          "question": "An advert and a news report are...",
+          "options": [
+            "the same thing",
+            "different: one wants to sell you something"
+          ],
+          "answer": 1,
+          "explain": "Ask what each one wants you to do or think."
+        }
+      ],
+      "adultNote": "Choose examples from a range of outlets and viewpoints so the lesson is about checking methods, not about which side is right."
+    },
+    {
+      "id": "civ-fair-debate",
+      "kind": "project",
+      "area": "civics-social",
+      "subject": "debate",
+      "title": "Hold a fair debate",
+      "emoji": "⚖️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 60,
+      "summary": "A good debater can explain the other side so well that the other side agrees it is fair.",
+      "steps": [
+        "Pick a question with reasonable views on more than one side, for example \"Should our town add more bike lanes?\"",
+        "Research both sides using at least three different sources.",
+        "Write the strongest case FOR and the strongest case AGAINST.",
+        "Debate with a family member: 3 minutes each, then 2 minutes to reply.",
+        "Rules: no insults, quote fairly, admit good points.",
+        "Swap sides and debate again.",
+        "Reflect: what did you learn from the side you disagreed with?"
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A discussion project. Keep it respectful and stop if it becomes upsetting."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil",
+            "Library or free online sources"
+          ],
+          "description": "Debate with one family member at home."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Index cards",
+            "Timer or phone timer"
+          ],
+          "description": "Use cards for key points and time each speech."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Phone or camera to record"
+          ],
+          "description": "Record the debate, watch it back and score clarity, evidence and fairness."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Timer",
+          "use": "Count slowly or use a kitchen clock"
+        },
+        {
+          "instead": "Debate partner",
+          "use": "Write both sides yourself and read them aloud"
+        }
+      ],
+      "competencies": [
+        "civ-debate-fairly",
+        "civ-active-listener"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "debate"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "connects": [
+        "philosophy",
+        "language",
+        "technology-ai"
+      ],
+      "adultNote": "Avoid topics that are painful for the family. For politically charged topics, judge the reasoning, not the conclusion."
+    },
+    {
+      "id": "civ-compare-two-societies",
+      "kind": "world-project",
+      "area": "civics-social",
+      "subject": "comparative societies",
+      "title": "Two societies, side by side",
+      "emoji": "🌍",
+      "ageBands": [
+        "15-17",
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 90,
+      "summary": "Compare everyday life in your country and one other country.",
+      "steps": [
+        "Pick a country you know little about.",
+        "Research: how is it governed? What languages are spoken? What do children do at school and at home?",
+        "Find: main work and industries, food, festivals and how people travel.",
+        "Make a side-by-side chart with your own country.",
+        "Note what is similar as well as what is different.",
+        "Write one paragraph on something you admire there and one question you still have.",
+        "Avoid stereotypes: one country contains many different people."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A research project. Use sources an adult agrees on."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Atlas or library books",
+            "Paper"
+          ],
+          "description": "Research from library books and draw a chart."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Poster paper",
+            "Coloured pens"
+          ],
+          "description": "Make a poster with a map of both countries."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Phone or computer"
+          ],
+          "description": "Make a short slideshow or video presentation."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Atlas",
+          "use": "A free online map on a phone"
+        },
+        {
+          "instead": "Poster paper",
+          "use": "Old cardboard box opened flat"
+        }
+      ],
+      "competencies": [
+        "civ-compare-societies",
+        "civ-compare-governments"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "comparative-societies"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "languageHooks": [
+        "geography"
+      ],
+      "connects": [
+        "geography",
+        "history",
+        "languages"
+      ],
+      "adultNote": "If the family has a study language, choose a country where it is spoken."
+    },
+    {
+      "id": "civ-community-improvement",
+      "kind": "project",
+      "area": "civics-social",
+      "subject": "community",
+      "title": "Make something better nearby",
+      "emoji": "🏘️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 120,
+      "summary": "Spot a small problem in your community and plan a helpful, safe way to improve it.",
+      "steps": [
+        "List small problems you notice: litter, a lonely neighbour, no book swap.",
+        "Pick one you can actually help with.",
+        "Ask: who already works on this? Could you help them?",
+        "Make a plan: steps, people, cost, time and risks.",
+        "Get adult approval, then try it.",
+        "Measure the result and tell people what happened."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Meeting unknown adults",
+          "Litter can be sharp or dirty"
+        ],
+        "notes": "An adult agrees the plan, knows where you are and joins for anything outside the home. Wear gloves and use a picker for litter; never touch needles or broken glass."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper for the plan"
+          ],
+          "description": "Help a neighbour or family member with something they need."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Gloves",
+            "Bin bags"
+          ],
+          "description": "Organise a small litter pick with family."
+        },
+        "advanced": {
+          "cost": "Under 20 USD",
+          "materials": [
+            "Shelf or box",
+            "Paint"
+          ],
+          "description": "Set up a book or seed swap with adult permission from the place owner."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Litter picker",
+          "use": "Thick gloves and tongs"
+        },
+        {
+          "instead": "Poster printing",
+          "use": "Hand-drawn posters"
+        }
+      ],
+      "competencies": [
+        "civ-community-helpers",
+        "civ-debate-fairly"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "community"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "connects": [
+        "careers",
+        "environment",
+        "financial-literacy"
+      ]
+    }
+  ]
+}

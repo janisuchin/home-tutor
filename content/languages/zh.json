@@ -1,0 +1,604 @@
+{
+  "language": "zh",
+  "name": "Mandarin Chinese",
+  "nativeName": "中文",
+  "ttsLang": "zh-CN",
+  "concepts": {
+    "numbers": [
+      {
+        "en": "one",
+        "word": "一",
+        "romanised": "yī"
+      },
+      {
+        "en": "two",
+        "word": "二",
+        "romanised": "èr"
+      },
+      {
+        "en": "three",
+        "word": "三",
+        "romanised": "sān"
+      },
+      {
+        "en": "four",
+        "word": "四",
+        "romanised": "sì"
+      },
+      {
+        "en": "five",
+        "word": "五",
+        "romanised": "wǔ"
+      },
+      {
+        "en": "six",
+        "word": "六",
+        "romanised": "liù"
+      },
+      {
+        "en": "seven",
+        "word": "七",
+        "romanised": "qī"
+      },
+      {
+        "en": "eight",
+        "word": "八",
+        "romanised": "bā"
+      },
+      {
+        "en": "nine",
+        "word": "九",
+        "romanised": "jiǔ"
+      },
+      {
+        "en": "ten",
+        "word": "十",
+        "romanised": "shí"
+      }
+    ],
+    "colours": [
+      {
+        "en": "red",
+        "word": "红色",
+        "romanised": "hóngsè"
+      },
+      {
+        "en": "blue",
+        "word": "蓝色",
+        "romanised": "lánsè"
+      },
+      {
+        "en": "green",
+        "word": "绿色",
+        "romanised": "lǜsè"
+      },
+      {
+        "en": "yellow",
+        "word": "黄色",
+        "romanised": "huángsè"
+      },
+      {
+        "en": "black",
+        "word": "黑色",
+        "romanised": "hēisè"
+      },
+      {
+        "en": "white",
+        "word": "白色",
+        "romanised": "báisè"
+      }
+    ],
+    "shapes": [
+      {
+        "en": "circle",
+        "word": "圆形",
+        "romanised": "yuánxíng"
+      },
+      {
+        "en": "square",
+        "word": "正方形",
+        "romanised": "zhèngfāngxíng"
+      },
+      {
+        "en": "triangle",
+        "word": "三角形",
+        "romanised": "sānjiǎoxíng"
+      },
+      {
+        "en": "star",
+        "word": "星形",
+        "romanised": "xīngxíng"
+      },
+      {
+        "en": "rectangle",
+        "word": "长方形",
+        "romanised": "chángfāngxíng"
+      }
+    ],
+    "family": [
+      {
+        "en": "mum",
+        "word": "妈妈",
+        "romanised": "māma"
+      },
+      {
+        "en": "dad",
+        "word": "爸爸",
+        "romanised": "bàba"
+      },
+      {
+        "en": "older sister",
+        "word": "姐姐",
+        "romanised": "jiějie"
+      },
+      {
+        "en": "older brother",
+        "word": "哥哥",
+        "romanised": "gēge"
+      },
+      {
+        "en": "younger sister",
+        "word": "妹妹",
+        "romanised": "mèimei"
+      },
+      {
+        "en": "younger brother",
+        "word": "弟弟",
+        "romanised": "dìdi"
+      },
+      {
+        "en": "grandmother (father's mother)",
+        "word": "奶奶",
+        "romanised": "nǎinai"
+      },
+      {
+        "en": "grandfather (father's father)",
+        "word": "爷爷",
+        "romanised": "yéye"
+      }
+    ],
+    "food": [
+      {
+        "en": "bread",
+        "word": "面包",
+        "romanised": "miànbāo"
+      },
+      {
+        "en": "cooked rice",
+        "word": "米饭",
+        "romanised": "mǐfàn"
+      },
+      {
+        "en": "water",
+        "word": "水",
+        "romanised": "shuǐ"
+      },
+      {
+        "en": "milk",
+        "word": "牛奶",
+        "romanised": "niúnǎi"
+      },
+      {
+        "en": "egg",
+        "word": "鸡蛋",
+        "romanised": "jīdàn"
+      },
+      {
+        "en": "noodles",
+        "word": "面条",
+        "romanised": "miàntiáo"
+      }
+    ],
+    "fruit": [
+      {
+        "en": "apple",
+        "word": "苹果",
+        "romanised": "píngguǒ"
+      },
+      {
+        "en": "banana",
+        "word": "香蕉",
+        "romanised": "xiāngjiāo"
+      },
+      {
+        "en": "orange",
+        "word": "橙子",
+        "romanised": "chéngzi"
+      },
+      {
+        "en": "grapes",
+        "word": "葡萄",
+        "romanised": "pútáo"
+      },
+      {
+        "en": "mango",
+        "word": "芒果",
+        "romanised": "mángguǒ"
+      },
+      {
+        "en": "watermelon",
+        "word": "西瓜",
+        "romanised": "xīguā"
+      }
+    ],
+    "animals": [
+      {
+        "en": "dog",
+        "word": "狗",
+        "romanised": "gǒu"
+      },
+      {
+        "en": "cat",
+        "word": "猫",
+        "romanised": "māo"
+      },
+      {
+        "en": "horse",
+        "word": "马",
+        "romanised": "mǎ"
+      },
+      {
+        "en": "cow",
+        "word": "牛",
+        "romanised": "niú"
+      },
+      {
+        "en": "bird",
+        "word": "鸟",
+        "romanised": "niǎo"
+      },
+      {
+        "en": "fish",
+        "word": "鱼",
+        "romanised": "yú"
+      }
+    ],
+    "body": [
+      {
+        "en": "head",
+        "word": "头",
+        "romanised": "tóu"
+      },
+      {
+        "en": "eye",
+        "word": "眼睛",
+        "romanised": "yǎnjing"
+      },
+      {
+        "en": "ear",
+        "word": "耳朵",
+        "romanised": "ěrduo"
+      },
+      {
+        "en": "nose",
+        "word": "鼻子",
+        "romanised": "bízi"
+      },
+      {
+        "en": "mouth",
+        "word": "嘴",
+        "romanised": "zuǐ"
+      },
+      {
+        "en": "hand",
+        "word": "手",
+        "romanised": "shǒu"
+      },
+      {
+        "en": "foot",
+        "word": "脚",
+        "romanised": "jiǎo"
+      }
+    ],
+    "greetings": [
+      {
+        "en": "hello",
+        "word": "你好",
+        "romanised": "nǐ hǎo"
+      },
+      {
+        "en": "good morning",
+        "word": "早上好",
+        "romanised": "zǎoshang hǎo"
+      },
+      {
+        "en": "goodbye",
+        "word": "再见",
+        "romanised": "zàijiàn"
+      },
+      {
+        "en": "please",
+        "word": "请",
+        "romanised": "qǐng"
+      },
+      {
+        "en": "thank you",
+        "word": "谢谢",
+        "romanised": "xièxie"
+      },
+      {
+        "en": "how are you?",
+        "word": "你好吗？",
+        "romanised": "nǐ hǎo ma"
+      }
+    ],
+    "weather": [
+      {
+        "en": "sunny day",
+        "word": "晴天",
+        "romanised": "qíngtiān"
+      },
+      {
+        "en": "rain",
+        "word": "雨",
+        "romanised": "yǔ"
+      },
+      {
+        "en": "cloud",
+        "word": "云",
+        "romanised": "yún"
+      },
+      {
+        "en": "wind",
+        "word": "风",
+        "romanised": "fēng"
+      },
+      {
+        "en": "snow",
+        "word": "雪",
+        "romanised": "xuě"
+      },
+      {
+        "en": "hot",
+        "word": "热",
+        "romanised": "rè"
+      },
+      {
+        "en": "cold",
+        "word": "冷",
+        "romanised": "lěng"
+      }
+    ],
+    "maths": [
+      {
+        "en": "plus",
+        "word": "加",
+        "romanised": "jiā"
+      },
+      {
+        "en": "minus",
+        "word": "减",
+        "romanised": "jiǎn"
+      },
+      {
+        "en": "equals",
+        "word": "等于",
+        "romanised": "děngyú"
+      },
+      {
+        "en": "times",
+        "word": "乘",
+        "romanised": "chéng"
+      },
+      {
+        "en": "number",
+        "word": "数字",
+        "romanised": "shùzì"
+      },
+      {
+        "en": "half",
+        "word": "一半",
+        "romanised": "yíbàn"
+      }
+    ],
+    "science": [
+      {
+        "en": "science",
+        "word": "科学",
+        "romanised": "kēxué"
+      },
+      {
+        "en": "experiment",
+        "word": "实验",
+        "romanised": "shíyàn"
+      },
+      {
+        "en": "plant",
+        "word": "植物",
+        "romanised": "zhíwù"
+      },
+      {
+        "en": "light",
+        "word": "光",
+        "romanised": "guāng"
+      },
+      {
+        "en": "energy",
+        "word": "能量",
+        "romanised": "néngliàng"
+      }
+    ],
+    "geography": [
+      {
+        "en": "mountain",
+        "word": "山",
+        "romanised": "shān"
+      },
+      {
+        "en": "river",
+        "word": "河",
+        "romanised": "hé"
+      },
+      {
+        "en": "sea",
+        "word": "海",
+        "romanised": "hǎi"
+      },
+      {
+        "en": "country",
+        "word": "国家",
+        "romanised": "guójiā"
+      },
+      {
+        "en": "city",
+        "word": "城市",
+        "romanised": "chéngshì"
+      },
+      {
+        "en": "map",
+        "word": "地图",
+        "romanised": "dìtú"
+      }
+    ],
+    "kitchen": [
+      {
+        "en": "plate",
+        "word": "盘子",
+        "romanised": "pánzi"
+      },
+      {
+        "en": "cup",
+        "word": "杯子",
+        "romanised": "bēizi"
+      },
+      {
+        "en": "spoon",
+        "word": "勺子",
+        "romanised": "sháozi"
+      },
+      {
+        "en": "fork",
+        "word": "叉子",
+        "romanised": "chāzi"
+      },
+      {
+        "en": "knife",
+        "word": "刀",
+        "romanised": "dāo"
+      },
+      {
+        "en": "chopsticks",
+        "word": "筷子",
+        "romanised": "kuàizi"
+      }
+    ],
+    "tools": [
+      {
+        "en": "hammer",
+        "word": "锤子",
+        "romanised": "chuízi"
+      },
+      {
+        "en": "screwdriver",
+        "word": "螺丝刀",
+        "romanised": "luósīdāo"
+      },
+      {
+        "en": "saw",
+        "word": "锯子",
+        "romanised": "jùzi"
+      },
+      {
+        "en": "scissors",
+        "word": "剪刀",
+        "romanised": "jiǎndāo"
+      },
+      {
+        "en": "ruler",
+        "word": "尺子",
+        "romanised": "chǐzi"
+      }
+    ],
+    "nature": [
+      {
+        "en": "tree",
+        "word": "树",
+        "romanised": "shù"
+      },
+      {
+        "en": "flower",
+        "word": "花",
+        "romanised": "huā"
+      },
+      {
+        "en": "leaf",
+        "word": "叶子",
+        "romanised": "yèzi"
+      },
+      {
+        "en": "grass",
+        "word": "草",
+        "romanised": "cǎo"
+      },
+      {
+        "en": "sky",
+        "word": "天空",
+        "romanised": "tiānkōng"
+      },
+      {
+        "en": "stone",
+        "word": "石头",
+        "romanised": "shítou"
+      }
+    ],
+    "time": [
+      {
+        "en": "daytime",
+        "word": "白天",
+        "romanised": "báitiān"
+      },
+      {
+        "en": "evening / night",
+        "word": "晚上",
+        "romanised": "wǎnshang"
+      },
+      {
+        "en": "today",
+        "word": "今天",
+        "romanised": "jīntiān"
+      },
+      {
+        "en": "tomorrow",
+        "word": "明天",
+        "romanised": "míngtiān"
+      },
+      {
+        "en": "yesterday",
+        "word": "昨天",
+        "romanised": "zuótiān"
+      },
+      {
+        "en": "week",
+        "word": "星期",
+        "romanised": "xīngqī"
+      }
+    ],
+    "feelings": [
+      {
+        "en": "happy",
+        "word": "开心",
+        "romanised": "kāixīn"
+      },
+      {
+        "en": "sad",
+        "word": "难过",
+        "romanised": "nánguò"
+      },
+      {
+        "en": "angry",
+        "word": "生气",
+        "romanised": "shēngqì"
+      },
+      {
+        "en": "scared",
+        "word": "害怕",
+        "romanised": "hàipà"
+      },
+      {
+        "en": "tired",
+        "word": "累",
+        "romanised": "lèi"
+      }
+    ]
+  }
+}

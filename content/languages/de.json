@@ -1,0 +1,484 @@
+{
+  "language": "de",
+  "name": "German",
+  "nativeName": "Deutsch",
+  "ttsLang": "de-DE",
+  "concepts": {
+    "numbers": [
+      {
+        "en": "one",
+        "word": "eins"
+      },
+      {
+        "en": "two",
+        "word": "zwei"
+      },
+      {
+        "en": "three",
+        "word": "drei"
+      },
+      {
+        "en": "four",
+        "word": "vier"
+      },
+      {
+        "en": "five",
+        "word": "fünf"
+      },
+      {
+        "en": "six",
+        "word": "sechs"
+      },
+      {
+        "en": "seven",
+        "word": "sieben"
+      },
+      {
+        "en": "eight",
+        "word": "acht"
+      },
+      {
+        "en": "nine",
+        "word": "neun"
+      },
+      {
+        "en": "ten",
+        "word": "zehn"
+      }
+    ],
+    "colours": [
+      {
+        "en": "red",
+        "word": "rot"
+      },
+      {
+        "en": "blue",
+        "word": "blau"
+      },
+      {
+        "en": "green",
+        "word": "grün"
+      },
+      {
+        "en": "yellow",
+        "word": "gelb"
+      },
+      {
+        "en": "black",
+        "word": "schwarz"
+      },
+      {
+        "en": "white",
+        "word": "weiß"
+      }
+    ],
+    "shapes": [
+      {
+        "en": "circle",
+        "word": "der Kreis"
+      },
+      {
+        "en": "square",
+        "word": "das Quadrat"
+      },
+      {
+        "en": "triangle",
+        "word": "das Dreieck"
+      },
+      {
+        "en": "star",
+        "word": "der Stern"
+      },
+      {
+        "en": "rectangle",
+        "word": "das Rechteck"
+      }
+    ],
+    "family": [
+      {
+        "en": "mother",
+        "word": "die Mutter"
+      },
+      {
+        "en": "father",
+        "word": "der Vater"
+      },
+      {
+        "en": "sister",
+        "word": "die Schwester"
+      },
+      {
+        "en": "brother",
+        "word": "der Bruder"
+      },
+      {
+        "en": "grandmother",
+        "word": "die Großmutter"
+      },
+      {
+        "en": "grandfather",
+        "word": "der Großvater"
+      }
+    ],
+    "food": [
+      {
+        "en": "bread",
+        "word": "das Brot"
+      },
+      {
+        "en": "rice",
+        "word": "der Reis"
+      },
+      {
+        "en": "water",
+        "word": "das Wasser"
+      },
+      {
+        "en": "milk",
+        "word": "die Milch"
+      },
+      {
+        "en": "egg",
+        "word": "das Ei"
+      },
+      {
+        "en": "fish",
+        "word": "der Fisch"
+      }
+    ],
+    "fruit": [
+      {
+        "en": "apple",
+        "word": "der Apfel"
+      },
+      {
+        "en": "banana",
+        "word": "die Banane"
+      },
+      {
+        "en": "orange",
+        "word": "die Orange"
+      },
+      {
+        "en": "grape",
+        "word": "die Traube"
+      },
+      {
+        "en": "mango",
+        "word": "die Mango"
+      },
+      {
+        "en": "watermelon",
+        "word": "die Wassermelone"
+      }
+    ],
+    "animals": [
+      {
+        "en": "dog",
+        "word": "der Hund"
+      },
+      {
+        "en": "cat",
+        "word": "die Katze"
+      },
+      {
+        "en": "horse",
+        "word": "das Pferd"
+      },
+      {
+        "en": "cow",
+        "word": "die Kuh"
+      },
+      {
+        "en": "bird",
+        "word": "der Vogel"
+      },
+      {
+        "en": "fish",
+        "word": "der Fisch"
+      }
+    ],
+    "body": [
+      {
+        "en": "head",
+        "word": "der Kopf"
+      },
+      {
+        "en": "eye",
+        "word": "das Auge"
+      },
+      {
+        "en": "ear",
+        "word": "das Ohr"
+      },
+      {
+        "en": "nose",
+        "word": "die Nase"
+      },
+      {
+        "en": "mouth",
+        "word": "der Mund"
+      },
+      {
+        "en": "hand",
+        "word": "die Hand"
+      },
+      {
+        "en": "foot",
+        "word": "der Fuß"
+      }
+    ],
+    "greetings": [
+      {
+        "en": "hello",
+        "word": "Hallo"
+      },
+      {
+        "en": "good morning",
+        "word": "Guten Morgen"
+      },
+      {
+        "en": "goodbye",
+        "word": "Auf Wiedersehen"
+      },
+      {
+        "en": "please",
+        "word": "Bitte"
+      },
+      {
+        "en": "thank you",
+        "word": "Danke"
+      },
+      {
+        "en": "how are you?",
+        "word": "Wie geht es dir?"
+      }
+    ],
+    "weather": [
+      {
+        "en": "sun",
+        "word": "die Sonne"
+      },
+      {
+        "en": "rain",
+        "word": "der Regen"
+      },
+      {
+        "en": "cloud",
+        "word": "die Wolke"
+      },
+      {
+        "en": "wind",
+        "word": "der Wind"
+      },
+      {
+        "en": "snow",
+        "word": "der Schnee"
+      },
+      {
+        "en": "hot",
+        "word": "heiß"
+      },
+      {
+        "en": "cold",
+        "word": "kalt"
+      }
+    ],
+    "maths": [
+      {
+        "en": "plus",
+        "word": "plus"
+      },
+      {
+        "en": "minus",
+        "word": "minus"
+      },
+      {
+        "en": "equals",
+        "word": "ist gleich"
+      },
+      {
+        "en": "number",
+        "word": "die Zahl"
+      },
+      {
+        "en": "half",
+        "word": "die Hälfte"
+      },
+      {
+        "en": "times",
+        "word": "mal"
+      }
+    ],
+    "science": [
+      {
+        "en": "science",
+        "word": "die Wissenschaft"
+      },
+      {
+        "en": "experiment",
+        "word": "das Experiment"
+      },
+      {
+        "en": "plant",
+        "word": "die Pflanze"
+      },
+      {
+        "en": "light",
+        "word": "das Licht"
+      },
+      {
+        "en": "energy",
+        "word": "die Energie"
+      }
+    ],
+    "geography": [
+      {
+        "en": "mountain",
+        "word": "der Berg"
+      },
+      {
+        "en": "river",
+        "word": "der Fluss"
+      },
+      {
+        "en": "sea",
+        "word": "das Meer"
+      },
+      {
+        "en": "country",
+        "word": "das Land"
+      },
+      {
+        "en": "city",
+        "word": "die Stadt"
+      },
+      {
+        "en": "map",
+        "word": "die Karte"
+      }
+    ],
+    "kitchen": [
+      {
+        "en": "plate",
+        "word": "der Teller"
+      },
+      {
+        "en": "cup",
+        "word": "die Tasse"
+      },
+      {
+        "en": "spoon",
+        "word": "der Löffel"
+      },
+      {
+        "en": "fork",
+        "word": "die Gabel"
+      },
+      {
+        "en": "knife",
+        "word": "das Messer"
+      },
+      {
+        "en": "pot",
+        "word": "der Topf"
+      }
+    ],
+    "tools": [
+      {
+        "en": "hammer",
+        "word": "der Hammer"
+      },
+      {
+        "en": "screwdriver",
+        "word": "der Schraubenzieher"
+      },
+      {
+        "en": "saw",
+        "word": "die Säge"
+      },
+      {
+        "en": "scissors",
+        "word": "die Schere"
+      },
+      {
+        "en": "ruler",
+        "word": "das Lineal"
+      }
+    ],
+    "nature": [
+      {
+        "en": "tree",
+        "word": "der Baum"
+      },
+      {
+        "en": "flower",
+        "word": "die Blume"
+      },
+      {
+        "en": "leaf",
+        "word": "das Blatt"
+      },
+      {
+        "en": "grass",
+        "word": "das Gras"
+      },
+      {
+        "en": "sky",
+        "word": "der Himmel"
+      },
+      {
+        "en": "stone",
+        "word": "der Stein"
+      }
+    ],
+    "time": [
+      {
+        "en": "day",
+        "word": "der Tag"
+      },
+      {
+        "en": "night",
+        "word": "die Nacht"
+      },
+      {
+        "en": "today",
+        "word": "heute"
+      },
+      {
+        "en": "tomorrow",
+        "word": "morgen"
+      },
+      {
+        "en": "yesterday",
+        "word": "gestern"
+      },
+      {
+        "en": "week",
+        "word": "die Woche"
+      }
+    ],
+    "feelings": [
+      {
+        "en": "happy",
+        "word": "glücklich"
+      },
+      {
+        "en": "sad",
+        "word": "traurig"
+      },
+      {
+        "en": "angry",
+        "word": "wütend"
+      },
+      {
+        "en": "scared",
+        "word": "ängstlich"
+      },
+      {
+        "en": "tired",
+        "word": "müde"
+      }
+    ]
+  }
+}

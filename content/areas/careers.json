@@ -1,0 +1,1078 @@
+{
+  "area": "careers",
+  "title": "Career discovery",
+  "emoji": "🧭",
+  "description": "Exploring the world of work through play, curiosity and research, without choosing too early. Deeper exploration and real pathways from 13 to 17.",
+  "skillTrees": [
+    {
+      "id": "car-discovery",
+      "area": "careers",
+      "title": "Career discovery",
+      "emoji": "🧭",
+      "nodes": [
+        {
+          "id": "role-play",
+          "title": "Role play",
+          "description": "Pretend to do different jobs through play."
+        },
+        {
+          "id": "community-helpers",
+          "title": "Jobs around us",
+          "description": "Notice the people who work in your community."
+        },
+        {
+          "id": "career-families",
+          "title": "Career families",
+          "description": "Explore the big families of jobs."
+        },
+        {
+          "id": "strengths-interests",
+          "title": "Strengths and interests",
+          "description": "Notice what you enjoy and what you are good at."
+        },
+        {
+          "id": "real-world-research",
+          "title": "Real-world research",
+          "description": "Find out about jobs by researching and asking people."
+        },
+        {
+          "id": "pathways",
+          "title": "Pathways",
+          "description": "Learn the routes into work: apprenticeships, college, university and starting a business."
+        },
+        {
+          "id": "next-steps",
+          "title": "Next steps",
+          "description": "Make a flexible plan and build evidence like a CV and portfolio."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "car-name-jobs",
+      "area": "careers",
+      "group": "personal",
+      "title": "Can name 20 different jobs and what they do",
+      "emoji": "👷",
+      "target": 20
+    },
+    {
+      "id": "car-know-career-families",
+      "area": "careers",
+      "group": "personal",
+      "title": "Can describe the 16 career families",
+      "emoji": "🗂️"
+    },
+    {
+      "id": "car-know-strengths",
+      "area": "careers",
+      "group": "personal",
+      "title": "Can describe own strengths and interests",
+      "emoji": "🌟"
+    },
+    {
+      "id": "car-interview-worker",
+      "area": "careers",
+      "group": "life",
+      "title": "Can interview someone about their work",
+      "emoji": "🎤"
+    },
+    {
+      "id": "car-transferable-skills",
+      "area": "careers",
+      "group": "personal",
+      "title": "Can explain skills that are useful in many jobs",
+      "emoji": "🔁"
+    },
+    {
+      "id": "car-know-pathways",
+      "area": "careers",
+      "group": "personal",
+      "title": "Can explain apprenticeship, college and university routes",
+      "emoji": "🛤️"
+    },
+    {
+      "id": "car-write-cv",
+      "area": "careers",
+      "group": "life",
+      "title": "Can write a simple CV and portfolio",
+      "emoji": "📄"
+    },
+    {
+      "id": "car-work-ready",
+      "area": "careers",
+      "group": "life",
+      "title": "Knows how to behave safely and professionally at a workplace",
+      "emoji": "🦺"
+    }
+  ],
+  "items": [
+    {
+      "id": "car-dress-up-jobs",
+      "kind": "activity",
+      "area": "careers",
+      "subject": "role play",
+      "title": "Pretend jobs",
+      "emoji": "🎭",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Let's play at different jobs!",
+      "steps": [
+        "🧸 Be a vet: check a teddy gently.",
+        "🍳 Be a chef: stir a pretend soup.",
+        "🚒 Be a firefighter: ring the bell!",
+        "🔧 Be a mechanic: fix a toy car.",
+        "🏪 Be a shopkeeper: sell toys.",
+        "💬 Which job was the most fun?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Real kitchen tools can be sharp or hot"
+        ],
+        "notes": "Use toys or safe, cold, unbreakable items only. No real knives or stoves."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Pots",
+            "Wooden spoons",
+            "Soft toys",
+            "Boxes"
+          ],
+          "description": "Use things from home as props."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Cardboard",
+            "Crayons",
+            "Old clothes"
+          ],
+          "description": "Make hats, badges and a cardboard shop."
+        },
+        "advanced": {
+          "cost": "Under 15 USD",
+          "materials": [
+            "Toy doctor kit or toy tools"
+          ],
+          "description": "Add a simple toy kit for one job."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Toy doctor kit",
+          "use": "A scarf as a bandage and a spoon as a stethoscope"
+        },
+        {
+          "instead": "Costumes",
+          "use": "Old shirts and paper hats"
+        }
+      ],
+      "competencies": [
+        "car-name-jobs"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "role-play"
+        }
+      ],
+      "interests": [
+        "animals",
+        "cooking",
+        "machines",
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "animals"
+      ],
+      "connects": [
+        "civics-social",
+        "arts-creativity"
+      ],
+      "adultNote": "Offer every job to every child. Avoid \"that's a boy's job\" or \"girl's job\" - any child can do any job."
+    },
+    {
+      "id": "car-jobs-all-around",
+      "kind": "lesson",
+      "area": "careers",
+      "subject": "community helpers",
+      "title": "Jobs all around us",
+      "emoji": "👩‍🌾",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Many people do jobs that help us every day.",
+      "steps": [
+        "👩‍🌾 A farmer grows food.",
+        "🧑‍🍳 A chef cooks meals.",
+        "🧑‍🔧 A mechanic fixes cars and bikes.",
+        "🧑‍⚕️ A nurse looks after sick people.",
+        "🧑‍🏫 A teacher helps us learn.",
+        "🧑‍🚒 A firefighter keeps us safe.",
+        "✏️ Draw someone you have seen working."
+      ],
+      "practical": false,
+      "competencies": [
+        "car-name-jobs"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "community-helpers"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine",
+        "machines",
+        "plants",
+        "cooking"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "check": [
+        {
+          "question": "Who grows food?",
+          "options": [
+            "👩‍🌾 Farmer",
+            "🧑‍🏫 Teacher"
+          ],
+          "answer": 0,
+          "explain": "Yes! Farmers grow food for all of us."
+        }
+      ]
+    },
+    {
+      "id": "car-tools-of-the-trade",
+      "kind": "activity",
+      "area": "careers",
+      "subject": "career families",
+      "title": "Whose tool is it?",
+      "emoji": "🧰",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Every job has special tools. Can you match them?",
+      "steps": [
+        "🩺 Stethoscope - who uses it?",
+        "🥄 Whisk - who uses it?",
+        "🔧 Spanner - who uses it?",
+        "🎨 Paintbrush - who uses it?",
+        "🔬 Microscope - who uses it?",
+        "🧱 Trowel - who uses it?"
+      ],
+      "practical": false,
+      "competencies": [
+        "car-name-jobs"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "community-helpers"
+        }
+      ],
+      "interests": [
+        "machines",
+        "art",
+        "medicine",
+        "building"
+      ],
+      "languageHooks": [
+        "tools",
+        "kitchen"
+      ],
+      "connects": [
+        "life-skills"
+      ],
+      "check": [
+        {
+          "question": "🩺 is used by a...",
+          "options": [
+            "Doctor or nurse",
+            "Builder"
+          ],
+          "answer": 0,
+          "explain": "Yes! It helps them listen to your heart."
+        },
+        {
+          "question": "🔧 is used by a...",
+          "options": [
+            "Mechanic",
+            "Chef"
+          ],
+          "answer": 0,
+          "explain": "Yes! Mechanics use spanners to turn nuts and bolts."
+        }
+      ]
+    },
+    {
+      "id": "car-job-detective-walk",
+      "kind": "activity",
+      "area": "careers",
+      "subject": "community helpers",
+      "title": "Job detective",
+      "emoji": "🔎",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 30,
+      "summary": "Be a detective and spot people at work.",
+      "steps": [
+        "Go for a walk with an adult, or look at a picture book or newspaper.",
+        "Spot as many jobs as you can: drivers, shop workers, builders, gardeners.",
+        "Make a tally for each job you spot.",
+        "Pick one job. What tools did they use? What problem do they solve?",
+        "Draw your favourite and write one question you would ask that worker."
+      ],
+      "practical": false,
+      "competencies": [
+        "car-name-jobs"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "community-helpers"
+        },
+        {
+          "tree": "car-discovery",
+          "node": "real-world-research"
+        }
+      ],
+      "interests": [
+        "helping",
+        "machines"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "civics-social"
+      ],
+      "adultNote": "Stay together and do not disturb people while they work. If going out is hard, use books, TV or a window."
+    },
+    {
+      "id": "car-career-families-tour",
+      "kind": "lesson",
+      "area": "careers",
+      "subject": "career families",
+      "title": "The 16 career families",
+      "emoji": "🗂️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 25,
+      "summary": "Jobs come in big families. You do not need to choose one now - just explore!",
+      "steps": [
+        "Medicine 🩺 and science 🔬: health and discovering how things work.",
+        "Engineering ⚙️ and technology 💻: designing machines, buildings, computers and code.",
+        "Finance 💰 and business 🏪: money, shops and companies.",
+        "Agriculture 🌾: growing food and caring for farm animals.",
+        "Skilled trades 🔧: plumbers, electricians, mechanics, carpenters.",
+        "Hospitality 🍽️: cooking, hotels and looking after visitors.",
+        "Arts 🎭 and design 🎨: music, acting, drawing, fashion and buildings.",
+        "Law ⚖️, education 🧑‍🏫, public service 🚒 and research 📚.",
+        "Entrepreneurship 🚀: starting your own business or project.",
+        "Pick three families you want to find out more about."
+      ],
+      "practical": false,
+      "competencies": [
+        "car-know-career-families"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "career-families"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine",
+        "machines",
+        "money",
+        "art"
+      ],
+      "connects": [
+        "civics-social"
+      ]
+    },
+    {
+      "id": "car-strengths-interests",
+      "kind": "activity",
+      "area": "careers",
+      "subject": "self-knowledge",
+      "title": "What do I enjoy? What am I good at?",
+      "emoji": "🌟",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 25,
+      "summary": "Your interests and strengths change as you grow. Let's notice them now.",
+      "steps": [
+        "Write 5 things you enjoy doing.",
+        "Write 5 things you are good at (ask family to help!).",
+        "Circle things that are on both lists.",
+        "Do you like working with people, things, ideas, animals or nature?",
+        "Find two career families that use your circled strengths.",
+        "Remember: this is for exploring, not choosing. Do it again next year!"
+      ],
+      "practical": false,
+      "competencies": [
+        "car-know-strengths"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "strengths-interests"
+        }
+      ],
+      "interests": [
+        "helping",
+        "animals",
+        "art",
+        "machines"
+      ],
+      "connects": [
+        "independent-learning"
+      ],
+      "adultNote": "Interests should widen options, not narrow them. Encourage trying things outside the child's comfort zone."
+    },
+    {
+      "id": "car-day-in-the-life",
+      "kind": "activity",
+      "area": "careers",
+      "subject": "research",
+      "title": "A day in the life",
+      "emoji": "🕘",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 30,
+      "summary": "Find out what a worker really does all day.",
+      "steps": [
+        "Pick a job you are curious about.",
+        "Find out: what time do they start? Where do they work? What tools do they use?",
+        "Use a library book, a free careers website or ask an adult who knows the job.",
+        "Draw a timeline of their day from morning to evening.",
+        "Add: what is the best part of the job? What is hard?"
+      ],
+      "practical": false,
+      "competencies": [
+        "car-name-jobs"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "real-world-research"
+        }
+      ],
+      "interests": [
+        "stories",
+        "helping"
+      ],
+      "connects": [
+        "languages",
+        "independent-learning"
+      ]
+    },
+    {
+      "id": "car-every-job-solves-a-problem",
+      "kind": "lesson",
+      "area": "careers",
+      "subject": "career families",
+      "title": "Every job solves a problem",
+      "emoji": "🧩",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Jobs exist because people have problems and needs.",
+      "steps": [
+        "A plumber solves leaks and gets clean water to us.",
+        "A data scientist finds patterns that help people make decisions.",
+        "A farmer solves the problem of feeding people.",
+        "A designer solves the problem of making things easy and beautiful to use.",
+        "Think of a problem you notice. Which jobs help solve it?",
+        "Make a \"problem → job\" chart with 5 examples."
+      ],
+      "practical": false,
+      "competencies": [
+        "car-name-jobs",
+        "car-know-career-families"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "career-families"
+        }
+      ],
+      "interests": [
+        "helping",
+        "computers",
+        "plants"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "check": [
+        {
+          "question": "Which job solves the problem of a leaking pipe?",
+          "options": [
+            "Plumber",
+            "Musician"
+          ],
+          "answer": 0,
+          "explain": "Yes! Plumbers fix leaks and water systems."
+        }
+      ]
+    },
+    {
+      "id": "car-interview-a-worker",
+      "kind": "activity",
+      "area": "careers",
+      "subject": "research",
+      "title": "Interview a worker",
+      "emoji": "🎤",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 45,
+      "summary": "Ask someone about their job to learn things no book will tell you.",
+      "steps": [
+        "With an adult, choose someone known to your family: a relative, neighbour or family friend.",
+        "Prepare 8 questions, for example: How did you get this job? What do you do each day? What do you wish you had known at my age?",
+        "Ask permission to take notes.",
+        "Listen carefully and ask follow-up questions.",
+        "Thank them, and send a thank-you note.",
+        "Write a one-page summary of what you learned."
+      ],
+      "practical": false,
+      "competencies": [
+        "car-interview-worker"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "real-world-research"
+        }
+      ],
+      "interests": [
+        "helping",
+        "stories"
+      ],
+      "connects": [
+        "languages",
+        "civics-social"
+      ],
+      "adultNote": "Arrange the interview yourself and stay present or nearby. A phone or video call is fine."
+    },
+    {
+      "id": "car-transferable-skills",
+      "kind": "lesson",
+      "area": "careers",
+      "subject": "skills",
+      "title": "Skills that travel",
+      "emoji": "🎒",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 25,
+      "summary": "Some skills help in almost every job. They go with you wherever you work.",
+      "steps": [
+        "Communication: speaking, writing and listening clearly.",
+        "Teamwork: working well with others.",
+        "Problem-solving: working out what is wrong and trying solutions.",
+        "Reliability: being on time and doing what you said.",
+        "Digital skills: using computers and phones well and safely.",
+        "Learning to learn: picking up new skills when things change.",
+        "For each skill, write one example of when you used it at home."
+      ],
+      "practical": false,
+      "competencies": [
+        "car-transferable-skills"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "strengths-interests"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "connects": [
+        "independent-learning",
+        "life-skills"
+      ],
+      "check": [
+        {
+          "question": "Which skill is useful in almost every job?",
+          "options": [
+            "Communication",
+            "Juggling"
+          ],
+          "answer": 0,
+          "explain": "Yes. Every job involves people."
+        }
+      ]
+    },
+    {
+      "id": "car-workplace-first-day-sim",
+      "kind": "simulation",
+      "area": "careers",
+      "subject": "work readiness",
+      "title": "First day of work experience",
+      "emoji": "🦺",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 15,
+      "summary": "You are starting a short work placement. What do you do?",
+      "steps": [
+        "Read each situation.",
+        "Choose the best action.",
+        "Think about safety and professional behaviour."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A pretend scenario about workplace behaviour and safety."
+      },
+      "competencies": [
+        "car-work-ready"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "next-steps"
+        }
+      ],
+      "interests": [
+        "helping",
+        "machines"
+      ],
+      "connects": [
+        "life-skills"
+      ],
+      "simulation": {
+        "scenario": "It is your first morning of work experience at a small workshop.",
+        "steps": [
+          {
+            "prompt": "You arrive. What first?",
+            "options": [
+              {
+                "text": "Arrive on time, introduce yourself and ask who to report to",
+                "correct": true,
+                "feedback": "Great start. Being on time shows reliability."
+              },
+              {
+                "text": "Start using the machines to look helpful",
+                "correct": false,
+                "feedback": "Never use equipment before training and permission."
+              }
+            ]
+          },
+          {
+            "prompt": "Your supervisor gives a safety briefing. What do you do?",
+            "options": [
+              {
+                "text": "Listen carefully, ask questions and follow the rules, including protective equipment",
+                "correct": true,
+                "feedback": "Yes. Safety rules protect everyone."
+              },
+              {
+                "text": "Skip it - you already know about safety",
+                "correct": false,
+                "feedback": "Every workplace has its own risks. Always listen."
+              }
+            ]
+          },
+          {
+            "prompt": "Someone asks you to do something that seems unsafe.",
+            "options": [
+              {
+                "text": "Politely say no and tell your supervisor or a trusted adult",
+                "correct": true,
+                "feedback": "Exactly right. You can always refuse unsafe work."
+              },
+              {
+                "text": "Do it so you do not upset anyone",
+                "correct": false,
+                "feedback": "Your safety comes first. Young workers should never do unsafe tasks."
+              }
+            ]
+          },
+          {
+            "prompt": "You finish a task early.",
+            "options": [
+              {
+                "text": "Ask what you can help with next",
+                "correct": true,
+                "feedback": "Excellent. Showing initiative makes a strong impression."
+              },
+              {
+                "text": "Scroll on your phone",
+                "correct": false,
+                "feedback": "Ask for the next task instead."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "car-pathways-map",
+      "kind": "lesson",
+      "area": "careers",
+      "subject": "pathways",
+      "title": "Many paths into work",
+      "emoji": "🛤️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "There is no single right route. Learn about the main pathways and how they connect.",
+      "steps": [
+        "Apprenticeships: learn on the job, earn money and get a qualification (common in trades, engineering, business and care).",
+        "Vocational or technical college: practical courses for specific skills.",
+        "University: degrees for professions like medicine, law, research and teaching, and many others.",
+        "Starting a business or freelancing: create your own work.",
+        "Volunteering, internships and part-time jobs build experience.",
+        "Paths can change. Many people switch careers or study later in life.",
+        "For two careers you are curious about, map the possible routes, time and cost. Find free or funded options where you live."
+      ],
+      "practical": false,
+      "competencies": [
+        "car-know-pathways"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "pathways"
+        }
+      ],
+      "interests": [
+        "helping",
+        "money"
+      ],
+      "connects": [
+        "financial-literacy",
+        "independent-learning"
+      ],
+      "check": [
+        {
+          "question": "An apprenticeship lets you...",
+          "options": [
+            "learn and earn at the same time",
+            "only study theory"
+          ],
+          "answer": 0,
+          "explain": "Yes. Apprentices work and train together."
+        }
+      ],
+      "adultNote": "Routes, costs and funding vary by country. Help the child find official careers guidance for your area."
+    },
+    {
+      "id": "car-job-shadow-plan",
+      "kind": "project",
+      "area": "careers",
+      "subject": "real-world exploration",
+      "title": "Plan a job shadow",
+      "emoji": "👣",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 180,
+      "summary": "Spend time watching someone at work to see what the job is really like.",
+      "steps": [
+        "Choose a job you want to understand better.",
+        "With an adult, find a known person or organisation who might let you shadow them.",
+        "Write a polite request explaining what you hope to learn.",
+        "Agree the details: date, times, place, what to wear, safety rules and who is responsible for you.",
+        "On the day: observe, ask questions, take notes and follow all safety instructions.",
+        "Afterwards, write a reflection: what surprised you? Would you like to try this work?",
+        "Send a thank-you message."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Workplace machinery, vehicles or chemicals",
+          "Being in unfamiliar places with unfamiliar adults"
+        ],
+        "notes": "An adult arranges and approves the placement and knows where the young person is. Only observe, unless trained and permitted. Follow the workplace's safety rules and local laws on young workers."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Phone or video call"
+          ],
+          "description": "A virtual shadow: a worker talks you through their day and shows their workplace on a call."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "Transport costs only"
+          ],
+          "description": "Half a day observing a family friend at work."
+        },
+        "advanced": {
+          "cost": "Varies",
+          "materials": [
+            "Formal placement arranged with an organisation"
+          ],
+          "description": "A one-week work-experience placement with a supervisor and safety induction."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "In-person visit",
+          "use": "A phone or video call, or a documentary about the job"
+        },
+        {
+          "instead": "Formal placement",
+          "use": "Volunteering with a community group alongside a parent"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Young people at work",
+          "publisher": "Health and Safety Executive (UK)",
+          "url": "https://www.hse.gov.uk"
+        },
+        {
+          "title": "Child labour and decent work for young people",
+          "publisher": "International Labour Organization",
+          "url": "https://www.ilo.org"
+        }
+      ],
+      "competencies": [
+        "car-interview-worker",
+        "car-work-ready"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "real-world-research"
+        },
+        {
+          "tree": "car-discovery",
+          "node": "next-steps"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "connects": [
+        "life-skills",
+        "civics-social"
+      ],
+      "adultNote": "Check local laws about young people in workplaces and any required permissions or checks. Never pressure a young person to stay somewhere they feel unsafe."
+    },
+    {
+      "id": "car-cv-and-portfolio",
+      "kind": "project",
+      "area": "careers",
+      "subject": "next steps",
+      "title": "My first CV and portfolio",
+      "emoji": "📄",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 120,
+      "summary": "Show what you can do: write a short CV and gather evidence from your Life Competency Passport.",
+      "steps": [
+        "List your contact details (only share these with people you trust and real employers).",
+        "Write a 2-sentence profile about your interests and strengths.",
+        "List skills and competencies you have earned, with an example for each.",
+        "Add projects, volunteering, clubs and any jobs or responsibilities at home.",
+        "Build a portfolio: photos of things you made, writing, code, certificates.",
+        "Ask an adult to check spelling and give feedback.",
+        "Update it every few months."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Sharing personal data"
+        ],
+        "notes": "Keep your address and phone number off public websites."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pen",
+            "A folder"
+          ],
+          "description": "Handwrite the CV and keep a paper portfolio in a folder."
+        },
+        "better": {
+          "cost": "Free with a phone",
+          "materials": [
+            "Phone"
+          ],
+          "description": "Take photos of your work and type the CV in a free notes or document app."
+        },
+        "advanced": {
+          "cost": "Optional equipment",
+          "materials": [
+            "Computer",
+            "Printer"
+          ],
+          "description": "Design a polished CV and a digital portfolio."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Computer",
+          "use": "Neat handwriting on plain paper"
+        },
+        {
+          "instead": "Printer",
+          "use": "A library or community centre printer"
+        }
+      ],
+      "competencies": [
+        "car-write-cv"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "next-steps"
+        }
+      ],
+      "interests": [
+        "helping",
+        "art",
+        "computers"
+      ],
+      "connects": [
+        "languages",
+        "technology-ai",
+        "independent-learning"
+      ]
+    },
+    {
+      "id": "car-test-a-business-idea",
+      "kind": "project",
+      "area": "careers",
+      "subject": "entrepreneurship",
+      "title": "Test a tiny business idea",
+      "emoji": "🚀",
+      "ageBands": [
+        "15-17",
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 240,
+      "summary": "Entrepreneurs test ideas cheaply before spending lots of money. Try it!",
+      "steps": [
+        "Spot a problem people have, such as plants that need watering while neighbours travel.",
+        "Describe your solution in one sentence.",
+        "Ask 5 people (known to you, with an adult) if they would use it and what they would pay.",
+        "Work out costs, price and how much you could earn.",
+        "Run a tiny test with family or friends for one or two weeks.",
+        "Record what worked and what did not. Change your idea and try again."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Handling money",
+          "Dealing with unknown customers"
+        ],
+        "notes": "Keep customers to people your family knows. An adult helps with money and agreements."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil"
+          ],
+          "description": "Plan the idea and survey people without selling anything."
+        },
+        "better": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Simple materials for a product or service"
+          ],
+          "description": "Run a small test service for family and neighbours."
+        },
+        "advanced": {
+          "cost": "Under 30 USD",
+          "materials": [
+            "Materials",
+            "Simple record book or spreadsheet"
+          ],
+          "description": "Run the test for a month and track all costs and income."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Spreadsheet",
+          "use": "A paper notebook with columns for money in and out"
+        },
+        {
+          "instead": "Posters",
+          "use": "Telling people in person"
+        }
+      ],
+      "competencies": [
+        "car-transferable-skills"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "pathways"
+        }
+      ],
+      "interests": [
+        "money",
+        "helping"
+      ],
+      "connects": [
+        "financial-literacy",
+        "mathematics",
+        "civics-social"
+      ],
+      "adultNote": "Check any local rules on young people selling goods or services."
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "language": "hi",
+  "name": "Hindi",
+  "nativeName": "हिन्दी",
+  "ttsLang": "hi-IN",
+  "concepts": {
+    "numbers": [
+      {
+        "en": "one",
+        "word": "एक",
+        "romanised": "ek"
+      },
+      {
+        "en": "two",
+        "word": "दो",
+        "romanised": "do"
+      },
+      {
+        "en": "three",
+        "word": "तीन",
+        "romanised": "teen"
+      },
+      {
+        "en": "four",
+        "word": "चार",
+        "romanised": "chaar"
+      },
+      {
+        "en": "five",
+        "word": "पाँच",
+        "romanised": "paanch"
+      },
+      {
+        "en": "six",
+        "word": "छह",
+        "romanised": "chhah"
+      },
+      {
+        "en": "seven",
+        "word": "सात",
+        "romanised": "saat"
+      },
+      {
+        "en": "eight",
+        "word": "आठ",
+        "romanised": "aath"
+      },
+      {
+        "en": "nine",
+        "word": "नौ",
+        "romanised": "nau"
+      },
+      {
+        "en": "ten",
+        "word": "दस",
+        "romanised": "das"
+      }
+    ],
+    "colours": [
+      {
+        "en": "red",
+        "word": "लाल",
+        "romanised": "laal"
+      },
+      {
+        "en": "blue",
+        "word": "नीला",
+        "romanised": "neela"
+      },
+      {
+        "en": "green",
+        "word": "हरा",
+        "romanised": "hara"
+      },
+      {
+        "en": "yellow",
+        "word": "पीला",
+        "romanised": "peela"
+      },
+      {
+        "en": "black",
+        "word": "काला",
+        "romanised": "kaala"
+      },
+      {
+        "en": "white",
+        "word": "सफ़ेद",
+        "romanised": "safed"
+      }
+    ],
+    "shapes": [
+      {
+        "en": "circle",
+        "word": "वृत्त",
+        "romanised": "vritt"
+      },
+      {
+        "en": "square",
+        "word": "वर्ग",
+        "romanised": "varg"
+      },
+      {
+        "en": "triangle",
+        "word": "त्रिभुज",
+        "romanised": "tribhuj"
+      },
+      {
+        "en": "star",
+        "word": "तारा",
+        "romanised": "taara"
+      },
+      {
+        "en": "rectangle",
+        "word": "आयत",
+        "romanised": "aayat"
+      }
+    ],
+    "family": [
+      {
+        "en": "mother",
+        "word": "माँ",
+        "romanised": "maa"
+      },
+      {
+        "en": "father",
+        "word": "पिता",
+        "romanised": "pita"
+      },
+      {
+        "en": "sister",
+        "word": "बहन",
+        "romanised": "bahan"
+      },
+      {
+        "en": "brother",
+        "word": "भाई",
+        "romanised": "bhai"
+      },
+      {
+        "en": "grandmother (father's mother)",
+        "word": "दादी",
+        "romanised": "daadi"
+      },
+      {
+        "en": "grandfather (father's father)",
+        "word": "दादा",
+        "romanised": "daada"
+      },
+      {
+        "en": "grandmother (mother's mother)",
+        "word": "नानी",
+        "romanised": "naani"
+      },
+      {
+        "en": "grandfather (mother's father)",
+        "word": "नाना",
+        "romanised": "naana"
+      }
+    ],
+    "food": [
+      {
+        "en": "flatbread",
+        "word": "रोटी",
+        "romanised": "roti"
+      },
+      {
+        "en": "rice",
+        "word": "चावल",
+        "romanised": "chaaval"
+      },
+      {
+        "en": "water",
+        "word": "पानी",
+        "romanised": "paani"
+      },
+      {
+        "en": "milk",
+        "word": "दूध",
+        "romanised": "doodh"
+      },
+      {
+        "en": "lentils",
+        "word": "दाल",
+        "romanised": "daal"
+      },
+      {
+        "en": "egg",
+        "word": "अंडा",
+        "romanised": "anda"
+      }
+    ],
+    "fruit": [
+      {
+        "en": "apple",
+        "word": "सेब",
+        "romanised": "seb"
+      },
+      {
+        "en": "banana",
+        "word": "केला",
+        "romanised": "kela"
+      },
+      {
+        "en": "orange",
+        "word": "संतरा",
+        "romanised": "santara"
+      },
+      {
+        "en": "grapes",
+        "word": "अंगूर",
+        "romanised": "angoor"
+      },
+      {
+        "en": "mango",
+        "word": "आम",
+        "romanised": "aam"
+      },
+      {
+        "en": "watermelon",
+        "word": "तरबूज़",
+        "romanised": "tarbooz"
+      }
+    ],
+    "animals": [
+      {
+        "en": "dog",
+        "word": "कुत्ता",
+        "romanised": "kutta"
+      },
+      {
+        "en": "cat",
+        "word": "बिल्ली",
+        "romanised": "billi"
+      },
+      {
+        "en": "horse",
+        "word": "घोड़ा",
+        "romanised": "ghoda"
+      },
+      {
+        "en": "cow",
+        "word": "गाय",
+        "romanised": "gaay"
+      },
+      {
+        "en": "bird",
+        "word": "चिड़िया",
+        "romanised": "chidiya"
+      },
+      {
+        "en": "fish",
+        "word": "मछली",
+        "romanised": "machhli"
+      },
+      {
+        "en": "elephant",
+        "word": "हाथी",
+        "romanised": "haathi"
+      }
+    ],
+    "body": [
+      {
+        "en": "head",
+        "word": "सिर",
+        "romanised": "sir"
+      },
+      {
+        "en": "eye",
+        "word": "आँख",
+        "romanised": "aankh"
+      },
+      {
+        "en": "ear",
+        "word": "कान",
+        "romanised": "kaan"
+      },
+      {
+        "en": "nose",
+        "word": "नाक",
+        "romanised": "naak"
+      },
+      {
+        "en": "mouth",
+        "word": "मुँह",
+        "romanised": "munh"
+      },
+      {
+        "en": "hand",
+        "word": "हाथ",
+        "romanised": "haath"
+      },
+      {
+        "en": "foot / leg",
+        "word": "पैर",
+        "romanised": "pair"
+      }
+    ],
+    "greetings": [
+      {
+        "en": "hello",
+        "word": "नमस्ते",
+        "romanised": "namaste"
+      },
+      {
+        "en": "good morning",
+        "word": "सुप्रभात",
+        "romanised": "suprabhaat"
+      },
+      {
+        "en": "see you again",
+        "word": "फिर मिलेंगे",
+        "romanised": "phir milenge"
+      },
+      {
+        "en": "please",
+        "word": "कृपया",
+        "romanised": "kripya"
+      },
+      {
+        "en": "thank you",
+        "word": "धन्यवाद",
+        "romanised": "dhanyavaad"
+      },
+      {
+        "en": "how are you?",
+        "word": "आप कैसे हैं?",
+        "romanised": "aap kaise hain"
+      }
+    ],
+    "weather": [
+      {
+        "en": "sunshine",
+        "word": "धूप",
+        "romanised": "dhoop"
+      },
+      {
+        "en": "rain",
+        "word": "बारिश",
+        "romanised": "baarish"
+      },
+      {
+        "en": "cloud",
+        "word": "बादल",
+        "romanised": "baadal"
+      },
+      {
+        "en": "wind",
+        "word": "हवा",
+        "romanised": "hava"
+      },
+      {
+        "en": "snow / ice",
+        "word": "बर्फ़",
+        "romanised": "barf"
+      },
+      {
+        "en": "heat",
+        "word": "गर्मी",
+        "romanised": "garmi"
+      },
+      {
+        "en": "cold",
+        "word": "ठंड",
+        "romanised": "thand"
+      }
+    ],
+    "maths": [
+      {
+        "en": "addition",
+        "word": "जोड़",
+        "romanised": "jod"
+      },
+      {
+        "en": "subtraction",
+        "word": "घटाव",
+        "romanised": "ghataav"
+      },
+      {
+        "en": "equal",
+        "word": "बराबर",
+        "romanised": "baraabar"
+      },
+      {
+        "en": "number",
+        "word": "संख्या",
+        "romanised": "sankhya"
+      },
+      {
+        "en": "half",
+        "word": "आधा",
+        "romanised": "aadha"
+      },
+      {
+        "en": "multiplication",
+        "word": "गुणा",
+        "romanised": "guna"
+      }
+    ],
+    "science": [
+      {
+        "en": "science",
+        "word": "विज्ञान",
+        "romanised": "vigyaan"
+      },
+      {
+        "en": "experiment",
+        "word": "प्रयोग",
+        "romanised": "prayog"
+      },
+      {
+        "en": "plant",
+        "word": "पौधा",
+        "romanised": "paudha"
+      },
+      {
+        "en": "light",
+        "word": "प्रकाश",
+        "romanised": "prakaash"
+      },
+      {
+        "en": "energy",
+        "word": "ऊर्जा",
+        "romanised": "oorja"
+      }
+    ],
+    "geography": [
+      {
+        "en": "mountain",
+        "word": "पहाड़",
+        "romanised": "pahaad"
+      },
+      {
+        "en": "river",
+        "word": "नदी",
+        "romanised": "nadi"
+      },
+      {
+        "en": "sea",
+        "word": "समुद्र",
+        "romanised": "samudra"
+      },
+      {
+        "en": "country",
+        "word": "देश",
+        "romanised": "desh"
+      },
+      {
+        "en": "city",
+        "word": "शहर",
+        "romanised": "shahar"
+      },
+      {
+        "en": "map",
+        "word": "नक्शा",
+        "romanised": "naksha"
+      }
+    ],
+    "kitchen": [
+      {
+        "en": "plate",
+        "word": "थाली",
+        "romanised": "thaali"
+      },
+      {
+        "en": "glass (for drinking)",
+        "word": "गिलास",
+        "romanised": "gilaas"
+      },
+      {
+        "en": "spoon",
+        "word": "चम्मच",
+        "romanised": "chammach"
+      },
+      {
+        "en": "knife",
+        "word": "चाकू",
+        "romanised": "chaaku"
+      },
+      {
+        "en": "flat griddle pan",
+        "word": "तवा",
+        "romanised": "tava"
+      }
+    ],
+    "tools": [
+      {
+        "en": "hammer",
+        "word": "हथौड़ा",
+        "romanised": "hathauda"
+      },
+      {
+        "en": "screwdriver",
+        "word": "पेचकस",
+        "romanised": "pechkas"
+      },
+      {
+        "en": "saw",
+        "word": "आरी",
+        "romanised": "aari"
+      },
+      {
+        "en": "scissors",
+        "word": "कैंची",
+        "romanised": "kainchi"
+      }
+    ],
+    "nature": [
+      {
+        "en": "tree",
+        "word": "पेड़",
+        "romanised": "ped"
+      },
+      {
+        "en": "flower",
+        "word": "फूल",
+        "romanised": "phool"
+      },
+      {
+        "en": "leaf",
+        "word": "पत्ता",
+        "romanised": "patta"
+      },
+      {
+        "en": "grass",
+        "word": "घास",
+        "romanised": "ghaas"
+      },
+      {
+        "en": "sky",
+        "word": "आसमान",
+        "romanised": "aasmaan"
+      },
+      {
+        "en": "stone",
+        "word": "पत्थर",
+        "romanised": "patthar"
+      }
+    ],
+    "time": [
+      {
+        "en": "day",
+        "word": "दिन",
+        "romanised": "din"
+      },
+      {
+        "en": "night",
+        "word": "रात",
+        "romanised": "raat"
+      },
+      {
+        "en": "today",
+        "word": "आज",
+        "romanised": "aaj"
+      },
+      {
+        "en": "tomorrow or yesterday",
+        "word": "कल",
+        "romanised": "kal"
+      },
+      {
+        "en": "week",
+        "word": "हफ़्ता",
+        "romanised": "hafta"
+      }
+    ],
+    "feelings": [
+      {
+        "en": "happy",
+        "word": "ख़ुश",
+        "romanised": "khush"
+      },
+      {
+        "en": "sad",
+        "word": "उदास",
+        "romanised": "udaas"
+      },
+      {
+        "en": "anger",
+        "word": "ग़ुस्सा",
+        "romanised": "gussa"
+      },
+      {
+        "en": "fear",
+        "word": "डर",
+        "romanised": "dar"
+      }
+    ]
+  }
+}

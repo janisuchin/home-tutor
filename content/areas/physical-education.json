@@ -1,0 +1,3501 @@
+{
+  "area": "physical-education",
+  "title": "Physical education",
+  "emoji": "🏃",
+  "description": "Progressive pathways for swimming, skating, martial arts as fitness and discipline, general exercise, cycling, running and hiking. Activities adapt to age, ability and medical needs; swimming always needs a qualified teacher or lifeguarded pool, and martial arts never means street fighting.",
+  "skillTrees": [
+    {
+      "id": "pe-swimming",
+      "area": "physical-education",
+      "title": "Swimming",
+      "emoji": "🏊",
+      "nodes": [
+        {
+          "id": "water-confidence",
+          "title": "Water confidence",
+          "description": "Happy in the water with an adult close by."
+        },
+        {
+          "id": "floating",
+          "title": "Floating",
+          "description": "Floats on front and back."
+        },
+        {
+          "id": "breathing",
+          "title": "Breathing",
+          "description": "Blows bubbles and breathes with a rhythm."
+        },
+        {
+          "id": "propulsion",
+          "title": "Propulsion",
+          "description": "Kicks and pulls to move through the water."
+        },
+        {
+          "id": "strokes",
+          "title": "Strokes",
+          "description": "Front crawl, backstroke and breaststroke."
+        },
+        {
+          "id": "survival",
+          "title": "Survival skills",
+          "description": "Float to live, tread water, signal for help."
+        },
+        {
+          "id": "rescue-awareness",
+          "title": "Rescue awareness",
+          "description": "Reach or throw, don't go."
+        },
+        {
+          "id": "open-water",
+          "title": "Endurance and open water",
+          "description": "Longer swims and open-water awareness."
+        }
+      ]
+    },
+    {
+      "id": "pe-skating",
+      "area": "physical-education",
+      "title": "Skating",
+      "emoji": "🛼",
+      "nodes": [
+        {
+          "id": "protective-equipment",
+          "title": "Protective equipment",
+          "description": "Helmet, wrist guards, knee and elbow pads."
+        },
+        {
+          "id": "balance",
+          "title": "Balance",
+          "description": "Stands and moves with control."
+        },
+        {
+          "id": "falling-safely",
+          "title": "Falling safely",
+          "description": "Falls forward onto pads and gets up."
+        },
+        {
+          "id": "forward",
+          "title": "Skating forward",
+          "description": "Glides forward with control."
+        },
+        {
+          "id": "stopping",
+          "title": "Stopping",
+          "description": "Heel brake or T-stop."
+        },
+        {
+          "id": "turning",
+          "title": "Turning",
+          "description": "Leans and looks to turn."
+        },
+        {
+          "id": "manoeuvres",
+          "title": "Manoeuvres",
+          "description": "Weaving, crossovers, backwards."
+        },
+        {
+          "id": "advanced",
+          "title": "Advanced skills",
+          "description": "Supervised park or rink skills."
+        }
+      ]
+    },
+    {
+      "id": "pe-martial-arts",
+      "area": "physical-education",
+      "title": "Martial arts and kickboxing",
+      "emoji": "🥋",
+      "nodes": [
+        {
+          "id": "beginner",
+          "title": "Beginner",
+          "description": "Respect, walking away, stance, movement, balance, guard, basic pad strikes."
+        },
+        {
+          "id": "intermediate",
+          "title": "Intermediate",
+          "description": "Combinations, footwork, defence, conditioning."
+        },
+        {
+          "id": "advanced",
+          "title": "Advanced",
+          "description": "Structured supervised training, strategy, controlled sparring with qualified supervision."
+        }
+      ]
+    },
+    {
+      "id": "pe-fitness",
+      "area": "physical-education",
+      "title": "Fitness",
+      "emoji": "💪",
+      "nodes": [
+        {
+          "id": "mobility",
+          "title": "Mobility",
+          "description": "Moves joints through their range."
+        },
+        {
+          "id": "flexibility",
+          "title": "Flexibility",
+          "description": "Gentle stretching."
+        },
+        {
+          "id": "balance",
+          "title": "Balance",
+          "description": "Static and moving balance."
+        },
+        {
+          "id": "coordination",
+          "title": "Coordination",
+          "description": "Throwing, catching, combining moves."
+        },
+        {
+          "id": "strength",
+          "title": "Strength",
+          "description": "Bodyweight strength."
+        },
+        {
+          "id": "endurance",
+          "title": "Endurance",
+          "description": "Keeps going for longer."
+        },
+        {
+          "id": "cardio",
+          "title": "Cardiovascular fitness",
+          "description": "Gets puffed and recovers."
+        },
+        {
+          "id": "posture",
+          "title": "Posture",
+          "description": "Sits and stands well, takes movement breaks."
+        },
+        {
+          "id": "resistance-training",
+          "title": "Resistance training",
+          "description": "Safe technique with light resistance (older teens)."
+        }
+      ]
+    },
+    {
+      "id": "pe-cycling",
+      "area": "physical-education",
+      "title": "Cycling",
+      "emoji": "🚲",
+      "nodes": [
+        {
+          "id": "balance",
+          "title": "Balance",
+          "description": "Glides and pedals in a car-free area."
+        },
+        {
+          "id": "helmet-and-checks",
+          "title": "Helmet and bike checks",
+          "description": "Helmet fit, tyres, brakes, chain."
+        },
+        {
+          "id": "signals",
+          "title": "Control and signals",
+          "description": "Looks behind, signals, rides one-handed."
+        },
+        {
+          "id": "road-skills",
+          "title": "Road skills",
+          "description": "Rides safely on quiet roads."
+        },
+        {
+          "id": "longer-rides",
+          "title": "Longer rides",
+          "description": "Plans and completes longer routes."
+        }
+      ]
+    },
+    {
+      "id": "pe-outdoors",
+      "area": "physical-education",
+      "title": "Running and hiking",
+      "emoji": "🥾",
+      "nodes": [
+        {
+          "id": "walking",
+          "title": "Walking",
+          "description": "Enjoys regular walks."
+        },
+        {
+          "id": "running",
+          "title": "Running",
+          "description": "Builds up running with a run-walk plan."
+        },
+        {
+          "id": "hiking",
+          "title": "Hiking",
+          "description": "Plans and completes a hike safely."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "pe-swim-25m",
+      "area": "physical-education",
+      "group": "physical",
+      "title": "Can swim 25 metres",
+      "emoji": "🏊",
+      "needsCertification": false
+    },
+    {
+      "id": "pe-water-survival",
+      "area": "physical-education",
+      "group": "physical",
+      "title": "Knows water survival skills (float, tread water, signal, reach or throw)",
+      "emoji": "🛟",
+      "needsCertification": false
+    },
+    {
+      "id": "pe-water-safety-rules",
+      "area": "physical-education",
+      "group": "emergency",
+      "title": "Knows the water safety rules",
+      "emoji": "🚩"
+    },
+    {
+      "id": "pe-skate-and-stop",
+      "area": "physical-education",
+      "group": "physical",
+      "title": "Can skate forward, turn and stop with protective gear",
+      "emoji": "🛼"
+    },
+    {
+      "id": "pe-ride-bike-safely",
+      "area": "physical-education",
+      "group": "physical",
+      "title": "Can ride a bike safely with a helmet",
+      "emoji": "🚲"
+    },
+    {
+      "id": "pe-basic-self-defence",
+      "area": "physical-education",
+      "group": "physical",
+      "title": "Knows basic self-defence: walk away, get help, stay balanced",
+      "emoji": "🥋"
+    },
+    {
+      "id": "pe-daily-active",
+      "area": "physical-education",
+      "group": "physical",
+      "title": "Active for about 60 minutes a day for 30 days",
+      "emoji": "📅",
+      "target": 30
+    },
+    {
+      "id": "pe-hike-safely",
+      "area": "physical-education",
+      "group": "physical",
+      "title": "Can plan and complete a hike safely",
+      "emoji": "🥾"
+    }
+  ],
+  "items": [
+    {
+      "id": "pe-water-confidence",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "swimming",
+      "title": "Happy in the water",
+      "emoji": "🐠",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 20,
+      "summary": "Splash, blow bubbles and get your face wet with a grown-up right next to you.",
+      "steps": [
+        "🧑‍🤝‍🧑 A grown-up stays in the water, within arm's reach.",
+        "💦 Splash with your hands.",
+        "🫧 Blow bubbles on the water like a fish.",
+        "👀 Put your face in for a moment, then up.",
+        "🐸 Hop like a frog in shallow water.",
+        "🙌 Get out when you feel cold or tired."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "drowning",
+          "slipping",
+          "cold"
+        ],
+        "notes": "An adult in the water within arm's reach at all times. Only in a lifeguarded shallow pool or with an adult in a bath. Never leave a child near water, even for a moment."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "bath or bowl of water"
+          ],
+          "description": "Blow bubbles and splash in the bath with an adult beside you."
+        },
+        "better": {
+          "cost": "Pool entry fee",
+          "materials": [
+            "lifeguarded shallow pool",
+            "swimsuit"
+          ],
+          "description": "Play water games in a lifeguarded shallow pool with an adult."
+        },
+        "advanced": {
+          "cost": "Lesson fee",
+          "materials": [
+            "swimming lessons with a qualified teacher",
+            "goggles"
+          ],
+          "description": "Join beginner lessons with a qualified swimming teacher."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a swimming pool",
+          "use": "a bath or washing-up bowl for face-in-water and bubble games (adult always present)"
+        },
+        {
+          "instead": "pool toys",
+          "use": "plastic cups and clean empty bottles"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Water safety",
+          "publisher": "Royal Life Saving Society UK",
+          "url": "https://www.rlss.org.uk/water-safety"
+        },
+        {
+          "title": "Drowning fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/drowning"
+        },
+        {
+          "title": "Swim safety",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/swim-safety.html"
+        }
+      ],
+      "competencies": [
+        "pe-water-safety-rules"
+      ],
+      "skills": [
+        {
+          "tree": "pe-swimming",
+          "node": "water-confidence"
+        },
+        {
+          "tree": "pe-swimming",
+          "node": "breathing"
+        }
+      ],
+      "interests": [
+        "swimming",
+        "sport"
+      ],
+      "languageHooks": [
+        "animals",
+        "body",
+        "colours"
+      ],
+      "certificationNote": "Swimming must be taught by a qualified swimming teacher in a lifeguarded pool. The app teaches knowledge and games only; it never certifies swimming or water safety. Never swim alone.",
+      "adultNote": "Drowning is fast and silent. Supervise with full attention, no phones. Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-water-safety-rules",
+      "kind": "lesson",
+      "area": "physical-education",
+      "subject": "swimming",
+      "title": "Water safety rules",
+      "emoji": "🚩",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Water is fun but it can be dangerous. Learn the rules that keep you safe.",
+      "steps": [
+        "🙋 Always ask a grown-up before going near water.",
+        "👀 Swim only where a grown-up or lifeguard is watching.",
+        "🚫 Never swim alone.",
+        "🚩 Look for flags and signs and do what they say.",
+        "🧊 Cold water takes your breath away. Get in slowly.",
+        "📣 See someone in trouble? Shout for help. Do not go in."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "drowning"
+        ],
+        "notes": "Knowledge lesson. Real water activities always need adult supervision."
+      },
+      "sources": [
+        {
+          "title": "Water safety information",
+          "publisher": "Royal Life Saving Society UK",
+          "url": "https://www.rlss.org.uk/pages/category/water-safety-information"
+        },
+        {
+          "title": "Drowning fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/drowning"
+        },
+        {
+          "title": "Water safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/leisure-safety/water"
+        }
+      ],
+      "competencies": [
+        "pe-water-safety-rules"
+      ],
+      "skills": [
+        {
+          "tree": "pe-swimming",
+          "node": "water-confidence"
+        },
+        {
+          "tree": "pe-swimming",
+          "node": "rescue-awareness"
+        }
+      ],
+      "interests": [
+        "swimming",
+        "nature"
+      ],
+      "languageHooks": [
+        "colours",
+        "weather",
+        "nature"
+      ],
+      "check": [
+        {
+          "question": "Can you swim on your own if nobody is watching?",
+          "options": [
+            "Yes",
+            "No, never swim alone"
+          ],
+          "answer": 1,
+          "explain": "Right. Always swim where a grown-up or lifeguard is watching."
+        }
+      ],
+      "certificationNote": "Swimming must be taught by a qualified swimming teacher in a lifeguarded pool. The app teaches knowledge and games only; it never certifies swimming or water safety. Never swim alone."
+    },
+    {
+      "id": "pe-floating-starfish",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "swimming",
+      "title": "Starfish float",
+      "emoji": "⭐",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Float on your back like a starfish. Floating helps you rest and stay safe in water.",
+      "steps": [
+        "With your teacher holding you, lie back in the water.",
+        "Look up at the ceiling or sky.",
+        "Stretch arms and legs out like a starfish.",
+        "Breathe slowly and relax.",
+        "Your teacher lets go a little when you are ready.",
+        "Try a front float too, then stand up safely."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "drowning",
+          "swallowing water"
+        ],
+        "notes": "Only with a qualified swimming teacher or lifeguard present, in water at a depth the teacher chooses."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "practice on dry land",
+            "carpet"
+          ],
+          "description": "Practise the starfish shape lying on the floor."
+        },
+        "better": {
+          "cost": "Pool entry fee",
+          "materials": [
+            "lifeguarded pool",
+            "adult in the water"
+          ],
+          "description": "Practise with a float in a lifeguarded pool."
+        },
+        "advanced": {
+          "cost": "Lesson fee",
+          "materials": [
+            "swimming lessons"
+          ],
+          "description": "Learn floating with a qualified teacher."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a float board",
+          "use": "a teacher's supporting hands, or a sealed empty plastic bottle held by the child (in lessons only)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Swim England",
+          "publisher": "Swim England (national governing body)",
+          "url": "https://www.swimming.org/swimengland/"
+        },
+        {
+          "title": "Water safety",
+          "publisher": "Royal Life Saving Society UK",
+          "url": "https://www.rlss.org.uk/water-safety"
+        },
+        {
+          "title": "Swim safety",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/swim-safety.html"
+        }
+      ],
+      "competencies": [
+        "pe-water-survival"
+      ],
+      "skills": [
+        {
+          "tree": "pe-swimming",
+          "node": "floating"
+        }
+      ],
+      "interests": [
+        "swimming",
+        "sport"
+      ],
+      "languageHooks": [
+        "shapes",
+        "body",
+        "animals"
+      ],
+      "certificationNote": "Swimming must be taught by a qualified swimming teacher in a lifeguarded pool. The app teaches knowledge and games only; it never certifies swimming or water safety. Never swim alone.",
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-front-crawl-basics",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "swimming",
+      "title": "Kick, pull, breathe: front crawl",
+      "emoji": "🏊",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 30,
+      "summary": "Learn kicking, arm pulls and side breathing to swim front crawl, then work towards 25 metres.",
+      "steps": [
+        "Kick with straight legs from the hips, toes pointed.",
+        "Practise kicking holding the side or a float.",
+        "Add long arm pulls, one at a time.",
+        "Turn your head to the side to breathe, then back down and blow bubbles.",
+        "Put it together for a few metres, then rest.",
+        "Build up slowly towards 25 metres with your teacher."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "drowning",
+          "tiredness",
+          "collisions"
+        ],
+        "notes": "In lessons with a qualified swimming teacher, or in a lifeguarded pool with an adult. Rest when tired."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "floor",
+            "chair"
+          ],
+          "description": "Practise arm movements and side breathing on dry land."
+        },
+        "better": {
+          "cost": "Pool entry fee",
+          "materials": [
+            "lifeguarded pool",
+            "goggles"
+          ],
+          "description": "Practise in a lifeguarded pool with an adult."
+        },
+        "advanced": {
+          "cost": "Lesson fee",
+          "materials": [
+            "swimming lessons",
+            "kickboard"
+          ],
+          "description": "Learn the stroke with a qualified swimming teacher."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "goggles",
+          "use": "practise opening eyes briefly, or keep eyes closed when face is in"
+        },
+        {
+          "instead": "a kickboard",
+          "use": "holding the pool edge"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Swim England",
+          "publisher": "Swim England (national governing body)",
+          "url": "https://www.swimming.org/swimengland/"
+        },
+        {
+          "title": "Swim safety",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/swim-safety.html"
+        },
+        {
+          "title": "Water safety",
+          "publisher": "Royal Life Saving Society UK",
+          "url": "https://www.rlss.org.uk/water-safety"
+        }
+      ],
+      "competencies": [
+        "pe-swim-25m"
+      ],
+      "skills": [
+        {
+          "tree": "pe-swimming",
+          "node": "propulsion"
+        },
+        {
+          "tree": "pe-swimming",
+          "node": "strokes"
+        },
+        {
+          "tree": "pe-swimming",
+          "node": "breathing"
+        }
+      ],
+      "interests": [
+        "swimming",
+        "sport"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "science"
+      ],
+      "certificationNote": "Swimming must be taught by a qualified swimming teacher in a lifeguarded pool. The app teaches knowledge and games only; it never certifies swimming or water safety. Never swim alone.",
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-water-survival-skills",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "swimming",
+      "title": "Water survival skills",
+      "emoji": "🛟",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 30,
+      "summary": "Learn to float, tread water, signal for help and keep warm if you fall in.",
+      "steps": [
+        "Float to Live: lean back, spread arms and legs, and float to catch your breath.",
+        "Tread water: slow circles with arms and legs to stay upright.",
+        "Signal for help: one arm up, wave and shout.",
+        "Cold water: stay calm for the first minute while your breathing settles, then float.",
+        "In clothes, practise floating and moving to the side with your teacher.",
+        "Learn how to exit the water safely at the side."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "drowning",
+          "cold water shock",
+          "exhaustion"
+        ],
+        "notes": "Survival skills are practised only in lessons with a qualified teacher in a lifeguarded pool. Never practise in open water."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "dry land"
+          ],
+          "description": "Learn the steps and practise the float and signal shapes on land."
+        },
+        "better": {
+          "cost": "Pool entry fee",
+          "materials": [
+            "lifeguarded pool session"
+          ],
+          "description": "Practise floating and treading water with a lifeguard watching."
+        },
+        "advanced": {
+          "cost": "Course fee",
+          "materials": [
+            "water safety or survival course"
+          ],
+          "description": "Take a survival or water safety course with a qualified teacher."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a survival course",
+          "use": "a school or community water safety session where available"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Water safety",
+          "publisher": "Royal Life Saving Society UK",
+          "url": "https://www.rlss.org.uk/water-safety"
+        },
+        {
+          "title": "Water safety information",
+          "publisher": "Royal Life Saving Society UK",
+          "url": "https://www.rlss.org.uk/pages/category/water-safety-information"
+        },
+        {
+          "title": "Drowning fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/drowning"
+        }
+      ],
+      "competencies": [
+        "pe-water-survival"
+      ],
+      "skills": [
+        {
+          "tree": "pe-swimming",
+          "node": "survival"
+        },
+        {
+          "tree": "pe-swimming",
+          "node": "floating"
+        }
+      ],
+      "interests": [
+        "swimming",
+        "sport",
+        "nature"
+      ],
+      "languageHooks": [
+        "weather",
+        "body"
+      ],
+      "certificationNote": "Swimming must be taught by a qualified swimming teacher in a lifeguarded pool. The app teaches knowledge and games only; it never certifies swimming or water safety. Never swim alone.",
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-reach-or-throw",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "swimming",
+      "title": "Reach or throw, don't go",
+      "emoji": "🪢",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "If someone is in trouble in water, never jump in. Shout for help, then reach or throw something that floats.",
+      "steps": [
+        "Shout for help and call the emergency number. Tell a lifeguard if there is one.",
+        "Stay on land and lie or kneel down so you are not pulled in.",
+        "Reach with a stick, towel or clothing.",
+        "Throw something that floats: a ball, an empty bottle, a ring.",
+        "Practise throwing a rope or bottle to a target on dry ground.",
+        "Never go into the water to rescue someone. That is a job for trained lifeguards."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "falling in",
+          "trips"
+        ],
+        "notes": "Practise only on dry land away from water, such as a garden or park, with an adult watching."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "empty plastic bottle with a little water",
+            "rope or scarf"
+          ],
+          "description": "Throw a bottle to a hoop or mark on the grass."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "throw bag or rope"
+          ],
+          "description": "Practise throwing a rope to a partner standing on land."
+        },
+        "advanced": {
+          "cost": "Course fee",
+          "materials": [
+            "junior lifesaving course"
+          ],
+          "description": "Join a junior lifesaving course at a pool."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a throw ring",
+          "use": "a clean empty plastic bottle tied to a rope or long scarf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Water safety",
+          "publisher": "Royal Life Saving Society UK",
+          "url": "https://www.rlss.org.uk/water-safety"
+        },
+        {
+          "title": "Water safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/leisure-safety/water"
+        },
+        {
+          "title": "Water safety",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html"
+        }
+      ],
+      "competencies": [
+        "pe-water-survival"
+      ],
+      "skills": [
+        {
+          "tree": "pe-swimming",
+          "node": "rescue-awareness"
+        }
+      ],
+      "interests": [
+        "swimming",
+        "helping"
+      ],
+      "languageHooks": [
+        "nature",
+        "shapes"
+      ],
+      "connects": [
+        "first-aid"
+      ],
+      "certificationNote": "Rescue skills in water are taught only on accredited lifesaving courses. Children must never attempt in-water rescues.",
+      "adultNote": "Reinforce: the first rule is your own safety. Many would-be rescuers drown."
+    },
+    {
+      "id": "pe-open-water-awareness",
+      "kind": "lesson",
+      "area": "physical-education",
+      "subject": "swimming",
+      "title": "Open water: rivers, lakes and sea",
+      "emoji": "🌊",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 15,
+      "summary": "Open water is very different from a pool. Learn about cold, currents and how to stay safe.",
+      "steps": [
+        "Only swim at lifeguarded beaches, between the flags.",
+        "Cold water shock: enter slowly; if you fall in, float first to catch your breath.",
+        "Rip currents: do not swim against them. Float, raise a hand, swim parallel to the shore when you can.",
+        "Rivers and lakes hide deep water, weeds, cold and fast flows.",
+        "Always go with others and tell someone where you are going.",
+        "Never swim after drinking alcohol or at night."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "drowning",
+          "cold water shock",
+          "currents"
+        ],
+        "notes": "Knowledge only. Open-water swimming needs a qualified coach, safety cover and appropriate equipment."
+      },
+      "sources": [
+        {
+          "title": "Water safety information",
+          "publisher": "Royal Life Saving Society UK",
+          "url": "https://www.rlss.org.uk/pages/category/water-safety-information"
+        },
+        {
+          "title": "Water safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/leisure-safety/water"
+        },
+        {
+          "title": "Drowning fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/drowning"
+        }
+      ],
+      "competencies": [
+        "pe-water-survival"
+      ],
+      "skills": [
+        {
+          "tree": "pe-swimming",
+          "node": "open-water"
+        },
+        {
+          "tree": "pe-swimming",
+          "node": "rescue-awareness"
+        }
+      ],
+      "interests": [
+        "swimming",
+        "nature"
+      ],
+      "languageHooks": [
+        "weather",
+        "nature",
+        "geography"
+      ],
+      "connects": [
+        "geography",
+        "science"
+      ],
+      "certificationNote": "Swimming must be taught by a qualified swimming teacher in a lifeguarded pool. The app teaches knowledge and games only; it never certifies swimming or water safety. Never swim alone."
+    },
+    {
+      "id": "pe-swim-endurance",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "swimming",
+      "title": "Swim further: endurance and strokes",
+      "emoji": "🏅",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 40,
+      "summary": "Build stamina and try backstroke and breaststroke as well as front crawl.",
+      "steps": [
+        "Warm up with easy lengths.",
+        "Try backstroke: on your back, long arms, steady kick.",
+        "Try breaststroke: pull, breathe, kick, glide.",
+        "Swim sets: for example 4 x 25 metres with rests.",
+        "Add a little more each week.",
+        "Cool down and stretch."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "drowning",
+          "overexertion",
+          "collisions"
+        ],
+        "notes": "Train in a lifeguarded pool or with a club coach. Never swim alone."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Pool entry fee",
+          "materials": [
+            "lifeguarded pool"
+          ],
+          "description": "Swim sets in a lifeguarded public session."
+        },
+        "better": {
+          "cost": "Pool entry fee",
+          "materials": [
+            "goggles",
+            "kickboard"
+          ],
+          "description": "Use a kickboard and pull drills."
+        },
+        "advanced": {
+          "cost": "Club fee",
+          "materials": [
+            "swimming club"
+          ],
+          "description": "Train with a club and a qualified coach."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a stopwatch",
+          "use": "the pool clock or counting"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Swim England",
+          "publisher": "Swim England (national governing body)",
+          "url": "https://www.swimming.org/swimengland/"
+        },
+        {
+          "title": "Water safety",
+          "publisher": "Royal Life Saving Society UK",
+          "url": "https://www.rlss.org.uk/water-safety"
+        },
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        }
+      ],
+      "competencies": [
+        "pe-swim-25m",
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-swimming",
+          "node": "strokes"
+        },
+        {
+          "tree": "pe-swimming",
+          "node": "open-water"
+        }
+      ],
+      "interests": [
+        "swimming",
+        "sport"
+      ],
+      "languageHooks": [
+        "numbers",
+        "time"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "certificationNote": "Swimming must be taught by a qualified swimming teacher in a lifeguarded pool. The app teaches knowledge and games only; it never certifies swimming or water safety. Never swim alone.",
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-skating-gear-and-balance",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "skating",
+      "title": "Gear up and balance",
+      "emoji": "🛼",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Put on your helmet and pads, then find your balance on wheels.",
+      "steps": [
+        "Put on a helmet, wrist guards, elbow pads and knee pads.",
+        "Start on grass or carpet so the wheels do not roll much.",
+        "Stand with feet a little apart, knees bent, arms forward.",
+        "March on the spot, then take small duck steps.",
+        "Move to a flat, smooth, quiet area away from roads.",
+        "Look ahead, not at your feet."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "falls",
+          "head injury",
+          "wrist injury",
+          "traffic"
+        ],
+        "notes": "Always wear a helmet and wrist guards. Adult supervision. Never skate on roads or slopes when learning."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "socks on a smooth floor"
+          ],
+          "description": "Practise balance and gliding in socks on a smooth floor."
+        },
+        "better": {
+          "cost": "Second-hand price",
+          "materials": [
+            "used skates",
+            "helmet",
+            "pads"
+          ],
+          "description": "Use second-hand skates with a well-fitting helmet and pads."
+        },
+        "advanced": {
+          "cost": "Lesson fee",
+          "materials": [
+            "skating lessons"
+          ],
+          "description": "Take lessons at a rink with a qualified coach."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "skates",
+          "use": "sliding in socks on a smooth floor to learn balance"
+        },
+        {
+          "instead": "new pads",
+          "use": "second-hand pads checked for fit and damage (a helmet must be undamaged and fit well)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/leisure-safety"
+        },
+        {
+          "title": "Sports injuries",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/sports-injuries/"
+        }
+      ],
+      "competencies": [
+        "pe-skate-and-stop"
+      ],
+      "skills": [
+        {
+          "tree": "pe-skating",
+          "node": "protective-equipment"
+        },
+        {
+          "tree": "pe-skating",
+          "node": "balance"
+        }
+      ],
+      "interests": [
+        "skating",
+        "sport"
+      ],
+      "languageHooks": [
+        "body",
+        "shapes"
+      ],
+      "adultNote": "A helmet that has had a hard impact should be replaced. Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-skating-fall-and-stop",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "skating",
+      "title": "Fall safely and stop",
+      "emoji": "🛑",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 25,
+      "summary": "Learn to fall safely and stop before you learn to go fast.",
+      "steps": [
+        "Falling: bend knees, crouch low, fall forward onto knee pads, then wrist guards.",
+        "Practise falls on grass first.",
+        "Get up: kneel, put one foot flat, push up with hands on knee.",
+        "Stop with the heel brake: one foot forward, lift toes, press the heel.",
+        "Or a T-stop: drag the back skate behind at a right angle.",
+        "Practise skating forward and stopping on a line."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "falls",
+          "wrist and head injury"
+        ],
+        "notes": "Full protective gear. Practise falls on grass. Adult supervision on a quiet, flat surface."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "grass",
+            "chalk"
+          ],
+          "description": "Practise falling on grass and stopping at chalk lines."
+        },
+        "better": {
+          "cost": "Second-hand price",
+          "materials": [
+            "skates",
+            "full pads",
+            "helmet"
+          ],
+          "description": "Practise in a quiet car-free area."
+        },
+        "advanced": {
+          "cost": "Lesson fee",
+          "materials": [
+            "rink lessons"
+          ],
+          "description": "Learn stops with a qualified coach."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "cones",
+          "use": "plastic cups or shoes as markers"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/leisure-safety"
+        },
+        {
+          "title": "Sports injuries",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/sports-injuries/"
+        }
+      ],
+      "competencies": [
+        "pe-skate-and-stop"
+      ],
+      "skills": [
+        {
+          "tree": "pe-skating",
+          "node": "falling-safely"
+        },
+        {
+          "tree": "pe-skating",
+          "node": "stopping"
+        },
+        {
+          "tree": "pe-skating",
+          "node": "forward"
+        }
+      ],
+      "interests": [
+        "skating",
+        "sport"
+      ],
+      "languageHooks": [
+        "body",
+        "shapes"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-skating-turns",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "skating",
+      "title": "Turns and manoeuvres",
+      "emoji": "🌀",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Carve turns, weave cones and learn crossovers with control.",
+      "steps": [
+        "Warm up skating forward and stopping.",
+        "Lean gently to turn; look where you want to go.",
+        "Weave through a line of cones.",
+        "Try a crossover turn slowly in a circle.",
+        "Learn to skate backwards with small C-shapes.",
+        "Only try tricks or ramps at a supervised skate park with full gear."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "falls",
+          "collisions",
+          "head injury"
+        ],
+        "notes": "Full protective gear. Car-free area or rink. Ramps and tricks only at supervised parks."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "markers",
+            "skates you have"
+          ],
+          "description": "Weave through home-made markers."
+        },
+        "better": {
+          "cost": "Rink fee",
+          "materials": [
+            "rink session"
+          ],
+          "description": "Practise turns at a public rink."
+        },
+        "advanced": {
+          "cost": "Lesson fee",
+          "materials": [
+            "coaching sessions"
+          ],
+          "description": "Learn advanced skills with a qualified coach."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "cones",
+          "use": "plastic bottles or cups"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/leisure-safety"
+        },
+        {
+          "title": "Sports injuries",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/sports-injuries/"
+        }
+      ],
+      "competencies": [
+        "pe-skate-and-stop"
+      ],
+      "skills": [
+        {
+          "tree": "pe-skating",
+          "node": "turning"
+        },
+        {
+          "tree": "pe-skating",
+          "node": "manoeuvres"
+        },
+        {
+          "tree": "pe-skating",
+          "node": "advanced"
+        }
+      ],
+      "interests": [
+        "skating",
+        "sport"
+      ],
+      "languageHooks": [
+        "shapes"
+      ],
+      "connects": [
+        "science"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-walk-away-get-help",
+      "kind": "lesson",
+      "area": "physical-education",
+      "subject": "martial-arts",
+      "title": "Walk away and get help",
+      "emoji": "🚶",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "The first self-defence skill is staying calm, walking away and getting help.",
+      "steps": [
+        "Notice when you feel unsafe. Trust that feeling.",
+        "Use a strong, calm voice: Stop. Leave me alone.",
+        "Keep your distance and walk away towards people.",
+        "Go to a trusted adult, a shop, school or a safe place.",
+        "Tell someone what happened.",
+        "Fighting is the very last thing, only to escape. Never start a fight."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Talking and role-play only. No contact."
+      },
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        }
+      ],
+      "competencies": [
+        "pe-basic-self-defence"
+      ],
+      "skills": [
+        {
+          "tree": "pe-martial-arts",
+          "node": "beginner"
+        }
+      ],
+      "interests": [
+        "martial-arts",
+        "sport"
+      ],
+      "languageHooks": [
+        "feelings",
+        "greetings"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "check": [
+        {
+          "question": "Someone is trying to start a fight. What is the best first choice?",
+          "options": [
+            "Fight back hard",
+            "Walk away and get help"
+          ],
+          "answer": 1,
+          "explain": "Yes. Walking away and getting help is the strongest self-defence skill."
+        }
+      ],
+      "adultNote": "Role-play confident body language and a firm voice. Make sure your child knows who to tell and that they will be believed."
+    },
+    {
+      "id": "pe-ma-stance-and-respect",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "martial-arts",
+      "title": "Respect, stance and guard",
+      "emoji": "🥋",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Start with a bow, a balanced stance and a strong guard. Martial arts begin with respect.",
+      "steps": [
+        "Greet your partner or teacher with a bow or fist-in-palm salute.",
+        "Stand side-on, feet shoulder-width apart, knees soft.",
+        "Hands up by your cheeks, elbows in: this is your guard.",
+        "Step forward, back and sideways without crossing your feet.",
+        "Balance game: stand on one leg in your stance for 10 seconds.",
+        "Finish with a bow. Say thank you."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "falls",
+          "knocks"
+        ],
+        "notes": "Adult supervision. Clear space, no contact with others. Bare feet on a non-slip floor."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "clear space"
+          ],
+          "description": "Practise stance, guard and footwork at home."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "chalk or tape for floor lines"
+          ],
+          "description": "Use floor lines for footwork drills."
+        },
+        "advanced": {
+          "cost": "Club fee",
+          "materials": [
+            "beginner class"
+          ],
+          "description": "Join a beginners' class with a qualified coach."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a training mat",
+          "use": "a carpet or folded blankets on a flat floor"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Sports injuries",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/sports-injuries/"
+        }
+      ],
+      "competencies": [
+        "pe-basic-self-defence"
+      ],
+      "skills": [
+        {
+          "tree": "pe-martial-arts",
+          "node": "beginner"
+        }
+      ],
+      "interests": [
+        "martial-arts",
+        "sport"
+      ],
+      "languageHooks": [
+        "greetings",
+        "body",
+        "numbers"
+      ],
+      "certificationNote": "Martial arts and kickboxing beyond basic solo movement should be learned at a club with a qualified, safeguarding-checked coach. The app never grades or certifies martial arts.",
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-ma-pad-strikes",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "martial-arts",
+      "title": "Pad work: jab and cross",
+      "emoji": "🥊",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 25,
+      "summary": "Practise controlled punches on a pad held by an adult. Technique and control come before power.",
+      "steps": [
+        "Warm up: jog on the spot, arm circles.",
+        "From your guard, jab with the front hand, then bring it back to your face.",
+        "Cross with the back hand, turning the back foot.",
+        "Strike only the pad, never a person.",
+        "Breathe out with each strike. Keep it controlled.",
+        "Do 3 rounds of 1 minute with rests. Cool down and stretch."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "wrist and hand injury",
+          "hitting the holder"
+        ],
+        "notes": "An adult holds the pad. Light, controlled strikes. Never strike people. Stop if anything hurts."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "firm cushion held by an adult"
+          ],
+          "description": "Strike a firm cushion held flat by an adult."
+        },
+        "better": {
+          "cost": "Under 20 USD",
+          "materials": [
+            "focus pads",
+            "hand wraps"
+          ],
+          "description": "Use proper focus pads and wraps."
+        },
+        "advanced": {
+          "cost": "Club fee",
+          "materials": [
+            "kickboxing or martial arts class",
+            "gloves"
+          ],
+          "description": "Train pad work at a club with a qualified coach."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "focus pads",
+          "use": "a firm cushion or folded pillow held flat by an adult"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Sports injuries",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/sports-injuries/"
+        }
+      ],
+      "competencies": [
+        "pe-basic-self-defence"
+      ],
+      "skills": [
+        {
+          "tree": "pe-martial-arts",
+          "node": "beginner"
+        }
+      ],
+      "interests": [
+        "martial-arts",
+        "sport"
+      ],
+      "languageHooks": [
+        "numbers",
+        "body"
+      ],
+      "certificationNote": "Martial arts and kickboxing beyond basic solo movement should be learned at a club with a qualified, safeguarding-checked coach. The app never grades or certifies martial arts.",
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-ma-combinations-footwork",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "martial-arts",
+      "title": "Combinations, footwork and defence",
+      "emoji": "🦶",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 35,
+      "summary": "Link strikes into combinations, move with good footwork and practise blocks and slips with a partner.",
+      "steps": [
+        "Warm up and stretch.",
+        "Shadow box: jab, cross, step out. Stay balanced.",
+        "Pad combinations: jab-cross-hook, then step back.",
+        "Defence drills at slow speed: parry, block, slip. No contact to the head.",
+        "Conditioning: skipping, squats, planks.",
+        "Cool down. Talk about respect and control."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "impacts",
+          "strains",
+          "overtraining"
+        ],
+        "notes": "Adult supervision. Slow, no-contact partner drills only. Any contact training belongs at a club with a qualified coach."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "clear space",
+            "skipping rope or none"
+          ],
+          "description": "Shadow boxing, footwork and conditioning at home."
+        },
+        "better": {
+          "cost": "Under 25 USD",
+          "materials": [
+            "focus pads",
+            "gloves",
+            "skipping rope"
+          ],
+          "description": "Pad combinations with an adult holder."
+        },
+        "advanced": {
+          "cost": "Club fee",
+          "materials": [
+            "club training",
+            "mouthguard"
+          ],
+          "description": "Club sessions with a qualified coach."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a skipping rope",
+          "use": "jumping on the spot with pretend rope"
+        },
+        {
+          "instead": "focus pads",
+          "use": "a firm cushion held flat by an adult"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Sports injuries",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/sports-injuries/"
+        },
+        {
+          "title": "Strength exercises",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/"
+        }
+      ],
+      "competencies": [
+        "pe-basic-self-defence"
+      ],
+      "skills": [
+        {
+          "tree": "pe-martial-arts",
+          "node": "intermediate"
+        },
+        {
+          "tree": "pe-fitness",
+          "node": "coordination"
+        }
+      ],
+      "interests": [
+        "martial-arts",
+        "sport"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "certificationNote": "Martial arts and kickboxing beyond basic solo movement should be learned at a club with a qualified, safeguarding-checked coach. The app never grades or certifies martial arts.",
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-ma-supervised-sparring",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "martial-arts",
+      "title": "Supervised training and controlled sparring",
+      "emoji": "🏟️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 60,
+      "summary": "Structured training, strategy and light, controlled sparring, only at a club with qualified supervision.",
+      "steps": [
+        "Train only at a club with a qualified, safeguarding-checked coach.",
+        "Wear the required protective gear: gloves, mouthguard, headguard, shin guards.",
+        "Agree rules and intensity before every round. Light contact only.",
+        "Learn strategy: distance, timing, staying calm.",
+        "Stop immediately when the coach or your partner says stop.",
+        "Never use these skills outside training, except to escape real danger."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "head injury",
+          "concussion",
+          "impacts"
+        ],
+        "notes": "Sparring only with qualified supervision, protective equipment and age-appropriate rules. Never at home. Never street fighting."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "club open day"
+          ],
+          "description": "Watch a club session or try a free open day."
+        },
+        "better": {
+          "cost": "Club fee",
+          "materials": [
+            "club membership",
+            "mouthguard",
+            "gloves"
+          ],
+          "description": "Regular supervised club training."
+        },
+        "advanced": {
+          "cost": "Grading fees",
+          "materials": [
+            "full protective kit",
+            "club gradings"
+          ],
+          "description": "Progress through the club's graded syllabus."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a mouthguard bought new",
+          "use": "no substitute: protective gear must fit and be in good condition; ask the club about loan kit"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Sports injuries",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/sports-injuries/"
+        }
+      ],
+      "competencies": [
+        "pe-basic-self-defence"
+      ],
+      "skills": [
+        {
+          "tree": "pe-martial-arts",
+          "node": "advanced"
+        }
+      ],
+      "interests": [
+        "martial-arts",
+        "sport"
+      ],
+      "certificationNote": "Martial arts and kickboxing beyond basic solo movement should be learned at a club with a qualified, safeguarding-checked coach. The app never grades or certifies martial arts.",
+      "adultNote": "Choose a club with qualified coaches and a safeguarding policy. Head impacts can cause concussion; any suspected head injury needs medical assessment. Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-animal-moves",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "fitness",
+      "title": "Animal moves",
+      "emoji": "🐻",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Move like animals to get strong and wiggly.",
+      "steps": [
+        "🐻 Bear walk on hands and feet.",
+        "🐸 Frog jumps.",
+        "🦩 Flamingo: stand on one leg.",
+        "🐍 Snake slide on your tummy.",
+        "🐇 Bunny hops.",
+        "🐢 Slow tortoise to finish."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "bumps",
+          "slips"
+        ],
+        "notes": "Clear space, no sharp corners. Bare feet or grippy shoes."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "clear floor"
+          ],
+          "description": "Play animal moves at home."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "park or garden"
+          ],
+          "description": "Play outside on grass."
+        },
+        "advanced": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "animal picture cards"
+          ],
+          "description": "Make or print animal cards to pick from."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "picture cards",
+          "use": "an adult calls out animal names"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Physical activity guidelines for children and young people",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/exercise-guidelines/physical-activity-guidelines-children-and-young-people/"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "mobility"
+        },
+        {
+          "tree": "pe-fitness",
+          "node": "strength"
+        }
+      ],
+      "interests": [
+        "sport",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "body"
+      ],
+      "connects": [
+        "nature-animals"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-balance-games",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "fitness",
+      "title": "Balance games",
+      "emoji": "🤸",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Walk the line, stand like a tree and freeze like a statue.",
+      "steps": [
+        "🧵 Walk along a rope or tape line on the floor.",
+        "🌳 Stand like a tree on one foot.",
+        "🗿 Dance, then freeze when the music stops.",
+        "🎒 Walk with a soft toy on your head.",
+        "🔢 Count how long you can balance."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "falls"
+        ],
+        "notes": "Low lines on the floor only. Soft surface."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "string or a line of shoes"
+          ],
+          "description": "Walk a string line on the floor."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "masking tape"
+          ],
+          "description": "Make tape paths with turns."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "low balance beam or plank on the floor"
+          ],
+          "description": "Walk along a wide plank lying flat on the ground."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a balance beam",
+          "use": "a line of tape, string or a flat plank on the floor"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Physical activity guidelines for children and young people",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/exercise-guidelines/physical-activity-guidelines-children-and-young-people/"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "balance"
+        },
+        {
+          "tree": "pe-skating",
+          "node": "balance"
+        }
+      ],
+      "interests": [
+        "sport"
+      ],
+      "languageHooks": [
+        "numbers",
+        "nature",
+        "shapes"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-throw-and-catch",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "fitness",
+      "title": "Throw and catch",
+      "emoji": "⚽",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Throw, catch, roll and kick a soft ball.",
+      "steps": [
+        "🔵 Roll a ball to a partner.",
+        "🙌 Catch with two hands, eyes on the ball.",
+        "🎯 Throw into a bucket or box.",
+        "🦶 Kick the ball gently to a target.",
+        "➕ Step back one step after each good catch."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "ball hitting face",
+          "breakables"
+        ],
+        "notes": "Soft ball only indoors. Keep away from windows."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "rolled-up socks or paper ball"
+          ],
+          "description": "Use a sock ball."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "soft ball",
+            "bucket"
+          ],
+          "description": "Use a soft ball and a target."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "set of balls",
+            "cones"
+          ],
+          "description": "Set up a target course."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a ball",
+          "use": "rolled-up socks or a scrunched paper ball in tape"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Physical activity guidelines for children and young people",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/exercise-guidelines/physical-activity-guidelines-children-and-young-people/"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "coordination"
+        }
+      ],
+      "interests": [
+        "sport"
+      ],
+      "languageHooks": [
+        "colours",
+        "shapes",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-dance-cardio",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "fitness",
+      "title": "Dance and get puffed",
+      "emoji": "💃",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Dance to music until you feel warm and a little out of breath.",
+      "steps": [
+        "🎵 Put on music you love.",
+        "👐 Copy moves: arms up, spin, jump, march.",
+        "❤️ Feel your heart beat faster.",
+        "😮‍💨 Get a little puffed, but still able to talk.",
+        "🧘 Slow dance to finish."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "bumps",
+          "slips"
+        ],
+        "notes": "Clear space. Drink water."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "singing or clapping"
+          ],
+          "description": "Dance to singing or clapping."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "radio or phone music"
+          ],
+          "description": "Dance to recorded music."
+        },
+        "advanced": {
+          "cost": "Free",
+          "materials": [
+            "free online dance class"
+          ],
+          "description": "Follow a free online dance video together."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "music player",
+          "use": "singing, clapping or drumming on a pot"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Physical activity guidelines for children and young people",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/exercise-guidelines/physical-activity-guidelines-children-and-young-people/"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "cardio"
+        },
+        {
+          "tree": "pe-fitness",
+          "node": "coordination"
+        }
+      ],
+      "interests": [
+        "sport",
+        "dance",
+        "music"
+      ],
+      "languageHooks": [
+        "body",
+        "feelings"
+      ],
+      "connects": [
+        "arts-creativity"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-stretch-and-mobility",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "fitness",
+      "title": "Stretch and move",
+      "emoji": "🧘",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Gentle stretches and mobility moves keep your body flexible.",
+      "steps": [
+        "Warm up first with marching or jogging on the spot.",
+        "Neck: slow look left and right.",
+        "Arm circles forward and back.",
+        "Hamstrings: sit, legs out, reach gently towards toes.",
+        "Hold each stretch about 15 to 30 seconds. Breathe slowly.",
+        "Stretch gently: it should feel like a pull, never pain."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "overstretching"
+        ],
+        "notes": "No bouncing. Stop if anything hurts."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "floor"
+          ],
+          "description": "Stretch on the floor."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "towel as a stretch strap"
+          ],
+          "description": "Use a towel for gentle assisted stretches."
+        },
+        "advanced": {
+          "cost": "Under 20 USD",
+          "materials": [
+            "exercise mat"
+          ],
+          "description": "Use a mat for a full mobility routine."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "an exercise mat",
+          "use": "a folded blanket or rug"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Exercise",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/"
+        },
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "mobility"
+        },
+        {
+          "tree": "pe-fitness",
+          "node": "flexibility"
+        }
+      ],
+      "interests": [
+        "sport"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers",
+        "time"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-bodyweight-circuit",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "fitness",
+      "title": "Bodyweight circuit",
+      "emoji": "💪",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 25,
+      "summary": "Squats, wall push-ups, planks and star jumps to build strength and stamina.",
+      "steps": [
+        "Warm up for 3 minutes.",
+        "Squats: feet hip-width, sit back, chest up. 10 times.",
+        "Wall or knee push-ups: body straight. 8 times.",
+        "Plank: forearms and toes (or knees), body straight. 20 seconds.",
+        "Star jumps: 20.",
+        "Rest 1 minute. Repeat 2 to 3 times. Cool down and stretch."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "strains",
+          "poor technique"
+        ],
+        "notes": "Good form before more repetitions. Stop if anything hurts. Drink water."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "floor",
+            "wall"
+          ],
+          "description": "Do the circuit at home."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "park"
+          ],
+          "description": "Do it outdoors using benches for step-ups."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "skipping rope",
+            "timer"
+          ],
+          "description": "Add skipping and timed stations."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a timer",
+          "use": "counting out loud"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Strength exercises",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/"
+        },
+        {
+          "title": "WHO guidelines on physical activity and sedentary behaviour",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "title": "Physical activity guidelines for children and young people",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/exercise-guidelines/physical-activity-guidelines-children-and-young-people/"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "strength"
+        },
+        {
+          "tree": "pe-fitness",
+          "node": "endurance"
+        }
+      ],
+      "interests": [
+        "sport",
+        "fitness"
+      ],
+      "languageHooks": [
+        "numbers",
+        "body",
+        "time"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-posture-check",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "fitness",
+      "title": "Posture check",
+      "emoji": "🧍",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Good posture helps your back and neck, especially when studying or using screens.",
+      "steps": [
+        "Stand tall: ears over shoulders, shoulders over hips.",
+        "At a desk: feet flat, back supported, screen at eye level.",
+        "Every 30 minutes, stand up and move for a few minutes.",
+        "Shoulder rolls and chin tucks, 10 each.",
+        "Carry your bag on both shoulders.",
+        "Photograph your sitting set-up and improve one thing."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Gentle movements only."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "chair",
+            "books"
+          ],
+          "description": "Raise a screen on books to eye level."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "cushion for lower back"
+          ],
+          "description": "Add back support."
+        },
+        "advanced": {
+          "cost": "Under 20 USD",
+          "materials": [
+            "timer app or kitchen timer"
+          ],
+          "description": "Use a timer for movement breaks."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a laptop stand",
+          "use": "a stack of books"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Exercise",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/"
+        },
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "posture"
+        }
+      ],
+      "interests": [
+        "sport",
+        "fitness"
+      ],
+      "languageHooks": [
+        "body",
+        "time"
+      ],
+      "connects": [
+        "health",
+        "technology-ai"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-resistance-training-teens",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "fitness",
+      "title": "Starting resistance training",
+      "emoji": "🏋️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 40,
+      "summary": "Learn safe technique with bodyweight and light resistance before using heavier weights.",
+      "steps": [
+        "Learn technique with bodyweight first: squat, lunge, push-up, row, hinge.",
+        "Add light resistance: water bottles, a backpack with books, or resistance bands.",
+        "Do 2 to 3 sets of 8 to 15 controlled repetitions.",
+        "Train major muscle groups 2 to 3 days a week, with rest days.",
+        "Increase load slowly, only when technique stays good.",
+        "Gym machines and barbells: get instruction from a qualified coach first."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "strains",
+          "dropped weights",
+          "poor technique"
+        ],
+        "notes": "Technique first. Adult supervision or a qualified coach for weights. Never train to pain. No maximal lifts without coaching."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "bodyweight",
+            "water bottles",
+            "backpack"
+          ],
+          "description": "Bodyweight and home-made light weights."
+        },
+        "better": {
+          "cost": "Under 15 USD",
+          "materials": [
+            "resistance bands"
+          ],
+          "description": "Add resistance bands."
+        },
+        "advanced": {
+          "cost": "Gym fee",
+          "materials": [
+            "gym induction with a qualified instructor"
+          ],
+          "description": "Train at a youth-friendly gym with an instructor."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "dumbbells",
+          "use": "filled water bottles or a backpack with books"
+        },
+        {
+          "instead": "a bench",
+          "use": "a sturdy step or the floor"
+        }
+      ],
+      "sources": [
+        {
+          "title": "WHO guidelines on physical activity and sedentary behaviour",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Strength exercises",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/strength-exercises/"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "resistance-training"
+        },
+        {
+          "tree": "pe-fitness",
+          "node": "strength"
+        }
+      ],
+      "interests": [
+        "sport",
+        "fitness"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "health"
+      ],
+      "adultNote": "WHO recommends muscle- and bone-strengthening activity at least 3 days a week for 5-17 year olds. Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-daily-active-60",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "fitness",
+      "title": "Move every day",
+      "emoji": "📅",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 1,
+      "minutes": 60,
+      "summary": "Aim for about 60 minutes of moving every day. Walking, playing, dancing and sport all count.",
+      "steps": [
+        "Pick active things you enjoy.",
+        "Mix gentle moves and puffing moves.",
+        "Add strong moves like climbing, jumping or push-ups on 3 days a week.",
+        "Take breaks from sitting.",
+        "Colour a box on a chart for each active day.",
+        "After 30 days, celebrate!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "overexertion",
+          "heat"
+        ],
+        "notes": "Drink water, rest when tired, and choose activities that suit your body."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "paper chart",
+            "pencil"
+          ],
+          "description": "Track days on a paper chart."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "family walk or park"
+          ],
+          "description": "Add a family walk each day."
+        },
+        "advanced": {
+          "cost": "Varies",
+          "materials": [
+            "local club or team"
+          ],
+          "description": "Join a local sports club."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a printed chart",
+          "use": "marks on a calendar or a notebook"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "WHO guidelines on physical activity and sedentary behaviour",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/publications/i/item/9789240015128"
+        },
+        {
+          "title": "Physical activity guidelines for children and young people",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/exercise-guidelines/physical-activity-guidelines-children-and-young-people/"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "endurance"
+        },
+        {
+          "tree": "pe-fitness",
+          "node": "cardio"
+        }
+      ],
+      "interests": [
+        "sport"
+      ],
+      "languageHooks": [
+        "time",
+        "numbers",
+        "colours"
+      ],
+      "connects": [
+        "health",
+        "mathematics"
+      ],
+      "adultNote": "WHO advises an average of 60 minutes a day of moderate-to-vigorous activity for 5-17 year olds; under-5s need lots of active play through the day. Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-balance-bike",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "cycling",
+      "title": "Balance bike and first pedals",
+      "emoji": "🚲",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 20,
+      "summary": "Scoot, glide and balance. Then try pedals. Helmet on first!",
+      "steps": [
+        "⛑️ Helmet on and clipped.",
+        "🦶 Sit and walk the bike along.",
+        "🛴 Scoot, then lift feet and glide.",
+        "🛑 Stop with your feet (or brakes).",
+        "🔁 Try pedals when you can glide.",
+        "🌳 Only in a park or playground away from cars."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "falls",
+          "head injury",
+          "traffic"
+        ],
+        "notes": "Helmet always. Adult supervision. Car-free, flat area only."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "borrowed bike with pedals removed",
+            "helmet"
+          ],
+          "description": "Borrow a bike and use it as a balance bike."
+        },
+        "better": {
+          "cost": "Second-hand price",
+          "materials": [
+            "second-hand balance bike",
+            "helmet"
+          ],
+          "description": "Use a second-hand balance bike."
+        },
+        "advanced": {
+          "cost": "Course fee",
+          "materials": [
+            "learn-to-ride session"
+          ],
+          "description": "Join a learn-to-ride session."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a balance bike",
+          "use": "a small bike with pedals taken off and the seat lowered"
+        },
+        {
+          "instead": "a new helmet",
+          "use": "a second-hand helmet only if undamaged, never crashed, and well fitting"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pedal cyclists",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/road-safety/advice/pedal-cyclists"
+        },
+        {
+          "title": "Road traffic injuries fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries"
+        }
+      ],
+      "competencies": [
+        "pe-ride-bike-safely"
+      ],
+      "skills": [
+        {
+          "tree": "pe-cycling",
+          "node": "balance"
+        },
+        {
+          "tree": "pe-cycling",
+          "node": "helmet-and-checks"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "sport"
+      ],
+      "languageHooks": [
+        "body",
+        "colours"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-bike-check-and-helmet",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "cycling",
+      "title": "Helmet fit and bike check",
+      "emoji": "🔧",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Check your helmet fits and your bike is safe before every ride.",
+      "steps": [
+        "Helmet: sits level, two fingers above eyebrows, straps make a V under the ears, one finger under the chin strap.",
+        "Air: squeeze the tyres. They should be firm.",
+        "Brakes: squeeze both. The wheels should not turn.",
+        "Chain: clean and not loose.",
+        "Lights and reflectors if riding in low light.",
+        "Bright clothes help others see you."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "pinched fingers"
+        ],
+        "notes": "Keep fingers away from chain and spokes. An adult checks brakes too."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "your bike",
+            "helmet"
+          ],
+          "description": "Do the checks by hand."
+        },
+        "better": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "pump",
+            "chain oil"
+          ],
+          "description": "Pump tyres and oil the chain with an adult."
+        },
+        "advanced": {
+          "cost": "Under 25 USD",
+          "materials": [
+            "lights",
+            "reflective vest"
+          ],
+          "description": "Add lights and reflective gear."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a reflective vest",
+          "use": "bright light-coloured clothing with reflective tape"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pedal cyclists",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/road-safety/advice/pedal-cyclists"
+        },
+        {
+          "title": "Road safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/road-safety"
+        }
+      ],
+      "competencies": [
+        "pe-ride-bike-safely"
+      ],
+      "skills": [
+        {
+          "tree": "pe-cycling",
+          "node": "helmet-and-checks"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "tools"
+      ],
+      "languageHooks": [
+        "tools",
+        "colours",
+        "body"
+      ],
+      "connects": [
+        "life-skills",
+        "science"
+      ]
+    },
+    {
+      "id": "pe-cycling-road-skills",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "cycling",
+      "title": "Road skills for cyclists",
+      "emoji": "🚦",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 40,
+      "summary": "Learn to look, signal and ride safely on quiet roads with an adult.",
+      "steps": [
+        "Practise in a car-free area first: riding in a straight line, one-hand signalling, looking over your shoulder.",
+        "Learn your local road rules and which side of the road to ride on.",
+        "Before moving off or turning: look, signal, look again.",
+        "Ride a safe distance from the kerb and parked car doors.",
+        "Stop at junctions and wait until it is clear.",
+        "Ride on quiet roads with an adult before riding alone. Consider a national cycle training course."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "traffic",
+          "falls",
+          "head injury"
+        ],
+        "notes": "Helmet and bright clothes. Adult accompanies on roads until the child is assessed as ready. Follow local laws."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "bike",
+            "helmet",
+            "car-free area"
+          ],
+          "description": "Practise skills in a park or empty playground."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "quiet streets with an adult"
+          ],
+          "description": "Ride a short quiet route with an adult."
+        },
+        "advanced": {
+          "cost": "Course fee or free",
+          "materials": [
+            "national cycle training course"
+          ],
+          "description": "Take accredited cycle training where offered."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a cycle training course",
+          "use": "an experienced adult rider guiding on quiet roads, following local road rules"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pedal cyclists",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/road-safety/advice/pedal-cyclists"
+        },
+        {
+          "title": "Road traffic injuries fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries"
+        },
+        {
+          "title": "Road safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/road-safety"
+        }
+      ],
+      "competencies": [
+        "pe-ride-bike-safely"
+      ],
+      "skills": [
+        {
+          "tree": "pe-cycling",
+          "node": "signals"
+        },
+        {
+          "tree": "pe-cycling",
+          "node": "road-skills"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "sport"
+      ],
+      "languageHooks": [
+        "colours",
+        "shapes",
+        "geography"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "certificationNote": "Many countries offer accredited cycle training for children. The app does not certify road readiness.",
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-cycling-longer-rides",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "cycling",
+      "title": "Plan a longer ride",
+      "emoji": "🗺️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 90,
+      "summary": "Plan a route, pack what you need and build up to longer rides.",
+      "steps": [
+        "Choose a route with cycle paths or quiet roads. Check it on a map.",
+        "Tell someone your route and when you will be back.",
+        "Pack: water, snack, puncture kit or pump, phone, lights, rain layer.",
+        "Do the bike check before you set off.",
+        "Ride with a friend or adult. Take breaks.",
+        "Increase distance a little each time."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "traffic",
+          "fatigue",
+          "weather",
+          "getting lost"
+        ],
+        "notes": "Ride with others. Adult approves the route. Helmet and lights."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "paper map",
+            "water bottle"
+          ],
+          "description": "Plan with a paper map."
+        },
+        "better": {
+          "cost": "Under 15 USD",
+          "materials": [
+            "puncture kit",
+            "pump"
+          ],
+          "description": "Carry repair tools."
+        },
+        "advanced": {
+          "cost": "Varies",
+          "materials": [
+            "group ride with a club"
+          ],
+          "description": "Join a supervised club or community ride."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a GPS device",
+          "use": "a paper map and written directions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pedal cyclists",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/road-safety/advice/pedal-cyclists"
+        },
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        }
+      ],
+      "competencies": [
+        "pe-ride-bike-safely",
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-cycling",
+          "node": "longer-rides"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "nature"
+      ],
+      "languageHooks": [
+        "geography",
+        "time",
+        "weather"
+      ],
+      "connects": [
+        "geography",
+        "mathematics"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-run-walk-plan",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "running",
+      "title": "Run-walk plan",
+      "emoji": "🏃",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 3,
+      "minutes": 30,
+      "summary": "Mix running and walking, and build up slowly over weeks.",
+      "steps": [
+        "Warm up with 5 minutes of brisk walking.",
+        "Run gently for 1 minute, walk for 1 minute. Repeat 6 to 8 times.",
+        "Run at a pace where you can still talk.",
+        "Do this 3 times a week, adding a little more running each week.",
+        "Cool down with walking and stretches.",
+        "Run in safe, well-lit places, with a friend or adult."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "strains",
+          "traffic",
+          "heat"
+        ],
+        "notes": "Safe routes away from traffic, good shoes if available, water, rest days."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "comfortable shoes"
+          ],
+          "description": "Run-walk in a park or field."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "community running event"
+          ],
+          "description": "Join a free community run if one exists near you."
+        },
+        "advanced": {
+          "cost": "Varies",
+          "materials": [
+            "running club"
+          ],
+          "description": "Join a junior running club."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a running watch",
+          "use": "counting steps or using any clock"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Get running with Couch to 5K",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/running-and-aerobic-exercises/get-running-with-couch-to-5k/"
+        },
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        }
+      ],
+      "competencies": [
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-fitness",
+          "node": "endurance"
+        },
+        {
+          "tree": "pe-fitness",
+          "node": "cardio"
+        },
+        {
+          "tree": "pe-outdoors",
+          "node": "running"
+        }
+      ],
+      "interests": [
+        "sport",
+        "running"
+      ],
+      "languageHooks": [
+        "numbers",
+        "time"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    },
+    {
+      "id": "pe-family-hike",
+      "kind": "activity",
+      "area": "physical-education",
+      "subject": "hiking",
+      "title": "Family hike",
+      "emoji": "🥾",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 2,
+      "minutes": 90,
+      "summary": "Plan a walk in nature, pack well and stay together.",
+      "steps": [
+        "Pick a route that suits the youngest walker.",
+        "Check the weather and tell someone your plan.",
+        "Pack water, snacks, a warm layer, rain layer, sun hat and a small first-aid kit.",
+        "Stay together. Younger children walk with a grown-up.",
+        "Take breaks and spot plants, birds and clouds.",
+        "Older walkers: learn to read the map and plan the route."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "getting lost",
+          "weather",
+          "water",
+          "falls",
+          "animals"
+        ],
+        "notes": "Adult leads. Stay on paths. Keep away from cliff edges and fast water. Do not approach wild animals."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "comfortable shoes",
+            "water"
+          ],
+          "description": "A short walk in a local park."
+        },
+        "better": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "backpack",
+            "paper map"
+          ],
+          "description": "A countryside walk with a map."
+        },
+        "advanced": {
+          "cost": "Varies",
+          "materials": [
+            "guided walk",
+            "compass"
+          ],
+          "description": "Join a guided walk or youth outdoor group."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "hiking boots",
+          "use": "comfortable trainers or shoes with good grip"
+        },
+        {
+          "instead": "a compass",
+          "use": "a paper map and landmarks"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Walking for health",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/exercise/walking-for-health/"
+        },
+        {
+          "title": "Physical activity fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/leisure-safety"
+        }
+      ],
+      "competencies": [
+        "pe-hike-safely",
+        "pe-daily-active"
+      ],
+      "skills": [
+        {
+          "tree": "pe-outdoors",
+          "node": "walking"
+        },
+        {
+          "tree": "pe-outdoors",
+          "node": "hiking"
+        }
+      ],
+      "interests": [
+        "nature",
+        "sport"
+      ],
+      "languageHooks": [
+        "nature",
+        "weather",
+        "animals"
+      ],
+      "connects": [
+        "nature-animals",
+        "geography"
+      ],
+      "adultNote": "Adapt to your child's ability. If your child has a medical condition, injury or disability, check with a doctor or physiotherapist before starting."
+    }
+  ],
+  "pathways": [
+    {
+      "id": "pe-bicycle-pathway",
+      "interest": "bicycles",
+      "title": "From balance bike to longer rides",
+      "emoji": "🚲",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "steps": [
+        {
+          "title": "Balance and glide",
+          "area": "physical-education",
+          "subject": "cycling",
+          "description": "Balance bike and first pedals in a car-free place.",
+          "itemIds": [
+            "pe-balance-bike"
+          ]
+        },
+        {
+          "title": "Helmet and bike check",
+          "area": "physical-education",
+          "subject": "cycling",
+          "description": "Check your helmet and bike before every ride.",
+          "itemIds": [
+            "pe-bike-check-and-helmet"
+          ]
+        },
+        {
+          "title": "Road skills",
+          "area": "physical-education",
+          "subject": "cycling",
+          "description": "Signals and quiet-road riding with an adult.",
+          "itemIds": [
+            "pe-cycling-road-skills"
+          ]
+        },
+        {
+          "title": "Longer rides",
+          "area": "physical-education",
+          "subject": "cycling",
+          "description": "Plan routes and ride further.",
+          "itemIds": [
+            "pe-cycling-longer-rides"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pe-swimming-pathway",
+      "interest": "swimming",
+      "title": "From splashing to strong swimmer",
+      "emoji": "🏊",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "steps": [
+        {
+          "title": "Water confidence and rules",
+          "area": "physical-education",
+          "subject": "swimming",
+          "description": "Happy and safe around water.",
+          "itemIds": [
+            "pe-water-confidence",
+            "pe-water-safety-rules"
+          ]
+        },
+        {
+          "title": "Float and swim",
+          "area": "physical-education",
+          "subject": "swimming",
+          "description": "Floating and front crawl with a qualified teacher.",
+          "itemIds": [
+            "pe-floating-starfish",
+            "pe-front-crawl-basics"
+          ]
+        },
+        {
+          "title": "Survive and stay safe",
+          "area": "physical-education",
+          "subject": "swimming",
+          "description": "Survival skills and reach or throw, don't go.",
+          "itemIds": [
+            "pe-water-survival-skills",
+            "pe-reach-or-throw"
+          ]
+        },
+        {
+          "title": "Endurance and open water",
+          "area": "physical-education",
+          "subject": "swimming",
+          "description": "More strokes, longer swims and open-water awareness.",
+          "itemIds": [
+            "pe-swim-endurance",
+            "pe-open-water-awareness"
+          ]
+        }
+      ]
+    }
+  ]
+}

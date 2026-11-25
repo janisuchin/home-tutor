@@ -1,0 +1,4104 @@
+{
+  "area": "first-aid",
+  "title": "First aid",
+  "emoji": "⛑️",
+  "description": "A longitudinal first-aid programme from spotting danger and calling for help (ages 3-5) to primary assessment, CPR knowledge and emergency simulations (12-17). The app teaches knowledge only: hands-on skills need an accredited course with a qualified instructor. Do not become the second victim.",
+  "skillTrees": [
+    {
+      "id": "fa-first-aid",
+      "area": "first-aid",
+      "title": "First aid mastery",
+      "emoji": "⛑️",
+      "nodes": [
+        {
+          "id": "awareness",
+          "title": "Awareness",
+          "description": "Can recognise an emergency."
+        },
+        {
+          "id": "responder",
+          "title": "Responder",
+          "description": "Can summon appropriate help and provide basic assistance."
+        },
+        {
+          "id": "trained",
+          "title": "Trained",
+          "description": "Can perform age-appropriate first-aid procedures under training."
+        },
+        {
+          "id": "competent",
+          "title": "Competent",
+          "description": "Can demonstrate procedures correctly in assessment (assessment by an accredited course, not the app)."
+        },
+        {
+          "id": "advanced",
+          "title": "Advanced",
+          "description": "Can coordinate a simulated emergency response."
+        }
+      ]
+    },
+    {
+      "id": "fa-emergency-call",
+      "area": "first-aid",
+      "title": "Calling for help",
+      "emoji": "📞",
+      "nodes": [
+        {
+          "id": "spot-danger",
+          "title": "Spot danger",
+          "description": "Notices dangers and stays back."
+        },
+        {
+          "id": "get-adult",
+          "title": "Get a grown-up",
+          "description": "Knows trusted adults and how to ask for help."
+        },
+        {
+          "id": "dial-number",
+          "title": "Dial the number",
+          "description": "Knows the local emergency number and when to use it."
+        },
+        {
+          "id": "give-details",
+          "title": "Give details",
+          "description": "Can give name, address or location and what happened."
+        },
+        {
+          "id": "follow-instructions",
+          "title": "Follow instructions",
+          "description": "Stays on the line and follows the call helper."
+        }
+      ]
+    },
+    {
+      "id": "fa-care-skills",
+      "area": "first-aid",
+      "title": "Care for injuries and illness",
+      "emoji": "🩹",
+      "nodes": [
+        {
+          "id": "hygiene",
+          "title": "Hygiene",
+          "description": "Clean hands and a ready first-aid kit."
+        },
+        {
+          "id": "cuts-grazes",
+          "title": "Cuts, grazes and nosebleeds",
+          "description": "Minor wounds and nosebleeds."
+        },
+        {
+          "id": "burns",
+          "title": "Burns",
+          "description": "Cool, call, cover."
+        },
+        {
+          "id": "bleeding",
+          "title": "Bleeding",
+          "description": "Direct pressure and dressings."
+        },
+        {
+          "id": "bones-joints",
+          "title": "Bones and joints",
+          "description": "Sprains and possible fractures."
+        },
+        {
+          "id": "medical-emergencies",
+          "title": "Medical emergencies",
+          "description": "Fainting, seizures, allergies, heat, cold, poisoning, diabetes, shock."
+        }
+      ]
+    },
+    {
+      "id": "fa-life-support",
+      "area": "first-aid",
+      "title": "Life support knowledge",
+      "emoji": "🫀",
+      "nodes": [
+        {
+          "id": "assessment",
+          "title": "Primary assessment",
+          "description": "Danger, response, send for help, airway, breathing."
+        },
+        {
+          "id": "recovery-position",
+          "title": "Recovery position",
+          "description": "Keeping the airway open (hands-on training needed)."
+        },
+        {
+          "id": "cpr-knowledge",
+          "title": "CPR",
+          "description": "Hands-only CPR knowledge (hands-on training needed)."
+        },
+        {
+          "id": "aed-awareness",
+          "title": "AED",
+          "description": "Finding and using an AED (hands-on training needed)."
+        },
+        {
+          "id": "choking-response",
+          "title": "Choking response",
+          "description": "Recognising and responding to choking (hands-on training needed)."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "fa-recognise-danger",
+      "area": "first-aid",
+      "group": "emergency",
+      "title": "Can recognise danger and stay safe",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "fa-call-emergency",
+      "area": "first-aid",
+      "group": "emergency",
+      "title": "Can call the emergency number and give an address",
+      "emoji": "📞",
+      "needsCertification": false
+    },
+    {
+      "id": "fa-scene-safety",
+      "area": "first-aid",
+      "group": "emergency",
+      "title": "Checks scene safety before helping",
+      "emoji": "🦺",
+      "needsCertification": false
+    },
+    {
+      "id": "fa-hygiene",
+      "area": "first-aid",
+      "group": "personal",
+      "title": "Washes hands properly",
+      "emoji": "🧼"
+    },
+    {
+      "id": "fa-basic-first-aid",
+      "area": "first-aid",
+      "group": "emergency",
+      "title": "Knows basic first aid",
+      "emoji": "🩹",
+      "target": 5,
+      "needsCertification": false
+    },
+    {
+      "id": "fa-aed-awareness",
+      "area": "first-aid",
+      "group": "emergency",
+      "title": "Knows what an AED is and where to find one",
+      "emoji": "⚡",
+      "needsCertification": false
+    },
+    {
+      "id": "fa-cpr",
+      "area": "first-aid",
+      "group": "emergency",
+      "title": "Can perform CPR (certified course)",
+      "emoji": "🫀",
+      "needsCertification": true
+    },
+    {
+      "id": "fa-recovery-position",
+      "area": "first-aid",
+      "group": "emergency",
+      "title": "Can place someone in the recovery position (certified course)",
+      "emoji": "🛌",
+      "needsCertification": true
+    },
+    {
+      "id": "fa-choking-response",
+      "area": "first-aid",
+      "group": "emergency",
+      "title": "Can respond to choking (certified course)",
+      "emoji": "🫁",
+      "needsCertification": true
+    },
+    {
+      "id": "fa-simulated-response",
+      "area": "first-aid",
+      "group": "emergency",
+      "title": "Can coordinate a simulated emergency response",
+      "emoji": "🚨",
+      "target": 3,
+      "needsCertification": false
+    }
+  ],
+  "items": [
+    {
+      "id": "fa-spot-danger",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "recognising-danger",
+      "title": "Spot the danger",
+      "emoji": "⚠️",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Some things can hurt us. Let us find them and say STOP.",
+      "steps": [
+        "🔥 Hot things: oven, kettle, fire. Say STOP.",
+        "🔌 Plugs and wires: do not touch. Say STOP.",
+        "🚗 Roads: hold a grown-up's hand.",
+        "💊 Medicines and cleaning bottles: only grown-ups touch them.",
+        "🔪 Sharp things: knives and scissors stay with grown-ups.",
+        "👀 Point to one danger at home with your grown-up."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Home safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/home-safety"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-recognise-danger"
+      ],
+      "skills": [
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        },
+        {
+          "tree": "fa-emergency-call",
+          "node": "spot-danger"
+        }
+      ],
+      "interests": [
+        "helping"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "body",
+        "colours"
+      ],
+      "connects": [
+        "life-skills"
+      ],
+      "check": [
+        {
+          "question": "A cup of tea is steaming. What do you do?",
+          "options": [
+            "Touch it",
+            "Stay away and tell a grown-up"
+          ],
+          "answer": 1,
+          "explain": "Yes. Hot drinks can burn. Stay away and tell a grown-up."
+        }
+      ],
+      "adultNote": "Walk round your home together and name dangers calmly. Keep it a game, not a scare. Store medicines and cleaners up high and locked."
+    },
+    {
+      "id": "fa-safe-first",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "recognising-danger",
+      "title": "Keep yourself safe first",
+      "emoji": "🛑",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 8,
+      "summary": "If someone is hurt, stay safe first. Then get help.",
+      "steps": [
+        "🛑 Stop. Do not run in.",
+        "👀 Look. Is there fire, water, a road or wires?",
+        "🙋 Get a grown-up.",
+        "📞 No grown-up? Call your emergency number.",
+        "💛 You helped by staying safe."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "First aid",
+          "publisher": "IFRC",
+          "url": "https://www.ifrc.org/our-work/health-and-care/community-health/first-aid"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-recognise-danger",
+        "fa-scene-safety"
+      ],
+      "skills": [
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "feelings",
+        "body"
+      ],
+      "check": [
+        {
+          "question": "Your friend is hurt in the road. What do you do first?",
+          "options": [
+            "Run into the road",
+            "Stop and get a grown-up"
+          ],
+          "answer": 1,
+          "explain": "Well done. Stay safe, then get help. If you get hurt too, nobody can help."
+        }
+      ],
+      "adultNote": "This is the rule 'Do not become the second victim'. Praise the child for stopping and fetching help; that is the right action at this age."
+    },
+    {
+      "id": "fa-find-a-grown-up",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "emergency-communication",
+      "title": "Find a safe grown-up",
+      "emoji": "🙋",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "When something is wrong, find a grown-up you trust.",
+      "steps": [
+        "👨‍👩‍👧 Name your safe grown-ups at home.",
+        "🏫 Name a safe grown-up at school or nursery.",
+        "🏪 Lost in a shop? Find a person at the till or a parent with children.",
+        "🗣️ Say: I need help, someone is hurt.",
+        "🎭 Practise saying it with your grown-up."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Talking and role-play only."
+      },
+      "sources": [
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        },
+        {
+          "title": "First aid",
+          "publisher": "IFRC",
+          "url": "https://www.ifrc.org/our-work/health-and-care/community-health/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-call-emergency"
+      ],
+      "skills": [
+        {
+          "tree": "fa-emergency-call",
+          "node": "get-adult"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "family",
+        "greetings",
+        "feelings"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "adultNote": "Help the child name two or three trusted adults. Practise a short clear sentence they can say under stress."
+    },
+    {
+      "id": "fa-my-emergency-number",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "emergency-communication",
+      "title": "My emergency number",
+      "emoji": "📞",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Learn the number to call when someone is very hurt, and say where you live.",
+      "steps": [
+        "🔢 Learn your emergency number with your grown-up.",
+        "🏠 Learn your address: street, number, town.",
+        "🧸 Practise on a toy phone or a paper phone.",
+        "🗣️ Say: My name is ... I live at ... Someone is hurt.",
+        "👂 Listen and do what the helper says.",
+        "🚫 Only call the real number when someone really needs help."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Practise on a toy or pretend phone only. Do not dial the real number for practice."
+      },
+      "sources": [
+        {
+          "title": "When to call 999",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-call-emergency"
+      ],
+      "skills": [
+        {
+          "tree": "fa-emergency-call",
+          "node": "dial-number"
+        },
+        {
+          "tree": "fa-emergency-call",
+          "node": "give-details"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "numbers",
+        "family"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "When do we call the emergency number?",
+          "options": [
+            "To say hello",
+            "When someone is very hurt or in danger"
+          ],
+          "answer": 1,
+          "explain": "Yes. The emergency number is for real emergencies only."
+        }
+      ],
+      "adultNote": "The app shows your country's number from its emergency number list; check it is right for where you live. Show how to unlock the phone or make an emergency call from the lock screen."
+    },
+    {
+      "id": "fa-wash-hands",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "hygiene",
+      "title": "Super clean hands",
+      "emoji": "🧼",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Clean hands keep germs away. Wash for as long as two birthday songs.",
+      "steps": [
+        "💧 Wet your hands.",
+        "🧼 Add soap.",
+        "👐 Rub palms, backs, between fingers, thumbs and nails.",
+        "🎵 Sing Happy Birthday two times.",
+        "💧 Rinse.",
+        "🧻 Dry with a clean towel."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "slippery floor",
+          "hot tap water"
+        ],
+        "notes": "Use cool or warm water, never hot. Wipe up splashes so nobody slips."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "water",
+            "any soap"
+          ],
+          "description": "Wash with soap and water from a tap or jug."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "soap",
+            "small towel for each child"
+          ],
+          "description": "Each child has their own towel."
+        },
+        "advanced": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "soap",
+            "towels",
+            "timer"
+          ],
+          "description": "Use a sand timer or song timer for 20 seconds."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a tap",
+          "use": "a jug of clean water poured by a grown-up over a bowl"
+        },
+        {
+          "instead": "a towel",
+          "use": "air drying with clean hands held up"
+        }
+      ],
+      "sources": [
+        {
+          "title": "How to wash your hands",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/healthy-body/best-way-to-wash-your-hands/"
+        },
+        {
+          "title": "World Hand Hygiene Day",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/campaigns/world-hand-hygiene-day"
+        }
+      ],
+      "competencies": [
+        "fa-hygiene",
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "hygiene"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "health",
+        "science"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society.",
+      "adultNote": "Wash hands before and after helping with any cut or graze. Model it yourself."
+    },
+    {
+      "id": "fa-little-cuts",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "minor-cuts",
+      "title": "Ouch! A little cut",
+      "emoji": "🩹",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "A small cut? Tell a grown-up. They help clean it and put on a plaster.",
+      "steps": [
+        "🙋 Tell a grown-up.",
+        "🧼 The grown-up washes hands.",
+        "💧 Rinse the cut with clean water.",
+        "🧻 Pat dry with something clean.",
+        "🩹 Put on a plaster.",
+        "🤗 Well done for being brave."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "germs",
+          "blood"
+        ],
+        "notes": "A grown-up cleans the cut. Practise on a teddy or a pretend cut drawn with a pen. Big or deep cuts need a doctor."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "teddy",
+            "pen",
+            "clean cloth"
+          ],
+          "description": "Draw a pretend cut on a teddy and practise the steps."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "plasters",
+            "clean water"
+          ],
+          "description": "Practise putting a plaster on a teddy or your own hand."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "small first-aid kit"
+          ],
+          "description": "Look inside a real first-aid kit with your grown-up."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a plaster",
+          "use": "a clean folded cloth held on by a grown-up"
+        },
+        {
+          "instead": "a real cut",
+          "use": "a pen mark on a teddy or doll"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cuts and grazes",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/cuts-and-grazes/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "cuts-grazes"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "feelings"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society.",
+      "adultNote": "Get medical help if a cut is deep, gaping, will not stop bleeding with pressure, or was caused by a dirty or rusty object or an animal bite."
+    },
+    {
+      "id": "fa-hot-means-stop",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "burns-awareness",
+      "title": "Hot means stop",
+      "emoji": "🔥",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 8,
+      "summary": "Hot things can burn. If you get a burn, tell a grown-up and cool it with water.",
+      "steps": [
+        "☕ Hot drinks, ovens, irons and fires can burn.",
+        "🛑 Stay back from hot things.",
+        "🙋 Burned? Tell a grown-up straight away.",
+        "💧 Cool water runs on the burn for a long time.",
+        "🚫 No butter, no ice, no cream."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Burns and scalds",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/burns-and-scalds/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-recognise-danger"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "burns"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "weather"
+      ],
+      "check": [
+        {
+          "question": "What is good for a burn?",
+          "options": [
+            "Butter",
+            "Cool running water",
+            "Ice"
+          ],
+          "answer": 1,
+          "explain": "Yes. Cool running water helps a burn. Butter and ice do not."
+        }
+      ],
+      "adultNote": "Cool a burn under cool or lukewarm running water for about 20 minutes, remove clothing or jewellery near it unless stuck, then cover loosely with cling film or a clean non-fluffy cloth. Seek medical help for any burn on a young child that is bigger than a small coin or blisters."
+    },
+    {
+      "id": "fa-after-a-fall",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "falls",
+      "title": "After a fall",
+      "emoji": "🤕",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 8,
+      "summary": "If you or someone falls, stop, check, and tell a grown-up.",
+      "steps": [
+        "🛑 Stop and breathe.",
+        "🤔 Does anything hurt?",
+        "🙋 Tell a grown-up.",
+        "🧍 If someone else falls and is hurt, do not pull them up.",
+        "📞 They will not wake up? Get a grown-up or call your emergency number."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Head injury and concussion",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-recognise-danger"
+      ],
+      "skills": [
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "feelings"
+      ],
+      "adultNote": "After a head bump watch for drowsiness, vomiting, confusion or unusual behaviour and seek urgent medical help if they appear."
+    },
+    {
+      "id": "fa-grown-up-will-not-wake",
+      "kind": "simulation",
+      "area": "first-aid",
+      "subject": "emergency-communication",
+      "title": "A grown-up fell and will not wake up",
+      "emoji": "🧓",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "A pretend story. Grandpa fell down and will not wake up. What do you do?",
+      "steps": [
+        "Read the story with your grown-up.",
+        "Choose what to do at each step.",
+        "Talk about how you felt."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Story and role-play only."
+      },
+      "sources": [
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        },
+        {
+          "title": "When to call 999",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/"
+        }
+      ],
+      "competencies": [
+        "fa-call-emergency",
+        "fa-recognise-danger"
+      ],
+      "skills": [
+        {
+          "tree": "fa-emergency-call",
+          "node": "follow-instructions"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "family",
+        "feelings",
+        "numbers"
+      ],
+      "simulation": {
+        "scenario": "You are at home with Grandpa. He falls down and lies still. You say his name but he does not wake up.",
+        "steps": [
+          {
+            "prompt": "🛑 What do you do first?",
+            "options": [
+              {
+                "text": "Look around. Is it safe for me?",
+                "correct": true,
+                "feedback": "Yes. Stay safe first."
+              },
+              {
+                "text": "Run away and hide",
+                "correct": false,
+                "feedback": "It is okay to feel scared. Stay and get help."
+              }
+            ]
+          },
+          {
+            "prompt": "🙋 Is there another grown-up at home?",
+            "options": [
+              {
+                "text": "Shout loudly for them",
+                "correct": true,
+                "feedback": "Good. A grown-up can help."
+              },
+              {
+                "text": "Keep quiet",
+                "correct": false,
+                "feedback": "Shout loudly. Help needs to hear you."
+              }
+            ]
+          },
+          {
+            "prompt": "📞 Nobody else is home. What now?",
+            "options": [
+              {
+                "text": "Call my emergency number",
+                "correct": true,
+                "feedback": "Yes. That is the right thing to do."
+              },
+              {
+                "text": "Watch TV and wait",
+                "correct": false,
+                "feedback": "Grandpa needs help now. Call your emergency number."
+              }
+            ]
+          },
+          {
+            "prompt": "🗣️ The helper on the phone asks where you live.",
+            "options": [
+              {
+                "text": "Say my address",
+                "correct": true,
+                "feedback": "Well done. Now help can find you."
+              },
+              {
+                "text": "Hang up",
+                "correct": false,
+                "feedback": "Stay on the phone. The helper needs your address."
+              }
+            ]
+          },
+          {
+            "prompt": "👂 The helper tells you what to do.",
+            "options": [
+              {
+                "text": "Listen and do what they say",
+                "correct": true,
+                "feedback": "Great. You are a real helper."
+              },
+              {
+                "text": "Put the phone down",
+                "correct": false,
+                "feedback": "Keep the phone with you and listen."
+              }
+            ]
+          }
+        ]
+      },
+      "adultNote": "Keep it gentle. Afterwards, practise your address and the emergency number. Tell the child that calling for help is always the right thing."
+    },
+    {
+      "id": "fa-hot-water-burn",
+      "kind": "simulation",
+      "area": "first-aid",
+      "subject": "burns",
+      "title": "A burn from hot water",
+      "emoji": "♨️",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "A pretend story. Hot water spilled on a hand. What helps?",
+      "steps": [
+        "Read the story.",
+        "Pick an answer at each step.",
+        "Talk about the 20 minute rule."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Story only. Never practise with hot water."
+      },
+      "sources": [
+        {
+          "title": "Burns and scalds",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/burns-and-scalds/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "burns"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "time",
+        "body"
+      ],
+      "simulation": {
+        "scenario": "Your brother knocks over a cup of hot water. It splashes on his hand. He is crying.",
+        "steps": [
+          {
+            "prompt": "What do you do first?",
+            "options": [
+              {
+                "text": "Call a grown-up",
+                "correct": true,
+                "feedback": "Yes. Get a grown-up straight away."
+              },
+              {
+                "text": "Put butter on it",
+                "correct": false,
+                "feedback": "Butter keeps the heat in. Use cool water."
+              }
+            ]
+          },
+          {
+            "prompt": "What helps the burn?",
+            "options": [
+              {
+                "text": "Cool running water",
+                "correct": true,
+                "feedback": "Yes. Cool or lukewarm running water for about 20 minutes."
+              },
+              {
+                "text": "Ice",
+                "correct": false,
+                "feedback": "Ice can hurt skin more. Use cool running water."
+              },
+              {
+                "text": "Nothing",
+                "correct": false,
+                "feedback": "Cooling helps a lot. Use cool running water."
+              }
+            ]
+          },
+          {
+            "prompt": "How long should the water run?",
+            "options": [
+              {
+                "text": "About 20 minutes",
+                "correct": true,
+                "feedback": "Yes. A long time. A song timer helps."
+              },
+              {
+                "text": "Just a few seconds",
+                "correct": false,
+                "feedback": "Longer is better. About 20 minutes."
+              }
+            ]
+          },
+          {
+            "prompt": "After cooling, what covers the burn?",
+            "options": [
+              {
+                "text": "Cling film or a clean non-fluffy cloth, put on loosely",
+                "correct": true,
+                "feedback": "Good. It keeps it clean."
+              },
+              {
+                "text": "Cotton wool",
+                "correct": false,
+                "feedback": "Fluffy things stick. Use cling film or a clean smooth cloth."
+              }
+            ]
+          },
+          {
+            "prompt": "The burn is big or blistering. What now?",
+            "options": [
+              {
+                "text": "A grown-up gets a doctor or calls the emergency number",
+                "correct": true,
+                "feedback": "Yes. Big burns need a doctor."
+              },
+              {
+                "text": "Pop the blisters",
+                "correct": false,
+                "feedback": "Never pop blisters. Get a doctor."
+              }
+            ]
+          }
+        ]
+      },
+      "adultNote": "For a child, seek medical help for any burn larger than a small coin, any blistering, or burns on the face, hands, feet or genitals. Call the emergency number for large or deep burns."
+    },
+    {
+      "id": "fa-scene-safety",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "scene-safety",
+      "title": "Is it safe to help?",
+      "emoji": "🦺",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 12,
+      "summary": "Before you help, look for danger. Keep yourself safe so you do not get hurt too.",
+      "steps": [
+        "🛑 Stop before you go near.",
+        "👀 Look for traffic, fire, smoke, water, electricity, broken glass or angry animals.",
+        "👂 Listen for warnings.",
+        "🚫 If it is not safe, stay back and call for help.",
+        "✅ If it is safe, go near carefully.",
+        "🧤 Use gloves or a plastic bag on your hands if there is blood."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "First aid",
+          "publisher": "IFRC",
+          "url": "https://www.ifrc.org/our-work/health-and-care/community-health/first-aid"
+        },
+        {
+          "title": "First aid advice",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-scene-safety"
+      ],
+      "skills": [
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        },
+        {
+          "tree": "fa-life-support",
+          "node": "assessment"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "connects": [
+        "life-skills"
+      ],
+      "check": [
+        {
+          "question": "A person is lying near a fallen electric cable. What do you do?",
+          "options": [
+            "Go and help",
+            "Stay away and call the emergency number"
+          ],
+          "answer": 1,
+          "explain": "Right. Electricity can hurt you too. Stay away and call for help."
+        }
+      ],
+      "adultNote": "Do not become the second victim. Children should never enter water, fire, smoke or traffic to help."
+    },
+    {
+      "id": "fa-calling-emergency-services",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "emergency-communication",
+      "title": "Making the emergency call",
+      "emoji": "☎️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Know what to say when you call for an ambulance, fire or police.",
+      "steps": [
+        "Call your emergency number.",
+        "Say which service: ambulance, fire or police.",
+        "Say where you are: address, or landmarks you can see.",
+        "Say what happened and how many people are hurt.",
+        "Answer the questions. Stay calm and speak slowly.",
+        "Do not hang up until they tell you to.",
+        "Role-play the call with a grown-up using a pretend phone."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Role-play only on a pretend or switched-off phone."
+      },
+      "sources": [
+        {
+          "title": "When to call 999",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-call-emergency"
+      ],
+      "skills": [
+        {
+          "tree": "fa-emergency-call",
+          "node": "give-details"
+        },
+        {
+          "tree": "fa-emergency-call",
+          "node": "follow-instructions"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "numbers",
+        "geography"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "adultNote": "Many phones can call the emergency number from the lock screen. Show your child how on your phone. Some countries also accept text messages to emergency services; check locally."
+    },
+    {
+      "id": "fa-emergency-phone-call",
+      "kind": "simulation",
+      "area": "first-aid",
+      "subject": "emergency-communication",
+      "title": "The emergency call",
+      "emoji": "📱",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 10,
+      "summary": "A pretend call. Choose the best thing to say.",
+      "steps": [
+        "Read each question from the call helper.",
+        "Pick the best answer.",
+        "Practise saying your address out loud."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Pretend call only."
+      },
+      "sources": [
+        {
+          "title": "When to call 999",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/nhs-services/urgent-and-emergency-care-services/when-to-call-999/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-call-emergency"
+      ],
+      "skills": [
+        {
+          "tree": "fa-emergency-call",
+          "node": "give-details"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "numbers",
+        "geography"
+      ],
+      "simulation": {
+        "scenario": "Your neighbour has fallen off a ladder and is not moving. You call the emergency number.",
+        "steps": [
+          {
+            "prompt": "The helper asks: Which service do you need?",
+            "options": [
+              {
+                "text": "Ambulance",
+                "correct": true,
+                "feedback": "Yes. Someone is hurt, so ask for an ambulance."
+              },
+              {
+                "text": "I don't know, bye",
+                "correct": false,
+                "feedback": "Stay on the line. Say ambulance."
+              }
+            ]
+          },
+          {
+            "prompt": "Where are you?",
+            "options": [
+              {
+                "text": "Say the address, or what you can see nearby",
+                "correct": true,
+                "feedback": "Great. Landmarks help if you do not know the address."
+              },
+              {
+                "text": "Over here",
+                "correct": false,
+                "feedback": "The helper cannot see you. Say the address or nearby landmarks."
+              }
+            ]
+          },
+          {
+            "prompt": "What happened?",
+            "options": [
+              {
+                "text": "He fell off a ladder and is not moving",
+                "correct": true,
+                "feedback": "Clear and short. Well done."
+              },
+              {
+                "text": "Shout and cry",
+                "correct": false,
+                "feedback": "It is okay to feel upset. Take a breath and say what happened."
+              }
+            ]
+          },
+          {
+            "prompt": "The helper says: Stay on the line.",
+            "options": [
+              {
+                "text": "Keep the phone and listen",
+                "correct": true,
+                "feedback": "Yes. They may tell you how to help."
+              },
+              {
+                "text": "Hang up to call a friend",
+                "correct": false,
+                "feedback": "Stay on the line until they say you can go."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fa-cuts-and-grazes",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "wound-care",
+      "title": "Clean and cover a graze",
+      "emoji": "🩹",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Learn how to clean and cover a small cut or graze.",
+      "steps": [
+        "Wash your hands. Wear gloves if you have them.",
+        "Press with a clean cloth if it is bleeding.",
+        "Rinse under clean running water.",
+        "Pat dry with a clean cloth.",
+        "Cover with a plaster or a clean dressing.",
+        "Tell a grown-up, and get help if it is deep, dirty or will not stop bleeding."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "blood",
+          "germs"
+        ],
+        "notes": "Practise on a pretend graze drawn on a friend or doll. Real wounds are cleaned with a grown-up."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "clean cloth",
+            "water",
+            "pen"
+          ],
+          "description": "Draw a pretend graze and practise the steps."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "plasters",
+            "gauze"
+          ],
+          "description": "Practise putting on plasters and a small gauze pad."
+        },
+        "advanced": {
+          "cost": "Under 15 USD",
+          "materials": [
+            "first-aid kit",
+            "disposable gloves"
+          ],
+          "description": "Practise with gloves and a full first-aid kit."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "disposable gloves",
+          "use": "a clean plastic bag over each hand"
+        },
+        {
+          "instead": "sterile gauze",
+          "use": "a clean, ironed cotton cloth"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cuts and grazes",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/cuts-and-grazes/"
+        },
+        {
+          "title": "Bleeding",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/bleeding/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "cuts-grazes"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-stop-the-bleeding",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "bleeding",
+      "title": "Press to stop bleeding",
+      "emoji": "🩸",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Firm pressure on a wound helps stop bleeding.",
+      "steps": [
+        "Check it is safe. Put on gloves or plastic bags.",
+        "Press firmly on the wound with a clean pad or cloth.",
+        "Keep pressing. Do not keep lifting to look.",
+        "If blood comes through, add another pad on top and keep pressing.",
+        "Get a grown-up. Call the emergency number if the bleeding is heavy.",
+        "Practise tying a bandage on a partner's arm (not too tight)."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "blood",
+          "bandage too tight"
+        ],
+        "notes": "Practise bandaging on each other only with a grown-up watching. Check fingers stay pink and warm. Never use real blood."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "clean cloth",
+            "scarf"
+          ],
+          "description": "Practise pressure and a scarf bandage on a partner's arm."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "roller bandage",
+            "gauze pads"
+          ],
+          "description": "Practise with a real roller bandage."
+        },
+        "advanced": {
+          "cost": "Under 20 USD",
+          "materials": [
+            "first-aid kit",
+            "gloves",
+            "training dressings"
+          ],
+          "description": "Practise a full dressing with gloves from a first-aid kit."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a roller bandage",
+          "use": "a long strip of clean cotton cloth or a scarf"
+        },
+        {
+          "instead": "gloves",
+          "use": "clean plastic bags over the hands"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bleeding",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/bleeding/"
+        },
+        {
+          "title": "Cuts and grazes",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/cuts-and-grazes/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "bleeding"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society.",
+      "adultNote": "Do not remove anything stuck in a wound; press around it and get medical help."
+    },
+    {
+      "id": "fa-burns-cool-water",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "burns",
+      "title": "Burns: cool, call, cover",
+      "emoji": "💧",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 12,
+      "summary": "Cool a burn under cool running water for about 20 minutes, get help, then cover it loosely.",
+      "steps": [
+        "Make sure the danger is gone (turn off heat if safe, or move away).",
+        "Cool the burn under cool or lukewarm running water for about 20 minutes.",
+        "Take off rings, watches or clothes near the burn unless they are stuck.",
+        "Get a grown-up. Big or deep burns need the emergency number.",
+        "Cover loosely with cling film or a clean non-fluffy cloth.",
+        "No ice, butter, toothpaste or creams. Never pop blisters."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Burns and scalds",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/burns-and-scalds/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        },
+        {
+          "title": "First aid advice",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "burns"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "time"
+      ],
+      "connects": [
+        "science"
+      ],
+      "check": [
+        {
+          "question": "How long should you cool a burn?",
+          "options": [
+            "10 seconds",
+            "About 20 minutes",
+            "Until it is dry"
+          ],
+          "answer": 1,
+          "explain": "Yes. About 20 minutes of cool running water."
+        }
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-nosebleed",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "nosebleeds",
+      "title": "Nosebleed? Lean forward",
+      "emoji": "👃",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Sit down, lean forward and pinch the soft part of your nose.",
+      "steps": [
+        "Sit down.",
+        "Lean forward, not back.",
+        "Pinch the soft part of the nose, just below the bony bit.",
+        "Breathe through your mouth.",
+        "Keep pinching for 10 to 15 minutes. Use a clock.",
+        "Tell a grown-up. Get medical help if it lasts more than about 20 minutes or came after a hard bump to the head."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Practise the position without a real nosebleed. A grown-up helps with a real one."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "chair",
+            "clock"
+          ],
+          "description": "Practise sitting, leaning forward and pinching for one minute."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "tissues",
+            "timer"
+          ],
+          "description": "Add tissues and a timer to your practice."
+        },
+        "advanced": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "small first-aid kit"
+          ],
+          "description": "Pack tissues and a cold pack in a first-aid kit."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a timer",
+          "use": "counting slowly or singing songs"
+        },
+        {
+          "instead": "tissues",
+          "use": "a clean cloth"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nosebleed",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/nosebleed/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "cuts-grazes"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "time"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-nosebleed-sim",
+      "kind": "simulation",
+      "area": "first-aid",
+      "subject": "nosebleeds",
+      "title": "Nosebleed at playtime",
+      "emoji": "🤧",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 8,
+      "summary": "A pretend story. Your friend has a nosebleed. Help them.",
+      "steps": [
+        "Read the story.",
+        "Pick the best answer.",
+        "Show the nosebleed position."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Story only."
+      },
+      "sources": [
+        {
+          "title": "Nosebleed",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/nosebleed/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "cuts-grazes"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "time"
+      ],
+      "simulation": {
+        "scenario": "At playtime your friend's nose starts to bleed. They look worried.",
+        "steps": [
+          {
+            "prompt": "What do you say first?",
+            "options": [
+              {
+                "text": "Let's tell a teacher. Sit down here.",
+                "correct": true,
+                "feedback": "Yes. Calm words and a grown-up help."
+              },
+              {
+                "text": "Ew! Go away!",
+                "correct": false,
+                "feedback": "Be kind. Help them sit and get a grown-up."
+              }
+            ]
+          },
+          {
+            "prompt": "How should they sit?",
+            "options": [
+              {
+                "text": "Lean forward",
+                "correct": true,
+                "feedback": "Yes. Leaning forward stops blood going down the throat."
+              },
+              {
+                "text": "Tip the head back",
+                "correct": false,
+                "feedback": "Tipping back sends blood down the throat. Lean forward."
+              }
+            ]
+          },
+          {
+            "prompt": "Which part of the nose do they pinch?",
+            "options": [
+              {
+                "text": "The soft part",
+                "correct": true,
+                "feedback": "Yes. Just below the bony bit."
+              },
+              {
+                "text": "The top, between the eyes",
+                "correct": false,
+                "feedback": "Pinch the soft part lower down."
+              }
+            ]
+          },
+          {
+            "prompt": "It is still bleeding after 20 minutes.",
+            "options": [
+              {
+                "text": "The grown-up gets medical help",
+                "correct": true,
+                "feedback": "Yes. Long nosebleeds need a doctor or nurse."
+              },
+              {
+                "text": "Keep playing",
+                "correct": false,
+                "feedback": "A long nosebleed needs a grown-up to get medical help."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fa-sprains",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "sprains",
+      "title": "Twisted ankle",
+      "emoji": "🦶",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Rest, cool, support and raise a sprained ankle or wrist.",
+      "steps": [
+        "Stop playing and rest.",
+        "Cool it: a cold pack wrapped in a cloth for up to 20 minutes.",
+        "Support it with a soft bandage, not too tight.",
+        "Raise it on a cushion.",
+        "Get it checked if you cannot stand on it, it looks the wrong shape, or it is very painful."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "bandage too tight",
+          "ice burns on skin"
+        ],
+        "notes": "Practise bandaging a partner with a grown-up watching. Never put ice straight on skin."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "cloth",
+            "cushion",
+            "bag of frozen peas wrapped in a towel"
+          ],
+          "description": "Practise rest, cool and raise."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "elastic bandage"
+          ],
+          "description": "Practise a figure-of-eight ankle bandage on a partner."
+        },
+        "advanced": {
+          "cost": "Under 15 USD",
+          "materials": [
+            "cold packs",
+            "triangular bandage"
+          ],
+          "description": "Practise a wrist support and a sling."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a cold pack",
+          "use": "a bag of frozen vegetables wrapped in a tea towel"
+        },
+        {
+          "instead": "an elastic bandage",
+          "use": "a long scarf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sprains and strains",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/sprains-and-strains/"
+        },
+        {
+          "title": "First aid advice",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "bones-joints"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine",
+        "sport"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-broken-bones-awareness",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "fractures",
+      "title": "Could it be broken?",
+      "emoji": "🦴",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 12,
+      "summary": "Learn the signs of a broken bone and how to keep it still until help comes.",
+      "steps": [
+        "Signs: bad pain, swelling, the wrong shape, cannot move it.",
+        "Keep the person still and calm.",
+        "Support the injured part in the position you find it. Do not try to straighten it.",
+        "Get a grown-up and medical help. Call the emergency number for a leg, neck, back or a bone through the skin.",
+        "Do not move someone who may have hurt their neck or back unless they are in danger."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Broken arm or wrist",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/broken-arm-or-wrist/"
+        },
+        {
+          "title": "Broken leg",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/broken-leg/"
+        },
+        {
+          "title": "First aid advice",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "bones-joints"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine",
+        "sport"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "connects": [
+        "science"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-choking-signs",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "choking",
+      "title": "Spot choking",
+      "emoji": "😮",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Choking means food or an object blocks the airway. Spot it and get help fast.",
+      "steps": [
+        "Signs: cannot talk, cannot breathe, holds the throat, face changes colour.",
+        "If they can cough, tell them: keep coughing!",
+        "If they cannot cough or breathe, shout for a grown-up NOW.",
+        "No grown-up? Call your emergency number.",
+        "Eat sitting down and chew well to help prevent choking."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Choking",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/choking/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-recognise-danger"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "choking-response"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "food"
+      ],
+      "check": [
+        {
+          "question": "Your friend is coughing hard on food but can still cough. What do you say?",
+          "options": [
+            "Keep coughing!",
+            "Drink water fast"
+          ],
+          "answer": 0,
+          "explain": "Yes. Coughing is the best way to clear it. Get a grown-up if the coughing stops working."
+        }
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider)."
+    },
+    {
+      "id": "fa-fainting",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "fainting",
+      "title": "Feeling faint",
+      "emoji": "😵",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 10,
+      "summary": "Fainting is a short loss of consciousness. Lying down with legs raised usually helps.",
+      "steps": [
+        "Signs before fainting: dizzy, pale, sweaty, blurry eyes.",
+        "Feeling faint? Sit or lie down straight away.",
+        "If someone faints: check it is safe, help them lie on their back.",
+        "Raise their legs on a bag or cushion.",
+        "Give them air. When they feel better, sit up slowly.",
+        "If they do not wake up within a minute or so, call the emergency number."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Fainting",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/fainting/"
+        },
+        {
+          "title": "First aid advice",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "medical-emergencies"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "feelings"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-seizures",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "seizures",
+      "title": "Helping during a seizure",
+      "emoji": "🛡️",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "During a seizure: protect them, time it, do not hold them down, and never put anything in their mouth.",
+      "steps": [
+        "Stay calm. Move hard or sharp things away.",
+        "Cushion their head with something soft.",
+        "Time the seizure.",
+        "Do not hold them down. Do not put anything in their mouth.",
+        "When the jerking stops, stay with them. A trained person may place them in the recovery position.",
+        "Call the emergency number if it lasts more than 5 minutes, it is their first seizure, they are injured, or they do not wake up."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Seizures",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/seizures/"
+        },
+        {
+          "title": "Epilepsy",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/epilepsy/"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "medical-emergencies"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "time",
+        "body"
+      ],
+      "check": [
+        {
+          "question": "Which of these is right during a seizure?",
+          "options": [
+            "Hold them still",
+            "Put a spoon in their mouth",
+            "Time it and protect their head"
+          ],
+          "answer": 2,
+          "explain": "Yes. Protect, time it, and never restrain or put anything in the mouth."
+        }
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider).",
+      "adultNote": "If the person has an epilepsy care plan, follow it. Treat with dignity: give space and privacy."
+    },
+    {
+      "id": "fa-allergic-reactions",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "allergies",
+      "title": "Allergic reactions",
+      "emoji": "🥜",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 12,
+      "summary": "Some people are allergic to foods, stings or medicines. A bad reaction is an emergency.",
+      "steps": [
+        "Know if you or a friend has an allergy.",
+        "Mild signs: itchy rash, sneezing, runny eyes.",
+        "Emergency signs: swelling of lips or tongue, trouble breathing, wheezing, feeling faint.",
+        "Emergency signs? Get a grown-up and call the emergency number straight away.",
+        "Some people carry an adrenaline pen. A grown-up or the person helps use it.",
+        "Never share food with someone who has a food allergy unless their grown-up says it is safe."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Allergies",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/allergies/"
+        },
+        {
+          "title": "Anaphylaxis",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/anaphylaxis/"
+        }
+      ],
+      "competencies": [
+        "fa-recognise-danger"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "medical-emergencies"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "food",
+        "fruit",
+        "body"
+      ],
+      "connects": [
+        "health",
+        "science"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-heat-and-water",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "heat-illness",
+      "title": "Hot days and drinking water",
+      "emoji": "☀️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "On hot days drink water, find shade and rest. Know the signs of getting too hot.",
+      "steps": [
+        "Drink water often, even before you feel thirsty.",
+        "Wear a hat and play in the shade.",
+        "Signs of too much heat: headache, dizzy, tired, very thirsty, dark pee.",
+        "Feeling like this? Stop, go somewhere cool, drink water and tell a grown-up.",
+        "If someone is confused, very hot and not sweating, or faints, call the emergency number."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Heat exhaustion and heatstroke",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/"
+        },
+        {
+          "title": "Dehydration",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/dehydration/"
+        },
+        {
+          "title": "Extreme heat safety",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/extreme-heat-safety.html"
+        }
+      ],
+      "competencies": [
+        "fa-recognise-danger"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "medical-emergencies"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "weather",
+        "body",
+        "colours"
+      ],
+      "connects": [
+        "science",
+        "health"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-poison-awareness",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "poisoning",
+      "title": "Poison: do not touch",
+      "emoji": "☠️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Medicines, cleaners, some plants and berries can poison. Do not touch, taste or sniff them.",
+      "steps": [
+        "Only take medicine from a trusted grown-up.",
+        "Never drink from unlabelled bottles.",
+        "Do not eat wild berries or mushrooms unless a grown-up who knows says it is safe.",
+        "If someone swallowed something harmful: tell a grown-up straight away and keep the container.",
+        "Do not make them sick. A grown-up calls the emergency number or poison advice line."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Poisoning",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/poisoning/"
+        },
+        {
+          "title": "Home safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/home-safety"
+        }
+      ],
+      "competencies": [
+        "fa-recognise-danger"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "medical-emergencies"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine",
+        "nature"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "nature",
+        "fruit"
+      ],
+      "connects": [
+        "science"
+      ],
+      "adultNote": "Find your local poison information number and keep it with your emergency numbers."
+    },
+    {
+      "id": "fa-first-aid-kit",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "first-aid-kit",
+      "title": "Build a first-aid kit",
+      "emoji": "🧰",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 2,
+      "minutes": 25,
+      "summary": "Make a simple kit and learn what each thing is for.",
+      "steps": [
+        "Find a clean box or bag.",
+        "Add plasters, gauze pads, a bandage, tape, gloves and scissors with round ends.",
+        "Add a list of emergency numbers and your address.",
+        "A grown-up adds any medicines and keeps them out of reach.",
+        "Label the box with a cross or heart.",
+        "Check it every few months and replace used things."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "scissors"
+        ],
+        "notes": "Use round-ended scissors. Medicines are chosen and stored by an adult only."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "shoe box",
+            "clean cloths",
+            "paper list"
+          ],
+          "description": "A box with clean cloths, plastic bags for gloves and a list of numbers."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "plasters",
+            "gauze",
+            "bandage",
+            "tape"
+          ],
+          "description": "A basic kit with plasters and dressings."
+        },
+        "advanced": {
+          "cost": "Under 20 USD",
+          "materials": [
+            "ready-made kit",
+            "gloves",
+            "foil blanket"
+          ],
+          "description": "A full kit with gloves and a foil blanket."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a first-aid box",
+          "use": "a clean shoe box or zip bag"
+        },
+        {
+          "instead": "disposable gloves",
+          "use": "clean plastic bags"
+        }
+      ],
+      "sources": [
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        },
+        {
+          "title": "First aid advice",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "hygiene"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "responder"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "shapes",
+        "colours",
+        "numbers"
+      ],
+      "connects": [
+        "life-skills"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-cpr-concepts",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "cpr",
+      "title": "What is CPR?",
+      "emoji": "❤️",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "CPR helps when someone's heart stops. You can learn what it is now, and do a real course when you are older.",
+      "steps": [
+        "The heart pumps blood around the body.",
+        "If someone collapses and is not breathing normally, their heart may have stopped.",
+        "First: get a grown-up and call the emergency number. The call helper will guide you.",
+        "CPR means pushing hard and fast on the middle of the chest to keep blood moving.",
+        "A machine called an AED can help restart the heart. It talks and tells you what to do.",
+        "Real CPR is learned on a training doll in a class with a qualified instructor."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "How to do CPR",
+          "publisher": "Resuscitation Council UK",
+          "url": "https://www.resus.org.uk/public-resource/how-do-cpr"
+        },
+        {
+          "title": "CPR training",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/take-a-class/cpr"
+        },
+        {
+          "title": "CPR",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/first-aid/cpr/"
+        }
+      ],
+      "competencies": [
+        "fa-aed-awareness"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "cpr-knowledge"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "science",
+        "numbers"
+      ],
+      "connects": [
+        "science"
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider).",
+      "adultNote": "Never let children practise chest compressions on a person. Many schools and Red Cross or Red Crescent societies run courses for young people."
+    },
+    {
+      "id": "fa-primary-assessment",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "primary-assessment",
+      "title": "Primary assessment: DRSABCD",
+      "emoji": "🔤",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "summary": "A simple order to check someone who is hurt or unwell: Danger, Response, Send for help, Airway, Breathing, CPR, Defibrillation.",
+      "steps": [
+        "D - Danger: check it is safe for you, bystanders and the casualty.",
+        "R - Response: speak loudly and tap their shoulders. Do they answer or open their eyes?",
+        "S - Send for help: call the emergency number (on speaker) or get someone else to.",
+        "A - Airway: open the airway by gently tilting the head back and lifting the chin.",
+        "B - Breathing: look, listen and feel for normal breathing for up to 10 seconds.",
+        "C - CPR: if not breathing normally, start CPR (hands-only if untrained) and follow the call helper.",
+        "D - Defibrillation: send someone for an AED, switch it on and follow its prompts.",
+        "Some countries teach DR ABC or the primary survey; the order of priorities is the same."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "St John Ambulance Australia",
+          "publisher": "St John Ambulance Australia",
+          "url": "https://www.stjohn.org.au/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "Australian Red Cross",
+          "url": "https://www.redcross.org.au/firstaid/"
+        },
+        {
+          "title": "Unresponsive casualty",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/unresponsive-casualty/"
+        },
+        {
+          "title": "Resuscitation guidelines",
+          "publisher": "Resuscitation Council UK",
+          "url": "https://www.resus.org.uk/library/2021-resuscitation-guidelines"
+        }
+      ],
+      "competencies": [
+        "fa-scene-safety"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "assessment"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "connects": [
+        "science"
+      ],
+      "check": [
+        {
+          "question": "What does the first D stand for?",
+          "options": [
+            "Defibrillation",
+            "Danger",
+            "Doctor"
+          ],
+          "answer": 1,
+          "explain": "Danger. Always check your own safety first."
+        }
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider)."
+    },
+    {
+      "id": "fa-recovery-position",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "recovery-position",
+      "title": "Recovery position (practice)",
+      "emoji": "🛌",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 25,
+      "summary": "The recovery position keeps the airway open for someone who is breathing but not responding.",
+      "steps": [
+        "Use only for someone breathing normally but not responding, with no suspected spinal injury.",
+        "Kneel beside them. Place the near arm at a right angle.",
+        "Bring the far hand across to rest against their cheek.",
+        "Bend the far knee up, then roll them towards you onto their side.",
+        "Tilt the head back so the airway stays open.",
+        "Keep checking their breathing until help arrives. If breathing stops, start CPR.",
+        "Practise slowly on a willing family member lying on a soft floor, with an adult watching."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "strains when rolling",
+          "knocks to head or arms"
+        ],
+        "notes": "Practise only on a willing partner on a soft floor with adult supervision. Roll slowly. Stop if anything hurts."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "soft floor or mat",
+            "willing partner"
+          ],
+          "description": "Practise the steps slowly on a partner."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "exercise mat",
+            "printed step card"
+          ],
+          "description": "Practise with a step card and swap roles."
+        },
+        "advanced": {
+          "cost": "Course fee",
+          "materials": [
+            "accredited first-aid course"
+          ],
+          "description": "Learn and be assessed by a qualified instructor."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "an exercise mat",
+          "use": "a folded blanket or rug"
+        },
+        {
+          "instead": "a partner",
+          "use": "a large soft toy or pillow to rehearse hand positions"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Recovery position",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/first-aid/recovery-position/"
+        },
+        {
+          "title": "Unresponsive casualty",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/unresponsive-casualty/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-recovery-position"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "recovery-position"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider)."
+    },
+    {
+      "id": "fa-severe-bleeding",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "severe-bleeding",
+      "title": "Severe bleeding",
+      "emoji": "🚑",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 25,
+      "summary": "Severe bleeding is life threatening. Call for help and apply firm direct pressure.",
+      "steps": [
+        "Check for danger. Protect your hands with gloves or plastic bags.",
+        "Call the emergency number, or get someone to.",
+        "Press firmly and directly on the wound with a clean pad. Keep pressing.",
+        "If blood soaks through, add more pads on top; do not remove the first.",
+        "If something is stuck in the wound, do not pull it out; press around it.",
+        "Help them lie down and keep them warm; watch for signs of shock.",
+        "Tourniquets and wound packing are only for people trained to use them."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "blood",
+          "bandage too tight"
+        ],
+        "notes": "Practise pressure and bandaging on each other with adult supervision. Check circulation beyond the bandage. No real blood."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "clean cloths",
+            "scarf"
+          ],
+          "description": "Practise direct pressure and a scarf bandage."
+        },
+        "better": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "gauze pads",
+            "roller bandages",
+            "gloves"
+          ],
+          "description": "Practise layering pads and bandaging."
+        },
+        "advanced": {
+          "cost": "Course fee",
+          "materials": [
+            "accredited first-aid course"
+          ],
+          "description": "Learn bleeding control with a qualified instructor."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a trauma dressing",
+          "use": "a clean folded cloth and a scarf"
+        },
+        {
+          "instead": "gloves",
+          "use": "plastic bags over the hands"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Severe bleeding",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/bleeding/severe-bleeding/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        },
+        {
+          "title": "First aid",
+          "publisher": "IFRC",
+          "url": "https://www.ifrc.org/our-work/health-and-care/community-health/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "bleeding"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider)."
+    },
+    {
+      "id": "fa-shock",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "shock",
+      "title": "Recognising shock",
+      "emoji": "🥶",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 15,
+      "summary": "Shock happens when the body does not get enough blood flow, for example after heavy bleeding or burns.",
+      "steps": [
+        "Signs: pale, cold, clammy skin; fast breathing; fast weak pulse; feeling sick, faint or anxious.",
+        "Call the emergency number.",
+        "Treat the cause, such as bleeding, if you can do so safely.",
+        "Help them lie down. Raise and support their legs if this does not hurt them.",
+        "Keep them warm with a coat or blanket and reassure them.",
+        "Do not give food or drink. Keep checking breathing and response."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        },
+        {
+          "title": "First aid advice",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "IFRC",
+          "url": "https://www.ifrc.org/our-work/health-and-care/community-health/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "medical-emergencies"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "connects": [
+        "science"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-hands-only-cpr",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "cpr",
+      "title": "Hands-only CPR",
+      "emoji": "🫀",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "If an adult collapses and is not breathing normally, call for help and push hard and fast in the centre of the chest.",
+      "steps": [
+        "Check for danger and response. Shout for help.",
+        "Call the emergency number on speaker. Send someone for an AED.",
+        "Kneel beside them. Put the heel of one hand in the centre of the chest, other hand on top.",
+        "With straight arms, push down about 5 to 6 cm, then let the chest come fully back up.",
+        "Push 100 to 120 times a minute (about two a second). Some people use the beat of a fast song.",
+        "Keep going until help takes over, the AED tells you to stop, the person starts breathing normally, or you are too exhausted.",
+        "Untrained bystanders give hands-only CPR. Trained responders may add rescue breaths (30 compressions to 2 breaths), especially for children and drowning.",
+        "PRACTICE: only on a training manikin with a qualified instructor. Never push on a real person's chest for practice."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "chest injury if practised on a person",
+          "strain"
+        ],
+        "notes": "Compressions are practised only on a CPR training manikin under a qualified instructor. At home, rehearse hand position and rhythm on a firm cushion only."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "firm cushion",
+            "a song or metronome app"
+          ],
+          "description": "Rehearse hand position and the 100-120 rhythm on a firm cushion only."
+        },
+        "better": {
+          "cost": "Free to low cost",
+          "materials": [
+            "community CPR awareness session"
+          ],
+          "description": "Join a free community CPR awareness session if available."
+        },
+        "advanced": {
+          "cost": "Course fee",
+          "materials": [
+            "accredited CPR course",
+            "training manikin",
+            "training AED"
+          ],
+          "description": "Learn and be assessed on a manikin with a qualified instructor."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a CPR training manikin",
+          "use": "a firm cushion for hand-position and rhythm practice only (never compress on a person)"
+        },
+        {
+          "instead": "a metronome",
+          "use": "counting out loud, or a song with about 100-120 beats per minute"
+        }
+      ],
+      "sources": [
+        {
+          "title": "How to do CPR",
+          "publisher": "Resuscitation Council UK",
+          "url": "https://www.resus.org.uk/public-resource/how-do-cpr"
+        },
+        {
+          "title": "How to do CPR on an adult",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/unresponsive-casualty/how-to-do-cpr-on-an-adult/"
+        },
+        {
+          "title": "CPR training",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/take-a-class/cpr"
+        },
+        {
+          "title": "European Resuscitation Council",
+          "publisher": "European Resuscitation Council",
+          "url": "https://www.erc.edu/"
+        },
+        {
+          "title": "International Liaison Committee on Resuscitation",
+          "publisher": "ILCOR",
+          "url": "https://www.ilcor.org/"
+        }
+      ],
+      "competencies": [
+        "fa-cpr"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "cpr-knowledge"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "competent"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "numbers",
+        "body",
+        "time"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider).",
+      "adultNote": "Search for an accredited CPR course for young people near you (Red Cross or Red Crescent, St John or a resuscitation council approved provider). The app cannot certify CPR."
+    },
+    {
+      "id": "fa-aed-awareness",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "aed",
+      "title": "Find the AED",
+      "emoji": "⚡",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "summary": "An AED (defibrillator) can restart a heart. It talks you through every step. Learn where they are.",
+      "steps": [
+        "Look for the green or white heart-with-lightning sign in shops, stations, schools and sports centres.",
+        "Note where the nearest AEDs are to your home and school.",
+        "In an emergency, send someone to fetch it while CPR continues.",
+        "Switch it on and follow the voice prompts. Stick the pads where the pictures show.",
+        "Stand clear when it says, then continue CPR when told.",
+        "Hands-on practice uses a training AED with a qualified instructor."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "electric shock from a real device"
+        ],
+        "notes": "Never handle a real AED for practice. Practise only with a training AED (no shock) under a qualified instructor. Walking to find AED locations is fine."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "paper",
+            "pencil"
+          ],
+          "description": "Walk your area and map the AED locations."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "online video from a resuscitation council"
+          ],
+          "description": "Watch an official AED demonstration video together."
+        },
+        "advanced": {
+          "cost": "Course fee",
+          "materials": [
+            "accredited course with training AED"
+          ],
+          "description": "Practise with a training AED and a qualified instructor."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a training AED",
+          "use": "a cardboard box with drawn pad pictures to rehearse the steps (no device)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Resuscitation Council UK",
+          "publisher": "Resuscitation Council UK",
+          "url": "https://www.resus.org.uk"
+        },
+        {
+          "title": "CPR training",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/take-a-class/cpr"
+        },
+        {
+          "title": "Cardiac arrest",
+          "publisher": "American Heart Association",
+          "url": "https://www.heart.org/en/health-topics/cardiac-arrest"
+        }
+      ],
+      "competencies": [
+        "fa-aed-awareness"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "aed-awareness"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "shapes",
+        "colours",
+        "geography"
+      ],
+      "connects": [
+        "science",
+        "technology"
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider)."
+    },
+    {
+      "id": "fa-choking-response",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "choking",
+      "title": "Choking response (adult)",
+      "emoji": "🫁",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 25,
+      "summary": "Know the steps to help a choking adult. Practise movements only with an instructor.",
+      "steps": [
+        "Ask: Are you choking? If they can cough, encourage them to keep coughing.",
+        "If they cannot cough, speak or breathe: shout for help and get someone to call the emergency number.",
+        "Give up to 5 sharp back blows between the shoulder blades, with them leaning forward.",
+        "If that does not work, give up to 5 abdominal thrusts (only if you have been trained).",
+        "Keep alternating back blows and abdominal thrusts. Call the emergency number if not already done.",
+        "If they become unresponsive, call for help and start CPR.",
+        "Anyone given abdominal thrusts should be checked by a doctor afterwards.",
+        "Never practise back blows or abdominal thrusts on a real person. Use a manikin with an instructor."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "internal injury if practised on a person"
+        ],
+        "notes": "Practise the hand positions in the air only. Real practice needs a choking training manikin and a qualified instructor."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "step card"
+          ],
+          "description": "Learn the steps and rehearse hand positions in the air."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "official video"
+          ],
+          "description": "Watch an official choking video from a first-aid organisation."
+        },
+        "advanced": {
+          "cost": "Course fee",
+          "materials": [
+            "accredited course",
+            "choking manikin"
+          ],
+          "description": "Practise on a choking manikin with a qualified instructor."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a choking training manikin",
+          "use": "a large cushion to show hand positions only, with no force"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Choking",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/choking/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        },
+        {
+          "title": "First aid training",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/take-a-class/first-aid"
+        },
+        {
+          "title": "Resuscitation guidelines",
+          "publisher": "Resuscitation Council UK",
+          "url": "https://www.resus.org.uk/library/2021-resuscitation-guidelines"
+        }
+      ],
+      "competencies": [
+        "fa-choking-response"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "choking-response"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "food"
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider).",
+      "adultNote": "Procedures for babies and young children differ. Learn them on an accredited paediatric first-aid course."
+    },
+    {
+      "id": "fa-drowning-response",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "drowning",
+      "title": "Drowning: reach or throw, don't go",
+      "emoji": "🛟",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 15,
+      "summary": "Never jump in to save someone. Call for help, then reach or throw something that floats.",
+      "steps": [
+        "Shout for help and call the emergency number. At a beach or pool, alert the lifeguard.",
+        "Stay on land. Lie down so you are not pulled in.",
+        "Reach with a stick, pole, towel or clothing.",
+        "Throw something that floats: a ring, ball, bottle or cool box.",
+        "Tell them to kick and hold on. Keep watching where they are.",
+        "Once they are out and safe, if they are not breathing normally, start CPR. Trained responders give rescue breaths first for drowning.",
+        "Anyone rescued from water should see a doctor, even if they seem fine."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Drowning fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/drowning"
+        },
+        {
+          "title": "Water safety",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html"
+        },
+        {
+          "title": "Resuscitation guidelines",
+          "publisher": "Resuscitation Council UK",
+          "url": "https://www.resus.org.uk/library/2021-resuscitation-guidelines"
+        }
+      ],
+      "competencies": [
+        "fa-scene-safety"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "assessment"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine",
+        "swimming"
+      ],
+      "languageHooks": [
+        "nature",
+        "weather"
+      ],
+      "connects": [
+        "physical-education"
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider)."
+    },
+    {
+      "id": "fa-heatstroke-hypothermia",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "temperature-emergencies",
+      "title": "Too hot, too cold",
+      "emoji": "🌡️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "summary": "Heatstroke and hypothermia are emergencies. Learn the signs and first steps.",
+      "steps": [
+        "Heat exhaustion: headache, dizziness, heavy sweating, cramps, feeling sick. Move to a cool place, lie down, raise feet, sip water, cool the skin.",
+        "Heatstroke: very hot skin, confusion, fits or collapse. Call the emergency number and cool them quickly with water and fanning.",
+        "Hypothermia: shivering, pale cold skin, slow speech, confusion, sleepiness.",
+        "For hypothermia: get to shelter, replace wet clothes, wrap in blankets including the head, give a warm (non-alcoholic) drink if fully alert.",
+        "Do not rub limbs or use very hot water. Call the emergency number if severe."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Heat exhaustion and heatstroke",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/"
+        },
+        {
+          "title": "Hypothermia",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/hypothermia/"
+        },
+        {
+          "title": "Extreme heat safety",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/extreme-heat-safety.html"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "medical-emergencies"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine",
+        "nature"
+      ],
+      "languageHooks": [
+        "weather",
+        "body"
+      ],
+      "connects": [
+        "science",
+        "geography"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-anaphylaxis",
+      "kind": "activity",
+      "area": "first-aid",
+      "subject": "allergies",
+      "title": "Anaphylaxis and auto-injectors",
+      "emoji": "💉",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 20,
+      "summary": "Anaphylaxis is a severe allergic reaction. Call the emergency number and help the person use their adrenaline auto-injector.",
+      "steps": [
+        "Signs: swelling of throat or tongue, trouble breathing or swallowing, wheeze, pale or floppy, collapse.",
+        "Call the emergency number and say anaphylaxis.",
+        "Help them use their own adrenaline auto-injector into the outer thigh, following the instructions on it.",
+        "Lie them down with legs raised. If breathing is hard, let them sit up.",
+        "A second dose may be given after 5 minutes if there is no improvement and they have one.",
+        "If they stop breathing normally, start CPR.",
+        "Practise only with a needle-free trainer pen."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "needle injury from a real auto-injector"
+        ],
+        "notes": "Never practise with a real auto-injector. Use a needle-free trainer pen with an adult. Real devices belong to the person prescribed them."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "step card"
+          ],
+          "description": "Learn the signs and steps."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "trainer pen from a family member's prescription pack"
+          ],
+          "description": "Practise with a needle-free trainer pen."
+        },
+        "advanced": {
+          "cost": "Course fee",
+          "materials": [
+            "accredited first-aid course"
+          ],
+          "description": "Practise allergy response on a course with an instructor."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "a trainer pen",
+          "use": "a marker pen with its cap on to rehearse the hold and thigh position"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anaphylaxis",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/anaphylaxis/"
+        },
+        {
+          "title": "First aid advice",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "medical-emergencies"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "food",
+        "body"
+      ],
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider).",
+      "adultNote": "If someone in your family has a prescribed auto-injector, ask the prescriber or pharmacist to show everyone how to use it."
+    },
+    {
+      "id": "fa-diabetic-emergencies",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "diabetic-emergencies",
+      "title": "Diabetic emergencies",
+      "emoji": "🍬",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 15,
+      "summary": "People with diabetes can have very low blood sugar. Know the signs and how to help.",
+      "steps": [
+        "Low blood sugar signs: shaky, sweaty, pale, confused, irritable, hungry.",
+        "If they are awake and can swallow: give a sugary drink or sweets, then something starchy once they recover.",
+        "Help them check their blood sugar if they have a meter.",
+        "If they get worse, become drowsy or unresponsive: do not give anything by mouth. Call the emergency number.",
+        "If unresponsive and breathing, a trained person places them in the recovery position."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Diabetic emergencies",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/diabetic-emergencies/"
+        },
+        {
+          "title": "Low blood sugar (hypoglycaemia)",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/low-blood-sugar-hypoglycaemia/"
+        }
+      ],
+      "competencies": [
+        "fa-basic-first-aid"
+      ],
+      "skills": [
+        {
+          "tree": "fa-care-skills",
+          "node": "medical-emergencies"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "trained"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "food",
+        "body"
+      ],
+      "connects": [
+        "science",
+        "health"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-triage-principles",
+      "kind": "lesson",
+      "area": "first-aid",
+      "subject": "triage",
+      "title": "More than one casualty: triage",
+      "emoji": "🗂️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 20,
+      "summary": "When several people are hurt, triage helps decide who needs help first.",
+      "steps": [
+        "Your safety first. Do not enter a dangerous scene.",
+        "Call the emergency number. Say how many people are hurt.",
+        "Quickly check each person. The quiet ones may be the most serious.",
+        "Highest priority: not breathing normally, or bleeding heavily.",
+        "People who can walk and talk are usually lower priority; ask them to help or wait in a safe place.",
+        "Hand over clearly to the emergency services and follow their instructions."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "First aid",
+          "publisher": "IFRC",
+          "url": "https://www.ifrc.org/our-work/health-and-care/community-health/first-aid"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        },
+        {
+          "title": "First aid advice",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/"
+        }
+      ],
+      "competencies": [
+        "fa-simulated-response"
+      ],
+      "skills": [
+        {
+          "tree": "fa-first-aid",
+          "node": "advanced"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "certificationNote": "Knowledge only. This app never certifies first aid. To practise and be assessed, join an accredited local first-aid course run by a qualified instructor, for example through your national Red Cross or Red Crescent society."
+    },
+    {
+      "id": "fa-someone-collapsed",
+      "kind": "simulation",
+      "area": "first-aid",
+      "subject": "primary-assessment",
+      "title": "Someone has collapsed",
+      "emoji": "🚨",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 15,
+      "summary": "A simulated emergency. Make safe choices step by step.",
+      "steps": [
+        "Read the scenario.",
+        "Choose an action at each step.",
+        "Review the feedback and the DRSABCD order."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Decision-making simulation only. Do not act it out with real compressions."
+      },
+      "sources": [
+        {
+          "title": "How to do CPR",
+          "publisher": "Resuscitation Council UK",
+          "url": "https://www.resus.org.uk/public-resource/how-do-cpr"
+        },
+        {
+          "title": "Unresponsive casualty",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/unresponsive-casualty/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "IFRC",
+          "url": "https://www.ifrc.org/our-work/health-and-care/community-health/first-aid"
+        },
+        {
+          "title": "CPR training",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/take-a-class/cpr"
+        }
+      ],
+      "competencies": [
+        "fa-call-emergency",
+        "fa-scene-safety",
+        "fa-simulated-response"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "assessment"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "advanced"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "connects": [
+        "science"
+      ],
+      "simulation": {
+        "scenario": "Walking past a bus stop, you see an adult suddenly collapse to the ground. Nobody else is helping yet.",
+        "steps": [
+          {
+            "prompt": "What do you do first?",
+            "options": [
+              {
+                "text": "Check the scene is safe: traffic, hazards, falling objects",
+                "correct": true,
+                "feedback": "Correct. Danger first so you do not become the second victim."
+              },
+              {
+                "text": "Run straight over through traffic",
+                "correct": false,
+                "feedback": "Never put yourself in danger. Check the scene first."
+              },
+              {
+                "text": "Walk on, someone else will help",
+                "correct": false,
+                "feedback": "Your help matters. Check the scene is safe, then act."
+              }
+            ]
+          },
+          {
+            "prompt": "It is safe. How do you check responsiveness?",
+            "options": [
+              {
+                "text": "Shout 'Can you hear me?' and tap their shoulders",
+                "correct": true,
+                "feedback": "Correct. A loud voice and a gentle tap."
+              },
+              {
+                "text": "Shake them hard",
+                "correct": false,
+                "feedback": "Shaking could cause injury. Tap shoulders and speak loudly."
+              },
+              {
+                "text": "Pour water on their face",
+                "correct": false,
+                "feedback": "That can block the airway. Speak loudly and tap shoulders."
+              }
+            ]
+          },
+          {
+            "prompt": "No response. What next?",
+            "options": [
+              {
+                "text": "Shout for help and call the emergency number on speaker",
+                "correct": true,
+                "feedback": "Correct. Get help coming early. The call helper can guide you."
+              },
+              {
+                "text": "Wait a few minutes to see if they wake up",
+                "correct": false,
+                "feedback": "Every minute counts. Call now."
+              },
+              {
+                "text": "Give them a drink",
+                "correct": false,
+                "feedback": "Never give anything by mouth to someone who is not responding."
+              }
+            ]
+          },
+          {
+            "prompt": "You open the airway (tilt head, lift chin) and check breathing for up to 10 seconds. They are only gasping occasionally.",
+            "options": [
+              {
+                "text": "Treat it as not breathing normally: start hands-only CPR and send someone for an AED",
+                "correct": true,
+                "feedback": "Correct. Occasional gasps are not normal breathing."
+              },
+              {
+                "text": "Gasping means they are fine",
+                "correct": false,
+                "feedback": "Gasps can happen in cardiac arrest. Start CPR."
+              },
+              {
+                "text": "Put them in the recovery position and leave",
+                "correct": false,
+                "feedback": "Recovery position is for someone breathing normally. Start CPR."
+              }
+            ]
+          },
+          {
+            "prompt": "How do you do hands-only CPR?",
+            "options": [
+              {
+                "text": "Centre of the chest, about 5-6 cm deep, 100-120 per minute, full recoil",
+                "correct": true,
+                "feedback": "Correct. Hard and fast in the centre of the chest."
+              },
+              {
+                "text": "Gentle presses on the stomach",
+                "correct": false,
+                "feedback": "Compressions go in the centre of the chest, hard and fast."
+              },
+              {
+                "text": "Slow, one press every few seconds",
+                "correct": false,
+                "feedback": "Aim for 100-120 compressions per minute."
+              }
+            ]
+          },
+          {
+            "prompt": "Someone arrives with an AED.",
+            "options": [
+              {
+                "text": "Switch it on and follow the voice prompts; keep CPR going until it says stand clear",
+                "correct": true,
+                "feedback": "Correct. The AED guides you. Minimise pauses in CPR."
+              },
+              {
+                "text": "Do not touch it, only doctors can use it",
+                "correct": false,
+                "feedback": "AEDs are designed for the public. Switch it on and follow the prompts."
+              }
+            ]
+          },
+          {
+            "prompt": "What if they had been breathing normally but not responding?",
+            "options": [
+              {
+                "text": "Keep the airway open (recovery position if trained), keep checking breathing, wait with them for help",
+                "correct": true,
+                "feedback": "Correct. Monitor them until help arrives."
+              },
+              {
+                "text": "Sit them up and give food",
+                "correct": false,
+                "feedback": "Never give food or drink. Keep the airway open and monitor."
+              }
+            ]
+          }
+        ]
+      },
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider).",
+      "adultNote": "This simulation builds decision-making knowledge only. Encourage an accredited CPR and AED course for hands-on skills."
+    },
+    {
+      "id": "fa-choking-adult-sim",
+      "kind": "simulation",
+      "area": "first-aid",
+      "subject": "choking",
+      "title": "Choking at dinner",
+      "emoji": "🍽️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 10,
+      "summary": "A simulated emergency. An adult at dinner is choking.",
+      "steps": [
+        "Read the scenario.",
+        "Choose an action at each step.",
+        "Talk about why each step comes in that order."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Decision-making only. Never practise back blows or abdominal thrusts on a person."
+      },
+      "sources": [
+        {
+          "title": "Choking",
+          "publisher": "St John Ambulance",
+          "url": "https://www.sja.org.uk/get-advice/first-aid-advice/choking/"
+        },
+        {
+          "title": "First aid",
+          "publisher": "British Red Cross",
+          "url": "https://www.redcross.org.uk/first-aid"
+        },
+        {
+          "title": "First aid training",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcross.org/take-a-class/first-aid"
+        }
+      ],
+      "competencies": [
+        "fa-simulated-response"
+      ],
+      "skills": [
+        {
+          "tree": "fa-life-support",
+          "node": "choking-response"
+        },
+        {
+          "tree": "fa-first-aid",
+          "node": "advanced"
+        }
+      ],
+      "interests": [
+        "helping",
+        "medicine"
+      ],
+      "languageHooks": [
+        "food",
+        "body"
+      ],
+      "simulation": {
+        "scenario": "At a family dinner, your uncle suddenly stops eating, grabs his throat and looks panicked.",
+        "steps": [
+          {
+            "prompt": "What do you do first?",
+            "options": [
+              {
+                "text": "Ask: Are you choking? Can you cough?",
+                "correct": true,
+                "feedback": "Correct. Find out if the airway is partly or fully blocked."
+              },
+              {
+                "text": "Slap his back straight away without asking",
+                "correct": false,
+                "feedback": "First check if he can cough. Coughing is most effective if possible."
+              }
+            ]
+          },
+          {
+            "prompt": "He is coughing strongly.",
+            "options": [
+              {
+                "text": "Encourage him to keep coughing and stay with him",
+                "correct": true,
+                "feedback": "Correct. A strong cough may clear it."
+              },
+              {
+                "text": "Give him water",
+                "correct": false,
+                "feedback": "Do not give drinks. Encourage coughing."
+              }
+            ]
+          },
+          {
+            "prompt": "Now he cannot cough, speak or breathe.",
+            "options": [
+              {
+                "text": "Shout for someone to call the emergency number, then give up to 5 back blows",
+                "correct": true,
+                "feedback": "Correct. Get help coming and start back blows."
+              },
+              {
+                "text": "Wait and watch",
+                "correct": false,
+                "feedback": "A full blockage is life threatening. Act now."
+              }
+            ]
+          },
+          {
+            "prompt": "Back blows have not worked.",
+            "options": [
+              {
+                "text": "If trained, give up to 5 abdominal thrusts, then alternate with back blows",
+                "correct": true,
+                "feedback": "Correct. Trained responders alternate back blows and abdominal thrusts."
+              },
+              {
+                "text": "Put fingers blindly down his throat",
+                "correct": false,
+                "feedback": "Blind finger sweeps can push the object deeper."
+              }
+            ]
+          },
+          {
+            "prompt": "He becomes unresponsive.",
+            "options": [
+              {
+                "text": "Make sure the emergency number has been called and start CPR",
+                "correct": true,
+                "feedback": "Correct. CPR can also help move the blockage."
+              },
+              {
+                "text": "Keep doing back blows on the floor",
+                "correct": false,
+                "feedback": "If unresponsive, start CPR and follow the call helper."
+              }
+            ]
+          }
+        ]
+      },
+      "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider)."
+    }
+  ],
+  "pathways": [
+    {
+      "id": "fa-helper-pathway",
+      "interest": "helping",
+      "title": "From little helper to first aider",
+      "emoji": "⛑️",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "steps": [
+        {
+          "title": "Stay safe and get help",
+          "area": "first-aid",
+          "subject": "emergency-communication",
+          "description": "Spot danger, find a grown-up, learn the emergency number.",
+          "itemIds": [
+            "fa-spot-danger",
+            "fa-safe-first",
+            "fa-my-emergency-number"
+          ]
+        },
+        {
+          "title": "Everyday first aid",
+          "area": "first-aid",
+          "subject": "wound-care",
+          "description": "Grazes, burns and nosebleeds.",
+          "itemIds": [
+            "fa-cuts-and-grazes",
+            "fa-burns-cool-water",
+            "fa-nosebleed"
+          ]
+        },
+        {
+          "title": "Medical emergencies",
+          "area": "first-aid",
+          "subject": "medical-emergencies",
+          "description": "Choking, seizures, allergies and fainting.",
+          "itemIds": [
+            "fa-choking-signs",
+            "fa-seizures",
+            "fa-allergic-reactions",
+            "fa-fainting"
+          ]
+        },
+        {
+          "title": "Life support knowledge",
+          "area": "first-aid",
+          "subject": "cpr",
+          "description": "Primary assessment, CPR and AED knowledge, then an accredited course.",
+          "itemIds": [
+            "fa-primary-assessment",
+            "fa-hands-only-cpr",
+            "fa-aed-awareness",
+            "fa-someone-collapsed"
+          ]
+        }
+      ]
+    }
+  ]
+}
