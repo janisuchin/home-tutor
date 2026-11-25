@@ -577,7 +577,7 @@
         {
           "title": "How to wash your hands",
           "publisher": "NHS",
-          "url": "https://www.nhs.uk/live-well/healthy-body/best-way-to-wash-your-hands/"
+          "url": "https://www.nhs.uk/live-well/best-way-to-wash-your-hands/"
         },
         {
           "title": "World Hand Hygiene Day",
@@ -1701,7 +1701,8 @@
         "Pinch the soft part of the nose, just below the bony bit.",
         "Breathe through your mouth.",
         "Keep pinching for 10 to 15 minutes. Use a clock.",
-        "Tell a grown-up. Get medical help if it lasts more than about 20 minutes or came after a hard bump to the head."
+        "Spit out any blood in your mouth rather than swallowing it.",
+        "Tell a grown-up. Get medical help if it is still bleeding after 10 to 15 minutes of pinching, it is very heavy, it makes breathing hard, or it came after a hard bump to the head."
       ],
       "practical": true,
       "safety": {
@@ -1886,7 +1887,7 @@
             ]
           },
           {
-            "prompt": "It is still bleeding after 20 minutes.",
+            "prompt": "It is still bleeding after 15 minutes of pinching.",
             "options": [
               {
                 "text": "The grown-up gets medical help",
@@ -2211,12 +2212,12 @@
       "minutes": 15,
       "summary": "During a seizure: protect them, time it, do not hold them down, and never put anything in their mouth.",
       "steps": [
-        "Stay calm. Move hard or sharp things away.",
+        "Stay calm. Check it is safe and move hard or sharp things away. Only move the person if they are in danger.",
         "Cushion their head with something soft.",
         "Time the seizure.",
         "Do not hold them down. Do not put anything in their mouth.",
-        "When the jerking stops, stay with them. A trained person may place them in the recovery position.",
-        "Call the emergency number if it lasts more than 5 minutes, it is their first seizure, they are injured, or they do not wake up."
+        "When the jerking stops, put them on their side in the recovery position (or help a grown-up do it) and stay with them, talking calmly, until they are fully awake.",
+        "Call the emergency number if it lasts more than 5 minutes, it is their first seizure, another seizure starts, they are injured, have trouble breathing, the seizure happened in water, or they do not wake up."
       ],
       "practical": false,
       "sources": [
@@ -2286,7 +2287,7 @@
         "Mild signs: itchy rash, sneezing, runny eyes.",
         "Emergency signs: swelling of lips or tongue, trouble breathing, wheezing, feeling faint.",
         "Emergency signs? Get a grown-up and call the emergency number straight away.",
-        "Some people carry an adrenaline pen. A grown-up or the person helps use it.",
+        "Some people carry an adrenaline pen (auto-injector). If they have one, they or a grown-up use it straight away.",
         "Never share food with someone who has a food allergy unless their grown-up says it is safe."
       ],
       "practical": false,
@@ -2349,7 +2350,7 @@
         "Wear a hat and play in the shade.",
         "Signs of too much heat: headache, dizzy, tired, very thirsty, dark pee.",
         "Feeling like this? Stop, go somewhere cool, drink water and tell a grown-up.",
-        "If someone is confused, very hot and not sweating, or faints, call the emergency number."
+        "If someone is confused, has a fit, faints, is not sweating even though they are very hot, or still feels unwell after 30 minutes resting somewhere cool, a grown-up calls the emergency number."
       ],
       "practical": false,
       "sources": [
@@ -2479,7 +2480,7 @@
         "Add plasters, gauze pads, a bandage, tape, gloves and scissors with round ends.",
         "Add a list of emergency numbers and your address.",
         "A grown-up adds any medicines and keeps them out of reach.",
-        "Label the box with a cross or heart.",
+        "Label the box with the first-aid sign: a white cross on a green background. (The red cross is a protected emblem, so do not use it.)",
         "Check it every few months and replace used things."
       ],
       "practical": true,
@@ -2735,10 +2736,10 @@
       "steps": [
         "Use only for someone breathing normally but not responding, with no suspected spinal injury.",
         "Kneel beside them. Place the near arm at a right angle.",
-        "Bring the far hand across to rest against their cheek.",
+        "Bring their other hand across their chest and hold the back of it against the cheek nearest you.",
         "Bend the far knee up, then roll them towards you onto their side.",
         "Tilt the head back so the airway stays open.",
-        "Keep checking their breathing until help arrives. If breathing stops, start CPR.",
+        "Call the emergency number if not already done. Keep checking their breathing until help arrives. If breathing stops or is not normal, start CPR.",
         "Practise slowly on a willing family member lying on a soft floor, with an adult watching."
       ],
       "practical": true,
@@ -3013,8 +3014,9 @@
         "Kneel beside them. Put the heel of one hand in the centre of the chest, other hand on top.",
         "With straight arms, push down about 5 to 6 cm, then let the chest come fully back up.",
         "Push 100 to 120 times a minute (about two a second). Some people use the beat of a fast song.",
-        "Keep going until help takes over, the AED tells you to stop, the person starts breathing normally, or you are too exhausted.",
-        "Untrained bystanders give hands-only CPR. Trained responders may add rescue breaths (30 compressions to 2 breaths), especially for children and drowning.",
+        "As soon as an AED arrives, switch it on and follow its voice prompts, keeping pauses in CPR as short as possible.",
+        "Keep going until help takes over, the AED tells you to stop, the person starts breathing normally, or you are too exhausted. Swap with another helper every 2 minutes if you can.",
+        "Untrained bystanders give hands-only CPR. Trained responders may add rescue breaths (30 compressions to 2 breaths), especially for children and drowning. For a child, still call and start CPR: the call helper will guide you.",
         "PRACTICE: only on a training manikin with a qualified instructor. Never push on a real person's chest for practice."
       ],
       "practical": true,
@@ -3131,12 +3133,12 @@
       ],
       "level": 5,
       "minutes": 20,
-      "summary": "An AED (defibrillator) can restart a heart. It talks you through every step. Learn where they are.",
+      "summary": "An AED (defibrillator) gives an electric shock that can help a heart get back to a normal beat. It talks you through every step. Learn where they are.",
       "steps": [
         "Look for the green or white heart-with-lightning sign in shops, stations, schools and sports centres.",
         "Note where the nearest AEDs are to your home and school.",
         "In an emergency, send someone to fetch it while CPR continues.",
-        "Switch it on and follow the voice prompts. Stick the pads where the pictures show.",
+        "Switch it on and follow the voice prompts. Stick the pads on the bare chest where the pictures show.",
         "Stand clear when it says, then continue CPR when told.",
         "Hands-on practice uses a training AED with a qualified instructor."
       ],
@@ -3236,13 +3238,13 @@
       ],
       "level": 6,
       "minutes": 25,
-      "summary": "Know the steps to help a choking adult. Practise movements only with an instructor.",
+      "summary": "Know the steps to help a choking adult or child over 1 year. Practise movements only with an instructor.",
       "steps": [
         "Ask: Are you choking? If they can cough, encourage them to keep coughing.",
         "If they cannot cough, speak or breathe: shout for help and get someone to call the emergency number.",
         "Give up to 5 sharp back blows between the shoulder blades, with them leaning forward.",
-        "If that does not work, give up to 5 abdominal thrusts (only if you have been trained).",
-        "Keep alternating back blows and abdominal thrusts. Call the emergency number if not already done.",
+        "If that does not work, give up to 5 abdominal thrusts: stand behind them, put a fist between the belly button and the bottom of the breastbone, hold it with your other hand and pull sharply inwards and upwards.",
+        "If it still has not cleared, call the emergency number if not already done, and keep alternating 5 back blows and 5 abdominal thrusts until help arrives.",
         "If they become unresponsive, call for help and start CPR.",
         "Anyone given abdominal thrusts should be checked by a doctor afterwards.",
         "Never practise back blows or abdominal thrusts on a real person. Use a manikin with an instructor."
@@ -3329,7 +3331,7 @@
         "food"
       ],
       "certificationNote": "This app teaches knowledge and never certifies. Hands-on skills such as CPR, choking response, AED use and the recovery position must be learned and assessed with a qualified instructor at an accredited local first-aid course (for example through your national Red Cross or Red Crescent society or a resuscitation council approved provider).",
-      "adultNote": "Procedures for babies and young children differ. Learn them on an accredited paediatric first-aid course."
+      "adultNote": "Procedures for babies under 1 year differ (no abdominal thrusts). For pregnant people or people too large to reach around, trained responders use chest thrusts instead. Learn these on an accredited first-aid or paediatric first-aid course."
     },
     {
       "id": "fa-drowning-response",
@@ -3414,11 +3416,11 @@
       "minutes": 20,
       "summary": "Heatstroke and hypothermia are emergencies. Learn the signs and first steps.",
       "steps": [
-        "Heat exhaustion: headache, dizziness, heavy sweating, cramps, feeling sick. Move to a cool place, lie down, raise feet, sip water, cool the skin.",
-        "Heatstroke: very hot skin, confusion, fits or collapse. Call the emergency number and cool them quickly with water and fanning.",
+        "Heat exhaustion: headache, dizziness, heavy sweating, cramps, feeling sick. Move to a cool place, lie down, raise feet, sip water, cool the skin. If they are not better within 30 minutes, treat it as heatstroke.",
+        "Heatstroke: very hot skin (they may stop sweating), confusion, fits or collapse. Call the emergency number and cool them quickly with cool water and fanning while you wait. If they become unresponsive but are breathing, put them in the recovery position.",
         "Hypothermia: shivering, pale cold skin, slow speech, confusion, sleepiness.",
         "For hypothermia: get to shelter, replace wet clothes, wrap in blankets including the head, give a warm (non-alcoholic) drink if fully alert.",
-        "Do not rub limbs or use very hot water. Call the emergency number if severe."
+        "Hypothermia is an emergency: call the emergency number. Handle them gently. Do not rub limbs, use a hot bath or very hot water, or give alcohol."
       ],
       "practical": false,
       "sources": [
@@ -3482,9 +3484,9 @@
       "summary": "Anaphylaxis is a severe allergic reaction. Call the emergency number and help the person use their adrenaline auto-injector.",
       "steps": [
         "Signs: swelling of throat or tongue, trouble breathing or swallowing, wheeze, pale or floppy, collapse.",
-        "Call the emergency number and say anaphylaxis.",
-        "Help them use their own adrenaline auto-injector into the outer thigh, following the instructions on it.",
-        "Lie them down with legs raised. If breathing is hard, let them sit up.",
+        "Help them use their own adrenaline auto-injector into the outer thigh straight away, following the instructions on it.",
+        "Call the emergency number and say anaphylaxis, even if they start to feel better.",
+        "Lie them down with legs raised. If breathing is hard, let them sit up. Do not let them stand up or walk.",
         "A second dose may be given after 5 minutes if there is no improvement and they have one.",
         "If they stop breathing normally, start CPR.",
         "Practise only with a needle-free trainer pen."
@@ -3583,9 +3585,9 @@
       "summary": "People with diabetes can have very low blood sugar. Know the signs and how to help.",
       "steps": [
         "Low blood sugar signs: shaky, sweaty, pale, confused, irritable, hungry.",
-        "If they are awake and can swallow: give a sugary drink or sweets, then something starchy once they recover.",
+        "If they are awake and can swallow: give a sugary drink, glucose tablets or sweets. Wait 10 to 15 minutes; if they are not better, give more sugar. Once they recover, give something starchy.",
         "Help them check their blood sugar if they have a meter.",
-        "If they get worse, become drowsy or unresponsive: do not give anything by mouth. Call the emergency number.",
+        "If they do not improve after two sugar treatments, get worse, become drowsy or unresponsive: do not give anything by mouth. Call the emergency number.",
         "If unresponsive and breathing, a trained person places them in the recovery position."
       ],
       "practical": false,
@@ -4007,9 +4009,9 @@
             "prompt": "Back blows have not worked.",
             "options": [
               {
-                "text": "If trained, give up to 5 abdominal thrusts, then alternate with back blows",
+                "text": "Give up to 5 abdominal thrusts, then keep alternating with back blows",
                 "correct": true,
-                "feedback": "Correct. Trained responders alternate back blows and abdominal thrusts."
+                "feedback": "Correct. Alternate 5 back blows and 5 abdominal thrusts until it clears or help arrives. The call helper can guide you."
               },
               {
                 "text": "Put fingers blindly down his throat",
