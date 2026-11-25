@@ -152,3 +152,29 @@ describe('tutor accounts', () => {
     expect((await env.DB.prepare('SELECT COUNT(*) AS n FROM tutor_links').first<any>()).n).toBe(0);
   });
 });
+
+describe('tutor device merge', async () => {
+  const { mergeTutorSync } = await import('../src/core/sync/tutor-merge');
+  const base = { id: 'L', familyLabel: 'F', childIds: ['a', 'b'], cursor: 5, children: { a: { id: 'a', updatedAt: 1 } as any, b: { id: 'b', updatedAt: 1 } as any }, events: [{ id: 'e1', childId: 'a' } as any, { id: 'e2', childId: 'b' } as any], dirty: ['event:e9'] };
+  it('forgets children that are no longer shared, and their events', () => {
+    const f = mergeTutorSync(base, { cursor: 7, changes: [], childIds: ['a'], familyLabel: 'F' }, ['event:e9']);
+    expect(Object.keys(f.children)).toEqual(['a']);
+    expect(f.events.map((e) => e.id)).toEqual(['e1']);
+    expect(f.dirty).toEqual([]);
+    expect(f.cursor).toBe(7);
+  });
+  it('re-reads from the start when a new child is shared', () => {
+    const f = mergeTutorSync(base, { cursor: 9, changes: [], childIds: ['a', 'b', 'c'], familyLabel: 'F' }, []);
+    expect(f.cursor).toBe(0);
+    expect(f.dirty).toEqual(['event:e9']);
+  });
+  it('applies newer child records and new events only once', () => {
+    const f = mergeTutorSync(
+      base,
+      { cursor: 8, childIds: ['a', 'b'], familyLabel: 'F', changes: [{ kind: 'child', id: 'a', updatedAt: 5, data: { id: 'a', updatedAt: 5, name: 'New' } }, { kind: 'event', id: 'e1', updatedAt: 1, data: { id: 'e1', childId: 'a' } }, { kind: 'event', id: 'e3', updatedAt: 1, data: { id: 'e3', childId: 'b' } }] },
+      [],
+    );
+    expect((f.children.a as any).name).toBe('New');
+    expect(f.events.map((e) => e.id).sort()).toEqual(['e1', 'e2', 'e3']);
+  });
+});

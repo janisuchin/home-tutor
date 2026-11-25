@@ -31,6 +31,7 @@ export default function Home() {
           <Button testID="start-setup" label={t('welcome.start')} icon="🌱" onPress={() => router.push('/setup')} />
           <Button label={t('welcome.signIn')} variant="ghost" icon="☁️" onPress={() => router.push('/account')} />
           <Button label={t('welcome.openKey')} variant="ghost" icon="🔑" onPress={() => router.push('/passport/open')} />
+          <Button testID="open-tutoring" label={t('nav.tutoring')} variant="ghost" icon="🧑‍🏫" onPress={() => router.push('/tutoring')} />
         </View>
         <Grid columns={th.layout === 'phone' ? 1 : 3}>
           <Card tint={colors.primarySoft}>

@@ -63,15 +63,22 @@ export async function noHorizontalScroll(page: Page) {
   return page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1);
 }
 
-/** Reads the signed-in session token straight from device storage (null when signed out). */
+/** Reads the signed-in session token from device storage, waiting for the store's debounced save. */
 export async function accountToken(page: Page): Promise<string | null> {
-  return page.evaluate(() => {
-    try {
-      return JSON.parse(localStorage.getItem('home-tutor:v1') ?? '{}')?.account?.token ?? null;
-    } catch {
-      return null;
-    }
-  });
+  const h = await page
+    .waitForFunction(
+      () => {
+        try {
+          return JSON.parse(localStorage.getItem('home-tutor:v1') ?? '{}')?.account?.token ?? null;
+        } catch {
+          return null;
+        }
+      },
+      undefined,
+      { timeout: 10_000 },
+    )
+    .catch(() => null);
+  return h ? ((await h.jsonValue()) as string) : null;
 }
 
 /**

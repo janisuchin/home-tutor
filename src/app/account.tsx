@@ -12,6 +12,7 @@ import { useT } from '../i18n';
 import { getState, saveFamily, setAccount, unlockParent, useAppState, wipeDevice } from '../data/store';
 import { api, ApiError } from '../data/api';
 import { syncNow } from '../data/sync';
+import { clearTutoring, syncTutoring } from '../data/tutoring';
 import { formatCode, hashPin, randomBytes, toHex } from '../core/crypto';
 import { downloadJson } from '../ui/download';
 
@@ -53,6 +54,7 @@ function Account() {
     setAccount({ token, accountId, signedInAt: Date.now() });
     unlockParent();
     const r = await syncNow();
+    void syncTutoring();
     setMsg(r === 'ok' ? t('account.syncedNow') : t('account.syncLater'));
   };
 
@@ -127,10 +129,12 @@ function Account() {
               onPress={async () => {
                 await api.logout(account.token).catch(() => {});
                 setAccount(undefined);
+                await clearTutoring();
               }}
             />
           </Row>
         </Card>
+        <Button variant="ghost" icon="🧑‍🏫" testID="account-tutoring" label={t('tutoring.title')} onPress={() => router.push('/tutoring')} />
         {family ? (
           <Card>
             <Txt variant="label">{t('account.resetPin')}</Txt>
@@ -164,6 +168,7 @@ function Account() {
               if (!ok) return;
               try {
                 await api.deleteAccount(account.token);
+                await clearTutoring();
                 await wipeDevice();
                 router.replace('/');
               } catch (e) {

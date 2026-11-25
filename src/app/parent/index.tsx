@@ -94,8 +94,9 @@ function ParentDashboard() {
         <Button variant="ghost" icon="☁️" label={account ? t('parent.account') : t('parent.signIn')} onPress={() => router.push('/account')} />
         <Button variant="ghost" icon="🏫" label={t('nav.classroom')} onPress={() => router.push('/classroom')} />
       </Grid>
-      <Grid columns={th.layout === 'phone' ? 1 : 2}>
+      <Grid columns={th.layout === 'phone' ? 1 : 3}>
         <Button variant="ghost" icon="🧑‍🏫" label={t('nav.tutor')} onPress={() => router.push('/tutor')} />
+        <Button variant="ghost" icon="✉️" label={t('tutors.title')} testID="open-tutors" onPress={() => router.push('/parent/tutors')} />
         <Button variant="ghost" icon="🚑" label={t('nav.emergency')} onPress={() => router.push('/emergency')} />
       </Grid>
       <Card tint={colors.surfaceAlt}>

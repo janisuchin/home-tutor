@@ -49,6 +49,28 @@ export interface AuthResult {
   recoveryKey?: string;
 }
 
+export interface TutorInfo {
+  id: string;
+  label: string;
+  familyLabel: string;
+  childIds: string[];
+  createdAt: number;
+  expiresAt: number;
+  acceptedAt?: number;
+}
+export interface TutorLink {
+  id: string;
+  familyLabel: string;
+  childIds: string[];
+}
+export interface TutorSyncResult {
+  cursor: number;
+  changes: SyncRecord[];
+  more: boolean;
+  childIds: string[];
+  familyLabel: string;
+}
+
 export const api = {
   signup: (email: string, password: string, consent: boolean) =>
     call<AuthResult>('/auth/signup', { method: 'POST', body: JSON.stringify({ email, password, consent }) }),
@@ -67,6 +89,17 @@ export const api = {
   publishPassport: (token: string, childId: string, snapshot: PassportSnapshot) =>
     call<{ ok: true }>(`/passport-snapshot/${childId}`, { method: 'PUT', token, body: JSON.stringify(snapshot) }),
   readPassport: (code: string) => call<{ snapshot: PassportSnapshot; expiresAt?: number }>(`/passport/${encodeURIComponent(code)}`),
+  // Tutor accounts: the parent side.
+  inviteTutor: (token: string, childIds: string[], label: string, familyLabel: string) =>
+    call<{ id: string; code: string; expiresAt: number }>('/tutors', { method: 'POST', token, body: JSON.stringify({ childIds, label, familyLabel }) }),
+  listTutors: (token: string) => call<{ tutors: TutorInfo[] }>('/tutors', { token }),
+  updateTutor: (token: string, id: string, childIds: string[]) => call<{ ok: true }>(`/tutors/${id}`, { method: 'PUT', token, body: JSON.stringify({ childIds }) }),
+  removeTutor: (token: string, id: string) => call<{ ok: true }>(`/tutors/${id}`, { method: 'DELETE', token }),
+  // Tutor accounts: the tutor side.
+  acceptInvite: (token: string, code: string) => call<{ link: TutorLink }>('/tutor/accept', { method: 'POST', token, body: JSON.stringify({ code }) }),
+  tutorLinks: (token: string) => call<{ links: TutorLink[] }>('/tutor/links', { token }),
+  tutorSync: (token: string, linkId: string, cursor: number, changes: SyncRecord[]) =>
+    call<TutorSyncResult>(`/tutor/links/${linkId}/sync`, { method: 'POST', token, body: JSON.stringify({ cursor, changes }) }),
   aiTutor: (token: string, question: string) =>
     call<{ enabled: false }>('/ai-tutor', { method: 'POST', token, body: JSON.stringify({ question }) }),
 };

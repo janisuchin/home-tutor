@@ -8,6 +8,7 @@ import { downloadJson } from '../../ui/download';
 import { useT, availableLanguages } from '../../i18n';
 import { getState, saveFamily, useAppState, wipeDevice } from '../../data/store';
 import { downloadAllForOffline } from '../../content/loader';
+import { clearTutoring } from '../../data/tutoring';
 import { hashPin, randomBytes, toHex } from '../../core/crypto';
 import { MODES, type FamilySettings, type ModeId } from '../../core/model';
 import { COUNTRIES } from '../../core/countries';
@@ -126,6 +127,7 @@ function Settings() {
             onPress={async () => {
               const ok = await confirmAsync(t('settings.wipeConfirm'));
               if (!ok) return;
+              await clearTutoring();
               await wipeDevice();
               router.replace('/');
             }}
