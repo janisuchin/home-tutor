@@ -3,6 +3,7 @@
  * key shown at sign-up. No email is ever sent, so sign-in never depends on an email service.
  * Children never have accounts: the parent account owns the child profiles.
  */
+import { confirmAsync } from '../ui/confirm';
 import React, { useState } from 'react';
 import { router } from 'expo-router';
 import { Button, Card, Choice, Field, Notice, Row, Screen, Txt, Chip } from '../ui/kit';
@@ -159,7 +160,7 @@ function Account() {
             label={t('account.deleteButton')}
             testID="delete-account"
             onPress={async () => {
-              const ok = typeof window !== 'undefined' && (window as any).confirm ? (window as any).confirm(t('account.deleteConfirm')) : true;
+              const ok = await confirmAsync(t('account.deleteConfirm'));
               if (!ok) return;
               try {
                 await api.deleteAccount(account.token);

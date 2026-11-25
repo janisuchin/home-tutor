@@ -1,4 +1,5 @@
 /** Family settings: intensity, worldview approach, hours, language, accessibility, PIN, offline, data. */
+import { confirmAsync } from '../../ui/confirm';
 import React, { useState } from 'react';
 import { router } from 'expo-router';
 import { Button, Card, Chip, Choice, Field, Notice, Row, Screen, Section, Txt } from '../../ui/kit';
@@ -116,7 +117,7 @@ function Settings() {
             label={t('settings.wipe')}
             testID="wipe"
             onPress={async () => {
-              const ok = typeof window !== 'undefined' && (window as any).confirm ? (window as any).confirm(t('settings.wipeConfirm')) : true;
+              const ok = await confirmAsync(t('settings.wipeConfirm'));
               if (!ok) return;
               await wipeDevice();
               router.replace('/');

@@ -595,3 +595,10 @@ const styles = StyleSheet.create({
   chip: { borderRadius: radius.pill, borderWidth: 2, paddingHorizontal: space.md, paddingVertical: space.sm, justifyContent: 'center' },
   speak: { alignItems: 'center', justifyContent: 'center', borderRadius: radius.pill, backgroundColor: colors.skySoft },
 });
+
+/** Friendly duration: minutes for short activities, hours or sessions for projects. */
+export function duration(t: (k: string, v?: any) => string, minutes: number): string {
+  if (minutes < 90) return t('common.minutes', { n: minutes });
+  if (minutes <= 180) return t('common.hours', { n: Math.round(minutes / 60) });
+  return t('common.days', { n: Math.max(2, Math.round(minutes / 60)) });
+}

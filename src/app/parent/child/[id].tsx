@@ -1,4 +1,5 @@
 /** Parent view of one child: everything from brief section 32 in one place. */
+import { confirmAsync } from '../../../ui/confirm';
 import React, { useMemo } from 'react';
 import { View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
@@ -159,8 +160,8 @@ function ParentChild() {
         small
         icon="🗑️"
         label={t('parent.deleteChild', { name: child.name })}
-        onPress={() => {
-          const ok = typeof window !== 'undefined' && (window as any).confirm ? (window as any).confirm(t('parent.deleteConfirm', { name: child.name })) : true;
+        onPress={async () => {
+          const ok = await confirmAsync(t('parent.deleteConfirm', { name: child.name }));
           if (ok) {
             deleteChild(child.id);
             router.replace('/parent');

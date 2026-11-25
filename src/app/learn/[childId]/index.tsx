@@ -5,7 +5,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
-import { Button, Card, Field, Grid, Pill, ProgressBar, Row, SafetyBadge, Screen, Section, SpeakButton, Tile, Txt, say } from '../../../ui/kit';
+import { Button, Card, Field, Grid, Pill, ProgressBar, Row, SafetyBadge, Screen, Section, SpeakButton, Tile, Txt, say, duration } from '../../../ui/kit';
 import { Mascot } from '../../../ui/Mascot';
 import { areaColors, colors, mascotColors, space, useTheme } from '../../../ui/theme';
 import { useT } from '../../../i18n';
@@ -98,7 +98,7 @@ export default function ChildHome() {
                 {!picture && <Txt variant="small">{reasonText(t, mission)}</Txt>}
                 <Row wrap>
                   {mission.item.rating ? <SafetyBadge rating={mission.item.rating} /> : null}
-                  <Pill text={t('common.minutes', { n: mission.item.minutes })} />
+                  <Pill text={duration(t, mission.item.minutes)} />
                 </Row>
               </View>
             </Row>

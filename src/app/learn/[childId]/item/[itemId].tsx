@@ -21,6 +21,7 @@ import {
   SpeakButton,
   Txt,
   say,
+  duration,
 } from '../../../../ui/kit';
 import { Mascot } from '../../../../ui/Mascot';
 import { areaColors, colors, space, useTheme } from '../../../../ui/theme';
@@ -78,7 +79,7 @@ function Player({ item, childId }: { item: ContentItem; childId: string }) {
             <Txt>{item.summary}</Txt>
             <Row wrap>
               {rating ? <SafetyBadge rating={rating} /> : null}
-              <Pill text={t('common.minutes', { n: item.minutes })} />
+              <Pill text={duration(t, item.minutes)} />
               {!picture ? <Pill text={t('common.level', { level: item.level })} /> : null}
               {done ? <Pill text={`✓ ${t('home.done')}`} fg={colors.green} bg={colors.greenSoft} /> : null}
             </Row>

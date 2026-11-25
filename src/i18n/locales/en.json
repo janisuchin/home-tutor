@@ -8,6 +8,8 @@
   "common.loading": "Loading…",
   "common.level": "Level {level}",
   "common.minutes": "{n} min",
+  "common.hours": "about {n} h",
+  "common.days": "several sessions (about {n} h)",
   "common.never": "never",
   "common.on": "on",
   "common.off": "off",
