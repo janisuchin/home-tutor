@@ -10,7 +10,7 @@ import { getState, saveFamily, useAppState, wipeDevice } from '../../data/store'
 import { downloadAllForOffline } from '../../content/loader';
 import { clearTutoring } from '../../data/tutoring';
 import { hashPin, randomBytes, toHex } from '../../core/crypto';
-import { MODES, type FamilySettings, type ModeId } from '../../core/model';
+import { EQUIPMENT, MODES, type FamilySettings, type ModeId } from '../../core/model';
 import { COUNTRIES } from '../../core/countries';
 
 export default function SettingsScreen() {
@@ -45,6 +45,26 @@ function Settings() {
             {COUNTRIES.map((c) => (
               <Chip key={c.code} testID={`country-${c.code}`} label={`${c.flag} ${c.name}`} selected={family.country === c.code} onPress={() => saveFamily({ ...family, country: c.code })} />
             ))}
+          </Row>
+        </Card>
+      </Section>
+
+      <Section title={t('equipment.title')} testID="family-equipment">
+        <Card>
+          <Txt variant="small">{t('equipment.intro')}</Txt>
+          <Row wrap>
+            {EQUIPMENT.map((e) => {
+              const have = family.equipment ?? [];
+              return (
+                <Chip
+                  key={e}
+                  testID={`family-eq-${e}`}
+                  label={t(`equipment.${e}`)}
+                  selected={have.includes(e)}
+                  onPress={() => saveFamily({ ...family, equipment: have.includes(e) ? have.filter((x) => x !== e) : [...have, e] })}
+                />
+              );
+            })}
           </Row>
         </Card>
       </Section>

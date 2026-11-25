@@ -10,7 +10,7 @@ import { Mascot } from '../ui/Mascot';
 import { colors, space } from '../ui/theme';
 import { useT } from '../i18n';
 import { saveFamily, unlockParent, useAppState } from '../data/store';
-import { DEFAULT_FAMILY_SETTINGS, MODES, type Family, type ModeId } from '../core/model';
+import { DEFAULT_FAMILY_SETTINGS, EQUIPMENT, MODES, type Equipment, type Family, type ModeId } from '../core/model';
 import { hashPin, randomId, toHex, randomBytes } from '../core/crypto';
 import { COUNTRIES } from '../core/countries';
 import { defaultsFromLocale, deviceLocaleTag } from '../core/locale';
@@ -30,6 +30,7 @@ export default function Setup() {
   const [pin, setPin] = useState('');
   const [pin2, setPin2] = useState('');
   const [consent, setConsent] = useState(false);
+  const [equipment, setEquipment] = useState<Equipment[]>(existing?.equipment ?? ['phone']);
   const [error, setError] = useState('');
 
   const finish = () => {
@@ -45,6 +46,7 @@ export default function Setup() {
       pinSalt: salt,
       pinHash: hashPin(pin, salt),
       consentAt: Date.now(),
+      equipment,
       settings: { ...(existing?.settings ?? DEFAULT_FAMILY_SETTINGS), uiLanguage },
       updatedAt: Date.now(),
     };
@@ -107,6 +109,15 @@ export default function Setup() {
             </Card>
           ))}
           {(mode === 'B' || mode === 'C') && <Notice text={t('setup.mode.healthNote')} />}
+          <Card testID="setup-equipment">
+            <Txt variant="h3">{t('equipment.title')}</Txt>
+            <Txt variant="small">{t('equipment.intro')}</Txt>
+            <Row wrap>
+              {EQUIPMENT.map((e) => (
+                <Chip key={e} testID={`setup-eq-${e}`} label={t(`equipment.${e}`)} selected={equipment.includes(e)} onPress={() => setEquipment(equipment.includes(e) ? equipment.filter((x) => x !== e) : [...equipment, e])} />
+              ))}
+            </Row>
+          </Card>
           <Row>
             <Button variant="ghost" label={t('common.back')} onPress={() => setStep(0)} />
             <Button testID="next" label={t('common.next')} onPress={() => setStep(2)} style={{ flex: 1 }} />

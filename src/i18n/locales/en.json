@@ -777,5 +777,8 @@
   "books.count": "{n} books",
   "books.approve": "Approved",
   "books.hide": "Hide",
-  "reason.review": "Time to remember it again"
+  "reason.review": "Time to remember it again",
+  "equipment.title": "What we have at home",
+  "equipment.intro": "Tick what your family has. Every child can use it, and lessons that need something you do not have move down the list (each one has a substitute).",
+  "reason.equipment": "You have what you need at home"
 }

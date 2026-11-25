@@ -130,6 +130,8 @@ export interface Family {
   pinSalt?: string;
   /** Parent gave consent for the child profiles at set-up (COPPA/GDPR-K). */
   consentAt?: number;
+  /** What the family has at home (D-057), shared by every child; used by the engine and set-up. */
+  equipment?: Equipment[];
   settings: FamilySettings;
   updatedAt: number;
 }

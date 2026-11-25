@@ -11,6 +11,7 @@ import { ageBandFor, ageFromBirth } from '../model';
 import { deriveProgress, type ChildProgress } from './progress';
 import { visibilityFor } from './gating';
 import { isReviewDue } from './spaced';
+import { equipmentFit } from './equipment';
 
 export interface Reason {
   key: string; // i18n key
@@ -167,6 +168,13 @@ export function scoreItem(
   // around it moves down the list (it is never hidden: the family can plan it).
   if (vis.needsAdult && child.supervision === 'rarely') score -= 3;
   if (vis.needsProfessional) score -= 2;
+  // EQUIPMENT: the family inventory. Having the gear helps; missing gear moves it down (substitutions exist).
+  const fit = equipmentFit(item, child, family);
+  if (fit?.missing.length) score -= 2;
+  else if (fit?.have.length) {
+    score += 1;
+    reasons.push({ key: 'reason.equipment', vars: { thing: fit.have[0] } });
+  }
   if (child.outdoorSpace === 'none' && NEEDS_OUTDOOR_HINTS.includes(item.subject.toLowerCase())) score -= 1;
 
   // Physical development is compulsory: keep it in every day.
