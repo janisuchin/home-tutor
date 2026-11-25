@@ -9,6 +9,9 @@ import { loadCareers } from '../../../content/loader';
 import type { Career } from '../../../core/content-types';
 import { ageBandFor, ageFromBirth } from '../../../core/model';
 import { isUnlocked } from '../../../core/edition';
+import { usePhotoData } from '../../../data/photos';
+import { photosFor } from '../../../core/photos';
+import { Photo } from '../../../ui/Photo';
 
 export default function Careers() {
   const t = useT();
@@ -16,6 +19,7 @@ export default function Careers() {
   const { childId } = useLocalSearchParams<{ childId: string }>();
   const child = useChild(childId)!;
   const [careers, setCareers] = useState<Career[]>([]);
+  const photoData = usePhotoData();
   useEffect(() => {
     loadCareers().then(setCareers).catch(() => {});
   }, []);
@@ -37,6 +41,7 @@ export default function Careers() {
                 <Txt variant="h3">
                   {c.emoji} {c.title}
                 </Txt>
+                {photoData ? photosFor(photoData.index, [c.id]).map((p) => <Photo key={p.id} photo={p} thumb maxHeight={180} />) : null}
                 <Txt variant="small">{c.description}</Txt>
                 {c.tryAtHome.length ? <Txt>🏠 {t('careers.try', { list: c.tryAtHome.slice(0, 2).join('; ') })}</Txt> : null}
                 <Row wrap>

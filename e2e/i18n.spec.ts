@@ -31,3 +31,23 @@ test.describe('a device set to English (UK)', () => {
     await expect(page.getByText('Family settings').locator('visible=true').first()).toBeVisible();
   });
 });
+
+test.describe('a device set to Gujarati (India)', () => {
+  test.use({ locale: 'gu-IN' });
+  test('set-up follows the device locale: Gujarati UI (lazy chunk), and it can be chosen in settings', async ({ page }) => {
+    await page.goto('/');
+    await expect(page.getByText('પરિવાર તરીકે શરૂ કરો').locator('visible=true')).toBeVisible();
+    await expect(page.locator('html')).toHaveAttribute('lang', 'gu');
+    await tid(page, 'start-setup').click();
+    await expect(tid(page, 'setup-language-gu')).toHaveAttribute('aria-checked', 'true');
+  });
+  test('Gujarati in Family settings', async ({ page }) => {
+    await seed(page);
+    await page.goto('/parent/settings');
+    await enterPin(page);
+    await tid(page, 'ui-language-gu').click();
+    await expect(page.getByText('પરિવારનાં સેટિંગ').locator('visible=true').first()).toBeVisible();
+    await tid(page, 'ui-language-en').click();
+    await expect(page.getByText('Family settings').locator('visible=true').first()).toBeVisible();
+  });
+});

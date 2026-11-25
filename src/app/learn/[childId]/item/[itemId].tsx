@@ -29,6 +29,9 @@ import { useT } from '../../../../i18n';
 import { useChild, useItem, useProgress, useVocab } from '../../../../data/hooks';
 import { addEvent } from '../../../../data/store';
 import type { ContentItem } from '../../../../core/content-types';
+import { usePhotoData } from '../../../../data/photos';
+import { photosFor } from '../../../../core/photos';
+import { Photo } from '../../../../ui/Photo';
 
 export default function ItemScreen() {
   const t = useT();
@@ -58,6 +61,9 @@ function Player({ item, childId }: { item: ContentItem; childId: string }) {
   const done = progress?.completed.has(item.id);
   const rating = item.safety?.rating;
   const guidance = item.healthModule ? child.health.guidance : undefined;
+  const photoData = usePhotoData();
+  // Health lessons use simple diagrams, never photos (owner rule).
+  const photo = photoData && !item.healthModule ? photosFor(photoData.index, [item.id, ...item.skills.map((s) => s.tree)])[0] : undefined;
 
   const complete = () => {
     const minutes = Math.max(1, Math.round((Date.now() - startedAt) / 60000));
@@ -87,6 +93,8 @@ function Player({ item, childId }: { item: ContentItem; childId: string }) {
           <SpeakButton text={`${item.title}. ${item.summary}`} />
         </Row>
       </Card>
+
+      {photo ? <Photo photo={photo} maxHeight={picture ? 360 : 300} /> : null}
 
       {item.reviewStatus === 'awaiting-medical-review' ? <Notice tone="warn" icon="🩺" text={t('item.awaitingReview')} /> : null}
       {guidance === 'parent' ? <Notice text={t('item.guidance.parent')} icon="👪" /> : null}

@@ -2,7 +2,7 @@
  * Tiny i18n layer: every UI string lives in src/i18n/locales/<lang>.json.
  * English is bundled; other languages are separate chunks loaded on first use, so families who
  * use English never download them. RTL-ready: isRtl() drives layout direction.
- * Gujarati comes in round 3.
+ * Hindi (round 2) and Gujarati (round 3) are lazy chunks.
  */
 import { useSyncExternalStore } from 'react';
 import en from './locales/en.json';
@@ -12,6 +12,7 @@ const locales: Record<string, Dict> = { en: en as Dict };
 /** Lazy loaders for every non-English locale (each becomes its own web chunk). */
 const loaders: Record<string, () => Promise<Dict>> = {
   hi: () => import('./locales/hi.json').then((m: any) => (m.default ?? m) as Dict),
+  gu: () => import('./locales/gu.json').then((m: any) => (m.default ?? m) as Dict),
 };
 const RTL = ['ar', 'he', 'fa', 'ur'];
 

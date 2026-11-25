@@ -12,3 +12,6 @@
 
 /content/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/photos/*
+  Cache-Control: public, max-age=2592000

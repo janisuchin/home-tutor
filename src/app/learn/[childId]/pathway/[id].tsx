@@ -8,6 +8,9 @@ import { useT } from '../../../../i18n';
 import { useCatalog, useChild, useProgress } from '../../../../data/hooks';
 import { useAppState } from '../../../../data/store';
 import { isVisible } from '../../../../core/engine/gating';
+import { usePhotoData } from '../../../../data/photos';
+import { photosFor } from '../../../../core/photos';
+import { Photo } from '../../../../ui/Photo';
 
 export default function PathwayScreen() {
   const t = useT();
@@ -17,9 +20,11 @@ export default function PathwayScreen() {
   const catalog = useCatalog();
   const progress = useProgress(child);
   const p = catalog?.pathways.find((x) => x.id === id);
+  const photoData = usePhotoData();
   if (!p || !catalog) return <Screen title={t('common.loading')}>{null}</Screen>;
   return (
     <Screen title={`${p.emoji} ${p.title}`} testID="pathway">
+      {photoData ? photosFor(photoData.index, [p.id, ...p.steps.flatMap((s) => s.itemIds ?? [])]).map((ph) => <Photo key={ph.id} photo={ph} maxHeight={300} />) : null}
       <Txt>{t('pathway.intro')}</Txt>
       {p.steps.map((s, i) => {
         const items = (s.itemIds ?? []).map((iid) => catalog.items.find((x) => x.id === iid)).filter((x): x is NonNullable<typeof x> => !!x && isVisible(x, child, family));

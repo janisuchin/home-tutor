@@ -6,6 +6,9 @@ import { Card, Grid, ProgressBar, Row, Screen, Txt } from '../../../ui/kit';
 import { areaColors, colors, space, useTheme } from '../../../ui/theme';
 import { useT } from '../../../i18n';
 import { useCatalog, useChild, useProgress } from '../../../data/hooks';
+import { usePhotoData } from '../../../data/photos';
+import { photosFor } from '../../../core/photos';
+import { Photo } from '../../../ui/Photo';
 
 export default function Skills() {
   const t = useT();
@@ -14,6 +17,7 @@ export default function Skills() {
   const child = useChild(childId)!;
   const catalog = useCatalog();
   const progress = useProgress(child);
+  const photoData = usePhotoData();
   if (!catalog || !progress) return <Screen title={t('common.loading')}>{null}</Screen>;
   const trees = catalog.skillTrees
     .filter((tr) => !child.areasOff.includes(tr.area))
@@ -33,6 +37,7 @@ export default function Skills() {
                 {done.size}/{tr.nodes.length}
               </Txt>
             </Row>
+            {photoData ? photosFor(photoData.index, [tr.id]).map((p) => <Photo key={p.id} photo={p} thumb maxHeight={180} />) : null}
             <ProgressBar value={done.size / tr.nodes.length} label={tr.title} color={areaColors[tr.area]?.fg} />
             <View style={{ gap: 2, marginTop: space.xs }}>
               {tr.nodes.map((n, i) => {

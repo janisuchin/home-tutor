@@ -14,14 +14,12 @@
   "common.on": "on",
   "common.off": "off",
   "common.readAloud": "Read aloud",
-
   "nav.parent": "Parent area",
   "nav.tutor": "Tutor dashboard",
   "nav.classroom": "Classroom and groups",
   "nav.privacy": "Privacy",
   "nav.about": "About",
   "nav.emergency": "Emergency numbers",
-
   "welcome.tagline": "Free home learning for children aged 3 to 17. Learn real skills, at your own pace, with your family, tutor or class.",
   "welcome.start": "Start as a family",
   "welcome.signIn": "I already have an account",
@@ -32,13 +30,11 @@
   "welcome.offline.body": "Lessons, quizzes and progress work without internet and sync when it comes back.",
   "welcome.private.title": "Private by design",
   "welcome.private.body": "No trackers. You decide what is saved, and you can export or delete it at any time.",
-
   "picker.title": "Who is learning today?",
   "picker.age": "Age {age}",
   "picker.hello": "Hello {name}!",
   "picker.empty": "Add your first child to begin.",
   "picker.addChild": "Add a child",
-
   "setup.title": "Set up your family",
   "setup.stepOf": "Step {n} of {total}",
   "setup.step0.intro": "Hello! I am Sprout. Let's set up Home Tutor for your family. It takes two minutes.",
@@ -63,7 +59,6 @@
   "setup.consent.check": "I agree and give consent",
   "setup.consent.required": "Please give consent to continue.",
   "setup.finish": "Finish and add a child",
-
   "mode.label": "Mode {m}",
   "mode.A.title": "One child",
   "mode.A.body": "One learner with a fully personal pathway.",
@@ -81,7 +76,6 @@
   "mode.G.body": "Teacher dashboard, attendance, group work and progress.",
   "mode.H.title": "Projector / large class",
   "mode.H.body": "Teacher-controlled presentation on a projector or TV.",
-
   "gate.title": "Grown-ups only",
   "gate.body": "Enter the parent PIN.",
   "gate.entered": "{n} numbers entered",
@@ -90,7 +84,6 @@
   "gate.wrong": "That PIN is not right. Please try again.",
   "gate.locked": "Too many tries. Please wait one minute.",
   "gate.forgot": "Forgot the PIN? Sign in to your account on this device to set a new one, or clear the app's data on this device.",
-
   "child.notFound": "We could not find this child",
   "child.edit.title": "Add a child",
   "child.edit.titleEdit": "Edit {name}",
@@ -144,7 +137,6 @@
   "child.edit.screenTime": "Daily screen-time limit",
   "child.edit.noLimit": "No limit",
   "child.edit.readAloud": "Read lessons aloud",
-
   "sex.girl": "Girl",
   "sex.boy": "Boy",
   "sex.unspecified": "Prefer not to say",
@@ -207,7 +199,6 @@
   "month.10": "October",
   "month.11": "November",
   "month.12": "December",
-
   "health.body-basics": "My body (body parts, hygiene, privacy, safe touch)",
   "health.body-basics.desc": "For every young child: correct names for body parts, washing, privacy, safe and unsafe touch, and trusted adults.",
   "health.growing-up-girl": "Growing up: girls (puberty and periods)",
@@ -222,7 +213,6 @@
   "guidance.tutor.desc": "Lessons suggest reading together with a trusted tutor, so no parent has to teach every sensitive topic.",
   "guidance.private": "Private learner",
   "guidance.private.desc": "The child may read alone. Recommended for older children only.",
-
   "area.core-academics": "Core academics",
   "area.life-skills": "Life skills",
   "area.physical-education": "Physical education",
@@ -240,7 +230,6 @@
   "area.special-interests": "Special interests",
   "area.projects": "Projects",
   "area.independent-learning": "Learning to learn",
-
   "interest.animals": "Animals",
   "interest.horses": "Horses",
   "interest.bicycles": "Bicycles",
@@ -265,26 +254,22 @@
   "interest.birds": "Birds",
   "interest.insects": "Insects",
   "interest.farming": "Farming",
-
   "safety.green": "Green",
   "safety.amber": "Amber",
   "safety.red": "Red",
   "safety.green.long": "Safe to practise on your own",
   "safety.amber.long": "A grown-up must be with you",
   "safety.red.long": "Only with a trained professional",
-
   "kind.lesson": "Lesson",
   "kind.activity": "Activity",
   "kind.simulation": "What would you do?",
   "kind.project": "Project",
   "kind.world-project": "World project",
-
   "stage.knows": "Knows",
   "stage.understands": "Understands",
   "stage.can-demonstrate": "Can demonstrate",
   "stage.can-apply": "Can apply",
   "stage.can-teach": "Can teach",
-
   "group.academic": "Academic foundation",
   "group.life": "Life competence",
   "group.physical": "Physical competence",
@@ -294,7 +279,6 @@
   "group.intellectual": "Thinking skills",
   "group.practical": "Practical competence",
   "group.personal": "Personal competence",
-
   "rest.title": "Time for off-screen fun",
   "rest.body": "Great learning today, {name}! Your screen time is finished. Here are some ideas:",
   "rest.idea1": "Go outside and look for three different leaves.",
@@ -302,7 +286,6 @@
   "rest.idea3": "Help with a job at home.",
   "rest.idea4": "Draw something you learned today.",
   "rest.parent": "Grown-up: add more time",
-
   "home.hello": "Hello, {name}!",
   "home.hello.picture": "Hi {name}! 👋",
   "home.today": "You have {n} things to try today.",
@@ -331,7 +314,6 @@
   "home.noInterests": "A grown-up can add interests in your profile.",
   "home.goals": "Goals",
   "home.noGoals": "No goals yet.",
-
   "reason.level": "Right for your level in {subject}",
   "reason.practice": "More practice in {subject}",
   "reason.retry": "Try it again: you can do it",
@@ -342,13 +324,11 @@
   "reason.language": "With words in your new language",
   "reason.health": "Part of your health lessons",
   "reason.explore": "Something to explore",
-
   "insight.accelerate": "{name} is progressing quickly in {subject}. Consider introducing: {next}.",
   "insight.practice": "{name} found {subject} tricky recently. Try an easier step or practise together.",
   "insight.connect": "{name} shows strong interest in {interest}. Connect it with the lesson \"{lesson}\".",
   "insight.gap": "{name} has not started {area} yet.",
   "insight.safety": "Some activities for {name} need an adult present, and supervision is set to rarely. Plan them for a time when an adult can help.",
-
   "badge.first-step": "First step",
   "badge.busy-bee": "Busy bee",
   "badge.hard-worker": "Hard worker",
@@ -362,7 +342,6 @@
   "badge.real-world": "Real world",
   "badge.helper": "Helper",
   "badge.bookworm": "Bookworm",
-
   "item.notFound": "We could not find this activity",
   "item.awaitingReview": "Awaiting review by a medical professional.",
   "item.guidance.parent": "Read this lesson together with your parent.",
@@ -399,7 +378,6 @@
   "item.finish": "Finish",
   "item.simDone": "You made safe choices!",
   "item.simScore": "{a} of {b} right first time",
-
   "explore.title": "Explore",
   "explore.areas": "Learning areas",
   "explore.done": "{a} of {b} done",
@@ -416,7 +394,6 @@
   "careers.title": "Career families",
   "careers.intro": "There are many kinds of work. Explore lots of them; you can choose much later.",
   "careers.try": "Try at home: {list}",
-
   "passport.title": "My Learning Passport",
   "passport.of": "Learning Passport: {name}",
   "passport.summary": "Age {age} · {done} activities completed · {comps} capabilities in progress",
@@ -434,7 +411,6 @@
   "passport.spoken": "Speaks: {list}",
   "passport.studying": "Learning: {list}",
   "passport.strengths": "Strengths: {list}",
-
   "parent.title": "Parent area",
   "parent.lock": "Lock",
   "parent.intro": "See and control everything. You do not need to be a teacher: the app suggests what to do next.",
@@ -477,14 +453,12 @@
   "parent.readAloud": "Read aloud: {state}",
   "parent.deleteChild": "Delete {name}'s profile",
   "parent.deleteConfirm": "Delete {name} and all of their progress? This cannot be undone.",
-
   "confirm.title": "Confirm a skill",
   "confirm.intro": "Did {name} really do \"{item}\"? Confirm the stage you saw.",
   "confirm.current": "Now: {stage}",
   "confirm.notYet": "not started",
   "confirm.addEvidence": "+1 done ({a} of {b})",
   "confirm.saved": "Saved to the passport.",
-
   "settings.title": "Family settings",
   "settings.family": "Family",
   "settings.mode": "Mode",
@@ -507,7 +481,8 @@
   "settings.uiLanguage": "App language",
   "lang.en": "English",
   "lang.hi": "हिन्दी (Hindi)",
-  "settings.moreLanguages": "Gujarati is coming next.",
+  "lang.gu": "ગુજરાતી (Gujarati)",
+  "settings.moreLanguages": "More languages can be added later.",
   "settings.dyslexia": "Dyslexia-friendly font",
   "settings.largeText": "Large text",
   "settings.highContrast": "High contrast",
@@ -528,7 +503,6 @@
   "settings.wipe": "Delete all data on this device",
   "settings.wipeConfirm": "Delete all Home Tutor data on this device? Cloud data stays until you delete your account.",
   "settings.wipeNote": "To delete cloud data too, use Account and sync.",
-
   "keys.title": "Progress Key",
   "keys.titleFor": "Progress Key for {name}",
   "keys.intro": "A Progress Key lets a new tutor, a school or your family see a read-only Learning Passport. You can set an expiry and revoke it at any time.",
@@ -550,7 +524,6 @@
   "keys.link": "Link",
   "keys.copy": "Copy link",
   "keys.revoke": "Revoke this key",
-
   "openKey.title": "Open a Progress Key",
   "openKey.intro": "Type the code you were given, or scan the QR code with your camera.",
   "openKey.open": "Open passport",
@@ -559,13 +532,11 @@
   "publicPassport.notFound": "This key does not work. It may be wrong, expired or revoked.",
   "publicPassport.error": "Something went wrong. Please try again later.",
   "publicPassport.tryOther": "Try another code",
-
   "print.title": "Printable passport",
   "print.hint": "Use Print and choose Save as PDF to keep a copy.",
   "print.button": "Print / Save as PDF",
   "print.nativeLater": "Printing from the phone app comes in a later version. Use the web app to print.",
   "print.footer": "Home Tutor Learning Passport · shows demonstrated capabilities, not a certificate.",
-
   "account.title": "Account and sync",
   "account.intro": "An account keeps every child's progress safe in the cloud and lets you open it on any device. Home Tutor also works fully without one.",
   "account.signup": "Create account",
@@ -604,14 +575,12 @@
   "account.deleteBody": "Deletes the account and every child profile, progress record and Progress Key from the cloud, and clears this device.",
   "account.deleteButton": "Delete account and data",
   "account.deleteConfirm": "Delete the account and all data? This cannot be undone.",
-
   "emergency.title": "Emergency numbers",
   "emergency.first": "In an emergency: stay safe, then call your emergency number. Do not become the second victim.",
   "emergency.intro": "Numbers by country with their source. Numbers marked unverified could not be checked against an official page; check with a local source.",
   "emergency.search": "Search for a country",
   "emergency.verified": "verified",
   "emergency.unverified": "unverified",
-
   "tutors.title": "Tutors",
   "tutors.intro": "Invite a tutor to use their own account on their own device. They see and update only the children you choose, they cannot delete anything, and you can remove them at any time.",
   "tutors.needAccount": "Inviting a tutor needs a free account, so the children you share can sync to the tutor's device.",
@@ -693,7 +662,6 @@
   "tutor.noSafety": "No supervised activities coming up.",
   "tutor.interests": "Special interests",
   "tutor.assessments": "{n} recent assessments · {done} activities done · {projects} projects",
-
   "classroom.title": "Classroom and groups",
   "classroom.intro": "Make groups of siblings, students or a class. Shared lessons keep each child's own progress.",
   "classroom.groups": "Groups",
@@ -713,7 +681,6 @@
   "classroom.sharedHint": "Chosen for every member's age, level and settings. Health lessons are never shared.",
   "classroom.assign": "Assign",
   "classroom.present": "Present on projector or TV",
-
   "present.title": "Presentation mode",
   "present.noGroup": "Choose a group first.",
   "present.lesson": "Lesson",
@@ -736,7 +703,6 @@
   "present.answered": "Mark answered",
   "present.reopen": "Reopen",
   "present.exit": "Exit presentation",
-
   "privacy.title": "Privacy",
   "privacy.updated": "Plain-English privacy notice. Last updated 25 November 2026.",
   "privacy.short.title": "The short version",
@@ -762,7 +728,6 @@
   "privacy.contact.title": "Questions",
   "privacy.contact.body": "Questions, ideas or a privacy request? Open an issue on the project's public GitHub Issues page. It is public, so please never post your email, your children's names or any other personal details there. To delete your data, the quickest way is Delete my account in the app.",
   "privacy.contact.link": "Open GitHub Issues",
-
   "about.title": "About Home Tutor",
   "about.mascot": "Meet Sprout, our helper. Like every child, Sprout grows a little every day.",
   "about.body1": "Home Tutor is a free learning companion for parents, tutors and teachers with one child, siblings, a small group or a whole class, for ages 3 to 17.",
@@ -773,5 +738,15 @@
   "about.medical.body": "Home Tutor is an educational app. It does not diagnose and does not replace doctors, nurses, physiotherapists, psychologists, certified first-aid instructors, qualified sports instructors or professional tradespeople. Where a skill needs certification, the lesson says so and points to an accredited local course.",
   "about.credits.title": "Pictures and sources",
   "about.credits.body": "All pictures are original drawings made in code and standard emoji. No AI-generated images are used. Lessons cite public sources such as WHO, UNESCO, UNICEF, NHS, the Red Cross and Red Crescent, and national safety bodies. Read-aloud uses your device's own voice.",
-  "about.rights": "© Home Tutor. All rights reserved until the owner chooses a licence."
+  "about.rights": "© Home Tutor. All rights reserved until the owner chooses a licence.",
+  "photo.credit": "Photo: {title}, by {author}, {licence}.",
+  "photo.unknownAuthor": "unknown photographer",
+  "photo.showCredit": "Photo credit",
+  "photo.source": "Where the photo is from",
+  "photo.licence": "Licence",
+  "credits.title": "Photo and book credits",
+  "credits.intro": "Every photo here is openly licensed or in the public domain. We keep a copy on our own server, so your device never contacts other websites to show it. Tap a photo to see who took it.",
+  "credits.photos": "Photos ({n})",
+  "credits.books": "Books you can read free online",
+  "nav.credits": "Credits"
 }

@@ -50,6 +50,7 @@ export default function Home() {
         <Row wrap style={{ justifyContent: 'center' }}>
           <Button small variant="ghost" label={t('nav.privacy')} onPress={() => router.push('/privacy')} />
           <Button small variant="ghost" label={t('nav.about')} onPress={() => router.push('/about')} />
+          <Button small variant="ghost" label={t('nav.credits')} onPress={() => router.push('/credits')} />
           <Button small variant="ghost" label={t('nav.emergency')} icon="🚑" onPress={() => router.push('/emergency')} />
         </Row>
       </Screen>
@@ -103,6 +104,7 @@ export default function Home() {
         <Button small variant="ghost" label={t('nav.emergency')} icon="🚑" onPress={() => router.push('/emergency')} />
         <Button small variant="ghost" label={t('nav.privacy')} onPress={() => router.push('/privacy')} />
         <Button small variant="ghost" label={t('nav.about')} onPress={() => router.push('/about')} />
+        <Button small variant="ghost" label={t('nav.credits')} onPress={() => router.push('/credits')} testID="open-credits" />
       </Row>
     </Screen>
   );
