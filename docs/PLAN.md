@@ -3,7 +3,7 @@
 Source brief: [docs/brief/MASTER_PROMPT_V2.md](brief/MASTER_PROMPT_V2.md) (42 sections).
 Owner decisions: 2026-11-25. Progress is tracked in [STATUS.md](STATUS.md).
 
-Legend: ✅ done in round 1 · 🟡 partly done · ⬜ not started
+Legend: ✅ done (round 1 unless marked R2) · 🟡 partly done · ⬜ not started
 
 ## P0 Plan ✅
 - ✅ PLAN, ARCHITECTURE (stack and data model), DECISIONS, STATUS, and a public README marked all rights reserved.
@@ -17,7 +17,8 @@ Legend: ✅ done in round 1 · 🟡 partly done · ⬜ not started
 - ✅ i18n: all strings in `src/i18n/locales/en.json`, RTL-ready, and a unit test for missing keys.
 - ✅ Offline storage with a sync queue; PWA manifest, service worker and offline cache.
 - ✅ Accessibility labels and roles on every control; axe checks in e2e.
-- ⬜ Hindi and Gujarati UI translations (round 2 and 3).
+- ✅ R2 Hindi UI (`hi.json`, lazy chunk) with a language picker at set-up and in settings; set-up follows the device locale.
+- ⬜ Gujarati UI (round 3) and a native-speaker review of Hindi.
 
 ## P2 Families and modes ✅
 - ✅ Family set-up: name, country, modes A-H, parent PIN, consent.
@@ -61,7 +62,8 @@ Legend: ✅ done in round 1 · 🟡 partly done · ⬜ not started
 - ✅ Vocabulary packs for study languages: ja, de, ru, zh, ar, fr, hi, gu and es.
 - ⬜ Professional review: medical (health), first-aid instructor, native speakers for the
   vocabulary packs.
-- ⬜ More items per band. Current spread: 3-5 has 85, 6-8 has 142, 9-11 has 156, 12-14 has 179
+- ✅ R2 18 more items for ages 3-5; 64 of 66 emergency numbers verified.
+- ⬜ More items per band. Current spread: 3-5 has 103, 6-8 has 142, 9-11 has 156, 12-14 has 179
   and 15-17 has 136.
 
 ## P5 Accounts, sync and Progress Key ✅
@@ -74,7 +76,9 @@ Legend: ✅ done in round 1 · 🟡 partly done · ⬜ not started
 - ✅ Progress Key: code, link and QR, read-only passport, expiry, revoke and a hashed code.
 - ✅ Printable passport that can be saved as a PDF.
 - ✅ Tests for auth, sync conflicts, key revocation and expiry, and account deletion.
-- ⬜ Passkeys (WebAuthn).
+- ✅ R2 Passkeys (WebAuthn) as an optional extra sign-in on the web (migration 0003).
+- ✅ R2 Tutor accounts: invite code, shared children only, no deletes, removable at any time (migration 0002).
+- ⬜ Passkeys in the native apps (needs associated domains).
 - ⬜ Merging two different families on one device.
 
 ## P6 Classroom ✅ (local-first)
@@ -82,22 +86,24 @@ Legend: ✅ done in round 1 · 🟡 partly done · ⬜ not started
 - ✅ Shared lessons that keep each child's own progress.
 - ✅ Projector presentation mode with teacher controls, polls and collaborative questions.
 - ⬜ Live polls from students' own devices (needs realtime: Durable Objects).
-- ⬜ Attendance and polls synced to the cloud.
+- ✅ R2 Attendance synced to the cloud as records; printable class report.
+- ⬜ Polls synced to the cloud.
 
 ## P7 Quality and release 🟡
-- ✅ Unit tests (58), Playwright e2e at phone, tablet, desktop and projector sizes (44 runs),
+- ✅ Unit tests (83 in R2), Playwright e2e at phone, tablet, desktop and projector sizes (50 runs in R2),
   axe accessibility checks, the content validator in CI, and a GitHub Actions workflow.
 - ✅ Deploy script (`scripts/deploy.sh`): it creates D1, applies migrations and deploys one Worker.
-- ⬜ Live deploy. Not done because `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` were not
-  present in this run's environment.
-- ⬜ Bundle-size budget. The entry chunk is about 300 KB gzipped; the target is under 200 KB.
+- ✅ Live deploy from the owner's PC: https://home-tutor.german-journey.workers.dev (44/44 e2e passed live).
+- ✅ R2 `deploy.sh` fixed (config next to `wrangler.jsonc`; works with OAuth); e2e tests delete the accounts they create.
+- ✅ R2 Bundle-size budget in CI: entry 164 KB gzip (was 291 KB) via a web-only router shim and lazy screens.
+- ✅ R2 Native share-sheet export (expo-sharing); the Android bundle builds.
 - ⬜ Native store builds (they need the owner's Apple and Google accounts and EAS).
 
 ## Later rounds
-1. Deploy, then run the e2e suite against the live URL.
-2. Hindi UI, then Gujarati UI, plus translated content for the most-used items.
+1. ✅ Deploy, then run the e2e suite against the live URL (done from the owner's PC).
+2. ✅ Hindi UI (R2); Gujarati UI next, plus translated content for the most-used items.
 3. Professional reviews of content (medical, first aid, languages) and a translation workflow.
-4. Passkeys; parent and tutor collaboration (inviting a tutor to an account with limited roles).
-5. Realtime classroom (student devices vote in polls); attendance sync; class reports.
-6. Native builds (Android first) with EAS; share sheet for exports; native print.
+4. ✅ Passkeys and tutor invite accounts (R2); next: tutor session notes the parent sees.
+5. Realtime classroom (student devices vote in polls); ✅ attendance sync and class reports (R2).
+6. Native builds (Android first) with EAS; ✅ share sheet for exports (R2); native print.
 7. AI tutor, only if the owner chooses a provider and budget (the seam is ready).

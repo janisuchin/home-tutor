@@ -14,9 +14,10 @@
                  │ same origin                                           │ HTTPS + bearer token
  ┌───────────────▼───────────────────────────────────────────────────────▼─────┐
  │ Cloudflare Worker "home-tutor" (api/src/index.ts)                           │
- │  /api/*  auth, sync, Progress Keys, export, delete, AI-tutor stub           │
+ │  /api/*  auth, passkeys, sync, tutors, Progress Keys, export, delete, AI stub│
  │  else    static assets (dist/) from the edge, SPA fallback                  │
- │  D1 database: accounts, sessions, records, progress_keys, snapshots, limits │
+ │  D1: accounts, sessions, records, progress_keys, snapshots, rate_limits,    │
+ │      tutor_links (0002), passkeys + webauthn_challenges (0003)              │
  └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -62,7 +63,7 @@ take the union of their events.
 
 Every synced thing is a `SyncRecord { kind, id, updatedAt, deleted?, data }` (`src/core/sync/merge.ts`).
 
-- **Mutable records** (`family`, `child`, `group`, `assignment`) merge last-writer-wins on
+- **Mutable records** (`family`, `child`, `group`, `assignment`, `attendance`) merge last-writer-wins on
   `updatedAt`. If two writes have the same time, the deletion wins, and otherwise a stable
   comparison of the content decides, so every device ends up the same.
 - **Events** are immutable: the first write wins.
@@ -78,6 +79,37 @@ device uploads a `PassportSnapshot` (first name, age, capabilities, levels, skil
 books and languages) for every child that has an active key. `GET /api/passport/:code` returns the
 snapshot while the key is valid, and is rate limited per IP. The printable passport (`/print/:id`)
 uses the same view and works offline without an account.
+
+### Attendance records (round 2)
+
+One `attendance` record per group per day: id `groupId:day`, data `{ groupId, day, childIds }`,
+last-writer-wins. The class report (`src/core/engine/class-report.ts`) is built from attendance and
+the event log on the device.
+
+### Tutor accounts (round 2)
+
+```
+ parent account ──invite code (hash only, 7 days, one use)──► tutor_links row ◄── tutor account
+        │                                                          │ child_ids (shared)
+        └── records (family, children, events, ...)                │
+                      ▲  read: shared live children + their events  │
+                      └──  write: new events (by = tutor) and 6 learning fields of shared children
+```
+
+- Parent routes: `POST/GET /api/tutors`, `PUT/DELETE /api/tutors/:id` (only the parent's own links).
+- Tutor routes: `POST /api/tutor/accept`, `GET /api/tutor/links`, `POST /api/tutor/links/:id/sync`.
+- The server never returns the family record (it holds the PIN hash) to a tutor, rejects deletes and
+  any other record kind, and overlays only `levelOverrides`, `interests`, `goals`, `strengths`,
+  `growingAreas` and `learningStyles` onto the parent's child record. A removed link answers 403 and
+  the tutor's device forgets that family. Tutored families live in their own device store
+  (`src/data/tutoring.ts`).
+
+### Passkeys (round 2)
+
+Optional extra sign-in on the web with `@simplewebauthn/server` in the Worker and
+`@simplewebauthn/browser` (lazy) in the app. Discoverable credentials, attestation `none`, relying
+party = request host, the page origin must match it, single-use 5-minute challenges, public keys
+only. Password and recovery key keep working.
 
 ## The engines (src/core/engine)
 
@@ -135,7 +167,13 @@ uses the same view and works offline without an account.
     stale-while-revalidate, caches hashed bundles cache-first and never caches `/api`;
   - print styles.
 - **Small downloads.** The dyslexia-friendly font downloads only when a family switches it on.
-  The current entry bundle is about 300 KB gzipped (see STATUS for the size goals).
+  Non-English UI languages are lazy chunks.
+- **Web router shim (round 2).** On the web, Metro maps `expo-router` imports from `src/` to
+  `src/nav/expo-router.web.tsx` (see `metro.config.js`), and the web entry is `index.web.js`. The shim
+  supports what the app uses (push, replace, back, canGoBack, useLocalSearchParams, Stack, Slot,
+  Link) on top of the History API, with an explicit lazy route table (`src/nav/routes.web.ts`, kept
+  in step with `src/app` by a unit test). Android and iOS use the real Expo Router (`index.js`). The
+  entry is 164 KB gzip; CI fails above 200 KB (`npm run check:bundle`).
 
 ## Security and privacy
 
@@ -146,7 +184,8 @@ uses the same view and works offline without an account.
 - **Sessions:** random 256-bit tokens, stored hashed, lasting 90 days.
 - **Recovery key:** one random 20-character key, stored hashed and rotated on each use; using it
   signs out every session.
-- **Rate limits** (fixed windows in D1):
+- **Rate limits** (fixed windows in D1; round 2 adds tutor-invite accepts, 10 per account and 30 per IP
+  per hour, and passkey sign-in options, 30 per IP per hour):
   - signup: 10 per IP per hour;
   - login: 5 per account per 15 minutes and 30 per IP per hour;
   - recovery: 5 per account and 20 per IP per hour;
@@ -166,6 +205,8 @@ and no key exists.
 ## Native builds (later)
 
 - **Native content:** `src/content/loader.ts` (native) bundles all content.
+- **Exports:** `src/ui/download.native.ts` writes to the cache and opens the share sheet
+  (expo-sharing); the web version downloads a file.
 - **API address:** `src/data/api.ts` uses `app.json` `extra.apiBase` or the default Workers URL.
 - **Store builds:** these need the owner's Apple and Google accounts and an EAS project. Bundle
   ids are already set (`app.hometutor`).

@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { accountToken, deleteAccountByToken, enterPin, seed, signUp, testEmail, tid } from './helpers';
+import { accountToken, deleteAccountByToken, enterPin, expectNoSeriousA11y, seed, signUp, testEmail, tid } from './helpers';
 
 test('add a passkey, sign out, then sign in with the passkey', async ({ page }) => {
   // Chromium's virtual authenticator stands in for a phone's fingerprint or screen lock.
@@ -20,6 +20,7 @@ test('add a passkey, sign out, then sign in with the passkey', async ({ page }) 
     await tid(page, 'add-passkey').click();
     await expect(page.getByText(/Passkey added/).locator('visible=true')).toBeVisible();
     await expect(tid(page, 'passkey-item')).toContainText('Test phone');
+    await expectNoSeriousA11y(page);
 
     await page.getByRole('button', { name: 'Sign out' }).locator('visible=true').click();
     await tid(page, 'account-mode-login').click();

@@ -1,7 +1,7 @@
 # Status
 
-**Round 1** (unattended cloud run, 2026-11-25). Branch: `claude/home-tutor-build-round-1-y38fvz`,
-fast-forwarded to `main`.
+**Round 2** (unattended cloud run, 2026-11-25). Branch: `claude/home-tutor-round-2-3qphas`,
+fast-forwarded to `main`. Round 1 is summarised under *Done in round 1* below.
 
 ## Live links
 
@@ -10,7 +10,48 @@ fast-forwarded to `main`.
   full Playwright suite passed against the live URL, 44 of 44. Round 2 work is deployed by the PC
   after this round (this cloud environment has no Cloudflare keys).
 
-## Done
+## Done in round 2
+
+1. **Owner updates.**
+   - Live link at the top of README and this file.
+   - `scripts/deploy.sh` fixed: the temporary config is now `wrangler.deploy.jsonc` at the repo root
+     (gitignored, removed on exit), so `main`, `assets.directory` and `migrations_dir` resolve
+     correctly. It checks `wrangler whoami`, so it works with OAuth on a PC and no
+     `CLOUDFLARE_API_TOKEN`/`CLOUDFLARE_ACCOUNT_ID`. New migrations 0002 and 0003 are additive.
+   - Every e2e test that signs up deletes its account at the end, in a `finally` block, through
+     `DELETE /api/account`; one test presses the real Delete-my-account button.
+   - Privacy page contact: the public GitHub Issues page, with a warning not to post personal details.
+   - Set-up follows the device locale (country and UI language), falling back to English; both can be
+     changed at set-up and in Family settings.
+   - The AI tutor stays off and hidden; no paid AI API is called.
+2. **Tutor accounts.** A parent invites a tutor with a one-time code (7 days). The tutor signs in with
+   their own account on their own device, opens *Tutoring*, enters the code and sees only the shared
+   children. They can log sessions, mark lessons done together and change a few learning fields. They
+   cannot delete anything, see the family record or other children, or make Progress Keys. The parent
+   changes the shared children or removes the tutor at any time. Every rule is checked on the server
+   (migration 0002), with 9 unit tests and an e2e test.
+3. **Hindi UI** (`hi.json`, all keys) with a language picker at set-up and in Family settings. It is a
+   lazy chunk (about 19 KB gzip). The i18n test checks every locale for missing, extra and
+   untranslated keys and for broken placeholders.
+4. **Bundle size.** The entry fell from 291 KB to **164 KB gzip** (everything on the first load:
+   184 KB). On the web a small router shim replaces Expo Router's runtime, and every screen is lazy;
+   Android and iOS keep Expo Router. CI runs `npm run check:bundle` (200 KB budget; 60 KB per chunk).
+5. **Classroom.** Attendance syncs as records (one per group per day). A printable class report
+   covers 7, 30 or 90 days: attendance, activities, group lessons, minutes, quiz average,
+   adult-confirmed skills and areas.
+6. **Content.**
+   - 18 new items for ages 3-5, two each in financial literacy, independent learning, projects, arts,
+     careers, civics, environment, philosophy and worldviews, and technology. All are picture-first
+     and read-aloud friendly.
+   - Emergency numbers: 21 of the 23 unverified countries are now verified from official government
+     travel-advice pages, and 7 entries were corrected. Sri Lanka (fire number) and Indonesia stay
+     unverified because the official sources disagree.
+7. **Passkeys** (WebAuthn) as an optional extra sign-in on the web. Migration 0003; unit tests use a
+   software authenticator and e2e uses Chromium's virtual authenticator.
+8. **Native readiness.** On Android and iOS, exports open the share sheet (expo-sharing), and the
+   print screen can share the passport file. The Android bundle builds (`expo export -p android`).
+
+## Done in round 1
 
 - **P0 Plan.** README (all rights reserved), PLAN, ARCHITECTURE, DECISIONS (33 decisions) and this
   STATUS file.
@@ -75,73 +116,63 @@ fast-forwarded to `main`.
 
 | Check | Result |
 |---|---|
-| Content validator | **passed**: 389 items, 0 errors |
+| Content validator | **passed**: 407 items, 0 errors |
 | TypeScript (`tsc --noEmit`, strict) | **passed**: 0 errors |
-| Unit tests (Vitest) | **58 / 58 passed** (engine 22, sync/crypto/content/i18n 15, API 21) |
-| E2E (Playwright, Chromium) | **44 / 44 passed**: phone 19, tablet 8, desktop 8, projector 9 |
-| Accessibility (axe, WCAG 2 A/AA, serious and critical) | **0 violations** on 6 key screens at 4 sizes |
-| Worker bundle (`wrangler deploy --dry-run`) | builds, 23 KB |
-| Web bundle | entry chunk 1.1 MB raw / about 296 KB gzip; route chunks 1-33 KB; content catalogue 238 KB raw |
+| Unit tests (Vitest) | **83 / 83 passed**: API 22, engine and class report 23, sync/crypto/content/i18n 18, tutors 9, passkeys 4, locale 4, web router 3 |
+| E2E (Playwright, Chromium) | **50 / 50 passed**: phone 25, tablet 8, desktop 8, projector 9 |
+| Accessibility (axe, WCAG 2 A/AA, serious and critical) | **0 violations** on 6 key screens at 4 sizes, plus the Tutors, Tutoring, Passkeys and Class report screens |
+| Web bundle (`npm run check:bundle`) | entry **164 KB gzip**; first load in total 184 KB (budget 200 KB); 32 lazy chunks, the largest is Hindi at 19 KB |
+| Worker bundle (`wrangler deploy --dry-run`) | builds, 137 KB gzip (the WebAuthn library) |
+| Android bundle (`expo export -p android`) | builds |
 
-## Content review done in this round
+E2E clean-up: every test that signs up deletes its account, so a live run leaves no data behind.
 
-Two review agents checked the content against current guidance:
-- **Health and first aid.** Corrected or updated, among others: period cycle length and when to
-  see a doctor, nosebleed timing (10-15 minutes), choking steps (5 back blows, then 5 abdominal
-  thrusts, then call), hypothermia as always an emergency, adrenaline pen before calling, and
-  adult guidance for when a child discloses abuse.
-- **Practical safety.** Raised four items to Amber: water play for ages 3-5, plaster of Paris,
-  night sky-watching, and a conservation project. Removed unsafe substitutions (camping stove
-  indoors, tyres for food plants, plastic bags for ages 3-5). Fixed wrong quiz answers (tally
-  marks, R = 2). Simplified animal items for ages 3-5.
+## Content now
 
-Quiz and simulation answers are now shuffled each time, because 177 of 239 quiz questions had the
-right answer first.
+- 407 items. Per band: 3-5 has 103, 6-8 has 142, 9-11 has 156, 12-14 has 179, 15-17 has 136.
+- Safety ratings: 118 green, 59 amber, 10 red.
+- Emergency numbers: 66 countries, 64 verified.
 
 ## Not done or partly done (honest list)
 
-- **Live deploy.** Not done: there are no Cloudflare credentials (see above).
-- **Hindi and Gujarati UI.** Planned for rounds 2 and 3. The i18n structure is ready.
-- **Professional review.** Health content needs a medical professional, first aid needs a
-  certified instructor, and the vocabulary packs need native speakers. The Gujarati pack is the
-  thinnest.
-- **Some source links could not be fetched** from the build sandbox, probably because the proxy or
-  the sites block automated requests: ifrc.org, redcross.org.uk, 911.gov, crtc.gc.ca,
-  triplezero.gov.au, 112.gov.in and police.go.kr. They should be checked by hand.
-- **Classroom features are local-first.** Polls and class questions live on the teacher's device.
-  Attendance is not synced. There is no voting from students' own devices yet.
-- **Native apps** are not built or tested yet. The code paths exist: bundled content, an API base
-  URL and bundle ids. On native, delete confirmations use the web `confirm()` fallback (no
-  dialog), and exports and printing are web-only.
-- **Passkeys** are not implemented.
-- **Bundle size.** The entry chunk is about 296 KB gzip; the target is under 200 KB.
-- **Signing in on a device that already has a different family:** the two families are not merged.
-  The last-written family record wins, but children from both are kept.
+- **Not deployed from here.** This environment has no Cloudflare keys. The owner's PC should run
+  `scripts/deploy.sh`, which applies migrations 0002 (tutors) and 0003 (passkeys), and then the e2e
+  suite against the live URL.
+- **Hindi needs a native speaker's review.** Helper agents drafted it and the tests check it is
+  complete. Their notes:
+  - Some strings use both gender forms (रहा/रही).
+  - Amber is shown as पीला (yellow).
+  - "Advanced" became मुश्किल ("hard").
+- **Gujarati UI** is planned for round 3.
+- **Passkeys are web-only.** Native passkeys need associated domains tied to the owner's Apple and
+  Google developer accounts.
+- **Classroom polls** still live on the teacher's device; voting from students' own devices needs
+  realtime (Durable Objects).
+- **Native apps** build as bundles but are not built or tested on devices; store builds need the
+  owner's EAS, Apple and Google accounts. Native printing still uses the share sheet instead of a PDF.
+- **Professional review** (medical, first aid, languages) is still open; see the round 1 questions below.
+- **Emergency numbers:** Sri Lanka and Indonesia are unverified. travel.state.gov,
+  smartraveller.gov.au and Indonesia's 112 portal could not be fetched from the sandbox.
+- **Signing in on a device that already has a different family:** the two families are not merged
+  (unchanged from round 1).
 
 ## Open questions for the owner
 
-1. **Cloudflare.** Please add `CLOUDFLARE_API_TOKEN` (with Workers Scripts, D1 and Workers Routes
-   edit rights) and `CLOUDFLARE_ACCOUNT_ID` to the cloud environment as secrets, so the next round
-   can deploy and test against the live URL.
-2. **Medical review.** Who will review the health and puberty lessons? Until then every one is
-   labelled *Awaiting review by a medical professional*.
-3. **Contact address for the privacy page.** It currently says contact details will be added later.
-4. **Separate tutor accounts.** Should a tutor get their own login with access to only the
-   children a parent shares (a role-limited invite)? Today a tutor uses the family's device and PIN,
-   or a read-only Progress Key.
-5. **Expert checks the reviewers flagged.**
-   - Abdominal thrusts taught to ages 12-17 without a course.
-   - The "raise their legs" advice for shock and fainting.
-   - Timings for treating low blood sugar.
-   - Seizure wording for ages 9-11.
-   - All puberty age ranges.
-   - Swimming and water-safety wording, checked by a qualified instructor.
-   - The "be a tree" dog advice.
-   - Food-chilling, horse-feeding and carbon-factor rules of thumb.
-   - Whether the NCMEC "Take It Down" service may be named under the no-brand rule.
-6. **Default country and language.** The current default is India and English. Should it follow
-   the device locale instead?
+1. **Hindi review.** Who can review `src/i18n/locales/hi.json`?
+2. **Medical and first-aid review.** Still open from round 1. Every health lesson is labelled
+   *Awaiting review by a medical professional*.
+3. **Expert checks** flagged in round 1:
+   - abdominal thrusts for ages 12-17;
+   - the "raise their legs" advice;
+   - timings for treating low blood sugar;
+   - seizure wording;
+   - puberty age ranges;
+   - water-safety wording;
+   - the "be a tree" dog advice;
+   - food-chilling, horse-feeding and carbon-factor rules of thumb;
+   - whether "Take It Down" may be named.
+4. **Native store accounts (EAS, Apple, Google).** When should Android builds start?
 
 ## Next session prompt
 
-HOME TUTOR - BUILD ROUND 2 (unattended cloud run). Nobody is watching: never ask questions, decide yourself and record each decision with its reason in docs/DECISIONS.md, and push your branch after every finished step (a save point at least every 15-20 minutes). Read docs/STATUS.md, docs/PLAN.md, docs/ARCHITECTURE.md and docs/DECISIONS.md first, then the brief docs/brief/MASTER_PROMPT_V2.md where needed. Work on a new claude/ branch from main. Goals in order: (1) If CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID are in the environment, run scripts/deploy.sh, then run the Playwright suite against the live URL with E2E_BASE_URL set, fix anything that only fails live, and put the live links at the top of README.md and docs/STATUS.md; if they are missing, say so in STATUS.md and continue. (2) Add the Hindi UI locale (src/i18n/locales/hi.json, every key, natural child-friendly Hindi, with a language picker already in Family settings) and make sure the i18n unit test checks every locale for missing keys; keep Gujarati for round 3. (3) Cut the web entry bundle below 200 KB gzip without losing features (measure first; lazy-load QR code, svg-heavy screens and anything not needed on the first screen), and add a bundle-size check to CI. (4) Classroom: sync attendance to the cloud as records, and add a printable class report. (5) Add passkeys (WebAuthn) as an optional extra sign-in on the Worker, with tests. (6) Content: add at least 15 more items for ages 3-5 across the weakest areas (picture-first, read-aloud friendly), keep the validator passing, and re-check the 23 unverified emergency numbers. (7) Native readiness: replace window.confirm with a cross-platform confirm dialog component, and add a share-sheet export path for native. Keep all existing tests green, add tests for new work, keep CI passing, update docs/STATUS.md with test numbers and a new Next session prompt section, then fast-forward main to your branch and push both. Never commit secrets, account IDs, personal data or the owner name or email; do not add a licence; do not call any paid AI API.
+HOME TUTOR - BUILD ROUND 3 (unattended cloud run). Nobody is watching: never ask questions, decide yourself and record each decision with its reason in docs/DECISIONS.md, and push your branch after every finished step (a save point at least every 15-20 minutes). Read docs/STATUS.md, docs/PLAN.md, docs/ARCHITECTURE.md and docs/DECISIONS.md first, then the brief docs/brief/MASTER_PROMPT_V2.md where needed. Work on a new claude/ branch from main. The app is live at https://home-tutor.german-journey.workers.dev and is deployed from the owner's PC; this cloud environment has no Cloudflare keys, so do not deploy, keep everything deployable, and keep new D1 migrations additive (0001 to 0003 exist). Goals in order: (1) Add the Gujarati UI locale (src/i18n/locales/gu.json, every key, natural child-friendly Gujarati, loaded lazily like Hindi) and keep the i18n tests green for every locale. (2) Realtime classroom: let students vote in polls and send class questions from their own devices with a short join code, using a Durable Object, with server-side checks, tests and no personal data. (3) Spaced review of mastered items in the what-next engine, with unit tests. (4) A family-level equipment inventory used by the engine and set-up. (5) Tutors: let a tutor add a short session note that the parent sees, still with no delete rights; and a parent view of tutor activity. (6) Content: at least 15 more items for ages 6-8 in the weakest areas, keep the validator passing. (7) Keep the web entry bundle under 200 KB gzip (CI check) and the e2e suite clean-up rule (every test that signs up deletes its account). Keep all existing tests green, add tests for new work, keep CI passing, update docs/STATUS.md with test numbers and a new Next session prompt section (no double quotes in it), then fast-forward main to your branch and push both. Never commit secrets, account IDs, database ids, personal data or the owner name or email; do not add a licence; do not call any paid AI API; the AI tutor stays off and hidden.

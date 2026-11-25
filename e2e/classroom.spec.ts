@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { accountToken, deleteAccountByToken, enterPin, seed, signUp, testEmail, tid } from './helpers';
+import { accountToken, deleteAccountByToken, enterPin, expectNoSeriousA11y, seed, signUp, testEmail, tid } from './helpers';
 
 test('@projector classroom: group, attendance, shared lesson, presentation, poll and questions', async ({ page }) => {
   await seed(page, {
@@ -52,6 +52,7 @@ test('@projector classroom: group, attendance, shared lesson, presentation, poll
   await expect(tid(page, 'report-row-Ana')).toContainText('1/1');
   await expect(tid(page, 'report-row-Chen')).toContainText('0/1');
   await expect(tid(page, 'print-report')).toBeVisible();
+  await expectNoSeriousA11y(page);
 });
 
 test('attendance syncs to the cloud as records', async ({ page }) => {

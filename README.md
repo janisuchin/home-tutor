@@ -32,8 +32,13 @@ keeps asking one question: **what does this particular child need next?**
   parent-guided, tutor-guided or private modes. Every lesson is labelled *Awaiting review by a
   medical professional*. Gender only switches on the relevant health modules; it never limits what
   a child may learn.
-- **Dashboards for parents, tutors and children**, a classroom mode with attendance and group work,
-  and a projector or TV presentation mode with polls and class questions.
+- **Dashboards for parents, tutors and children**, a classroom mode with attendance (synced) and
+  group work, a printable class report, and a projector or TV presentation mode with polls and
+  class questions.
+- **Tutor accounts.** A parent invites a tutor with a one-time code. The tutor uses their own account
+  on their own device, sees and updates only the children the parent shared, cannot delete anything,
+  and can be removed by the parent at any time.
+- **English and Hindi** interface (Gujarati next), chosen from the device language at set-up.
 - **Progress Key.** A code, link or QR code opens a read-only Learning Passport for a new tutor or
   school. The parent can set an expiry and revoke it. There is also a printable passport that can
   be saved as a PDF.
@@ -53,7 +58,7 @@ keeps asking one question: **what does this particular child need next?**
 - **Hosting:** the web build is a PWA served by a single Cloudflare Worker (`home-tutor`) from
   static assets.
 - **API:** the same Worker serves `/api/*` with a D1 database. Accounts use email and password
-  (PBKDF2), with a one-time recovery key instead of email, rate limits and sync.
+  (PBKDF2), with a one-time recovery key instead of email, optional passkeys, rate limits and sync.
 - **Content:** JSON packs in `content/`, checked by `scripts/validate-content.ts`.
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), [docs/PLAN.md](docs/PLAN.md),
@@ -69,6 +74,7 @@ npm run web               # dev server (Expo)
 npm test                  # unit tests (engine, sync, API, content, i18n)
 npm run build:web         # production PWA in dist/
 npm run serve             # serve dist/ + a local API on http://localhost:8787
+npm run check:bundle      # bundle-size budget (entry below 200 KB gzip)
 npx playwright test       # end-to-end tests at phone, tablet, desktop and projector sizes
 ```
 

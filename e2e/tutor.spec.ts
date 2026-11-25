@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test';
-import { accountToken, deleteAccountByToken, enterPin, seed, signUp, testEmail, tid } from './helpers';
+import { accountToken, deleteAccountByToken, enterPin, expectNoSeriousA11y, seed, signUp, testEmail, tid } from './helpers';
 
 test('a parent invites a tutor, who sees only the shared child, logs a session, and is removed', async ({ page, browser }) => {
   let parentToken: string | null = null;
@@ -21,6 +21,7 @@ test('a parent invites a tutor, who sees only the shared child, logs a session, 
     await tid(page, 'create-invite').click();
     const code = (await tid(page, 'invite-code').textContent())!;
     expect(code).toMatch(/^[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/);
+    await expectNoSeriousA11y(page);
 
     // The tutor uses their own account on their own device.
     await tutor.goto('/');
@@ -34,6 +35,7 @@ test('a parent invites a tutor, who sees only the shared child, logs a session, 
     await tid(tutor, 'accept-invite').click();
     await expect(tid(tutor, 'tutored-Asha')).toBeVisible();
     await expect(tutor.getByTestId('tutored-Kabir')).toHaveCount(0);
+    await expectNoSeriousA11y(tutor);
     await tid(tutor, 'log-Asha-30').click();
 
     // The tutor's session reaches the parent's account, recorded as by the tutor.

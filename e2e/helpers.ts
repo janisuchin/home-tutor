@@ -103,3 +103,11 @@ export async function signUp(page: Page, email: string, password = 'our family l
 export function testEmail(prefix: string) {
   return `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2)}@example.org`;
 }
+
+/** Axe check (WCAG 2 A/AA): no serious or critical violations on the current screen. */
+export async function expectNoSeriousA11y(page: Page) {
+  const { default: AxeBuilder } = await import('@axe-core/playwright');
+  const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).disableRules(['scrollable-region-focusable']).analyze();
+  const serious = results.violations.filter((v) => v.impact === 'serious' || v.impact === 'critical');
+  if (serious.length) throw new Error(`accessibility: ${serious.map((v) => `${v.id} (${v.nodes[0]?.target})`).join(', ')}`);
+}
