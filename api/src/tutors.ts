@@ -152,6 +152,9 @@ function okId(v: unknown): v is string {
  * Sync for a tutor through one link. Reads: the shared children and their progress events.
  * Writes: new progress events and allowed learning fields of shared children only.
  */
+/** Longest tutor session note the server keeps (D-058). */
+export const NOTE_MAX = 500;
+
 export async function tutorSync(req: Request, env: Env, tutorAccountId: string, linkId: string) {
   const link = await tutorLink(env, tutorAccountId, linkId);
   const parent = link.parent_account_id;
@@ -178,7 +181,13 @@ export async function tutorSync(req: Request, env: Env, tutorAccountId: string, 
       }
       const exists = await env.DB.prepare("SELECT 1 AS x FROM records WHERE account_id = ? AND kind = 'event' AND id = ?").bind(parent, r.id).first();
       if (exists) continue; // events never change: first write wins
-      writes.push({ kind: 'event', id: r.id, updatedAt: r.updatedAt, data: { ...r.data, id: r.id, by: 'tutor' } });
+      // Stamped by the server: who wrote it (a tutor, through this link). A session note is short text.
+      const data: Record<string, unknown> = { ...r.data, id: r.id, by: 'tutor', tutorLinkId: linkId };
+      if (data.text !== undefined) {
+        if (typeof data.text !== 'string') delete data.text;
+        else data.text = data.text.slice(0, NOTE_MAX);
+      }
+      writes.push({ kind: 'event', id: r.id, updatedAt: r.updatedAt, data });
     } else if (r.kind === 'child') {
       if (!sharedSet.has(r.id)) {
         rejected++;

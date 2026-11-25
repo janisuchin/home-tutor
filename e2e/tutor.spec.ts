@@ -36,6 +36,7 @@ test('a parent invites a tutor, who sees only the shared child, logs a session, 
     await expect(tid(tutor, 'tutored-Asha')).toBeVisible();
     await expect(tutor.getByTestId('tutored-Kabir')).toHaveCount(0);
     await expectNoSeriousA11y(tutor);
+    await tid(tutor, 'note-Asha').fill('Fractions with a recipe; practise halves next.');
     await tid(tutor, 'log-Asha-30').click();
 
     // The tutor's session reaches the parent's account, recorded as by the tutor.
@@ -43,13 +44,16 @@ test('a parent invites a tutor, who sees only the shared child, logs a session, 
       .poll(async () => {
         const r = await page.request.post('/api/sync', { headers: { authorization: `Bearer ${parentToken}` }, data: { cursor: 0, changes: [] } });
         const body = await r.json();
-        return body.changes.some((c: any) => c.kind === 'event' && c.data.by === 'tutor' && c.data.minutes === 30);
+        return body.changes.some((c: any) => c.kind === 'event' && c.data.by === 'tutor' && c.data.minutes === 30 && c.data.text?.startsWith('Fractions'));
       })
       .toBe(true);
 
     await page.reload();
     await enterPin(page).catch(() => {});
     await expect(tid(page, 'tutor-status-Maths tutor')).toContainText('Joined');
+    // The parent reads the tutor's session note and activity (after the device syncs).
+    await expect(tid(page, 'tutor-activity-Maths tutor')).toContainText('Fractions with a recipe', { timeout: 20_000 });
+    await expect(tid(page, 'tutor-activity-Maths tutor')).toContainText('1 sessions, 30 minutes');
     page.once('dialog', (d) => d.accept());
     await tid(page, 'remove-tutor-Maths tutor').click();
     await expect(page.getByTestId('tutor-link-Maths tutor')).toHaveCount(0);

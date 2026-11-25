@@ -114,6 +114,7 @@ function ChildBlock({ linkId, c, events }: { linkId: string; c: Child; events: T
   }, [c, mine, catalog]);
   if (!data) return <Txt variant="small">{t('common.loading')}</Txt>;
   const sessions = mine.filter((e) => e.by === 'tutor' && e.type === 'minutes').length;
+  const [note, setNote] = useState('');
   return (
     <Card testID={`tutored-${c.name}`}>
       <Row>
@@ -152,11 +153,39 @@ function ChildBlock({ linkId, c, events }: { linkId: string; c: Child; events: T
           </Card>
         ))}
       </Grid>
+      <Field
+        testID={`note-${c.name}`}
+        label={t('tutoring.note')}
+        hint={t('tutoring.noteHint')}
+        value={note}
+        onChangeText={(v) => setNote(v.slice(0, 500))}
+        multiline
+      />
       <Row wrap>
         {[30, 45, 60].map((m) => (
-          <Button key={m} small variant="secondary" icon="⏱️" testID={`log-${c.name}-${m}`} label={t('tutoring.logSession', { n: m })} onPress={() => addTutorEvent(linkId, { childId: c.id, type: 'minutes', minutes: m })} />
+          <Button
+            key={m}
+            small
+            variant="secondary"
+            icon="⏱️"
+            testID={`log-${c.name}-${m}`}
+            label={t('tutoring.logSession', { n: m })}
+            onPress={() => {
+              addTutorEvent(linkId, { childId: c.id, type: 'minutes', minutes: m, ...(note.trim() ? { text: note.trim() } : {}) });
+              setNote('');
+            }}
+          />
         ))}
       </Row>
+      {mine
+        .filter((e) => e.by === 'tutor' && e.type === 'minutes' && e.text)
+        .slice(-3)
+        .reverse()
+        .map((e) => (
+          <Txt key={e.id} variant="small">
+            📝 {new Date(e.at).toLocaleDateString()}: {e.text}
+          </Txt>
+        ))}
     </Card>
   );
 }

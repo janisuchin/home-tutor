@@ -174,6 +174,8 @@ export interface ProgressEvent {
   groupId?: string;
   /** A book from the reading list (type 'book'); text keeps the title for the passport. */
   bookId?: string;
+  /** Set by the server on events a tutor wrote: the tutor link (so the parent sees which tutor). */
+  tutorLinkId?: string;
 }
 
 export interface Group {

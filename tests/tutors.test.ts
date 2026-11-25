@@ -178,3 +178,23 @@ describe('tutor device merge', async () => {
     expect(f.events.map((e) => e.id).sort()).toEqual(['e1', 'e2', 'e3']);
   });
 });
+
+describe('tutor session notes and activity (round 3)', () => {
+  it('stamps the tutor link on tutor events, keeps a short note, and the parent sees it', async () => {
+    const parent = await parentWithChildren();
+    const inv = await invite(parent, ['asha']);
+    const tutor = await signup('tutor@example.org');
+    await call('POST', '/tutor/accept', { code: inv.code }, tutor);
+    const note = { kind: 'event', id: 't-n1', updatedAt: 2000, data: { id: 't-n1', childId: 'asha', type: 'minutes', minutes: 45, text: 'Fractions with a recipe. ' + 'x'.repeat(900), by: 'parent', tutorLinkId: 'forged', at: 2000 } };
+    expect((await call('POST', `/tutor/links/${inv.id}/sync`, { cursor: 0, changes: [note] }, tutor)).body.rejected).toBe(0);
+    const p = await call('POST', '/sync', { cursor: 0, changes: [] }, parent);
+    const ev = p.body.changes.find((c: any) => c.id === 't-n1').data;
+    expect(ev.by).toBe('tutor');
+    expect(ev.tutorLinkId).toBe(inv.id); // set by the server, not by the device
+    expect(ev.text.length).toBe(500);
+    expect(ev.text.startsWith('Fractions with a recipe.')).toBe(true);
+    // Still no delete rights: a deleted event is rejected.
+    const del = await call('POST', `/tutor/links/${inv.id}/sync`, { cursor: 0, changes: [{ ...note, id: 't-n2', deleted: true }] }, tutor);
+    expect(del.body.rejected).toBe(1);
+  });
+});

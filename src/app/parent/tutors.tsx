@@ -4,12 +4,14 @@
  */
 import React, { useCallback, useEffect, useState } from 'react';
 import { router } from 'expo-router';
+import { View } from 'react-native';
 import { Button, Card, Chip, Field, Notice, Row, Screen, Section, Txt } from '../../ui/kit';
 import { ParentGate } from '../../ui/ParentGate';
 import { confirmAsync } from '../../ui/confirm';
 import { useT } from '../../i18n';
 import { useAppState } from '../../data/store';
-import { useChildren } from '../../data/hooks';
+import { useCatalog, useChildren } from '../../data/hooks';
+import { tutorActivity } from '../../core/engine/tutor-activity';
 import { api, ApiError, type TutorInfo } from '../../data/api';
 import { syncNow } from '../../data/sync';
 import { formatCode } from '../../core/crypto';
@@ -29,6 +31,8 @@ function Tutors() {
   const account = useAppState((s) => s.account);
   const family = useAppState((s) => s.family);
   const children = useChildren();
+  const allEvents = useAppState((s) => s.events);
+  const catalog = useCatalog();
   const [tutors, setTutors] = useState<TutorInfo[]>();
   const [pick, setPick] = useState<string[]>([]);
   const [label, setLabel] = useState('');
@@ -117,6 +121,26 @@ function Tutors() {
             <Txt variant="small" testID={`tutor-status-${tu.label}`}>
               {tu.acceptedAt ? t('tutors.accepted', { date: new Date(tu.acceptedAt).toLocaleDateString() }) : t('tutors.waiting', { date: new Date(tu.expiresAt).toLocaleDateString() })}
             </Txt>
+            {(() => {
+              const a = tutorActivity(allEvents, tu.id);
+              return (
+                <View testID={`tutor-activity-${tu.label}`} style={{ gap: 2 }}>
+                  <Txt variant="label">{t('tutors.activity')}</Txt>
+                  <Txt variant="small">{t('tutors.activitySummary', { sessions: a.sessions, minutes: a.minutes, items: a.itemsDone })}</Txt>
+                  {a.recent.map((e) => (
+                    <Txt key={e.id} variant="small">
+                      {new Date(e.at).toLocaleDateString()} · {name(e.childId)} ·{' '}
+                      {e.type === 'minutes'
+                        ? t('tutors.activitySession', { n: e.minutes ?? 0 })
+                        : e.type === 'completed'
+                          ? t('tutors.activityDone', { title: catalog?.items.find((i) => i.id === e.itemId)?.title ?? e.itemId ?? '' })
+                          : e.type}
+                      {e.note ? ` · 📝 ${e.note}` : ''}
+                    </Txt>
+                  ))}
+                </View>
+              );
+            })()}
             <Txt variant="label">{t('tutors.sees')}</Txt>
             <Row wrap>
               {children.map((c) => {
