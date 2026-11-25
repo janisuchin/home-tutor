@@ -274,7 +274,15 @@ function LanguageCorner({ hooks, languages }: { hooks: string[]; languages: stri
 
 function Check({ item, childId }: { item: ContentItem; childId: string }) {
   const t = useT();
-  const qs = item.check!;
+  // Options are shuffled each time so children cannot learn that the first answer is right.
+  const qs = useMemo(
+    () =>
+      item.check!.map((q) => {
+        const order = shuffledIndexes(q.options.length);
+        return { ...q, options: order.map((k) => q.options[k]), answer: order.indexOf(q.answer) };
+      }),
+    [item],
+  );
   const [answers, setAnswers] = useState<(number | undefined)[]>(qs.map(() => undefined));
   const [missed, setMissed] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -347,7 +355,10 @@ function Check({ item, childId }: { item: ContentItem; childId: string }) {
 
 function Simulation({ item, childId, onDone }: { item: ContentItem; childId: string; onDone: () => void }) {
   const t = useT();
-  const sim = item.simulation!;
+  const sim = useMemo(
+    () => ({ ...item.simulation!, steps: item.simulation!.steps.map((st) => ({ ...st, options: shuffledIndexes(st.options.length).map((k) => st.options[k]) })) }),
+    [item],
+  );
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | undefined>();
   const [correct, setCorrect] = useState(0);
@@ -417,4 +428,13 @@ function Simulation({ item, childId, onDone }: { item: ContentItem; childId: str
       )}
     </Section>
   );
+}
+
+function shuffledIndexes(n: number): number[] {
+  const a = Array.from({ length: n }, (_, i) => i);
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }

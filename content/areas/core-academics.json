@@ -402,7 +402,7 @@
       "steps": [
         "Look at a plate. It is a circle!",
         "Find a square. Maybe a window or a cushion?",
-        "Find a triangle. Look at a slice of bread cut in half.",
+        "Find a triangle. Look at a slice of bread cut corner to corner.",
         "Draw one shape in the air with your finger."
       ],
       "practical": false,
@@ -588,20 +588,20 @@
       "minutes": 20,
       "summary": "Will it sink? Will it float? Let us guess and see.",
       "steps": [
-        "Fill a bowl with water. An adult helps.",
-        "Pick a spoon, a leaf, a cork and a stone.",
-        "Guess: sink or float?",
-        "Drop it in gently. Watch!",
-        "Was your guess right? Try one more thing."
+        "🥣 An adult helps fill a shallow bowl with water.",
+        "🥄 Pick a spoon, a leaf, a cork and a stone.",
+        "🤔 Guess: sink or float?",
+        "💧 Drop it in gently. Watch!",
+        "✅ Was your guess right? Try one more thing."
       ],
       "practical": true,
       "safety": {
-        "rating": "green",
+        "rating": "amber",
         "hazards": [
           "Water spills and slippery floor",
           "Small objects can be swallowed"
         ],
-        "notes": "Use a shallow bowl, not a bath or bucket. An adult stays close: young children must never be left alone with water. Use objects too big to swallow and wipe spills straight away."
+        "notes": "Water play for young children needs an adult beside them the whole time. Use a shallow bowl, not a bath or bucket, and empty it straight after. Use objects too big to swallow and wipe spills straight away. If an egg is used, wash hands afterwards."
       },
       "versions": {
         "basic": {
@@ -662,6 +662,18 @@
           ],
           "answer": 1,
           "explain": "A leaf is light and flat, so it floats."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Accident prevention advice",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        },
+        {
+          "title": "Drowning fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/drowning"
         }
       ]
     },
@@ -2157,7 +2169,7 @@
       "steps": [
         "Learn the parts of a negative feedback loop: stimulus, receptor, control centre, effector, response.",
         "Apply it to temperature: too hot leads to sweating and widening skin blood vessels; too cold leads to shivering.",
-        "Apply it to blood glucose: the hormones insulin and glucagon from the pancreas raise or lower it.",
+        "Apply it to blood glucose: the pancreas releases insulin to lower it and glucagon to raise it.",
         "Draw both loops as diagrams.",
         "Explain in a paragraph why fever is a change in the body's set point, not a failure of control."
       ],
@@ -2273,14 +2285,14 @@
           "explain": "Each case infects fewer than one other person on average."
         },
         {
-          "question": "With R = 2 and 1 starting case, how many new cases in generation 4?",
+          "question": "R = 2. One case (generation 0) infects 2 people (generation 1). How many new cases in generation 4?",
           "options": [
             "16",
             "8",
             "4"
           ],
           "answer": 0,
-          "explain": "1, 2, 4, 8, 16: doubling each generation."
+          "explain": "Generations 0 to 4: 1, 2, 4, 8, 16. The cases double each generation."
         },
         {
           "question": "Prevalence means...",

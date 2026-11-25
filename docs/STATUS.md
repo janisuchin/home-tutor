@@ -84,6 +84,21 @@ https://home-tutor.german-journey.workers.dev.
 | Worker bundle (`wrangler deploy --dry-run`) | builds, 23 KB |
 | Web bundle | entry chunk 1.1 MB raw / about 296 KB gzip; route chunks 1-33 KB; content catalogue 238 KB raw |
 
+## Content review done in this round
+
+Two review agents checked the content against current guidance:
+- **Health and first aid.** Corrected or updated, among others: period cycle length and when to
+  see a doctor, nosebleed timing (10-15 minutes), choking steps (5 back blows, then 5 abdominal
+  thrusts, then call), hypothermia as always an emergency, adrenaline pen before calling, and
+  adult guidance for when a child discloses abuse.
+- **Practical safety.** Raised four items to Amber: water play for ages 3-5, plaster of Paris,
+  night sky-watching, and a conservation project. Removed unsafe substitutions (camping stove
+  indoors, tyres for food plants, plastic bags for ages 3-5). Fixed wrong quiz answers (tally
+  marks, R = 2). Simplified animal items for ages 3-5.
+
+Quiz and simulation answers are now shuffled each time, because 177 of 239 quiz questions had the
+right answer first.
+
 ## Not done or partly done (honest list)
 
 - **Live deploy.** Not done: there are no Cloudflare credentials (see above).
@@ -115,7 +130,17 @@ https://home-tutor.german-journey.workers.dev.
 4. **Separate tutor accounts.** Should a tutor get their own login with access to only the
    children a parent shares (a role-limited invite)? Today a tutor uses the family's device and PIN,
    or a read-only Progress Key.
-5. **Default country and language.** The current default is India and English. Should it follow
+5. **Expert checks the reviewers flagged.**
+   - Abdominal thrusts taught to ages 12-17 without a course.
+   - The "raise their legs" advice for shock and fainting.
+   - Timings for treating low blood sugar.
+   - Seizure wording for ages 9-11.
+   - All puberty age ranges.
+   - Swimming and water-safety wording, checked by a qualified instructor.
+   - The "be a tree" dog advice.
+   - Food-chilling, horse-feeding and carbon-factor rules of thumb.
+   - Whether the NCMEC "Take It Down" service may be named under the no-brand rule.
+6. **Default country and language.** The current default is India and English. Should it follow
    the device locale instead?
 
 ## Next session prompt

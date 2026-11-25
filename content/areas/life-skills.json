@@ -364,7 +364,7 @@
         },
         {
           "instead": "liquid soap",
-          "use": "any bar soap or ash where soap is not available"
+          "use": "any bar soap; a small bar or soap pieces in a sock work too"
         }
       ],
       "competencies": [
@@ -1620,7 +1620,7 @@
         },
         {
           "instead": "hob",
-          "use": "a camping stove or electric hot plate used by an adult"
+          "use": "whatever stove or electric hot plate the family already cooks on, with the adult in charge of the heat (never a camping stove indoors)"
         }
       ],
       "sources": [
@@ -2045,9 +2045,10 @@
         "hazards": [
           "dirty water and germs",
           "splashing",
-          "chemical burns from drain cleaners"
+          "chemical burns from drain cleaners",
+          "chemical splash-back if a drain cleaner was used earlier"
         ],
-        "notes": "Never use or mix chemical drain cleaners. Wear gloves and wash hands after. An adult decides if the trap is opened."
+        "notes": "An adult is nearby and decides if the trap is opened. Never use or mix chemical drain cleaners. If anyone has already poured a drain cleaner in, do not plunge: it can splash the chemical up; leave it to the adult. Wear gloves and wash hands after."
       },
       "versions": {
         "basic": {
@@ -2076,7 +2077,7 @@
       "substitutions": [
         {
           "instead": "plunger",
-          "use": "a cut-off plastic bottle pushed over the drain, or bicarbonate of soda and vinegar fizz followed by warm water"
+          "use": "scoop out debris and pour warm (not boiling) water; an adult may try bicarbonate of soda and vinegar, but never after any chemical drain cleaner"
         }
       ],
       "sources": [
@@ -2351,13 +2352,14 @@
           "sharp points",
           "splinters"
         ],
-        "notes": "Adult supervision required. No power tools without proper training. Never use tools on anything connected to electricity."
+        "notes": "An adult stays beside the learner, checks the tools and holds or clamps the wood. No power tools without proper training. Never use tools on anything connected to electricity."
       },
       "versions": {
         "basic": {
           "cost": "Free",
           "materials": [
             "borrowed hammer",
+            "borrowed safety glasses",
             "scrap wood",
             "old nails"
           ],
@@ -2384,7 +2386,7 @@
       "substitutions": [
         {
           "instead": "safety glasses",
-          "use": "well-fitting swimming goggles or any wrap-around glasses"
+          "use": "borrow a pair (they are cheap and schools or neighbours often have them); ordinary glasses and swimming goggles are not impact-proof, so without eye protection do screwdriver work only and stand well back while the adult hammers"
         },
         {
           "instead": "workbench",
@@ -2809,7 +2811,7 @@
       "substitutions": [
         {
           "instead": "garden bed",
-          "use": "buckets, sacks, crates or old tyres lined with plastic"
+          "use": "buckets, sacks, crates or strong shopping bags with holes in the bottom (avoid old tyres for food plants)"
         },
         {
           "instead": "compost",
@@ -2861,7 +2863,7 @@
       ],
       "level": 6,
       "minutes": 60,
-      "summary": "A dripping tap can waste thousands of litres a year. Replace the washer with an adult.",
+      "summary": "A tap dripping once a second can waste more than a thousand litres a year. Replace the washer with an adult.",
       "steps": [
         "🔴 Turn off the water at the isolating valve or main shut-off. Open the tap to drain it.",
         "🧴 Put the plug in so small parts can not fall down the drain.",

@@ -916,7 +916,7 @@
       "steps": [
         "Choose a question, like \"What is your favourite fruit?\"",
         "Ask at least 8 people (family, neighbours with an adult, or friends by phone).",
-        "Record answers with tally marks: |||| counts as 5.",
+        "Record answers with tally marks: draw four lines, then cross them with a fifth line. That bundle counts as 5.",
         "Draw a bar chart on paper: one bar for each answer.",
         "Write two sentences: what is most popular? What surprised you?",
         "Think: would the answer change if you asked different people?"
@@ -944,7 +944,7 @@
       ],
       "check": [
         {
-          "question": "|||| ||| shows...",
+          "question": "A bundle of 5 (four lines crossed by a fifth), then ||| more. How many?",
           "options": [
             "7",
             "8"

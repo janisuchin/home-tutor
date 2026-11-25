@@ -191,12 +191,12 @@
       "minutes": 15,
       "summary": "Animals can be sorted into groups. Does it have fur, feathers, scales or six legs? Let us sort!",
       "steps": [
-        "Collect pictures, toys or drawings of animals (or name animals you know).",
-        "Fur or hair, and babies drink milk: mammals (dog, cow, whale, you!).",
-        "Feathers and a beak: birds (hen, pigeon, owl).",
-        "Dry scales: reptiles (lizard, snake, turtle). Smooth damp skin, starts life in water: amphibians (frog, newt).",
-        "Fins and gills: fish. Six legs: insects (ant, bee). Eight legs: arachnids (spider).",
-        "Make piles for each group. Which group has the most?"
+        "🧸 Collect animal pictures, toys or drawings.",
+        "🐄 Fur or hair, babies drink milk: mammals (dog, cow, whale, you!).",
+        "🐦 Feathers and a beak: birds (hen, pigeon, owl).",
+        "🦎 Dry scales: reptiles (lizard, snake, turtle). 🐸 Smooth damp skin: amphibians (frog, newt).",
+        "🐟 Fins and gills: fish. 🐜 Six legs: insects. 🕷️ Eight legs: spiders.",
+        "🔢 Make a pile for each group. Which pile is biggest?"
       ],
       "practical": false,
       "check": [
@@ -246,14 +246,14 @@
       ],
       "level": 1,
       "minutes": 10,
-      "summary": "Animals communicate with each other using sounds, smells and body signals. People cannot talk with animals, but we can learn to read their signals by watching carefully.",
+      "summary": "Animals send messages with sounds, smells and their bodies. We cannot talk with animals, but we can watch and learn their signals.",
       "steps": [
-        "Birds sing to say \"this is my place\" and to find a mate.",
-        "A cat may purr when relaxed, and hiss when frightened: \"go away!\".",
-        "A dog uses its tail, ears, mouth and whole body to show how it feels.",
-        "Bees dance to show other bees where flowers are. Ants leave smell trails.",
-        "Play \"Guess the feeling\": a grown-up acts out an animal signal (a cat hissing, a dog with a waggy relaxed body) and you guess how the animal feels.",
-        "We watch from a distance and let animals choose whether to come closer."
+        "🐦 Birds sing to say \"this is my place\".",
+        "🐱 A cat may purr when relaxed, and hiss when scared: \"go away!\".",
+        "🐶 A dog shows how it feels with its tail, ears and whole body.",
+        "🐝 Bees dance to show where flowers are. 🐜 Ants leave smell trails.",
+        "🎭 Game: a grown-up acts out an animal signal. You guess the feeling.",
+        "👀 We watch from far away and let animals choose to come closer."
       ],
       "practical": false,
       "competencies": [
@@ -296,13 +296,16 @@
       "minutes": 10,
       "summary": "If a dog you do not know runs up to you, stand still like a tree. Running or screaming can make a dog chase.",
       "steps": [
-        "Practise the tree pose: stand still, fold your hands in, look at your feet, stay quiet.",
-        "Listen to each story and choose what to do."
+        "🌳 Practise the tree: stand still, fold your hands in, look at your feet, stay quiet.",
+        "🪨 Practise the rock: curl up, hands over ears and neck, stay still.",
+        "👂 Listen to each story and choose what to do."
       ],
       "practical": false,
       "safety": {
         "rating": "green",
-        "hazards": [],
+        "hazards": [
+          "none in the role-play itself; real dogs can bite, so no real dog is used"
+        ],
         "notes": "Role-play only, with no real dog. Practise until the tree pose is automatic."
       },
       "simulation": {
@@ -404,12 +407,12 @@
       "minutes": 15,
       "summary": "Always ask the owner first, then let the dog choose if it wants to say hello. Understand before interacting.",
       "steps": [
-        "Ask the owner: \"May I stroke your dog?\" If they say no, that is OK. Wave hello instead.",
-        "If yes, stand a little sideways, keep calm and still, and let the dog come to you. Do not lean over it.",
-        "If it comes, sniffs and looks relaxed, gently stroke its shoulder or chest, not the top of its head or face.",
-        "Count to three, then stop. Does the dog lean in for more, or move away? If it moves away, let it go.",
-        "Never hug a dog, put your face near its face, or pull its ears or tail.",
-        "Wash your hands afterwards."
+        "🙋 Ask the owner: \"May I stroke your dog?\" No? That is OK. Wave hello instead.",
+        "🧍 Yes? Stand a little sideways and keep still. Let the dog come to you. Do not lean over it.",
+        "✋ If it sniffs and looks relaxed, gently stroke its shoulder or chest, not its head or face.",
+        "3️⃣ Count to three, then stop. Does the dog want more, or move away? Let it choose.",
+        "🚫 Never hug a dog, put your face near its face, or pull its ears or tail.",
+        "🧼 Wash your hands afterwards."
       ],
       "practical": true,
       "safety": {
@@ -508,12 +511,12 @@
       "minutes": 30,
       "summary": "Look under leaves and stones to find tiny creatures. Look closely, count legs, then put everything back just as you found it.",
       "steps": [
-        "Choose a safe spot outside: a garden, park edge or even a crack in a pavement.",
-        "Gently lift a stone or log towards you, so anything underneath can escape away from you.",
-        "Look, do not grab. Use a spoon or soft brush to move a minibeast into a clear pot for a short look.",
-        "Count legs: 6 legs means an insect, 8 legs means an arachnid, lots of legs could be a woodlouse, centipede or millipede, and no legs could be a worm, slug or snail.",
-        "Draw or tally what you find.",
-        "Put the creature back where you found it and lower the stone gently. Wash your hands."
+        "📍 Choose a safe spot with a grown-up: a garden, park edge or a crack in a pavement.",
+        "🪨 A grown-up gently tips a stone or log towards you, so anything underneath can escape the other way.",
+        "👀 Look, do not grab. Use a spoon or soft brush to move a minibeast into a clear pot for a short look.",
+        "🦵 Count legs: 6 = insect, 8 = spider family, lots = woodlouse, centipede or millipede, none = worm, slug or snail.",
+        "✏️ Draw or tally what you find.",
+        "🏠 Put the creature back, lower the stone gently, then wash your hands."
       ],
       "practical": true,
       "safety": {
@@ -620,12 +623,12 @@
       "minutes": 15,
       "summary": "Animals are born or hatch, grow up, have babies and the circle goes on. Some change shape completely as they grow!",
       "steps": [
-        "Mammals: most babies grow inside their mother and drink her milk (puppies, calves, human babies).",
-        "Birds: hatch from eggs that parents keep warm. Chicks are fed until they can fly.",
-        "Frogs: egg (frogspawn), tadpole with a tail, froglet with legs, then frog.",
-        "Butterflies: egg, caterpillar, chrysalis, butterfly. This big change is called metamorphosis.",
-        "Draw a life cycle as a circle with arrows.",
-        "Which baby animals look like their parents? Which look very different?"
+        "🐄 Mammals: most babies grow inside their mother and drink her milk.",
+        "🐣 Birds hatch from eggs. Parents feed the chicks until they can fly.",
+        "🐸 Frogs: egg (frogspawn), tadpole, froglet with legs, then frog.",
+        "🦋 Butterflies: egg, caterpillar, chrysalis, butterfly. This big change is called metamorphosis.",
+        "🔄 Draw a life cycle as a circle with arrows.",
+        "🤔 Which babies look like their parents? Which look very different?"
       ],
       "practical": false,
       "check": [
@@ -675,14 +678,14 @@
       ],
       "level": 1,
       "minutes": 10,
-      "summary": "Even healthy, clean-looking animals can carry germs. Always wash your hands with soap and water after touching animals or their things.",
+      "summary": "Animals can carry germs, even clean ones. Wash your hands with soap and water after touching animals or their things.",
       "steps": [
-        "Germs can pass from animals to people. Some can make us ill.",
-        "After touching any animal, its bed, food, cage or poo: wash hands with soap and water for 20 seconds.",
-        "Do not let animals lick your face or mouth.",
-        "Do not eat or put fingers in your mouth while touching animals.",
-        "Hand gel is not as good as soap and water after animals, especially on farms.",
-        "Practise a handwash now, then tick a chart each time you remember after touching a pet."
+        "🦠 Germs can pass from animals to people. Some can make us ill.",
+        "🧼 After touching an animal, its bed, food, cage or poo: wash with soap and water for 20 seconds.",
+        "👅 Do not let animals lick your face or mouth.",
+        "🍪 Do not eat or put fingers in your mouth while touching animals.",
+        "🚰 Hand gel is not as good as soap and water after animals, especially on farms.",
+        "✅ Practise a handwash now. Tick a chart each time you remember."
       ],
       "practical": true,
       "safety": {
@@ -1940,7 +1943,7 @@
       "substitutions": [
         {
           "instead": "A pond",
-          "use": "A large bucket of rainwater left outside for a few weeks, a puddle, or a free public pond webcam or video"
+          "use": "A tub of rainwater left outside for a few days (tip it out within a week so mosquitoes cannot breed, and keep it away from small children), a puddle, or a free public pond webcam or video"
         },
         {
           "instead": "Pond net",
@@ -2616,13 +2619,13 @@
       ],
       "practical": true,
       "safety": {
-        "rating": "green",
+        "rating": "amber",
         "hazards": [
           "Sharp litter (glass, needles)",
           "Tools when building",
           "Traffic and water"
         ],
-        "notes": "Wear gloves and use a litter picker; never touch needles or sharp items: tell an adult. An adult supervises tool use and work near roads or water."
+        "notes": "Adult supervision required: an adult joins every litter pick and any work near roads or water, and supervises all tool use when building boxes. Wear gloves and use a litter picker; never touch needles, broken glass or other sharp items: tell the adult. Research, surveys and planting seeds can be done independently."
       },
       "versions": {
         "basic": {

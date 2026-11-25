@@ -503,12 +503,12 @@
       "minutes": 20,
       "summary": "Float on your back like a starfish. Floating helps you rest and stay safe in water.",
       "steps": [
-        "With your teacher holding you, lie back in the water.",
-        "Look up at the ceiling or sky.",
-        "Stretch arms and legs out like a starfish.",
-        "Breathe slowly and relax.",
-        "Your teacher lets go a little when you are ready.",
-        "Try a front float too, then stand up safely."
+        "🧑‍🏫 Your teacher holds you. Lie back in the water.",
+        "👀 Look up at the ceiling or sky.",
+        "⭐ Stretch arms and legs out like a starfish.",
+        "😮‍💨 Breathe slowly and relax.",
+        "🤲 Your teacher lets go a little when you are ready.",
+        "🧍 Try a front float too, then stand up safely."
       ],
       "practical": true,
       "safety": {
@@ -517,7 +517,7 @@
           "drowning",
           "swallowing water"
         ],
-        "notes": "Only with a qualified swimming teacher or lifeguard present, in water at a depth the teacher chooses."
+        "notes": "Only with a qualified swimming teacher or lifeguard present, in water at a depth the teacher chooses. The family adult watches from the side or joins in as the teacher directs."
       },
       "versions": {
         "basic": {
@@ -547,7 +547,7 @@
       "substitutions": [
         {
           "instead": "a float board",
-          "use": "a teacher's supporting hands, or a sealed empty plastic bottle held by the child (in lessons only)"
+          "use": "the teacher's supporting hands, or a float lent by the pool (never a home-made float)"
         }
       ],
       "sources": [
@@ -1022,19 +1022,21 @@
       },
       "versions": {
         "basic": {
-          "cost": "Pool entry fee",
+          "cost": "Free",
           "materials": [
-            "lifeguarded pool"
+            "floor or bed",
+            "chair"
           ],
-          "description": "Swim sets in a lifeguarded public session."
+          "description": "Learn the arm actions, kicks and breathing timing of backstroke and breaststroke on dry land, and plan your swim sets."
         },
         "better": {
           "cost": "Pool entry fee",
           "materials": [
+            "lifeguarded pool",
             "goggles",
-            "kickboard"
+            "kickboard if the pool lends one"
           ],
-          "description": "Use a kickboard and pull drills."
+          "description": "Swim sets in a lifeguarded public session, with a friend or adult."
         },
         "advanced": {
           "cost": "Club fee",
@@ -1126,7 +1128,7 @@
           "wrist injury",
           "traffic"
         ],
-        "notes": "Always wear a helmet and wrist guards. Adult supervision. Never skate on roads or slopes when learning."
+        "notes": "Always wear a helmet and wrist guards. Adult supervision. Never skate on roads or slopes when learning. Sock gliding only on a clear floor away from stairs, glass doors and sharp corners."
       },
       "versions": {
         "basic": {
@@ -1596,7 +1598,7 @@
           "wrist and hand injury",
           "hitting the holder"
         ],
-        "notes": "An adult holds the pad. Light, controlled strikes. Never strike people. Stop if anything hurts."
+        "notes": "An adult holds the pad and calls stop. Light, controlled strikes. Never strike people. Stop if anything hurts. Outside training, walking away and getting help always comes first."
       },
       "versions": {
         "basic": {
@@ -1691,7 +1693,7 @@
           "strains",
           "overtraining"
         ],
-        "notes": "Adult supervision. Slow, no-contact partner drills only. Any contact training belongs at a club with a qualified coach."
+        "notes": "Adult supervision. Slow, no-contact partner drills only. Any contact training belongs at a club with a qualified coach. These are fitness skills: outside training, walking away and getting help always comes first, and never street fighting."
       },
       "versions": {
         "basic": {
@@ -1789,7 +1791,7 @@
         "Agree rules and intensity before every round. Light contact only.",
         "Learn strategy: distance, timing, staying calm.",
         "Stop immediately when the coach or your partner says stop.",
-        "Never use these skills outside training, except to escape real danger."
+        "Never use these skills outside training. In real danger, walk away, get to a safe place and get help; use force only if there is no other way to escape."
       ],
       "practical": true,
       "safety": {
@@ -2474,7 +2476,10 @@
       "practical": true,
       "safety": {
         "rating": "green",
-        "hazards": [],
+        "hazards": [
+          "neck or back strain from forcing a position",
+          "stiffness from sitting too long"
+        ],
         "notes": "Gentle movements only."
       },
       "versions": {
@@ -2669,12 +2674,12 @@
       "minutes": 60,
       "summary": "Aim for about 60 minutes of moving every day. Walking, playing, dancing and sport all count.",
       "steps": [
-        "Pick active things you enjoy.",
-        "Mix gentle moves and puffing moves.",
-        "Add strong moves like climbing, jumping or push-ups on 3 days a week.",
-        "Take breaks from sitting.",
-        "Colour a box on a chart for each active day.",
-        "After 30 days, celebrate!"
+        "😊 Pick active things you enjoy.",
+        "🔀 Mix gentle moves and puffing moves.",
+        "💪 Add strong moves like climbing, jumping or push-ups on 3 days a week.",
+        "🪑 Take breaks from sitting.",
+        "🖍️ Colour a box on a chart for each active day.",
+        "🎉 After 30 days, celebrate!"
       ],
       "practical": true,
       "safety": {
@@ -3288,12 +3293,12 @@
       "minutes": 90,
       "summary": "Plan a walk in nature, pack well and stay together.",
       "steps": [
-        "Pick a route that suits the youngest walker.",
-        "Check the weather and tell someone your plan.",
-        "Pack water, snacks, a warm layer, rain layer, sun hat and a small first-aid kit.",
-        "Stay together. Younger children walk with a grown-up.",
-        "Take breaks and spot plants, birds and clouds.",
-        "Older walkers: learn to read the map and plan the route."
+        "🗺️ Pick a route that suits the youngest walker.",
+        "☁️ Check the weather and tell someone your plan.",
+        "🎒 Pack water, snacks, a warm layer, rain layer, sun hat and a small first-aid kit.",
+        "🧑‍🤝‍🧑 Stay together. Younger children walk with a grown-up.",
+        "🐦 Take breaks and spot plants, birds and clouds.",
+        "🧭 Older walkers: learn to read the map and plan the route."
       ],
       "practical": true,
       "safety": {

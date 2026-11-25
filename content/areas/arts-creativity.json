@@ -254,12 +254,12 @@
       "minutes": 20,
       "summary": "Mix two colours. A new colour appears!",
       "steps": [
-        "Put on an old shirt.",
-        "Put a blob of yellow and a blob of blue on a plate.",
-        "Mix them with your finger or a brush. What colour now? Green!",
-        "Try red and yellow. Orange!",
-        "Try red and blue. Purple!",
-        "Paint a picture with your new colours."
+        "👕 Put on an old shirt.",
+        "🟡🔵 Put a blob of yellow and a blob of blue on a plate.",
+        "👆 Mix them with your finger or a brush. What colour now? 🟢 Green!",
+        "🔴🟡 Try red and yellow. 🟠 Orange!",
+        "🔴🔵 Try red and blue. 🟣 Purple!",
+        "🎨 Paint a picture with your new colours."
       ],
       "practical": true,
       "safety": {
@@ -301,7 +301,7 @@
       "substitutions": [
         {
           "instead": "Paint",
-          "use": "Water with food colouring, turmeric (yellow), beetroot juice (pink) or tea (brown)"
+          "use": "Water with food colouring, turmeric (yellow), beetroot juice (pink) or cold tea (brown)"
         },
         {
           "instead": "Brush",

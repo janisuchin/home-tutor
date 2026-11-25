@@ -377,7 +377,7 @@
             "Midnight zone"
           ],
           "answer": 1,
-          "explain": "Yes, the midnight zone is completely dark."
+          "explain": "Yes. No sunlight reaches the midnight zone. The only light comes from animals that glow."
         }
       ]
     },
@@ -499,7 +499,7 @@
       "substitutions": [
         {
           "instead": "Clear jar",
-          "use": "A clear plastic bag taped to a window"
+          "use": "A clear plastic cup or a cut-down clear plastic bottle (an adult cuts it)"
         },
         {
           "instead": "Bean seeds",
@@ -1069,13 +1069,13 @@
       ],
       "practical": true,
       "safety": {
-        "rating": "green",
+        "rating": "amber",
         "hazards": [
           "Being outside in the dark",
           "Tripping",
           "Cold"
         ],
-        "notes": "Observation only. An adult is with you outside. Dress warmly and use a torch to walk."
+        "notes": "Adult supervision required outside at night: the adult chooses a safe spot away from roads and water and stays with you. Dress warmly and use a torch to walk. Never look at the Sun, with or without binoculars."
       },
       "versions": {
         "basic": {
@@ -1134,6 +1134,18 @@
         "science",
         "history",
         "geography"
+      ],
+      "sources": [
+        {
+          "title": "Skywatching",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/skywatching/"
+        },
+        {
+          "title": "Accident prevention advice",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        }
       ]
     },
     {
@@ -1160,13 +1172,13 @@
       ],
       "practical": true,
       "safety": {
-        "rating": "green",
+        "rating": "amber",
         "hazards": [
           "Salt dough is not food",
           "Sand in eyes",
           "Plaster gets warm as it sets"
         ],
-        "notes": "Wash hands after. Do not eat the dough. Dig gently. Plaster is for adults to mix; never put hands or body parts in setting plaster."
+        "notes": "An adult supervises. Wash hands after and do not eat the dough. Dig gently. Plaster of Paris (advanced version only) is mixed and poured by the adult; it gets hot as it sets and can burn badly, so never put hands or any body part into setting plaster."
       },
       "versions": {
         "basic": {
@@ -1232,6 +1244,18 @@
       "connects": [
         "science",
         "history"
+      ],
+      "sources": [
+        {
+          "title": "School science safety advice",
+          "publisher": "CLEAPSS",
+          "url": "https://www.cleapss.org.uk/"
+        },
+        {
+          "title": "Accident prevention advice",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        }
       ]
     },
     {
