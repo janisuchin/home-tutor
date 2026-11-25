@@ -154,4 +154,26 @@ describe('i18n', () => {
     for (const [pattern, values] of Object.entries(families)) for (const v of values) if (!(pattern.replace('{}', v) in en)) missing.push(pattern.replace('{}', v));
     expect(missing).toEqual([]);
   });
+  const localeDir = join(root, 'src', 'i18n', 'locales');
+  const others = readdirSync(localeDir).filter((f) => f.endsWith('.json') && f !== 'en.json');
+  it('there is at least one locale besides English (Hindi)', () => {
+    expect(others).toContain('hi.json');
+  });
+  for (const file of others) {
+    it(`${file} has every key of en.json, no extra keys, the same placeholders, and is translated`, () => {
+      const loc = JSON.parse(readFileSync(join(localeDir, file), 'utf8')) as Record<string, string>;
+      const missing = Object.keys(en).filter((k) => typeof loc[k] !== 'string' || !loc[k].trim());
+      const extra = Object.keys(loc).filter((k) => !(k in en));
+      const vars = (s: string) => [...s.matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort().join(',');
+      const badVars = Object.keys(en).filter((k) => k in loc && vars(en[k]) !== vars(loc[k]));
+      expect({ missing, extra, badVars }).toEqual({ missing: [], extra: [], badVars: [] });
+      // Mostly translated: fewer than 5% of values may stay identical to English (names, codes, emoji).
+      const same = Object.keys(en).filter((k) => loc[k] === en[k] && /[a-z]{3}/i.test(en[k]));
+      expect(same.length / Object.keys(en).length).toBeLessThan(0.05);
+    });
+  }
+  it('every locale is registered in the i18n loader', () => {
+    const src = readFileSync(join(root, 'src', 'i18n', 'index.ts'), 'utf8');
+    for (const f of others) expect(src).toContain(`./locales/${f}`);
+  });
 });
