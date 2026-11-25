@@ -32,6 +32,7 @@ export default function Home() {
           <Button label={t('welcome.signIn')} variant="ghost" icon="☁️" onPress={() => router.push('/account')} />
           <Button label={t('welcome.openKey')} variant="ghost" icon="🔑" onPress={() => router.push('/passport/open')} />
           <Button testID="open-tutoring" label={t('nav.tutoring')} variant="ghost" icon="🧑‍🏫" onPress={() => router.push('/tutoring')} />
+          <Button testID="open-join" label={t('nav.join')} variant="ghost" icon="🙋" onPress={() => router.push('/join')} />
         </View>
         <Grid columns={th.layout === 'phone' ? 1 : 3}>
           <Card tint={colors.primarySoft}>
@@ -101,6 +102,7 @@ export default function Home() {
         ) : null}
       </Grid>
       <Row wrap style={{ justifyContent: 'center' }}>
+        <Button small variant="ghost" label={t('nav.join')} icon="🙋" onPress={() => router.push('/join')} />
         <Button small variant="ghost" label={t('nav.emergency')} icon="🚑" onPress={() => router.push('/emergency')} />
         <Button small variant="ghost" label={t('nav.privacy')} onPress={() => router.push('/privacy')} />
         <Button small variant="ghost" label={t('nav.about')} onPress={() => router.push('/about')} />

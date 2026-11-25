@@ -20,6 +20,8 @@ export interface Env {
   AI_TUTOR_ENABLED?: string;
   /** 'unlocked' for the review edition Worker (home-tutor-unlocked), else the normal edition. */
   EDITION?: string;
+  /** Durable Object namespace for live classroom rooms (D-059). */
+  CLASSROOM?: { idFromName(name: string): unknown; get(id: unknown): { fetch(req: Request): Promise<Response> } };
 }
 
 export const json = (data: unknown, status = 200) =>

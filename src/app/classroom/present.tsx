@@ -14,6 +14,7 @@ import { useCatalog, useChildren, usePack } from '../../data/hooks';
 import { groupCompatibility } from '../../core/engine/insights';
 import { randomId } from '../../core/crypto';
 import { dayKey } from '../../core/screen-time';
+import { LivePanel } from '../../ui/LivePanel';
 
 export default function PresentScreen() {
   const t = useT();
@@ -26,7 +27,7 @@ export default function PresentScreen() {
   );
 }
 
-type Panel = 'lesson' | 'poll' | 'questions';
+type Panel = 'lesson' | 'poll' | 'questions' | 'live';
 
 function Present() {
   const t = useT();
@@ -80,6 +81,7 @@ function Present() {
         <Button small variant={panel === 'lesson' ? 'primary' : 'ghost'} label={t('present.lesson')} onPress={() => setPanel('lesson')} testID="panel-lesson" />
         <Button small variant={panel === 'poll' ? 'primary' : 'ghost'} label={t('present.poll')} onPress={() => setPanel('poll')} testID="panel-poll" />
         <Button small variant={panel === 'questions' ? 'primary' : 'ghost'} label={t('present.questions')} onPress={() => setPanel('questions')} testID="panel-questions" />
+        <Button small variant={panel === 'live' ? 'primary' : 'ghost'} label={`📡 ${t('live.title')}`} onPress={() => setPanel('live')} testID="panel-live" />
       </Row>
 
       {panel === 'lesson' ? (
@@ -128,6 +130,10 @@ function Present() {
         </>
       ) : null}
 
+      {/* Kept mounted while switching panels, so the live room keeps running. */}
+      <View style={{ display: panel === 'live' ? 'flex' : 'none' }}>
+        <LivePanel />
+      </View>
       {panel === 'poll' ? (
         <Section title={t('present.poll')}>
           {poll ? (

@@ -20,6 +20,12 @@
       "migrations_dir": "api/migrations"
     }
   ],
+  // Live classroom rooms (D-059). Wrangler applies the Durable Object migration on deploy;
+  // add a new tag (v2, ...) for any later class change, never edit v1.
+  "durable_objects": {
+    "bindings": [{ "name": "CLASSROOM", "class_name": "ClassroomRoom" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["ClassroomRoom"] }],
   "vars": {
     "AI_TUTOR_ENABLED": "false",
     // "unlocked" only for the review edition worker (scripts/deploy.sh unlocked rewrites it).

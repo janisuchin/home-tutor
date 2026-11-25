@@ -58,6 +58,9 @@ sed -e "s/00000000-0000-0000-0000-000000000000/${DB_ID}/" \
     wrangler.jsonc > "$TMP"
 # Migrations are additive (0001, 0002, ...); wrangler applies only the ones not yet applied.
 CI=1 npx wrangler d1 migrations apply "$NAME" --remote --config "$TMP"
+# The Durable Object for live classroom rooms (ClassroomRoom) is created or migrated by this deploy
+# from the "migrations" list in wrangler.jsonc (tag v1: new SQLite-backed class). Each edition's
+# Worker gets its own rooms.
 npx wrangler deploy --config "$TMP"
 echo "Deployed. Live: https://${NAME}.german-journey.workers.dev"
 if [[ "$EDITION" == unlocked ]]; then

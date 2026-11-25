@@ -6,6 +6,8 @@ import { pickWinner, type SyncRecord, type RecordKind } from '../../src/core/syn
 import { randomCode, randomId } from '../../src/core/crypto';
 import { DEFAULT_ITERATIONS, emailHash, hashPassword, newToken, pbkdf2, safeEqual, secretHash, tokenHash } from './auth';
 import { aiTutorStub } from './ai-tutor';
+import { handleClass } from './classroom';
+export { ClassroomRoom } from './classroom';
 import { acceptInvite, createInvite, deleteTutorLinks, exportTutorLinks, listTutors, removeTutor, tutorLinks, tutorSync, updateTutor } from './tutors';
 import { deletePasskey, deletePasskeyStmts, listPasskeys, loginOptions, loginVerify, registerOptions, registerVerify } from './passkeys';
 import { clientIp, err, HttpError, json, rateLimit, readJson, type D1Stmt, type Env } from './http';
@@ -307,6 +309,7 @@ export async function handleApi(req: Request, env: Env): Promise<Response> {
     const passport = path.match(/^\/passport\/([A-Za-z0-9-]{8,40})$/);
     if (passport && m === 'GET') return await readPassport(req, env, passport[1]);
     if (path === '/ai-tutor' && m === 'POST') return aiTutorStub(env);
+    if (path.startsWith('/class/')) return await handleClass(req, env, path);
     if (path === '/test/leftovers' && m === 'POST') return await testLeftovers(req, env);
 
     const accountId = await requireAccount(req, env);

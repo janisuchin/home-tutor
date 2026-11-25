@@ -20,6 +20,7 @@ export const ROUTES: WebRoute[] = [
   { path: '/credits', load: () => import('../app/credits') },
   { path: '/emergency', load: () => import('../app/emergency') },
   { path: '/', load: () => import('../app/index') },
+  { path: '/join', load: () => import('../app/join') },
   { path: '/learn/[childId]/area/[area]', layout: 'learn', load: () => import('../app/learn/[childId]/area/[area]') },
   { path: '/learn/[childId]/books', layout: 'learn', load: () => import('../app/learn/[childId]/books') },
   { path: '/learn/[childId]/careers', layout: 'learn', load: () => import('../app/learn/[childId]/careers') },

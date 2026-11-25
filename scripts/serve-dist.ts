@@ -7,6 +7,7 @@ import { createServer } from 'node:http';
 import { readFileSync, existsSync, statSync } from 'node:fs';
 import { join, extname, normalize } from 'node:path';
 import { handleApi } from '../api/src/index';
+import { createClassroomNamespace } from '../api/test/do-memory';
 import { createTestDb } from '../api/test/d1-sqlite';
 
 const root = join(__dirname, '..', process.env.HT_DIST ?? 'dist');
@@ -25,7 +26,7 @@ const types: Record<string, string> = {
   '.webmanifest': 'application/manifest+json',
 };
 const db = createTestDb();
-const env = { DB: db, PASSWORD_ITERATIONS: '20000', EDITION: process.env.HT_DIST === 'dist-unlocked' ? 'unlocked' : 'standard' } as any;
+const env = { DB: db, CLASSROOM: createClassroomNamespace(), PASSWORD_ITERATIONS: '20000', EDITION: process.env.HT_DIST === 'dist-unlocked' ? 'unlocked' : 'standard' } as any;
 
 createServer(async (req, res) => {
   const url = new URL(req.url ?? '/', `http://localhost:${port}`);
