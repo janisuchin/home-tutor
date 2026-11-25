@@ -1,1 +1,4848 @@
-[]
+[
+ {
+  "id": "a-childs-garden-of-verses",
+  "title": "A Child's Garden of Verses",
+  "author": "Robert Louis Stevenson",
+  "year": 1885,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "poetry",
+  "interests": [
+   "stories",
+   "nature"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity"
+  ],
+  "why": "Classic short poems about shadows, swings, rain and bedtime, made for reading aloud.",
+  "contentNotes": "A few Victorian-era lines refer to children of other lands in dated terms.",
+  "origin": "United Kingdom",
+  "classic": true,
+  "languages": [
+   "en",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL24165W",
+   "isbn": "9780004216416",
+   "olTitle": "A Child's Garden of Verses",
+   "olAuthors": [
+    "Robert Louis Stevenson"
+   ]
+  },
+  "freeRead": {
+   "url": "https://www.gutenberg.org/ebooks/136",
+   "source": "Project Gutenberg",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "a-is-for-africa",
+  "title": "A Is for Africa",
+  "author": "Ifeoma Onyefulu",
+  "year": 1993,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "concept book",
+  "interests": [
+   "stories",
+   "art"
+  ],
+  "areas": [
+   "civics-social",
+   "languages"
+  ],
+  "why": "An alphabet of photographs from everyday village life in Nigeria.",
+  "origin": "Nigeria",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1726569W",
+   "isbn": "9780140562224",
+   "olTitle": "A Is for Africa",
+   "olAuthors": [
+    "Ifeoma Onyefulu"
+   ]
+  }
+ },
+ {
+  "id": "a-seed-is-sleepy",
+  "title": "A Seed Is Sleepy",
+  "author": "Dianna Hutts Aston",
+  "year": 2007,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "plants",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "Beautiful paintings show how seeds rest, travel and sprout.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5729057W",
+   "isbn": "9780606352918",
+   "olTitle": "A Seed Is Sleepy",
+   "olAuthors": [
+    "Dianna Hutts Aston"
+   ]
+  }
+ },
+ {
+  "id": "actual-size",
+  "title": "Actual Size",
+  "author": "Steve Jenkins",
+  "year": 2004,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "core-academics"
+  ],
+  "why": "Animals and animal parts shown at their real size, from a tiny goby to a gorilla's hand.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1973149W",
+   "isbn": "9780547349589",
+   "olTitle": "Actual Size",
+   "olAuthors": [
+    "Steve Jenkins"
+   ],
+   "olFirstPublishYear": 1900,
+   "yearNote": "Open Library's first_publish_year is a catalogue error for this work; year given is the original publication year."
+  }
+ },
+ {
+  "id": "an-egg-is-quiet",
+  "title": "An Egg Is Quiet",
+  "author": "Dianna Hutts Aston",
+  "year": 2006,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "birds",
+   "animals",
+   "insects"
+  ],
+  "areas": [
+   "nature-animals",
+   "core-academics"
+  ],
+  "why": "Eggs of birds, fish, insects and dinosaurs, painted in loving detail.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5729052W",
+   "isbn": "9780545054249",
+   "olTitle": "An egg is quiet",
+   "olAuthors": [
+    "Dianna Hutts Aston",
+    "Sylvia Long"
+   ]
+  }
+ },
+ {
+  "id": "are-you-an-ant",
+  "title": "Are You an Ant?",
+  "author": "Judy Allen",
+  "year": 2002,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "insects",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "core-academics"
+  ],
+  "why": "Imagine life as an ant: nests, food and teamwork, told as 'you'.",
+  "origin": "United Kingdom",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2457476W",
+   "isbn": "9780606303262",
+   "olTitle": "Are You an Ant? (Up the Garden Path)",
+   "olAuthors": [
+    "Judy Allen"
+   ]
+  }
+ },
+ {
+  "id": "baby-goes-to-market",
+  "title": "Baby Goes to Market",
+  "author": "Atinuke",
+  "year": 2017,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "cooking",
+   "money"
+  ],
+  "areas": [
+   "core-academics",
+   "civics-social"
+  ],
+  "why": "Baby rides on Mama's back through a busy Nigerian market collecting snacks; a counting story.",
+  "origin": "Nigeria",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19713954W",
+   "isbn": "9780763695705",
+   "olTitle": "Baby goes to market",
+   "olAuthors": [
+    "Atinuke"
+   ]
+  }
+ },
+ {
+  "id": "bunny-money",
+  "title": "Bunny Money",
+  "author": "Rosemary Wells",
+  "year": 1997,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "money",
+   "stories"
+  ],
+  "areas": [
+   "financial-literacy",
+   "core-academics"
+  ],
+  "why": "Max and Ruby set out with a wallet of money to buy Grandma a present, and learn how fast it gets spent.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL32573W",
+   "isbn": "9780060272586",
+   "olTitle": "Bunny Money (Wells, Rosemary. Max and Ruby Book.)",
+   "olAuthors": [
+    "Rosemary Wells"
+   ]
+  }
+ },
+ {
+  "id": "duck-on-a-bike",
+  "title": "Duck on a Bike",
+  "author": "David Shannon",
+  "year": 2002,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "bicycles",
+   "farming",
+   "animals"
+  ],
+  "areas": [
+   "physical-education",
+   "life-skills"
+  ],
+  "why": "Duck rides a bike around the farm and soon every animal wants a turn; funny and encouraging for new riders.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL547370W",
+   "isbn": "9780439050234",
+   "olTitle": "Duck on a Bike",
+   "olAuthors": [
+    "David Shannon",
+    "Elodie Bourgeois"
+   ]
+  }
+ },
+ {
+  "id": "eating-the-alphabet",
+  "title": "Eating the Alphabet",
+  "author": "Lois Ehlert",
+  "year": 1989,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "concept book",
+  "interests": [
+   "cooking",
+   "plants"
+  ],
+  "areas": [
+   "core-academics",
+   "health"
+  ],
+  "why": "An A to Z of fruits and vegetables in bold collage; great for trying new foods.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2347078W",
+   "isbn": "9780152009021",
+   "olTitle": "Eating the Alphabet",
+   "olAuthors": [
+    "Lois Ehlert"
+   ]
+  }
+ },
+ {
+  "id": "emekas-gift",
+  "title": "Emeka's Gift",
+  "author": "Ifeoma Onyefulu",
+  "year": 1995,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "counting",
+  "interests": [
+   "money",
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "civics-social"
+  ],
+  "why": "Count from one to ten with photographs as Emeka looks for a present for his grandmother in Nigeria.",
+  "origin": "Nigeria",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1726568W",
+   "isbn": "9780140565003",
+   "olTitle": "Emeka's gift",
+   "olAuthors": [
+    "Ifeoma Onyefulu"
+   ]
+  }
+ },
+ {
+  "id": "everyone-poops",
+  "title": "Everyone Poops",
+  "author": "Taro Gomi",
+  "year": 1993,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "body",
+   "animals"
+  ],
+  "areas": [
+   "health",
+   "life-skills"
+  ],
+  "why": "A matter-of-fact look at how all animals, and people, poop; helpful for toilet training.",
+  "origin": "Japan",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2921083W",
+   "isbn": "9780916291457",
+   "olTitle": "Everyone poops",
+   "olAuthors": [
+    "Tarō Gomi"
+   ]
+  }
+ },
+ {
+  "id": "freight-train",
+  "title": "Freight Train",
+  "author": "Donald Crews",
+  "year": 1978,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "concept book",
+  "interests": [
+   "machines"
+  ],
+  "areas": [
+   "core-academics",
+   "technology-ai"
+  ],
+  "why": "A colourful train rushes through tunnels and over trestles; colours, car names and motion.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1739847W",
+   "isbn": "9780140504804",
+   "olTitle": "Freight train",
+   "olAuthors": [
+    "Donald Crews"
+   ]
+  }
+ },
+ {
+  "id": "little-people-big-dreams-frida-kahlo",
+  "title": "Frida Kahlo",
+  "author": "Isabel Sánchez Vegara",
+  "year": 2016,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "art",
+   "drawing"
+  ],
+  "areas": [
+   "arts-creativity",
+   "careers"
+  ],
+  "why": "The Mexican painter's life told simply: illness and injury did not stop her painting.",
+  "contentNotes": "Mentions Frida's childhood polio and a serious bus accident.",
+  "origin": "Spain",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20021725W",
+   "isbn": "9781786032485",
+   "olTitle": "Frida Kahlo",
+   "olAuthors": [
+    "Isabel Sanchez Vegara"
+   ]
+  }
+ },
+ {
+  "id": "from-head-to-toe",
+  "title": "From Head to Toe",
+  "author": "Eric Carle",
+  "year": 1977,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "activity book",
+  "interests": [
+   "body",
+   "fitness",
+   "animals"
+  ],
+  "areas": [
+   "physical-education",
+   "health"
+  ],
+  "why": "Children copy animals' moves, from turning heads to stomping feet; a get-up-and-move book.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL53020W",
+   "isbn": "9780060235154",
+   "olTitle": "From head to toe",
+   "olAuthors": [
+    "Eric Carle"
+   ]
+  }
+ },
+ {
+  "id": "gajapati-kulapati",
+  "title": "Gajapati Kulapati gurrrraburrarrūma!",
+  "author": "Ashok Rajagopalan",
+  "year": 2016,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "health"
+  ],
+  "why": "Gajapati Kulapati the elephant has a tummy rumble and the whole village tries to help; full of sound words to shout along.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20054151W",
+   "isbn": "9789350467671",
+   "olTitle": "Gajapati Kulapati gurrrraburrarrūma!",
+   "olAuthors": [
+    "Ashok Rajagopalan"
+   ],
+   "altWorkKeys": [
+    "/works/OL20054145W"
+   ]
+  }
+ },
+ {
+  "id": "germs-are-not-for-sharing",
+  "title": "Germs Are Not for Sharing",
+  "author": "Elizabeth Verdick",
+  "year": 2005,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "health",
+  "interests": [
+   "body",
+   "medicine"
+  ],
+  "areas": [
+   "health",
+   "first-aid"
+  ],
+  "why": "Handwashing, sneezing into your elbow and why germs spread, for toddlers and preschoolers.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5722510W",
+   "isbn": "9781575421964",
+   "olTitle": "Germs are not for sharing",
+   "olAuthors": [
+    "Elizabeth Verdick"
+   ]
+  }
+ },
+ {
+  "id": "goodnight-moon",
+  "title": "Goodnight Moon",
+  "author": "Margaret Wise Brown",
+  "year": 1947,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "space"
+  ],
+  "areas": [
+   "languages",
+   "life-skills"
+  ],
+  "why": "A gentle bedtime rhyme saying goodnight to everything in the room; perfect for winding down.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL151798W",
+   "isbn": "9780060094270",
+   "olTitle": "Goodnight Moon",
+   "olAuthors": [
+    "Margaret Wise Brown"
+   ]
+  }
+ },
+ {
+  "id": "guji-guji",
+  "title": "Guji Guji",
+  "author": "Chih-Yuan Chen",
+  "year": 2004,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "birds",
+   "stories"
+  ],
+  "areas": [
+   "life-skills",
+   "philosophy-worldviews"
+  ],
+  "why": "A crocodile raised by ducks has to decide who he really is; a funny story about family and belonging.",
+  "contentNotes": "Crocodiles plan to eat the ducks; the plan is foiled.",
+  "origin": "Taiwan",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL8843906W",
+   "isbn": "9781929132676",
+   "olTitle": "Guji Guji",
+   "olAuthors": [
+    "Chih-Yuan Chen"
+   ]
+  }
+ },
+ {
+  "id": "hairy-maclary-from-donaldsons-dairy",
+  "title": "Hairy Maclary from Donaldson's Dairy",
+  "author": "Lynley Dodd",
+  "year": 1983,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "dogs",
+   "cats",
+   "animals"
+  ],
+  "areas": [
+   "languages"
+  ],
+  "why": "A bouncy rhyming walk through town with a scruffy little dog and his friends.",
+  "origin": "New Zealand",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15852327W",
+   "isbn": "9780140505313",
+   "olTitle": "Hairy Maclary from Donaldson's Dairy",
+   "olAuthors": [
+    "Lynley Dodd"
+   ]
+  }
+ },
+ {
+  "id": "handas-surprise",
+  "title": "Handa's Surprise",
+  "author": "Eileen Browne",
+  "year": 1994,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "plants",
+   "stories"
+  ],
+  "areas": [
+   "nature-animals",
+   "core-academics"
+  ],
+  "why": "Handa carries seven fruits to her friend in a Kenyan village while animals sneak them away; great for naming fruit and animals.",
+  "origin": "United Kingdom",
+  "classic": false,
+  "languages": [
+   "en",
+   "ta",
+   "ur",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3900345W",
+   "isbn": "9780431022628",
+   "olTitle": "Handa's Surprise",
+   "olAuthors": [
+    "Eileen Browne"
+   ]
+  }
+ },
+ {
+  "id": "hello-ocean",
+  "title": "Hello Ocean",
+  "author": "Pam Muñoz Ryan",
+  "year": 2001,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "poetry",
+  "interests": [
+   "ocean",
+   "nature",
+   "swimming"
+  ],
+  "areas": [
+   "nature-animals",
+   "languages"
+  ],
+  "why": "A day at the beach through all five senses, in rhyme.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL784063W",
+   "isbn": "9780545003551",
+   "olTitle": "Hello ocean",
+   "olAuthors": [
+    "Pam Muñoz Ryan",
+    "Mark Astrella"
+   ]
+  }
+ },
+ {
+  "id": "hello-world-dinosaurs",
+  "title": "Hello, World! Dinosaurs",
+  "author": "Jill McDonald",
+  "year": 2018,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "dinosaurs"
+  ],
+  "areas": [
+   "core-academics",
+   "independent-learning"
+  ],
+  "why": "A sturdy first book of dinosaur names, sizes and facts for toddlers and preschoolers.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL25393712W",
+   "isbn": "9781524719357",
+   "olTitle": "Hello, World! Dinosaurs",
+   "olAuthors": [
+    "Jill McDonald"
+   ]
+  }
+ },
+ {
+  "id": "im-so-sleepy",
+  "title": "I'm So Sleepy",
+  "author": "Radhika Chadha",
+  "year": 2004,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "health",
+   "languages"
+  ],
+  "why": "A gentle story about being too sleepy to do anything else; a good companion for bedtime routines.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "gu",
+   "ta"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5761235W",
+   "isbn": "9788181460332",
+   "olTitle": "I'm so sleepy",
+   "olAuthors": [
+    "Radhika Chadha"
+   ]
+  }
+ },
+ {
+  "id": "ismats-eid",
+  "title": "Ismat's Eid",
+  "author": "Fawzia Gilani",
+  "year": 2007,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "stories",
+   "helping"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "civics-social"
+  ],
+  "why": "A funny folk-style story of a family getting ready for Eid, where everyone tries to help in secret.",
+  "origin": "United Kingdom",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi",
+   "gu",
+   "ta",
+   "bn"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL10243867W",
+   "isbn": "9788181464057",
+   "olTitle": "Ismat's Eid",
+   "olAuthors": [
+    "Fawzia Gilani"
+   ]
+  }
+ },
+ {
+  "id": "just-a-minute",
+  "title": "Just a Minute",
+  "author": "Yuyi Morales",
+  "year": 2003,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "stories",
+   "cooking",
+   "games"
+  ],
+  "areas": [
+   "core-academics",
+   "philosophy-worldviews"
+  ],
+  "why": "Grandma Beetle keeps Señor Calavera waiting by counting chores in English and Spanish; a Mexican trickster tale.",
+  "contentNotes": "Señor Calavera is a friendly skeleton who represents death; handled with humour and warmth.",
+  "origin": "Mexico",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5968146W",
+   "isbn": "9780606381192",
+   "olTitle": "Just a minute",
+   "olAuthors": [
+    "Yuyi Morales"
+   ]
+  }
+ },
+ {
+  "id": "line-and-circle",
+  "title": "Line and Circle",
+  "author": "Radhika Menon",
+  "year": 2003,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "concept book",
+  "interests": [
+   "art",
+   "drawing"
+  ],
+  "areas": [
+   "core-academics",
+   "arts-creativity"
+  ],
+  "why": "A line and a circle meet and make shapes and pictures together; early geometry from Tulika.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "bn",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL11635793W",
+   "isbn": "9781844440023",
+   "olTitle": "Line and circle =",
+   "olAuthors": [
+    "Radhika Menon"
+   ]
+  }
+ },
+ {
+  "id": "little-blue-and-little-yellow",
+  "title": "Little Blue and Little Yellow",
+  "author": "Leo Lionni",
+  "year": 1959,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "art",
+   "drawing"
+  ],
+  "areas": [
+   "arts-creativity",
+   "life-skills"
+  ],
+  "why": "Two blobs of colour hug and become green; a classic about friendship and mixing colours.",
+  "origin": "Netherlands",
+  "classic": true,
+  "languages": [
+   "en",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2162569W",
+   "isbn": "9780340035764",
+   "olTitle": "Little blue and little yellow",
+   "olAuthors": [
+    "Leo Lionni"
+   ]
+  }
+ },
+ {
+  "id": "little-kids-first-big-book-of-animals",
+  "title": "Little Kids First Big Book of Animals",
+  "author": "Catherine D. Hughes",
+  "year": 2010,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "animals",
+   "ocean",
+   "birds"
+  ],
+  "areas": [
+   "nature-animals",
+   "independent-learning"
+  ],
+  "why": "Big photos and short facts about animals from every habitat, read-aloud friendly.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL26327321W",
+   "isbn": "9781426309007",
+   "olTitle": "Little Kids First Big Book of Animals",
+   "olAuthors": [
+    "Catherine D. Hughes",
+    "National Geographic Kids"
+   ]
+  }
+ },
+ {
+  "id": "look-the-moon",
+  "title": "Look, the Moon",
+  "author": "Sandhya Rao",
+  "year": 2004,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "space",
+   "nature"
+  ],
+  "areas": [
+   "languages",
+   "nature-animals"
+  ],
+  "why": "A simple, rhythmic picture book about noticing the moon, from Tulika in several Indian languages.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi",
+   "gu",
+   "ta"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2607603W",
+   "isbn": "9788181460264",
+   "olTitle": "Look, the moon",
+   "olAuthors": [
+    "Sandhya Rao"
+   ]
+  }
+ },
+ {
+  "id": "miffy-at-the-seaside",
+  "title": "Miffy at the Seaside",
+  "author": "Dick Bruna",
+  "year": 1964,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "ocean",
+   "swimming",
+   "animals"
+  ],
+  "areas": [
+   "languages",
+   "physical-education"
+  ],
+  "why": "Miffy spends a day at the beach; bold simple pictures for the very youngest readers.",
+  "origin": "Netherlands",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1736350W",
+   "isbn": "9780416929805",
+   "olTitle": "Miffy at the seaside",
+   "olAuthors": [
+    "Dick Bruna"
+   ]
+  }
+ },
+ {
+  "id": "my-five-senses",
+  "title": "My Five Senses",
+  "author": "Aliki",
+  "year": 1962,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "body"
+  ],
+  "areas": [
+   "health",
+   "core-academics"
+  ],
+  "why": "A child discovers seeing, hearing, smelling, tasting and touching in everyday life.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL94820W",
+   "isbn": "9780060253585",
+   "olTitle": "My Five Senses",
+   "olAuthors": [
+    "Aliki"
+   ]
+  }
+ },
+ {
+  "id": "little-kids-first-big-book-of-space",
+  "title": "National Geographic Little Kids First Big Book of Space",
+  "author": "Catherine D. Hughes",
+  "year": 2017,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "space"
+  ],
+  "areas": [
+   "core-academics",
+   "independent-learning"
+  ],
+  "why": "Planets, stars and astronauts explained simply with big photos.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL21616426W",
+   "isbn": "9781426325748",
+   "olTitle": "National Geographic Little Kids First Big Book of Space",
+   "olAuthors": [
+    "Catherine D. Hughes",
+    "David A. Aguilar"
+   ]
+  }
+ },
+ {
+  "id": "norbus-new-shoes",
+  "title": "Norbu's New Shoes",
+  "author": "Chewang Dorji Bhutia",
+  "year": 2005,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "life-skills",
+   "languages"
+  ],
+  "why": "A little boy and his brand-new shoes; a simple everyday story from Tulika published in many Indian languages.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL13753676W",
+   "isbn": "9788181461025",
+   "olTitle": "Norbu's new shoes =",
+   "olAuthors": [
+    "Chewang Dorji Bhutia"
+   ]
+  }
+ },
+ {
+  "id": "not-so-fast-songololo",
+  "title": "Not So Fast, Songololo",
+  "author": "Niki Daly",
+  "year": 1985,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "helping"
+  ],
+  "areas": [
+   "life-skills",
+   "civics-social"
+  ],
+  "why": "Malusi helps his grandmother shop in the city and gets new red takkies; warm story about family in South Africa.",
+  "origin": "South Africa",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1842579W",
+   "isbn": "9780575036055",
+   "olTitle": "Not so fast, Songololo",
+   "olAuthors": [
+    "Niki Daly"
+   ]
+  }
+ },
+ {
+  "id": "over-and-under-the-snow",
+  "title": "Over and Under the Snow",
+  "author": "Kate Messner",
+  "year": 2010,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "A ski trip reveals the hidden world of animals living under the winter snow.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL12036699W",
+   "isbn": "9780545514422",
+   "olTitle": "Over and under the snow",
+   "olAuthors": [
+    "Kate Messner",
+    "Christopher Silas Neal"
+   ]
+  }
+ },
+ {
+  "id": "owl-babies",
+  "title": "Owl Babies",
+  "author": "Martin Waddell",
+  "year": 1992,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "birds",
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "life-skills",
+   "nature-animals"
+  ],
+  "why": "Three baby owls wait for their mother at night; reassuring for children who worry when a parent goes away.",
+  "origin": "Ireland",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL114136W",
+   "isbn": "9780590582841",
+   "olTitle": "Owl Babies",
+   "olAuthors": [
+    "Martin Waddell"
+   ],
+   "olFirstPublishYear": 1975,
+   "yearNote": "Open Library's first_publish_year is a catalogue error for this work; year given is the original publication year."
+  }
+ },
+ {
+  "id": "planting-a-rainbow",
+  "title": "Planting a Rainbow",
+  "author": "Lois Ehlert",
+  "year": 1988,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "plants",
+   "nature",
+   "farming"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "A mother and child plant bulbs and seeds and grow a garden in every colour.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2347031W",
+   "isbn": "9780152046330",
+   "olTitle": "Planting a Rainbow",
+   "olAuthors": [
+    "Lois Ehlert"
+   ]
+  }
+ },
+ {
+  "id": "possum-magic",
+  "title": "Possum Magic",
+  "author": "Mem Fox",
+  "year": 1983,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "cooking",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "nature-animals"
+  ],
+  "why": "Invisible Hush travels around Australia eating local foods to become visible again.",
+  "origin": "Australia",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL650933W",
+   "isbn": "9780140541618",
+   "olTitle": "Possum magic",
+   "olAuthors": [
+    "Mem Fox",
+    "Vivas Julie",
+    "Julie Vivas"
+   ]
+  }
+ },
+ {
+  "id": "press-here",
+  "title": "Press Here",
+  "author": "Hervé Tullet",
+  "year": 2011,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "activity book",
+  "interests": [
+   "art",
+   "games"
+  ],
+  "areas": [
+   "arts-creativity",
+   "core-academics"
+  ],
+  "why": "Press, shake and tilt the book to make the dots move; playful early cause and effect.",
+  "origin": "France",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15520789W",
+   "isbn": "9780811879545",
+   "olTitle": "Press Here",
+   "olAuthors": [
+    "Hervé Tullet"
+   ]
+  }
+ },
+ {
+  "id": "rangoli",
+  "title": "Rangoli",
+  "author": "Anuradha Ananth",
+  "year": 2007,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "art",
+  "interests": [
+   "art",
+   "drawing"
+  ],
+  "areas": [
+   "arts-creativity",
+   "core-academics"
+  ],
+  "why": "Dots and lines turn into rangoli patterns; a hands-on introduction to Indian floor art and symmetry.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "gu",
+   "ta",
+   "bn"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL13605125W",
+   "isbn": "9788181464293",
+   "olTitle": "Rangoli",
+   "olAuthors": [
+    "Anuradha Ananth."
+   ]
+  }
+ },
+ {
+  "id": "saffron-ice-cream",
+  "title": "Saffron Ice Cream",
+  "author": "Rashin Kheiriyeh",
+  "year": 2018,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "cooking",
+   "swimming",
+   "ocean"
+  ],
+  "areas": [
+   "civics-social",
+   "life-skills"
+  ],
+  "why": "Rashin remembers saffron ice cream in Iran while enjoying her first beach trip in New York; about moving to a new country.",
+  "origin": "Iran",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19743931W",
+   "isbn": "9781338150520",
+   "olTitle": "Saffron ice cream",
+   "olAuthors": [
+    "Rashin Kheiriyeh"
+   ]
+  }
+ },
+ {
+  "id": "snoring-shanmugam",
+  "title": "Snoring Shanmugam",
+  "author": "Radhika Chadha",
+  "year": 2006,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "music"
+  ],
+  "areas": [
+   "languages",
+   "life-skills"
+  ],
+  "why": "Shanmugam's snores are so loud he is sent away, until his snoring saves the village from robbers.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi",
+   "ta",
+   "bn"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5761236W",
+   "isbn": "9788181461902",
+   "olTitle": "Snoring Shanmugam",
+   "olAuthors": [
+    "Radhika Chadha"
+   ]
+  }
+ },
+ {
+  "id": "sulwe",
+  "title": "Sulwe",
+  "author": "Lupita Nyong'o",
+  "year": 2019,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "space"
+  ],
+  "areas": [
+   "life-skills",
+   "philosophy-worldviews"
+  ],
+  "why": "A girl with darker skin than her family learns that she is beautiful just as she is.",
+  "contentNotes": "Deals with colourism and being teased about skin colour.",
+  "origin": "Kenya",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20637409W",
+   "isbn": "9780241394328",
+   "olTitle": "Sulwe",
+   "olAuthors": [
+    "Lupita Nyong'o"
+   ]
+  }
+ },
+ {
+  "id": "swimmy",
+  "title": "Swimmy",
+  "author": "Leo Lionni",
+  "year": 1963,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "ocean",
+   "swimming",
+   "art"
+  ],
+  "areas": [
+   "life-skills",
+   "arts-creativity"
+  ],
+  "why": "A little black fish teaches his school to swim together as one big fish; teamwork under the sea.",
+  "contentNotes": "A big tuna swallows Swimmy's brothers and sisters at the start.",
+  "origin": "Netherlands",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2162545W",
+   "isbn": "9780153159985",
+   "olTitle": "Swimmy",
+   "olAuthors": [
+    "Leo Lionni",
+    "Xosé Manuel González",
+    "Ignasi Centelles"
+   ]
+  }
+ },
+ {
+  "id": "ten-black-dots",
+  "title": "Ten Black Dots",
+  "author": "Donald Crews",
+  "year": 1992,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "counting",
+  "interests": [
+   "art",
+   "games"
+  ],
+  "areas": [
+   "core-academics",
+   "arts-creativity"
+  ],
+  "why": "Counting from one to ten with dots that become suns, buttons and wheels.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15153879W",
+   "isbn": "9780590464796",
+   "olTitle": "Ten black dots",
+   "olAuthors": [
+    "Donald Crews"
+   ],
+   "languageNote": "Open Library records no language for this work; English listed because the catalogued title/edition is the English original."
+  }
+ },
+ {
+  "id": "the-busy-body-book",
+  "title": "The Busy Body Book",
+  "author": "Lizzy Rockwell",
+  "year": 2004,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "health",
+  "interests": [
+   "body",
+   "fitness",
+   "running"
+  ],
+  "areas": [
+   "physical-education",
+   "health"
+  ],
+  "why": "Bones, muscles, heart and lungs, and why moving your body keeps it healthy.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1826077W",
+   "isbn": "9780375822032",
+   "olTitle": "The busy body book",
+   "olAuthors": [
+    "Lizzy Rockwell"
+   ]
+  }
+ },
+ {
+  "id": "the-gruffalo",
+  "title": "The Gruffalo",
+  "author": "Julia Donaldson",
+  "year": 1999,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "life-skills"
+  ],
+  "why": "A clever mouse outwits the creatures of the deep dark wood with rhyme and quick thinking.",
+  "contentNotes": "Predators want to eat the mouse; mild, playful peril.",
+  "origin": "United Kingdom",
+  "classic": false,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1938178W",
+   "isbn": "9780142403877",
+   "olTitle": "The Gruffalo",
+   "olAuthors": [
+    "Julia Donaldson"
+   ]
+  }
+ },
+ {
+  "id": "the-listening-walk",
+  "title": "The Listening Walk",
+  "author": "Paul Showers",
+  "year": 1961,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "nature",
+   "music",
+   "dogs"
+  ],
+  "areas": [
+   "nature-animals",
+   "independent-learning"
+  ],
+  "why": "A girl and her dad go for a quiet walk and notice every sound; try it yourselves afterwards.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2724692W",
+   "isbn": "9780060216375",
+   "olTitle": "The Listening Walk",
+   "olAuthors": [
+    "Paul Showers"
+   ]
+  }
+ },
+ {
+  "id": "the-snowy-day",
+  "title": "The Snowy Day",
+  "author": "Ezra Jack Keats",
+  "year": 1962,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "nature",
+   "stories"
+  ],
+  "areas": [
+   "nature-animals",
+   "arts-creativity"
+  ],
+  "why": "Peter explores his city after the first snowfall; a landmark book with a Black child at its heart.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL831023W",
+   "isbn": "9780140500189",
+   "olTitle": "The Snowy Day",
+   "olAuthors": [
+    "Ezra Jack Keats",
+    "Marilyn Sanabria",
+    "Shang yi bian ji bu"
+   ]
+  }
+ },
+ {
+  "id": "the-tale-of-peter-rabbit",
+  "title": "The Tale of Peter Rabbit",
+  "author": "Beatrix Potter",
+  "year": 1902,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "farming",
+   "plants"
+  ],
+  "areas": [
+   "nature-animals",
+   "life-skills"
+  ],
+  "why": "Naughty Peter sneaks into Mr McGregor's garden; a classic about rules, danger and home.",
+  "contentNotes": "Mentions that Peter's father was put in a pie by Mrs McGregor; Peter is chased and gets ill.",
+  "origin": "United Kingdom",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL108735W",
+   "isbn": "9780140365733",
+   "olTitle": "The Tale of Peter Rabbit",
+   "olAuthors": [
+    "Beatrix Potter"
+   ],
+   "olFirstPublishYear": 1900,
+   "yearNote": "Open Library's first_publish_year is a catalogue error for this work; year given is the original publication year."
+  },
+  "freeRead": {
+   "url": "https://www.gutenberg.org/ebooks/14838",
+   "source": "Project Gutenberg",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "the-toolbox",
+  "title": "The Toolbox",
+  "author": "Anne Rockwell",
+  "year": 1971,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "concept book",
+  "interests": [
+   "tools",
+   "building"
+  ],
+  "areas": [
+   "life-skills",
+   "projects"
+  ],
+  "why": "Hammer, saw, screwdriver and more: what is in a toolbox and what each tool does.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL268326W",
+   "isbn": "9780020448006",
+   "olTitle": "The Toolbox",
+   "olAuthors": [
+    "Anne F. Rockwell",
+    "Harlow Rockwell"
+   ]
+  }
+ },
+ {
+  "id": "the-very-hungry-caterpillar",
+  "title": "The Very Hungry Caterpillar",
+  "author": "Eric Carle",
+  "year": 1969,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "insects",
+   "nature",
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "nature-animals"
+  ],
+  "why": "A caterpillar eats through the days of the week; counting, food and the butterfly life cycle in one bright book.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "gu",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL52987W",
+   "isbn": "9780007161515",
+   "olTitle": "The Very Hungry Caterpillar",
+   "olAuthors": [
+    "Eric Carle"
+   ]
+  }
+ },
+ {
+  "id": "thukpa-for-all",
+  "title": "Thukpa for All",
+  "author": "Praba Ram",
+  "year": 2019,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "cooking",
+   "helping"
+  ],
+  "areas": [
+   "life-skills",
+   "civics-social"
+  ],
+  "why": "Tsering, who is blind, cooks a big pot of thukpa in Ladakh and everyone pitches in; inclusion and sharing food.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL21364525W",
+   "isbn": "9788193388983",
+   "olTitle": "Thukpa for All",
+   "olAuthors": [
+    "Praba Ram",
+    "Sheela Preuitt",
+    "Shilpa Ranade"
+   ]
+  }
+ },
+ {
+  "id": "tiger-on-a-tree",
+  "title": "Tiger on a Tree",
+  "author": "Anushka Ravishankar",
+  "year": 2004,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "poetry",
+  "interests": [
+   "animals",
+   "art"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity",
+   "nature-animals"
+  ],
+  "why": "A rhyming tale of a tiger stuck in a tree, with striking black-and-orange folk-style art; ends kindly for the tiger.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1049011W",
+   "isbn": "9780374375553",
+   "olTitle": "Tiger on a tree",
+   "olAuthors": [
+    "Anushka Ravishankar"
+   ]
+  }
+ },
+ {
+  "id": "water-is-water",
+  "title": "Water Is Water",
+  "author": "Miranda Paul",
+  "year": 2015,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "nature",
+   "plants"
+  ],
+  "areas": [
+   "environment",
+   "core-academics"
+  ],
+  "why": "Rain, fog, snow and ice: a rhyming look at the water cycle through a year of play outdoors.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20000147W",
+   "isbn": "9781596439849",
+   "olTitle": "Water is Water",
+   "olAuthors": [
+    "Miranda Paul"
+   ]
+  }
+ },
+ {
+  "id": "were-going-on-a-bear-hunt",
+  "title": "We're Going on a Bear Hunt",
+  "author": "Michael Rosen",
+  "year": 1989,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "nature",
+   "fitness",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "physical-education"
+  ],
+  "why": "A family swishes, splashes and squelches through the outdoors; great for acting out with the whole body.",
+  "contentNotes": "The bear chase at the end can be briefly scary for some toddlers.",
+  "origin": "United Kingdom",
+  "classic": true,
+  "languages": [
+   "en",
+   "gu",
+   "ur",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL832133W",
+   "isbn": "9780439316941",
+   "olTitle": "We're Going on a Bear Hunt",
+   "olAuthors": [
+    "Michael Rosen"
+   ],
+   "olFirstPublishYear": 1746,
+   "yearNote": "Open Library's first_publish_year is a catalogue error for this work; year given is the original publication year."
+  }
+ },
+ {
+  "id": "what-do-people-do-all-day",
+  "title": "What Do People Do All Day?",
+  "author": "Richard Scarry",
+  "year": 1968,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "careers",
+  "interests": [
+   "machines",
+   "farming",
+   "building",
+   "money"
+  ],
+  "areas": [
+   "careers",
+   "civics-social"
+  ],
+  "why": "Busytown's animals show how farmers, builders, doctors and many others work together.",
+  "contentNotes": "Older editions show some dated gender roles.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL65032W",
+   "isbn": "9780007111589",
+   "olTitle": "What Do People Do All Day?",
+   "olAuthors": [
+    "Richard Scarry"
+   ]
+  }
+ },
+ {
+  "id": "what-do-you-do-with-a-tail-like-this",
+  "title": "What Do You Do with a Tail Like This?",
+  "author": "Steve Jenkins",
+  "year": 2003,
+  "band": "3-5",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "animals",
+   "body"
+  ],
+  "areas": [
+   "nature-animals",
+   "core-academics"
+  ],
+  "why": "Guess the animal from its nose, ears or tail and learn how each body part is used.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1973170W",
+   "isbn": "9780063268050",
+   "olTitle": "What do you do with a tail like this?",
+   "olAuthors": [
+    "Robin Page",
+    "Steve Jenkins"
+   ]
+  }
+ },
+ {
+  "id": "where-the-wild-things-are",
+  "title": "Where the Wild Things Are",
+  "author": "Maurice Sendak",
+  "year": 1963,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "art"
+  ],
+  "areas": [
+   "arts-creativity",
+   "life-skills"
+  ],
+  "why": "Max sails off to rule the wild things and comes home to a hot supper; a classic about big feelings and coming back.",
+  "contentNotes": "Child is sent to bed without supper; monsters may feel scary to very young children.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2568879W",
+   "isbn": "9780006640868",
+   "olTitle": "Where the Wild Things Are",
+   "olAuthors": [
+    "Maurice Sendak"
+   ],
+   "authorNote": "Search index omits the author for this work; /works/OL2568879W.json lists author /authors/OL366346A (Maurice Sendak)."
+  }
+ },
+ {
+  "id": "who-sank-the-boat",
+  "title": "Who Sank the Boat?",
+  "author": "Pamela Allen",
+  "year": 1983,
+  "band": "3-5",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "machines"
+  ],
+  "areas": [
+   "core-academics",
+   "projects"
+  ],
+  "why": "Five animals climb into a little boat; which one sinks it? An early look at weight and balance.",
+  "origin": "Australia",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL4033359W",
+   "isbn": "9780698205765",
+   "olTitle": "Who Sank the Boat",
+   "olAuthors": [
+    "Pamela Allen"
+   ]
+  }
+ },
+ {
+  "id": "a-chair-for-my-mother",
+  "title": "A Chair for My Mother",
+  "author": "Vera B. Williams",
+  "year": 1982,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "money",
+   "helping"
+  ],
+  "areas": [
+   "financial-literacy",
+   "life-skills"
+  ],
+  "why": "After a fire, a girl, her mother and grandmother save coins in a jar to buy a comfy chair.",
+  "contentNotes": "The family's home burns down (no one is hurt).",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3243597W",
+   "isbn": "9780307258762",
+   "olTitle": "A Chair for My Mother",
+   "olAuthors": [
+    "Vera B. Williams",
+    "Susan Rybin"
+   ]
+  }
+ },
+ {
+  "id": "a-drop-of-water",
+  "title": "A Drop of Water",
+  "author": "Walter Wick",
+  "year": 1997,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "nature",
+   "art"
+  ],
+  "areas": [
+   "core-academics",
+   "projects"
+  ],
+  "why": "Stunning photographs of drops, bubbles, frost and snowflakes, with experiments to try.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL26205W",
+   "isbn": "9780590221979",
+   "olTitle": "A drop of water",
+   "olAuthors": [
+    "Walter Wick"
+   ]
+  }
+ },
+ {
+  "id": "a-king-cobras-summer",
+  "title": "A King Cobra's Summer",
+  "author": "Janaki Lenin",
+  "year": 2011,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "A Pratham Books look at the life of a king cobra in India's forests.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL23352388W",
+   "isbn": "9789350221747",
+   "olTitle": "A King cobra's summer",
+   "olAuthors": [
+    "Janaki Lenin"
+   ]
+  }
+ },
+ {
+  "id": "a-rock-is-lively",
+  "title": "A Rock Is Lively",
+  "author": "Dianna Hutts Aston",
+  "year": 2012,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "nature",
+   "art"
+  ],
+  "areas": [
+   "core-academics",
+   "nature-animals"
+  ],
+  "why": "How rocks form and change, in lush paintings.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16471252W",
+   "isbn": "9780606374446",
+   "olTitle": "A rock is lively",
+   "olAuthors": [
+    "Dianna Hutts Aston"
+   ]
+  }
+ },
+ {
+  "id": "adas-violin",
+  "title": "Ada's Violin",
+  "author": "Susan Hood",
+  "year": 2016,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "music",
+   "building"
+  ],
+  "areas": [
+   "arts-creativity",
+   "environment"
+  ],
+  "why": "Children in a Paraguayan landfill town play instruments made from rubbish and tour the world.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20029225W",
+   "isbn": "9781481430951",
+   "olTitle": "Ada's violin",
+   "olAuthors": [
+    "Susan Hood"
+   ]
+  }
+ },
+ {
+  "id": "aesops-fables",
+  "title": "Aesop's Fables",
+  "author": "Aesop",
+  "year": 1848,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "life-skills"
+  ],
+  "why": "Tiny stories with big lessons: the tortoise and the hare, the boy who cried wolf and more.",
+  "contentNotes": "Some fables end with animals being killed or eaten.",
+  "origin": "Greece",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL12129731W",
+   "isbn": "9780140369847",
+   "olTitle": "Aesop's Fables",
+   "olAuthors": [
+    "Aesop"
+   ]
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/aesop/fables/v-s-vernon-jones",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "anna-hibiscus",
+  "title": "Anna Hibiscus",
+  "author": "Atinuke",
+  "year": 2007,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "early chapter book",
+  "interests": [
+   "stories",
+   "ocean"
+  ],
+  "areas": [
+   "civics-social",
+   "life-skills"
+  ],
+  "why": "Anna lives in a big, loving family compound in 'amazing Africa'; funny, warm short stories.",
+  "origin": "Nigeria",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19793218W",
+   "isbn": "9781406306552",
+   "olTitle": "Anna Hibiscus",
+   "olAuthors": [
+    "Atinuke"
+   ]
+  }
+ },
+ {
+  "id": "biblioburro",
+  "title": "Biblioburro",
+  "author": "Jeanette Winter",
+  "year": 2010,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "animals",
+   "stories",
+   "helping"
+  ],
+  "areas": [
+   "civics-social",
+   "independent-learning"
+  ],
+  "why": "Teacher Luis Soriano carries books on two donkeys to children in remote Colombian villages.",
+  "contentNotes": "Luis is briefly held up by a bandit.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL474268W",
+   "isbn": "9780545607612",
+   "olTitle": "Biblioburro",
+   "olAuthors": [
+    "Jeanette Winter"
+   ]
+  }
+ },
+ {
+  "id": "cheenus-gift",
+  "title": "Cheenu's Gift",
+  "author": "Sridala Swami",
+  "year": 2009,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "helping"
+  ],
+  "areas": [
+   "environment",
+   "life-skills"
+  ],
+  "why": "Cheenu goes on rounds with his father, a kabadiwala (scrap dealer), and finds a special treat; an early-reader story about work and reuse.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL23352385W",
+   "isbn": "9788184790672",
+   "olTitle": "Cheenu's gift",
+   "olAuthors": [
+    "Sridala Swami"
+   ]
+  },
+  "freeRead": {
+   "url": "https://storyweaver.org.in/en/stories/633-cheenu-s-gift",
+   "source": "StoryWeaver",
+   "licence": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "chuskit-goes-to-school",
+  "title": "Chuskit Goes to School!",
+  "author": "Sujatha Padmanabhan",
+  "year": 2011,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "helping",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "life-skills"
+  ],
+  "why": "Chuskit uses a wheelchair and can't reach school until her friend Abdul and the village build a bridge.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL23352382W",
+   "isbn": "9788182639386",
+   "olTitle": "Chuskit goes to school!",
+   "olAuthors": [
+    "Sujatha Padmanabhan"
+   ]
+  },
+  "freeRead": {
+   "url": "https://storyweaver.org.in/en/stories/21-chuskit-goes-to-school",
+   "source": "StoryWeaver",
+   "licence": "CC BY 4.0"
+  }
+ },
+ {
+  "id": "diary-of-a-wombat",
+  "title": "Diary of a Wombat",
+  "author": "Jackie French",
+  "year": 2002,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "languages"
+  ],
+  "why": "A week in the life of a wombat who sleeps, eats and trains her new humans to hand out carrots.",
+  "origin": "Australia",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3514295W",
+   "isbn": "9780002005616",
+   "olTitle": "Diary of a wombat",
+   "olAuthors": [
+    "Jackie French"
+   ]
+  }
+ },
+ {
+  "id": "doctor-de-soto",
+  "title": "Doctor De Soto",
+  "author": "William Steig",
+  "year": 1982,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "medicine",
+   "animals"
+  ],
+  "areas": [
+   "careers",
+   "health"
+  ],
+  "why": "A mouse dentist treats a fox with toothache, then must outsmart the fox who plans to eat him.",
+  "contentNotes": "The fox plans to eat the dentists; mild peril.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL22327W",
+   "isbn": "9780099621706",
+   "olTitle": "Doctor De Soto",
+   "olAuthors": [
+    "William Steig"
+   ]
+  }
+ },
+ {
+  "id": "dreamers",
+  "title": "Dreamers",
+  "author": "Yuyi Morales",
+  "year": 2018,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "art",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "independent-learning"
+  ],
+  "why": "The author's own story of moving from Mexico to the US with her baby and finding a home in the public library.",
+  "origin": "Mexico",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19749735W",
+   "isbn": "9780823440559",
+   "olTitle": "Dreamers",
+   "olAuthors": [
+    "Yuyi Morales"
+   ]
+  }
+ },
+ {
+  "id": "fantastic-mr-fox",
+  "title": "Fantastic Mr Fox",
+  "author": "Roald Dahl",
+  "year": 1970,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "animals",
+   "farming"
+  ],
+  "areas": [
+   "languages",
+   "life-skills"
+  ],
+  "why": "Mr Fox outwits three nasty farmers by digging an underground feast for all the animals.",
+  "contentNotes": "Farmers shoot off Mr Fox's tail and try to starve the animals; the animals steal food, which is presented as fine.",
+  "origin": "United Kingdom",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL45804W",
+   "isbn": "9780001006904",
+   "olTitle": "Fantastic Mr Fox",
+   "olAuthors": [
+    "Roald Dahl"
+   ]
+  }
+ },
+ {
+  "id": "fly-eagle-fly",
+  "title": "Fly, Eagle, Fly!",
+  "author": "Christopher Gregorowski",
+  "year": 2000,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "birds",
+   "farming",
+   "nature"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "life-skills"
+  ],
+  "why": "An eagle raised with chickens learns it was born to fly; a Ghanaian parable retold, with a foreword by Desmond Tutu.",
+  "origin": "South Africa",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1981802W",
+   "isbn": "9780624039037",
+   "olTitle": "Fly, eagle, fly!",
+   "olAuthors": [
+    "Christopher Gregorowski"
+   ]
+  }
+ },
+ {
+  "id": "frog-and-toad-are-friends",
+  "title": "Frog and Toad Are Friends",
+  "author": "Arnold Lobel",
+  "year": 1970,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "early reader",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "life-skills"
+  ],
+  "why": "Five short stories about two best friends; ideal first chapter book for new readers.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL449277W",
+   "isbn": "9780007464388",
+   "olTitle": "Frog and Toad Are Friends",
+   "olAuthors": [
+    "Arnold Lobel"
+   ],
+   "olFirstPublishYear": 1920,
+   "yearNote": "Open Library's first_publish_year is a catalogue error for this work; year given is the original publication year."
+  }
+ },
+ {
+  "id": "from-seed-to-plant",
+  "title": "From Seed to Plant",
+  "author": "Gail Gibbons",
+  "year": 1991,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "plants",
+   "farming",
+   "insects"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "Pollination, seeds and sprouting explained with clear diagrams, plus a bean-growing project.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL51699W",
+   "isbn": "9780590638920",
+   "olTitle": "From seed to plant",
+   "olAuthors": [
+    "Gail Gibbons",
+    "Erin Mallon"
+   ]
+  }
+ },
+ {
+  "id": "germs-make-me-sick",
+  "title": "Germs Make Me Sick!",
+  "author": "Melvin Berger",
+  "year": 1985,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "body",
+   "medicine"
+  ],
+  "areas": [
+   "health",
+   "first-aid"
+  ],
+  "why": "How bacteria and viruses make us ill and how the body and good habits fight back.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL103770W",
+   "isbn": "9780060242497",
+   "olTitle": "Germs Make Me Sick! (Let's Read-and-Find-Out Book)",
+   "olAuthors": [
+    "Melvin Berger"
+   ]
+  }
+ },
+ {
+  "id": "golden-domes-and-silver-lanterns",
+  "title": "Golden Domes and Silver Lanterns",
+  "author": "Hena Khan",
+  "year": 2012,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "concept book",
+  "interests": [
+   "art"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "civics-social"
+  ],
+  "why": "Colours introduce Muslim traditions: a red prayer rug, a golden dome, a blue hijab.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16615592W",
+   "isbn": "9780545571876",
+   "olTitle": "Golden Domes and Silver Lanterns",
+   "olAuthors": [
+    "Hena Khan"
+   ]
+  }
+ },
+ {
+  "id": "grace-for-president",
+  "title": "Grace for President",
+  "author": "Kelly DiPucchio",
+  "year": 2008,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "life-skills"
+  ],
+  "why": "Grace runs for class president and learns how elections and the electoral college work.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5705575W",
+   "isbn": "9780316567770",
+   "olTitle": "Grace for president",
+   "olAuthors": [
+    "Kelly S. DiPucchio",
+    "Kelly Dipucchio",
+    "Kelly DiPucchio"
+   ]
+  }
+ },
+ {
+  "id": "grandfather-gandhi",
+  "title": "Grandfather Gandhi",
+  "author": "Arun Gandhi",
+  "year": 2014,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "life-skills"
+  ],
+  "why": "Gandhi's grandson remembers learning from his grandfather how to turn anger into light.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16117535W",
+   "isbn": "9781442423657",
+   "olTitle": "Grandfather Gandhi",
+   "olAuthors": [
+    "Arun Gandhi"
+   ],
+   "olFirstPublishYear": 2012,
+   "yearNote": "Open Library's first_publish_year is a catalogue error for this work; year given is the original publication year."
+  }
+ },
+ {
+  "id": "grandmas-bag-of-stories",
+  "title": "Grandma's Bag of Stories",
+  "author": "Sudha Murty",
+  "year": 2012,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "languages"
+  ],
+  "why": "Summer holidays with Ajji, who tells clever folk tales from India and beyond.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16586199W",
+   "olTitle": "Grandma's bag of stories",
+   "olAuthors": [
+    "Sudha Murti"
+   ]
+  }
+ },
+ {
+  "id": "hachiko",
+  "title": "Hachiko",
+  "author": "Pamela S. Turner",
+  "year": 2004,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "dogs",
+   "animals"
+  ],
+  "areas": [
+   "nature-animals",
+   "civics-social"
+  ],
+  "why": "The Akita who waited at a Tokyo station every day for his owner, for nearly ten years.",
+  "contentNotes": "Hachiko's owner dies suddenly; the dog waits for years.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL8218265W",
+   "isbn": "9780547530963",
+   "olTitle": "Hachiko",
+   "olAuthors": [
+    "Pamela S. Turner",
+    "Yan Nascimbene"
+   ]
+  }
+ },
+ {
+  "id": "hello-ruby",
+  "title": "Hello Ruby",
+  "author": "Linda Liukas",
+  "year": 2015,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "computers",
+   "games"
+  ],
+  "areas": [
+   "technology-ai",
+   "projects"
+  ],
+  "why": "Ruby's adventure introduces sequences, loops and problem solving, with screen-free coding activities.",
+  "origin": "Finland",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20015033W",
+   "isbn": "9780143308980",
+   "olTitle": "Hello Ruby",
+   "olAuthors": [
+    "Linda Liukas"
+   ]
+  }
+ },
+ {
+  "id": "hiss-dont-bite",
+  "title": "Hiss, Don't Bite!",
+  "author": "Vayu Naidu",
+  "year": 1997,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "nature-animals"
+  ],
+  "why": "A Bengali tale of a snake who learns that being gentle doesn't mean being defenceless.",
+  "contentNotes": "Villagers beat the snake when it stops biting.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi",
+   "gu",
+   "ta"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2308977W",
+   "isbn": "9788181460042",
+   "olTitle": "Hiss, don't bite!",
+   "olAuthors": [
+    "Vayu Naidu."
+   ]
+  }
+ },
+ {
+  "id": "how-machines-work",
+  "title": "How Machines Work",
+  "author": "David Macaulay",
+  "year": 2015,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "machines",
+   "tools",
+   "building"
+  ],
+  "areas": [
+   "technology-ai",
+   "projects"
+  ],
+  "why": "A sloth and a panda escape the zoo using levers, wheels, pulleys and screws; lift-the-flap explanations.",
+  "origin": "United Kingdom",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20014703W",
+   "isbn": "9781465440129",
+   "olTitle": "How machines work",
+   "olAuthors": [
+    "David Macaulay"
+   ]
+  }
+ },
+ {
+  "id": "how-much-is-a-million",
+  "title": "How Much Is a Million?",
+  "author": "David M. Schwartz",
+  "year": 1985,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "maths",
+  "interests": [
+   "games",
+   "money"
+  ],
+  "areas": [
+   "core-academics",
+   "financial-literacy"
+  ],
+  "why": "Marvelosissimo the magician helps children picture a million, a billion and a trillion.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16054337W",
+   "isbn": "9780590339667",
+   "olTitle": "How much is a million?",
+   "olAuthors": [
+    "David M. Schwartz",
+    "David M Schwartz"
+   ]
+  }
+ },
+ {
+  "id": "if-the-world-were-a-village",
+  "title": "If the World Were a Village",
+  "author": "David J. Smith",
+  "year": 2002,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "civics",
+  "interests": [
+   "games",
+   "money"
+  ],
+  "areas": [
+   "civics-social",
+   "core-academics"
+  ],
+  "why": "Imagine the world as a village of 100 people: who speaks which language, who has enough food.",
+  "contentNotes": "Discusses poverty, hunger and inequality in simple numbers.",
+  "origin": "Canada",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15831281W",
+   "isbn": "9781550747799",
+   "olTitle": "If the world were a village",
+   "olAuthors": [
+    "David J. Smith"
+   ]
+  }
+ },
+ {
+  "id": "indian-fairy-tales",
+  "title": "Indian Fairy Tales",
+  "author": "Joseph Jacobs",
+  "year": 1892,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "philosophy-worldviews"
+  ],
+  "why": "Classic Indian folk tales and fables, collected in 1892, for reading aloud.",
+  "contentNotes": "Victorian-era collection: some violence typical of folk tales and dated colonial framing.",
+  "origin": "Australia",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL240336W",
+   "isbn": "9780342875771",
+   "olTitle": "Indian Fairy Tales",
+   "olAuthors": [
+    "Joseph Jacobs",
+    "John D Batten",
+    "Gloria Cardew"
+   ]
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/joseph-jacobs/indian-fairy-tales",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "jataka-tales",
+  "title": "Jataka Tales",
+  "author": "Ellen C. Babbitt",
+  "year": 1912,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "languages"
+  ],
+  "why": "Short Buddhist animal fables from ancient India, retold simply for children.",
+  "contentNotes": "Some animals are tricked or eaten, as in many fables.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL196945W",
+   "isbn": "9780135097298",
+   "olTitle": "Jataka tales",
+   "olAuthors": [
+    "Ellen C. Babbitt"
+   ]
+  },
+  "freeRead": {
+   "url": "https://www.gutenberg.org/ebooks/62514",
+   "source": "Project Gutenberg",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "just-so-stories",
+  "title": "Just So Stories",
+  "author": "Rudyard Kipling",
+  "year": 1902,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity"
+  ],
+  "why": "How the camel got his hump and the elephant his trunk; playful origin stories full of wordplay.",
+  "contentNotes": "Written in the colonial era; 'How the Leopard Got His Spots' contains a racial slur in the original text and some stories have dated portrayals of non-European peoples. Read with an adult or choose stories selectively.",
+  "origin": "United Kingdom",
+  "classic": true,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19899W",
+   "isbn": "9780007784998",
+   "olTitle": "Just So Stories",
+   "olAuthors": [
+    "Rudyard Kipling"
+   ],
+   "olFirstPublishYear": 1922,
+   "yearNote": "Open Library's first_publish_year is a catalogue error for this work; year given is the original publication year."
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/rudyard-kipling/just-so-stories",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "kali-and-the-rat-snake",
+  "title": "Kali and the Rat Snake",
+  "author": "Zai Whitaker",
+  "year": 2000,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "civics-social"
+  ],
+  "why": "Kali, from the Irula snake-catching community, is teased at school until a rat snake shows up in class.",
+  "contentNotes": "Includes teasing about caste and community.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "ta"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1038696W",
+   "isbn": "9781933605104",
+   "olTitle": "Kali And the Rat Snake",
+   "olAuthors": [
+    "Zai Whitaker"
+   ]
+  }
+ },
+ {
+  "id": "little-kids-first-big-book-of-dinosaurs",
+  "title": "Little Kids First Big Book of Dinosaurs",
+  "author": "Catherine D. Hughes",
+  "year": 2017,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "dinosaurs"
+  ],
+  "areas": [
+   "core-academics",
+   "independent-learning"
+  ],
+  "why": "Dozens of dinosaurs with fact boxes and maps, for confident young fans.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL26328125W",
+   "isbn": "9781426311598",
+   "olTitle": "Little Kids First Big Book of Dinosaurs",
+   "olAuthors": [
+    "Catherine D. Hughes",
+    "Franco Tempesta",
+    "National Geographic Kids"
+   ]
+  }
+ },
+ {
+  "id": "lon-po-po",
+  "title": "Lon Po Po",
+  "author": "Ed Young",
+  "year": 1988,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "animals",
+   "art"
+  ],
+  "areas": [
+   "languages",
+   "life-skills"
+  ],
+  "why": "Three sisters outwit a wolf pretending to be their grandmother; a Caldecott-winning Chinese folk tale.",
+  "contentNotes": "Genuinely tense; the wolf falls to its death at the end.",
+  "origin": "China",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3244341W",
+   "isbn": "9780399216190",
+   "olTitle": "Lon Po Po",
+   "olAuthors": [
+    "Ed Young"
+   ]
+  }
+ },
+ {
+  "id": "malalas-magic-pencil",
+  "title": "Malala's Magic Pencil",
+  "author": "Malala Yousafzai",
+  "year": 2017,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "stories",
+   "drawing"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "Malala tells her own story of wishing for a magic pencil and speaking up for girls' education.",
+  "contentNotes": "Refers to violence against girls who go to school and to Malala being attacked, without graphic detail.",
+  "origin": "Pakistan",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19668798W",
+   "isbn": "9780316319577",
+   "olTitle": "Malala's magic pencil",
+   "olAuthors": [
+    "Malala Yousafzai"
+   ]
+  }
+ },
+ {
+  "id": "martins-big-words",
+  "title": "Martin's Big Words",
+  "author": "Doreen Rappaport",
+  "year": 2001,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "Dr King's life told through his own powerful words.",
+  "contentNotes": "Segregation and racism; Dr King's assassination is mentioned.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL463890W",
+   "isbn": "9780439390040",
+   "olTitle": "Martin's big words",
+   "olAuthors": [
+    "Doreen Rappaport"
+   ]
+  }
+ },
+ {
+  "id": "me-frida",
+  "title": "Me, Frida",
+  "author": "Amy Novesky",
+  "year": 2010,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "art",
+   "drawing"
+  ],
+  "areas": [
+   "arts-creativity",
+   "careers"
+  ],
+  "why": "Frida Kahlo finds her own voice as an artist while living in San Francisco with Diego Rivera.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL18691944W",
+   "isbn": "9780810989696",
+   "olTitle": "Me, Frida",
+   "olAuthors": [
+    "Amy Novesky"
+   ]
+  }
+ },
+ {
+  "id": "me-jane",
+  "title": "Me...Jane",
+  "author": "Patrick McDonnell",
+  "year": 2011,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "careers"
+  ],
+  "why": "Young Jane Goodall and her toy chimpanzee dream of living with animals in Africa.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17874104W",
+   "isbn": "9780316045469",
+   "olTitle": "Me Jane",
+   "olAuthors": [
+    "Patrick McDonnell"
+   ]
+  }
+ },
+ {
+  "id": "moonshot",
+  "title": "Moonshot",
+  "author": "Brian Floca",
+  "year": 2008,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "space",
+   "machines"
+  ],
+  "areas": [
+   "technology-ai",
+   "core-academics"
+  ],
+  "why": "The 1969 Moon landing told in poetic text and detailed paintings.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL477864W",
+   "isbn": "9780545496728",
+   "olTitle": "Moonshot",
+   "olAuthors": [
+    "Brian Floca"
+   ]
+  }
+ },
+ {
+  "id": "mufaros-beautiful-daughters",
+  "title": "Mufaro's Beautiful Daughters",
+  "author": "John Steptoe",
+  "year": 1985,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "stories",
+   "art"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "life-skills"
+  ],
+  "why": "Two sisters travel to meet the king; kindness wins over pride in this richly painted Zimbabwe-inspired tale.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2920563W",
+   "isbn": "9780340532331",
+   "olTitle": "Mufaro's Beautiful Daughters",
+   "olAuthors": [
+    "John Steptoe",
+    "Joe Steptoe",
+    "Robin Miles"
+   ]
+  }
+ },
+ {
+  "id": "mukand-and-riaz",
+  "title": "Mukand and Riaz",
+  "author": "Nina Sabnani",
+  "year": 2007,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "art"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "Two best friends in Karachi are separated by the Partition of India in 1947; told in embroidered pictures.",
+  "contentNotes": "About Partition: friends separated and families forced to leave home; refers to violence without showing it.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi",
+   "ta",
+   "bn"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL11967518W",
+   "isbn": "9788181463432",
+   "olTitle": "Mukand and Riaz",
+   "olAuthors": [
+    "Nina Sabnani"
+   ]
+  }
+ },
+ {
+  "id": "my-fathers-dragon",
+  "title": "My Father's Dragon",
+  "author": "Ruth Stiles Gannett",
+  "year": 1948,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "independent-learning"
+  ],
+  "why": "Elmer packs lollipops and rubber bands to rescue a baby dragon on Wild Island; a perfect first read-aloud chapter book.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2688555W",
+   "isbn": "9780006711186",
+   "olTitle": "My father's dragon",
+   "olAuthors": [
+    "Ruth S. Gannett"
+   ]
+  },
+  "freeRead": {
+   "url": "https://www.gutenberg.org/ebooks/30017",
+   "source": "Project Gutenberg",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "my-name-is-gabito",
+  "title": "My Name Is Gabito",
+  "author": "Monica Brown",
+  "year": 2007,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "stories",
+   "art"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity"
+  ],
+  "why": "Bilingual English-Spanish picture biography of the Colombian storyteller's imaginative childhood.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1719162W",
+   "isbn": "9780873589086",
+   "olTitle": "My Name Is Gabito",
+   "olAuthors": [
+    "Monica Brown",
+    "Raúl Colón"
+   ]
+  }
+ },
+ {
+  "id": "ocean-sunlight",
+  "title": "Ocean Sunlight",
+  "author": "Molly Bang",
+  "year": 2012,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "ocean",
+   "plants"
+  ],
+  "areas": [
+   "environment",
+   "nature-animals"
+  ],
+  "why": "The Sun explains how plankton power the whole ocean food web.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16014426W",
+   "isbn": "9780545273220",
+   "olTitle": "Ocean Sunlight",
+   "olAuthors": [
+    "Molly Bang"
+   ]
+  }
+ },
+ {
+  "id": "one-cent-two-cents-old-cent-new-cent",
+  "title": "One Cent, Two Cents, Old Cent, New Cent",
+  "author": "Bonnie Worth",
+  "year": 2008,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "financial literacy",
+  "interests": [
+   "money"
+  ],
+  "areas": [
+   "financial-literacy",
+   "core-academics"
+  ],
+  "why": "The Cat in the Hat explains coins, notes, barter and the history of money in rhyme.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1941520W",
+   "isbn": "9780375828812",
+   "olTitle": "One Cent, Two Cents, Old Cent, New Cent",
+   "olAuthors": [
+    "Bonnie Worth"
+   ]
+  }
+ },
+ {
+  "id": "one-grain-of-rice",
+  "title": "One Grain of Rice",
+  "author": "Demi",
+  "year": 1997,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "money",
+   "farming"
+  ],
+  "areas": [
+   "core-academics",
+   "financial-literacy",
+   "civics-social"
+  ],
+  "why": "Clever Rani asks a greedy raja for rice that doubles every day for 30 days; a folk tale from India about doubling.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL103641W",
+   "isbn": "9780590939980",
+   "olTitle": "One grain of rice",
+   "olAuthors": [
+    "Demi"
+   ]
+  }
+ },
+ {
+  "id": "one-hen",
+  "title": "One Hen",
+  "author": "Katie Smith Milway",
+  "year": 2008,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "money",
+   "farming",
+   "birds"
+  ],
+  "areas": [
+   "financial-literacy",
+   "careers"
+  ],
+  "why": "Kojo in Ghana buys one hen with a small loan and grows it into a farm; inspired by real microfinance stories.",
+  "origin": "Canada",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17052302W",
+   "isbn": "9781408101452",
+   "olTitle": "One hen",
+   "olAuthors": [
+    "Katie Smith Milway"
+   ]
+  }
+ },
+ {
+  "id": "owen-and-mzee",
+  "title": "Owen and Mzee",
+  "author": "Isabella Hatkoff",
+  "year": 2006,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "A baby hippo orphaned by the 2004 tsunami befriends a 130-year-old tortoise in Kenya; photo-illustrated.",
+  "contentNotes": "The hippo is separated from its family by the tsunami.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5829432W",
+   "isbn": "9780439829731",
+   "olTitle": "Owen and Mzee",
+   "olAuthors": [
+    "Isabella Hatkoff",
+    "Craig Hatkoff",
+    "Paula Kahumbu"
+   ]
+  }
+ },
+ {
+  "id": "pancakes-for-findus",
+  "title": "Pancakes for Findus",
+  "author": "Sven Nordqvist",
+  "year": 2008,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "cats",
+   "cooking",
+   "farming"
+  ],
+  "areas": [
+   "life-skills",
+   "projects"
+  ],
+  "why": "Old Pettson tries to bake his cat a birthday pancake cake, but every ingredient brings a new problem.",
+  "origin": "Sweden",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17391441W",
+   "isbn": "9781903458792",
+   "olTitle": "Pancakes For Findus",
+   "olAuthors": [
+    "Sven Nordqvist"
+   ],
+   "languageNote": "Open Library records no language for this work; English listed because the catalogued title/edition is the English original."
+  }
+ },
+ {
+  "id": "pippi-longstocking",
+  "title": "Pippi Longstocking",
+  "author": "Astrid Lindgren",
+  "year": 1945,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "horses",
+   "stories",
+   "games"
+  ],
+  "areas": [
+   "languages",
+   "philosophy-worldviews"
+  ],
+  "why": "The strongest girl in the world lives alone with her horse and monkey and does things her own way.",
+  "contentNotes": "Older translations call Pippi's father a 'Negro king' or 'cannibal king'; newer editions revise this wording. Pippi lies and skips school for fun.",
+  "origin": "Sweden",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL14872925W",
+   "isbn": "9780050043295",
+   "olTitle": "Pippi Långstrump",
+   "olAuthors": [
+    "Astrid Lindgren"
+   ]
+  }
+ },
+ {
+  "id": "rosie-revere-engineer",
+  "title": "Rosie Revere, Engineer",
+  "author": "Andrea Beaty",
+  "year": 2013,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "building",
+   "machines",
+   "tools"
+  ],
+  "areas": [
+   "technology-ai",
+   "careers",
+   "projects"
+  ],
+  "why": "Rosie builds gadgets from junk and learns that a 'failure' is just a first try.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17334846W",
+   "isbn": "9781419708459",
+   "olTitle": "Rosie Revere, Engineer",
+   "olAuthors": [
+    "Andrea Beaty"
+   ]
+  }
+ },
+ {
+  "id": "sittis-secrets",
+  "title": "Sitti's Secrets",
+  "author": "Naomi Shihab Nye",
+  "year": 1994,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "Mona visits her grandmother in a Palestinian village and later writes to the US President asking for peace.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL468016W",
+   "isbn": "9780027684605",
+   "olTitle": "Sitti's secrets",
+   "olAuthors": [
+    "Naomi Shihab Nye"
+   ]
+  }
+ },
+ {
+  "id": "snowflake-bentley",
+  "title": "Snowflake Bentley",
+  "author": "Jacqueline Briggs Martin",
+  "year": 1998,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "nature",
+   "art",
+   "farming"
+  ],
+  "areas": [
+   "core-academics",
+   "careers"
+  ],
+  "why": "A Vermont farm boy spends his life photographing snowflakes; a Caldecott winner about patience and curiosity.",
+  "contentNotes": "Ends with Bentley's death from pneumonia.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2653827W",
+   "isbn": "9780153651410",
+   "olTitle": "Snowflake Bentley",
+   "olAuthors": [
+    "Jacqueline Briggs Martin"
+   ]
+  }
+ },
+ {
+  "id": "stepping-stones",
+  "title": "Stepping Stones",
+  "author": "Margriet Ruurs",
+  "year": 2016,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "art",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "arts-creativity"
+  ],
+  "why": "A Syrian family flees war, illustrated with stone art by Syrian artist Nizar Ali Badr; text in English and Arabic.",
+  "contentNotes": "War, bombs and leaving home are described gently; refugee journey.",
+  "origin": "Canada",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19634289W",
+   "isbn": "9781459814905",
+   "olTitle": "Stepping Stones",
+   "olAuthors": [
+    "Margriet Ruurs"
+   ]
+  }
+ },
+ {
+  "id": "suho-and-the-white-horse",
+  "title": "Suho and the White Horse",
+  "author": "Yuzo Otsuka",
+  "year": 1969,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "horses",
+   "music",
+   "animals"
+  ],
+  "areas": [
+   "arts-creativity",
+   "philosophy-worldviews"
+  ],
+  "why": "A shepherd boy and his white horse share a deep bond, and the horse becomes the first horse-head fiddle.",
+  "contentNotes": "The horse is shot with arrows and dies; a sad but beautiful legend.",
+  "origin": "Japan",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL6336439W",
+   "isbn": "9780460061193",
+   "olTitle": "Sūho and the white horse",
+   "olAuthors": [
+    "Yūzō Ōtsuka",
+    "Akaba, Suekichi."
+   ]
+  }
+ },
+ {
+  "id": "surprising-sharks",
+  "title": "Surprising Sharks",
+  "author": "Nicola Davies",
+  "year": 2004,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "ocean",
+   "animals"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "Most sharks are small and shy; and people are more dangerous to sharks than sharks to people.",
+  "origin": "United Kingdom",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL8211261W",
+   "isbn": "9780606334341",
+   "olTitle": "Surprising Sharks",
+   "olAuthors": [
+    "Nicola Davies"
+   ]
+  }
+ },
+ {
+  "id": "takdir-the-tiger-cub",
+  "title": "Takdir the Tiger Cub",
+  "author": "Latika Nath Rana",
+  "year": 2004,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "A tiger cub grows up in an Indian forest, by a wildlife biologist who studied tigers; from Tulika.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5863525W",
+   "isbn": "9780861447633",
+   "olTitle": "Takdir the tiger cub",
+   "olAuthors": [
+    "Latika Nath Rana"
+   ]
+  }
+ },
+ {
+  "id": "the-adventures-of-pinocchio",
+  "title": "The Adventures of Pinocchio",
+  "author": "Carlo Collodi",
+  "year": 1883,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "life-skills"
+  ],
+  "why": "A wooden puppet learns, through many scrapes, what it takes to become a real boy.",
+  "contentNotes": "The original is darker than the film: Pinocchio kills the Talking Cricket and is hanged by villains. Best read aloud with an adult.",
+  "origin": "Italy",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL470252W",
+   "isbn": "9780006913764",
+   "olTitle": "The Adventures of Pinocchio",
+   "olAuthors": [
+    "Stephanie Spinner",
+    "Carlo Collodi",
+    "Jane Fior"
+   ]
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/carlo-collodi/the-adventures-of-pinocchio",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "the-blue-jackal",
+  "title": "The Blue Jackal",
+  "author": "Shobha Viswanath",
+  "year": 2014,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "folk tale",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "languages"
+  ],
+  "why": "A Panchatantra fable from Karadi Tales: a jackal dyed blue pretends to be king of the forest until his howl gives him away.",
+  "contentNotes": "The jackal is chased away (and in some tellings killed) when found out.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20026957W",
+   "isbn": "9780802854667",
+   "olTitle": "The blue jackal",
+   "olAuthors": [
+    "Shobha Viswanath"
+   ]
+  }
+ },
+ {
+  "id": "the-boy-who-harnessed-the-wind-picture-book",
+  "title": "The Boy Who Harnessed the Wind",
+  "author": "William Kamkwamba",
+  "year": 2009,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "machines",
+   "building",
+   "tools"
+  ],
+  "areas": [
+   "technology-ai",
+   "projects",
+   "environment"
+  ],
+  "why": "During a drought in Malawi, William builds a windmill from scrap to bring electricity to his village.",
+  "contentNotes": "Drought and famine are described. Open Library groups the picture-book and longer editions under one work.",
+  "origin": "Malawi",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15190422W",
+   "isbn": "9780007307401",
+   "olTitle": "The Boy Who Harnessed the Wind",
+   "olAuthors": [
+    "William Kamkwamba",
+    "Bryan Mealer",
+    "Korey Jackson"
+   ]
+  }
+ },
+ {
+  "id": "the-cat-in-the-hat",
+  "title": "The Cat in the Hat",
+  "author": "Dr. Seuss",
+  "year": 1957,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "early reader",
+  "interests": [
+   "cats",
+   "games",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "life-skills"
+  ],
+  "why": "A rainy day turns wild when the Cat arrives; built from a small set of words for beginning readers.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1898309W",
+   "isbn": "9780001711013",
+   "olTitle": "The Cat in the Hat",
+   "olAuthors": [
+    "Dr. Seuss",
+    "Simon Mugford"
+   ]
+  }
+ },
+ {
+  "id": "the-cherry-tree",
+  "title": "The Cherry Tree",
+  "author": "Ruskin Bond",
+  "year": 2012,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "plants",
+   "nature",
+   "farming"
+  ],
+  "areas": [
+   "environment",
+   "nature-animals"
+  ],
+  "why": "Rakesh plants a cherry seed in the hills and patiently watches it grow with his grandfather.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL25072076W",
+   "isbn": "9780143332459",
+   "olTitle": "The Cherry Tree",
+   "olAuthors": [
+    "Ruskin Bond"
+   ]
+  }
+ },
+ {
+  "id": "the-darkest-dark",
+  "title": "The Darkest Dark",
+  "author": "Chris Hadfield",
+  "year": 2016,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "space"
+  ],
+  "areas": [
+   "life-skills",
+   "careers"
+  ],
+  "why": "Young Chris is afraid of the dark until the Moon landing shows him the beauty of the dark of space.",
+  "origin": "Canada",
+  "classic": false,
+  "languages": [
+   "en",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20132773W",
+   "isbn": "9780316362818",
+   "olTitle": "The Darkest Dark",
+   "olAuthors": [
+    "Chris Hadfield",
+    "Kate Fillion",
+    "Eric Fan"
+   ]
+  }
+ },
+ {
+  "id": "the-day-of-ahmeds-secret",
+  "title": "The Day of Ahmed's Secret",
+  "author": "Florence Parry Heide",
+  "year": 1990,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "helping"
+  ],
+  "areas": [
+   "careers",
+   "languages"
+  ],
+  "why": "Ahmed delivers gas cans across Cairo all day, waiting to share his secret: he has learned to write his name.",
+  "contentNotes": "Shows child labour as ordinary family work.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1826318W",
+   "isbn": "9780021794812",
+   "olTitle": "The day of Ahmed's secret",
+   "olAuthors": [
+    "Florence Parry Heide",
+    "Ted Lewin",
+    "Judith Heide Gilliland"
+   ]
+  }
+ },
+ {
+  "id": "the-dot",
+  "title": "The Dot",
+  "author": "Peter H. Reynolds",
+  "year": 2003,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "art",
+   "drawing"
+  ],
+  "areas": [
+   "arts-creativity",
+   "life-skills"
+  ],
+  "why": "Vashti thinks she can't draw until her teacher frames a single dot; about creative courage.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2435178W",
+   "isbn": "9780545303033",
+   "olTitle": "The dot",
+   "olAuthors": [
+    "Peter H. Reynolds"
+   ]
+  }
+ },
+ {
+  "id": "the-honeybee",
+  "title": "The Honeybee",
+  "author": "Kirsten Hall",
+  "year": 2018,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "insects",
+   "plants",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "Buzzy rhyming text follows a honeybee from flower to hive and shows why bees matter.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19740785W",
+   "isbn": "9781481469975",
+   "olTitle": "The honeybee",
+   "olAuthors": [
+    "Kirsten Hall",
+    "Isabelle Arsenault"
+   ]
+  }
+ },
+ {
+  "id": "the-librarian-of-basra",
+  "title": "The Librarian of Basra",
+  "author": "Jeanette Winter",
+  "year": 2004,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "stories",
+   "helping"
+  ],
+  "areas": [
+   "civics-social",
+   "independent-learning"
+  ],
+  "why": "Alia Muhammad Baker rescues her city's library books before war reaches Basra.",
+  "contentNotes": "The library burns during war.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL27634152W",
+   "isbn": "9780152054458",
+   "olTitle": "Librarian of Basra",
+   "olAuthors": [
+    "Jeanette Winter"
+   ]
+  }
+ },
+ {
+  "id": "the-magic-pudding",
+  "title": "The Magic Pudding",
+  "author": "Norman Lindsay",
+  "year": 1918,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "cooking",
+   "animals"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity"
+  ],
+  "why": "A koala, a sailor and a penguin defend a bad-tempered pudding that never runs out; a comic Australian classic.",
+  "contentNotes": "Lots of slapstick fighting and punching between characters.",
+  "origin": "Australia",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL4546120W",
+   "isbn": "9780140300987",
+   "olTitle": "The Magic Pudding",
+   "olAuthors": [
+    "Norman Lindsay"
+   ],
+   "olFirstPublishYear": 1936,
+   "yearNote": "Open Library's first_publish_year is a catalogue error for this work; year given is the original publication year."
+  }
+ },
+ {
+  "id": "magic-school-bus-inside-the-human-body",
+  "title": "The Magic School Bus Inside the Human Body",
+  "author": "Joanna Cole",
+  "year": 1989,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "body",
+   "medicine"
+  ],
+  "areas": [
+   "health",
+   "core-academics"
+  ],
+  "why": "Ms. Frizzle's class shrinks and travels through Arnold's body after he swallows the bus.",
+  "origin": "United States",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL83042W",
+   "isbn": "9780439004930",
+   "olTitle": "The Magic School Bus Inside the Human Body",
+   "olAuthors": [
+    "Joanna Cole"
+   ]
+  }
+ },
+ {
+  "id": "the-moon-book",
+  "title": "The Moon Book",
+  "author": "Gail Gibbons",
+  "year": 1997,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "space"
+  ],
+  "areas": [
+   "core-academics",
+   "independent-learning"
+  ],
+  "why": "Phases, tides, eclipses and the Moon landings in one clear picture book.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL51674W",
+   "isbn": "9780590149051",
+   "olTitle": "The moon book",
+   "olAuthors": [
+    "Gail Gibbons"
+   ]
+  }
+ },
+ {
+  "id": "the-name-jar",
+  "title": "The Name Jar",
+  "author": "Yangsook Choi",
+  "year": 2003,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "languages"
+  ],
+  "why": "Unhei, new from Korea, considers choosing an American name before deciding to keep her own.",
+  "contentNotes": "Includes gentle teasing about a foreign name.",
+  "origin": "South Korea",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17406742W",
+   "isbn": "9780756916305",
+   "olTitle": "The Name Jar",
+   "olAuthors": [
+    "Yangsook Choi"
+   ]
+  }
+ },
+ {
+  "id": "the-paper-bag-princess",
+  "title": "The Paper Bag Princess",
+  "author": "Robert Munsch",
+  "year": 1980,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "life-skills",
+   "philosophy-worldviews"
+  ],
+  "why": "Princess Elizabeth outsmarts a dragon to save a prince, then decides he is not worth marrying.",
+  "origin": "Canada",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL88684W",
+   "isbn": "9780439010177",
+   "olTitle": "The Paper Bag Princess",
+   "olAuthors": [
+    "Robert N. Munsch"
+   ]
+  }
+ },
+ {
+  "id": "the-story-of-ruby-bridges",
+  "title": "The Story of Ruby Bridges",
+  "author": "Robert Coles",
+  "year": 1993,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "Six-year-old Ruby walks past angry crowds to integrate a New Orleans school in 1960.",
+  "contentNotes": "Shows racist mobs shouting at a young child.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL260246W",
+   "isbn": "9780439472265",
+   "olTitle": "The Story of Ruby Bridges",
+   "olAuthors": [
+    "Robert Coles"
+   ]
+  }
+ },
+ {
+  "id": "the-velveteen-rabbit",
+  "title": "The Velveteen Rabbit",
+  "author": "Margery Williams",
+  "year": 1922,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "life-skills"
+  ],
+  "why": "A toy rabbit becomes Real through a child's love; a tender classic about love and loss.",
+  "contentNotes": "The boy has scarlet fever and the rabbit is to be burned with his toys; may be sad for sensitive children.",
+  "origin": "United Kingdom",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL23590326W",
+   "isbn": "9780434972654",
+   "olTitle": "The Velveteen Rabbit",
+   "olAuthors": [
+    "Margery Williams",
+    "Nicholson, William"
+   ]
+  },
+  "freeRead": {
+   "url": "https://www.gutenberg.org/ebooks/11757",
+   "source": "Project Gutenberg",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "the-why-why-girl",
+  "title": "The Why-Why Girl",
+  "author": "Mahasweta Devi",
+  "year": 2003,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "animals"
+  ],
+  "areas": [
+   "independent-learning",
+   "civics-social"
+  ],
+  "why": "Moyna, a tribal girl who herds goats, asks 'why?' about everything until she gets to go to school.",
+  "contentNotes": "Shows poverty and children working instead of studying.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "gu",
+   "ta"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL298793W",
+   "isbn": "9788181460189",
+   "olTitle": "The why-why girl",
+   "olAuthors": [
+    "Mahāśvetā Debī"
+   ]
+  }
+ },
+ {
+  "id": "tiny-creatures",
+  "title": "Tiny Creatures",
+  "author": "Nicola Davies",
+  "year": 2016,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "body",
+   "nature"
+  ],
+  "areas": [
+   "core-academics",
+   "health"
+  ],
+  "why": "Microbes are everywhere, from your gut to the ocean; how they help and harm.",
+  "origin": "United Kingdom",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20474724W",
+   "isbn": "9780763689049",
+   "olTitle": "Tiny Creatures",
+   "olAuthors": [
+    "Nicola Davies"
+   ],
+   "languageNote": "Open Library records no language for this work; English listed because the catalogued title/edition is the English original."
+  }
+ },
+ {
+  "id": "tomas-and-the-library-lady",
+  "title": "Tomás and the Library Lady",
+  "author": "Pat Mora",
+  "year": 1997,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "picture book",
+  "interests": [
+   "stories",
+   "farming"
+  ],
+  "areas": [
+   "languages",
+   "independent-learning"
+  ],
+  "why": "A migrant farm worker's son discovers the library; inspired by the childhood of Tomás Rivera.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1864488W",
+   "isbn": "9780375803499",
+   "olTitle": "Tomas and the Library Lady",
+   "olAuthors": [
+    "Pat Mora"
+   ]
+  }
+ },
+ {
+  "id": "wangaris-trees-of-peace",
+  "title": "Wangari's Trees of Peace",
+  "author": "Jeanette Winter",
+  "year": 2001,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "plants",
+   "nature",
+   "helping"
+  ],
+  "areas": [
+   "environment",
+   "civics-social"
+  ],
+  "why": "Wangari Maathai starts planting trees in Kenya and inspires a movement.",
+  "contentNotes": "Wangari is beaten and jailed for protesting.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL474289W",
+   "isbn": "9780152065454",
+   "olTitle": "Wangari's trees of peace",
+   "olAuthors": [
+    "Jeanette Winter"
+   ]
+  }
+ },
+ {
+  "id": "what-happens-to-a-hamburger",
+  "title": "What Happens to a Hamburger?",
+  "author": "Paul Showers",
+  "year": 1970,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "body",
+   "cooking"
+  ],
+  "areas": [
+   "health",
+   "core-academics"
+  ],
+  "why": "Follow food through the digestive system, with simple experiments.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2724732W",
+   "isbn": "9780060279479",
+   "olTitle": "What happens to a hamburger",
+   "olAuthors": [
+    "Paul Showers",
+    "Edward Miller",
+    "Anne F. Rockwell"
+   ]
+  }
+ },
+ {
+  "id": "wilma-unlimited",
+  "title": "Wilma Unlimited",
+  "author": "Kathleen Krull",
+  "year": 1996,
+  "band": "6-8",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "running",
+   "sport",
+   "fitness"
+  ],
+  "areas": [
+   "physical-education",
+   "health"
+  ],
+  "why": "After polio left her leg weak, Wilma Rudolph won three Olympic gold medals.",
+  "contentNotes": "Childhood illness (polio) and racial segregation.",
+  "origin": "United States",
+  "classic": false,
+  "languages": [
+   "en",
+   "es"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL441815W",
+   "isbn": "9780152012670",
+   "olTitle": "Wilma Unlimited",
+   "olAuthors": [
+    "Kathleen Krull"
+   ]
+  }
+ },
+ {
+  "id": "winnie-the-pooh",
+  "title": "Winnie-the-Pooh",
+  "author": "A. A. Milne",
+  "year": 1926,
+  "band": "6-8",
+  "type": "fiction",
+  "genre": "classic",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "life-skills"
+  ],
+  "why": "Pooh, Piglet and friends in the Hundred Acre Wood; gentle, funny stories about friendship.",
+  "origin": "United Kingdom",
+  "classic": true,
+  "languages": [
+   "en",
+   "es",
+   "fr"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL476641W",
+   "isbn": "9780008512514",
+   "olTitle": "Winnie-the-Pooh",
+   "olAuthors": [
+    "A. A. Milne"
+   ],
+   "olFirstPublishYear": 1925,
+   "yearNote": "Open Library's first_publish_year is a catalogue error for this work; year given is the original publication year."
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/a-a-milne/winnie-the-pooh",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ }
+]
