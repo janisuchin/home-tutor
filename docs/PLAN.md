@@ -18,7 +18,7 @@ Legend: ✅ done (round 1 unless marked R2) · 🟡 partly done · ⬜ not start
 - ✅ Offline storage with a sync queue; PWA manifest, service worker and offline cache.
 - ✅ Accessibility labels and roles on every control; axe checks in e2e.
 - ✅ R2 Hindi UI (`hi.json`, lazy chunk) with a language picker at set-up and in settings; set-up follows the device locale.
-- ⬜ Gujarati UI (round 3) and a native-speaker review of Hindi.
+- ✅ R3 Gujarati UI (`gu.json`, lazy chunk). ⬜ Native-speaker review of Hindi and Gujarati.
 
 ## P2 Families and modes ✅
 - ✅ Family set-up: name, country, modes A-H, parent PIN, consent.
@@ -30,7 +30,7 @@ Legend: ✅ done (round 1 unless marked R2) · 🟡 partly done · ⬜ not start
   topics, worldview, language, hours, intensity, screen time and resources.
 - ✅ Tutor dashboard: everything in section 33, with recommendations such as accelerating a strong
   subject or connecting an interest (for example fractions with recipes).
-- 🟡 Equipment is set per child in the profile, not yet as a family-level inventory.
+- ✅ R3 Family-level equipment inventory (set-up and settings), used by the engine.
 
 ## P3 Learning engine ✅
 - ✅ A dynamic learning map per child, with levels separate from age.
@@ -46,7 +46,7 @@ Legend: ✅ done (round 1 unless marked R2) · 🟡 partly done · ⬜ not start
 - ✅ Projects and world projects; career families (55 careers).
 - ✅ Gamification for effort, curiosity, persistence, mastery, cooperation and real-world skills;
   no streaks; daily screen-time limits.
-- ⬜ Spaced review of mastered items; richer level models per skill-tree node.
+- ✅ R3 Spaced review of mastered items. ⬜ Richer level models per skill-tree node.
 
 ## P4 Starter content ✅
 - ✅ All 17 areas × 5 age bands: 389 items, 19 simulations and 37 projects.
@@ -85,7 +85,7 @@ Legend: ✅ done (round 1 unless marked R2) · 🟡 partly done · ⬜ not start
 - ✅ Groups (siblings, small group, classroom), attendance, group assignments and compatibility.
 - ✅ Shared lessons that keep each child's own progress.
 - ✅ Projector presentation mode with teacher controls, polls and collaborative questions.
-- ⬜ Live polls from students' own devices (needs realtime: Durable Objects).
+- ✅ R3 Live polls and class questions from students' own devices (Durable Object rooms, join code).
 - ✅ R2 Attendance synced to the cloud as records; printable class report.
 - ⬜ Polls synced to the cloud.
 
@@ -98,6 +98,13 @@ Legend: ✅ done (round 1 unless marked R2) · 🟡 partly done · ⬜ not start
 - ✅ R2 Bundle-size budget in CI: entry 164 KB gzip (was 291 KB) via a web-only router shim and lazy screens.
 - ✅ R2 Native share-sheet export (expo-sharing); the Android bundle builds.
 - ⬜ Native store builds (they need the owner's Apple and Google accounts and EAS).
+
+## Round 3 additions
+- ✅ Unlocked review edition (own Worker and D1, Browse everything, View as, noindex).
+- ✅ Real photos: openly licensed, self-hosted, credited (content/photos.json, Credits page).
+- ✅ Reading list: real books per age band verified in Open Library, suggestions, parent hide/approve, passport.
+- ✅ Tutor session notes and a parent view of tutor activity.
+- ✅ E2E clean-up check: no account left behind by a run.
 
 ## Later rounds
 1. ✅ Deploy, then run the e2e suite against the live URL (done from the owner's PC).

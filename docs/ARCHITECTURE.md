@@ -111,6 +111,42 @@ Optional extra sign-in on the web with `@simplewebauthn/server` in the Worker an
 party = request host, the page origin must match it, single-use 5-minute challenges, public keys
 only. Password and recovery key keep working.
 
+### Editions (round 3)
+
+`EXPO_PUBLIC_EDITION=unlocked` builds the review edition into `dist-unlocked/`; `scripts/deploy.sh
+unlocked` deploys it as Worker `home-tutor-unlocked` with D1 `home-tutor-unlocked` and
+`EDITION=unlocked`. `src/core/edition.ts` is the only place that reads the flag. In the review
+edition `visibilityFor()` opens everything (Amber/Red keep their adult flags), there is no PIN, a
+banner shows on every screen, and `/review` has Browse everything and View as (`src/core/engine/review.ts`).
+View-as learners (`viewas-*`) and the `strict` option keep the normal gates. `index.html` is
+`noindex`, `robots.txt` disallows all.
+
+### Live classroom (round 3)
+
+```
+ projector (teacher) --POST /api/class/rooms--> Worker --> Durable Object ClassroomRoom (one per code)
+ student phones ------/api/class/rooms/:code--> Worker -->   poll, ballots (1 per device id), questions
+                     every 2 s (HTTPS)                        deleted after 12 hours
+```
+
+Room rules are pure functions (`src/core/classroom-room.ts`) used by the Durable Object
+(`api/src/classroom.ts`), the local test server and unit tests (`api/test/do-memory.ts`). The host key
+is stored only as a hash; students have a random device id and no name.
+
+### Photos and books (round 3)
+
+- `content/photos.json`: every photo's credit (source page, author, licence and URL, changes),
+  alt text and the content ids it illustrates. Files are WebP in `public/photos/` (at most 800 px,
+  60 KB; thumbnails 16 KB), served by the Worker itself (never hotlinked), `loading="lazy"`, cached
+  by the service worker after the first view. The credits file is a lazy content file, so photos add
+  nothing to the entry bundle. Health lessons never get photos. The validator fails on a missing
+  credit, a disallowed licence, a missing or oversized file or an unknown link.
+- `content/books.json`: real books only, each with an Open Library work key, band, type, genre,
+  interests, areas, a why-read-it line, content notes and optional free legal reading links.
+  `src/core/engine/books.ts` suggests books (band and the band below, interests, goals, languages
+  spoken, parent approval, fiction/non-fiction balance); parents hide or approve books
+  (`Family.settings.bookPrefs`); a book read is a `book` event with `bookId`, so it reaches the passport.
+
 ## The engines (src/core/engine)
 
 - **gating.ts** decides what a child may see:
@@ -140,6 +176,9 @@ only. Password and recovery key keep working.
   are never shared) and works out achievements for effort, curiosity, persistence, mastery,
   cooperation and real-world skills. There are no streaks.
 - **passport.ts** builds the Learning Passport snapshot.
+- **spaced.ts** (round 3): spaced review of mastered items (3, 7, 21, 60, 120 days), one a day in the plan.
+- **equipment.ts** (round 3): the family equipment inventory; items needing gear the family has move up, missing gear moves them down.
+- **books.ts**, **review.ts**, **tutor-activity.ts** (round 3): reading suggestions, the review edition, a parent's view of each tutor's sessions and notes.
 
 ## Content
 

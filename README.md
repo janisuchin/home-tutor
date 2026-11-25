@@ -2,6 +2,9 @@
 
 **Live app:** https://home-tutor.german-journey.workers.dev
 
+**Review edition (owner only, everything unlocked, not indexed):** https://home-tutor-unlocked.german-journey.workers.dev
+(`bash scripts/deploy.sh unlocked`; its own Worker and D1 database, so review data never mixes with real families)
+
 Home Tutor is a free, child-friendly home-tutoring app for parents, tutors and teachers anywhere in
 the world. It works with one child, several siblings, a small group or a whole classroom, for children
 aged about 3 to 17.
