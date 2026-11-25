@@ -776,5 +776,6 @@
   "books.band": "Ages {band}",
   "books.count": "{n} books",
   "books.approve": "Approved",
-  "books.hide": "Hide"
+  "books.hide": "Hide",
+  "reason.review": "Time to remember it again"
 }

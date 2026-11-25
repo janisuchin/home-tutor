@@ -776,5 +776,6 @@
   "books.band": "उम्र {band}",
   "books.count": "{n} किताबें",
   "books.approve": "मंज़ूर",
-  "books.hide": "छिपाएँ"
+  "books.hide": "छिपाएँ",
+  "reason.review": "इसे फिर से याद करने का समय"
 }

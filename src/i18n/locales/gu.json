@@ -776,5 +776,6 @@
   "books.band": "ઉંમર {band}",
   "books.count": "{n} પુસ્તકો",
   "books.approve": "મંજૂર",
-  "books.hide": "છુપાવો"
+  "books.hide": "છુપાવો",
+  "reason.review": "ફરી યાદ કરવાનો સમય"
 }

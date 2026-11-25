@@ -10,6 +10,7 @@ import type { Child, Family, ProgressEvent } from '../model';
 import { ageBandFor, ageFromBirth } from '../model';
 import { deriveProgress, type ChildProgress } from './progress';
 import { visibilityFor } from './gating';
+import { isReviewDue } from './spaced';
 
 export interface Reason {
   key: string; // i18n key
@@ -18,6 +19,8 @@ export interface Reason {
 
 export interface Recommendation {
   item: ItemMeta;
+  /** A spaced review of something already mastered. */
+  review?: boolean;
   score: number;
   reasons: Reason[];
   needsAdult: boolean;
@@ -86,7 +89,12 @@ export function scoreItem(
 
   // PERFORMANCE: done already? Recently struggled in this subject -> prefer easier items.
   const times = progress.completed.get(item.id) ?? 0;
-  if (times > 0) score -= 6 + times;
+  // SPACED REVIEW: a mastered item that is due again comes back (one per day in todayPlan).
+  const review = times > 0 && isReviewDue(progress, item, now);
+  if (review) {
+    score += 3;
+    reasons.push({ key: 'reason.review' });
+  } else if (times > 0) score -= 6 + times;
   const recent = progress.subjectRecent.get(item.subject);
   if (recent && recent.done >= 2 && recent.good / recent.done < 0.5) {
     if (gap <= 0) {
@@ -168,7 +176,7 @@ export function scoreItem(
   score += (hash(item.id + child.id) % 100) / 1000;
 
   if (!reasons.length) reasons.push({ key: 'reason.explore' });
-  return { item, score, reasons, needsAdult: vis.needsAdult, needsProfessional: vis.needsProfessional };
+  return { item, score, reasons, needsAdult: vis.needsAdult, needsProfessional: vis.needsProfessional, ...(review ? { review: true } : {}) };
 }
 
 function hash(s: string): number {
@@ -219,6 +227,7 @@ export function todayPlan(
     if (plan.length >= count) break;
     if (r.item.kind === 'project' || r.item.kind === 'world-project') continue; // projects are missions
     if (usedAreas.has(r.item.area)) continue;
+    if (r.review && plan.some((x) => x.review)) continue; // at most one review a day
     if (minutes + r.item.minutes > budget && plan.length > 0) continue;
     plan.push(r);
     usedAreas.add(r.item.area);
