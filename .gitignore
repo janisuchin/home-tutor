@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+web-build/
+.wrangler/
+coverage/
+playwright-report/
+test-results/
+*.log
+.env
+.env.*
+.dev.vars
+.DS_Store
+public/content/
+src/content-generated/
