@@ -1,0 +1,1162 @@
+{
+  "area": "environment",
+  "title": "Environment",
+  "emoji": "🌍",
+  "description": "Weather, the water cycle, recycling, composting, energy saving, ecosystems, climate science and local nature surveys: hopeful, evidence-based care for our planet.",
+  "skillTrees": [
+    {
+      "id": "env-earth-care",
+      "area": "environment",
+      "title": "Caring for the Earth",
+      "emoji": "🌍",
+      "nodes": [
+        {
+          "id": "observe",
+          "title": "Observe nature",
+          "description": "Notice plants, animals, weather and seasons around you."
+        },
+        {
+          "id": "weather",
+          "title": "Weather",
+          "description": "Record and explain the weather."
+        },
+        {
+          "id": "water-cycle",
+          "title": "Water cycle",
+          "description": "Explain evaporation, condensation and rain."
+        },
+        {
+          "id": "reduce-reuse-recycle",
+          "title": "Reduce, reuse, recycle",
+          "description": "Sort waste and make less of it."
+        },
+        {
+          "id": "compost",
+          "title": "Composting",
+          "description": "Turn food scraps into soil food."
+        },
+        {
+          "id": "energy",
+          "title": "Energy saving",
+          "description": "Measure and reduce energy use at home."
+        },
+        {
+          "id": "ecosystems",
+          "title": "Ecosystems",
+          "description": "Understand food webs and habitats."
+        },
+        {
+          "id": "climate-science",
+          "title": "Climate science",
+          "description": "Understand the greenhouse effect and the evidence for climate change."
+        },
+        {
+          "id": "action-planning",
+          "title": "Taking action",
+          "description": "Plan practical, hopeful actions with family and community."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "env-sort-recycling",
+      "area": "environment",
+      "group": "life",
+      "title": "Can sort household waste for recycling",
+      "emoji": "♻️"
+    },
+    {
+      "id": "env-explain-water-cycle",
+      "area": "environment",
+      "group": "academic",
+      "title": "Can explain the water cycle",
+      "emoji": "💧"
+    },
+    {
+      "id": "env-keep-weather-diary",
+      "area": "environment",
+      "group": "academic",
+      "title": "Has kept a weather diary for 2 weeks",
+      "emoji": "🌦️",
+      "target": 14
+    },
+    {
+      "id": "env-start-compost",
+      "area": "environment",
+      "group": "practical",
+      "title": "Can start and keep a compost bin",
+      "emoji": "🪱"
+    },
+    {
+      "id": "env-run-nature-survey",
+      "area": "environment",
+      "group": "academic",
+      "title": "Can run a local nature survey",
+      "emoji": "🔎"
+    },
+    {
+      "id": "env-home-energy-audit",
+      "area": "environment",
+      "group": "life",
+      "title": "Can carry out a home energy audit",
+      "emoji": "💡"
+    },
+    {
+      "id": "env-explain-greenhouse-effect",
+      "area": "environment",
+      "group": "intellectual",
+      "title": "Can explain the greenhouse effect with evidence",
+      "emoji": "🌡️"
+    }
+  ],
+  "items": [
+    {
+      "id": "env-weather-watch",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "weather",
+      "title": "What is the weather today?",
+      "emoji": "🌦️",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Look out of the window. Sunny, cloudy, rainy or windy? Draw it!",
+      "steps": [
+        "🪟 Look out of the window.",
+        "☀️ Sun? ☁️ Clouds? 🌧️ Rain? 💨 Wind?",
+        "🖍️ Draw today's weather.",
+        "👕 What should you wear today?",
+        "📅 Do it again tomorrow. Is it the same?"
+      ],
+      "practical": false,
+      "competencies": [
+        "env-keep-weather-diary"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "observe"
+        },
+        {
+          "tree": "env-earth-care",
+          "node": "weather"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "languageHooks": [
+        "weather",
+        "colours",
+        "time"
+      ],
+      "connects": [
+        "science",
+        "geography"
+      ]
+    },
+    {
+      "id": "env-doorstep-nature",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "nature survey",
+      "title": "Doorstep nature spotting",
+      "emoji": "🐞",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "How many living things can you spot from your doorstep or window? Look, do not touch.",
+      "steps": [
+        "👀 Look for a bird, a bug, a leaf and a flower.",
+        "✋ Look with your eyes, not your hands.",
+        "🔢 Count how many you see.",
+        "🖍️ Draw your favourite one.",
+        "😊 Tell someone what you found."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "stinging insects",
+          "roads nearby"
+        ],
+        "notes": "Stay on the doorstep, balcony or by a window. An adult is nearby outdoors. Do not touch bugs or pick unknown plants."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "your eyes",
+            "paper",
+            "crayon"
+          ],
+          "description": "Spot and draw."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "magnifying glass"
+          ],
+          "description": "Look closer with a magnifier."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "picture guide to local wildlife"
+          ],
+          "description": "Find names in a picture guide."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "magnifying glass",
+          "use": "a drop of water on clear plastic, or a phone camera zoom"
+        }
+      ],
+      "competencies": [
+        "env-run-nature-survey"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "observe"
+        }
+      ],
+      "interests": [
+        "nature",
+        "animals",
+        "plants"
+      ],
+      "languageHooks": [
+        "animals",
+        "nature",
+        "colours",
+        "numbers"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "id": "env-sort-recycling",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "recycling",
+      "title": "Sorting rubbish game",
+      "emoji": "♻️",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Paper, plastic, metal or food? Help sort the rubbish into the right box.",
+      "steps": [
+        "📦 Set out boxes: paper, plastic, metal, food scraps, rubbish.",
+        "🧼 Only sort clean, dry items an adult gives you.",
+        "🤔 Pick one item. What is it made of?",
+        "📥 Put it in the right box.",
+        "🔁 Check your local rules: what does your area collect?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "sharp tin edges",
+          "broken glass",
+          "germs"
+        ],
+        "notes": "Adults handle glass, cans with sharp edges and dirty items. Wash hands afterwards."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "clean packaging",
+            "boxes"
+          ],
+          "description": "Sort clean household packaging."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "coloured labels"
+          ],
+          "description": "Label boxes with colours and pictures."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "home recycling station"
+          ],
+          "description": "Set up a permanent recycling corner."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "recycling bins",
+          "use": "cardboard boxes or bags labelled with drawings"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Reducing and reusing basics",
+          "publisher": "US Environmental Protection Agency",
+          "url": "https://www.epa.gov/recycle"
+        }
+      ],
+      "competencies": [
+        "env-sort-recycling"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "reduce-reuse-recycle"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "languageHooks": [
+        "colours",
+        "shapes",
+        "numbers"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "id": "env-water-cycle-bag",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "water cycle",
+      "title": "Water cycle in a bag",
+      "emoji": "💧",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Make a tiny water cycle and watch clouds and rain happen on a window.",
+      "steps": [
+        "✏️ Draw a sun, a cloud and waves on a clear zip bag.",
+        "💧 Add a little water with a drop of food colouring.",
+        "🔒 Seal it tight and tape it to a sunny window.",
+        "👀 Check after a few hours: water drops form at the top (condensation).",
+        "🌧️ They run down like rain (precipitation).",
+        "🗣️ Explain: sun warms water, it evaporates, cools, condenses and falls."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "water spills"
+        ],
+        "notes": "Tape the bag well. No hot water needed."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "clear plastic bag",
+            "water",
+            "tape"
+          ],
+          "description": "One bag on a window."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "zip bags",
+            "food colouring",
+            "markers"
+          ],
+          "description": "Colourful bag with labels."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "glass bowl",
+            "cling film",
+            "ice"
+          ],
+          "description": "Bowl with warm water, cling film and ice on top: faster rain."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "zip bag",
+          "use": "a clear plastic bottle with the lid on, or a jar with a lid"
+        }
+      ],
+      "competencies": [
+        "env-explain-water-cycle"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "water-cycle"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "languageHooks": [
+        "weather",
+        "science"
+      ],
+      "connects": [
+        "science",
+        "geography"
+      ],
+      "check": [
+        {
+          "question": "When water vapour cools and turns to drops, it is called...",
+          "options": [
+            "Evaporation",
+            "Condensation",
+            "Recycling"
+          ],
+          "answer": 1,
+          "explain": "Condensation makes clouds and the drops in your bag."
+        }
+      ]
+    },
+    {
+      "id": "env-energy-detective",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "energy saving",
+      "title": "Energy detective",
+      "emoji": "💡",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Hunt around your home for energy being wasted. Lights on in empty rooms? Doors open?",
+      "steps": [
+        "🔦 Walk round with an adult.",
+        "💡 Count lights on in empty rooms.",
+        "🚪 Check: are outside doors and windows closed when heating or cooling is on?",
+        "📺 Spot devices left on standby (look, do not touch plugs).",
+        "📝 Make a list and share three ideas to save energy."
+      ],
+      "practical": false,
+      "competencies": [
+        "env-home-energy-audit"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "energy"
+        }
+      ],
+      "interests": [
+        "machines"
+      ],
+      "languageHooks": [
+        "numbers",
+        "science"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ],
+      "adultNote": "Children look and report; adults switch off plugs."
+    },
+    {
+      "id": "env-composting",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "composting",
+      "title": "Start a compost bin",
+      "emoji": "🪱",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 40,
+      "summary": "Food scraps and leaves can turn into rich soil food. Start a small compost bin.",
+      "steps": [
+        "🪣 Find a bin or box with a lid and some holes for air (an adult makes the holes).",
+        "🥬 Greens: fruit and vegetable peel, tea leaves, grass.",
+        "🍂 Browns: dry leaves, torn cardboard, paper.",
+        "⚖️ Layer about 1 part greens to 2 parts browns.",
+        "🚫 No meat, fish, dairy, oil or pet waste.",
+        "🔄 Stir every week and keep it damp like a squeezed sponge.",
+        "🧼 Wear gloves and wash hands after.",
+        "🌱 In a few months, use the dark crumbly compost on plants."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "germs",
+          "mould spores",
+          "sharp edges"
+        ],
+        "notes": "Wear gloves, wash hands, and do not put your face close when opening the bin. Adults make any holes."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "old bucket or box",
+            "scraps",
+            "leaves"
+          ],
+          "description": "A small bucket with a lid."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "plastic bin",
+            "gloves"
+          ],
+          "description": "A drilled plastic bin outside."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "wormery"
+          ],
+          "description": "A worm bin to compost faster."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "garden compost heap",
+          "use": "a lidded bucket on a balcony, or a community compost scheme"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Composting at home",
+          "publisher": "US Environmental Protection Agency",
+          "url": "https://www.epa.gov/recycle/composting-home"
+        }
+      ],
+      "competencies": [
+        "env-start-compost"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "compost"
+        },
+        {
+          "tree": "env-earth-care",
+          "node": "reduce-reuse-recycle"
+        }
+      ],
+      "interests": [
+        "plants",
+        "nature"
+      ],
+      "languageHooks": [
+        "nature",
+        "food"
+      ],
+      "connects": [
+        "science",
+        "life-skills"
+      ]
+    },
+    {
+      "id": "env-food-web",
+      "kind": "lesson",
+      "area": "environment",
+      "subject": "ecosystems",
+      "title": "Who eats whom? Food webs",
+      "emoji": "🦉",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Every living thing is linked. Plants, plant-eaters and meat-eaters make a food web.",
+      "steps": [
+        "🌿 Producers: plants make food from sunlight.",
+        "🐛 Consumers: animals eat plants or other animals.",
+        "🍄 Decomposers: fungi and worms break down dead things into soil.",
+        "✏️ Draw a web: grass, rabbit, fox, worm, mushroom, bird.",
+        "❓ What happens if one animal disappears? Follow the arrows."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "ecosystems"
+        }
+      ],
+      "interests": [
+        "animals",
+        "nature"
+      ],
+      "languageHooks": [
+        "animals",
+        "nature"
+      ],
+      "connects": [
+        "science"
+      ],
+      "check": [
+        {
+          "question": "What do decomposers do?",
+          "options": [
+            "Make food from sunlight",
+            "Break down dead things",
+            "Hunt animals"
+          ],
+          "answer": 1,
+          "explain": "They recycle nutrients back into the soil."
+        }
+      ]
+    },
+    {
+      "id": "env-rain-gauge",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "weather",
+      "title": "Make a rain gauge and weather diary",
+      "emoji": "🌧️",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 30,
+      "summary": "Measure how much rain falls each day for two weeks, and draw a graph.",
+      "steps": [
+        "🫙 Use a straight-sided jar.",
+        "📏 Stick a ruler or a paper strip marked in millimetres to the side.",
+        "🌳 Put it outside in an open place, away from trees and roofs.",
+        "⏰ Read it at the same time each day, write it down, then empty it.",
+        "📈 After 14 days, draw a bar chart. Which day was wettest?",
+        "🌡️ Add temperature and cloud type if you can."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "slippery ground",
+          "glass jars"
+        ],
+        "notes": "Place it somewhere safe to reach. Use a plastic container if glass may break."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "straight jar",
+            "paper strip",
+            "pen"
+          ],
+          "description": "A jar with a paper scale."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "ruler",
+            "outdoor thermometer"
+          ],
+          "description": "Add temperature readings."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "home weather station"
+          ],
+          "description": "Compare with a weather station or national weather service data."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "ruler",
+          "use": "mark centimetres on tape using any ruler from school"
+        }
+      ],
+      "competencies": [
+        "env-keep-weather-diary"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "weather"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "languageHooks": [
+        "weather",
+        "numbers",
+        "time"
+      ],
+      "connects": [
+        "mathematics",
+        "geography",
+        "science"
+      ]
+    },
+    {
+      "id": "env-why-climate-changes",
+      "kind": "lesson",
+      "area": "environment",
+      "subject": "climate science",
+      "title": "Weather and climate: what is the difference?",
+      "emoji": "🌡️",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Weather is today. Climate is the usual weather over many years. Scientists study both.",
+      "steps": [
+        "☀️ Weather changes every day.",
+        "📅 Climate is the average of weather over 30 years or more.",
+        "🌍 The Earth is wrapped in air that keeps it warm, like a blanket.",
+        "🏭 Burning coal, oil and gas adds more gases to the blanket, so the Earth is slowly warming.",
+        "💪 People all over the world are working on solutions: clean energy, planting trees, saving energy.",
+        "🌱 You can help too, in small ways, every day."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Climate change: evidence and causes",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/climate-change/"
+        },
+        {
+          "title": "Weather and climate learning",
+          "publisher": "Met Office (UK)",
+          "url": "https://www.metoffice.gov.uk/"
+        }
+      ],
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "weather"
+        },
+        {
+          "tree": "env-earth-care",
+          "node": "climate-science"
+        }
+      ],
+      "interests": [
+        "nature",
+        "space"
+      ],
+      "languageHooks": [
+        "weather",
+        "time",
+        "science"
+      ],
+      "connects": [
+        "science",
+        "geography"
+      ],
+      "adultNote": "Keep the tone hopeful. If a child feels worried, focus on solutions and what people are doing."
+    },
+    {
+      "id": "env-greenhouse-effect",
+      "kind": "lesson",
+      "area": "environment",
+      "subject": "climate science",
+      "title": "The greenhouse effect and the evidence",
+      "emoji": "🌍",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "How greenhouse gases trap heat, and how scientists know the climate is changing.",
+      "steps": [
+        "☀️ Sunlight reaches the Earth and warms the surface.",
+        "🔥 The Earth gives off heat (infrared). Greenhouse gases such as carbon dioxide, methane and water vapour absorb some and send it back down.",
+        "🧪 Without any greenhouse effect, the Earth would be about -18 °C on average instead of about 15 °C.",
+        "📈 Since about 1850, carbon dioxide has risen from about 280 to over 420 parts per million, mainly from burning fossil fuels.",
+        "🌡️ Global average temperature is now about 1.1 to 1.3 °C warmer than in the late 1800s.",
+        "📚 Evidence: thermometer records, satellites, shrinking glaciers, rising sea level and ice cores.",
+        "🔎 Read a page from NASA or the WMO and summarise one graph."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Climate change: evidence and causes",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/climate-change/"
+        },
+        {
+          "title": "Intergovernmental Panel on Climate Change reports",
+          "publisher": "IPCC",
+          "url": "https://www.ipcc.ch/"
+        },
+        {
+          "title": "Weather, climate and water",
+          "publisher": "World Meteorological Organization",
+          "url": "https://wmo.int/"
+        }
+      ],
+      "competencies": [
+        "env-explain-greenhouse-effect"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "climate-science"
+        }
+      ],
+      "interests": [
+        "nature",
+        "space"
+      ],
+      "languageHooks": [
+        "science",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "geography",
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Which gas has increased most from burning fossil fuels?",
+          "options": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Helium"
+          ],
+          "answer": 1,
+          "explain": "Carbon dioxide has risen from about 280 to over 420 parts per million."
+        }
+      ]
+    },
+    {
+      "id": "env-nature-survey",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "nature survey",
+      "title": "Square-metre nature survey",
+      "emoji": "🔎",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 45,
+      "summary": "Mark out a square and count every plant and creature inside. Scientists call this a quadrat survey.",
+      "steps": [
+        "📏 Mark a 1 m x 1 m square with string and four sticks in a park, verge or yard (ask permission).",
+        "🌿 Count each kind of plant and estimate how much of the square it covers (%).",
+        "🐜 Count insects and other creatures. Look, do not harm.",
+        "📝 Record date, time, weather and place.",
+        "🔁 Repeat in a different spot (sunny vs shady) and compare.",
+        "📊 Make a chart. Which spot had more variety, and why?",
+        "🌍 Share results with a citizen science project if one exists near you."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "stinging plants and insects",
+          "traffic",
+          "dog waste"
+        ],
+        "notes": "Go with a friend or tell an adult where you are. Wear gloves, avoid roads, wash hands after."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "string",
+            "sticks",
+            "notebook"
+          ],
+          "description": "One square, one visit."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "magnifier",
+            "field guide from the library"
+          ],
+          "description": "Identify species by name."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "phone identification app",
+            "camera"
+          ],
+          "description": "Photograph and log findings to a citizen science database."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "quadrat frame",
+          "use": "four sticks and string, or a hula hoop"
+        },
+        {
+          "instead": "park",
+          "use": "a pavement crack, a window box or a school yard"
+        }
+      ],
+      "competencies": [
+        "env-run-nature-survey"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "observe"
+        },
+        {
+          "tree": "env-earth-care",
+          "node": "ecosystems"
+        }
+      ],
+      "interests": [
+        "nature",
+        "plants",
+        "animals"
+      ],
+      "languageHooks": [
+        "nature",
+        "animals",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "env-carbon-footprint",
+      "kind": "lesson",
+      "area": "environment",
+      "subject": "energy saving",
+      "title": "Calculate a carbon footprint",
+      "emoji": "👣",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Turn energy use into carbon numbers and find the biggest savings.",
+      "steps": [
+        "🔌 Electricity: kWh used x the carbon factor for your country (example: 0.4 kg CO2 per kWh).",
+        "🧮 Example: 250 kWh a month x 0.4 = 100 kg CO2.",
+        "🚗 Travel: car km x about 0.17 kg CO2 per km for an average petrol car.",
+        "🧮 Example: 20 km a day x 5 days = 100 km x 0.17 = 17 kg CO2 a week.",
+        "🚲 Swap 2 car trips for cycling or walking and calculate the saving.",
+        "📝 Write a family action plan with three realistic ideas."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Energy saving advice",
+          "publisher": "Energy Saving Trust",
+          "url": "https://energysavingtrust.org.uk/"
+        },
+        {
+          "title": "Environment topics",
+          "publisher": "UN Environment Programme",
+          "url": "https://www.unep.org/"
+        }
+      ],
+      "competencies": [
+        "env-home-energy-audit"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "energy"
+        },
+        {
+          "tree": "env-earth-care",
+          "node": "action-planning"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "machines"
+      ],
+      "languageHooks": [
+        "maths",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "science"
+      ],
+      "adultNote": "Carbon factors differ by country and year; the numbers here are illustrative."
+    },
+    {
+      "id": "env-water-audit",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "water saving",
+      "title": "Home water audit",
+      "emoji": "🚿",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 45,
+      "summary": "Measure how much water your household uses and design a plan to save it.",
+      "steps": [
+        "⏱️ Time how long it takes a shower to fill a 10-litre bucket. Example: 1 minute = 10 litres per minute.",
+        "🧮 An 8-minute shower = 80 litres. 4 people x 80 = 320 litres a day.",
+        "🚰 Check for dripping taps and running toilets (put a drop of food colouring in the cistern; if colour appears in the bowl without flushing, it leaks).",
+        "📖 Read the water meter if you have one, morning and evening.",
+        "💡 Calculate savings from a 4-minute shower.",
+        "📝 Present a plan to your family."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "slippery floors",
+          "hot water"
+        ],
+        "notes": "Use cool or warm water only. Ask an adult before touching meters or cisterns."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "bucket",
+            "timer or phone"
+          ],
+          "description": "Measure flow with a bucket."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "food colouring",
+            "notebook"
+          ],
+          "description": "Add a toilet leak test."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "water-saving shower head"
+          ],
+          "description": "Compare before and after fitting a water-saving head."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "measuring bucket",
+          "use": "any container: measure its volume by filling with a known-size bottle"
+        }
+      ],
+      "competencies": [
+        "env-home-energy-audit"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "water-cycle"
+        },
+        {
+          "tree": "env-earth-care",
+          "node": "action-planning"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths",
+        "time"
+      ],
+      "connects": [
+        "mathematics",
+        "life-skills"
+      ]
+    },
+    {
+      "id": "env-climate-solutions",
+      "kind": "lesson",
+      "area": "environment",
+      "subject": "climate science",
+      "title": "Climate solutions: mitigation and adaptation",
+      "emoji": "🌬️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 40,
+      "summary": "Explore how the world reduces emissions and adapts to change, and weigh up evidence for each solution.",
+      "steps": [
+        "⚡ Mitigation: cutting emissions with wind, solar, efficient buildings, public transport and protecting forests.",
+        "🛡️ Adaptation: flood defences, drought-resistant crops, early-warning systems, shade and cooling in cities.",
+        "📊 Compare two solutions: cost, speed, who benefits, and any downsides.",
+        "📚 Use reports from the IPCC or UNEP as sources and note the evidence they give.",
+        "🗣️ Present a fair, evidence-based summary to your family or class.",
+        "🌱 Choose one action you can take locally."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Intergovernmental Panel on Climate Change reports",
+          "publisher": "IPCC",
+          "url": "https://www.ipcc.ch/"
+        },
+        {
+          "title": "Environment topics",
+          "publisher": "UN Environment Programme",
+          "url": "https://www.unep.org/"
+        }
+      ],
+      "competencies": [
+        "env-explain-greenhouse-effect"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "climate-science"
+        },
+        {
+          "tree": "env-earth-care",
+          "node": "action-planning"
+        }
+      ],
+      "interests": [
+        "nature",
+        "machines"
+      ],
+      "languageHooks": [
+        "science",
+        "geography"
+      ],
+      "connects": [
+        "science",
+        "civics",
+        "technology"
+      ]
+    }
+  ]
+}

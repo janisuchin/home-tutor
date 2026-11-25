@@ -1,0 +1,1065 @@
+{
+  "area": "independent-learning",
+  "title": "Independent Learning",
+  "emoji": "🧠",
+  "description": "Learning how to learn: asking good questions, finding and checking information, taking notes, planning goals, using libraries and free resources, thinking critically and, for older learners, statistics and research writing.",
+  "skillTrees": [
+    {
+      "id": "il-research",
+      "area": "independent-learning",
+      "title": "Research skills",
+      "emoji": "🔎",
+      "nodes": [
+        {
+          "id": "wonder",
+          "title": "Wondering",
+          "description": "Notice things and ask \"why?\" and \"how?\""
+        },
+        {
+          "id": "question-words",
+          "title": "Good questions",
+          "description": "Use who, what, where, when, why and how to ask clear questions."
+        },
+        {
+          "id": "finding-info",
+          "title": "Finding information",
+          "description": "Use books, libraries, people and free digital resources to find answers."
+        },
+        {
+          "id": "note-taking",
+          "title": "Taking notes",
+          "description": "Write down key words and ideas in your own words, with where they came from."
+        },
+        {
+          "id": "fact-opinion",
+          "title": "Fact or opinion",
+          "description": "Tell facts from opinions and claims from evidence."
+        },
+        {
+          "id": "evaluate-sources",
+          "title": "Checking sources",
+          "description": "Judge who made a source, why, when and how they know."
+        },
+        {
+          "id": "research-plan",
+          "title": "Research plan",
+          "description": "Turn a topic into a focused question and a plan to answer it."
+        },
+        {
+          "id": "statistics",
+          "title": "Reading data",
+          "description": "Averages, spread, samples, bias and correlation versus causation."
+        },
+        {
+          "id": "write-up",
+          "title": "Writing it up",
+          "description": "Write a short research paper with sources, findings and limits."
+        }
+      ]
+    },
+    {
+      "id": "il-learning",
+      "area": "independent-learning",
+      "title": "Learning how to learn",
+      "emoji": "🌱",
+      "nodes": [
+        {
+          "id": "curiosity",
+          "title": "Curiosity",
+          "description": "Enjoy not knowing yet and wanting to find out."
+        },
+        {
+          "id": "practice",
+          "title": "Practice",
+          "description": "Mistakes help us learn; little and often works best."
+        },
+        {
+          "id": "memory",
+          "title": "Remembering",
+          "description": "Test yourself and space practice out over days."
+        },
+        {
+          "id": "planning",
+          "title": "Planning",
+          "description": "Set a goal, break it into steps and check progress."
+        },
+        {
+          "id": "reflection",
+          "title": "Reflection",
+          "description": "Ask what worked, what did not and what to try next."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "il-ask-good-questions",
+      "area": "independent-learning",
+      "group": "intellectual",
+      "title": "Can ask clear, curious questions",
+      "emoji": "❓"
+    },
+    {
+      "id": "il-use-library",
+      "area": "independent-learning",
+      "group": "intellectual",
+      "title": "Can find a book or free resource on a topic",
+      "emoji": "🏛️"
+    },
+    {
+      "id": "il-take-notes",
+      "area": "independent-learning",
+      "group": "intellectual",
+      "title": "Can take useful notes",
+      "emoji": "📝"
+    },
+    {
+      "id": "il-critical-thinking",
+      "area": "independent-learning",
+      "group": "intellectual",
+      "title": "Can tell facts from opinions and spot weak reasons",
+      "emoji": "🤔"
+    },
+    {
+      "id": "il-evaluate-evidence",
+      "area": "independent-learning",
+      "group": "intellectual",
+      "title": "Can evaluate evidence and sources",
+      "emoji": "🔍"
+    },
+    {
+      "id": "il-plan-goal",
+      "area": "independent-learning",
+      "group": "personal",
+      "title": "Can plan and reach a learning goal",
+      "emoji": "🎯",
+      "target": 3
+    },
+    {
+      "id": "il-basic-statistics",
+      "area": "independent-learning",
+      "group": "intellectual",
+      "title": "Can use basic statistics to describe data",
+      "emoji": "📊"
+    },
+    {
+      "id": "il-research-paper",
+      "area": "independent-learning",
+      "group": "intellectual",
+      "title": "Can write a short research paper",
+      "emoji": "📄"
+    }
+  ],
+  "items": [
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-ask-good-questions"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "wonder"
+        },
+        {
+          "tree": "il-learning",
+          "node": "curiosity"
+        }
+      ],
+      "interests": [
+        "nature",
+        "animals"
+      ],
+      "practical": false,
+      "id": "il-wonder-walk",
+      "kind": "activity",
+      "subject": "asking questions",
+      "title": "Wonder walk",
+      "emoji": "🐌",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Look around. What do you wonder about?",
+      "steps": [
+        "Walk around your home or outside with an adult.",
+        "Stop and look at one thing. A snail? A cloud?",
+        "Say: \"I wonder why...\"",
+        "The adult writes your question down.",
+        "Pick one question to find out about together later."
+      ],
+      "languageHooks": [
+        "nature",
+        "weather"
+      ],
+      "check": [
+        {
+          "question": "Is it good to ask \"why?\"",
+          "options": [
+            "Yes!",
+            "No"
+          ],
+          "answer": 0,
+          "explain": "Yes! Questions help us learn new things."
+        },
+        {
+          "question": "You do not know an answer. What can you do?",
+          "options": [
+            "Find out with a grown-up",
+            "Stop asking"
+          ],
+          "answer": 0,
+          "explain": "Not knowing yet is the start of learning."
+        }
+      ],
+      "adultNote": "Value the question, not the answer. \"Let us find out together\" is a perfect response. Stay with the child outdoors."
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-use-library"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "finding-info"
+        }
+      ],
+      "interests": [
+        "animals",
+        "stories"
+      ],
+      "practical": false,
+      "id": "il-picture-book-detective",
+      "kind": "activity",
+      "subject": "research skills",
+      "title": "Picture book detective",
+      "emoji": "🔎",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Find answers by looking at the pictures in a book.",
+      "steps": [
+        "Choose a picture book about animals or places.",
+        "Adult asks: \"Where does the bear sleep?\"",
+        "Look at the pictures to find the answer.",
+        "Point to it and say what you see.",
+        "Now you ask the adult a question!"
+      ],
+      "languageHooks": [
+        "animals",
+        "colours"
+      ],
+      "check": [
+        {
+          "question": "Where can we find answers?",
+          "options": [
+            "In books",
+            "Only on TV"
+          ],
+          "answer": 0,
+          "explain": "Books are full of answers. So are people!"
+        },
+        {
+          "question": "Pictures can help us...",
+          "options": [
+            "find out things",
+            "nothing"
+          ],
+          "answer": 0,
+          "explain": "Looking closely at pictures is real detective work."
+        }
+      ],
+      "adultNote": "A free library card is ideal. Many public libraries also lend digital picture books."
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-ask-good-questions"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "question-words"
+        }
+      ],
+      "interests": [
+        "horses",
+        "animals",
+        "space"
+      ],
+      "practical": false,
+      "id": "il-question-words",
+      "kind": "lesson",
+      "subject": "asking questions",
+      "title": "Six question words",
+      "emoji": "❓",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Who, what, where, when, why and how help you ask great questions.",
+      "steps": [
+        "Learn the six words: who, what, where, when, why, how.",
+        "Pick a topic you like, such as volcanoes or horses.",
+        "Write one question for each word.",
+        "Circle the question you most want answered.",
+        "Find the answer in a book or ask someone who knows."
+      ],
+      "languageHooks": [
+        "time",
+        "geography"
+      ],
+      "check": [
+        {
+          "question": "Which word asks about a place?",
+          "options": [
+            "Where",
+            "When",
+            "Who"
+          ],
+          "answer": 0,
+          "explain": "\"Where\" asks about a place."
+        },
+        {
+          "question": "Which question needs the longest answer?",
+          "options": [
+            "Why do volcanoes erupt?",
+            "Is a volcano hot?"
+          ],
+          "answer": 0,
+          "explain": "Why and how questions open up big explanations."
+        }
+      ]
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-use-library"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "finding-info"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "practical": false,
+      "id": "il-library-quest",
+      "kind": "activity",
+      "subject": "libraries and free resources",
+      "title": "Library quest",
+      "emoji": "🏛️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 45,
+      "summary": "Visit a library (in person or online) and find two books on a topic you choose.",
+      "steps": [
+        "Choose a topic.",
+        "At a library, ask a librarian or use the catalogue to search your topic.",
+        "Fact books are often grouped by subject number; story books by author name.",
+        "Find two books and check the contents page and index.",
+        "Borrow them, or note the titles to look for next time.",
+        "If there is no library nearby, try a free legal digital library with an adult."
+      ],
+      "languageHooks": [
+        "time"
+      ],
+      "check": [
+        {
+          "question": "Where can you find which page talks about \"teeth\" in a fact book?",
+          "options": [
+            "The index",
+            "The cover"
+          ],
+          "answer": 0,
+          "explain": "The index at the back lists topics and page numbers."
+        },
+        {
+          "question": "Who can help you find books at a library?",
+          "options": [
+            "A librarian",
+            "Nobody"
+          ],
+          "answer": 0,
+          "explain": "Helping people find information is a librarian's job."
+        }
+      ],
+      "adultNote": "Library membership is usually free. Mobile or community libraries and free legal digital libraries also work. Go with the child."
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-take-notes"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "note-taking"
+        },
+        {
+          "tree": "il-learning",
+          "node": "memory"
+        }
+      ],
+      "interests": [
+        "animals",
+        "space"
+      ],
+      "practical": false,
+      "id": "il-note-taking",
+      "kind": "lesson",
+      "subject": "note taking",
+      "title": "Take notes in your own words",
+      "emoji": "📝",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 25,
+      "summary": "Notes are short key words, not copied sentences. They help you remember and explain.",
+      "steps": [
+        "Read one page of a fact book or article.",
+        "Close it. Write 5 key words you remember.",
+        "Open it again and add anything important you missed.",
+        "Turn your key words into 3 short sentences in your own words.",
+        "Write the title and author of the source at the top.",
+        "Tomorrow, use only your notes to explain the topic to someone."
+      ],
+      "check": [
+        {
+          "question": "Good notes are mostly...",
+          "options": [
+            "key words in your own words",
+            "whole copied pages"
+          ],
+          "answer": 0,
+          "explain": "Short notes in your own words show you understood."
+        },
+        {
+          "question": "Why write down the source?",
+          "options": [
+            "So you can find it again and give credit",
+            "It looks nice"
+          ],
+          "answer": 0,
+          "explain": "Researchers always record where information came from."
+        }
+      ]
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-critical-thinking"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "fact-opinion"
+        }
+      ],
+      "interests": [
+        "cooking",
+        "animals"
+      ],
+      "practical": false,
+      "id": "il-fact-or-opinion",
+      "kind": "activity",
+      "subject": "critical thinking",
+      "title": "Fact or opinion?",
+      "emoji": "🤔",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "A fact can be checked. An opinion is what someone thinks or feels.",
+      "steps": [
+        "Read these: \"Water boils at 100 degrees Celsius at sea level.\" \"Pizza is the best food.\" \"Dogs have four legs.\" \"Maths is boring.\"",
+        "Sort them into facts and opinions.",
+        "For each fact, say how you could check it.",
+        "Find one advert and spot the facts and the opinions in it.",
+        "Discuss: can an opinion have good reasons behind it?"
+      ],
+      "languageHooks": [
+        "food",
+        "animals"
+      ],
+      "check": [
+        {
+          "question": "\"Pizza is the best food\" is...",
+          "options": [
+            "an opinion",
+            "a fact"
+          ],
+          "answer": 0,
+          "explain": "People disagree about it, and it cannot be proven."
+        },
+        {
+          "question": "\"Dogs have four legs\" is...",
+          "options": [
+            "a fact",
+            "an opinion"
+          ],
+          "answer": 0,
+          "explain": "You can check it by observation."
+        },
+        {
+          "question": "A fact is something that can be...",
+          "options": [
+            "checked",
+            "felt"
+          ],
+          "answer": 0,
+          "explain": "Facts can be tested or checked with evidence."
+        }
+      ]
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-plan-goal"
+      ],
+      "skills": [
+        {
+          "tree": "il-learning",
+          "node": "practice"
+        },
+        {
+          "tree": "il-learning",
+          "node": "memory"
+        },
+        {
+          "tree": "il-learning",
+          "node": "reflection"
+        }
+      ],
+      "interests": [],
+      "practical": false,
+      "id": "il-learn-how-to-learn",
+      "kind": "lesson",
+      "subject": "learning how to learn",
+      "title": "How your brain learns best",
+      "emoji": "🌱",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "Testing yourself and spacing practice beats re-reading. Mistakes are part of learning.",
+      "steps": [
+        "Learn three tricks: test yourself (recall), space it out (little and often), mix topics.",
+        "Pick 10 facts or words you want to learn.",
+        "Day 1: learn them, then cover and test yourself.",
+        "Day 2, day 4 and day 7: test yourself again before looking.",
+        "Keep a tally of how many you remember each time.",
+        "Reflect: which trick helped most?"
+      ],
+      "languageHooks": [
+        "time",
+        "numbers"
+      ],
+      "connects": [
+        "languages",
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Which works better for remembering?",
+          "options": [
+            "Testing yourself",
+            "Reading again and again"
+          ],
+          "answer": 0,
+          "explain": "Pulling information from memory makes it stronger."
+        },
+        {
+          "question": "Making a mistake while practising means...",
+          "options": [
+            "you are learning",
+            "you cannot learn it"
+          ],
+          "answer": 0,
+          "explain": "Mistakes show what to practise next."
+        }
+      ]
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-evaluate-evidence",
+        "il-critical-thinking"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "evaluate-sources"
+        }
+      ],
+      "interests": [
+        "computers"
+      ],
+      "practical": false,
+      "id": "il-check-a-source",
+      "kind": "activity",
+      "subject": "evaluating evidence",
+      "title": "Can I trust this source?",
+      "emoji": "🔍",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "Use five questions to judge any article, video or post before you believe or share it.",
+      "steps": [
+        "Pick one article or post about a science or news topic.",
+        "Who made it? Are they an expert or organisation you can check?",
+        "Why was it made: to inform, sell, persuade or entertain?",
+        "When was it made? Is it still up to date?",
+        "How do they know? Do they link to evidence or data?",
+        "Can you find the same claim from two other independent, reputable sources?",
+        "Give it a trust score from 1 to 5 and explain why."
+      ],
+      "connects": [
+        "technology",
+        "civics",
+        "science"
+      ],
+      "check": [
+        {
+          "question": "A post says a drink cures illness and links to a shop. The main warning sign is...",
+          "options": [
+            "It is trying to sell something",
+            "It has a picture"
+          ],
+          "answer": 0,
+          "explain": "A seller has a reason to exaggerate. Look for independent evidence."
+        },
+        {
+          "question": "Checking whether other reliable sources agree is called...",
+          "options": [
+            "lateral reading or cross-checking",
+            "skimming"
+          ],
+          "answer": 0,
+          "explain": "Opening other sources to check a claim is a key fact-checking skill."
+        },
+        {
+          "question": "An old article on a fast-changing topic may be...",
+          "options": [
+            "out of date",
+            "always best"
+          ],
+          "answer": 0,
+          "explain": "Check the date, especially for science, health and technology."
+        }
+      ]
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-plan-goal",
+        "il-research-paper"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "research-plan"
+        },
+        {
+          "tree": "il-learning",
+          "node": "planning"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "practical": false,
+      "id": "il-research-question",
+      "kind": "lesson",
+      "subject": "research skills",
+      "title": "From topic to research question",
+      "emoji": "🎯",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "Turn a big topic into a question you can actually answer, then make a plan.",
+      "steps": [
+        "Write a broad topic, e.g. \"plastic\".",
+        "Narrow it: where, who, when? e.g. \"plastic waste in my street\".",
+        "Turn it into a question: \"How much plastic does my household throw away in one week?\"",
+        "Check: can you answer it with the time and tools you have?",
+        "Plan: what data or sources you need, how you will collect them, and a deadline for each step."
+      ],
+      "connects": [
+        "environment",
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Which is the better research question?",
+          "options": [
+            "How much water does my family use on a weekday?",
+            "Water"
+          ],
+          "answer": 0,
+          "explain": "It is focused, measurable and doable."
+        },
+        {
+          "question": "A good plan includes...",
+          "options": [
+            "steps and deadlines",
+            "only the title"
+          ],
+          "answer": 0,
+          "explain": "Steps and deadlines turn a question into action."
+        }
+      ]
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-plan-goal"
+      ],
+      "skills": [
+        {
+          "tree": "il-learning",
+          "node": "planning"
+        },
+        {
+          "tree": "il-learning",
+          "node": "reflection"
+        }
+      ],
+      "interests": [
+        "sport",
+        "music"
+      ],
+      "practical": false,
+      "id": "il-goal-plan",
+      "kind": "activity",
+      "subject": "planning goals",
+      "title": "Plan a 4-week learning goal",
+      "emoji": "🗓️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Choose something you want to learn and build a plan you can track.",
+      "steps": [
+        "Choose a goal: specific, measurable and realistic, e.g. \"Learn 100 words in a new language in 4 weeks\".",
+        "Break it into weekly targets.",
+        "Decide when you will practise: which days and for how long.",
+        "Make a simple tracker on paper.",
+        "At the end of each week, reflect: on track? What to change?",
+        "Celebrate effort as well as the result."
+      ],
+      "languageHooks": [
+        "time",
+        "numbers"
+      ],
+      "check": [
+        {
+          "question": "Which goal is easier to track?",
+          "options": [
+            "Run 2 km without stopping by June",
+            "Get fitter"
+          ],
+          "answer": 0,
+          "explain": "A measurable goal with a date lets you see progress."
+        },
+        {
+          "question": "You missed a week. Best response?",
+          "options": [
+            "Adjust the plan and continue",
+            "Give up"
+          ],
+          "answer": 0,
+          "explain": "Plans are tools. Changing them is part of good planning."
+        }
+      ]
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-basic-statistics"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "statistics"
+        }
+      ],
+      "interests": [
+        "sport",
+        "computers",
+        "money"
+      ],
+      "practical": false,
+      "id": "il-statistics-basics",
+      "kind": "lesson",
+      "subject": "statistics",
+      "title": "Averages and spread",
+      "emoji": "📊",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 40,
+      "summary": "Describe data with mean, median, mode and range, and know when each one misleads.",
+      "steps": [
+        "Collect 10 numbers, e.g. minutes of daily screen time across a week and a half.",
+        "Mean: add them all and divide by how many.",
+        "Median: put them in order and find the middle.",
+        "Mode: the most common value. Range: biggest minus smallest.",
+        "Add one extreme value (an outlier). Which measure changes most?",
+        "Write one sentence choosing the best average for your data and why."
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths"
+      ],
+      "connects": [
+        "mathematics",
+        "science"
+      ],
+      "check": [
+        {
+          "question": "Data: 2, 3, 3, 4, 18. The median is...",
+          "options": [
+            "3",
+            "6",
+            "18"
+          ],
+          "answer": 0,
+          "explain": "In order, the middle value is 3."
+        },
+        {
+          "question": "For the same data the mean is...",
+          "options": [
+            "6",
+            "3",
+            "4"
+          ],
+          "answer": 0,
+          "explain": "30 / 5 = 6. The outlier 18 pulls the mean up."
+        },
+        {
+          "question": "With an extreme outlier, which average is usually more representative?",
+          "options": [
+            "Median",
+            "Mean"
+          ],
+          "answer": 0,
+          "explain": "The median is not dragged by one extreme value."
+        }
+      ]
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-evaluate-evidence",
+        "il-basic-statistics"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "statistics"
+        },
+        {
+          "tree": "il-research",
+          "node": "evaluate-sources"
+        }
+      ],
+      "interests": [
+        "computers",
+        "sport"
+      ],
+      "practical": false,
+      "id": "il-correlation-causation",
+      "kind": "lesson",
+      "subject": "statistics",
+      "title": "Correlation is not causation",
+      "emoji": "🔗",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 8,
+      "minutes": 35,
+      "summary": "Two things rising together does not prove one causes the other. Learn to look for hidden factors and bias.",
+      "steps": [
+        "Example: ice cream sales and sunburn both rise in summer. Does ice cream cause sunburn?",
+        "Find the confounder: hot, sunny weather drives both.",
+        "Learn about samples: who was asked, how many, and how they were chosen.",
+        "Learn about bias: survivorship, selection and self-report bias.",
+        "Find a headline claiming \"X causes Y\" and judge what kind of study would be needed to show cause (e.g. a randomised controlled trial)."
+      ],
+      "languageHooks": [
+        "weather",
+        "science"
+      ],
+      "connects": [
+        "science",
+        "civics",
+        "health"
+      ],
+      "check": [
+        {
+          "question": "Towns with more firefighters have more fire damage. Most likely explanation?",
+          "options": [
+            "Bigger towns have more of both",
+            "Firefighters cause fires"
+          ],
+          "answer": 0,
+          "explain": "Town size is a confounder that drives both numbers."
+        },
+        {
+          "question": "A survey only asks people at a gym how often they exercise. This is...",
+          "options": [
+            "selection bias",
+            "a random sample"
+          ],
+          "answer": 0,
+          "explain": "The sample is not representative of everyone."
+        },
+        {
+          "question": "Which design best tests cause and effect?",
+          "options": [
+            "Randomised controlled trial",
+            "One personal story"
+          ],
+          "answer": 0,
+          "explain": "Random assignment balances hidden factors between groups."
+        }
+      ]
+    },
+    {
+      "area": "independent-learning",
+      "competencies": [
+        "il-research-paper",
+        "il-evaluate-evidence",
+        "il-take-notes"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "research-plan"
+        },
+        {
+          "tree": "il-research",
+          "node": "write-up"
+        }
+      ],
+      "interests": [
+        "computers",
+        "nature"
+      ],
+      "practical": false,
+      "id": "il-short-research-paper",
+      "kind": "project",
+      "subject": "research skills",
+      "title": "Write a short research paper",
+      "emoji": "📄",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 8,
+      "minutes": 300,
+      "summary": "Investigate a focused question, collect evidence, and write a 1,000 to 1,500 word paper with sources.",
+      "steps": [
+        "Choose a focused, answerable question (see \"From topic to research question\").",
+        "Find at least four sources, including one primary source or data set, and check each one.",
+        "Take notes with the source written next to every point.",
+        "Outline: introduction and question, method, findings, discussion, limitations, conclusion, references.",
+        "Write a first draft, then revise for clarity and evidence.",
+        "Ask someone to read it and give one strength and one improvement.",
+        "Present your findings in five minutes to your family or group."
+      ],
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Long screen time",
+          "Sharing personal data in surveys"
+        ],
+        "notes": "Take screen breaks. If you survey people, ask permission, keep answers anonymous and never collect personal details you do not need. Do any interviews with a trusted adult aware."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper and pen",
+            "Library books",
+            "Your own observations or a simple survey"
+          ],
+          "description": "Hand-write the paper using library sources and data you collect yourself."
+        },
+        "better": {
+          "cost": "Free to low cost",
+          "materials": [
+            "Library or shared computer",
+            "Free word processor and spreadsheet"
+          ],
+          "description": "Type the paper and make one chart from your data."
+        },
+        "advanced": {
+          "cost": "Free to low cost",
+          "materials": [
+            "Computer",
+            "Open-access journals",
+            "Official statistics websites"
+          ],
+          "description": "Use peer-reviewed or official data, cite in a consistent style and include a limitations section."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Online journals",
+          "use": "Library books, newspaper archives, official printed reports and interviews"
+        },
+        {
+          "instead": "Spreadsheet",
+          "use": "A hand-drawn table and bar chart on squared paper"
+        }
+      ],
+      "connects": [
+        "writing",
+        "science",
+        "statistics"
+      ],
+      "check": [
+        {
+          "question": "A limitations section explains...",
+          "options": [
+            "what your research could not show and why",
+            "how great your result is"
+          ],
+          "answer": 0,
+          "explain": "Honest limits make research more trustworthy."
+        },
+        {
+          "question": "Every claim from someone else should have...",
+          "options": [
+            "a reference",
+            "an emoji"
+          ],
+          "answer": 0,
+          "explain": "Citing gives credit and lets readers check."
+        }
+      ]
+    }
+  ]
+}

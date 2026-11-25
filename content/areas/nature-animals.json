@@ -1,0 +1,3221 @@
+{
+  "area": "nature-animals",
+  "title": "Nature and animals",
+  "emoji": "🦊",
+  "description": "The Animal and Bird World: how animals are built, move, sense, feed, grow and live together, and how to read their behaviour safely. Central principle: understand before interacting, and respect the animal's boundaries. We never provoke, corner, chase or dominate an animal, and we never pretend people can talk with animals.",
+  "skillTrees": [
+    {
+      "id": "nat-animal-behaviour",
+      "area": "nature-animals",
+      "title": "Reading and respecting animals",
+      "emoji": "👀",
+      "nodes": [
+        {
+          "id": "observe-from-distance",
+          "title": "Observe from a distance",
+          "description": "Watch quietly without disturbing animals."
+        },
+        {
+          "id": "read-body-language",
+          "title": "Read body language",
+          "description": "Interpret posture, ears, tail, eyes and sounds: relaxed, curious, fearful, warning."
+        },
+        {
+          "id": "safe-approach",
+          "title": "Safe approach",
+          "description": "Ask the owner, let the animal choose, and know when not to approach."
+        },
+        {
+          "id": "respectful-handling",
+          "title": "Respectful handling",
+          "description": "Gentle, supervised contact that respects the animal's limits."
+        },
+        {
+          "id": "animal-care",
+          "title": "Animal care and hygiene",
+          "description": "Meet animals' needs, keep clean, and prevent disease."
+        },
+        {
+          "id": "field-research",
+          "title": "Field research",
+          "description": "Plan observations, collect data and draw careful conclusions."
+        }
+      ]
+    },
+    {
+      "id": "nat-animal-biology",
+      "area": "nature-animals",
+      "title": "Animal and bird biology",
+      "emoji": "🧬",
+      "nodes": [
+        {
+          "id": "animal-groups",
+          "title": "Animal groups",
+          "description": "Mammals, birds, reptiles, amphibians, fish, insects, arachnids and more."
+        },
+        {
+          "id": "body-and-senses",
+          "title": "Bodies and senses",
+          "description": "Anatomy and the senses animals use."
+        },
+        {
+          "id": "movement-and-feeding",
+          "title": "Movement and feeding",
+          "description": "How animals move and what they eat."
+        },
+        {
+          "id": "life-cycles",
+          "title": "Life cycles and reproduction",
+          "description": "Birth, hatching, growth, metamorphosis and raising young."
+        },
+        {
+          "id": "habitats-and-ecosystems",
+          "title": "Habitats and ecosystems",
+          "description": "Where animals live, food webs and how living things depend on each other."
+        },
+        {
+          "id": "evolution-and-conservation",
+          "title": "Evolution and conservation",
+          "description": "Adaptation, natural selection, threats and how to protect wildlife."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "nat-classify-animals",
+      "area": "nature-animals",
+      "group": "academic",
+      "title": "Can sort animals into their main groups",
+      "emoji": "🐾"
+    },
+    {
+      "id": "nat-read-dog-signals",
+      "area": "nature-animals",
+      "group": "life",
+      "title": "Reads dog body language and knows when not to approach",
+      "emoji": "🐶"
+    },
+    {
+      "id": "nat-read-cat-signals",
+      "area": "nature-animals",
+      "group": "life",
+      "title": "Reads cat body language and stress signals",
+      "emoji": "🐱"
+    },
+    {
+      "id": "nat-safe-approach",
+      "area": "nature-animals",
+      "group": "life",
+      "title": "Approaches animals safely and respectfully",
+      "emoji": "🤝"
+    },
+    {
+      "id": "nat-horse-safety",
+      "area": "nature-animals",
+      "group": "practical",
+      "title": "Knows horse body language and safe positioning",
+      "emoji": "🐴"
+    },
+    {
+      "id": "nat-farm-hygiene",
+      "area": "nature-animals",
+      "group": "life",
+      "title": "Washes hands and stays safe around farm animals",
+      "emoji": "🐄"
+    },
+    {
+      "id": "nat-bird-survey",
+      "area": "nature-animals",
+      "group": "intellectual",
+      "title": "Completes a bird survey",
+      "emoji": "🐦",
+      "target": 5
+    },
+    {
+      "id": "nat-minibeast-hunt",
+      "area": "nature-animals",
+      "group": "practical",
+      "title": "Finds and identifies minibeasts and returns them safely",
+      "emoji": "🐞"
+    },
+    {
+      "id": "nat-life-cycle",
+      "area": "nature-animals",
+      "group": "academic",
+      "title": "Can explain an animal life cycle",
+      "emoji": "🐸"
+    },
+    {
+      "id": "nat-food-web",
+      "area": "nature-animals",
+      "group": "academic",
+      "title": "Can draw and explain a food web",
+      "emoji": "🕸️"
+    },
+    {
+      "id": "nat-animal-care-plan",
+      "area": "nature-animals",
+      "group": "practical",
+      "title": "Writes a care plan that meets an animal's needs",
+      "emoji": "🏡"
+    },
+    {
+      "id": "nat-animal-research",
+      "area": "nature-animals",
+      "group": "intellectual",
+      "title": "Carries out an animal behaviour study",
+      "emoji": "🔭"
+    },
+    {
+      "id": "nat-conservation-project",
+      "area": "nature-animals",
+      "group": "global",
+      "title": "Completes a conservation action project",
+      "emoji": "🌍"
+    }
+  ],
+  "items": [
+    {
+      "area": "nature-animals",
+      "id": "nat-animal-groups-sort",
+      "kind": "activity",
+      "subject": "animal groups",
+      "title": "Sorting animals into groups",
+      "emoji": "🐾",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Animals can be sorted into groups. Does it have fur, feathers, scales or six legs? Let us sort!",
+      "steps": [
+        "Collect pictures, toys or drawings of animals (or name animals you know).",
+        "Fur or hair, and babies drink milk: mammals (dog, cow, whale, you!).",
+        "Feathers and a beak: birds (hen, pigeon, owl).",
+        "Dry scales: reptiles (lizard, snake, turtle). Smooth damp skin, starts life in water: amphibians (frog, newt).",
+        "Fins and gills: fish. Six legs: insects (ant, bee). Eight legs: arachnids (spider).",
+        "Make piles for each group. Which group has the most?"
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "A spider has how many legs?",
+          "options": [
+            "6",
+            "8",
+            "4"
+          ],
+          "answer": 1,
+          "explain": "Spiders have 8 legs, so they are arachnids, not insects."
+        }
+      ],
+      "competencies": [
+        "nat-classify-animals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "animal-groups"
+        }
+      ],
+      "interests": [
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "numbers",
+        "colours"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-animal-signals-intro",
+      "kind": "lesson",
+      "subject": "animal communication",
+      "title": "How animals send messages",
+      "emoji": "📣",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Animals communicate with each other using sounds, smells and body signals. People cannot talk with animals, but we can learn to read their signals by watching carefully.",
+      "steps": [
+        "Birds sing to say \"this is my place\" and to find a mate.",
+        "A cat may purr when relaxed, and hiss when frightened: \"go away!\".",
+        "A dog uses its tail, ears, mouth and whole body to show how it feels.",
+        "Bees dance to show other bees where flowers are. Ants leave smell trails.",
+        "Play \"Guess the feeling\": a grown-up acts out an animal signal (a cat hissing, a dog with a waggy relaxed body) and you guess how the animal feels.",
+        "We watch from a distance and let animals choose whether to come closer."
+      ],
+      "practical": false,
+      "competencies": [
+        "nat-read-dog-signals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "observe-from-distance"
+        }
+      ],
+      "interests": [
+        "animals",
+        "dogs",
+        "cats",
+        "birds",
+        "insects"
+      ],
+      "languageHooks": [
+        "animals",
+        "feelings"
+      ],
+      "connects": [
+        "science"
+      ],
+      "adultNote": "Keep the language accurate: animals send signals and we interpret them; we do not \"talk\" with them."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-be-a-tree",
+      "kind": "simulation",
+      "subject": "dog safety",
+      "title": "Be a tree: what to do if a dog runs at you",
+      "emoji": "🌳",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "If a dog you do not know runs up to you, stand still like a tree. Running or screaming can make a dog chase.",
+      "steps": [
+        "Practise the tree pose: stand still, fold your hands in, look at your feet, stay quiet.",
+        "Listen to each story and choose what to do."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Role-play only, with no real dog. Practise until the tree pose is automatic."
+      },
+      "simulation": {
+        "scenario": "You are playing in the park and a dog with no owner nearby comes running towards you.",
+        "steps": [
+          {
+            "prompt": "The dog is running towards you. What do you do?",
+            "options": [
+              {
+                "text": "Stand still like a tree, hands folded in, look at my feet",
+                "correct": true,
+                "feedback": "Great. Being still and boring helps the dog lose interest."
+              },
+              {
+                "text": "Scream and run away",
+                "correct": false,
+                "feedback": "Running can make a dog chase. Stand still like a tree."
+              }
+            ]
+          },
+          {
+            "prompt": "The dog sniffs you and then walks away.",
+            "options": [
+              {
+                "text": "Stay still until it has gone, then walk slowly to my grown-up",
+                "correct": true,
+                "feedback": "Yes. Move slowly once the dog has left."
+              },
+              {
+                "text": "Chase after it to stroke it",
+                "correct": false,
+                "feedback": "Never chase a dog. Let it go and tell your grown-up."
+              }
+            ]
+          },
+          {
+            "prompt": "You fall over while a dog is near.",
+            "options": [
+              {
+                "text": "Curl up like a rock, hands over my ears and neck, and stay still",
+                "correct": true,
+                "feedback": "Right. Be a rock until a grown-up comes."
+              },
+              {
+                "text": "Wave my arms and kick",
+                "correct": false,
+                "feedback": "Curl up like a rock and keep still. Call for help when the dog has moved away."
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Dog bite prevention",
+          "publisher": "American Veterinary Medical Association",
+          "url": "https://www.avma.org/resources-tools/pet-owners/dog-bite-prevention"
+        },
+        {
+          "title": "Pet advice",
+          "publisher": "Blue Cross",
+          "url": "https://www.bluecross.org.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-safe-approach"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "safe-approach"
+        }
+      ],
+      "interests": [
+        "animals",
+        "dogs"
+      ],
+      "languageHooks": [
+        "animals",
+        "body"
+      ],
+      "connects": [
+        "first-aid"
+      ],
+      "adultNote": "Most dog bites to children involve a dog they know, often at home. Supervise children and dogs together at all times, and teach children to leave dogs alone when eating, sleeping or with toys."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-ask-before-stroking",
+      "kind": "activity",
+      "subject": "dog safety",
+      "title": "Ask first: meeting a dog safely",
+      "emoji": "🐕",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Always ask the owner first, then let the dog choose if it wants to say hello. Understand before interacting.",
+      "steps": [
+        "Ask the owner: \"May I stroke your dog?\" If they say no, that is OK. Wave hello instead.",
+        "If yes, stand a little sideways, keep calm and still, and let the dog come to you. Do not lean over it.",
+        "If it comes, sniffs and looks relaxed, gently stroke its shoulder or chest, not the top of its head or face.",
+        "Count to three, then stop. Does the dog lean in for more, or move away? If it moves away, let it go.",
+        "Never hug a dog, put your face near its face, or pull its ears or tail.",
+        "Wash your hands afterwards."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Bites or scratches",
+          "Being knocked over",
+          "Germs from animals"
+        ],
+        "notes": "Only with a calm, friendly dog whose owner agrees, with your grown-up right beside you. Never approach a dog that is alone, tied up, behind a fence, eating, sleeping, with puppies, or looks scared or cross."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "A soft toy dog for practice"
+          ],
+          "description": "Practise the steps with a soft toy and a grown-up playing the owner."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "A calm dog known to the family",
+            "Soap and water"
+          ],
+          "description": "Practise with a calm dog you know well, with the owner and your grown-up there."
+        },
+        "advanced": {
+          "cost": "Free to low cost",
+          "materials": [
+            "Visit to an animal shelter education session"
+          ],
+          "description": "Join a dog safety talk at a local shelter or vet clinic if available."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "A real dog",
+          "use": "A soft toy, or watching dogs in a park from a distance with a grown-up"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dog bite prevention",
+          "publisher": "American Veterinary Medical Association",
+          "url": "https://www.avma.org/resources-tools/pet-owners/dog-bite-prevention"
+        },
+        {
+          "title": "Pet advice",
+          "publisher": "Blue Cross",
+          "url": "https://www.bluecross.org.uk/"
+        },
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        }
+      ],
+      "competencies": [
+        "nat-safe-approach"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "safe-approach"
+        },
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "respectful-handling"
+        }
+      ],
+      "interests": [
+        "animals",
+        "dogs"
+      ],
+      "languageHooks": [
+        "animals",
+        "numbers",
+        "body"
+      ],
+      "adultNote": "The \"count to three then pause\" consent test lets the dog choose. If a dog bites or scratches and breaks the skin, wash the wound with soap and water for about 15 minutes and seek medical advice."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-minibeast-hunt",
+      "kind": "activity",
+      "subject": "insects and minibeasts",
+      "title": "Minibeast hunt",
+      "emoji": "🐞",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 30,
+      "summary": "Look under leaves and stones to find tiny creatures. Look closely, count legs, then put everything back just as you found it.",
+      "steps": [
+        "Choose a safe spot outside: a garden, park edge or even a crack in a pavement.",
+        "Gently lift a stone or log towards you, so anything underneath can escape away from you.",
+        "Look, do not grab. Use a spoon or soft brush to move a minibeast into a clear pot for a short look.",
+        "Count legs: 6 legs means an insect, 8 legs means an arachnid, lots of legs could be a woodlouse, centipede or millipede, and no legs could be a worm, slug or snail.",
+        "Draw or tally what you find.",
+        "Put the creature back where you found it and lower the stone gently. Wash your hands."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Stings and bites",
+          "Venomous spiders, scorpions or snakes in some regions",
+          "Sharp objects and broken glass",
+          "Germs in soil"
+        ],
+        "notes": "A grown-up chooses the spot and lifts heavy stones. Never touch anything that might sting or bite. In places with venomous animals, only look, never lift, and follow local advice. Wash hands afterwards."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Your eyes",
+            "Paper and pencil"
+          ],
+          "description": "Look and draw what you see, without touching."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Clear pot or jar",
+            "Spoon or soft paintbrush",
+            "Magnifying glass"
+          ],
+          "description": "Have a closer short look in a pot with a magnifier."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Identification chart",
+            "Pitfall trap made from a buried cup (checked within a few hours)"
+          ],
+          "description": "Identify species with a chart and compare different habitats."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Garden or park",
+          "use": "Window boxes, plant pots, pavement cracks or a walk along a path"
+        },
+        {
+          "instead": "Magnifying glass",
+          "use": "A clear jar of water held over a leaf, or a phone camera zoom"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wildlife and nature advice",
+          "publisher": "The Wildlife Trusts",
+          "url": "https://www.wildlifetrusts.org/"
+        },
+        {
+          "title": "Discover nature and science",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-minibeast-hunt"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "animal-groups"
+        },
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "observe-from-distance"
+        }
+      ],
+      "interests": [
+        "insects",
+        "nature",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "numbers",
+        "nature",
+        "colours"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ],
+      "adultNote": "Teach \"leave it as you found it\": habitats matter to minibeasts. Check local guidance on venomous species."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-life-cycles",
+      "kind": "lesson",
+      "subject": "life cycles",
+      "title": "Baby animals and life cycles",
+      "emoji": "🐸",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Animals are born or hatch, grow up, have babies and the circle goes on. Some change shape completely as they grow!",
+      "steps": [
+        "Mammals: most babies grow inside their mother and drink her milk (puppies, calves, human babies).",
+        "Birds: hatch from eggs that parents keep warm. Chicks are fed until they can fly.",
+        "Frogs: egg (frogspawn), tadpole with a tail, froglet with legs, then frog.",
+        "Butterflies: egg, caterpillar, chrysalis, butterfly. This big change is called metamorphosis.",
+        "Draw a life cycle as a circle with arrows.",
+        "Which baby animals look like their parents? Which look very different?"
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "What does a tadpole grow into?",
+          "options": [
+            "A fish",
+            "A frog",
+            "A bird"
+          ],
+          "answer": 1,
+          "explain": "Tadpoles grow legs and become frogs."
+        }
+      ],
+      "competencies": [
+        "nat-life-cycle"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "life-cycles"
+        }
+      ],
+      "interests": [
+        "animals",
+        "nature"
+      ],
+      "languageHooks": [
+        "animals",
+        "family",
+        "shapes"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-wash-after-animals",
+      "kind": "activity",
+      "subject": "animal hygiene",
+      "title": "Animals, germs and clean hands",
+      "emoji": "🧼",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Even healthy, clean-looking animals can carry germs. Always wash your hands with soap and water after touching animals or their things.",
+      "steps": [
+        "Germs can pass from animals to people. Some can make us ill.",
+        "After touching any animal, its bed, food, cage or poo: wash hands with soap and water for 20 seconds.",
+        "Do not let animals lick your face or mouth.",
+        "Do not eat or put fingers in your mouth while touching animals.",
+        "Hand gel is not as good as soap and water after animals, especially on farms.",
+        "Practise a handwash now, then tick a chart each time you remember after touching a pet."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Germs passed from animals",
+          "Slippery floors when washing"
+        ],
+        "notes": "A grown-up helps reach the sink. Use warm, not hot, water."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free to very low cost",
+          "materials": [
+            "Water",
+            "Soap"
+          ],
+          "description": "Soap and running water from a jug or tap."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Soap",
+            "Clean towel",
+            "Tick chart"
+          ],
+          "description": "Add a chart to remember every time."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Glitter or flour to show germs"
+          ],
+          "description": "Use glitter on a toy animal to see how \"germs\" move to hands and how washing removes them."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "A sink",
+          "use": "A jug or a bottle tippy-tap so water runs over your hands"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zoonoses (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/zoonoses"
+        }
+      ],
+      "competencies": [
+        "nat-farm-hygiene"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "animal-care"
+        }
+      ],
+      "interests": [
+        "animals",
+        "farming"
+      ],
+      "languageHooks": [
+        "animals",
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "health"
+      ],
+      "adultNote": "Infections that pass between animals and people are called zoonoses. Pregnant people, babies and those with weak immune systems should take extra care around animals."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-read-dog-signals",
+      "kind": "lesson",
+      "subject": "dog behaviour",
+      "title": "Reading dog body language",
+      "emoji": "🐶",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Dogs show how they feel with their whole body. Learn the signs for relaxed, worried and \"back off\", and when not to approach.",
+      "steps": [
+        "Relaxed: soft, wiggly body, loose tail wag at middle height, ears in their natural position, mouth soft or slightly open.",
+        "Worried or scared: tail tucked low, ears flat back, body crouched, lip-licking, yawning, turning away, or showing the whites of the eyes.",
+        "Warning, back off: stiff, still body, hard stare, raised fur along the back, growling, lips pulled back to show teeth, snapping.",
+        "A wagging tail does not always mean happy. A stiff, high, fast wag can be a warning.",
+        "When NOT to approach: no owner present; the dog is eating, sleeping, chewing a toy or bone, with puppies, ill or injured, tied up, behind a fence or in a car; or it shows worried or warning signs.",
+        "If you see warning signs, stop, stand still, look away and slowly back off. Tell a grown-up.",
+        "Watch dogs in a park (from a distance) or in a video. Write down the signals you see."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "A dog is eating its dinner. Should you stroke it?",
+          "options": [
+            "Yes, it is busy",
+            "No, leave dogs alone when eating"
+          ],
+          "answer": 1,
+          "explain": "Dogs may guard food. Always leave them alone while they eat."
+        },
+        {
+          "question": "Which is a warning sign?",
+          "options": [
+            "Soft, wiggly body",
+            "Stiff body and hard stare",
+            "Lying on its side asleep"
+          ],
+          "answer": 1,
+          "explain": "A stiff body and a hard stare mean \"back off\"."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dog bite prevention",
+          "publisher": "American Veterinary Medical Association",
+          "url": "https://www.avma.org/resources-tools/pet-owners/dog-bite-prevention"
+        },
+        {
+          "title": "Pet advice",
+          "publisher": "Blue Cross",
+          "url": "https://www.bluecross.org.uk/"
+        },
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        }
+      ],
+      "competencies": [
+        "nat-read-dog-signals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "read-body-language"
+        }
+      ],
+      "interests": [
+        "animals",
+        "dogs"
+      ],
+      "languageHooks": [
+        "animals",
+        "body",
+        "feelings"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-cat-signals",
+      "kind": "lesson",
+      "subject": "cat behaviour",
+      "title": "Reading cat body language",
+      "emoji": "🐱",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Cats tell us how they feel with their tail, ears, eyes, body and voice. Learn the signs so you can give a cat the space it needs.",
+      "steps": [
+        "Tail straight up, maybe with a little curl at the tip: a friendly greeting.",
+        "Tail swishing, lashing or thumping: getting cross. Stop stroking.",
+        "Puffed-up tail and arched back: very frightened. Give lots of space.",
+        "Ears forward: alert or curious. Ears flat back or sideways: scared or angry.",
+        "Slow blinks and half-closed eyes: relaxed and trusting. Big round pupils can mean fear or excitement.",
+        "Purring often means content, but cats also purr when stressed or unwell. Hissing, growling or spitting means back off.",
+        "A cat showing its tummy is often relaxed, but many cats do not like tummy rubs. Let the cat choose: offer a finger to sniff and stroke its cheeks only if it rubs against you.",
+        "Signs of stress: hiding, not eating, over-grooming, or using the toilet in the wrong place. Tell an adult so they can ask a vet."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "A cat's tail starts lashing while you stroke it. What should you do?",
+          "options": [
+            "Keep stroking",
+            "Stop and give it space"
+          ],
+          "answer": 1,
+          "explain": "A lashing tail means the cat is getting cross. Stop and let it go."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cat behaviour and care",
+          "publisher": "International Cat Care",
+          "url": "https://icatcare.org/"
+        },
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        },
+        {
+          "title": "Pet advice",
+          "publisher": "Blue Cross",
+          "url": "https://www.bluecross.org.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-read-cat-signals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "read-body-language"
+        }
+      ],
+      "interests": [
+        "animals",
+        "cats"
+      ],
+      "languageHooks": [
+        "animals",
+        "body",
+        "feelings"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-window-bird-watch",
+      "kind": "activity",
+      "subject": "birds",
+      "title": "Window bird watch",
+      "emoji": "🐦",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Birds are everywhere, even in cities. Watch quietly from a window or bench and see what birds visit and what they do.",
+      "steps": [
+        "Sit quietly by a window or on a bench for 15 minutes.",
+        "Note each bird you see: size, colours, beak shape, and what it is doing (feeding, singing, flying in a flock, chasing another bird away).",
+        "Listen: a song is often a bird saying \"this is my territory\" or looking for a mate. Short sharp calls can be alarm calls.",
+        "Feeding birds: offer seeds and clean water. Bread fills birds up without much goodness, and salty or cooked food can harm them. Clean feeders often.",
+        "Never touch nests, eggs or baby birds. A baby bird on the ground with feathers is usually a fledgling whose parents are nearby. Leave it be.",
+        "Draw your favourite bird and its behaviour."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Germs from bird droppings and feeders",
+          "Leaning out of windows"
+        ],
+        "notes": "Watch from inside or a safe place. Never lean out of windows. Wear gloves or wash hands after cleaning feeders."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "A window",
+            "Paper and pencil"
+          ],
+          "description": "Just watch and draw."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Shallow dish of water",
+            "Bird seed",
+            "Bird chart"
+          ],
+          "description": "Add water and seed, and use a free bird chart to name visitors."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Binoculars",
+            "Homemade feeder from a bottle"
+          ],
+          "description": "Use binoculars and build a simple feeder."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "A garden or yard",
+          "use": "Watch from any window, a park bench, or a free public wildlife webcam"
+        },
+        {
+          "instead": "Binoculars",
+          "use": "Two cardboard tubes help you focus your eyes (no zoom, but less distraction)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Birds and wildlife",
+          "publisher": "RSPB",
+          "url": "https://www.rspb.org.uk/"
+        },
+        {
+          "title": "Wildlife and nature advice",
+          "publisher": "The Wildlife Trusts",
+          "url": "https://www.wildlifetrusts.org/"
+        }
+      ],
+      "competencies": [
+        "nat-bird-survey"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "observe-from-distance"
+        },
+        {
+          "tree": "nat-animal-biology",
+          "node": "animal-groups"
+        }
+      ],
+      "interests": [
+        "birds",
+        "nature",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "colours",
+        "nature",
+        "weather"
+      ],
+      "connects": [
+        "science",
+        "arts"
+      ],
+      "adultNote": "Fledglings on the ground usually do not need rescuing; contact a local wildlife rescue only if a bird is clearly injured."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-animal-senses",
+      "kind": "lesson",
+      "subject": "animal senses",
+      "title": "Super senses of animals",
+      "emoji": "👃",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Animals sense the world in amazing ways. Some smell, hear or see things people cannot.",
+      "steps": [
+        "Smell: a dog's nose is many thousands of times more sensitive than ours. Dogs read the world through smell.",
+        "Hearing: bats and dolphins use echolocation, sending out sounds and listening to the echoes to find food.",
+        "Sight: eagles see very sharply from far away. Bees can see ultraviolet light, which shows patterns on flowers.",
+        "Touch and vibration: spiders feel vibrations on their webs. Cats use whiskers to feel spaces.",
+        "Other senses: some birds and sea turtles can sense Earth's magnetic field to help them navigate. Sharks sense tiny electric signals.",
+        "Experiment: close your eyes and identify things by smell or sound. Which sense is your strongest?"
+      ],
+      "practical": false,
+      "competencies": [
+        "nat-classify-animals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "body-and-senses"
+        }
+      ],
+      "interests": [
+        "animals",
+        "dogs",
+        "cats",
+        "birds",
+        "ocean"
+      ],
+      "languageHooks": [
+        "animals",
+        "body"
+      ],
+      "connects": [
+        "science",
+        "physics"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-how-animals-move",
+      "kind": "activity",
+      "subject": "animal movement",
+      "title": "How animals move",
+      "emoji": "🐎",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Animals walk, run, hop, swim, slither, fly and climb. Their bodies are shaped for the way they move.",
+      "steps": [
+        "Fish swim by bending their bodies and using fins. Their smooth shape slips through water.",
+        "Birds fly with wings and light, hollow bones.",
+        "Snakes slither by pushing scales against the ground.",
+        "Horses walk, trot, canter and gallop on strong legs, standing on one big toe protected by a hoof.",
+        "Frogs and kangaroos hop with long, strong back legs.",
+        "Move like each animal in a clear space. Which movement is fastest? Which is hardest?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Bumping into things",
+          "Slipping"
+        ],
+        "notes": "Clear a space and move on a non-slippery floor or grass."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Clear space"
+          ],
+          "description": "Move like animals in a clear space."
+        },
+        "better": {
+          "cost": "Free",
+          "materials": [
+            "Chalk or sticks for a start and finish line",
+            "Timer"
+          ],
+          "description": "Time animal races and compare."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Phone camera with slow motion"
+          ],
+          "description": "Film a pet or bird moving in slow motion and study it."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Outdoor space",
+          "use": "A cleared room or hallway with slow movements"
+        }
+      ],
+      "competencies": [
+        "nat-classify-animals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "movement-and-feeding"
+        }
+      ],
+      "interests": [
+        "animals",
+        "horses"
+      ],
+      "languageHooks": [
+        "animals",
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "physical-education",
+        "science"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-nests-and-nesting",
+      "kind": "lesson",
+      "subject": "birds",
+      "title": "Nests and nesting: look but never touch",
+      "emoji": "🪺",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Birds build nests in trees, bushes, buildings and on the ground. Disturbing a nest can make parents leave it, so we watch from far away.",
+      "steps": [
+        "Different birds build different nests: cups of twigs and moss, mud nests, holes in trees, or just a scrape on the ground.",
+        "Parents take turns keeping eggs warm and later bring food to the chicks many times an hour.",
+        "Never touch or move nests, eggs or chicks. In many countries it is against the law to disturb nesting wild birds.",
+        "If a bird is calling loudly or flying at you, you may be close to a nest. Move away quietly.",
+        "Watch nesting from a distance with binoculars, or from a free public nest webcam.",
+        "You can help by planting bushes, leaving some wild corners, or putting up a nest box away from cats."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Birds and wildlife",
+          "publisher": "RSPB",
+          "url": "https://www.rspb.org.uk/"
+        },
+        {
+          "title": "Wildlife and nature advice",
+          "publisher": "The Wildlife Trusts",
+          "url": "https://www.wildlifetrusts.org/"
+        }
+      ],
+      "competencies": [
+        "nat-bird-survey"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "observe-from-distance"
+        },
+        {
+          "tree": "nat-animal-biology",
+          "node": "life-cycles"
+        }
+      ],
+      "interests": [
+        "birds",
+        "nature"
+      ],
+      "languageHooks": [
+        "animals",
+        "nature",
+        "family"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-horse-body-language",
+      "kind": "lesson",
+      "subject": "horse behaviour",
+      "title": "Reading horse body language",
+      "emoji": "🐴",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Horses are prey animals, so they notice everything and can startle easily. Their ears, eyes, tail and body tell you how they feel.",
+      "steps": [
+        "Ears: both forward means alert and interested. One ear turned to you means the horse is listening to you. Ears pinned flat back means angry or about to warn. Stay away.",
+        "Eyes: soft and blinking means relaxed. Wide with white showing can mean fear.",
+        "Mouth and head: a relaxed horse may lick and chew or lower its head. A tight mouth and flared nostrils can mean worry.",
+        "Tail: gently swishing at flies is normal. Hard swishing or clamped down tight can mean annoyed or scared.",
+        "Legs: resting one back hoof tipped up usually means relaxed. Raising a back leg or swinging the bottom round to face you is a kick warning.",
+        "Horses also communicate with nickers (friendly), whinnies (calling to others) and snorts (alert).",
+        "Watch horses in a field from outside the fence, or in a video, and note the signals."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "A horse pins its ears flat back. What does that usually mean?",
+          "options": [
+            "It is relaxed",
+            "It is angry or warning you",
+            "It is asleep"
+          ],
+          "answer": 1,
+          "explain": "Ears pinned flat back are a warning. Give the horse space."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Horse care, welfare and safety",
+          "publisher": "The British Horse Society",
+          "url": "https://www.bhs.org.uk/"
+        },
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        }
+      ],
+      "competencies": [
+        "nat-horse-safety"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "read-body-language"
+        }
+      ],
+      "interests": [
+        "horses",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "body",
+        "feelings"
+      ],
+      "connects": [
+        "science"
+      ],
+      "adultNote": "Never let children climb fences or feed horses in fields without the owner's permission; horses can bite and some foods make them ill."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-horse-safe-approach-grooming",
+      "kind": "activity",
+      "subject": "horse handling",
+      "title": "Approaching and grooming a horse safely",
+      "emoji": "🪮",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 40,
+      "summary": "With an experienced adult, learn to approach a horse calmly from the side, where it can see you, and groom it gently. Understand before interacting.",
+      "steps": [
+        "Only with the owner's permission and an experienced horse person right beside you.",
+        "Wear sturdy closed-toe shoes or boots. Tie back long hair.",
+        "Speak calmly as you come close, so the horse knows you are there. Approach from the side, towards its shoulder, not straight from the front or behind.",
+        "Never stand directly behind a horse: that is the kick zone, and the horse cannot see you there. Directly in front is also a blind spot.",
+        "Let the horse sniff the back of your hand, then stroke its neck or shoulder firmly and gently.",
+        "Grooming: start at the neck with a soft brush and work along the body in the direction the hair grows. Watch the horse's ears and tail for signs it is unhappy.",
+        "Do not walk underneath the horse's neck or duck under ropes. When moving round the back, either go wide, well out of kicking range, or stay very close with a hand on the horse, only as your experienced adult shows you.",
+        "Picking up feet and leading are for later, with training."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Kicks",
+          "Bites",
+          "Being stood on",
+          "Being knocked over if the horse startles",
+          "Germs from animals"
+        ],
+        "notes": "Always with an experienced adult horse handler and the owner's permission. Stay out of the kick zone behind the horse. Never approach a horse that is pinning its ears, swinging its hindquarters towards you, or is eating. Wash hands afterwards."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Watching a horse handler or a free video",
+            "Paper to draw the safe zones"
+          ],
+          "description": "Watch an experienced handler and draw a map of the horse's safe and unsafe zones."
+        },
+        "better": {
+          "cost": "Free to low cost",
+          "materials": [
+            "A visit to a riding school, farm or horse charity open day",
+            "Sturdy shoes"
+          ],
+          "description": "Groom a calm horse under supervision at an open day or riding school."
+        },
+        "advanced": {
+          "cost": "Optional, ongoing cost",
+          "materials": [
+            "Lessons at an approved riding centre",
+            "Riding hat that meets safety standards"
+          ],
+          "description": "Regular lessons in handling and stable management at an approved centre."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "A real horse",
+          "use": "Practise on a pretend horse (a chair or sofa) with a soft brush, and watch videos from horse welfare charities"
+        },
+        {
+          "instead": "Grooming brush",
+          "use": "A clean, soft household brush, only if the owner agrees"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Horse care, welfare and safety",
+          "publisher": "The British Horse Society",
+          "url": "https://www.bhs.org.uk/"
+        },
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        },
+        {
+          "title": "Zoonoses (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/zoonoses"
+        }
+      ],
+      "competencies": [
+        "nat-horse-safety",
+        "nat-safe-approach"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "safe-approach"
+        },
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "respectful-handling"
+        }
+      ],
+      "interests": [
+        "horses",
+        "animals",
+        "farming"
+      ],
+      "languageHooks": [
+        "animals",
+        "body"
+      ],
+      "connects": [
+        "physical-education",
+        "agriculture"
+      ],
+      "adultNote": "Horses are large and can startle; this is amber and requires an experienced adult. Riding needs a properly fitted safety helmet and qualified instruction."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-farm-visit",
+      "kind": "activity",
+      "subject": "farm animals",
+      "title": "Visiting farm animals safely",
+      "emoji": "🐄",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 60,
+      "summary": "Farms are working places with big animals. Move calmly, follow the farmer, watch for signs of stress, and always wash your hands afterwards.",
+      "steps": [
+        "Follow the farmer's rules. Stay with your adult and close every gate behind you.",
+        "Move slowly and quietly. Sudden movements and loud noises frighten animals.",
+        "Never get between a mother and her young, and do not walk behind cattle or horses.",
+        "Stress signs: heads up and staring, moving away, bunching together, stamping, loud calling. If you see these, step back and give space.",
+        "Feeding: only feed what the farmer gives you, with a flat hand.",
+        "Do not eat, drink or put fingers in your mouth while near animals. Eat only in picnic areas.",
+        "Wash hands with soap and running water after touching animals, fences or anything in the pens, and before eating. Hand gel alone is not enough.",
+        "Clean your shoes before getting in the car."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Germs such as E. coli from animals and their droppings",
+          "Being kicked, butted or knocked over",
+          "Farm machinery and vehicles",
+          "Water troughs and slurry"
+        ],
+        "notes": "Children stay with an adult at all times. Keep away from machinery. Pregnant people should avoid lambing and calving animals. Get medical advice if anyone has diarrhoea, especially with blood, after a farm visit."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "A farm walk on a public path, watching from the fence"
+          ],
+          "description": "Observe farm animals from a public path and note their behaviour."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Open farm visit",
+            "Soap and water"
+          ],
+          "description": "Visit an open farm with handwashing stations."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Volunteer session at a city or community farm"
+          ],
+          "description": "Help with feeding and cleaning under supervision at a community farm."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "A farm visit",
+          "use": "Watch a free farm webcam or video, or observe chickens or goats kept by neighbours from outside their fence"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zoonoses (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/zoonoses"
+        },
+        {
+          "title": "Agriculture health and safety",
+          "publisher": "Health and Safety Executive",
+          "url": "https://www.hse.gov.uk/agriculture/"
+        },
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        }
+      ],
+      "competencies": [
+        "nat-farm-hygiene",
+        "nat-safe-approach"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "respectful-handling"
+        },
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "animal-care"
+        }
+      ],
+      "interests": [
+        "farming",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "food",
+        "nature"
+      ],
+      "connects": [
+        "agriculture",
+        "health"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-dog-safety-scenarios",
+      "kind": "simulation",
+      "subject": "dog safety",
+      "title": "Dog safety: when not to approach",
+      "emoji": "🚫",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Practise deciding when it is safe to meet a dog and when to leave it alone.",
+      "steps": [
+        "Read each situation.",
+        "Decide what you would do.",
+        "Check your answer and the reason."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Role-play only."
+      },
+      "simulation": {
+        "scenario": "You meet dogs in different places. Decide what to do.",
+        "steps": [
+          {
+            "prompt": "A dog is tied up outside a shop with no owner.",
+            "options": [
+              {
+                "text": "Leave it alone",
+                "correct": true,
+                "feedback": "Yes. A tied-up dog cannot move away and may feel trapped. No owner means no permission."
+              },
+              {
+                "text": "Go and stroke it",
+                "correct": false,
+                "feedback": "Never approach a dog without the owner. It may feel trapped and bite."
+              }
+            ]
+          },
+          {
+            "prompt": "Your friend's dog is chewing a bone under the table.",
+            "options": [
+              {
+                "text": "Leave it to enjoy its bone",
+                "correct": true,
+                "feedback": "Right. Dogs can guard food and toys."
+              },
+              {
+                "text": "Crawl under the table to hug it",
+                "correct": false,
+                "feedback": "Never corner a dog or hug it, especially with food."
+              }
+            ]
+          },
+          {
+            "prompt": "The owner says yes. The dog comes over with a loose, wiggly body.",
+            "options": [
+              {
+                "text": "Stand sideways, let it sniff, stroke its shoulder for 3 seconds, then pause",
+                "correct": true,
+                "feedback": "Perfect. Let the dog choose if it wants more."
+              },
+              {
+                "text": "Lean over and pat its head hard",
+                "correct": false,
+                "feedback": "Leaning over can feel threatening. Stroke the shoulder gently."
+              }
+            ]
+          },
+          {
+            "prompt": "A dog growls and stiffens as you walk past.",
+            "options": [
+              {
+                "text": "Stop, look away, and slowly back away",
+                "correct": true,
+                "feedback": "Yes. A growl is a polite warning. Respect it."
+              },
+              {
+                "text": "Shout at it or run",
+                "correct": false,
+                "feedback": "Shouting or running can make things worse. Calmly back away."
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Dog bite prevention",
+          "publisher": "American Veterinary Medical Association",
+          "url": "https://www.avma.org/resources-tools/pet-owners/dog-bite-prevention"
+        },
+        {
+          "title": "Pet advice",
+          "publisher": "Blue Cross",
+          "url": "https://www.bluecross.org.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-read-dog-signals",
+        "nat-safe-approach"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "read-body-language"
+        },
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "safe-approach"
+        }
+      ],
+      "interests": [
+        "dogs",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "feelings"
+      ],
+      "adultNote": "Never punish a dog for growling: it is a warning that prevents bites."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-bird-survey",
+      "kind": "project",
+      "subject": "birds",
+      "title": "My bird survey",
+      "emoji": "📋",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 60,
+      "summary": "Be a citizen scientist. Count birds in the same spot at the same time each week and look for patterns.",
+      "steps": [
+        "Choose a spot you can watch safely: a window, yard, park bench or balcony.",
+        "Watch for the same length of time (for example 15 minutes) on 5 different days.",
+        "For each species, record the highest number you see at one time (this avoids counting the same bird twice).",
+        "Also record the date, time, weather and any behaviour: feeding, singing, chasing, flocking, nesting material.",
+        "Make a bar chart of your results. Which bird was most common? Did weather change what you saw?",
+        "Share your results with a national citizen-science bird count if one runs in your country."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Traffic if watching near roads",
+          "Weather exposure"
+        ],
+        "notes": "Choose a safe place away from roads and water, tell an adult where you are, and dress for the weather."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper tally sheet",
+            "Pencil"
+          ],
+          "description": "Tally birds from a window and draw a bar chart by hand."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Bird identification chart",
+            "Notebook",
+            "Shallow water dish"
+          ],
+          "description": "Use a free chart to identify species and add water to attract birds."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Binoculars",
+            "Spreadsheet",
+            "Free bird sound app"
+          ],
+          "description": "Use binoculars and a spreadsheet, and submit data to a citizen-science survey."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Outdoor watching spot",
+          "use": "A free public bird feeder or nest webcam"
+        },
+        {
+          "instead": "Binoculars",
+          "use": "Sit closer to the window and be very still"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Birds and wildlife",
+          "publisher": "RSPB",
+          "url": "https://www.rspb.org.uk/"
+        },
+        {
+          "title": "Wildlife and nature advice",
+          "publisher": "The Wildlife Trusts",
+          "url": "https://www.wildlifetrusts.org/"
+        }
+      ],
+      "competencies": [
+        "nat-bird-survey"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "field-research"
+        },
+        {
+          "tree": "nat-animal-biology",
+          "node": "habitats-and-ecosystems"
+        }
+      ],
+      "interests": [
+        "birds",
+        "nature"
+      ],
+      "languageHooks": [
+        "animals",
+        "numbers",
+        "weather",
+        "maths",
+        "time"
+      ],
+      "connects": [
+        "mathematics",
+        "statistics",
+        "environment"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-vertebrates-invertebrates",
+      "kind": "lesson",
+      "subject": "classification",
+      "title": "Backbones or not: classifying animals",
+      "emoji": "🦴",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "Scientists sort animals by their features. The big split is vertebrates (with a backbone) and invertebrates (without).",
+      "steps": [
+        "Vertebrates have a backbone. The main groups: mammals, birds, reptiles, amphibians and fish.",
+        "Mammals: hair or fur, breathe air, most give birth to live young, feed babies milk. Whales and bats are mammals too.",
+        "Birds: feathers, beaks, lay hard-shelled eggs. Reptiles: dry scaly skin, most lay leathery eggs. Amphibians: moist skin, usually start life in water.",
+        "Fish: live in water, breathe with gills, most have scales and fins.",
+        "Invertebrates have no backbone and are about 97% of all animal species: insects (6 legs, 3 body parts), arachnids (8 legs, 2 body parts), crustaceans, molluscs, worms, jellyfish and more.",
+        "Make a branching key: ask yes/no questions (\"Does it have a backbone?\") to identify 10 animals."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Is a whale a fish or a mammal?",
+          "options": [
+            "Fish",
+            "Mammal"
+          ],
+          "answer": 1,
+          "explain": "Whales breathe air and feed their babies milk, so they are mammals."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Discover nature and science",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-classify-animals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "animal-groups"
+        }
+      ],
+      "interests": [
+        "animals",
+        "insects",
+        "ocean"
+      ],
+      "languageHooks": [
+        "animals",
+        "science",
+        "body"
+      ],
+      "connects": [
+        "biology"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-food-chains",
+      "kind": "activity",
+      "subject": "ecosystems",
+      "title": "Food chains and food webs",
+      "emoji": "🕸️",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 25,
+      "summary": "Energy flows from the Sun to plants to the animals that eat them. Food chains link together into food webs.",
+      "steps": [
+        "Producers (plants and algae) make food from sunlight.",
+        "Primary consumers (herbivores) eat plants. Secondary consumers eat herbivores. Top predators have few or no predators.",
+        "Decomposers (fungi, bacteria, worms) break down dead things and return nutrients to the soil.",
+        "Example chain: grass, rabbit, fox. Example from the sea: plankton, small fish, seal, orca.",
+        "Draw a food web for a habitat near you with at least 8 living things and arrows showing who eats whom (arrows point to the eater).",
+        "What would happen if one animal disappeared? Follow the arrows to find out."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Discover nature and science",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/"
+        },
+        {
+          "title": "Ocean facts",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/"
+        }
+      ],
+      "competencies": [
+        "nat-food-web"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "habitats-and-ecosystems"
+        }
+      ],
+      "interests": [
+        "animals",
+        "nature",
+        "ocean"
+      ],
+      "languageHooks": [
+        "animals",
+        "food",
+        "nature"
+      ],
+      "connects": [
+        "biology",
+        "environment"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-pond-dipping",
+      "kind": "activity",
+      "subject": "freshwater life",
+      "title": "Pond dipping",
+      "emoji": "🪷",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 45,
+      "summary": "Discover the hidden world of a pond: water snails, dragonfly larvae, water beetles and more. Look closely, then return everything gently.",
+      "steps": [
+        "Only with an adult, at a safe shallow pond edge or dipping platform. Kneel, do not stand or lean over the water.",
+        "Fill a white tray or tub with pond water first.",
+        "Sweep the net slowly in a figure of eight in the water, then turn it inside out into the tray.",
+        "Look with a magnifier. Count legs and tails. Use a chart to identify creatures.",
+        "Do not handle animals with your fingers. Keep the tray in the shade and do not keep animals out for long.",
+        "Gently tip everything back into the pond at the water's edge.",
+        "Wash hands with soap and water afterwards, and cover any cuts before you start."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Drowning: even shallow water is dangerous",
+          "Slippery and unstable banks",
+          "Germs in water, including leptospirosis from rat urine",
+          "Cold water"
+        ],
+        "notes": "An adult supervises closely at all times. Choose a shallow, safe edge or platform, kneel or lie, never lean or stand at the edge. Cover cuts, do not touch your face, and wash hands with soap afterwards. Never go pond dipping alone or in fast, deep or icy water."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free to very low cost",
+          "materials": [
+            "A sieve or kitchen strainer on a stick",
+            "White tub or ice-cream box"
+          ],
+          "description": "Make a dipping net from a strainer and use a white tub to see creatures clearly."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Pond net",
+            "White tray",
+            "Magnifying glass",
+            "Identification chart"
+          ],
+          "description": "A proper pond net and tray with an identification chart."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Field microscope",
+            "Water testing kit"
+          ],
+          "description": "Test water quality and link the creatures you find to how clean the water is."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "A pond",
+          "use": "A large bucket of rainwater left outside for a few weeks, a puddle, or a free public pond webcam or video"
+        },
+        {
+          "instead": "Pond net",
+          "use": "A kitchen sieve tied to a stick"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Water safety",
+          "publisher": "Royal Society for the Prevention of Accidents",
+          "url": "https://www.rospa.com/"
+        },
+        {
+          "title": "Wildlife and nature advice",
+          "publisher": "The Wildlife Trusts",
+          "url": "https://www.wildlifetrusts.org/"
+        },
+        {
+          "title": "Zoonoses (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/zoonoses"
+        }
+      ],
+      "competencies": [
+        "nat-minibeast-hunt"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "field-research"
+        },
+        {
+          "tree": "nat-animal-biology",
+          "node": "habitats-and-ecosystems"
+        }
+      ],
+      "interests": [
+        "nature",
+        "insects",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "nature",
+        "numbers",
+        "colours"
+      ],
+      "connects": [
+        "science",
+        "environment"
+      ],
+      "adultNote": "Water is the main hazard: stay within arm's reach of younger children. Some creatures indicate cleaner water (for example mayfly larvae), which links to environmental science."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-marine-life",
+      "kind": "lesson",
+      "subject": "marine animals",
+      "title": "Life in the ocean",
+      "emoji": "🐋",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "The ocean covers most of Earth and is home to animals from tiny plankton to the blue whale, the largest animal ever known.",
+      "steps": [
+        "Ocean zones: sunlit surface waters, the dim twilight zone, and the dark deep sea where some animals make their own light (bioluminescence).",
+        "Adaptations: blubber keeps whales warm, gills take oxygen from water, octopuses change colour to hide.",
+        "Coral reefs are built by tiny animals called coral polyps and are home to about a quarter of marine species.",
+        "Plankton make a large share of the oxygen we breathe and are the base of ocean food webs.",
+        "Threats: plastic pollution, overfishing, warming and more acidic water.",
+        "Rock pool or beach visit: look, do not take living things, and put rocks back the right way up. Watch the tide with an adult.",
+        "Choose one ocean animal and make a fact card: habitat, food, movement, senses, threats."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Ocean facts",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/"
+        },
+        {
+          "title": "The IUCN Red List of Threatened Species",
+          "publisher": "International Union for Conservation of Nature",
+          "url": "https://www.iucnredlist.org/"
+        }
+      ],
+      "competencies": [
+        "nat-food-web"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "habitats-and-ecosystems"
+        },
+        {
+          "tree": "nat-animal-biology",
+          "node": "body-and-senses"
+        }
+      ],
+      "interests": [
+        "ocean",
+        "animals",
+        "nature"
+      ],
+      "languageHooks": [
+        "animals",
+        "nature",
+        "colours",
+        "geography"
+      ],
+      "connects": [
+        "geography",
+        "environment"
+      ],
+      "adultNote": "At beaches and rock pools, check tide times and keep children within reach near water."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-horse-anatomy",
+      "kind": "lesson",
+      "subject": "horse biology",
+      "title": "Inside a horse: anatomy and senses",
+      "emoji": "🐎",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 25,
+      "summary": "A horse's body is built for grazing and running away from danger. Its anatomy explains much of its behaviour.",
+      "steps": [
+        "Eyes on the sides of the head give an almost all-round view, but there are blind spots directly in front of the nose and directly behind. That is why we approach from the side.",
+        "Hooves: a horse stands on the tip of one big toe, protected by a hoof made of keratin, like your fingernails. Hooves need regular trimming by a farrier.",
+        "Teeth keep growing through life and are worn down by chewing grass. Vets can estimate age from teeth.",
+        "Digestion: horses evolved to graze for many hours a day. They cannot vomit, so colic (tummy pain) can be serious and needs a vet.",
+        "Legs: long legs with powerful muscles high up and light lower legs for speed. Horses can sleep standing up by locking their legs.",
+        "Label a horse diagram: poll, withers, back, hindquarters, hock, fetlock, hoof."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Why should you not stand directly behind a horse?",
+          "options": [
+            "It is a blind spot and the kick zone",
+            "Horses prefer it",
+            "It is the best place to groom"
+          ],
+          "answer": 0,
+          "explain": "The horse cannot see you there and may kick if startled."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Horse care, welfare and safety",
+          "publisher": "The British Horse Society",
+          "url": "https://www.bhs.org.uk/"
+        },
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        }
+      ],
+      "competencies": [
+        "nat-horse-safety"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "body-and-senses"
+        },
+        {
+          "tree": "nat-animal-biology",
+          "node": "movement-and-feeding"
+        }
+      ],
+      "interests": [
+        "horses",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "body"
+      ],
+      "connects": [
+        "biology",
+        "veterinary science"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-animal-bites-zoonoses",
+      "kind": "lesson",
+      "subject": "animal health",
+      "title": "Animal bites, scratches and diseases from animals",
+      "emoji": "🦇",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "summary": "Some diseases can pass between animals and people. Knowing how to prevent bites and what to do if one happens keeps you safe.",
+      "steps": [
+        "Zoonoses are diseases that spread between animals and people, through bites, scratches, droppings, food or insects.",
+        "Rabies is spread through bites and scratches from infected animals, most often dogs, and also bats and other wild mammals in many regions. Once symptoms start it is almost always fatal, but it is preventable with vaccines given promptly after exposure.",
+        "If bitten or scratched: wash the wound straight away with soap and lots of water for about 15 minutes, then get medical advice the same day.",
+        "Never touch wild animals, bats, or any animal acting strangely, even if it seems tame. Tell an adult or local wildlife or animal service.",
+        "Prevention: vaccinated pets, handwashing, cooking meat well, protection from ticks and mosquitoes.",
+        "Research: which zoonoses are important where you live?"
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "A dog scratches you and the skin bleeds. What should you do first?",
+          "options": [
+            "Wash with soap and water for about 15 minutes, then get medical advice",
+            "Ignore it",
+            "Cover it and never tell anyone"
+          ],
+          "answer": 0,
+          "explain": "Washing well and getting medical advice is what WHO recommends."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rabies (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/rabies"
+        },
+        {
+          "title": "Zoonoses (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/zoonoses"
+        }
+      ],
+      "competencies": [
+        "nat-safe-approach"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "animal-care"
+        },
+        {
+          "tree": "nat-animal-biology",
+          "node": "evolution-and-conservation"
+        }
+      ],
+      "interests": [
+        "animals",
+        "medicine",
+        "dogs"
+      ],
+      "languageHooks": [
+        "animals",
+        "body",
+        "science"
+      ],
+      "connects": [
+        "health",
+        "first-aid",
+        "biology"
+      ],
+      "adultNote": "This is not medical advice for a specific injury; always contact a health professional after a bite or scratch that breaks the skin, especially in areas where rabies is present."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-animal-communication-science",
+      "kind": "lesson",
+      "subject": "animal communication",
+      "title": "The science of animal communication",
+      "emoji": "🐝",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 25,
+      "summary": "Animals send signals using sound, sight, smell, touch and even electricity. Scientists study these signals by careful observation, not by talking with animals.",
+      "steps": [
+        "Honeybees perform a waggle dance: its direction and length tell other bees roughly where food is.",
+        "Many birds learn their songs from adults, a bit like young people learning to speak. Songs defend territory and attract mates.",
+        "Vervet monkeys give different alarm calls for different predators (eagle, leopard, snake), and others respond differently to each.",
+        "Whales and elephants use very low sounds that travel long distances.",
+        "Scent marking (dogs, cats, deer) leaves chemical messages that last for days.",
+        "Important: these are signal systems that evolved for each species. They are not human language, and humans cannot have conversations with animals. We interpret behaviour carefully and check our ideas with evidence.",
+        "Discuss: why might people misread an animal's signal? (For example, thinking a \"smiling\" dog is happy when it is stressed.)"
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Discover nature and science",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-read-dog-signals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "field-research"
+        },
+        {
+          "tree": "nat-animal-biology",
+          "node": "evolution-and-conservation"
+        }
+      ],
+      "interests": [
+        "animals",
+        "birds",
+        "insects",
+        "ocean"
+      ],
+      "languageHooks": [
+        "animals",
+        "science"
+      ],
+      "connects": [
+        "biology",
+        "languages",
+        "psychology"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-animal-welfare-needs",
+      "kind": "lesson",
+      "subject": "animal welfare",
+      "title": "What every animal needs: welfare",
+      "emoji": "🏡",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "Animals in our care depend on us. Animal welfare means meeting their needs for their body and their mind.",
+      "steps": [
+        "A widely used welfare approach lists five needs: a suitable place to live, a suitable diet including fresh water, to be able to behave normally, to be housed with or apart from other animals as suits them, and to be protected from pain, suffering, injury and disease.",
+        "Every species has different needs. Rabbits need company and space to hop; dogs need exercise and things to sniff; fish need clean water at the right temperature.",
+        "Signs of good welfare: alert, curious, eats normally, moves comfortably, plays or rests calmly.",
+        "Signs of poor welfare: hiding a lot, not eating, limping, dull coat, repeated pacing or chewing bars.",
+        "Before getting any pet, research its needs, lifespan and costs, and whether your family can meet them.",
+        "Make a care plan for an animal you know or would like: food, water, shelter, company, exercise, health checks, and who helps when you are away."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        },
+        {
+          "title": "Animal health and welfare",
+          "publisher": "World Organisation for Animal Health",
+          "url": "https://www.woah.org/"
+        },
+        {
+          "title": "Pet advice",
+          "publisher": "Blue Cross",
+          "url": "https://www.bluecross.org.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-animal-care-plan"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "animal-care"
+        }
+      ],
+      "interests": [
+        "animals",
+        "dogs",
+        "cats",
+        "horses",
+        "farming"
+      ],
+      "languageHooks": [
+        "animals",
+        "food",
+        "family"
+      ],
+      "connects": [
+        "veterinary science",
+        "civics"
+      ],
+      "adultNote": "If you see an animal being mistreated, report it to your local animal welfare organisation or authority rather than intervening directly."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-evolution-adaptation",
+      "kind": "lesson",
+      "subject": "evolution",
+      "title": "Evolution and adaptation",
+      "emoji": "🦕",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "Over many generations, living things change. Features that help animals survive and reproduce in their environment become more common. This is natural selection.",
+      "steps": [
+        "Variation: individuals of a species differ slightly, and many differences are inherited.",
+        "Selection: individuals with helpful features survive and have more young, passing those features on.",
+        "Over very long times, populations change and new species can form.",
+        "Evidence: fossils (for example the horse family over 50 million years, from small forest animals with several toes to today's single-toed grazers), similar bone patterns in a human arm, bat wing and whale flipper, and DNA comparisons.",
+        "Adaptations: camouflage, a camel's ability to cope with long periods without water, the thick fur of arctic animals.",
+        "Pick an animal and explain three adaptations and how they help it survive in its habitat."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "What does natural selection act on?",
+          "options": [
+            "Inherited differences between individuals",
+            "Wishes of animals",
+            "Nothing, animals never change"
+          ],
+          "answer": 0,
+          "explain": "Natural selection acts on inherited variation in populations."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Discover nature and science",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-classify-animals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "evolution-and-conservation"
+        }
+      ],
+      "interests": [
+        "animals",
+        "horses",
+        "nature"
+      ],
+      "languageHooks": [
+        "animals",
+        "science",
+        "time"
+      ],
+      "connects": [
+        "biology",
+        "geology",
+        "history"
+      ],
+      "adultNote": "Presented as the scientific consensus in biology. Families with different worldviews can explore how traditions respond to it in the philosophy and worldviews area."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-ecosystems-keystone",
+      "kind": "lesson",
+      "subject": "ecosystems",
+      "title": "Keystone species and balanced ecosystems",
+      "emoji": "🦦",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 30,
+      "summary": "Some animals have a huge effect on their ecosystem compared with their numbers. Removing them can change everything around them.",
+      "steps": [
+        "A keystone species holds an ecosystem together, like the keystone at the top of an arch.",
+        "Sea otters eat sea urchins. Without otters, urchins can multiply and eat kelp forests, which many other species depend on.",
+        "Beavers build dams that create wetlands for fish, birds, insects and plants.",
+        "Pollinators such as bees are vital to many plants, including many crops people eat.",
+        "Predators can shape where prey animals feed, which affects plants and rivers. Scientists still debate how strong some of these effects are, which is a good example of science testing ideas.",
+        "Choose an ecosystem and identify a possible keystone species. What evidence would show its importance?"
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "The IUCN Red List of Threatened Species",
+          "publisher": "International Union for Conservation of Nature",
+          "url": "https://www.iucnredlist.org/"
+        },
+        {
+          "title": "Ocean facts",
+          "publisher": "NOAA National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/"
+        },
+        {
+          "title": "Wildlife and nature advice",
+          "publisher": "The Wildlife Trusts",
+          "url": "https://www.wildlifetrusts.org/"
+        }
+      ],
+      "competencies": [
+        "nat-food-web"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "habitats-and-ecosystems"
+        },
+        {
+          "tree": "nat-animal-biology",
+          "node": "evolution-and-conservation"
+        }
+      ],
+      "interests": [
+        "animals",
+        "nature",
+        "ocean"
+      ],
+      "languageHooks": [
+        "animals",
+        "nature",
+        "science"
+      ],
+      "connects": [
+        "environment",
+        "biology",
+        "geography"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-behaviour-field-study",
+      "kind": "project",
+      "subject": "animal behaviour science",
+      "title": "Field study: an ethogram of a local animal",
+      "emoji": "🔭",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 180,
+      "summary": "Ethologists study animal behaviour scientifically. Choose a common local animal, observe it without disturbing it, and record what it does over time.",
+      "steps": [
+        "Choose a common animal you can watch safely from a distance: pigeons, sparrows, ants, squirrels, ducks, or a pet with the owner's permission.",
+        "Make an ethogram: a list of clear behaviours with definitions (for example feeding, preening, walking, flying, resting, alert, interacting).",
+        "Scan sampling: every 30 seconds for 10 minutes, record what one animal (or each animal in view) is doing.",
+        "Repeat at different times of day or weather on at least 4 days.",
+        "Calculate the percentage of time spent on each behaviour. Make graphs.",
+        "Ask a question and test it: do birds spend more time alert when people are nearby?",
+        "Write a short report: question, method, results, what could have gone wrong, and what you would do next.",
+        "Rules: never feed, chase, corner or disturb the animal to make it do something. If it changes its behaviour because of you, move further away."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Traffic and water near observation spots",
+          "Weather",
+          "Bites if too close to animals"
+        ],
+        "notes": "Observe from a distance in a safe public place. Tell an adult where you are. Do not touch wild animals."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Notebook",
+            "Pencil",
+            "Watch or clock"
+          ],
+          "description": "Paper ethogram and a watch for timing."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Printed recording sheets",
+            "Clipboard",
+            "Free spreadsheet"
+          ],
+          "description": "Structured recording sheets and spreadsheet graphs."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Binoculars",
+            "Camera or trail camera",
+            "Statistics software"
+          ],
+          "description": "Video sampling and simple statistics to compare conditions."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Wild animals outdoors",
+          "use": "A free public wildlife webcam, or ants on a windowsill"
+        },
+        {
+          "instead": "Timer",
+          "use": "Count slowly to 30 between records"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wildlife and nature advice",
+          "publisher": "The Wildlife Trusts",
+          "url": "https://www.wildlifetrusts.org/"
+        },
+        {
+          "title": "Discover nature and science",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-animal-research"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "field-research"
+        },
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "observe-from-distance"
+        }
+      ],
+      "interests": [
+        "animals",
+        "birds",
+        "insects",
+        "nature"
+      ],
+      "languageHooks": [
+        "animals",
+        "numbers",
+        "maths",
+        "time",
+        "science"
+      ],
+      "connects": [
+        "statistics",
+        "mathematics",
+        "biology",
+        "independent-learning"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-conservation-project",
+      "kind": "project",
+      "subject": "conservation",
+      "title": "Conservation action project",
+      "emoji": "🌍",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 240,
+      "summary": "Learn why animals become threatened and take one real action to help wildlife where you live.",
+      "steps": [
+        "Research: look up an animal on the IUCN Red List. What is its status and what threatens it: habitat loss, pollution, climate change, hunting, invasive species?",
+        "Find a local wildlife issue: fewer insects, birds hitting windows, litter in a stream, loss of hedges.",
+        "Choose an action: plant native flowers for pollinators, build a bug hotel or bird box, organise a litter pick (with gloves and an adult), or run a wildlife survey.",
+        "Measure before and after if you can: insect counts, bird visits, bags of litter.",
+        "Share what you did: a poster, talk, or report to your family, school or community.",
+        "Reflect: what worked, what did not, and what would make a bigger difference?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Sharp litter (glass, needles)",
+          "Tools when building",
+          "Traffic and water"
+        ],
+        "notes": "Wear gloves and use a litter picker; never touch needles or sharp items: tell an adult. An adult supervises tool use and work near roads or water."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Seeds saved from plants",
+            "Old sticks and leaves for a habitat pile",
+            "Paper for a poster"
+          ],
+          "description": "Make a log and leaf pile for minibeasts, plant saved seeds, and share a poster."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Native wildflower seeds",
+            "Gloves",
+            "Bin bags",
+            "Recycled wood for a bird box"
+          ],
+          "description": "Plant for pollinators and build a simple bird box or bug hotel."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Partnership with a local wildlife group",
+            "Survey equipment"
+          ],
+          "description": "Work with a local wildlife group on a longer-term habitat project and survey."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "A garden",
+          "use": "A window box, a balcony pot, a school ground corner, or a community space with permission"
+        },
+        {
+          "instead": "Bought bird box",
+          "use": "A box made from scrap untreated wood or a cleaned large carton (temporary)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The IUCN Red List of Threatened Species",
+          "publisher": "International Union for Conservation of Nature",
+          "url": "https://www.iucnredlist.org/"
+        },
+        {
+          "title": "Wildlife and nature advice",
+          "publisher": "The Wildlife Trusts",
+          "url": "https://www.wildlifetrusts.org/"
+        },
+        {
+          "title": "Birds and wildlife",
+          "publisher": "RSPB",
+          "url": "https://www.rspb.org.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-conservation-project"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "evolution-and-conservation"
+        },
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "field-research"
+        }
+      ],
+      "interests": [
+        "animals",
+        "nature",
+        "birds",
+        "insects"
+      ],
+      "languageHooks": [
+        "animals",
+        "nature",
+        "numbers",
+        "geography"
+      ],
+      "connects": [
+        "environment",
+        "civics",
+        "projects"
+      ]
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-horse-feed-and-stable-maths",
+      "kind": "activity",
+      "subject": "mathematics",
+      "title": "Horse maths: weight, feed and stable costs",
+      "emoji": "🧮",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 40,
+      "summary": "Looking after a horse involves a lot of maths: estimating weight, working out daily feed, and planning a stable budget.",
+      "steps": [
+        "Horses usually eat about 2% of their body weight in forage (grass or hay) each day. Feed plans should always be checked with a vet or experienced keeper.",
+        "Example: a 500 kg horse needs about 500 x 0.02 = 10 kg of forage a day. How much is that in a week? In a year?",
+        "A pony might weigh 250 kg. Work out its daily forage. Make a table for horses of 200, 300, 400, 500 and 600 kg.",
+        "Water: a horse may drink around 25 to 50 litres a day, more when hot or working. How many 10-litre buckets is that?",
+        "Stable budget: make a pretend monthly budget with hay, bedding, farrier visits (about every 6 to 8 weeks), vet checks, worming and insurance. Use local prices if you can find them, or made-up round numbers.",
+        "Which costs are fixed each month, and which change? What would you do if hay prices went up by 20%?"
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Horse care, welfare and safety",
+          "publisher": "The British Horse Society",
+          "url": "https://www.bhs.org.uk/"
+        },
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        }
+      ],
+      "competencies": [
+        "nat-animal-care-plan"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "animal-care"
+        }
+      ],
+      "interests": [
+        "horses",
+        "animals",
+        "farming"
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths",
+        "food",
+        "animals"
+      ],
+      "connects": [
+        "mathematics",
+        "financial-literacy",
+        "agriculture"
+      ],
+      "adultNote": "Figures are typical rules of thumb for learning maths, not a feeding prescription. Real feed plans depend on the horse, work and grazing and should come from a vet or equine nutritionist."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-horses-through-history",
+      "kind": "lesson",
+      "subject": "history and geography",
+      "title": "Horses through history and around the world",
+      "emoji": "🗺️",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Horses changed human history: farming, travel, trade and culture. Different peoples around the world have built whole ways of life with horses.",
+      "steps": [
+        "Horses evolved in North America over millions of years, spread to Asia and Europe, and later died out in the Americas.",
+        "Scientists think horses were domesticated on the grasslands of western Asia and eastern Europe, and that the line of modern domestic horses spread widely around 4,000 years ago.",
+        "Horses transformed travel, farming, trade and communication, from the Silk Roads to mail relays across empires.",
+        "Horse cultures: herders on the Mongolian steppe, Arabian horse breeding in desert communities, horse peoples of the North American Plains after horses returned with Europeans, cowboys and gauchos of the Americas, and many more.",
+        "Horses still work today in farming, forestry, tourism, therapy and sport, especially in places where tractors are too expensive or the land is steep.",
+        "On a world map, mark five horse cultures. For one, find out how horses shaped food, clothing, language and stories there."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Discover nature and science",
+          "publisher": "Natural History Museum, London",
+          "url": "https://www.nhm.ac.uk/"
+        },
+        {
+          "title": "Horse care, welfare and safety",
+          "publisher": "The British Horse Society",
+          "url": "https://www.bhs.org.uk/"
+        }
+      ],
+      "competencies": [
+        "nat-classify-animals"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-biology",
+          "node": "evolution-and-conservation"
+        }
+      ],
+      "interests": [
+        "horses",
+        "animals"
+      ],
+      "languageHooks": [
+        "animals",
+        "geography",
+        "time"
+      ],
+      "connects": [
+        "history",
+        "geography",
+        "civics-social"
+      ],
+      "adultNote": "Present cultures respectfully and from the perspective of the people themselves where possible."
+    },
+    {
+      "area": "nature-animals",
+      "id": "nat-horse-care-project",
+      "kind": "project",
+      "subject": "horse care",
+      "title": "Project: observe and help care for a horse",
+      "emoji": "🏇",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 300,
+      "summary": "Bring together everything you have learned: observe one horse over several visits, record its behaviour and care, and help with safe tasks under supervision.",
+      "steps": [
+        "Find an opportunity with permission: a riding school, horse charity, farm or a neighbour's horse. If not possible, use videos or a public webcam.",
+        "Visit 4 or more times. Each time, record body language, what the horse eats and drinks, how it interacts with other horses, and the weather.",
+        "With an experienced adult, help with safe tasks: filling water, sweeping, grooming. Follow every safety instruction.",
+        "Learn the signs of a healthy horse (bright eyes, eating normally, moving freely) and signs to report to the owner (not eating, rolling repeatedly, lameness).",
+        "Use your feed maths to estimate how much the horse eats in a month.",
+        "Make a final report or presentation: behaviour patterns, care routine, costs, and what jobs people do around horses (groom, farrier, vet, instructor)."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Kicks, bites and being stood on",
+          "Startled horses",
+          "Lifting heavy buckets and bales",
+          "Germs from animals"
+        ],
+        "notes": "Only with the owner's permission and an experienced adult present. Stay out of the kick zone, wear sturdy boots, lift with bent knees, and wash hands after every visit. Riding only with qualified instruction and a safety helmet."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Videos from horse welfare charities or public webcams",
+            "Notebook"
+          ],
+          "description": "Observe horses on video or from a public path and write a behaviour diary."
+        },
+        "better": {
+          "cost": "Free to low cost",
+          "materials": [
+            "Volunteer visits to a horse charity or farm",
+            "Sturdy boots",
+            "Notebook"
+          ],
+          "description": "Volunteer visits with an experienced handler."
+        },
+        "advanced": {
+          "cost": "Optional, ongoing cost",
+          "materials": [
+            "Stable management course or lessons at an approved centre",
+            "Safety helmet"
+          ],
+          "description": "A structured stable-management or pony-care course."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "A real horse",
+          "use": "Observe donkeys, goats or other large animals at a community farm, or a horse on a public webcam"
+        },
+        {
+          "instead": "Riding boots",
+          "use": "Sturdy closed-toe shoes or wellington boots"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Horse care, welfare and safety",
+          "publisher": "The British Horse Society",
+          "url": "https://www.bhs.org.uk/"
+        },
+        {
+          "title": "Advice and welfare",
+          "publisher": "RSPCA",
+          "url": "https://www.rspca.org.uk/adviceandwelfare"
+        },
+        {
+          "title": "Zoonoses (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/zoonoses"
+        }
+      ],
+      "competencies": [
+        "nat-horse-safety",
+        "nat-animal-care-plan",
+        "nat-animal-research"
+      ],
+      "skills": [
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "animal-care"
+        },
+        {
+          "tree": "nat-animal-behaviour",
+          "node": "field-research"
+        }
+      ],
+      "interests": [
+        "horses",
+        "animals",
+        "farming"
+      ],
+      "languageHooks": [
+        "animals",
+        "numbers",
+        "food",
+        "weather"
+      ],
+      "connects": [
+        "mathematics",
+        "careers",
+        "veterinary science"
+      ],
+      "adultNote": "A natural next step toward zoology, veterinary science, agriculture or equestrian science. Check that any stable or charity follows good welfare and safety practice."
+    }
+  ],
+  "pathways": [
+    {
+      "id": "pw-horse",
+      "interest": "horses",
+      "title": "From loving horses to equine science",
+      "emoji": "🐴",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "steps": [
+        {
+          "title": "Horse interest",
+          "area": "nature-animals",
+          "subject": "horse behaviour",
+          "description": "Start with what fascinates you: watch horses and ask questions.",
+          "itemIds": [
+            "nat-how-animals-move"
+          ]
+        },
+        {
+          "title": "Animal behaviour",
+          "area": "nature-animals",
+          "subject": "horse behaviour",
+          "description": "Read ears, eyes, tail and posture to understand how a horse feels.",
+          "itemIds": [
+            "nat-horse-body-language"
+          ]
+        },
+        {
+          "title": "Anatomy",
+          "area": "nature-animals",
+          "subject": "horse biology",
+          "description": "Learn the parts of a horse and why its eyes and legs shape its behaviour.",
+          "itemIds": [
+            "nat-horse-anatomy"
+          ]
+        },
+        {
+          "title": "Biology",
+          "area": "nature-animals",
+          "subject": "evolution",
+          "description": "How horses evolved and how they fit into ecosystems.",
+          "itemIds": [
+            "nat-evolution-adaptation",
+            "nat-vertebrates-invertebrates"
+          ]
+        },
+        {
+          "title": "Communication",
+          "area": "nature-animals",
+          "subject": "animal communication",
+          "description": "How horses and other animals send signals, and how we interpret them carefully.",
+          "itemIds": [
+            "nat-animal-communication-science"
+          ]
+        },
+        {
+          "title": "Agriculture",
+          "area": "nature-animals",
+          "subject": "farm animals",
+          "description": "Horses and other animals on farms: handling, hygiene and stress recognition.",
+          "itemIds": [
+            "nat-farm-visit"
+          ]
+        },
+        {
+          "title": "Veterinary science",
+          "area": "nature-animals",
+          "subject": "animal welfare",
+          "description": "Animal welfare needs, health signs and diseases shared with people.",
+          "itemIds": [
+            "nat-animal-welfare-needs",
+            "nat-animal-bites-zoonoses"
+          ]
+        },
+        {
+          "title": "Geography of horse cultures",
+          "area": "nature-animals",
+          "subject": "geography",
+          "description": "Map horse cultures from the steppe to the Americas.",
+          "itemIds": [
+            "nat-horses-through-history"
+          ]
+        },
+        {
+          "title": "History",
+          "area": "core-academics",
+          "subject": "history",
+          "description": "Domestication, trade, travel and how horses changed societies.",
+          "itemIds": [
+            "nat-horses-through-history"
+          ]
+        },
+        {
+          "title": "Mathematics through feed and weight",
+          "area": "core-academics",
+          "subject": "mathematics",
+          "description": "Estimate weight, calculate daily feed and water.",
+          "itemIds": [
+            "nat-horse-feed-and-stable-maths"
+          ]
+        },
+        {
+          "title": "Economics through stable management",
+          "area": "financial-literacy",
+          "subject": "budgeting",
+          "description": "Plan a stable budget with fixed and changing costs.",
+          "itemIds": [
+            "nat-horse-feed-and-stable-maths"
+          ]
+        },
+        {
+          "title": "First aid",
+          "area": "first-aid",
+          "subject": "first aid",
+          "description": "Basic first aid around animals and stables, and what to do after a bite or kick.",
+          "itemIds": [
+            "nat-animal-bites-zoonoses"
+          ]
+        },
+        {
+          "title": "Riding and safety",
+          "area": "physical-education",
+          "subject": "riding",
+          "description": "Safe approach and grooming now; riding only with qualified instruction and a safety helmet.",
+          "itemIds": [
+            "nat-horse-safe-approach-grooming"
+          ]
+        },
+        {
+          "title": "Language vocabulary",
+          "area": "languages",
+          "subject": "vocabulary",
+          "description": "Learn animal, body and colour words for horses in your study language."
+        },
+        {
+          "title": "Project: care for or observe a horse",
+          "area": "projects",
+          "subject": "horse care",
+          "description": "Observe a horse over several visits and help with safe care tasks.",
+          "itemIds": [
+            "nat-horse-care-project"
+          ]
+        },
+        {
+          "title": "Advanced pathway: zoology, veterinary, agriculture or equestrian science",
+          "area": "careers",
+          "subject": "careers",
+          "description": "Explore careers such as vet, veterinary nurse, farrier, equine scientist, zoologist and farmer, and carry out a behaviour study.",
+          "itemIds": [
+            "nat-behaviour-field-study"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pw-animals",
+      "interest": "animals",
+      "title": "Animal explorer",
+      "emoji": "🐾",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "steps": [
+        {
+          "title": "Meet the animal groups",
+          "area": "nature-animals",
+          "subject": "animal groups",
+          "description": "Sort animals by fur, feathers, scales and legs.",
+          "itemIds": [
+            "nat-animal-groups-sort",
+            "nat-vertebrates-invertebrates"
+          ]
+        },
+        {
+          "title": "Watch and listen",
+          "area": "nature-animals",
+          "subject": "animal communication",
+          "description": "Notice how animals send signals and watch from a distance.",
+          "itemIds": [
+            "nat-animal-signals-intro",
+            "nat-window-bird-watch"
+          ]
+        },
+        {
+          "title": "Read the signals",
+          "area": "nature-animals",
+          "subject": "animal behaviour",
+          "description": "Learn dog and cat body language.",
+          "itemIds": [
+            "nat-read-dog-signals",
+            "nat-cat-signals"
+          ]
+        },
+        {
+          "title": "Stay safe and respectful",
+          "area": "nature-animals",
+          "subject": "animal safety",
+          "description": "Ask first, know when not to approach, and wash hands afterwards.",
+          "itemIds": [
+            "nat-be-a-tree",
+            "nat-ask-before-stroking",
+            "nat-dog-safety-scenarios",
+            "nat-wash-after-animals"
+          ]
+        },
+        {
+          "title": "Bodies, senses and life cycles",
+          "area": "nature-animals",
+          "subject": "animal biology",
+          "description": "How animals sense, move, grow and change.",
+          "itemIds": [
+            "nat-animal-senses",
+            "nat-life-cycles",
+            "nat-how-animals-move"
+          ]
+        },
+        {
+          "title": "Habitats and food webs",
+          "area": "nature-animals",
+          "subject": "ecosystems",
+          "description": "Explore minibeasts, ponds, oceans and food webs.",
+          "itemIds": [
+            "nat-minibeast-hunt",
+            "nat-pond-dipping",
+            "nat-marine-life",
+            "nat-food-chains"
+          ]
+        },
+        {
+          "title": "Care and welfare",
+          "area": "nature-animals",
+          "subject": "animal welfare",
+          "description": "What animals need and how to keep people and animals healthy.",
+          "itemIds": [
+            "nat-animal-welfare-needs",
+            "nat-animal-bites-zoonoses"
+          ]
+        },
+        {
+          "title": "Science and conservation",
+          "area": "nature-animals",
+          "subject": "conservation",
+          "description": "Evolution, keystone species, behaviour studies and real conservation action.",
+          "itemIds": [
+            "nat-evolution-adaptation",
+            "nat-ecosystems-keystone",
+            "nat-bird-survey",
+            "nat-behaviour-field-study",
+            "nat-conservation-project"
+          ]
+        }
+      ]
+    }
+  ]
+}

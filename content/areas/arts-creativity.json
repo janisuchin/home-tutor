@@ -1,0 +1,1524 @@
+{
+  "area": "arts-creativity",
+  "title": "Arts and Creativity",
+  "emoji": "🎨",
+  "description": "Drawing, painting, music and rhythm, storytelling, drama, crafts and design, made with what a family already has at home.",
+  "skillTrees": [
+    {
+      "id": "art-drawing",
+      "area": "arts-creativity",
+      "title": "Drawing and painting",
+      "emoji": "✏️",
+      "nodes": [
+        {
+          "id": "marks",
+          "title": "Making marks",
+          "description": "Lines, dots, swirls and colours."
+        },
+        {
+          "id": "colour",
+          "title": "Colour",
+          "description": "Mix colours and use them to show mood."
+        },
+        {
+          "id": "observation",
+          "title": "Drawing what you see",
+          "description": "Look closely and draw real objects."
+        },
+        {
+          "id": "shading",
+          "title": "Light and shade",
+          "description": "Use tone to make things look solid."
+        },
+        {
+          "id": "perspective",
+          "title": "Perspective",
+          "description": "Make drawings look deep with vanishing points."
+        },
+        {
+          "id": "composition",
+          "title": "Composition",
+          "description": "Arrange a picture so the eye moves where you want."
+        },
+        {
+          "id": "portfolio",
+          "title": "Portfolio",
+          "description": "Collect, select and present your best work."
+        }
+      ]
+    },
+    {
+      "id": "art-music",
+      "area": "arts-creativity",
+      "title": "Music and rhythm",
+      "emoji": "🎵",
+      "nodes": [
+        {
+          "id": "beat",
+          "title": "Steady beat",
+          "description": "Clap, tap and march in time."
+        },
+        {
+          "id": "rhythm",
+          "title": "Rhythm patterns",
+          "description": "Long and short sounds; copy and invent patterns."
+        },
+        {
+          "id": "instruments",
+          "title": "Instruments",
+          "description": "Make and play simple instruments."
+        },
+        {
+          "id": "notation",
+          "title": "Reading rhythm",
+          "description": "Write and read simple rhythm notation."
+        },
+        {
+          "id": "melody",
+          "title": "Melody",
+          "description": "High and low notes and short tunes."
+        },
+        {
+          "id": "composition",
+          "title": "Composing",
+          "description": "Write and record your own piece."
+        }
+      ]
+    },
+    {
+      "id": "art-story-drama",
+      "area": "arts-creativity",
+      "title": "Storytelling and drama",
+      "emoji": "🎭",
+      "nodes": [
+        {
+          "id": "tell",
+          "title": "Telling",
+          "description": "Tell a story with a beginning, middle and end."
+        },
+        {
+          "id": "characters",
+          "title": "Characters",
+          "description": "Create characters with wants and feelings."
+        },
+        {
+          "id": "act",
+          "title": "Acting",
+          "description": "Use voice, face and body to show a character."
+        },
+        {
+          "id": "comics",
+          "title": "Stories in pictures",
+          "description": "Tell stories with panels, speech bubbles and timing."
+        },
+        {
+          "id": "script",
+          "title": "Scripts",
+          "description": "Write dialogue and stage directions."
+        },
+        {
+          "id": "perform",
+          "title": "Performing",
+          "description": "Rehearse and perform for an audience."
+        }
+      ]
+    },
+    {
+      "id": "art-design-craft",
+      "area": "arts-creativity",
+      "title": "Crafts and design",
+      "emoji": "✂️",
+      "nodes": [
+        {
+          "id": "cut-glue",
+          "title": "Cut and stick",
+          "description": "Use child scissors and glue safely."
+        },
+        {
+          "id": "make",
+          "title": "Making",
+          "description": "Build things from recycled materials."
+        },
+        {
+          "id": "design-brief",
+          "title": "Design brief",
+          "description": "Design for a person and a purpose."
+        },
+        {
+          "id": "prototype",
+          "title": "Prototyping",
+          "description": "Make, test and improve a model."
+        },
+        {
+          "id": "principles",
+          "title": "Design principles",
+          "description": "Contrast, alignment, repetition, hierarchy and space."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "art-mix-colours",
+      "area": "arts-creativity",
+      "group": "personal",
+      "title": "Can mix new colours from primary colours",
+      "emoji": "🎨"
+    },
+    {
+      "id": "art-keep-a-beat",
+      "area": "arts-creativity",
+      "group": "personal",
+      "title": "Can keep a steady beat and copy a rhythm",
+      "emoji": "🥁"
+    },
+    {
+      "id": "art-tell-a-story",
+      "area": "arts-creativity",
+      "group": "personal",
+      "title": "Can tell a story with a beginning, middle and end",
+      "emoji": "📖"
+    },
+    {
+      "id": "art-make-crafts",
+      "area": "arts-creativity",
+      "group": "practical",
+      "title": "Can make 5 crafts from recycled materials",
+      "emoji": "✂️",
+      "target": 5
+    },
+    {
+      "id": "art-draw-from-observation",
+      "area": "arts-creativity",
+      "group": "personal",
+      "title": "Can draw an object from observation",
+      "emoji": "✏️"
+    },
+    {
+      "id": "art-perform",
+      "area": "arts-creativity",
+      "group": "personal",
+      "title": "Can perform for an audience",
+      "emoji": "🎭"
+    },
+    {
+      "id": "art-design-solution",
+      "area": "arts-creativity",
+      "group": "practical",
+      "title": "Can design and prototype a solution to a brief",
+      "emoji": "📐"
+    },
+    {
+      "id": "art-compose-tune",
+      "area": "arts-creativity",
+      "group": "personal",
+      "title": "Can compose a short piece of music",
+      "emoji": "🎼"
+    },
+    {
+      "id": "art-build-portfolio",
+      "area": "arts-creativity",
+      "group": "personal",
+      "title": "Can build and present a creative portfolio",
+      "emoji": "🗂️"
+    }
+  ],
+  "items": [
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-mix-colours"
+      ],
+      "skills": [
+        {
+          "tree": "art-drawing",
+          "node": "marks"
+        },
+        {
+          "tree": "art-drawing",
+          "node": "colour"
+        }
+      ],
+      "interests": [
+        "drawing"
+      ],
+      "id": "art-colour-mixing",
+      "kind": "activity",
+      "subject": "painting",
+      "title": "Magic colour mixing",
+      "emoji": "🎨",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 20,
+      "summary": "Mix two colours. A new colour appears!",
+      "steps": [
+        "Put on an old shirt.",
+        "Put a blob of yellow and a blob of blue on a plate.",
+        "Mix them with your finger or a brush. What colour now? Green!",
+        "Try red and yellow. Orange!",
+        "Try red and blue. Purple!",
+        "Paint a picture with your new colours."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Paint in mouth or eyes",
+          "Stains on clothes"
+        ],
+        "notes": "Use child-safe, washable paint. An adult stays nearby. Wash hands after. Keep paint away from mouth and eyes."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Food colouring or fruit juice in water",
+            "Paper",
+            "Fingers"
+          ],
+          "description": "Mix coloured water from beetroot, turmeric or berry juice on paper."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Red, yellow and blue washable paint",
+            "Paper plate",
+            "Brush"
+          ],
+          "description": "Mix the three primary colours to make orange, green and purple."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Paint set with white and black",
+            "Thick paper"
+          ],
+          "description": "Add white to make light colours and a tiny bit of black to make dark ones."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Paint",
+          "use": "Water with food colouring, turmeric (yellow), beetroot juice (pink) or tea (brown)"
+        },
+        {
+          "instead": "Brush",
+          "use": "Fingers, a cotton bud or a twig"
+        }
+      ],
+      "languageHooks": [
+        "colours"
+      ],
+      "check": [
+        {
+          "question": "Yellow and blue make...",
+          "options": [
+            "Green",
+            "Red"
+          ],
+          "answer": 0,
+          "explain": "Yes! Yellow and blue make green, like leaves."
+        },
+        {
+          "question": "Red and yellow make...",
+          "options": [
+            "Orange",
+            "Blue"
+          ],
+          "answer": 0,
+          "explain": "Orange, like an orange!"
+        }
+      ]
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-keep-a-beat"
+      ],
+      "skills": [
+        {
+          "tree": "art-music",
+          "node": "beat"
+        },
+        {
+          "tree": "art-music",
+          "node": "rhythm"
+        }
+      ],
+      "interests": [
+        "music",
+        "sport"
+      ],
+      "id": "art-clap-the-beat",
+      "kind": "activity",
+      "subject": "music",
+      "title": "Clap the beat",
+      "emoji": "👏",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Clap, tap and stomp to a song.",
+      "steps": [
+        "Sing a song you know together.",
+        "Clap along with every beat.",
+        "Now tap your knees instead.",
+        "Now stomp your feet!",
+        "Grown-up claps a little pattern. Can you copy it?"
+      ],
+      "practical": false,
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "check": [
+        {
+          "question": "What can you clap with?",
+          "options": [
+            "Hands",
+            "Ears"
+          ],
+          "answer": 0,
+          "explain": "Clap, clap! Hands make a great drum."
+        },
+        {
+          "question": "Can feet make music too?",
+          "options": [
+            "Yes, stomp!",
+            "No"
+          ],
+          "answer": 0,
+          "explain": "Stomping is a big, loud beat!"
+        }
+      ],
+      "adultNote": "Start slowly. Short patterns (clap-clap-pause) are best at this age. Clear some floor space for stomping."
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-tell-a-story"
+      ],
+      "skills": [
+        {
+          "tree": "art-story-drama",
+          "node": "tell"
+        },
+        {
+          "tree": "art-story-drama",
+          "node": "characters"
+        }
+      ],
+      "interests": [
+        "stories",
+        "animals"
+      ],
+      "id": "art-tell-a-picture-story",
+      "kind": "activity",
+      "subject": "storytelling",
+      "title": "Tell a picture story",
+      "emoji": "🐻",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Pick a toy. Tell a story about it. What happens next?",
+      "steps": [
+        "Choose a toy. That is your hero!",
+        "Where does it live?",
+        "Something happens! Maybe it gets lost.",
+        "How does it feel? Happy, sad, scared?",
+        "How does the story end?",
+        "Draw your story if you like."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "feelings",
+        "animals"
+      ],
+      "check": [
+        {
+          "question": "A story has a start, a middle and...",
+          "options": [
+            "an end",
+            "a sock"
+          ],
+          "answer": 0,
+          "explain": "Every story has an end. What was yours?"
+        },
+        {
+          "question": "Can a hero feel scared?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "answer": 0,
+          "explain": "Yes. Heroes have feelings too, and that makes stories exciting."
+        }
+      ],
+      "adultNote": "Ask \"and then what happened?\" to keep the story going. Write down the child's words to read back later."
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-make-crafts"
+      ],
+      "skills": [
+        {
+          "tree": "art-design-craft",
+          "node": "cut-glue"
+        },
+        {
+          "tree": "art-design-craft",
+          "node": "make"
+        }
+      ],
+      "interests": [
+        "animals",
+        "drawing"
+      ],
+      "id": "art-paper-plate-mask",
+      "kind": "activity",
+      "subject": "crafts",
+      "title": "Paper plate animal mask",
+      "emoji": "🦁",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 40,
+      "summary": "Cut, stick and paint an animal mask, then act like your animal.",
+      "steps": [
+        "Choose an animal.",
+        "An adult marks eye holes on a paper plate. Cut them out with round-tip scissors (an adult starts the hole).",
+        "Cut ears and a nose from scrap card and glue them on.",
+        "Colour or paint your mask.",
+        "Tie string or tape a stick to the side to hold it.",
+        "Act out how your animal moves and sounds."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Scissors can cut fingers",
+          "Glue on skin or in eyes",
+          "String around the neck"
+        ],
+        "notes": "Use round-tip child scissors and cut away from your body. An adult starts the eye holes. Use non-toxic glue. Do not tie string around the neck; hold the mask on a stick or tie behind the head loosely, and take it off before running."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper plate or cereal box card",
+            "Pencil",
+            "Scissors",
+            "Flour-and-water paste"
+          ],
+          "description": "Make the mask from a cereal box and colour it with pencil."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Paper plates",
+            "Child scissors",
+            "Glue stick",
+            "Crayons or paint",
+            "String"
+          ],
+          "description": "Add ears, whiskers and colour."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Card",
+            "Paint",
+            "Wool, feathers or fabric scraps",
+            "Elastic"
+          ],
+          "description": "Add texture with wool or fabric and an elastic strap, then make masks for a short play."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Glue",
+          "use": "Flour and water paste (mix 1 spoon flour with a little water)"
+        },
+        {
+          "instead": "Paper plate",
+          "use": "Card cut from a cereal box"
+        }
+      ],
+      "languageHooks": [
+        "animals",
+        "colours",
+        "shapes"
+      ],
+      "connects": [
+        "drama",
+        "nature"
+      ],
+      "check": [
+        {
+          "question": "When using scissors, cut...",
+          "options": [
+            "away from your body",
+            "towards your hand"
+          ],
+          "answer": 0,
+          "explain": "Cutting away keeps fingers safe."
+        },
+        {
+          "question": "What can you use if there is no glue?",
+          "options": [
+            "Flour and water paste",
+            "Water only"
+          ],
+          "answer": 0,
+          "explain": "Flour paste sticks paper well and is cheap."
+        }
+      ]
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-keep-a-beat",
+        "art-make-crafts"
+      ],
+      "skills": [
+        {
+          "tree": "art-music",
+          "node": "instruments"
+        },
+        {
+          "tree": "art-music",
+          "node": "beat"
+        }
+      ],
+      "interests": [
+        "music",
+        "building"
+      ],
+      "id": "art-shaker-instrument",
+      "kind": "activity",
+      "subject": "music",
+      "title": "Make a shaker",
+      "emoji": "🪇",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 25,
+      "summary": "Make a shaker from a bottle and dried rice, then play a rhythm.",
+      "steps": [
+        "Wash and dry a small plastic bottle.",
+        "Pour in a few spoons of dried rice or beans.",
+        "Close the lid tightly. An adult tapes it shut.",
+        "Shake it! Try fast, slow, loud and quiet.",
+        "Fill another bottle with something else. Does it sound different?",
+        "Play along to a song: shake on every beat."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Dried beans or rice can choke small children",
+          "Spills on the floor"
+        ],
+        "notes": "Tape the lid shut so it cannot open. Keep shakers and loose beans away from babies and toddlers. Sweep up spills."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Used plastic bottle",
+            "Dried rice, lentils or small stones"
+          ],
+          "description": "One bottle shaker with tape on the lid."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "Two bottles",
+            "Different fillings",
+            "Coloured tape"
+          ],
+          "description": "Make two shakers with different sounds and decorate them."
+        },
+        "advanced": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Bottles, tins, boxes",
+            "Rubber bands",
+            "Wooden spoons"
+          ],
+          "description": "Make a home band: shaker, box guitar with rubber bands and a pot drum."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Plastic bottle",
+          "use": "Two paper cups taped together, or a tin with a lid"
+        },
+        {
+          "instead": "Rice",
+          "use": "Small pebbles, buttons or bottle caps"
+        }
+      ],
+      "languageHooks": [
+        "food",
+        "numbers"
+      ],
+      "connects": [
+        "science"
+      ],
+      "check": [
+        {
+          "question": "More rice in the bottle makes the sound...",
+          "options": [
+            "louder or fuller",
+            "disappear"
+          ],
+          "answer": 0,
+          "explain": "More grains hit the sides, making a fuller sound."
+        },
+        {
+          "question": "Why tape the lid?",
+          "options": [
+            "So small pieces cannot spill out",
+            "To make it heavy"
+          ],
+          "answer": 0,
+          "explain": "Loose beans can be a choking danger for little ones."
+        }
+      ]
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-draw-from-observation"
+      ],
+      "skills": [
+        {
+          "tree": "art-drawing",
+          "node": "observation"
+        },
+        {
+          "tree": "art-drawing",
+          "node": "shading"
+        }
+      ],
+      "interests": [
+        "drawing",
+        "plants"
+      ],
+      "id": "art-draw-what-you-see",
+      "kind": "activity",
+      "subject": "drawing",
+      "title": "Draw what you see",
+      "emoji": "🍐",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Look closely at one fruit and draw exactly what you see, not what you think it looks like.",
+      "steps": [
+        "Put one fruit on the table in front of you.",
+        "Look for one minute without drawing. What shapes do you see?",
+        "Draw the outline lightly.",
+        "Look again: where is it lighter? Where is it darker?",
+        "Add the stalk, spots and the shadow on the table.",
+        "Compare with the real fruit. What did you notice that you never saw before?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Pencil points",
+          "Sharpener blade"
+        ],
+        "notes": "An adult sharpens pencils for younger children. Sit at a table with good light."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Any pencil",
+            "Back of used paper",
+            "A fruit or cup"
+          ],
+          "description": "One pencil drawing of one object."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Soft pencil",
+            "Eraser",
+            "Plain paper"
+          ],
+          "description": "Draw the same object three times from different sides."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Sketchbook",
+            "Pencils of different softness",
+            "Coloured pencils"
+          ],
+          "description": "Keep a weekly sketchbook of observational drawings."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Sketchbook",
+          "use": "The back of used paper or cardboard"
+        },
+        {
+          "instead": "Eraser",
+          "use": "Draw lightly first, then go over good lines darker"
+        }
+      ],
+      "languageHooks": [
+        "fruit",
+        "shapes",
+        "colours"
+      ],
+      "connects": [
+        "science"
+      ],
+      "check": [
+        {
+          "question": "Before drawing, it helps to...",
+          "options": [
+            "look carefully for a while",
+            "close your eyes"
+          ],
+          "answer": 0,
+          "explain": "Artists spend more time looking than drawing."
+        },
+        {
+          "question": "The side away from the light looks...",
+          "options": [
+            "darker",
+            "brighter"
+          ],
+          "answer": 0,
+          "explain": "Shadow shows the shape is round."
+        }
+      ]
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-tell-a-story"
+      ],
+      "skills": [
+        {
+          "tree": "art-story-drama",
+          "node": "comics"
+        },
+        {
+          "tree": "art-drawing",
+          "node": "composition"
+        }
+      ],
+      "interests": [
+        "stories",
+        "drawing"
+      ],
+      "id": "art-comic-strip",
+      "kind": "activity",
+      "subject": "storytelling",
+      "title": "Make a comic strip",
+      "emoji": "💬",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 40,
+      "summary": "Tell a short story in six panels with pictures and speech bubbles.",
+      "steps": [
+        "Fold a sheet of paper into six boxes.",
+        "Plan: a character, a problem and how it is solved.",
+        "Panel 1 shows the character. Panels 2 to 5 show the problem growing. Panel 6 solves it.",
+        "Draw simple figures. Stick people are fine!",
+        "Add speech bubbles and sound words like CRASH!",
+        "Share it and ask what the reader thought would happen next."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "feelings"
+      ],
+      "connects": [
+        "writing"
+      ],
+      "check": [
+        {
+          "question": "A speech bubble shows...",
+          "options": [
+            "what a character says",
+            "the weather"
+          ],
+          "answer": 0,
+          "explain": "The tail points to whoever is speaking."
+        },
+        {
+          "question": "A thought bubble usually looks like...",
+          "options": [
+            "a cloud",
+            "a square"
+          ],
+          "answer": 0,
+          "explain": "Cloud bubbles show what a character thinks."
+        }
+      ]
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-perform"
+      ],
+      "skills": [
+        {
+          "tree": "art-story-drama",
+          "node": "act"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "id": "art-freeze-frame",
+      "kind": "activity",
+      "subject": "drama",
+      "title": "Freeze-frame drama",
+      "emoji": "🎭",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Make a frozen picture with your body to show a moment from a story.",
+      "steps": [
+        "Choose a scene from a story you know.",
+        "Decide who each person is.",
+        "Count 3, 2, 1, freeze! Hold a still pose that shows the moment.",
+        "Use your face to show feelings.",
+        "The audience guesses what is happening.",
+        "Unfreeze one character to say one line."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "feelings",
+        "body"
+      ],
+      "connects": [
+        "reading"
+      ],
+      "check": [
+        {
+          "question": "In a freeze-frame you...",
+          "options": [
+            "stay very still",
+            "run around"
+          ],
+          "answer": 0,
+          "explain": "Still bodies and clear faces tell the story."
+        },
+        {
+          "question": "How can you show a character is worried?",
+          "options": [
+            "Face and body posture",
+            "You cannot"
+          ],
+          "answer": 0,
+          "explain": "Hunched shoulders and a frown say a lot without words."
+        }
+      ],
+      "adultNote": "Works with one child (the adult joins in) or a group. Clear a space free of sharp corners."
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-keep-a-beat"
+      ],
+      "skills": [
+        {
+          "tree": "art-music",
+          "node": "rhythm"
+        },
+        {
+          "tree": "art-music",
+          "node": "notation"
+        }
+      ],
+      "interests": [
+        "music"
+      ],
+      "id": "art-rhythm-notation",
+      "kind": "lesson",
+      "subject": "music",
+      "title": "Read and write rhythms",
+      "emoji": "🥁",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 25,
+      "summary": "Write rhythms with simple symbols and clap them back.",
+      "steps": [
+        "Learn: a crotchet (quarter note) is one beat: say \"ta\". Two quavers (eighth notes) share one beat: say \"ti-ti\". A rest is one beat of silence.",
+        "Clap: ta ta ti-ti ta.",
+        "Write a 4-beat rhythm using ta, ti-ti and rest.",
+        "Swap rhythms with someone and clap theirs.",
+        "Put four rhythms together to make a 16-beat piece and play it on a shaker or pot."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "How many beats do two quavers (ti-ti) take?",
+          "options": [
+            "1",
+            "2",
+            "4"
+          ],
+          "answer": 0,
+          "explain": "Two quavers share one beat: half a beat each."
+        },
+        {
+          "question": "ta, ti-ti, rest, ta has how many beats?",
+          "options": [
+            "4",
+            "5",
+            "3"
+          ],
+          "answer": 0,
+          "explain": "1 + 1 + 1 + 1 = 4 beats."
+        }
+      ]
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-draw-from-observation"
+      ],
+      "skills": [
+        {
+          "tree": "art-drawing",
+          "node": "perspective"
+        },
+        {
+          "tree": "art-drawing",
+          "node": "composition"
+        }
+      ],
+      "interests": [
+        "drawing",
+        "building"
+      ],
+      "id": "art-perspective-drawing",
+      "kind": "lesson",
+      "subject": "drawing",
+      "title": "One-point perspective street",
+      "emoji": "🏙️",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 45,
+      "summary": "Draw a street that seems to go into the distance, using a horizon line and a vanishing point.",
+      "steps": [
+        "Draw a horizon line across the middle of the page.",
+        "Put one dot on it: the vanishing point.",
+        "Draw the road edges as two lines meeting at the dot.",
+        "Draw building fronts as rectangles, then join their corners to the dot.",
+        "Add windows and doors that get smaller as they get closer to the dot.",
+        "Look out of a window and find real vanishing lines."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "shapes"
+      ],
+      "connects": [
+        "mathematics",
+        "design"
+      ],
+      "check": [
+        {
+          "question": "In one-point perspective, lines going away from you meet at...",
+          "options": [
+            "the vanishing point",
+            "the edge of the paper"
+          ],
+          "answer": 0,
+          "explain": "All depth lines head to one point on the horizon."
+        },
+        {
+          "question": "Objects further away are drawn...",
+          "options": [
+            "smaller",
+            "bigger"
+          ],
+          "answer": 0,
+          "explain": "Smaller size creates the illusion of distance."
+        }
+      ]
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-design-solution",
+        "art-make-crafts"
+      ],
+      "skills": [
+        {
+          "tree": "art-design-craft",
+          "node": "design-brief"
+        },
+        {
+          "tree": "art-design-craft",
+          "node": "prototype"
+        }
+      ],
+      "interests": [
+        "building",
+        "drawing"
+      ],
+      "id": "art-design-a-cardboard-organiser",
+      "kind": "project",
+      "subject": "design",
+      "title": "Design and build a desk organiser",
+      "emoji": "📐",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 120,
+      "summary": "Use the design process to make a cardboard organiser for someone at home.",
+      "steps": [
+        "Interview your user: what do they need to store and where?",
+        "Write a design brief: who, what, size limits, materials.",
+        "Sketch three different ideas and choose one with your user.",
+        "Make a paper model first to test the size.",
+        "Measure and mark the cardboard. Cut with an adult supervising the craft knife on a cutting board, or use strong scissors.",
+        "Assemble with glue or tape, test with the real items and improve one thing."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Craft knife cuts",
+          "Hot glue burns if used"
+        ],
+        "notes": "An adult supervises any craft knife use. Cut on a board, with the blade moving away from your body and fingers behind the blade, and retract or cap the blade every time you put it down. Scissors are the safer option. If using a hot glue gun, the adult sets it up and you do not touch the nozzle."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Cereal boxes and tubes",
+            "Scissors",
+            "Flour paste or tape"
+          ],
+          "description": "Cut down boxes and tubes and stick them together."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Corrugated cardboard",
+            "Ruler",
+            "Safety ruler and craft knife (adult supervised)",
+            "PVA glue"
+          ],
+          "description": "Measured, straight-cut parts with slots or glued joints."
+        },
+        "advanced": {
+          "cost": "Under 15 USD",
+          "materials": [
+            "Thick card or thin plywood offcuts",
+            "Cutting mat",
+            "Hot glue gun (adult)",
+            "Paint"
+          ],
+          "description": "A finished, painted organiser with dividers sized from measurements of the real items."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Craft knife",
+          "use": "Strong scissors, cutting smaller pieces"
+        },
+        {
+          "instead": "Cutting mat",
+          "use": "A thick old magazine or wooden board"
+        },
+        {
+          "instead": "Glue",
+          "use": "Tape or flour-and-water paste"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Home and leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        }
+      ],
+      "languageHooks": [
+        "tools",
+        "shapes",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "engineering"
+      ],
+      "check": [
+        {
+          "question": "Why build a paper model first?",
+          "options": [
+            "To test the idea cheaply before the real build",
+            "To waste paper"
+          ],
+          "answer": 0,
+          "explain": "Prototypes catch problems early."
+        },
+        {
+          "question": "When you put a craft knife down you should...",
+          "options": [
+            "retract or cap the blade",
+            "leave it open"
+          ],
+          "answer": 0,
+          "explain": "A covered blade cannot cut anyone by accident."
+        },
+        {
+          "question": "A design brief describes...",
+          "options": [
+            "who it is for and what it must do",
+            "only the colour"
+          ],
+          "answer": 0,
+          "explain": "A brief keeps the design focused on the user."
+        }
+      ],
+      "adultNote": "Supervise any blade or hot glue. Scissors are fine for the whole project if you prefer."
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-compose-tune"
+      ],
+      "skills": [
+        {
+          "tree": "art-music",
+          "node": "melody"
+        },
+        {
+          "tree": "art-music",
+          "node": "composition"
+        }
+      ],
+      "interests": [
+        "music",
+        "computers"
+      ],
+      "id": "art-compose-melody",
+      "kind": "activity",
+      "subject": "music",
+      "title": "Compose a short melody",
+      "emoji": "🎼",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 40,
+      "summary": "Write an 8-bar tune using five notes, then perform or record it.",
+      "steps": [
+        "Use five notes: C D E G A (the pentatonic scale). Any instrument, glasses of water or a free app works. You can also sing them.",
+        "Make a 2-bar idea (a motif).",
+        "Repeat it, then change it a little.",
+        "Write a contrasting middle section and end back on C so it feels finished.",
+        "Write it down with letter names and rhythm symbols.",
+        "Perform or record it and ask a listener what mood it has."
+      ],
+      "practical": false,
+      "connects": [
+        "mathematics",
+        "physics"
+      ],
+      "check": [
+        {
+          "question": "A motif is...",
+          "options": [
+            "a short musical idea that can repeat",
+            "a type of drum"
+          ],
+          "answer": 0,
+          "explain": "Composers build whole pieces from motifs."
+        },
+        {
+          "question": "Ending on the home note (C here) makes the tune feel...",
+          "options": [
+            "finished",
+            "unfinished"
+          ],
+          "answer": 0,
+          "explain": "The home note gives a sense of arrival."
+        }
+      ],
+      "adultNote": "No instrument? Glasses filled with different amounts of water make tuned notes, and voices are an instrument too."
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-design-solution"
+      ],
+      "skills": [
+        {
+          "tree": "art-design-craft",
+          "node": "principles"
+        },
+        {
+          "tree": "art-drawing",
+          "node": "composition"
+        }
+      ],
+      "interests": [
+        "drawing",
+        "computers"
+      ],
+      "id": "art-design-principles-poster",
+      "kind": "lesson",
+      "subject": "design",
+      "title": "Design a clear poster",
+      "emoji": "🖼️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 60,
+      "summary": "Use contrast, alignment, repetition, hierarchy and space to make a poster people understand in three seconds.",
+      "steps": [
+        "Pick a real message, e.g. a local event or a safety reminder.",
+        "Decide the one thing a viewer must notice first (hierarchy).",
+        "Sketch three layouts using a grid.",
+        "Apply contrast (big vs small, dark vs light), alignment and repetition.",
+        "Leave empty space so it can breathe.",
+        "Test: show it to someone for three seconds. What did they remember? Revise."
+      ],
+      "practical": false,
+      "connects": [
+        "technology",
+        "civics",
+        "careers"
+      ],
+      "check": [
+        {
+          "question": "Hierarchy in design means...",
+          "options": [
+            "making the most important thing stand out first",
+            "using many fonts"
+          ],
+          "answer": 0,
+          "explain": "Size, weight and position guide the eye in order."
+        },
+        {
+          "question": "Why leave empty space?",
+          "options": [
+            "It helps the important parts stand out",
+            "It wastes paper"
+          ],
+          "answer": 0,
+          "explain": "White space reduces clutter and improves clarity."
+        }
+      ]
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-perform",
+        "art-tell-a-story"
+      ],
+      "skills": [
+        {
+          "tree": "art-story-drama",
+          "node": "script"
+        },
+        {
+          "tree": "art-story-drama",
+          "node": "perform"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "id": "art-write-and-stage-a-scene",
+      "kind": "activity",
+      "subject": "drama",
+      "title": "Write and stage a short scene",
+      "emoji": "🎬",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 90,
+      "summary": "Write a two-character scene with conflict and stage directions, then rehearse and perform it.",
+      "steps": [
+        "Choose two characters who want different things.",
+        "Write a 2-page script: names, dialogue and short stage directions in brackets.",
+        "Read it aloud and cut any line that does not move the scene forward.",
+        "Block it: decide where each actor stands and moves.",
+        "Rehearse three times, then perform or film it.",
+        "Reflect: what would you change for a second version?"
+      ],
+      "practical": false,
+      "languageHooks": [
+        "feelings",
+        "greetings"
+      ],
+      "connects": [
+        "writing",
+        "philosophy"
+      ],
+      "check": [
+        {
+          "question": "Stage directions tell actors...",
+          "options": [
+            "what to do and how to move",
+            "the audience's names"
+          ],
+          "answer": 0,
+          "explain": "They usually appear in brackets or italics."
+        },
+        {
+          "question": "Drama usually needs...",
+          "options": [
+            "conflict: characters wanting different things",
+            "everyone agreeing"
+          ],
+          "answer": 0,
+          "explain": "Conflict creates tension and interest."
+        }
+      ],
+      "adultNote": "If filming, only share with the performers' permission and never post publicly without parental consent."
+    },
+    {
+      "area": "arts-creativity",
+      "competencies": [
+        "art-build-portfolio"
+      ],
+      "skills": [
+        {
+          "tree": "art-drawing",
+          "node": "portfolio"
+        }
+      ],
+      "interests": [
+        "drawing",
+        "music",
+        "stories"
+      ],
+      "id": "art-creative-portfolio",
+      "kind": "project",
+      "subject": "portfolio",
+      "title": "Build a creative portfolio",
+      "emoji": "🗂️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 8,
+      "minutes": 240,
+      "summary": "Select, improve and present 8 to 12 pieces that show your range, process and growth.",
+      "steps": [
+        "Gather everything you have made: drawings, designs, music, scripts, crafts.",
+        "Choose 8 to 12 pieces that show range and your best work.",
+        "Include process: one page of sketches or drafts for at least two pieces.",
+        "Write a short caption for each: title, materials, date, what you were trying to do.",
+        "Arrange them in an order that tells a story about you.",
+        "Present it to someone and ask for feedback. Photograph or scan the final set if you can."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Craft tools used while repairing or mounting work",
+          "Sharing work online"
+        ],
+        "notes": "Use the same tool safety as each original piece. Only share your portfolio online with a trusted adult's agreement, and leave out personal details such as your address or school."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "A folder made from folded card",
+            "Your existing work"
+          ],
+          "description": "A hand-made folder of work with written captions."
+        },
+        "better": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "Display folder or ring binder",
+            "Plain paper for captions"
+          ],
+          "description": "A neat binder with sections, captions and process pages."
+        },
+        "advanced": {
+          "cost": "Free to low cost",
+          "materials": [
+            "Phone or scanner",
+            "Free slide or document software"
+          ],
+          "description": "A digital portfolio with photographs of each piece and a short artist statement."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Display folder",
+          "use": "Two pieces of cardboard taped along one edge"
+        },
+        {
+          "instead": "Scanner",
+          "use": "Photographs taken in daylight near a window"
+        }
+      ],
+      "connects": [
+        "careers",
+        "writing"
+      ],
+      "check": [
+        {
+          "question": "Why include process work (sketches, drafts)?",
+          "options": [
+            "It shows how you think and improve",
+            "It fills pages"
+          ],
+          "answer": 0,
+          "explain": "Viewers value seeing how ideas develop."
+        },
+        {
+          "question": "A good portfolio has...",
+          "options": [
+            "your best, selected work",
+            "everything you ever made"
+          ],
+          "answer": 0,
+          "explain": "Selecting shows judgement."
+        }
+      ]
+    }
+  ]
+}

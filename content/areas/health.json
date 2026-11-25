@@ -1,0 +1,3764 @@
+{
+  "area": "health",
+  "title": "Health and my body",
+  "emoji": "🩺",
+  "description": "Understanding my body, staying healthy and knowing when and how to get help. Body-basics and growing-up modules are off by default and switched on by a parent for each child, in parent-guided, tutor-guided or private learner mode. All health content is educational, awaits medical review, and never replaces a doctor or nurse.",
+  "skillTrees": [
+    {
+      "id": "hl-health",
+      "area": "health",
+      "title": "My health",
+      "emoji": "🩺",
+      "nodes": [
+        {
+          "id": "body-awareness",
+          "title": "Body awareness",
+          "description": "Name body parts and notice how my body and feelings work."
+        },
+        {
+          "id": "hygiene",
+          "title": "Hygiene",
+          "description": "Wash hands, keep clean and look after teeth."
+        },
+        {
+          "id": "body-safety",
+          "title": "Body safety",
+          "description": "My body belongs to me, safe and unsafe touch, trusted adults and boundaries."
+        },
+        {
+          "id": "growing-up",
+          "title": "Growing up",
+          "description": "Understand puberty and the changes in my body and feelings."
+        },
+        {
+          "id": "health-choices",
+          "title": "Health choices",
+          "description": "Food, water, sleep, movement, sun safety, relationships and wellbeing."
+        },
+        {
+          "id": "health-literacy",
+          "title": "Health literacy",
+          "description": "Know when and how to get help, talk to a doctor and check health information."
+        }
+      ]
+    },
+    {
+      "id": "hl-inside-my-body",
+      "area": "health",
+      "title": "What is happening inside my body and why?",
+      "emoji": "🫀",
+      "nodes": [
+        {
+          "id": "body-parts",
+          "title": "Level 1: body parts",
+          "description": "Head, eyes, ears, nose, mouth, heart, lungs, stomach, bones, muscles, skin."
+        },
+        {
+          "id": "body-systems",
+          "title": "Level 2: body systems",
+          "description": "Skeletal, muscular, digestive, respiratory, circulatory, nervous and immune systems."
+        },
+        {
+          "id": "cells-and-hormones",
+          "title": "Level 3: cells, hormones and genes",
+          "description": "Cells, tissues, organs, hormones, genetics, metabolism, reproduction and the brain."
+        },
+        {
+          "id": "public-health",
+          "title": "Advanced: public health",
+          "description": "Physiology, microbiology, epidemiology, public health and nutrition science."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "hl-handwashing",
+      "area": "health",
+      "group": "life",
+      "title": "Washes hands properly at the right times",
+      "emoji": "🧼"
+    },
+    {
+      "id": "hl-brush-teeth",
+      "area": "health",
+      "group": "life",
+      "title": "Brushes teeth for two minutes, twice a day, for two weeks",
+      "emoji": "🪥",
+      "target": 28
+    },
+    {
+      "id": "hl-name-body-parts",
+      "area": "health",
+      "group": "academic",
+      "title": "Names body parts using correct words",
+      "emoji": "🧍"
+    },
+    {
+      "id": "hl-body-safety-plan",
+      "area": "health",
+      "group": "personal",
+      "title": "Knows the body safety rules and has a list of trusted adults",
+      "emoji": "🛡️"
+    },
+    {
+      "id": "hl-feelings-words",
+      "area": "health",
+      "group": "personal",
+      "title": "Can name feelings and use a calming tool",
+      "emoji": "😊"
+    },
+    {
+      "id": "hl-sleep-routine",
+      "area": "health",
+      "group": "personal",
+      "title": "Follows a bedtime routine for a week",
+      "emoji": "😴",
+      "target": 7
+    },
+    {
+      "id": "hl-balanced-meal-plan",
+      "area": "health",
+      "group": "life",
+      "title": "Plans a balanced meal",
+      "emoji": "🍽️",
+      "target": 3
+    },
+    {
+      "id": "hl-sun-safe",
+      "area": "health",
+      "group": "life",
+      "title": "Knows how to stay safe in the sun",
+      "emoji": "☀️"
+    },
+    {
+      "id": "hl-puberty-ready",
+      "area": "health",
+      "group": "personal",
+      "title": "Understands puberty changes and how to look after a growing body",
+      "emoji": "🌱"
+    },
+    {
+      "id": "hl-consent-understanding",
+      "area": "health",
+      "group": "personal",
+      "title": "Can explain consent and respect boundaries",
+      "emoji": "✅"
+    },
+    {
+      "id": "hl-online-image-safety",
+      "area": "health",
+      "group": "digital",
+      "title": "Knows how to stay safe with images online and where to get help",
+      "emoji": "📵"
+    },
+    {
+      "id": "hl-know-where-to-get-help",
+      "area": "health",
+      "group": "personal",
+      "title": "Knows where to get help for physical and mental health",
+      "emoji": "🆘"
+    },
+    {
+      "id": "hl-talk-to-doctor",
+      "area": "health",
+      "group": "personal",
+      "title": "Can prepare for and talk to a doctor",
+      "emoji": "👩‍⚕️"
+    },
+    {
+      "id": "hl-explain-body-systems",
+      "area": "health",
+      "group": "academic",
+      "title": "Can explain how a body system works",
+      "emoji": "🫀"
+    },
+    {
+      "id": "hl-check-health-info",
+      "area": "health",
+      "group": "intellectual",
+      "title": "Checks whether health information is trustworthy",
+      "emoji": "🔍"
+    }
+  ],
+  "items": [
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-my-body-parts",
+      "kind": "lesson",
+      "subject": "body awareness",
+      "title": "Naming the parts of my body",
+      "emoji": "🧍",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "healthModule": "body-basics",
+      "summary": "Every part of your body has a real name. Knowing the names helps you tell a grown-up how you feel or if something hurts.",
+      "steps": [
+        "Point and name: head, hair, eyes, ears, nose, mouth, neck, shoulders, arms, elbows, hands, tummy, knees, feet.",
+        "Some parts are covered by underwear. These are called private parts.",
+        "Some bodies have a penis and testicles. Some bodies have a vulva and a vagina. Everybody has a bottom.",
+        "These are normal words, just like elbow or knee. You can use them with your trusted grown-ups and doctors.",
+        "Play a game: a grown-up says a body part, you point to it (private parts are named, not touched in the game)."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Why is it good to know the real names of body parts?",
+          "options": [
+            "So I can tell a grown-up what hurts or what happened",
+            "So I can tease people",
+            "It is not useful"
+          ],
+          "answer": 0,
+          "explain": "Yes. Real names help grown-ups and doctors understand you and help you."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        },
+        {
+          "title": "Talk PANTS: the underwear rule",
+          "publisher": "NSPCC",
+          "url": "https://www.nspcc.org.uk/keeping-children-safe/support-for-parents/pants-underwear-rule/"
+        },
+        {
+          "title": "KidsHealth for parents",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/parents/"
+        }
+      ],
+      "competencies": [
+        "hl-name-body-parts"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-awareness"
+        },
+        {
+          "tree": "hl-inside-my-body",
+          "node": "body-parts"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "connects": [
+        "biology",
+        "language"
+      ],
+      "adultNote": "UNESCO and child-protection bodies recommend using correct anatomical names from early childhood: it supports body confidence and helps children report abuse clearly. Use the words calmly and without embarrassment. Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-private-parts-privacy",
+      "kind": "lesson",
+      "subject": "privacy",
+      "title": "Privacy: my private parts are private",
+      "emoji": "🩲",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "healthModule": "body-basics",
+      "summary": "Private parts are the parts covered by underwear or a swimsuit. They are private, which means they belong to you.",
+      "steps": [
+        "Private parts are the parts your underwear or swimsuit covers.",
+        "We keep them covered when other people are around, and we close the door for the toilet or bath when we can.",
+        "Sometimes a grown-up who looks after you helps you wash or use the toilet. That is to keep you clean and healthy.",
+        "A doctor or nurse may sometimes need to look, with your parent or carer there. They will tell you why.",
+        "Nobody should ask to see or touch your private parts for any other reason, and you should not be asked to touch theirs.",
+        "Other people's private parts are private too. We respect their privacy as well."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Talk PANTS: the underwear rule",
+          "publisher": "NSPCC",
+          "url": "https://www.nspcc.org.uk/keeping-children-safe/support-for-parents/pants-underwear-rule/"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        },
+        {
+          "title": "Child protection",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/protection"
+        }
+      ],
+      "competencies": [
+        "hl-body-safety-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "adultNote": "Explain the exceptions (help with toileting, washing, medical checks with a parent present) so the rule is clear and not frightening. If a child tells you something worrying: stay calm, listen, believe them, tell them they did the right thing, do not question them repeatedly or promise to keep it secret, and contact your local child protection service or police. In an emergency call your local emergency number. Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-underwear-rule",
+      "kind": "lesson",
+      "subject": "body safety",
+      "title": "My body belongs to me (the underwear rule)",
+      "emoji": "🛡️",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 12,
+      "healthModule": "body-basics",
+      "summary": "Your body belongs to you. You can say no. Secrets about touching should always be told to a trusted grown-up.",
+      "steps": [
+        "Private parts are private.",
+        "Always remember your body belongs to you. Nobody should make you do things with your body that make you feel worried or uncomfortable.",
+        "No means no. You can say \"No!\" or \"Stop!\" loudly, even to a grown-up or someone you know.",
+        "Talk about secrets that upset you. Good surprises (like a birthday present) are fine. Secrets about touching are never fine. Tell!",
+        "Speak up: someone can help. Tell a trusted grown-up. If they do not listen, tell another one until someone helps.",
+        "It is never your fault, and you will not be in trouble for telling."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Someone says \"This touching is our secret\". What should you do?",
+          "options": [
+            "Keep the secret",
+            "Tell a trusted grown-up",
+            "Forget about it"
+          ],
+          "answer": 1,
+          "explain": "Secrets about touching should always be told. You will not be in trouble."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Talk PANTS: the underwear rule",
+          "publisher": "NSPCC",
+          "url": "https://www.nspcc.org.uk/keeping-children-safe/support-for-parents/pants-underwear-rule/"
+        },
+        {
+          "title": "Child protection",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/protection"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        }
+      ],
+      "competencies": [
+        "hl-body-safety-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "feelings"
+      ],
+      "adultNote": "Based on the widely used \"underwear rule\" approach. Repeat it in everyday moments (bath time, getting dressed) rather than once as a big talk. Teach that harm can come from people the child knows, not only strangers, but avoid frightening detail. If a child tells you something worrying: stay calm, listen, believe them, tell them they did the right thing, do not question them repeatedly or promise to keep it secret, and contact your local child protection service or police. In an emergency call your local emergency number. Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-safe-unsafe-touch",
+      "kind": "simulation",
+      "subject": "body safety",
+      "title": "Safe touch, unsafe touch",
+      "emoji": "🤝",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "healthModule": "body-basics",
+      "summary": "Some touches feel safe, like a high five you want. Some touches feel unsafe or confusing. Let us practise what to do.",
+      "steps": [
+        "Listen to each little story.",
+        "Choose what you would do.",
+        "Remember: you can always tell a trusted grown-up."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Sensitive topic: may bring up worries"
+        ],
+        "notes": "Do this with a calm trusted adult. Stop if the child is upset and offer comfort."
+      },
+      "simulation": {
+        "scenario": "Practise what to do when a touch feels safe, unsafe or confusing.",
+        "steps": [
+          {
+            "prompt": "Your friend asks \"Do you want a hug?\" and you do not want one right now.",
+            "options": [
+              {
+                "text": "Say \"No thank you, how about a high five?\"",
+                "correct": true,
+                "feedback": "Great. You can choose. A kind friend will say OK."
+              },
+              {
+                "text": "Hug anyway even though you do not want to",
+                "correct": false,
+                "feedback": "You never have to hug if you do not want to. It is OK to say no kindly."
+              }
+            ]
+          },
+          {
+            "prompt": "Someone touches your private parts and says it is a secret.",
+            "options": [
+              {
+                "text": "Say \"No!\", get away and tell a trusted grown-up",
+                "correct": true,
+                "feedback": "Yes. That is exactly right, and it is never your fault."
+              },
+              {
+                "text": "Keep the secret",
+                "correct": false,
+                "feedback": "Secrets about touching should always be told. A trusted grown-up will help you."
+              }
+            ]
+          },
+          {
+            "prompt": "You told a grown-up something worrying and they did not listen.",
+            "options": [
+              {
+                "text": "Tell another trusted grown-up",
+                "correct": true,
+                "feedback": "Yes. Keep telling until someone helps you."
+              },
+              {
+                "text": "Give up",
+                "correct": false,
+                "feedback": "Please keep telling. Someone will listen and help."
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Talk PANTS: the underwear rule",
+          "publisher": "NSPCC",
+          "url": "https://www.nspcc.org.uk/keeping-children-safe/support-for-parents/pants-underwear-rule/"
+        },
+        {
+          "title": "Child protection",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/protection"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        }
+      ],
+      "competencies": [
+        "hl-body-safety-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings"
+      ],
+      "adultNote": "Children often freeze rather than say no; reassure them that whatever they did, telling later is still right. If a child tells you something worrying: stay calm, listen, believe them, tell them they did the right thing, do not question them repeatedly or promise to keep it secret, and contact your local child protection service or police. In an emergency call your local emergency number. Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-surprises-and-secrets",
+      "kind": "lesson",
+      "subject": "body safety",
+      "title": "Surprises and secrets",
+      "emoji": "🎁",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "healthModule": "body-basics",
+      "summary": "A surprise is a happy thing everyone finds out about soon. A secret that makes you feel worried should be told.",
+      "steps": [
+        "A surprise is fun and short, like a present or a party. Everyone finds out soon.",
+        "A secret is meant to be kept for a long time, sometimes forever.",
+        "If a secret makes you feel worried, sad, scared or confused, tell a trusted grown-up.",
+        "If anyone says you will be in trouble for telling, or gives you a gift to keep quiet, that is a big sign to tell.",
+        "Sort these: a cake for Grandma (surprise), \"do not tell anyone I hurt you\" (tell!), a hidden present (surprise)."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Which one should you tell a trusted grown-up about?",
+          "options": [
+            "A birthday surprise",
+            "A secret that makes you feel scared",
+            "Both must stay hidden forever"
+          ],
+          "answer": 1,
+          "explain": "Worrying secrets should always be told. Happy surprises are fine."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Talk PANTS: the underwear rule",
+          "publisher": "NSPCC",
+          "url": "https://www.nspcc.org.uk/keeping-children-safe/support-for-parents/pants-underwear-rule/"
+        },
+        {
+          "title": "Child protection",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/protection"
+        }
+      ],
+      "competencies": [
+        "hl-body-safety-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings"
+      ],
+      "adultNote": "Many families switch from \"secrets\" to \"surprises\" for fun things, so that \"secret\" always means \"something to tell\". If a child tells you something worrying: stay calm, listen, believe them, tell them they did the right thing, do not question them repeatedly or promise to keep it secret, and contact your local child protection service or police. In an emergency call your local emergency number. Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-my-trusted-adults",
+      "kind": "activity",
+      "subject": "asking for help",
+      "title": "My helping hand of trusted grown-ups",
+      "emoji": "🖐️",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "healthModule": "body-basics",
+      "summary": "Draw round your hand. On each finger, put a grown-up you trust and can go to for help.",
+      "steps": [
+        "Draw round your hand on paper (or use five small stones or leaves).",
+        "For each finger, think of a grown-up you trust: maybe a parent, carer, grandparent, teacher or neighbour.",
+        "A trusted grown-up listens, keeps you safe and helps you.",
+        "Try to choose some people who live in your home and some who do not.",
+        "Practise what you would say: \"I need help. Something happened that worried me.\"",
+        "Keep your helping hand somewhere you can see it."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Talk PANTS: the underwear rule",
+          "publisher": "NSPCC",
+          "url": "https://www.nspcc.org.uk/keeping-children-safe/support-for-parents/pants-underwear-rule/"
+        },
+        {
+          "title": "Child protection",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/protection"
+        },
+        {
+          "title": "KidsHealth for parents",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/parents/"
+        }
+      ],
+      "competencies": [
+        "hl-body-safety-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        },
+        {
+          "tree": "hl-health",
+          "node": "body-awareness"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "family",
+        "numbers"
+      ],
+      "adultNote": "Encourage at least one or two trusted adults outside the household. Check the list occasionally and update it. Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-boundaries-and-consent-kids",
+      "kind": "lesson",
+      "subject": "boundaries",
+      "title": "Asking first: my space and your space",
+      "emoji": "🫧",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "healthModule": "body-basics",
+      "summary": "Everyone has a bubble of personal space. We ask before we hug, tickle or touch, and we listen when someone says stop.",
+      "steps": [
+        "Imagine a big bubble around you. That is your personal space.",
+        "Before a hug, tickle or play-fight, ask: \"Do you want to?\"",
+        "If someone says no, stop, or looks unhappy, we stop straight away. That is respect.",
+        "You can say no too, even to family. You can offer a wave or a high five instead.",
+        "Tickling should stop the moment someone says stop, even if they are laughing."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Your cousin is laughing but says \"Stop tickling!\" What do you do?",
+          "options": [
+            "Keep going because they are laughing",
+            "Stop straight away"
+          ],
+          "answer": 1,
+          "explain": "Stop means stop, even when someone is laughing."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        },
+        {
+          "title": "Talk PANTS: the underwear rule",
+          "publisher": "NSPCC",
+          "url": "https://www.nspcc.org.uk/keeping-children-safe/support-for-parents/pants-underwear-rule/"
+        }
+      ],
+      "competencies": [
+        "hl-body-safety-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings",
+        "family"
+      ],
+      "adultNote": "Model this yourself: let children decline hugs from relatives and offer an alternative greeting. Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-feelings-in-my-body",
+      "kind": "activity",
+      "subject": "feelings",
+      "title": "Where do I feel my feelings?",
+      "emoji": "😊",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "healthModule": "body-basics",
+      "summary": "Feelings show up in our bodies. A worried tummy, a happy jump, hot cheeks when angry. All feelings are OK, and we can talk about them.",
+      "steps": [
+        "Name some feelings: happy, sad, angry, scared, worried, excited, calm.",
+        "Make a face for each feeling in a mirror or to a grown-up.",
+        "Where do you feel it? Butterflies in the tummy, a tight chest, wobbly legs, a big smile.",
+        "When a feeling is big, try: take 3 slow breaths, squeeze and let go of your hands, or find a trusted grown-up.",
+        "Feelings that tell us something is wrong (\"uh-oh feelings\") are a sign to get help."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Parenting",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "title": "KidsHealth for kids",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/kids/"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        }
+      ],
+      "competencies": [
+        "hl-feelings-words"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-awareness"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings",
+        "body"
+      ],
+      "adultNote": "Linking feelings to body sensations helps children notice \"uh-oh\" feelings, which supports body safety. If a child seems persistently very sad, anxious or withdrawn, talk to a doctor or health visitor. Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-asking-for-help",
+      "kind": "simulation",
+      "subject": "asking for help",
+      "title": "How to ask for help",
+      "emoji": "🙋",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "healthModule": "body-basics",
+      "summary": "If you are hurt, lost, scared or worried, you can ask for help. Let us practise who to ask and what to say.",
+      "steps": [
+        "Listen to each story.",
+        "Pick the best thing to do.",
+        "Practise saying the words out loud."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Practise at home in a calm way. Teach your family name and a phone number if the child is ready."
+      },
+      "simulation": {
+        "scenario": "Practise asking for help in different situations.",
+        "steps": [
+          {
+            "prompt": "You fall over at the park and your knee hurts a lot.",
+            "options": [
+              {
+                "text": "Go to my grown-up and say \"I hurt my knee, please help\"",
+                "correct": true,
+                "feedback": "Yes. Telling a grown-up where it hurts helps them help you."
+              },
+              {
+                "text": "Hide and say nothing",
+                "correct": false,
+                "feedback": "It is always OK to ask for help when you are hurt."
+              }
+            ]
+          },
+          {
+            "prompt": "You cannot find your grown-up in a shop.",
+            "options": [
+              {
+                "text": "Stay where I am, or ask a shop worker or a parent with children for help",
+                "correct": true,
+                "feedback": "Good. Staying put and asking a worker helps your grown-up find you."
+              },
+              {
+                "text": "Leave the shop to look outside",
+                "correct": false,
+                "feedback": "Stay inside and ask a worker. Your grown-up will be looking for you."
+              }
+            ]
+          },
+          {
+            "prompt": "Something happened that gave you an \"uh-oh\" feeling.",
+            "options": [
+              {
+                "text": "Tell a trusted grown-up from my helping hand",
+                "correct": true,
+                "feedback": "Exactly right. You will not be in trouble."
+              },
+              {
+                "text": "Keep it inside forever",
+                "correct": false,
+                "feedback": "Telling helps. A trusted grown-up wants to know."
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Child protection",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/protection"
+        },
+        {
+          "title": "KidsHealth for kids",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/kids/"
+        }
+      ],
+      "competencies": [
+        "hl-body-safety-plan",
+        "hl-know-where-to-get-help"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings",
+        "family"
+      ],
+      "adultNote": "Agree a family plan for getting lost (stay put, ask a worker or a parent with children). Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-toilet-and-bath-hygiene",
+      "kind": "activity",
+      "subject": "hygiene",
+      "title": "Keeping clean: toilet, bath and fresh clothes",
+      "emoji": "🛁",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "healthModule": "body-basics",
+      "summary": "Washing our bodies and wearing clean clothes helps us feel good and stops germs spreading.",
+      "steps": [
+        "After using the toilet, wipe from front to back, flush, then wash your hands with soap.",
+        "Wash your body with water and a little soap, including your private parts and bottom, gently on the outside.",
+        "Wash your face and behind your ears. Rinse and dry well, especially between your toes.",
+        "Put on clean underwear every day.",
+        "Close the door when you can. Washing your body is your private time, with help when you need it."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Hot water can scald",
+          "Slippery floors",
+          "Soap in eyes"
+        ],
+        "notes": "An adult checks water temperature for young children and stays close by at bath time. Young children are never left alone in a bath."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Clean water",
+            "A cloth",
+            "A towel"
+          ],
+          "description": "Wash with a cloth and a bowl or bucket of warm water."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Mild soap",
+            "A washcloth",
+            "A towel"
+          ],
+          "description": "Add a gentle unperfumed soap for the body."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Picture chart of the washing steps",
+            "Child step stool"
+          ],
+          "description": "Use a picture chart and a step stool so the child can do more by themselves."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Bath or shower",
+          "use": "A bowl or bucket of warm water and a cloth"
+        },
+        {
+          "instead": "Soap",
+          "use": "Plain clean water is fine for private parts; mild soap only on the outside"
+        }
+      ],
+      "sources": [
+        {
+          "title": "KidsHealth for kids",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/kids/"
+        },
+        {
+          "title": "Best way to wash your hands",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/best-way-to-wash-your-hands/"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        }
+      ],
+      "competencies": [
+        "hl-handwashing"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "hygiene"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "adultNote": "Perfumed soaps and bubble baths can irritate private parts; plain water or mild soap on the outside is enough. Soreness, itching or discharge that does not settle should be checked by a doctor or nurse. Recommended mode: parent-guided (or tutor-guided with a parent nearby). Sit with the child, keep it short and calm, and come back to it often."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-girl-puberty-changes",
+      "kind": "lesson",
+      "subject": "growing up",
+      "title": "Puberty: how a girl's body changes",
+      "emoji": "🌱",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "healthModule": "growing-up-girl",
+      "summary": "Puberty is when your body slowly changes from a child's body to an adult's. It is normal, it happens to everyone, and it happens at different times for different people.",
+      "steps": [
+        "Puberty usually starts somewhere between about 8 and 13 years old for girls. Earlier or later can be normal too.",
+        "Changes are caused by hormones, chemical messengers made by your body.",
+        "Common changes: growing taller, breasts starting to develop, hair under the arms and around the vulva (pubic hair), hips getting wider, more sweat, oily skin or spots.",
+        "Some time after breasts start growing, periods begin. Many girls start around 12, but anywhere from about 8 to 16 can be normal.",
+        "Everyone changes at their own speed. Comparing with friends is natural, but your body has its own timetable.",
+        "Write down any questions. You can ask a trusted adult, school nurse or doctor."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Is it normal for friends to start puberty at different ages?",
+          "options": [
+            "Yes, everyone has their own timetable",
+            "No, everyone starts on the same day"
+          ],
+          "answer": 0,
+          "explain": "Right. There is a wide normal range."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Early or delayed puberty",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/"
+        },
+        {
+          "title": "Sexual health (includes puberty guides)",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/sexual-health/"
+        },
+        {
+          "title": "KidsHealth for kids",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/kids/"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "science"
+      ],
+      "connects": [
+        "biology"
+      ],
+      "adultNote": "NHS guidance: see a GP if signs of puberty appear before age 8 in a girl, or if there are no signs of breast development by about 13, or no periods by 16. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-female-reproductive-biology",
+      "kind": "lesson",
+      "subject": "reproductive biology",
+      "title": "Inside the body: the female reproductive system",
+      "emoji": "🔬",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 15,
+      "healthModule": "growing-up-girl",
+      "summary": "Your reproductive system is a set of organs inside the lower tummy. Learning the names and jobs helps you understand periods and your health.",
+      "steps": [
+        "Ovaries (two): store tiny eggs and make hormones such as oestrogen.",
+        "Fallopian tubes (two): thin tubes that carry an egg from an ovary to the uterus.",
+        "Uterus (womb): a strong muscle about the size of a small pear. Its lining builds up each month.",
+        "Cervix: the narrow bottom part of the uterus that opens into the vagina.",
+        "Vagina: a stretchy tube from the cervix to the outside of the body. Period blood comes out through the vagina.",
+        "Vulva: the outside parts, including the labia (lips) and the clitoris. The urethra (where pee comes out) is separate from the vagina.",
+        "Draw a simple diagram and label each part with its job."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Where does the lining that becomes a period build up?",
+          "options": [
+            "The uterus",
+            "The stomach",
+            "The bladder"
+          ],
+          "answer": 0,
+          "explain": "Yes. The lining of the uterus is shed during a period."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Periods",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/periods/"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        },
+        {
+          "tree": "hl-inside-my-body",
+          "node": "cells-and-hormones"
+        }
+      ],
+      "interests": [
+        "body",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "science"
+      ],
+      "connects": [
+        "biology"
+      ],
+      "adultNote": "Factual, non-explicit biology. UNESCO guidance supports learning reproductive anatomy before puberty begins. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-periods-explained",
+      "kind": "lesson",
+      "subject": "menstruation",
+      "title": "Periods explained",
+      "emoji": "🩸",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "healthModule": "growing-up-girl",
+      "summary": "A period is when the lining of the uterus leaves the body as blood through the vagina. It is a normal, healthy part of growing up.",
+      "steps": [
+        "Each cycle, the uterus builds a soft lining. If no pregnancy starts, the lining comes away. This is the period.",
+        "A period usually lasts about 2 to 7 days. The total amount of blood is usually only a few tablespoons, even if it looks like more.",
+        "The menstrual cycle is counted from the first day of one period to the first day of the next. It is often around 28 days, but anywhere from about 21 to 40 days can be normal.",
+        "In the first year or two, periods are often irregular. That is common.",
+        "You can do everything as usual during a period: school, sport, swimming (with a suitable product), sleep and play.",
+        "Periods are nothing to be ashamed of. Half of all people have them for part of their lives."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "How long does a period usually last?",
+          "options": [
+            "About 2 to 7 days",
+            "About 1 hour",
+            "About 2 months"
+          ],
+          "answer": 0,
+          "explain": "Right. Most periods last between 2 and 7 days."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Periods",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/periods/"
+        },
+        {
+          "title": "Menstrual health and hygiene",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/wash/menstrual-hygiene"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "time",
+        "numbers"
+      ],
+      "connects": [
+        "biology"
+      ],
+      "adultNote": "Ideally explain periods before they start, so the first period is not frightening. Prepare a small kit for school bags. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-period-products",
+      "kind": "activity",
+      "subject": "menstrual hygiene",
+      "title": "Period products and making a period kit",
+      "emoji": "🎒",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "healthModule": "growing-up-girl",
+      "summary": "There are different ways to catch period blood. You can choose what feels right for you, and many options are reusable and low cost.",
+      "steps": [
+        "Pads: stick inside underwear and soak up blood. Disposable or reusable cloth pads. Change every few hours or when full.",
+        "Period underwear: washable underwear with a built-in absorbent layer.",
+        "Tampons: a small plug of soft material that goes inside the vagina. Use the lowest absorbency you need and change as often as the instructions say (usually every 4 to 8 hours). Never leave one in longer than 8 hours.",
+        "Menstrual cups: a soft cup worn inside the vagina that collects blood. Empty, rinse and reinsert as the instructions say, and sterilise it in boiling water between periods.",
+        "Reusable cloth pads or period underwear: rinse in cold water, wash with soap, and dry fully, ideally in sunlight.",
+        "Wash your hands before and after changing a product. Wrap used disposables and put them in a bin, never down the toilet.",
+        "Make a period kit for your bag: two pads or other products, spare underwear, a small bag, and tissues."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Toxic shock syndrome (rare) with tampons or cups left in too long",
+          "Skin irritation if products are not changed"
+        ],
+        "notes": "Follow the instructions on every product. Remove a tampon and get urgent medical help if you suddenly get a high temperature, vomiting, a sunburn-like rash or feel faint or very unwell."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free to very low cost",
+          "materials": [
+            "Clean cotton cloth folded into a pad",
+            "Soap and water",
+            "A small cloth bag"
+          ],
+          "description": "Make reusable cloth pads from clean, soft cotton; wash and dry them fully in the sun."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Ready-made reusable cloth pads or disposable pads",
+            "Spare underwear",
+            "Small zip bag"
+          ],
+          "description": "A simple kit with a few pads, spare underwear and a bag for school."
+        },
+        "advanced": {
+          "cost": "Optional, higher one-off cost",
+          "materials": [
+            "Menstrual cup or period underwear",
+            "Pot for boiling the cup"
+          ],
+          "description": "A reusable cup or period underwear can last for years and save money over time."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Shop-bought pads",
+          "use": "Folded clean cotton cloth, washed and fully dried in sunlight"
+        },
+        {
+          "instead": "Zip bag for the kit",
+          "use": "A small cloth pouch or clean paper bag"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Periods",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/periods/"
+        },
+        {
+          "title": "Menstrual health and hygiene",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/wash/menstrual-hygiene"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        },
+        {
+          "tree": "hl-health",
+          "node": "hygiene"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "adultNote": "No product is required: choose by comfort, cost, water access and family culture. Show the child how products work using water and a pad or cup in a glass. Cloth must be dried fully to avoid irritation. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-cycle-cramps-when-to-see-doctor",
+      "kind": "lesson",
+      "subject": "menstruation",
+      "title": "Tracking my cycle, easing cramps and when to see a doctor",
+      "emoji": "📅",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "healthModule": "growing-up-girl",
+      "summary": "Keeping track of your periods helps you be prepared. Cramps are common and there are simple ways to ease them. Some signs mean it is time to see a doctor.",
+      "steps": [
+        "Mark the first day of each period on a paper calendar. Count the days until the next one to learn your cycle length.",
+        "Cramps are caused by the uterus muscle squeezing. Ways to ease them: a warm (not hot) water bottle wrapped in a towel, gentle exercise or walking, a warm bath, rest.",
+        "Pain medicine can help, but only take it with a trusted adult or pharmacist and follow the dose on the label. People under 16 should not take aspirin.",
+        "Eating regular meals, drinking water and sleeping well can help you feel better.",
+        "See a doctor if: pain stops you doing normal things even with these steps; you need to change a pad or tampon every 1 to 2 hours or bleed through clothes; a period lasts more than about 7 days; periods stop for 3 months or more after being regular; you bleed between periods; or periods have not started by 16.",
+        "Get urgent help if you have sudden severe tummy pain, feel faint, or have a high temperature."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Who should you check with before taking pain medicine for cramps?",
+          "options": [
+            "A trusted adult or pharmacist",
+            "Nobody",
+            "A friend at school"
+          ],
+          "answer": 0,
+          "explain": "Yes. They can help you choose the right medicine and the right dose."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Period pain",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/period-pain/"
+        },
+        {
+          "title": "Heavy periods",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/heavy-periods/"
+        },
+        {
+          "title": "Periods",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/periods/"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready",
+        "hl-talk-to-doctor"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        },
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "body",
+        "medicine"
+      ],
+      "languageHooks": [
+        "time",
+        "numbers",
+        "body"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "adultNote": "This is education, not a diagnosis. If you are worried about a symptom, contact a doctor, nurse or local health service. Severe or very heavy periods are common reasons to see a doctor and treatment is available; encourage the young person not to \"just put up with it\". Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-breast-development",
+      "kind": "lesson",
+      "subject": "growing up",
+      "title": "Breast development",
+      "emoji": "🌸",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 10,
+      "healthModule": "growing-up-girl",
+      "summary": "Breasts usually start growing early in puberty. They grow slowly over several years, and every body is different.",
+      "steps": [
+        "It often starts with a small, firm \"breast bud\" under the nipple. It can feel tender. That is normal.",
+        "One breast may grow faster than the other. They usually even out more over time, and small differences are normal for adults too.",
+        "Breasts come in many shapes and sizes. Size has nothing to do with health.",
+        "Some people like to wear a soft crop top or bra for comfort or sport. It is your choice when.",
+        "Tell a trusted adult or doctor if you notice a lump that worries you, fluid from the nipple, redness with heat, or pain that does not settle."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Sexual health (includes puberty guides)",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/sexual-health/"
+        },
+        {
+          "title": "Early or delayed puberty",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "adultNote": "Tender breast buds and some asymmetry are very common in early puberty. Any concern should be checked by a doctor rather than guessed at. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-girl-feelings-boundaries",
+      "kind": "lesson",
+      "subject": "emotional development",
+      "title": "Growing up: feelings, friendships and boundaries",
+      "emoji": "💬",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "healthModule": "growing-up-girl",
+      "summary": "Hormones can make feelings stronger and change quickly. Knowing this, and knowing who you can talk to, makes growing up easier.",
+      "steps": [
+        "During puberty you might feel happy one minute and cross or tearful the next. This is common.",
+        "You might care more about how you look, or what friends think. You might want more privacy. That is normal.",
+        "Boundaries still matter: your body belongs to you. You can say no to any touch, photo or message you do not want.",
+        "If anyone comments on your changing body in a way that makes you uncomfortable, tell a trusted adult.",
+        "Update your list of trusted adults: who can you talk to about periods and body changes? It might be a parent, aunt, older cousin, tutor, school nurse or doctor.",
+        "If you feel low or worried most days for more than two weeks, tell someone. Help is available."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        },
+        {
+          "title": "Children and young people: mental health",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/mental-health/children-and-young-adults/"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-body-safety-plan",
+        "hl-know-where-to-get-help"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        },
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings",
+        "family"
+      ],
+      "adultNote": "If a child tells you something worrying: stay calm, listen, believe them, tell them they did the right thing, do not question them repeatedly or promise to keep it secret, and contact your local child protection service or police. In an emergency call your local emergency number. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-growing-body-habits-girl",
+      "kind": "lesson",
+      "subject": "health choices",
+      "title": "Fuel for a growing body: food, movement and sleep",
+      "emoji": "🥗",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 15,
+      "healthModule": "growing-up-girl",
+      "summary": "Your body is doing a lot of growing. Good food, active play and plenty of sleep help it grow strong.",
+      "steps": [
+        "Iron helps replace blood lost in periods. Foods with iron: beans, lentils, dark green leafy vegetables, eggs, meat or fish if you eat them. Vitamin C (fruit, tomatoes) helps your body use iron.",
+        "Calcium and vitamin D help build strong bones: milk or fortified alternatives, yoghurt, small fish with bones, green vegetables, and some safe daylight.",
+        "Aim for at least an hour of activity a day across the day: walking, dancing, sport, cycling.",
+        "Teenagers usually need about 8 to 10 hours of sleep. Screens off before bed helps.",
+        "Weight gain and changing shape are a normal, healthy part of puberty. Skipping meals or strict dieting can harm growth.",
+        "Tell a doctor if you often feel very tired, dizzy or breathless, as some people need a check for low iron."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Healthy diet (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "title": "Physical activity (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Sleep",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/sleep/"
+        },
+        {
+          "title": "Periods",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/periods/"
+        }
+      ],
+      "competencies": [
+        "hl-balanced-meal-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "food",
+        "time"
+      ],
+      "connects": [
+        "nutrition",
+        "physical-education"
+      ],
+      "adultNote": "This is education, not a diagnosis. If you are worried about a symptom, contact a doctor, nurse or local health service. Watch for signs of restrictive eating or distress about weight and seek advice from a doctor early. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-boy-puberty-changes",
+      "kind": "lesson",
+      "subject": "growing up",
+      "title": "Puberty: how a boy's body changes",
+      "emoji": "🌱",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "healthModule": "growing-up-boy",
+      "summary": "Puberty is when your body slowly changes from a child's body to an adult's. It is normal, and it happens at different times for different people.",
+      "steps": [
+        "Puberty usually starts somewhere between about 9 and 14 years old for boys. Earlier or later can be normal too.",
+        "Hormones, especially testosterone, cause the changes.",
+        "Often the first change is the testicles getting bigger. Then hair grows around the penis (pubic hair) and later under the arms and on the face.",
+        "The penis grows, you get taller (often a big growth spurt), shoulders broaden and muscles grow.",
+        "More sweat, body odour, oily skin and spots are common. Your voice gets deeper.",
+        "Some boys get a little swelling or tenderness under the nipples. This is common and usually goes away by itself.",
+        "Everyone changes at their own speed. Write down questions for a trusted adult or doctor."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Is breast tenderness in boys during puberty unusual?",
+          "options": [
+            "It is common and usually goes away",
+            "It means something is badly wrong"
+          ],
+          "answer": 0,
+          "explain": "It is common. If it worries you, a doctor can check."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Early or delayed puberty",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/early-or-delayed-puberty/"
+        },
+        {
+          "title": "Sexual health (includes puberty guides)",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/sexual-health/"
+        },
+        {
+          "title": "KidsHealth for kids",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/kids/"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "science"
+      ],
+      "connects": [
+        "biology"
+      ],
+      "adultNote": "NHS guidance: see a GP if signs of puberty appear before age 9 in a boy, or if there is no testicular enlargement by about 14. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-male-reproductive-anatomy",
+      "kind": "lesson",
+      "subject": "reproductive biology",
+      "title": "Inside the body: the male reproductive system",
+      "emoji": "🔬",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 15,
+      "healthModule": "growing-up-boy",
+      "summary": "Your reproductive system includes parts outside and inside your body. Learning their names and jobs helps you understand puberty and look after your health.",
+      "steps": [
+        "Penis: carries urine (pee) out of the body through the urethra, and after puberty also semen.",
+        "Scrotum: the bag of skin that holds the testicles. It keeps them a little cooler than the rest of the body.",
+        "Testicles (testes), two: make sperm and the hormone testosterone after puberty starts. It is normal for one to hang lower than the other.",
+        "Epididymis and sperm ducts: tubes that store and carry sperm.",
+        "Prostate and other glands: add fluid to sperm to make semen.",
+        "Foreskin: some penises have a foreskin, some do not (circumcision). Do not force it back. Once it moves back easily, gently wash underneath with water.",
+        "Draw and label a simple diagram."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Sexual health (includes puberty guides)",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/sexual-health/"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        },
+        {
+          "tree": "hl-inside-my-body",
+          "node": "cells-and-hormones"
+        }
+      ],
+      "interests": [
+        "body",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "science"
+      ],
+      "connects": [
+        "biology"
+      ],
+      "adultNote": "Factual, non-explicit biology. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-voice-changes",
+      "kind": "lesson",
+      "subject": "growing up",
+      "title": "Why my voice is changing",
+      "emoji": "🗣️",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 10,
+      "healthModule": "growing-up-boy",
+      "summary": "During puberty the voice box (larynx) grows and the vocal cords get longer and thicker, so your voice gets deeper.",
+      "steps": [
+        "Put your fingers gently on the front of your neck and hum. You can feel your voice box buzzing.",
+        "In puberty, the voice box grows. Some people get a bump at the front of the neck, sometimes called an Adam's apple.",
+        "While it grows, your voice may crack or jump between high and low. This is normal and settles over months.",
+        "Everyone's voice changes in puberty, but boys' voices usually change more.",
+        "If you are hoarse for more than three weeks, or it hurts to swallow, see a doctor."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Sexual health (includes puberty guides)",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/sexual-health/"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        },
+        {
+          "tree": "hl-inside-my-body",
+          "node": "body-systems"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "connects": [
+        "music",
+        "biology"
+      ],
+      "adultNote": "Gentle humour is fine, but avoid teasing about voice changes. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-erections-and-wet-dreams",
+      "kind": "lesson",
+      "subject": "growing up",
+      "title": "Erections and wet dreams: what is normal",
+      "emoji": "🌙",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 12,
+      "healthModule": "growing-up-boy",
+      "summary": "During puberty, boys can get erections and wet dreams without trying. These are normal body changes and nothing to be ashamed of.",
+      "steps": [
+        "An erection is when the penis becomes firm because extra blood flows into it.",
+        "In puberty, erections can happen at random times, even when you are not thinking about anything special. They go away by themselves, usually within a few minutes.",
+        "Tip: thinking about something else, or holding a bag or jacket in front of you, can help you feel less embarrassed.",
+        "A wet dream (nocturnal emission) is when semen comes out of the penis during sleep. You might wake up with damp sheets or underwear.",
+        "Wet dreams are not something you control. Some people have many, some have few or none. All of this is normal.",
+        "Just rinse or change your underwear and sheets. You can do this yourself if you prefer privacy.",
+        "See a doctor if an erection is painful or lasts more than about 4 hours (that needs urgent help), or if the penis or foreskin is sore, swollen or has a discharge."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Sexual health (includes puberty guides)",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/sexual-health/"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "time"
+      ],
+      "adultNote": "Explain this calmly before it happens. Let the young person know they can wash their own sheets without needing to explain. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-teen-hygiene-routine",
+      "kind": "activity",
+      "subject": "hygiene",
+      "title": "My growing-up hygiene routine",
+      "emoji": "🧼",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "healthModule": "growing-up-boy",
+      "summary": "Puberty brings more sweat, oil and body odour. A simple daily routine keeps you fresh and comfortable.",
+      "steps": [
+        "Wash every day, or as often as you can: armpits, groin, feet, face. Use water and mild soap.",
+        "Wash the penis gently with water. If the foreskin moves back easily, gently wash underneath and slide it back.",
+        "Put on clean underwear and socks every day. Change clothes after sport.",
+        "Wash your face twice a day to help with spots. Do not squeeze spots, as it can cause scars.",
+        "Deodorant or antiperspirant can help with smell, but washing is the main thing.",
+        "If you start shaving, use a clean razor, go with the direction of the hair and never share razors.",
+        "Make a tick chart for a week to build the habit."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Razor cuts",
+          "Hot water scalds",
+          "Skin irritation from strong products"
+        ],
+        "notes": "Ask a trusted adult to show you how to shave safely the first time. Stop any product that makes your skin sore."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Water",
+            "A cloth",
+            "A towel"
+          ],
+          "description": "A daily wash with a cloth and a bowl of water."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Mild soap",
+            "Deodorant",
+            "Clean underwear and socks"
+          ],
+          "description": "Add mild soap and a simple deodorant."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Gentle face wash",
+            "Razor and shaving gel"
+          ],
+          "description": "Add a face wash for spots and learn to shave if and when you want to."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Shower",
+          "use": "Bowl or bucket wash with a cloth"
+        },
+        {
+          "instead": "Deodorant",
+          "use": "Washing underarms with soap and water twice a day"
+        }
+      ],
+      "sources": [
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        },
+        {
+          "title": "Sexual health (includes puberty guides)",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/sexual-health/"
+        }
+      ],
+      "competencies": [
+        "hl-puberty-ready"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "hygiene"
+        },
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "time"
+      ],
+      "adultNote": "This routine is useful for every teenager; a parent may share it with any child. Bad acne can be treated: see a doctor or pharmacist if spots are painful or leave scars. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-boy-feelings-and-habits",
+      "kind": "lesson",
+      "subject": "emotional development",
+      "title": "Growing up: feelings, food, movement and sleep",
+      "emoji": "💪",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 15,
+      "healthModule": "growing-up-boy",
+      "summary": "Puberty changes feelings as well as bodies. Talking, eating well, moving and sleeping enough all help.",
+      "steps": [
+        "Hormones can make feelings stronger: frustration, worry, excitement. All feelings are OK; what we do with them matters.",
+        "It is a strength, not a weakness, to talk about feelings or cry. Choose a trusted adult or friend.",
+        "Eat regular meals with plenty of vegetables, fruit, whole grains and protein. Growing bodies need enough food.",
+        "Aim for at least an hour of activity a day. Build strength through play and sport, not through supplements.",
+        "Teenagers usually need about 8 to 10 hours of sleep.",
+        "Bodies grow at different rates. Height, muscles and penis size vary a lot and almost all variation is normal.",
+        "If you feel low, angry or worried most days for more than two weeks, talk to someone. Help is available."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Mental health of adolescents (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+        },
+        {
+          "title": "Physical activity (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+        },
+        {
+          "title": "Healthy diet (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-know-where-to-get-help",
+        "hl-balanced-meal-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        },
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings",
+        "food"
+      ],
+      "adultNote": "This is education, not a diagnosis. If you are worried about a symptom, contact a doctor, nurse or local health service. Muscle-building supplements and unsupervised steroids are risky for teenagers. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-testicle-health-when-to-get-help",
+      "kind": "lesson",
+      "subject": "when to seek help",
+      "title": "Looking after my testicles and when to get help",
+      "emoji": "🚑",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 12,
+      "healthModule": "growing-up-boy",
+      "summary": "Knowing what is normal for your body helps you notice changes. Sudden pain in a testicle is an emergency: get help straight away.",
+      "steps": [
+        "It is normal for one testicle to be a bit bigger or hang lower. They should feel smooth and firm, not hard.",
+        "Get to know how your testicles normally feel, for example in a warm shower.",
+        "EMERGENCY: sudden, severe pain in a testicle or the scrotum, especially with swelling, feeling sick or tummy pain. Tell an adult and go to hospital or call your local emergency number straight away. Time matters.",
+        "See a doctor soon (not an emergency) if you notice a lump, a change in size or shape, a heavy feeling, or pain that keeps coming back.",
+        "Wear protective gear for contact sports if offered, and tell an adult if you are hit and the pain does not settle.",
+        "Doctors see this all the time. You do not need to feel embarrassed."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "You suddenly get a very painful testicle. What should you do?",
+          "options": [
+            "Wait a few days",
+            "Tell an adult and get emergency help now",
+            "Take a nap"
+          ],
+          "answer": 1,
+          "explain": "Yes. Sudden testicle pain needs emergency help quickly."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Testicle pain",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/conditions/testicle-pain/"
+        },
+        {
+          "title": "NHS 111 online: get help for a symptom",
+          "publisher": "NHS",
+          "url": "https://111.nhs.uk/"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-talk-to-doctor",
+        "hl-know-where-to-get-help"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-literacy"
+        },
+        {
+          "tree": "hl-health",
+          "node": "growing-up"
+        }
+      ],
+      "interests": [
+        "body",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body"
+      ],
+      "adultNote": "This is education, not a diagnosis. If you are worried about a symptom, contact a doctor, nurse or local health service. Sudden testicular pain can be testicular torsion, which needs surgery within hours to save the testicle; do not wait. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. A parent does not have to teach this personally: a trusted tutor, relative or health worker can lead it. Many families find it helps for all children to learn about every body, so the parent may also switch on the other growing-up module."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-consent",
+      "kind": "simulation",
+      "subject": "consent",
+      "title": "Consent: asking, listening and respecting",
+      "emoji": "✅",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 15,
+      "healthModule": "adolescent-health",
+      "summary": "Consent means freely agreeing to something. It must be clear, it can be changed at any time, and it cannot be given under pressure.",
+      "steps": [
+        "Read the key ideas.",
+        "Work through each situation.",
+        "Talk about any that felt tricky with a trusted adult."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Sensitive topic"
+        ],
+        "notes": "Discussion only. Young people can stop at any time."
+      },
+      "simulation": {
+        "scenario": "Consent applies to hugs, photos, sharing information and any physical contact. Practise spotting real consent.",
+        "steps": [
+          {
+            "prompt": "A friend says \"I guess, if you really want\" when you ask to post a photo of them.",
+            "options": [
+              {
+                "text": "Check again: \"It is fine if you would rather I did not\"",
+                "correct": true,
+                "feedback": "Good. A hesitant answer is not a clear yes."
+              },
+              {
+                "text": "Post it, they said yes",
+                "correct": false,
+                "feedback": "A reluctant yes is not real consent. Check again or do not post."
+              }
+            ]
+          },
+          {
+            "prompt": "Someone agreed to hold hands, then says they want to stop.",
+            "options": [
+              {
+                "text": "Stop straight away",
+                "correct": true,
+                "feedback": "Right. Consent can be taken back at any time."
+              },
+              {
+                "text": "Keep going, they agreed earlier",
+                "correct": false,
+                "feedback": "Agreeing earlier does not mean agreeing now."
+              }
+            ]
+          },
+          {
+            "prompt": "A person has been pressured or threatened into saying yes.",
+            "options": [
+              {
+                "text": "That is not consent",
+                "correct": true,
+                "feedback": "Correct. Consent must be freely given."
+              },
+              {
+                "text": "Yes is yes, whatever happened before",
+                "correct": false,
+                "feedback": "Pressure, threats or someone being drunk or asleep mean there is no consent."
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        },
+        {
+          "title": "Sexual health (includes puberty guides)",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/sexual-health/"
+        },
+        {
+          "title": "Adolescent health",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics/adolescent-health"
+        }
+      ],
+      "competencies": [
+        "hl-consent-understanding"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        },
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings"
+      ],
+      "adultNote": "Consent is taught in everyday contexts first (photos, borrowing, touch). Laws about sexual consent and the age of consent vary by country; share your local law. If a child tells you something worrying: stay calm, listen, believe them, tell them they did the right thing, do not question them repeatedly or promise to keep it secret, and contact your local child protection service or police. In an emergency call your local emergency number. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. Teenagers often prefer private learner mode for these topics; keep the door open for questions without pressure."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-healthy-relationships",
+      "kind": "lesson",
+      "subject": "relationships",
+      "title": "Healthy and unhealthy relationships",
+      "emoji": "💞",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "healthModule": "adolescent-health",
+      "summary": "Healthy friendships and relationships are built on respect, trust and honesty. Learn to spot controlling behaviour and where to get help.",
+      "steps": [
+        "Healthy signs: you feel safe and respected, you can say no, you can disagree, you can keep your other friends and hobbies, and you trust each other.",
+        "Unhealthy or controlling signs: checking your phone or messages, telling you what to wear or who to see, extreme jealousy, put-downs, making you feel guilty, pressure to do things, threats, or any hurting.",
+        "Controlling behaviour often starts small and grows. Trust your feelings if something feels wrong.",
+        "This applies to friends, partners and online contacts.",
+        "If you are worried about your relationship or a friend's, talk to a trusted adult, school counsellor, or a child or youth helpline.",
+        "If you are in danger, call your local emergency number."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Which is a sign of a controlling relationship?",
+          "options": [
+            "Respecting your choices",
+            "Demanding to check your phone",
+            "Supporting your friendships"
+          ],
+          "answer": 1,
+          "explain": "Checking your phone and controlling who you talk to are warning signs."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        },
+        {
+          "title": "Adolescent health",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics/adolescent-health"
+        },
+        {
+          "title": "Find a child helpline in your country",
+          "publisher": "Child Helpline International",
+          "url": "https://childhelplineinternational.org/"
+        }
+      ],
+      "competencies": [
+        "hl-know-where-to-get-help"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings",
+        "family"
+      ],
+      "adultNote": "If a child tells you something worrying: stay calm, listen, believe them, tell them they did the right thing, do not question them repeatedly or promise to keep it secret, and contact your local child protection service or police. In an emergency call your local emergency number. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. Teenagers often prefer private learner mode for these topics; keep the door open for questions without pressure."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-online-images-safety",
+      "kind": "simulation",
+      "subject": "online safety",
+      "title": "Sharing images online: the law, safety and getting help",
+      "emoji": "📵",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "healthModule": "adolescent-health",
+      "summary": "Once an image is sent, you lose control of it. In many countries, making or sharing sexual images of anyone under 18 is against the law, even of yourself. If something goes wrong, help is available and it is not your fault.",
+      "steps": [
+        "Never feel you have to send a photo. Pressure is a warning sign.",
+        "In many countries it is illegal to make, keep or share nude or sexual images of anyone under 18, even if they agreed.",
+        "Never forward an image someone shared with you. Delete it and tell a trusted adult.",
+        "If someone threatens to share an image unless you pay or send more: do not pay, do not send more, stop replying, keep screenshots of the threats (not the image), block and report the account, and tell a trusted adult.",
+        "Services exist to help remove images of under-18s, such as Take It Down. Police and child helplines can help too.",
+        "You will not be in trouble for asking for help. The person threatening you is the one doing wrong."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Sensitive topic"
+        ],
+        "notes": "Discussion only. If this is happening now, stop and get help from a trusted adult or helpline."
+      },
+      "simulation": {
+        "scenario": "Practise what to do if an online situation about images goes wrong.",
+        "steps": [
+          {
+            "prompt": "Someone you met online keeps asking for a photo of you in your underwear.",
+            "options": [
+              {
+                "text": "Refuse, block, report and tell a trusted adult",
+                "correct": true,
+                "feedback": "Exactly right. Pressure like this is a big warning sign."
+              },
+              {
+                "text": "Send one so they stop asking",
+                "correct": false,
+                "feedback": "Sending usually leads to more pressure. Block, report and tell someone."
+              }
+            ]
+          },
+          {
+            "prompt": "A classmate sends you a nude photo of another student.",
+            "options": [
+              {
+                "text": "Do not forward it, delete it and tell a trusted adult",
+                "correct": true,
+                "feedback": "Yes. Forwarding causes harm and can be illegal."
+              },
+              {
+                "text": "Forward it to a friend",
+                "correct": false,
+                "feedback": "Forwarding harms the person in the photo and can be against the law."
+              }
+            ]
+          },
+          {
+            "prompt": "Someone threatens to share your photo unless you pay them.",
+            "options": [
+              {
+                "text": "Do not pay, stop replying, keep evidence, report and get help",
+                "correct": true,
+                "feedback": "Right. This is a crime against you. Adults, police and helplines can help."
+              },
+              {
+                "text": "Pay them quietly",
+                "correct": false,
+                "feedback": "Paying rarely stops it. Tell a trusted adult and report it."
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Take It Down (help removing images of under-18s)",
+          "publisher": "National Center for Missing & Exploited Children",
+          "url": "https://takeitdown.ncmec.org/"
+        },
+        {
+          "title": "Childline",
+          "publisher": "NSPCC Childline",
+          "url": "https://www.childline.org.uk/"
+        },
+        {
+          "title": "Child protection",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/protection"
+        },
+        {
+          "title": "Find a child helpline in your country",
+          "publisher": "Child Helpline International",
+          "url": "https://childhelplineinternational.org/"
+        }
+      ],
+      "competencies": [
+        "hl-online-image-safety",
+        "hl-know-where-to-get-help"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "body-safety"
+        },
+        {
+          "tree": "hl-health",
+          "node": "health-literacy"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings"
+      ],
+      "connects": [
+        "technology",
+        "civics"
+      ],
+      "adultNote": "If a young person tells you an image has been shared or they are being blackmailed (sextortion): stay calm and supportive, do not blame, do not ask them to show or forward the image, keep evidence of messages, report to the platform and police, and use removal services. Laws differ by country. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. Teenagers often prefer private learner mode for these topics; keep the door open for questions without pressure."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-body-image",
+      "kind": "lesson",
+      "subject": "body image",
+      "title": "Body image: my body, my friend",
+      "emoji": "🪞",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 15,
+      "healthModule": "adolescent-health",
+      "summary": "Body image is how you think and feel about your body. Images online are often edited. Healthy bodies come in all shapes and sizes.",
+      "steps": [
+        "Many photos online and in adverts are edited, filtered or posed. They are not real life.",
+        "Notice how social media makes you feel. Unfollow accounts that make you feel bad about yourself.",
+        "Write three things your body lets you do (run, hug, laugh, create) rather than how it looks.",
+        "Speak to yourself as kindly as you would to a friend. Avoid comments about other people's bodies.",
+        "Strict dieting, skipping meals or over-exercising to change your body can harm your health.",
+        "If thoughts about food, weight or appearance take over your day, talk to a trusted adult or doctor. Help works."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Children and young people: mental health",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/mental-health/children-and-young-adults/"
+        },
+        {
+          "title": "Mental health of adolescents (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-know-where-to-get-help"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "feelings"
+      ],
+      "adultNote": "This is education, not a diagnosis. If you are worried about a symptom, contact a doctor, nurse or local health service. Eating disorders affect all genders; early help matters. Avoid commenting on weight at home. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. Teenagers often prefer private learner mode for these topics; keep the door open for questions without pressure."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-sexual-health-basics",
+      "kind": "lesson",
+      "subject": "sexual health",
+      "title": "Sexual health: contraception and preventing infections",
+      "emoji": "🩺",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 20,
+      "healthModule": "adolescent-health",
+      "summary": "Public health facts about preventing pregnancy and infections, so you can make informed, safe choices now and in the future. Waiting is always a valid choice.",
+      "steps": [
+        "It is always OK to wait. Choosing not to have sex is a healthy choice, and no one should pressure you.",
+        "Laws about the age of consent differ between countries. Find out the law where you live.",
+        "Contraception helps prevent pregnancy. Types include condoms, the pill, the implant, the injection and intrauterine devices (IUDs). Most are prescribed or advised by a nurse, doctor or clinic.",
+        "Condoms are the only method that also helps protect against most sexually transmitted infections (STIs).",
+        "Emergency contraception exists and works best the sooner it is used. Pharmacies and clinics can advise.",
+        "Many STIs have no symptoms. Testing is simple and often free and confidential. Vaccines like HPV protect against some infections and cancers.",
+        "Sexual health clinics and doctors give confidential advice to young people in many countries. You can also talk to a trusted adult."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Which method helps prevent pregnancy and most STIs?",
+          "options": [
+            "Condoms",
+            "The pill",
+            "Emergency contraception"
+          ],
+          "answer": 0,
+          "explain": "Condoms are the only method that also reduces the risk of most STIs."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Family planning / contraception (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/family-planning-contraception"
+        },
+        {
+          "title": "Sexually transmitted infections (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)"
+        },
+        {
+          "title": "Contraception guide",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/contraception/"
+        },
+        {
+          "title": "Comprehensive sexuality education (International Technical Guidance on Sexuality Education)",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/health-education/cse"
+        }
+      ],
+      "competencies": [
+        "hl-talk-to-doctor"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-literacy"
+        },
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "body",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "science"
+      ],
+      "connects": [
+        "biology"
+      ],
+      "adultNote": "Factual, non-explicit public-health information for ages 15-17, in line with UNESCO's ITGSE. Evidence shows accurate sexuality education does not lead to earlier sex. Families may add their own values and local legal context. Confidentiality rules for young people differ by country. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. Teenagers often prefer private learner mode for these topics; keep the door open for questions without pressure."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-talk-to-doctor",
+      "kind": "activity",
+      "subject": "health literacy",
+      "title": "How to talk to a doctor",
+      "emoji": "👩‍⚕️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "healthModule": "adolescent-health",
+      "summary": "Doctors and nurses can help best when you tell them clearly what is going on. Planning what to say makes it easier.",
+      "steps": [
+        "Before the appointment, write down: what the problem is, when it started, what makes it better or worse, and any medicines you take.",
+        "Write your top two questions. Put the most important one first.",
+        "Use the real names of body parts. Doctors hear about every part of the body every day.",
+        "Be honest, even about embarrassing things. It helps them help you.",
+        "If you do not understand, say \"Can you explain that again?\" and ask them to write it down.",
+        "Before leaving, check: what is the plan, what to watch for, and when to come back.",
+        "Practise with a trusted adult playing the doctor."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "GP services",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/nhs-services/gps/"
+        },
+        {
+          "title": "Adolescent health",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics/adolescent-health"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-talk-to-doctor"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-literacy"
+        }
+      ],
+      "interests": [
+        "medicine",
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "time"
+      ],
+      "adultNote": "As teens get older, many health services offer part of an appointment alone with the clinician; rules on confidentiality vary by country. Regular check-ups (dental, eyesight, vaccinations, growth) are a good time to practise. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. Teenagers often prefer private learner mode for these topics; keep the door open for questions without pressure."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-concerning-symptoms",
+      "kind": "lesson",
+      "subject": "health literacy",
+      "title": "Common health problems and when to get help",
+      "emoji": "🌡️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "healthModule": "adolescent-health",
+      "summary": "Most everyday illnesses get better on their own with rest, fluids and care. Some signs mean you need a doctor, and some mean you need emergency help.",
+      "steps": [
+        "Common, usually mild problems: colds, sore throats, mild headaches, tummy upsets, spots, period pain, sports strains. Rest, fluids and simple care often help.",
+        "See a doctor or nurse if: something lasts longer than expected or keeps coming back, you lose weight without trying, you feel very tired for weeks, a lump appears, or you are worried.",
+        "Call your local emergency number for: difficulty breathing, chest pain, a seizure, fainting and not waking, a severe allergic reaction, sudden severe pain (including in a testicle or tummy), heavy bleeding, or a rash that does not fade when you press a glass on it with fever.",
+        "Also get urgent help if someone has thoughts of ending their life or has taken an overdose.",
+        "Keep a list of your allergies, medicines and vaccinations in a safe place.",
+        "Never take someone else's prescription medicine."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Which needs emergency help?",
+          "options": [
+            "A mild cold",
+            "Difficulty breathing",
+            "One spot"
+          ],
+          "answer": 1,
+          "explain": "Difficulty breathing is an emergency. Call your local emergency number."
+        }
+      ],
+      "sources": [
+        {
+          "title": "NHS 111 online: get help for a symptom",
+          "publisher": "NHS",
+          "url": "https://111.nhs.uk/"
+        },
+        {
+          "title": "Adolescent health",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics/adolescent-health"
+        },
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        }
+      ],
+      "competencies": [
+        "hl-know-where-to-get-help",
+        "hl-talk-to-doctor"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-literacy"
+        }
+      ],
+      "interests": [
+        "medicine",
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "first-aid"
+      ],
+      "adultNote": "This is education, not a diagnosis. If you are worried about a symptom, contact a doctor, nurse or local health service. Make sure the young person knows your local emergency number and non-emergency health advice line. The first-aid area covers emergency actions in more depth. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. Teenagers often prefer private learner mode for these topics; keep the door open for questions without pressure."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-mental-health-help",
+      "kind": "lesson",
+      "subject": "mental health",
+      "title": "Mental health: noticing, talking and getting help",
+      "emoji": "🧠",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "healthModule": "adolescent-health",
+      "summary": "Everyone has mental health, just like physical health. Many young people go through hard times, and help really works.",
+      "steps": [
+        "Mental health problems are common in teenagers. About one in seven young people aged 10 to 19 experiences one.",
+        "Signs to take seriously in yourself or a friend: feeling sad, hopeless or anxious most days for two weeks or more, losing interest in things, big changes in sleep or eating, pulling away from people, self-harm, or thoughts of dying.",
+        "Things that help: talking to someone you trust, sleep, movement, time outdoors, time with people who are kind to you, and less doom-scrolling.",
+        "If a friend tells you they are struggling, listen, take it seriously, and help them tell a trusted adult. Do not keep it a secret if they are at risk.",
+        "Where to get help: a trusted adult, school counsellor, doctor, or a child or youth helpline.",
+        "If you or someone else is in immediate danger, call your local emergency number."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Mental health of adolescents (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+        },
+        {
+          "title": "Children and young people: mental health",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/mental-health/children-and-young-adults/"
+        },
+        {
+          "title": "Mental health",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/mental-health"
+        },
+        {
+          "title": "Find a child helpline in your country",
+          "publisher": "Child Helpline International",
+          "url": "https://childhelplineinternational.org/"
+        }
+      ],
+      "competencies": [
+        "hl-know-where-to-get-help"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-literacy"
+        },
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "medicine",
+        "body"
+      ],
+      "languageHooks": [
+        "feelings"
+      ],
+      "adultNote": "This is education, not a diagnosis. If you are worried about a symptom, contact a doctor, nurse or local health service. Asking a young person directly whether they are thinking about suicide does not put the idea in their head; it opens the door to help. Seek professional help (doctor, mental health service) early. Available in parent-guided, tutor-guided or private learner mode; the parent chooses. Teenagers often prefer private learner mode for these topics; keep the door open for questions without pressure."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-handwashing",
+      "kind": "activity",
+      "subject": "hygiene",
+      "title": "Super handwashing",
+      "emoji": "🧼",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Washing your hands with soap gets rid of germs that can make us ill. It takes about as long as singing \"Happy Birthday\" twice.",
+      "steps": [
+        "Wet your hands with clean water.",
+        "Add soap and rub palms together.",
+        "Rub the backs of your hands, between your fingers, your thumbs, your fingertips and nails.",
+        "Keep scrubbing for at least 20 seconds (sing \"Happy Birthday\" twice).",
+        "Rinse with clean water.",
+        "Dry with a clean towel or let them air dry.",
+        "When? Before eating or touching food, after the toilet, after blowing your nose, after touching animals, and after playing outside."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Hot water can scald",
+          "Soap in eyes",
+          "Slippery floor"
+        ],
+        "notes": "Use warm or cold water, not hot. A grown-up helps young children reach the tap safely."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free to very low cost",
+          "materials": [
+            "Water",
+            "Any soap or ash"
+          ],
+          "description": "Wash under running water from a jug or bottle with any soap."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Bar soap",
+            "Clean towel"
+          ],
+          "description": "Bar soap at a sink with a clean towel for each person."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Tippy-tap made from a bottle and string",
+            "Glitter or flour to show \"germs\""
+          ],
+          "description": "Build a tippy-tap and use glitter to show how germs spread and wash away."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Running tap",
+          "use": "A jug or a bottle with a small hole (tippy-tap) so water runs over hands"
+        },
+        {
+          "instead": "Liquid soap",
+          "use": "Any bar soap; where there is no soap, water and scrubbing still help"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Clean hands",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/clean-hands/"
+        },
+        {
+          "title": "Best way to wash your hands",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/best-way-to-wash-your-hands/"
+        },
+        {
+          "title": "Hand hygiene",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/campaigns/world-hand-hygiene-day"
+        }
+      ],
+      "competencies": [
+        "hl-handwashing"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "hygiene"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers",
+        "time"
+      ],
+      "connects": [
+        "science"
+      ],
+      "adultNote": "Hand gel is a backup, not a replacement, when hands are visibly dirty or after farms and animals. Washing with soap is one of the most effective ways to prevent illness."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-brush-teeth",
+      "kind": "activity",
+      "subject": "dental care",
+      "title": "Two minutes, twice a day: brushing teeth",
+      "emoji": "🪥",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Brushing your teeth keeps them strong and stops holes (tooth decay). Brush for two minutes, morning and bedtime.",
+      "steps": [
+        "Use a pea-sized blob of fluoride toothpaste.",
+        "Brush every tooth: outsides, insides and the chewing tops. Small circles work well.",
+        "Brush gently along the gums too.",
+        "Count or use a 2-minute song.",
+        "Spit out the toothpaste, but do not rinse with lots of water. The fluoride left behind protects your teeth.",
+        "Brush last thing at night and one other time each day.",
+        "Sugary food and drinks are best at mealtimes, not all day long."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Swallowing toothpaste",
+          "Brushing too hard"
+        ],
+        "notes": "Children usually need a grown-up to help or check their brushing until about age 7. Keep toothpaste out of reach of small children."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Very low cost",
+          "materials": [
+            "Soft toothbrush",
+            "Fluoride toothpaste",
+            "Water"
+          ],
+          "description": "A soft brush and fluoride toothpaste are all you need."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Sand timer or 2-minute song",
+            "Tick chart"
+          ],
+          "description": "Add a timer and a chart to build the habit."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Plaque disclosing tablets"
+          ],
+          "description": "Disclosing tablets colour the plaque so you can see where you missed."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Sand timer",
+          "use": "Sing a song twice or count slowly to 120"
+        },
+        {
+          "instead": "Child toothbrush",
+          "use": "Any soft small-headed toothbrush"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Taking care of children's teeth",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/taking-care-of-childrens-teeth/"
+        },
+        {
+          "title": "Oral health (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/oral-health"
+        }
+      ],
+      "competencies": [
+        "hl-brush-teeth"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "hygiene"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers",
+        "time"
+      ],
+      "adultNote": "Use a smear of toothpaste under 3 and a pea-sized amount from 3 to 6. Visit a dentist regularly if you can. Toothache, swelling or a broken tooth needs a dentist."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-sleep-superpower",
+      "kind": "lesson",
+      "subject": "sleep",
+      "title": "Sleep is a superpower",
+      "emoji": "😴",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "While you sleep, your body grows, your brain sorts out what you learned, and you get energy for tomorrow.",
+      "steps": [
+        "Children aged 3 to 5 need about 10 to 13 hours of sleep (including naps). Children aged 6 to 12 need about 9 to 12 hours.",
+        "Make a bedtime routine: bath or wash, teeth, story or quiet time, lights out at the same time each night.",
+        "Screens off for an hour before bed if you can. Bright screens can make it harder to fall asleep.",
+        "A dark, quiet, cool room helps.",
+        "Draw your bedtime routine as a picture chart.",
+        "If you often cannot sleep, have scary dreams, or snore loudly every night, tell a grown-up. A doctor can help."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "What helps you fall asleep?",
+          "options": [
+            "Playing games on a bright screen in bed",
+            "A calm bedtime routine"
+          ],
+          "answer": 1,
+          "explain": "A calm routine tells your body it is time to sleep."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sleep",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/sleep/"
+        },
+        {
+          "title": "Sleep and tiredness",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/sleep-and-tiredness/"
+        }
+      ],
+      "competencies": [
+        "hl-sleep-routine"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        },
+        {
+          "tree": "hl-health",
+          "node": "body-awareness"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "time",
+        "numbers"
+      ],
+      "adultNote": "Sleep ranges follow public-health guidance (CDC, based on American Academy of Sleep Medicine). Loud nightly snoring, pauses in breathing or long-term sleeplessness are worth discussing with a doctor."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-water-drinking",
+      "kind": "lesson",
+      "subject": "nutrition",
+      "title": "Water: my body's favourite drink",
+      "emoji": "💧",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "More than half your body is water. Drinking water helps you think, play and stay cool.",
+      "steps": [
+        "Water and milk are the best drinks for children. Sugary drinks and juice are best kept small and with meals.",
+        "Drink regularly through the day, and more when it is hot or you are running around.",
+        "Look at your pee: pale yellow usually means you are drinking enough. Dark yellow means drink more water.",
+        "Feeling thirsty, tired or getting a headache can mean you need a drink.",
+        "Only drink water that is safe: from a safe tap, boiled and cooled, or treated, as your family does.",
+        "Count your cups of water today with tally marks."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Water, drinks and your health",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+        },
+        {
+          "title": "Healthy diet (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        }
+      ],
+      "competencies": [
+        "hl-balanced-meal-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "food",
+        "numbers",
+        "colours"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ],
+      "adultNote": "Where tap water is not safe, boil or treat drinking water. Signs of dehydration in a child who is ill (very little pee, very sleepy, sunken eyes) need medical advice."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-balanced-plate",
+      "kind": "activity",
+      "subject": "nutrition",
+      "title": "Build a balanced plate",
+      "emoji": "🍽️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "A balanced plate has lots of vegetables and fruit, some starchy food, some protein, and a little fat. Let us design one with food your family eats.",
+      "steps": [
+        "Draw a big circle for a plate.",
+        "Fill about half with vegetables and fruit of different colours.",
+        "Fill about a quarter with starchy food, ideally wholegrain: rice, bread, maize, potatoes, pasta, cassava.",
+        "Fill about a quarter with protein: beans, lentils, eggs, fish, meat, nuts or tofu.",
+        "Add a small amount of dairy or a calcium-rich food, and a little healthy oil.",
+        "Use foods your family really eats and that are in season.",
+        "Plan three balanced meals for one day and share them with your family."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "What should fill about half of a balanced plate?",
+          "options": [
+            "Sweets",
+            "Vegetables and fruit",
+            "Only rice"
+          ],
+          "answer": 1,
+          "explain": "Yes. Vegetables and fruit should be the biggest part."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Healthy diet (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "title": "The Eatwell Guide",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/"
+        }
+      ],
+      "competencies": [
+        "hl-balanced-meal-plan"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "food",
+        "fruit",
+        "colours",
+        "shapes"
+      ],
+      "connects": [
+        "life-skills",
+        "mathematics"
+      ],
+      "adultNote": "Adapt to your culture, budget and any allergies or medical diets; never label foods as \"bad\" or tie food to weight. A doctor or dietitian can advise on special diets."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-sun-safety",
+      "kind": "lesson",
+      "subject": "sun safety",
+      "title": "Sun safety: shade, cover, protect",
+      "emoji": "☀️",
+      "ageBands": [
+        "3-5",
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Sunshine is lovely, but too much can burn your skin and hurt your eyes. Everyone can burn, whatever their skin colour.",
+      "steps": [
+        "Find shade when the sun is strongest, usually around the middle of the day.",
+        "Cover up: a hat with a wide brim, loose clothes that cover shoulders, and sunglasses if you have them.",
+        "Use sunscreen if available (at least SPF 30 with good UVA protection). Put it on before going out and again after swimming or sweating.",
+        "Drink water so you do not get too hot.",
+        "Never look straight at the sun, even with sunglasses.",
+        "Shadow test: if your shadow is shorter than you, the sun is strong. Seek shade!"
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Sunscreen and sun safety",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/live-well/seasonal-health/sunscreen-and-sun-safety/"
+        },
+        {
+          "title": "Health topics",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics"
+        }
+      ],
+      "competencies": [
+        "hl-sun-safe"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "body",
+        "nature"
+      ],
+      "languageHooks": [
+        "weather",
+        "body",
+        "colours"
+      ],
+      "connects": [
+        "science",
+        "geography"
+      ],
+      "adultNote": "Babies and young children burn easily; keep them in the shade. Sunburn with blistering, fever, or signs of heatstroke (confusion, hot dry skin, fainting) needs medical help."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-wellbeing-toolbox",
+      "kind": "activity",
+      "subject": "mental wellbeing",
+      "title": "My wellbeing toolbox",
+      "emoji": "🧰",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Just like a toolbox for fixing things, you can build a toolbox of things that help you feel calm and well.",
+      "steps": [
+        "Think of times you felt calm or happy. What were you doing?",
+        "Make a list or a box of \"tools\": slow breathing (in for 4, out for 6), a walk outside, drawing, music, a cuddle or chat, stretching, a favourite book.",
+        "Add people: who can you talk to when things feel hard?",
+        "Practise one tool each day this week and notice how you feel.",
+        "Remember: everyone has hard days. If sad or worried feelings last most days for two weeks or more, tell a trusted adult."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Mental health",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/mental-health"
+        },
+        {
+          "title": "Children and young people: mental health",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/mental-health/children-and-young-adults/"
+        },
+        {
+          "title": "Mental health of adolescents (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health"
+        }
+      ],
+      "competencies": [
+        "hl-feelings-words",
+        "hl-know-where-to-get-help"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-choices"
+        }
+      ],
+      "interests": [
+        "body"
+      ],
+      "languageHooks": [
+        "feelings",
+        "numbers"
+      ],
+      "connects": [
+        "arts",
+        "physical-education"
+      ],
+      "adultNote": "Wellbeing tools help with everyday stress but do not replace professional help. Seek advice from a doctor or mental health service if a child is persistently distressed, withdrawn or talks about self-harm."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-inside-my-body",
+      "kind": "activity",
+      "subject": "human biology",
+      "title": "What is inside my body?",
+      "emoji": "❤️",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Inside you, your heart pumps, your lungs breathe, your stomach mixes food, and your bones and muscles help you move. Let us feel some of them working!",
+      "steps": [
+        "Heart: put your hand on your chest. Can you feel it beating? It pumps blood all around your body.",
+        "Jump up and down 10 times, then feel it again. It beats faster because your muscles need more oxygen.",
+        "Lungs: take a big breath in. Your chest gets bigger as your lungs fill with air.",
+        "Stomach: after you eat, your stomach squishes food to help your body use it.",
+        "Bones: feel the hard bones in your arm. Muscles: squeeze your arm as you bend it. Muscles pull bones to move them.",
+        "Skin: it covers and protects everything inside. It is your biggest organ.",
+        "Draw a body outline and add the heart, lungs, stomach and bones."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Bumping into things while jumping"
+        ],
+        "notes": "Jump in a clear space away from furniture. Stop if anyone feels dizzy or unwell."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Your body",
+            "Paper and pencil"
+          ],
+          "description": "Feel your heartbeat and breathing, then draw."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "Large paper or a cardboard box opened flat",
+            "Crayons"
+          ],
+          "description": "Trace around the child on big paper and draw the organs life-size."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "Paper cup or cardboard tube as a listening tube",
+            "Timer"
+          ],
+          "description": "Make a listening tube to hear a heartbeat and count beats per minute before and after exercise."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Large paper",
+          "use": "Draw a body outline in the dirt or sand with a stick, or chalk on the ground"
+        },
+        {
+          "instead": "Stethoscope",
+          "use": "A cardboard tube or rolled paper"
+        }
+      ],
+      "sources": [
+        {
+          "title": "KidsHealth for kids",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/kids/"
+        }
+      ],
+      "competencies": [
+        "hl-explain-body-systems"
+      ],
+      "skills": [
+        {
+          "tree": "hl-inside-my-body",
+          "node": "body-parts"
+        },
+        {
+          "tree": "hl-health",
+          "node": "body-awareness"
+        }
+      ],
+      "interests": [
+        "body",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "physical-education"
+      ],
+      "adultNote": "Level 1 of the \"What is happening inside my body and why?\" strand. Chest pain, fainting or breathlessness that is unusual for the child needs medical advice."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-body-systems",
+      "kind": "lesson",
+      "subject": "human biology",
+      "title": "Body systems: teams that keep me alive",
+      "emoji": "🫁",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 25,
+      "summary": "Your organs work in teams called systems. Each system has a job, and they all work together.",
+      "steps": [
+        "Skeletal system: 206 bones in adults hold you up and protect organs (your skull protects your brain).",
+        "Muscular system: muscles pull on bones to move you. Your heart is a muscle too.",
+        "Digestive system: mouth, oesophagus, stomach and intestines break food into nutrients your body can use.",
+        "Respiratory system: nose, windpipe and lungs bring in oxygen and breathe out carbon dioxide.",
+        "Circulatory system: the heart pumps blood through blood vessels, carrying oxygen and nutrients everywhere.",
+        "Nervous system: the brain, spinal cord and nerves send messages, like a super-fast communication network.",
+        "Immune system: white blood cells and other defences fight germs. Vaccines train it safely.",
+        "Pick one system and explain to someone how it helps you run, eat or think."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "Which system carries oxygen around the body in blood?",
+          "options": [
+            "Circulatory system",
+            "Skeletal system",
+            "Digestive system"
+          ],
+          "answer": 0,
+          "explain": "Yes. The heart and blood vessels form the circulatory system."
+        }
+      ],
+      "sources": [
+        {
+          "title": "KidsHealth for kids",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/kids/"
+        },
+        {
+          "title": "Vaccines and immunization",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics/vaccines-and-immunization"
+        }
+      ],
+      "competencies": [
+        "hl-explain-body-systems"
+      ],
+      "skills": [
+        {
+          "tree": "hl-inside-my-body",
+          "node": "body-systems"
+        }
+      ],
+      "interests": [
+        "body",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "science",
+        "numbers"
+      ],
+      "connects": [
+        "biology",
+        "science"
+      ],
+      "adultNote": "Level 2 of the human biology strand. Link each system to healthy habits (breathing and exercise, digestion and fibre, immune system and handwashing and vaccines)."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-cells-hormones-genes",
+      "kind": "lesson",
+      "subject": "human biology",
+      "title": "Cells, hormones and genes",
+      "emoji": "🧬",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Your body is made of trillions of cells. Hormones send chemical messages between them, and genes hold the instructions for building you.",
+      "steps": [
+        "Cells are the smallest living units. Similar cells form tissues, tissues form organs, organs form systems.",
+        "Inside most cells, DNA holds genes: instructions for making proteins. You get half your DNA from each biological parent.",
+        "Hormones are chemical messengers made by glands. Insulin controls blood sugar, adrenaline prepares you for action, and sex hormones drive puberty.",
+        "Metabolism is all the chemical reactions that keep you alive, including turning food into energy.",
+        "Neurons are nerve cells that pass electrical and chemical signals. The teenage brain is still developing, especially the parts for planning and judging risk.",
+        "Make a chain diagram: cell, tissue, organ, system, organism. Give an example for each."
+      ],
+      "practical": false,
+      "check": [
+        {
+          "question": "What is a hormone?",
+          "options": [
+            "A chemical messenger",
+            "A type of bone",
+            "A germ"
+          ],
+          "answer": 0,
+          "explain": "Correct. Hormones carry messages in the blood."
+        }
+      ],
+      "sources": [
+        {
+          "title": "KidsHealth for teens",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/teens/"
+        },
+        {
+          "title": "Health topics",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics"
+        }
+      ],
+      "competencies": [
+        "hl-explain-body-systems"
+      ],
+      "skills": [
+        {
+          "tree": "hl-inside-my-body",
+          "node": "cells-and-hormones"
+        }
+      ],
+      "interests": [
+        "body",
+        "medicine"
+      ],
+      "languageHooks": [
+        "science",
+        "body"
+      ],
+      "connects": [
+        "biology",
+        "chemistry"
+      ],
+      "adultNote": "Level 3 of the human biology strand. Good link to the growing-up modules if they are switched on."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-public-health-epidemiology",
+      "kind": "lesson",
+      "subject": "public health",
+      "title": "Public health: how diseases spread and how we stop them",
+      "emoji": "📊",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 30,
+      "summary": "Epidemiology is the study of how health and disease spread in populations. Public health uses it to protect whole communities.",
+      "steps": [
+        "Diseases spread in different ways: through the air, water, food, touch, insects or blood.",
+        "Public health measures include clean water, sanitation, handwashing, vaccination, safe food and mosquito control.",
+        "Herd (community) immunity: when enough people are vaccinated, a disease struggles to spread, which protects people who cannot be vaccinated.",
+        "Epidemiologists count cases and compare groups to find causes. Correlation is not the same as causation.",
+        "Classic story: in 1854, John Snow mapped cholera cases in London and traced them to a contaminated water pump.",
+        "Try it: make a tally of colds in your household or class over a month and graph them. What patterns do you see?"
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Vaccines and immunization",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics/vaccines-and-immunization"
+        },
+        {
+          "title": "About CDC and public health",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/"
+        },
+        {
+          "title": "Health topics",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics"
+        }
+      ],
+      "competencies": [
+        "hl-check-health-info"
+      ],
+      "skills": [
+        {
+          "tree": "hl-inside-my-body",
+          "node": "public-health"
+        },
+        {
+          "tree": "hl-health",
+          "node": "health-literacy"
+        }
+      ],
+      "interests": [
+        "medicine"
+      ],
+      "languageHooks": [
+        "science",
+        "maths",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "history",
+        "biology"
+      ],
+      "adultNote": "Advanced human biology strand: epidemiology, microbiology and public health. Use personal data only anonymously."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-check-health-info",
+      "kind": "activity",
+      "subject": "health literacy",
+      "title": "Can I trust this health advice?",
+      "emoji": "🔍",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 25,
+      "summary": "There is a lot of health information online, and some of it is wrong. Learn how to check whether health advice is trustworthy.",
+      "steps": [
+        "Who wrote it? Public health bodies, hospitals and universities are usually more reliable than adverts or anonymous posts.",
+        "Is someone selling something? Be careful of \"miracle cures\" and products promising quick results.",
+        "Is it recent, and does it say where the evidence comes from?",
+        "Do other reliable sources (for example WHO or your national health service) say the same thing?",
+        "Does it tell you to stop medicine or avoid doctors? That is a red flag.",
+        "Find one health claim online and check it with these steps. Share what you found.",
+        "For your own health questions, check with a doctor, nurse or pharmacist."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Health topics",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics"
+        },
+        {
+          "title": "GP services",
+          "publisher": "NHS",
+          "url": "https://www.nhs.uk/nhs-services/gps/"
+        }
+      ],
+      "competencies": [
+        "hl-check-health-info"
+      ],
+      "skills": [
+        {
+          "tree": "hl-health",
+          "node": "health-literacy"
+        }
+      ],
+      "interests": [
+        "medicine"
+      ],
+      "languageHooks": [
+        "science"
+      ],
+      "connects": [
+        "technology-ai",
+        "critical-thinking"
+      ],
+      "adultNote": "Builds health literacy and evidence evaluation (brief section 40, intellectual competence). Never use online information to self-diagnose; talk to a health professional."
+    },
+    {
+      "area": "health",
+      "reviewStatus": "awaiting-medical-review",
+      "id": "hl-germs-and-vaccines",
+      "kind": "lesson",
+      "subject": "human biology",
+      "title": "Germs, my immune system and vaccines",
+      "emoji": "🦠",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Germs are tiny living things too small to see. Most are harmless, but some can make us ill. Your immune system is your body's defence team.",
+      "steps": [
+        "Germs include bacteria and viruses. They are so small you need a microscope to see them.",
+        "Germs can spread by coughs and sneezes, dirty hands, unsafe water and food.",
+        "Catch coughs and sneezes in a tissue or your elbow, bin the tissue, and wash your hands.",
+        "Your immune system includes white blood cells that find and fight germs. A fever can be part of this fight.",
+        "Vaccines teach your immune system to recognise a germ without you getting ill first.",
+        "Draw your immune system as a team of defenders protecting your body castle."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Vaccines and immunization",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics/vaccines-and-immunization"
+        },
+        {
+          "title": "Clean hands",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/clean-hands/"
+        },
+        {
+          "title": "KidsHealth for kids",
+          "publisher": "Nemours KidsHealth",
+          "url": "https://kidshealth.org/en/kids/"
+        }
+      ],
+      "competencies": [
+        "hl-explain-body-systems",
+        "hl-handwashing"
+      ],
+      "skills": [
+        {
+          "tree": "hl-inside-my-body",
+          "node": "body-systems"
+        },
+        {
+          "tree": "hl-health",
+          "node": "hygiene"
+        }
+      ],
+      "interests": [
+        "body",
+        "medicine"
+      ],
+      "languageHooks": [
+        "body",
+        "science"
+      ],
+      "connects": [
+        "science"
+      ],
+      "adultNote": "Check your national vaccination schedule with your doctor or health service. A child who is very unwell, floppy, hard to wake or has a rash that does not fade under pressure needs urgent medical help."
+    }
+  ]
+}

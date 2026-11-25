@@ -1,0 +1,2627 @@
+{
+  "area": "core-academics",
+  "title": "Core Academics",
+  "emoji": "📚",
+  "description": "Mathematics, reading and writing, science (physics, chemistry, biology and the human body), geography, history and economics basics, taught through everyday life at home.",
+  "skillTrees": [
+    {
+      "id": "ac-maths",
+      "area": "core-academics",
+      "title": "Mathematics",
+      "emoji": "🔢",
+      "nodes": [
+        {
+          "id": "counting",
+          "title": "Counting",
+          "description": "Count objects and know that the last number tells how many."
+        },
+        {
+          "id": "shapes",
+          "title": "Shapes and patterns",
+          "description": "Name flat and solid shapes and spot patterns."
+        },
+        {
+          "id": "operations",
+          "title": "Adding and taking away",
+          "description": "Add, subtract, multiply and divide with real things."
+        },
+        {
+          "id": "measurement",
+          "title": "Measuring and estimating",
+          "description": "Measure length, mass, time and volume and make good guesses first."
+        },
+        {
+          "id": "fractions",
+          "title": "Fractions and ratios",
+          "description": "Halves, quarters, equivalent fractions and scaling amounts."
+        },
+        {
+          "id": "algebra",
+          "title": "Algebra",
+          "description": "Use letters for unknown numbers and solve simple equations."
+        },
+        {
+          "id": "functions",
+          "title": "Functions and graphs",
+          "description": "Describe how one quantity changes with another and draw it."
+        },
+        {
+          "id": "applied",
+          "title": "Applied mathematics",
+          "description": "Use maths to model real problems such as energy, money and health data."
+        }
+      ]
+    },
+    {
+      "id": "ac-reading",
+      "area": "core-academics",
+      "title": "Reading and writing",
+      "emoji": "📖",
+      "nodes": [
+        {
+          "id": "letter-sounds",
+          "title": "Letter sounds",
+          "description": "Hear and say the sounds that letters make."
+        },
+        {
+          "id": "words",
+          "title": "Reading words",
+          "description": "Blend sounds into words and recognise common words."
+        },
+        {
+          "id": "stories",
+          "title": "Reading stories",
+          "description": "Read short stories and retell what happened."
+        },
+        {
+          "id": "comprehension",
+          "title": "Understanding texts",
+          "description": "Find information, make predictions and explain ideas from a text."
+        },
+        {
+          "id": "paragraphs",
+          "title": "Writing paragraphs",
+          "description": "Write a clear paragraph with a main idea and details."
+        },
+        {
+          "id": "argument",
+          "title": "Writing to persuade",
+          "description": "Make a point, give reasons and evidence, and answer the other side."
+        },
+        {
+          "id": "essays",
+          "title": "Essays and reports",
+          "description": "Plan and write structured essays and lab reports."
+        }
+      ]
+    },
+    {
+      "id": "ac-science",
+      "area": "core-academics",
+      "title": "Science",
+      "emoji": "🔬",
+      "nodes": [
+        {
+          "id": "observe",
+          "title": "Observing",
+          "description": "Look closely, describe and ask what will happen."
+        },
+        {
+          "id": "materials",
+          "title": "Materials",
+          "description": "Sort materials by what they are like: hard, soft, floats, sinks."
+        },
+        {
+          "id": "fair-test",
+          "title": "Fair tests",
+          "description": "Change one thing at a time and record results."
+        },
+        {
+          "id": "forces",
+          "title": "Forces and motion",
+          "description": "Pushes, pulls, friction and gravity."
+        },
+        {
+          "id": "chemistry",
+          "title": "Chemical changes",
+          "description": "Acids, bases and reactions you can see at home."
+        },
+        {
+          "id": "energy",
+          "title": "Energy and electricity",
+          "description": "Energy, power and how electricity use is measured."
+        },
+        {
+          "id": "scientific-method",
+          "title": "Scientific method",
+          "description": "Hypothesis, method, results, conclusion and reporting."
+        }
+      ]
+    },
+    {
+      "id": "ac-body-biology",
+      "area": "core-academics",
+      "title": "Body and human biology",
+      "emoji": "🫀",
+      "nodes": [
+        {
+          "id": "body-parts",
+          "title": "Body parts",
+          "description": "Head, eyes, ears, nose, mouth, heart, lungs, stomach, bones, muscles and skin."
+        },
+        {
+          "id": "skeleton-muscles",
+          "title": "Skeleton and muscles",
+          "description": "How bones hold us up and muscles move us."
+        },
+        {
+          "id": "heart-lungs",
+          "title": "Heart and lungs",
+          "description": "The circulatory and respiratory systems working together."
+        },
+        {
+          "id": "body-systems",
+          "title": "Body systems",
+          "description": "Digestive, nervous and immune systems and how systems cooperate."
+        },
+        {
+          "id": "cells-organs",
+          "title": "Cells, tissues and organs",
+          "description": "Levels of organisation from cell to organism."
+        },
+        {
+          "id": "genetics",
+          "title": "Genetics",
+          "description": "Genes, DNA and how traits are inherited."
+        },
+        {
+          "id": "physiology",
+          "title": "Physiology",
+          "description": "Homeostasis, hormones and how the body keeps balance."
+        },
+        {
+          "id": "public-health",
+          "title": "Epidemiology and public health",
+          "description": "How diseases spread in populations and how communities stay healthy."
+        },
+        {
+          "id": "nutrition-science",
+          "title": "Nutrition science",
+          "description": "Nutrients, energy and what the evidence says about healthy diets."
+        }
+      ]
+    },
+    {
+      "id": "ac-geography",
+      "area": "core-academics",
+      "title": "Maps and geography",
+      "emoji": "🗺️",
+      "nodes": [
+        {
+          "id": "my-place",
+          "title": "My place",
+          "description": "Describe where things are using words like near, far, left and right."
+        },
+        {
+          "id": "simple-maps",
+          "title": "Simple maps",
+          "description": "Draw and use a bird's-eye map of a room or street."
+        },
+        {
+          "id": "world-map",
+          "title": "World map",
+          "description": "Continents, oceans, compass directions and keys."
+        },
+        {
+          "id": "coordinates",
+          "title": "Grid references and scale",
+          "description": "Find places with grids, latitude and longitude, and use scale."
+        },
+        {
+          "id": "human-geography",
+          "title": "People and places",
+          "description": "Why people live, trade and travel where they do."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "ac-count-to-20",
+      "area": "core-academics",
+      "group": "academic",
+      "title": "Can count 20 objects",
+      "emoji": "🔢"
+    },
+    {
+      "id": "ac-measure-estimate",
+      "area": "core-academics",
+      "group": "practical",
+      "title": "Can measure and estimate",
+      "emoji": "📏",
+      "target": 5
+    },
+    {
+      "id": "ac-read-map",
+      "area": "core-academics",
+      "group": "global",
+      "title": "Can read a map",
+      "emoji": "🗺️"
+    },
+    {
+      "id": "ac-read-book-alone",
+      "area": "core-academics",
+      "group": "academic",
+      "title": "Can read a short book alone",
+      "emoji": "📖",
+      "target": 5
+    },
+    {
+      "id": "ac-fractions-in-recipes",
+      "area": "core-academics",
+      "group": "academic",
+      "title": "Can use fractions to scale a recipe",
+      "emoji": "🥣"
+    },
+    {
+      "id": "ac-explain-body-systems",
+      "area": "core-academics",
+      "group": "academic",
+      "title": "Can explain how the main body systems work together",
+      "emoji": "🫀"
+    },
+    {
+      "id": "ac-build-timeline",
+      "area": "core-academics",
+      "group": "academic",
+      "title": "Can build a historical timeline",
+      "emoji": "🕰️"
+    },
+    {
+      "id": "ac-solve-equations",
+      "area": "core-academics",
+      "group": "academic",
+      "title": "Can solve simple equations",
+      "emoji": "✖️"
+    },
+    {
+      "id": "ac-write-essay",
+      "area": "core-academics",
+      "group": "academic",
+      "title": "Can write a structured essay",
+      "emoji": "✍️"
+    },
+    {
+      "id": "ac-lab-report",
+      "area": "core-academics",
+      "group": "intellectual",
+      "title": "Can write a science lab report",
+      "emoji": "🧪"
+    },
+    {
+      "id": "ac-household-electricity",
+      "area": "core-academics",
+      "group": "practical",
+      "title": "Can calculate household electricity consumption",
+      "emoji": "💡"
+    },
+    {
+      "id": "ac-explain-supply-demand",
+      "area": "core-academics",
+      "group": "academic",
+      "title": "Can explain supply and demand",
+      "emoji": "⚖️"
+    }
+  ],
+  "items": [
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-count-to-20"
+      ],
+      "skills": [
+        {
+          "tree": "ac-maths",
+          "node": "counting"
+        }
+      ],
+      "interests": [
+        "animals"
+      ],
+      "id": "ac-count-the-toys",
+      "kind": "activity",
+      "subject": "mathematics",
+      "title": "Count the toys",
+      "emoji": "🧸",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Let us count toys, one by one!",
+      "steps": [
+        "Put five toys in a row.",
+        "Touch each toy and say a number: one, two, three...",
+        "How many toys? Say the last number again.",
+        "Add one more toy. Count again!"
+      ],
+      "practical": false,
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "languages"
+      ],
+      "check": [
+        {
+          "question": "You count 1, 2, 3. How many toys are there?",
+          "options": [
+            "2",
+            "3",
+            "1"
+          ],
+          "answer": 1,
+          "explain": "Yes! The last number you say tells how many."
+        },
+        {
+          "question": "You add one more to 3 toys. Now there are...",
+          "options": [
+            "4",
+            "2"
+          ],
+          "answer": 0,
+          "explain": "One more than 3 is 4. Well done!"
+        }
+      ],
+      "adultNote": "Any small objects work: spoons, stones, pegs. Use items too big to swallow. Let the child touch each one as they count."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "ac-maths",
+          "node": "shapes"
+        }
+      ],
+      "interests": [
+        "drawing",
+        "building"
+      ],
+      "id": "ac-shape-hunt",
+      "kind": "activity",
+      "subject": "mathematics",
+      "title": "Shape hunt",
+      "emoji": "🔺",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Find circles, squares and triangles at home.",
+      "steps": [
+        "Look at a plate. It is a circle!",
+        "Find a square. Maybe a window or a cushion?",
+        "Find a triangle. Look at a slice of bread cut in half.",
+        "Draw one shape in the air with your finger."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "shapes",
+        "kitchen"
+      ],
+      "check": [
+        {
+          "question": "A plate is round. What shape is it?",
+          "options": [
+            "Circle",
+            "Square",
+            "Triangle"
+          ],
+          "answer": 0,
+          "explain": "Yes, a plate is a circle."
+        },
+        {
+          "question": "How many sides does a triangle have?",
+          "options": [
+            "3",
+            "4"
+          ],
+          "answer": 0,
+          "explain": "A triangle has 3 sides. Count them with your finger!"
+        }
+      ],
+      "adultNote": "Name shapes as you see them during the day. Corners and sides are good words to introduce."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "ac-body-biology",
+          "node": "body-parts"
+        }
+      ],
+      "interests": [
+        "animals"
+      ],
+      "id": "ac-my-body-parts",
+      "kind": "lesson",
+      "subject": "biology",
+      "title": "My body parts",
+      "emoji": "👀",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Eyes see. Ears hear. My heart goes thump!",
+      "steps": [
+        "Touch your head.",
+        "Point to your eyes, ears, nose and mouth.",
+        "What do eyes do? They see!",
+        "Put a hand on your chest. Your heart pumps and your lungs breathe.",
+        "Squeeze your arm. Bones are hard inside. Muscles help you move."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "body"
+      ],
+      "connects": [
+        "health"
+      ],
+      "check": [
+        {
+          "question": "What do we use to hear?",
+          "options": [
+            "Ears",
+            "Nose",
+            "Feet"
+          ],
+          "answer": 0,
+          "explain": "Yes! Ears help us hear."
+        },
+        {
+          "question": "What pumps inside your chest?",
+          "options": [
+            "Heart",
+            "Stomach"
+          ],
+          "answer": 0,
+          "explain": "Your heart pumps blood all day and night."
+        },
+        {
+          "question": "What is hard inside your arm?",
+          "options": [
+            "Bones",
+            "Skin"
+          ],
+          "answer": 0,
+          "explain": "Bones are hard. They hold you up."
+        }
+      ],
+      "adultNote": "Covers brief section 6 level 1: head, eyes, ears, nose, mouth, heart, lungs, stomach, bones, muscles, skin. Sing a \"touch your...\" song to make it a game."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "ac-reading",
+          "node": "letter-sounds"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "id": "ac-letter-sounds",
+      "kind": "activity",
+      "subject": "reading",
+      "title": "Sound of the day",
+      "emoji": "🔤",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Every letter makes a sound. Let us find one!",
+      "steps": [
+        "Adult says a sound, like \"mmm\".",
+        "Say it together: mmm.",
+        "Find things that start with mmm: mum, milk, moon.",
+        "Draw the letter in the air, then in sand or on paper."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "family",
+        "food"
+      ],
+      "check": [
+        {
+          "question": "Which word starts with \"mmm\"?",
+          "options": [
+            "Moon",
+            "Sun",
+            "Cat"
+          ],
+          "answer": 0,
+          "explain": "Moon starts with mmm. Great listening!"
+        },
+        {
+          "question": "Which word starts with \"sss\"?",
+          "options": [
+            "Dog",
+            "Sock"
+          ],
+          "answer": 1,
+          "explain": "Sock starts with sss, like a snake."
+        }
+      ],
+      "adultNote": "Say the letter sound (mmm), not the letter name (em). One sound a day is plenty."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "ac-science",
+          "node": "observe"
+        },
+        {
+          "tree": "ac-science",
+          "node": "materials"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "id": "ac-sink-or-float",
+      "kind": "activity",
+      "subject": "science",
+      "title": "Sink or float?",
+      "emoji": "🛁",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 20,
+      "summary": "Will it sink? Will it float? Let us guess and see.",
+      "steps": [
+        "Fill a bowl with water. An adult helps.",
+        "Pick a spoon, a leaf, a cork and a stone.",
+        "Guess: sink or float?",
+        "Drop it in gently. Watch!",
+        "Was your guess right? Try one more thing."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Water spills and slippery floor",
+          "Small objects can be swallowed"
+        ],
+        "notes": "Use a shallow bowl, not a bath or bucket. An adult stays close: young children must never be left alone with water. Use objects too big to swallow and wipe spills straight away."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Bowl of water",
+            "Spoon, leaf, stone, bottle cap"
+          ],
+          "description": "Test four things from around the home and sort them into two piles."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "Clear plastic tub",
+            "Modelling dough",
+            "Foil"
+          ],
+          "description": "Make a ball of foil, then flatten it into a boat. Does the shape change sink or float?"
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Clear tank or large jar",
+            "Kitchen scale",
+            "Salt"
+          ],
+          "description": "Add salt to the water and see if an egg that sank now floats. Record results in a table."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Clear tub",
+          "use": "Any bowl, pot or the kitchen sink with a little water"
+        }
+      ],
+      "languageHooks": [
+        "science",
+        "kitchen"
+      ],
+      "connects": [
+        "physics"
+      ],
+      "check": [
+        {
+          "question": "A stone in water will...",
+          "options": [
+            "Sink",
+            "Float"
+          ],
+          "answer": 0,
+          "explain": "Stones are heavy for their size, so they sink."
+        },
+        {
+          "question": "A leaf in water will...",
+          "options": [
+            "Sink",
+            "Float"
+          ],
+          "answer": 1,
+          "explain": "A leaf is light and flat, so it floats."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-count-to-20"
+      ],
+      "skills": [
+        {
+          "tree": "ac-maths",
+          "node": "operations"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "id": "ac-add-and-take-away",
+      "kind": "lesson",
+      "subject": "mathematics",
+      "title": "Adding and taking away with fruit",
+      "emoji": "🍎",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Use real fruit (or pictures) to add and take away.",
+      "steps": [
+        "Put 4 pieces of fruit on the table.",
+        "Add 3 more. Count them all. 4 + 3 = 7.",
+        "Now eat (or move away) 2. How many left? 7 - 2 = 5.",
+        "Write each number sentence on paper.",
+        "Make up your own for someone else to solve."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "numbers",
+        "fruit"
+      ],
+      "connects": [
+        "cooking"
+      ],
+      "check": [
+        {
+          "question": "5 + 3 = ?",
+          "options": [
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": 1,
+          "explain": "Count on from 5: 6, 7, 8."
+        },
+        {
+          "question": "You have 6 apples and give away 2. How many are left?",
+          "options": [
+            "4",
+            "8"
+          ],
+          "answer": 0,
+          "explain": "6 take away 2 is 4."
+        },
+        {
+          "question": "Which is the same as 3 + 4?",
+          "options": [
+            "4 + 3",
+            "4 - 3"
+          ],
+          "answer": 0,
+          "explain": "You can add numbers in any order and get the same answer."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-measure-estimate"
+      ],
+      "skills": [
+        {
+          "tree": "ac-maths",
+          "node": "measurement"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "building"
+      ],
+      "id": "ac-measure-my-bike",
+      "kind": "activity",
+      "subject": "mathematics",
+      "title": "Measure a bicycle",
+      "emoji": "🚲",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 25,
+      "summary": "Guess, then measure a bike wheel, the frame and the handlebars.",
+      "steps": [
+        "Guess how wide the wheel is. Write your guess.",
+        "Measure the wheel from edge to edge with a tape or string.",
+        "Measure the handlebars and the seat height.",
+        "Put a chalk mark on the tyre. Roll the bike one full turn and measure how far it went.",
+        "Compare your guesses with the real numbers. Which guess was closest?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Bike can tip over onto feet",
+          "Fingers near spokes and chain"
+        ],
+        "notes": "Keep the bike standing still, leaning on a wall or held by a helper. Never put fingers in the spokes or chain. Roll the bike by walking it, not riding it, on flat ground away from traffic."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Any bicycle",
+            "String",
+            "A stick or ruler marked in hand-spans"
+          ],
+          "description": "Measure with string, then lay the string along a ruler or count hand-spans."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Tape measure",
+            "Chalk",
+            "Notebook"
+          ],
+          "description": "Measure in centimetres and record every measurement in a table."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Tape measure",
+            "Chalk",
+            "Calculator"
+          ],
+          "description": "Measure the distance of one wheel turn, then work out how many turns it takes to travel 100 metres."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Bicycle",
+          "use": "A toy car, pram, scooter or any wheel at home"
+        },
+        {
+          "instead": "Tape measure",
+          "use": "String plus a ruler, or a sheet of paper (about 30 cm long)"
+        }
+      ],
+      "languageHooks": [
+        "numbers",
+        "tools"
+      ],
+      "connects": [
+        "physics",
+        "bicycle maintenance"
+      ],
+      "check": [
+        {
+          "question": "Why do we guess before we measure?",
+          "options": [
+            "To practise estimating",
+            "Because measuring is wrong"
+          ],
+          "answer": 0,
+          "explain": "Good estimators can spot when a measurement looks wrong."
+        },
+        {
+          "question": "A bigger wheel goes ___ in one turn.",
+          "options": [
+            "further",
+            "less far"
+          ],
+          "answer": 0,
+          "explain": "A bigger wheel has a longer edge, so it rolls further each turn."
+        }
+      ],
+      "adultNote": "Pairs well with the bicycle pathway (measurement, forces, gears). Any wheel works if there is no bicycle."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-explain-body-systems"
+      ],
+      "skills": [
+        {
+          "tree": "ac-body-biology",
+          "node": "skeleton-muscles"
+        }
+      ],
+      "interests": [
+        "sport",
+        "animals"
+      ],
+      "id": "ac-bones-and-muscles",
+      "kind": "lesson",
+      "subject": "biology",
+      "title": "Bones and muscles",
+      "emoji": "🦴",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Your skeleton holds you up. Your muscles pull your bones to move.",
+      "steps": [
+        "Feel the bones in your hand. How many can you find?",
+        "Bend your arm. Feel the muscle on top get fat and hard. It is pulling!",
+        "Straighten your arm. Now the muscle underneath pulls.",
+        "Draw a stick skeleton and label skull, ribs, spine and leg bones.",
+        "Talk about it: why does a skeleton need joints?"
+      ],
+      "practical": false,
+      "languageHooks": [
+        "body"
+      ],
+      "connects": [
+        "physical education"
+      ],
+      "check": [
+        {
+          "question": "What protects your heart and lungs?",
+          "options": [
+            "Ribs",
+            "Toes",
+            "Hair"
+          ],
+          "answer": 0,
+          "explain": "Your ribs make a strong cage around your heart and lungs."
+        },
+        {
+          "question": "Muscles move bones by...",
+          "options": [
+            "pulling",
+            "pushing"
+          ],
+          "answer": 0,
+          "explain": "Muscles can only pull. That is why they work in pairs."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-read-book-alone"
+      ],
+      "skills": [
+        {
+          "tree": "ac-reading",
+          "node": "stories"
+        }
+      ],
+      "interests": [
+        "stories",
+        "drawing"
+      ],
+      "id": "ac-read-and-retell",
+      "kind": "activity",
+      "subject": "reading",
+      "title": "Read it, retell it",
+      "emoji": "📗",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Read a short story, then tell it back in your own words.",
+      "steps": [
+        "Choose a short story book or a free online story.",
+        "Read it aloud, or take turns with an adult.",
+        "Close the book. Tell what happened at the beginning, middle and end.",
+        "Who was your favourite character? Why?",
+        "Draw one picture of the best part."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "family",
+        "feelings"
+      ],
+      "check": [
+        {
+          "question": "A story usually has a beginning, a middle and...",
+          "options": [
+            "an end",
+            "a cover"
+          ],
+          "answer": 0,
+          "explain": "Beginning, middle and end help you remember the story."
+        },
+        {
+          "question": "Retelling means...",
+          "options": [
+            "saying the story in your own words",
+            "reading it again silently"
+          ],
+          "answer": 0,
+          "explain": "Using your own words shows you understood it."
+        }
+      ],
+      "adultNote": "Public libraries and free legal digital libraries are fine sources. Re-reading favourite books is good practice too."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-read-map"
+      ],
+      "skills": [
+        {
+          "tree": "ac-geography",
+          "node": "my-place"
+        },
+        {
+          "tree": "ac-geography",
+          "node": "simple-maps"
+        }
+      ],
+      "interests": [
+        "drawing",
+        "building"
+      ],
+      "id": "ac-map-my-room",
+      "kind": "activity",
+      "subject": "geography",
+      "title": "Map my room",
+      "emoji": "🗺️",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 25,
+      "summary": "Draw your room as a bird sees it from above.",
+      "steps": [
+        "Stand in the doorway and look around.",
+        "Draw the shape of the room on paper.",
+        "Add the bed, door and window as simple boxes, seen from above.",
+        "Make a key: a small picture for each thing.",
+        "Hide a toy, mark it with an X, and let someone find it with your map."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "geography",
+        "shapes"
+      ],
+      "check": [
+        {
+          "question": "A map is usually drawn as if you are looking...",
+          "options": [
+            "from above",
+            "from the side"
+          ],
+          "answer": 0,
+          "explain": "Maps show a bird's-eye view."
+        },
+        {
+          "question": "What does a map key tell you?",
+          "options": [
+            "What the symbols mean",
+            "How to open the door"
+          ],
+          "answer": 0,
+          "explain": "The key explains each symbol on the map."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [],
+      "skills": [],
+      "interests": [
+        "money"
+      ],
+      "id": "ac-needs-and-wants",
+      "kind": "lesson",
+      "subject": "economics",
+      "title": "Needs, wants and swaps",
+      "emoji": "🛒",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Some things we need. Some things we just want. People swap and trade to get them.",
+      "steps": [
+        "List 5 things your family buys.",
+        "Sort them: needs (food, water, home) and wants (toys, treats).",
+        "Play a swap game: trade a drawing for a snack with someone at home.",
+        "Talk about it: why do people use money instead of swapping?"
+      ],
+      "practical": false,
+      "languageHooks": [
+        "food",
+        "family"
+      ],
+      "connects": [
+        "financial literacy"
+      ],
+      "check": [
+        {
+          "question": "Which is a need?",
+          "options": [
+            "Clean water",
+            "A new toy"
+          ],
+          "answer": 0,
+          "explain": "We need water to live. A toy is a want."
+        },
+        {
+          "question": "Why is money useful?",
+          "options": [
+            "It is easier than finding someone to swap with",
+            "It grows on trees"
+          ],
+          "answer": 0,
+          "explain": "Money lets you trade with anyone, not just someone who wants your thing."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-fractions-in-recipes",
+        "ac-measure-estimate"
+      ],
+      "skills": [
+        {
+          "tree": "ac-maths",
+          "node": "fractions"
+        },
+        {
+          "tree": "ac-maths",
+          "node": "measurement"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "id": "ac-fractions-with-recipes",
+      "kind": "activity",
+      "subject": "mathematics",
+      "title": "Fractions with recipes",
+      "emoji": "🥣",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 30,
+      "summary": "Halve or double a simple no-cook recipe using fractions.",
+      "steps": [
+        "Wash your hands and choose a no-cook recipe, like oat and fruit pots.",
+        "Read the amounts: for example 1 cup oats, 1/2 cup milk, 1/4 cup raisins.",
+        "Work out half of each amount. Half of 1/2 is 1/4. Half of 1/4 is 1/8.",
+        "Work out double each amount for a bigger family.",
+        "Measure your half or double version with cups or spoons and make it.",
+        "Check: does it taste the same? It should, because the fractions stayed in the same proportion."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Food allergies",
+          "Germs from unwashed hands"
+        ],
+        "notes": "This version uses no knives and no heat. Wash hands first and check allergies with an adult before choosing ingredients. If the recipe needs cutting or cooking, an adult does that part."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "A cup or mug",
+            "A spoon",
+            "Oats or rice, water"
+          ],
+          "description": "Practise scaling with a cup and spoon using dry oats or rice, then pour it back."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Measuring cups and spoons",
+            "Oats, milk, dried fruit"
+          ],
+          "description": "Make a half batch and a double batch of a no-cook recipe and compare."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Kitchen scale",
+            "Recipe ingredients",
+            "Notebook"
+          ],
+          "description": "Convert cups to grams, scale the recipe for 3 people (1.5 times) and write the new recipe card."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Measuring cups",
+          "use": "The same mug for every ingredient, plus a tablespoon"
+        },
+        {
+          "instead": "Kitchen scale",
+          "use": "Use the weight printed on the packet and divide the packet into equal parts"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics/food-safety"
+        }
+      ],
+      "languageHooks": [
+        "numbers",
+        "food",
+        "kitchen"
+      ],
+      "connects": [
+        "cooking"
+      ],
+      "check": [
+        {
+          "question": "Half of 1/2 cup is...",
+          "options": [
+            "1/4 cup",
+            "1 cup",
+            "1/3 cup"
+          ],
+          "answer": 0,
+          "explain": "Split a half into two equal parts and each is a quarter."
+        },
+        {
+          "question": "Double 3/4 cup is...",
+          "options": [
+            "1 1/2 cups",
+            "1 cup",
+            "3/8 cup"
+          ],
+          "answer": 0,
+          "explain": "3/4 + 3/4 = 6/4 = 1 2/4 = 1 1/2."
+        },
+        {
+          "question": "Why does the half batch taste the same?",
+          "options": [
+            "Every ingredient was halved, so the proportions stayed the same",
+            "Because it is smaller"
+          ],
+          "answer": 0,
+          "explain": "Scaling every amount by the same fraction keeps the recipe in balance."
+        }
+      ],
+      "adultNote": "Tutor tip from the brief: connect fractions to recipes for children who love cooking. Let the child do all the maths before measuring."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-explain-body-systems",
+        "ac-measure-estimate"
+      ],
+      "skills": [
+        {
+          "tree": "ac-body-biology",
+          "node": "heart-lungs"
+        }
+      ],
+      "interests": [
+        "sport"
+      ],
+      "id": "ac-heart-and-lungs-pulse",
+      "kind": "activity",
+      "subject": "biology",
+      "title": "Heart, lungs and your pulse",
+      "emoji": "🫀",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 25,
+      "summary": "Find your pulse, then see how exercise changes your heart and breathing.",
+      "steps": [
+        "Sit still. Find your pulse on your wrist below the thumb with two fingers.",
+        "Count the beats for 15 seconds and multiply by 4. That is beats per minute.",
+        "Count your breaths in one minute.",
+        "Do 30 seconds of gentle star jumps or marching.",
+        "Count pulse and breaths again. What changed? Why?",
+        "Learn: the heart pumps blood carrying oxygen from the lungs to your muscles."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Dizziness or breathlessness from exercise",
+          "Slipping during jumps"
+        ],
+        "notes": "Exercise gently on a non-slip floor with space around you. Stop if you feel dizzy, unwell or have pain, and tell an adult. Learners with a heart or breathing condition should follow their own doctor's advice."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "A clock or counting aloud in seconds"
+          ],
+          "description": "Count pulse and breaths before and after marching on the spot."
+        },
+        "better": {
+          "cost": "Under 2 USD",
+          "materials": [
+            "Timer",
+            "Paper and pencil"
+          ],
+          "description": "Record pulse every minute after exercise until it returns to resting and draw a line graph."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Homemade stethoscope (funnel and tube)",
+            "Timer"
+          ],
+          "description": "Listen to the heartbeat with a funnel-and-tube stethoscope and compare results across family members."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Stopwatch",
+          "use": "Count \"one-thousand-one, one-thousand-two\" for seconds, or use any phone clock"
+        }
+      ],
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "physical education",
+        "health",
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "After exercise your pulse usually...",
+          "options": [
+            "goes up",
+            "goes down",
+            "stops"
+          ],
+          "answer": 0,
+          "explain": "Muscles need more oxygen, so the heart pumps faster."
+        },
+        {
+          "question": "You count 20 beats in 15 seconds. Beats per minute?",
+          "options": [
+            "80",
+            "35",
+            "60"
+          ],
+          "answer": 0,
+          "explain": "20 x 4 = 80 beats per minute."
+        },
+        {
+          "question": "Which organ takes oxygen into the blood?",
+          "options": [
+            "Lungs",
+            "Stomach"
+          ],
+          "answer": 0,
+          "explain": "The lungs pass oxygen into the blood; the heart pumps it around."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-measure-estimate"
+      ],
+      "skills": [
+        {
+          "tree": "ac-science",
+          "node": "fair-test"
+        },
+        {
+          "tree": "ac-science",
+          "node": "forces"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "building",
+        "sport"
+      ],
+      "id": "ac-friction-ramp",
+      "kind": "activity",
+      "subject": "physics",
+      "title": "Friction ramp race",
+      "emoji": "🛝",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 30,
+      "summary": "Roll a toy car down a ramp onto different surfaces. Which surface stops it fastest?",
+      "steps": [
+        "Make a ramp with a board or a big book propped on other books.",
+        "Roll a toy car from the same spot each time.",
+        "Measure how far it travels on a smooth floor, a towel and a rug.",
+        "Keep everything else the same: same car, same start, same ramp height. That makes it a fair test.",
+        "Record results in a table and say which surface has the most friction."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Ramp or books falling on toes",
+          "Tripping over the setup"
+        ],
+        "notes": "Build the ramp low and steady on the floor. Keep the area clear so nobody trips."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Big book or board",
+            "Any rolling toy, bottle or can",
+            "Towel"
+          ],
+          "description": "Compare two surfaces and measure distance in foot-lengths."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Cardboard ramp",
+            "Toy car",
+            "Tape measure",
+            "Sandpaper"
+          ],
+          "description": "Test four surfaces, repeat each three times and average the results."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "Toy car",
+            "Protractor",
+            "Timer",
+            "Tape measure"
+          ],
+          "description": "Change ramp angle as a second experiment and graph angle against distance."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Toy car",
+          "use": "A round can, bottle or ball"
+        },
+        {
+          "instead": "Tape measure",
+          "use": "Foot-lengths or string marked every 10 cm"
+        }
+      ],
+      "languageHooks": [
+        "science",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "bicycle maintenance"
+      ],
+      "check": [
+        {
+          "question": "Which surface usually has the most friction?",
+          "options": [
+            "Rug",
+            "Smooth floor"
+          ],
+          "answer": 0,
+          "explain": "Rough, bumpy surfaces grip more and slow things down."
+        },
+        {
+          "question": "In a fair test you change...",
+          "options": [
+            "only one thing",
+            "everything at once"
+          ],
+          "answer": 0,
+          "explain": "Change one thing so you know what caused the result."
+        }
+      ],
+      "adultNote": "Link to bicycles: brakes and tyres use friction. Ask why bike tyres have tread."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-read-map"
+      ],
+      "skills": [
+        {
+          "tree": "ac-geography",
+          "node": "world-map"
+        },
+        {
+          "tree": "ac-geography",
+          "node": "coordinates"
+        }
+      ],
+      "interests": [
+        "nature",
+        "space"
+      ],
+      "id": "ac-world-map-compass",
+      "kind": "lesson",
+      "subject": "geography",
+      "title": "World map and compass",
+      "emoji": "🧭",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 30,
+      "summary": "Find the continents and oceans and use north, south, east and west.",
+      "steps": [
+        "Look at a world map or globe. Find the seven continents.",
+        "Find the five oceans.",
+        "Find your country. Which continent is it on?",
+        "Use compass directions: which country is north of yours? Which is west?",
+        "Use the scale bar to estimate the distance to a country you want to visit."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "geography",
+        "weather"
+      ],
+      "connects": [
+        "history",
+        "languages"
+      ],
+      "check": [
+        {
+          "question": "How many continents are there?",
+          "options": [
+            "7",
+            "5",
+            "10"
+          ],
+          "answer": 0,
+          "explain": "Africa, Antarctica, Asia, Australia (Oceania), Europe, North America and South America."
+        },
+        {
+          "question": "On most maps, north is at the...",
+          "options": [
+            "top",
+            "bottom"
+          ],
+          "answer": 0,
+          "explain": "Most maps put north at the top, with a compass rose to show it."
+        },
+        {
+          "question": "What does the scale bar help you do?",
+          "options": [
+            "Work out real distances",
+            "Choose colours"
+          ],
+          "answer": 0,
+          "explain": "A scale shows how map distance matches real distance."
+        }
+      ],
+      "adultNote": "A free printable map or an atlas from the library is enough."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-build-timeline"
+      ],
+      "skills": [
+        {
+          "tree": "ac-maths",
+          "node": "measurement"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "id": "ac-family-timeline",
+      "kind": "activity",
+      "subject": "history",
+      "title": "Build a timeline",
+      "emoji": "🕰️",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 30,
+      "summary": "Make a timeline of your family or your town to see how things change over time.",
+      "steps": [
+        "Ask an older relative about three things that happened when they were young.",
+        "Draw a long line and mark years along it at equal gaps.",
+        "Add your birth year, theirs and the events.",
+        "Add two big world events from the same years.",
+        "Talk about it: what was different then? What stayed the same?"
+      ],
+      "practical": false,
+      "languageHooks": [
+        "family",
+        "time"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "On a timeline, older events go...",
+          "options": [
+            "earlier along the line",
+            "anywhere"
+          ],
+          "answer": 0,
+          "explain": "Timelines run in order, from earlier to later."
+        },
+        {
+          "question": "A memory from a person who was there is a...",
+          "options": [
+            "primary source",
+            "made-up story"
+          ],
+          "answer": 0,
+          "explain": "First-hand accounts are primary sources, though memories can still be mistaken."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-write-essay"
+      ],
+      "skills": [
+        {
+          "tree": "ac-reading",
+          "node": "paragraphs"
+        }
+      ],
+      "interests": [
+        "animals",
+        "stories"
+      ],
+      "id": "ac-write-a-paragraph",
+      "kind": "lesson",
+      "subject": "writing",
+      "title": "Write a strong paragraph",
+      "emoji": "✏️",
+      "ageBands": [
+        "9-11"
+      ],
+      "level": 4,
+      "minutes": 25,
+      "summary": "One main idea, three details, one closing sentence.",
+      "steps": [
+        "Pick a topic you know, like your favourite animal.",
+        "Write a topic sentence with the main idea.",
+        "Add three sentences with facts or examples.",
+        "Finish with a closing sentence that sums up.",
+        "Read it aloud. Does every sentence belong?"
+      ],
+      "practical": false,
+      "languageHooks": [
+        "animals"
+      ],
+      "check": [
+        {
+          "question": "The topic sentence tells...",
+          "options": [
+            "the main idea",
+            "the last detail"
+          ],
+          "answer": 0,
+          "explain": "It tells the reader what the paragraph is about."
+        },
+        {
+          "question": "A sentence about breakfast in a paragraph about elephants should be...",
+          "options": [
+            "removed",
+            "kept"
+          ],
+          "answer": 0,
+          "explain": "Every sentence should support the main idea."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-explain-body-systems"
+      ],
+      "skills": [
+        {
+          "tree": "ac-body-biology",
+          "node": "cells-organs"
+        }
+      ],
+      "interests": [
+        "nature",
+        "plants"
+      ],
+      "id": "ac-cells-to-organs",
+      "kind": "lesson",
+      "subject": "biology",
+      "title": "From cells to organs",
+      "emoji": "🧫",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "Living things are built in levels: cells make tissues, tissues make organs, organs make systems.",
+      "steps": [
+        "Learn the levels: cell, tissue, organ, organ system, organism.",
+        "Compare a plant cell and an animal cell: nucleus, membrane, cytoplasm, mitochondria; plants also have a cell wall and chloroplasts.",
+        "Pick one organ, like the stomach, and list the tissues in it (muscle, lining, nerves).",
+        "Draw a ladder diagram from cell to you.",
+        "Explain to someone at home why a cut heals: cells divide to replace damaged ones."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "body",
+        "science"
+      ],
+      "connects": [
+        "chemistry"
+      ],
+      "check": [
+        {
+          "question": "Which comes first in size order, smallest to largest?",
+          "options": [
+            "Cell, tissue, organ",
+            "Organ, cell, tissue"
+          ],
+          "answer": 0,
+          "explain": "Cells group into tissues, which form organs."
+        },
+        {
+          "question": "Which part do plant cells have but animal cells do not?",
+          "options": [
+            "Cell wall",
+            "Nucleus",
+            "Membrane"
+          ],
+          "answer": 0,
+          "explain": "Plant cells have a stiff cell wall and chloroplasts."
+        },
+        {
+          "question": "Where is most genetic information kept in a cell?",
+          "options": [
+            "Nucleus",
+            "Cell membrane"
+          ],
+          "answer": 0,
+          "explain": "The nucleus holds DNA."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "ac-body-biology",
+          "node": "genetics"
+        }
+      ],
+      "interests": [
+        "animals",
+        "plants",
+        "horses"
+      ],
+      "id": "ac-genetics-traits",
+      "kind": "lesson",
+      "subject": "biology",
+      "title": "Genes and inherited traits",
+      "emoji": "🧬",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "Why do children look a bit like their parents but not exactly the same?",
+      "steps": [
+        "Learn: DNA is a code; a gene is a section of DNA that helps build a trait.",
+        "You get one copy of each gene from each biological parent.",
+        "Draw a Punnett square for a simple trait with one dominant (B) and one recessive (b) version.",
+        "Work out the chances of each combination: BB, Bb, bb.",
+        "Discuss: most real traits, like height, depend on many genes and on environment too."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "family",
+        "science"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Bb x Bb: what fraction of offspring are expected to be bb?",
+          "options": [
+            "1/4",
+            "1/2",
+            "0"
+          ],
+          "answer": 0,
+          "explain": "The four boxes are BB, Bb, Bb, bb, so 1 in 4."
+        },
+        {
+          "question": "Height depends on...",
+          "options": [
+            "many genes and environment",
+            "one gene only"
+          ],
+          "answer": 0,
+          "explain": "Most traits are polygenic and also shaped by nutrition and health."
+        }
+      ],
+      "adultNote": "Be sensitive with adopted, foster or donor-conceived children: use animals or plants as examples, and say \"biological parents\"."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-solve-equations"
+      ],
+      "skills": [
+        {
+          "tree": "ac-maths",
+          "node": "algebra"
+        }
+      ],
+      "interests": [
+        "computers"
+      ],
+      "id": "ac-solve-equations",
+      "kind": "lesson",
+      "subject": "mathematics",
+      "title": "Balance and solve equations",
+      "emoji": "⚖️",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "An equation is like a balance. Do the same to both sides to find the unknown.",
+      "steps": [
+        "Picture a balance: 3 bags of sweets plus 2 loose sweets weigh the same as 14 sweets. Each bag holds x.",
+        "Write it: 3x + 2 = 14.",
+        "Take 2 from both sides: 3x = 12.",
+        "Divide both sides by 3: x = 4.",
+        "Check: 3 x 4 + 2 = 14. Correct!",
+        "Now try: 5x - 3 = 22 and 2(x + 4) = 18."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "maths",
+        "numbers"
+      ],
+      "connects": [
+        "physics",
+        "computing"
+      ],
+      "check": [
+        {
+          "question": "Solve 5x - 3 = 22.",
+          "options": [
+            "x = 5",
+            "x = 4",
+            "x = 25"
+          ],
+          "answer": 0,
+          "explain": "Add 3: 5x = 25. Divide by 5: x = 5."
+        },
+        {
+          "question": "Solve 2(x + 4) = 18.",
+          "options": [
+            "x = 5",
+            "x = 7",
+            "x = 9"
+          ],
+          "answer": 0,
+          "explain": "Divide by 2: x + 4 = 9, so x = 5."
+        },
+        {
+          "question": "Why do we do the same thing to both sides?",
+          "options": [
+            "To keep the balance equal",
+            "To make the numbers bigger"
+          ],
+          "answer": 0,
+          "explain": "Both sides must stay equal, just like a balanced scale."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-lab-report"
+      ],
+      "skills": [
+        {
+          "tree": "ac-science",
+          "node": "chemistry"
+        },
+        {
+          "tree": "ac-science",
+          "node": "scientific-method"
+        }
+      ],
+      "interests": [
+        "cooking",
+        "plants"
+      ],
+      "id": "ac-cabbage-indicator",
+      "kind": "activity",
+      "subject": "chemistry",
+      "title": "Red cabbage acid test",
+      "emoji": "🧪",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 6,
+      "minutes": 45,
+      "summary": "Make a colour-changing indicator from red cabbage and test kitchen liquids.",
+      "steps": [
+        "With an adult, chop some red cabbage and cover it with hot (not boiling) water. Leave 15 minutes.",
+        "Strain the purple liquid into a jug. This is your indicator.",
+        "Pour a little into several clear cups.",
+        "Add lemon juice to one, vinegar to another, baking soda in water to a third, and plain water to a fourth.",
+        "Record the colours: red/pink means acid, purple means neutral, green/blue means base (alkali).",
+        "Write a short lab report: question, method, results table, conclusion."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "Hot water can scald",
+          "Knife for chopping",
+          "Splashes in eyes",
+          "Never mix cleaning products"
+        ],
+        "notes": "An adult handles the knife and hot water. Use only food-cupboard liquids from the steps: never test bleach, drain cleaner or other household chemicals, and never mix them. Wear glasses or sunglasses for splashes, rinse eyes with clean water if splashed, and do not drink the results."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Red cabbage leaves or red onion skins",
+            "Hot water",
+            "Cups",
+            "Lemon, vinegar, baking soda"
+          ],
+          "description": "Make the indicator and test three liquids."
+        },
+        "better": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Clear cups or jars",
+            "Teaspoons",
+            "Labels"
+          ],
+          "description": "Test six food-cupboard liquids and order them on a pH colour scale."
+        },
+        "advanced": {
+          "cost": "Under 10 USD",
+          "materials": [
+            "pH paper strips",
+            "Clear cups",
+            "Notebook"
+          ],
+          "description": "Compare your cabbage colours with pH paper and calibrate your own colour chart."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Red cabbage",
+          "use": "Red onion skins, beetroot water or dark berry juice"
+        },
+        {
+          "instead": "Clear cups",
+          "use": "Washed clear plastic bottles cut down by an adult, or white saucers"
+        },
+        {
+          "instead": "Safety glasses",
+          "use": "Ordinary glasses or sunglasses"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Education resources for chemistry teachers and learners",
+          "publisher": "Royal Society of Chemistry",
+          "url": "https://edu.rsc.org/"
+        },
+        {
+          "title": "Home safety",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        }
+      ],
+      "languageHooks": [
+        "colours",
+        "kitchen",
+        "science"
+      ],
+      "connects": [
+        "cooking",
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "The indicator turns pink in lemon juice. Lemon juice is...",
+          "options": [
+            "an acid",
+            "a base",
+            "neutral"
+          ],
+          "answer": 0,
+          "explain": "Pink or red means acid."
+        },
+        {
+          "question": "Which liquid should you NEVER test at home?",
+          "options": [
+            "Bleach",
+            "Vinegar",
+            "Water"
+          ],
+          "answer": 0,
+          "explain": "Cleaning chemicals can burn skin and make dangerous gases if mixed."
+        },
+        {
+          "question": "Plain water is the control. Why include it?",
+          "options": [
+            "To compare the other colours with neutral",
+            "For decoration"
+          ],
+          "answer": 0,
+          "explain": "A control shows what \"no change\" looks like."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-explain-supply-demand"
+      ],
+      "skills": [
+        {
+          "tree": "ac-maths",
+          "node": "functions"
+        }
+      ],
+      "interests": [
+        "money",
+        "cooking"
+      ],
+      "id": "ac-supply-and-demand",
+      "kind": "lesson",
+      "subject": "economics",
+      "title": "Supply and demand at the market",
+      "emoji": "⚖️",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Why are strawberries cheaper in summer? Learn how supply and demand set prices.",
+      "steps": [
+        "Pick a food that changes price through the year in your area.",
+        "Learn: supply is how much sellers offer; demand is how much buyers want.",
+        "Draw a simple graph: price up the side, quantity along the bottom. Demand slopes down, supply slopes up.",
+        "Mark where they cross: that is the market price.",
+        "Shift the supply line right for a big harvest. What happens to price?"
+      ],
+      "practical": false,
+      "languageHooks": [
+        "fruit",
+        "food"
+      ],
+      "connects": [
+        "financial literacy",
+        "geography",
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "A huge harvest means supply rises. Price usually...",
+          "options": [
+            "falls",
+            "rises"
+          ],
+          "answer": 0,
+          "explain": "More supply with the same demand pushes price down."
+        },
+        {
+          "question": "A demand curve usually slopes...",
+          "options": [
+            "down",
+            "up"
+          ],
+          "answer": 0,
+          "explain": "People usually buy more when the price is lower."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-build-timeline"
+      ],
+      "skills": [
+        {
+          "tree": "ac-reading",
+          "node": "comprehension"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "id": "ac-history-sources",
+      "kind": "lesson",
+      "subject": "history",
+      "title": "Primary and secondary sources",
+      "emoji": "📜",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Historians are detectives. Learn to tell first-hand evidence from later accounts and question both.",
+      "steps": [
+        "Learn: a primary source is from the time (a letter, photo, diary); a secondary source is written later about it (a textbook).",
+        "Find one of each about the same event, for example from a library or a museum's free website.",
+        "Ask of each: who made it, when, why, and for whom?",
+        "List what each source can and cannot tell you.",
+        "Write two sentences: what you think happened and how sure you are."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "time"
+      ],
+      "connects": [
+        "independent learning",
+        "civics"
+      ],
+      "check": [
+        {
+          "question": "A diary written by a soldier during a war is a...",
+          "options": [
+            "primary source",
+            "secondary source"
+          ],
+          "answer": 0,
+          "explain": "It was made at the time by someone who was there."
+        },
+        {
+          "question": "Why ask who made a source and why?",
+          "options": [
+            "Because purpose can shape what is included",
+            "To learn their favourite colour"
+          ],
+          "answer": 0,
+          "explain": "Every source has a point of view. Knowing it helps you judge reliability."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-explain-body-systems"
+      ],
+      "skills": [
+        {
+          "tree": "ac-body-biology",
+          "node": "physiology"
+        }
+      ],
+      "interests": [
+        "sport"
+      ],
+      "id": "ac-homeostasis",
+      "kind": "lesson",
+      "subject": "biology",
+      "title": "Homeostasis: how your body keeps balance",
+      "emoji": "🌡️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 8,
+      "minutes": 40,
+      "summary": "Your body constantly corrects temperature, water and blood sugar using feedback loops.",
+      "steps": [
+        "Learn the parts of a negative feedback loop: stimulus, receptor, control centre, effector, response.",
+        "Apply it to temperature: too hot leads to sweating and widening skin blood vessels; too cold leads to shivering.",
+        "Apply it to blood glucose: the hormones insulin and glucagon from the pancreas raise or lower it.",
+        "Draw both loops as diagrams.",
+        "Explain in a paragraph why fever is a change in the body's set point, not a failure of control."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "body",
+        "science"
+      ],
+      "connects": [
+        "chemistry",
+        "health",
+        "physical education"
+      ],
+      "check": [
+        {
+          "question": "Which hormone lowers blood glucose?",
+          "options": [
+            "Insulin",
+            "Glucagon",
+            "Adrenaline"
+          ],
+          "answer": 0,
+          "explain": "Insulin helps cells take up glucose from the blood."
+        },
+        {
+          "question": "Shivering when cold is an example of...",
+          "options": [
+            "an effector response",
+            "a receptor"
+          ],
+          "answer": 0,
+          "explain": "Muscles (effectors) shiver to generate heat."
+        },
+        {
+          "question": "Negative feedback works to...",
+          "options": [
+            "return a value towards its set point",
+            "make a change bigger"
+          ],
+          "answer": 0,
+          "explain": "It reverses the change, keeping conditions stable."
+        }
+      ],
+      "adultNote": "Educational only: this lesson does not diagnose. Any questions about personal health go to a doctor."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-explain-body-systems"
+      ],
+      "skills": [
+        {
+          "tree": "ac-body-biology",
+          "node": "public-health"
+        },
+        {
+          "tree": "ac-maths",
+          "node": "applied"
+        }
+      ],
+      "interests": [
+        "computers"
+      ],
+      "id": "ac-epidemiology-basics",
+      "kind": "lesson",
+      "subject": "biology",
+      "title": "Epidemiology and public health",
+      "emoji": "🦠",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 8,
+      "minutes": 45,
+      "summary": "How do scientists track disease in whole populations, and how do communities reduce spread?",
+      "steps": [
+        "Learn key terms: incidence, prevalence, outbreak, epidemic, pandemic.",
+        "Learn R, the reproduction number: how many people one case infects on average.",
+        "Model it on paper: start with 1 case and R = 2, then R = 0.8. Count cases over 5 generations.",
+        "List public health measures: clean water, sanitation, vaccination, hand washing, ventilation.",
+        "Read one WHO or national public health page and summarise how it presents data."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Health topics",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/health-topics"
+        },
+        {
+          "title": "Centers for Disease Control and Prevention",
+          "publisher": "CDC",
+          "url": "https://www.cdc.gov/"
+        }
+      ],
+      "languageHooks": [
+        "science",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "health",
+        "civics",
+        "statistics"
+      ],
+      "check": [
+        {
+          "question": "If R is below 1, an outbreak will usually...",
+          "options": [
+            "shrink",
+            "grow"
+          ],
+          "answer": 0,
+          "explain": "Each case infects fewer than one other person on average."
+        },
+        {
+          "question": "With R = 2 and 1 starting case, how many new cases in generation 4?",
+          "options": [
+            "16",
+            "8",
+            "4"
+          ],
+          "answer": 0,
+          "explain": "1, 2, 4, 8, 16: doubling each generation."
+        },
+        {
+          "question": "Prevalence means...",
+          "options": [
+            "how many people have a condition at a time",
+            "how many new cases appear"
+          ],
+          "answer": 0,
+          "explain": "Incidence counts new cases; prevalence counts all current cases."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "ac-body-biology",
+          "node": "nutrition-science"
+        }
+      ],
+      "interests": [
+        "cooking",
+        "sport"
+      ],
+      "id": "ac-nutrition-science",
+      "kind": "lesson",
+      "subject": "biology",
+      "title": "Nutrition science and food labels",
+      "emoji": "🥗",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 40,
+      "summary": "Understand nutrients, energy and how to read a food label with evidence, not hype.",
+      "steps": [
+        "Learn the macronutrients (carbohydrate, protein, fat) and key micronutrients (vitamins, minerals), plus fibre and water.",
+        "Read the label on two packaged foods. Compare sugar, salt, fat and fibre per 100 g.",
+        "Learn why we compare per 100 g, not per serving.",
+        "Read the WHO healthy diet fact sheet and list three evidence-based recommendations.",
+        "Spot a claim in an advert and decide what evidence would be needed to support it."
+      ],
+      "practical": false,
+      "sources": [
+        {
+          "title": "Healthy diet (fact sheet)",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        }
+      ],
+      "languageHooks": [
+        "food",
+        "numbers"
+      ],
+      "connects": [
+        "cooking",
+        "health",
+        "chemistry"
+      ],
+      "check": [
+        {
+          "question": "Why compare foods per 100 g?",
+          "options": [
+            "Serving sizes differ between packets",
+            "It is always the whole packet"
+          ],
+          "answer": 0,
+          "explain": "Per 100 g gives a fair comparison."
+        },
+        {
+          "question": "Which nutrient is the main building material for muscles?",
+          "options": [
+            "Protein",
+            "Fibre"
+          ],
+          "answer": 0,
+          "explain": "Proteins provide amino acids for building and repairing tissue."
+        }
+      ],
+      "adultNote": "Keep the focus on evidence and food, not body weight or dieting. Young people with questions about their own diet should talk to a doctor or registered dietitian."
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-solve-equations"
+      ],
+      "skills": [
+        {
+          "tree": "ac-maths",
+          "node": "functions"
+        }
+      ],
+      "interests": [
+        "sport",
+        "computers",
+        "money"
+      ],
+      "id": "ac-functions-and-graphs",
+      "kind": "lesson",
+      "subject": "mathematics",
+      "title": "Functions, graphs and change",
+      "emoji": "📈",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 8,
+      "minutes": 45,
+      "summary": "Model real situations with linear and quadratic functions and read their graphs.",
+      "steps": [
+        "A phone plan costs 5 plus 2 per gigabyte: write C = 2g + 5 and plot it.",
+        "Identify gradient (rate of change) and intercept (starting value).",
+        "A ball thrown up has height h = 20t - 5t^2. Plot t = 0 to 4.",
+        "Find when it lands and its highest point from the graph, then check by algebra.",
+        "Explain in words what the gradient means in each real situation."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "maths"
+      ],
+      "connects": [
+        "physics",
+        "economics"
+      ],
+      "check": [
+        {
+          "question": "In C = 2g + 5, what does 5 represent?",
+          "options": [
+            "The fixed starting cost",
+            "The cost per gigabyte"
+          ],
+          "answer": 0,
+          "explain": "It is the intercept: the cost when g = 0."
+        },
+        {
+          "question": "When does h = 20t - 5t^2 hit the ground (h = 0, t > 0)?",
+          "options": [
+            "t = 4",
+            "t = 2",
+            "t = 5"
+          ],
+          "answer": 0,
+          "explain": "5t(4 - t) = 0, so t = 4 seconds."
+        },
+        {
+          "question": "The highest point of that ball is at t = ?",
+          "options": [
+            "2",
+            "4",
+            "1"
+          ],
+          "answer": 0,
+          "explain": "The parabola is symmetric, halfway between 0 and 4. h = 20 metres."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-write-essay"
+      ],
+      "skills": [
+        {
+          "tree": "ac-reading",
+          "node": "argument"
+        },
+        {
+          "tree": "ac-reading",
+          "node": "essays"
+        }
+      ],
+      "interests": [
+        "stories"
+      ],
+      "id": "ac-argument-essay",
+      "kind": "project",
+      "subject": "writing",
+      "title": "Write an argument essay",
+      "emoji": "✍️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 8,
+      "minutes": 120,
+      "summary": "Plan, draft and revise a structured essay that takes a clear position and handles the other side fairly.",
+      "steps": [
+        "Choose a debatable question, for example \"Should school start later?\"",
+        "Research both sides and note evidence with where it came from.",
+        "Write a thesis: your position in one sentence.",
+        "Plan: introduction, three body paragraphs (point, evidence, explanation), a counter-argument paragraph, conclusion.",
+        "Draft, then leave it a day.",
+        "Revise for clarity, cut repetition, check every claim has evidence, and list your sources."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Long screen time if researching online"
+        ],
+        "notes": "Take breaks from screens. Research can be done from library books or printed articles."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper and pen",
+            "Library books"
+          ],
+          "description": "Hand-write the essay using two library sources."
+        },
+        "better": {
+          "cost": "Free to low cost",
+          "materials": [
+            "Shared or library computer",
+            "Free word processor"
+          ],
+          "description": "Type the essay, use headings while drafting, and ask someone to comment."
+        },
+        "advanced": {
+          "cost": "Free to low cost",
+          "materials": [
+            "Computer",
+            "Free online academic search tools"
+          ],
+          "description": "Use at least one peer-reviewed or official statistic source and cite in a consistent style."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Computer",
+          "use": "Paper drafts with a different colour pen for revisions"
+        }
+      ],
+      "connects": [
+        "independent learning",
+        "civics",
+        "philosophy"
+      ],
+      "check": [
+        {
+          "question": "A thesis statement is...",
+          "options": [
+            "your main position in one sentence",
+            "a list of sources"
+          ],
+          "answer": 0,
+          "explain": "Everything in the essay supports or tests it."
+        },
+        {
+          "question": "Why include a counter-argument?",
+          "options": [
+            "It shows fairness and makes your case stronger",
+            "It fills space"
+          ],
+          "answer": 0,
+          "explain": "Answering the best opposing point builds trust with the reader."
+        }
+      ]
+    },
+    {
+      "area": "core-academics",
+      "competencies": [
+        "ac-household-electricity"
+      ],
+      "skills": [
+        {
+          "tree": "ac-science",
+          "node": "energy"
+        },
+        {
+          "tree": "ac-maths",
+          "node": "applied"
+        }
+      ],
+      "interests": [
+        "money",
+        "building",
+        "computers"
+      ],
+      "id": "ac-household-electricity",
+      "kind": "lesson",
+      "subject": "physics",
+      "title": "Calculate household electricity use",
+      "emoji": "💡",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 40,
+      "summary": "Use power and time to work out how much energy your home uses and what it costs.",
+      "steps": [
+        "Find the power rating (watts) printed on three appliances. Do not open or unplug anything to look; ask an adult.",
+        "Learn: energy (kWh) = power (kW) x time (hours). 1000 W = 1 kW.",
+        "Estimate hours of use per day for each appliance.",
+        "Calculate daily and monthly kWh for each.",
+        "Multiply by your local price per kWh (from a bill) to find the cost.",
+        "Suggest two changes that would cut use, and calculate the saving."
+      ],
+      "practical": false,
+      "languageHooks": [
+        "numbers",
+        "tools"
+      ],
+      "connects": [
+        "financial literacy",
+        "environment",
+        "electrical safety"
+      ],
+      "check": [
+        {
+          "question": "A 2000 W heater runs for 3 hours. Energy used?",
+          "options": [
+            "6 kWh",
+            "600 kWh",
+            "0.6 kWh"
+          ],
+          "answer": 0,
+          "explain": "2 kW x 3 h = 6 kWh."
+        },
+        {
+          "question": "A 10 W light runs 5 hours a day for 30 days. Energy?",
+          "options": [
+            "1.5 kWh",
+            "15 kWh",
+            "150 kWh"
+          ],
+          "answer": 0,
+          "explain": "0.01 kW x 5 x 30 = 1.5 kWh."
+        },
+        {
+          "question": "Where should you find the power rating?",
+          "options": [
+            "On the label, or by asking an adult",
+            "By opening the appliance"
+          ],
+          "answer": 0,
+          "explain": "Never open electrical appliances. The label or manual has the rating."
+        }
+      ],
+      "adultNote": "This is a calculation lesson; the child reads labels and bills only. A recent bill gives the local price per kWh."
+    }
+  ]
+}

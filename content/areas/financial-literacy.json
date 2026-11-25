@@ -1,0 +1,979 @@
+{
+  "area": "financial-literacy",
+  "title": "Money and finance",
+  "emoji": "💰",
+  "description": "Counting money, needs and wants, saving, budgeting, prices, banking, interest, scam safety and entrepreneurship, with real worked numbers.",
+  "skillTrees": [
+    {
+      "id": "fin-money-skills",
+      "area": "financial-literacy",
+      "title": "Money skills",
+      "emoji": "💰",
+      "nodes": [
+        {
+          "id": "coins",
+          "title": "Coins and notes",
+          "description": "Recognise and count money."
+        },
+        {
+          "id": "needs-wants",
+          "title": "Needs and wants",
+          "description": "Tell what we need from what we would like."
+        },
+        {
+          "id": "saving",
+          "title": "Saving",
+          "description": "Put money aside for a goal."
+        },
+        {
+          "id": "prices",
+          "title": "Prices and value",
+          "description": "Compare prices and find good value."
+        },
+        {
+          "id": "budgeting",
+          "title": "Budgeting",
+          "description": "Plan income and spending."
+        },
+        {
+          "id": "banking",
+          "title": "Banking",
+          "description": "Understand accounts, cards and safe digital payments."
+        },
+        {
+          "id": "interest",
+          "title": "Interest",
+          "description": "Calculate simple and compound interest on savings and loans."
+        },
+        {
+          "id": "scams",
+          "title": "Scam safety",
+          "description": "Spot and avoid money scams online and offline."
+        },
+        {
+          "id": "entrepreneurship",
+          "title": "Entrepreneurship",
+          "description": "Plan a small business: cost, price, profit."
+        },
+        {
+          "id": "planning-ahead",
+          "title": "Planning ahead",
+          "description": "Payslips, taxes, borrowing and long-term goals."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "fin-create-budget",
+      "area": "financial-literacy",
+      "group": "life",
+      "title": "Can create a budget",
+      "emoji": "📒"
+    },
+    {
+      "id": "fin-explain-compound-interest",
+      "area": "financial-literacy",
+      "group": "intellectual",
+      "title": "Can explain compound interest",
+      "emoji": "📈"
+    },
+    {
+      "id": "fin-count-money",
+      "area": "financial-literacy",
+      "group": "life",
+      "title": "Can count money and give change",
+      "emoji": "🪙"
+    },
+    {
+      "id": "fin-reach-saving-goal",
+      "area": "financial-literacy",
+      "group": "personal",
+      "title": "Has saved for and reached a goal",
+      "emoji": "🐷"
+    },
+    {
+      "id": "fin-spot-a-scam",
+      "area": "financial-literacy",
+      "group": "digital",
+      "title": "Can spot common money scams",
+      "emoji": "🕵️"
+    },
+    {
+      "id": "fin-compare-prices",
+      "area": "financial-literacy",
+      "group": "life",
+      "title": "Can compare prices using unit price",
+      "emoji": "🏷️"
+    }
+  ],
+  "items": [
+    {
+      "id": "fin-play-shop",
+      "kind": "activity",
+      "area": "financial-literacy",
+      "subject": "counting money",
+      "title": "Play shop",
+      "emoji": "🛒",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 20,
+      "summary": "Make a pretend shop with paper coins. You can be the shopkeeper or the shopper!",
+      "steps": [
+        "✂️ Draw coins on paper circles: 1, 2 and 5.",
+        "🍎 Put toys or food tins on the table.",
+        "🏷️ Give each one a price: 1, 2 or 5.",
+        "🛍️ Buy something and count out the coins.",
+        "🔄 Swap: now you are the shopkeeper."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "real coins are a choking risk for small children"
+        ],
+        "notes": "Use paper coins or large tokens with under-fives, not real coins."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "paper",
+            "crayons",
+            "toys"
+          ],
+          "description": "Paper coins and toys."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "cardboard box till",
+            "price stickers"
+          ],
+          "description": "Make a till from a box."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "toy cash register",
+            "play money"
+          ],
+          "description": "A toy till and play notes."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "play money",
+          "use": "buttons, bottle tops or paper circles (kept away from babies)"
+        }
+      ],
+      "competencies": [
+        "fin-count-money"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "coins"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "numbers",
+        "food",
+        "shapes"
+      ],
+      "connects": [
+        "mathematics"
+      ]
+    },
+    {
+      "id": "fin-needs-and-wants",
+      "kind": "lesson",
+      "area": "financial-literacy",
+      "subject": "needs and wants",
+      "title": "Need it or want it?",
+      "emoji": "🤔",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "We need food, water and a home. We want toys and sweets. Both are okay, but needs come first.",
+      "steps": [
+        "🍞 Food: need or want? Need!",
+        "🍭 Sweets: need or want? Want.",
+        "🏠 A home: need.",
+        "🧸 A new toy: want.",
+        "✏️ Draw two boxes: NEED and WANT. Draw things in each."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "needs-wants"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "food",
+        "family"
+      ],
+      "connects": [
+        "civics"
+      ],
+      "check": [
+        {
+          "question": "Water to drink is a...",
+          "options": [
+            "Need",
+            "Want"
+          ],
+          "answer": 0,
+          "explain": "Yes! Everyone needs water."
+        }
+      ]
+    },
+    {
+      "id": "fin-savings-jar",
+      "kind": "activity",
+      "area": "financial-literacy",
+      "subject": "saving",
+      "title": "My savings jar",
+      "emoji": "🫙",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Pick a goal, draw it on a jar, and watch your savings grow.",
+      "steps": [
+        "🎯 Choose a goal and find its price.",
+        "🫙 Decorate a jar with a picture of your goal.",
+        "📏 Draw a line on paper for every 1 you save, like a ladder.",
+        "🪙 Add money when you can. Colour in the ladder.",
+        "🔢 How many more do you need? Subtract to find out.",
+        "🎉 Reach the goal and celebrate."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "glass jars can break",
+          "coins near babies"
+        ],
+        "notes": "Use a plastic container if there are small children around."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "empty container",
+            "paper"
+          ],
+          "description": "A reused container and a paper chart."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "three containers"
+          ],
+          "description": "Spend, Save and Share containers."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "children's savings account"
+          ],
+          "description": "Open a children's savings account with a parent."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "jar",
+          "use": "an envelope, box or tin"
+        }
+      ],
+      "competencies": [
+        "fin-reach-saving-goal"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "saving"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths"
+      ],
+      "connects": [
+        "mathematics"
+      ]
+    },
+    {
+      "id": "fin-count-coins",
+      "kind": "activity",
+      "area": "financial-literacy",
+      "subject": "counting money",
+      "title": "Count coins and give change",
+      "emoji": "🪙",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Sort coins, count them, and work out the change.",
+      "steps": [
+        "🧼 Wash hands before and after (coins are not very clean).",
+        "🔵 Sort coins by value.",
+        "➕ Count the biggest coins first, then the smaller ones.",
+        "🧮 Something costs 7. You pay 10. Change = 10 - 7 = 3.",
+        "🔁 Practise with 5 different prices."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "dirty coins",
+          "small coins near babies"
+        ],
+        "notes": "Wash hands after handling money. Keep coins away from babies and toddlers."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "family coins",
+            "paper"
+          ],
+          "description": "Count real coins with an adult."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "play coins"
+          ],
+          "description": "Practise with a set of play coins."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "coin sorter tray"
+          ],
+          "description": "A coin sorting tray."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "real coins",
+          "use": "paper coins with values written on them"
+        }
+      ],
+      "competencies": [
+        "fin-count-money"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "coins"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "A pencil costs 4. You pay with 10. What is your change?",
+          "options": [
+            "4",
+            "6",
+            "14"
+          ],
+          "answer": 1,
+          "explain": "10 - 4 = 6."
+        }
+      ]
+    },
+    {
+      "id": "fin-compare-prices",
+      "kind": "lesson",
+      "area": "financial-literacy",
+      "subject": "prices",
+      "title": "Which is better value?",
+      "emoji": "🏷️",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Bigger is not always cheaper. Use the unit price to find the best deal.",
+      "steps": [
+        "📦 Rice A: 500 g for 2.00. Rice B: 1 kg (1000 g) for 3.50.",
+        "➗ Price per 100 g: A = 2.00 / 5 = 0.40. B = 3.50 / 10 = 0.35.",
+        "✅ B is better value, if you will use it all before it goes off.",
+        "🛒 Find two sizes of the same food at home or in a shop and compare.",
+        "🤔 Value also means quality, waste and what you really need."
+      ],
+      "practical": false,
+      "competencies": [
+        "fin-compare-prices"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "prices"
+        }
+      ],
+      "interests": [
+        "money",
+        "cooking"
+      ],
+      "languageHooks": [
+        "numbers",
+        "food",
+        "maths"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Juice: 1 litre for 1.20 or 2 litres for 2.60. Which is cheaper per litre?",
+          "options": [
+            "1 litre",
+            "2 litres",
+            "The same"
+          ],
+          "answer": 0,
+          "explain": "1 litre costs 1.20. 2 litres cost 2.60 / 2 = 1.30 per litre. The small one is cheaper per litre."
+        }
+      ]
+    },
+    {
+      "id": "fin-make-a-budget",
+      "kind": "activity",
+      "area": "financial-literacy",
+      "subject": "budgeting",
+      "title": "Make your first budget",
+      "emoji": "📒",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 30,
+      "summary": "A budget is a plan for your money: what comes in, and where it goes.",
+      "steps": [
+        "💵 Write your income: for example, 10 per week pocket money.",
+        "📊 Plan: Save 3, Spend 6, Share 1. Total = 10.",
+        "🎯 Saving goal: a book costing 15. 15 / 3 = 5 weeks.",
+        "📝 Track what you really spend for 4 weeks.",
+        "🔍 Compare plan and reality. Change the plan if needed.",
+        "🧑‍🍳 Bonus: plan a family meal with a budget of 12."
+      ],
+      "practical": false,
+      "competencies": [
+        "fin-create-budget"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "budgeting"
+        },
+        {
+          "tree": "fin-money-skills",
+          "node": "saving"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths",
+        "time"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "You get 20 a month and save 25%. How much do you save?",
+          "options": [
+            "2",
+            "5",
+            "25"
+          ],
+          "answer": 1,
+          "explain": "25% is one quarter. 20 / 4 = 5."
+        }
+      ],
+      "adultNote": "Use your local currency and amounts that make sense for your family. No pocket money? Budget an imaginary amount or a family shopping trip."
+    },
+    {
+      "id": "fin-what-is-a-bank",
+      "kind": "lesson",
+      "area": "financial-literacy",
+      "subject": "banking",
+      "title": "What does a bank do?",
+      "emoji": "🏦",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Banks keep money safe, lend it to others and pay interest. Learn how accounts and cards work.",
+      "steps": [
+        "🏦 You deposit money; the bank keeps a record of it in your account.",
+        "🔁 The bank lends some money to others and charges them interest.",
+        "📈 It pays you a smaller interest for saving.",
+        "💳 A debit card spends your own money. A credit card borrows money you must pay back.",
+        "📱 Mobile money and banking apps work the same way: keep your PIN secret.",
+        "🔒 In many countries, savings up to a limit are protected by a government scheme."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "banking"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "civics",
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Which card borrows money you have to pay back?",
+          "options": [
+            "Debit card",
+            "Credit card",
+            "Library card"
+          ],
+          "answer": 1,
+          "explain": "A credit card is a loan. Pay it back on time to avoid interest."
+        }
+      ]
+    },
+    {
+      "id": "fin-simple-interest",
+      "kind": "lesson",
+      "area": "financial-literacy",
+      "subject": "interest",
+      "title": "Simple interest",
+      "emoji": "➕",
+      "ageBands": [
+        "12-14"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "summary": "Interest is the price of money. Simple interest is the same amount each year.",
+      "steps": [
+        "📐 Simple interest = amount x rate x years.",
+        "💵 Save 200 at 5% a year for 3 years.",
+        "🧮 200 x 0.05 = 10 per year. 10 x 3 = 30.",
+        "✅ After 3 years you have 200 + 30 = 230.",
+        "🔁 Try: 500 at 4% for 2 years."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "interest"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "maths",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "500 at 4% simple interest for 2 years earns...",
+          "options": [
+            "20",
+            "40",
+            "400"
+          ],
+          "answer": 1,
+          "explain": "500 x 0.04 = 20 per year, x 2 = 40."
+        }
+      ]
+    },
+    {
+      "id": "fin-compound-interest",
+      "kind": "lesson",
+      "area": "financial-literacy",
+      "subject": "interest",
+      "title": "Compound interest: interest on interest",
+      "emoji": "📈",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 30,
+      "summary": "With compound interest you earn interest on your interest. Over time, it snowballs.",
+      "steps": [
+        "💵 Save 1000 at 5% a year, compounded yearly.",
+        "📅 Year 1: 1000 x 1.05 = 1050.00.",
+        "📅 Year 2: 1050 x 1.05 = 1102.50.",
+        "📅 Year 3: 1102.50 x 1.05 = 1157.63 (rounded).",
+        "🆚 Simple interest would give 1150. Compound gives 7.63 more, and the gap grows every year.",
+        "📐 Formula: final = start x (1 + rate) ^ years. 1000 x 1.05^10 = about 1628.89.",
+        "7️⃣2️⃣ Rule of 72: years to double = 72 / rate. At 6%, about 12 years.",
+        "⚠️ It works against you on debt too: unpaid credit card interest also compounds.",
+        "🗣️ Explain compound interest to someone at home in your own words."
+      ],
+      "practical": false,
+      "competencies": [
+        "fin-explain-compound-interest"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "interest"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "maths",
+        "numbers",
+        "time"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "200 at 10% compound interest for 2 years becomes...",
+          "options": [
+            "240",
+            "242",
+            "220"
+          ],
+          "answer": 1,
+          "explain": "Year 1: 220. Year 2: 220 x 1.1 = 242."
+        },
+        {
+          "question": "Using the Rule of 72, how long to double money at 8%?",
+          "options": [
+            "About 9 years",
+            "About 72 years",
+            "About 8 years"
+          ],
+          "answer": 0,
+          "explain": "72 / 8 = 9 years."
+        }
+      ]
+    },
+    {
+      "id": "fin-spot-a-scam",
+      "kind": "simulation",
+      "area": "financial-literacy",
+      "subject": "scams",
+      "title": "Is it a scam?",
+      "emoji": "🕵️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 15,
+      "summary": "Scammers pretend to be friends, banks or prize-givers. Practise spotting the tricks.",
+      "steps": [
+        "Read each message.",
+        "Choose what you would do.",
+        "Learn the warning signs: urgency, secrecy, prizes, and requests for codes, passwords or payment."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "real scams can cost money or personal data"
+        ],
+        "notes": "If a real message worries you, do not reply. Show a trusted adult."
+      },
+      "sources": [
+        {
+          "title": "Consumer advice: scams",
+          "publisher": "US Federal Trade Commission",
+          "url": "https://consumer.ftc.gov/"
+        },
+        {
+          "title": "Money as You Grow and consumer tools",
+          "publisher": "US Consumer Financial Protection Bureau",
+          "url": "https://www.consumerfinance.gov/"
+        }
+      ],
+      "competencies": [
+        "fin-spot-a-scam"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "scams"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "connects": [
+        "technology",
+        "civics"
+      ],
+      "simulation": {
+        "scenario": "Your phone gets a message: \"Congratulations! You won a new phone. Pay 5 for delivery in the next 10 minutes!\"",
+        "steps": [
+          {
+            "prompt": "What is the warning sign here?",
+            "options": [
+              {
+                "text": "You must pay to receive a prize, and there is a rush.",
+                "correct": true,
+                "feedback": "Yes. Real prizes do not ask you to pay, and rushing you is a classic trick."
+              },
+              {
+                "text": "Nothing, it looks fine.",
+                "correct": false,
+                "feedback": "Look again: unexpected prize, payment and a time limit are red flags."
+              }
+            ]
+          },
+          {
+            "prompt": "A message says it is from your bank and asks for the code just sent to your phone.",
+            "options": [
+              {
+                "text": "Never share the code. Contact the bank using the number on the card or official app.",
+                "correct": true,
+                "feedback": "Correct. Banks never ask for one-time codes or PINs."
+              },
+              {
+                "text": "Send the code to be safe.",
+                "correct": false,
+                "feedback": "The code lets a scammer into the account. Never share it."
+              }
+            ]
+          },
+          {
+            "prompt": "An online \"friend\" you have never met asks you to buy gift cards and send the numbers.",
+            "options": [
+              {
+                "text": "Stop, do not send anything, and tell a trusted adult.",
+                "correct": true,
+                "feedback": "Right. Gift card requests are almost always scams."
+              },
+              {
+                "text": "Do it to keep the friendship.",
+                "correct": false,
+                "feedback": "A real friend would not ask this. Tell a trusted adult."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fin-start-small-business",
+      "kind": "lesson",
+      "area": "financial-literacy",
+      "subject": "entrepreneurship",
+      "title": "Plan a small business",
+      "emoji": "💡",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 40,
+      "summary": "Every business is about solving a problem for someone. Plan costs, price and profit.",
+      "steps": [
+        "🔍 Find a need: bike cleaning, plant seedlings, tutoring younger children, crafts.",
+        "🧾 List costs: for 10 seedlings, pots 3.00 + compost 4.00 + seeds 2.00 = 9.00.",
+        "➗ Cost per item = 9.00 / 10 = 0.90.",
+        "🏷️ Price: if you sell for 2.00, profit per item = 2.00 - 0.90 = 1.10.",
+        "📊 Sell all 10: profit = 1.10 x 10 = 11.00.",
+        "🤝 Think about customers, safety, honesty and asking an adult for permission."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "entrepreneurship"
+        },
+        {
+          "tree": "fin-money-skills",
+          "node": "prices"
+        }
+      ],
+      "interests": [
+        "money",
+        "plants",
+        "bicycles"
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths"
+      ],
+      "connects": [
+        "mathematics",
+        "careers"
+      ],
+      "check": [
+        {
+          "question": "Costs are 12 for 8 cups of juice. You sell each for 3. Total profit?",
+          "options": [
+            "12",
+            "24",
+            "36"
+          ],
+          "answer": 0,
+          "explain": "Income 8 x 3 = 24. Profit = 24 - 12 = 12."
+        }
+      ],
+      "adultNote": "Any selling, especially of food, should follow local rules and be supervised by an adult."
+    },
+    {
+      "id": "fin-borrowing-and-debt",
+      "kind": "lesson",
+      "area": "financial-literacy",
+      "subject": "borrowing",
+      "title": "Borrowing, loans and debt",
+      "emoji": "💳",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 30,
+      "summary": "Borrowing can help, but it costs money. Learn to read the real cost of a loan.",
+      "steps": [
+        "📖 APR (annual percentage rate) shows the yearly cost of borrowing, including fees.",
+        "💳 Borrow 1000 on a card at 20% APR and pay nothing: after 1 year you owe about 1200 or more.",
+        "🐢 Paying only the minimum can make a debt last years.",
+        "🏠 Some debt, like a student loan or home loan, can be planned; high-interest debt for wants is risky.",
+        "✅ Before borrowing: Do I need it? Can I repay it? What is the total cost?",
+        "📋 Compare two loan offers and find the cheaper one in total."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "interest"
+        },
+        {
+          "tree": "fin-money-skills",
+          "node": "planning-ahead"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "maths",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "civics"
+      ],
+      "check": [
+        {
+          "question": "Loan A: 500 to repay 550. Loan B: 500 to repay 600. Which is cheaper?",
+          "options": [
+            "Loan A",
+            "Loan B"
+          ],
+          "answer": 0,
+          "explain": "Loan A costs 50; Loan B costs 100."
+        }
+      ]
+    },
+    {
+      "id": "fin-payslip-and-tax",
+      "kind": "lesson",
+      "area": "financial-literacy",
+      "subject": "planning ahead",
+      "title": "Read a payslip",
+      "emoji": "🧾",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 25,
+      "summary": "Gross pay, tax and net pay: understand your first job's payslip.",
+      "steps": [
+        "💼 Gross pay: what you earn before deductions. Example: 40 hours x 10 = 400.",
+        "🏛️ Tax and social contributions are taken off; they pay for roads, schools and health care.",
+        "💵 Net pay: what arrives in your account. Example: 400 - 60 = 340.",
+        "📒 Build a monthly budget from net pay, not gross pay.",
+        "🔍 Look up how income tax works in your country."
+      ],
+      "practical": false,
+      "competencies": [
+        "fin-create-budget"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "planning-ahead"
+        },
+        {
+          "tree": "fin-money-skills",
+          "node": "budgeting"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths",
+        "time"
+      ],
+      "connects": [
+        "mathematics",
+        "civics",
+        "careers"
+      ]
+    }
+  ]
+}

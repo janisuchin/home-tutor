@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Home Tutor",
+    "slug": "home-tutor",
+    "version": "0.1.0",
+    "scheme": "hometutor",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFF9F0",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.hometutor"
+    },
+    "android": {
+      "package": "app.hometutor",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF9F0",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "Home Tutor",
+      "shortName": "Home Tutor",
+      "themeColor": "#C2410C",
+      "backgroundColor": "#FFF9F0"
+    },
+    "plugins": ["expo-router", "expo-status-bar", "expo-font"],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}

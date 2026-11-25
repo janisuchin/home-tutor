@@ -1,0 +1,1657 @@
+{
+  "area": "projects",
+  "title": "Projects",
+  "emoji": "🧩",
+  "description": "Multi-subject projects and world projects: plan, research, build, test, present and reflect, with free, low-cost and advanced versions.",
+  "skillTrees": [
+    {
+      "id": "prj-project-skills",
+      "area": "projects",
+      "title": "Project skills",
+      "emoji": "🧩",
+      "nodes": [
+        {
+          "id": "plan",
+          "title": "Plan",
+          "description": "Choose a goal, list materials, steps and costs."
+        },
+        {
+          "id": "research",
+          "title": "Research",
+          "description": "Find facts from books, people and reliable websites."
+        },
+        {
+          "id": "build",
+          "title": "Build",
+          "description": "Make, grow or cook the project."
+        },
+        {
+          "id": "test",
+          "title": "Test",
+          "description": "Check if it works, measure and record results."
+        },
+        {
+          "id": "present",
+          "title": "Present",
+          "description": "Show and explain your project to others."
+        },
+        {
+          "id": "reflect",
+          "title": "Reflect",
+          "description": "What went well? What would you change next time?"
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "prj-complete-project",
+      "area": "projects",
+      "group": "personal",
+      "title": "Has completed 5 multi-subject projects",
+      "emoji": "🧩",
+      "target": 5
+    },
+    {
+      "id": "prj-world-projects",
+      "area": "projects",
+      "group": "global",
+      "title": "Has completed 3 world projects",
+      "emoji": "🌐",
+      "target": 3
+    },
+    {
+      "id": "prj-grow-vegetable-garden",
+      "area": "projects",
+      "group": "practical",
+      "title": "Has grown a vegetable garden (or container garden)",
+      "emoji": "🥕"
+    },
+    {
+      "id": "prj-present-project",
+      "area": "projects",
+      "group": "personal",
+      "title": "Can present a project clearly",
+      "emoji": "🎤"
+    }
+  ],
+  "items": [
+    {
+      "id": "prj-bean-in-a-jar",
+      "kind": "project",
+      "area": "projects",
+      "subject": "science project",
+      "title": "Watch a bean grow",
+      "emoji": "🫘",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 20,
+      "summary": "Put a bean in a jar with wet paper and watch the roots and shoot appear!",
+      "steps": [
+        "🫙 Put damp paper towel around the inside of a jar.",
+        "🫘 Push a dry bean between the paper and the glass.",
+        "💧 Keep the paper damp.",
+        "👀 Look every day. Roots go down, the shoot goes up!",
+        "🖍️ Draw it on day 1, 3, 5 and 7.",
+        "🌱 Plant it in soil when it has leaves."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "beans are a choking risk for small children",
+          "glass jars"
+        ],
+        "notes": "An adult keeps dry beans away from babies and toddlers. Use a plastic cup if glass may break."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "jar or cup",
+            "paper towel",
+            "dried bean from the kitchen"
+          ],
+          "description": "One bean in a jar."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "clear cups",
+            "several kinds of seeds"
+          ],
+          "description": "Race different seeds."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "magnifying glass",
+            "plant pot"
+          ],
+          "description": "Look at root hairs, then grow it on."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "paper towel",
+          "use": "cotton wool, newspaper or an old cloth"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project",
+        "life-grow-5-plants"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "test"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        }
+      ],
+      "interests": [
+        "plants",
+        "nature"
+      ],
+      "languageHooks": [
+        "nature",
+        "numbers",
+        "time"
+      ],
+      "connects": [
+        "science",
+        "mathematics",
+        "art"
+      ]
+    },
+    {
+      "id": "prj-world-japan",
+      "kind": "world-project",
+      "area": "projects",
+      "subject": "world project",
+      "title": "Visit Japan: rice balls and cherry blossom",
+      "emoji": "🍙",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 45,
+      "summary": "Make rice balls, find Japan on a map and learn to say hello in Japanese.",
+      "steps": [
+        "🍲 Food: with clean hands, shape cooled cooked rice (an adult cooks it) into balls and wrap with a strip of seaweed or leave plain.",
+        "🗺️ Geography: find Japan on a map or globe. It is made of many islands in the Pacific Ocean.",
+        "📜 History: long ago, people in Japan made beautiful pottery and wrote with brushes. Look at pictures of old castles.",
+        "🗣️ Language: say \"konnichiwa\" (hello) and \"arigatou\" (thank you).",
+        "🏭 Economics: Japan makes cars, trains, robots and electronics, and has many fishing ports.",
+        "🌿 Environment: Japan has mountains, forests and cherry trees that blossom pink in spring.",
+        "🏘️ Society: many children walk to school in small groups and help clean their classrooms.",
+        "🎤 Present: share your map, dish and three facts with your family. What surprised you?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "hot rice and steam",
+          "cooked rice left out can make people ill",
+          "choking"
+        ],
+        "notes": "An adult cooks the rice and cools it quickly; eat rice balls the same day or chill them. Child shapes only cooled rice."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Low cost",
+          "materials": [
+            "rice",
+            "water",
+            "salt"
+          ],
+          "description": "Plain salted rice balls."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "rice",
+            "seaweed",
+            "cucumber"
+          ],
+          "description": "Add a seaweed strip and a cucumber filling."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "picture books",
+            "origami paper"
+          ],
+          "description": "Fold an origami crane and read a picture book."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "short-grain rice",
+          "use": "any rice cooked a little soft so it sticks"
+        },
+        {
+          "instead": "seaweed",
+          "use": "a lettuce leaf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety basics",
+          "publisher": "FoodSafety.gov (US Department of Health and Human Services)",
+          "url": "https://www.foodsafety.gov/"
+        }
+      ],
+      "competencies": [
+        "prj-world-projects",
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "greetings",
+        "food",
+        "geography"
+      ],
+      "connects": [
+        "geography",
+        "history",
+        "languages",
+        "cooking",
+        "economics",
+        "environment",
+        "social studies"
+      ],
+      "adultNote": "Present Japan as a modern, diverse country, not only through traditions."
+    },
+    {
+      "id": "prj-weather-station",
+      "kind": "project",
+      "area": "projects",
+      "subject": "science project",
+      "title": "Build a backyard weather station",
+      "emoji": "🌬️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 90,
+      "summary": "Make a rain gauge, a wind sock and a weather chart, then become a weather reporter.",
+      "steps": [
+        "📋 Plan: what will you measure? Rain, wind, cloud, temperature.",
+        "🫙 Rain gauge: a straight jar with a paper scale.",
+        "🎏 Wind sock: a paper or plastic bag tube tied to a stick. Which way does it blow?",
+        "☁️ Cloud chart: draw cloud types and tick the one you see.",
+        "📅 Record every day for 2 weeks.",
+        "📺 Present a weather report to your family.",
+        "🤔 Reflect: did your forecasts come true?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "scissors",
+          "slippery ground outside"
+        ],
+        "notes": "Use child scissors. Put the station somewhere easy and safe to reach."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "jar",
+            "paper",
+            "plastic bag",
+            "stick"
+          ],
+          "description": "Home-made gauge, wind sock and chart."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "outdoor thermometer",
+            "compass"
+          ],
+          "description": "Add temperature and wind direction."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "digital weather station"
+          ],
+          "description": "Compare home readings with an electronic weather station."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "compass",
+          "use": "note where the sun rises (east) and sets (west)"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project",
+        "env-keep-weather-diary"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "plan"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "test"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "reflect"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "languageHooks": [
+        "weather",
+        "numbers",
+        "time"
+      ],
+      "connects": [
+        "science",
+        "mathematics",
+        "geography",
+        "english"
+      ]
+    },
+    {
+      "id": "prj-world-mexico",
+      "kind": "world-project",
+      "area": "projects",
+      "subject": "world project",
+      "title": "Visit Mexico: corn, colour and ancient cities",
+      "emoji": "🌮",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 90,
+      "summary": "Make a simple bean and corn taco, map Mexico and learn about its ancient and modern cities.",
+      "steps": [
+        "🍲 Food: warm tortillas with an adult, fill with beans, sweetcorn and tomato. Corn has been grown in Mexico for thousands of years.",
+        "🗺️ Geography: find Mexico between the United States and Central America. Mark Mexico City, the deserts in the north and the jungles in the south.",
+        "📜 History: learn about the Maya and Aztec peoples who built great cities, and about Mexico today.",
+        "🗣️ Language: say \"hola\" (hello), \"gracias\" (thank you) and count \"uno, dos, tres\".",
+        "🏭 Economics: Mexico makes cars and machines, grows avocados and corn, and welcomes many tourists.",
+        "🌿 Environment: Mexico has deserts with cacti, rainforests with jaguars, and coral reefs.",
+        "🏘️ Society: families often share big meals together; find out about a festival and how it is celebrated.",
+        "🎤 Present: share your map, dish and three facts with your family. What surprised you?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "hot pan",
+          "knife for tomatoes",
+          "allergies"
+        ],
+        "notes": "An adult heats the tortillas and cuts tomatoes. The child fills and rolls."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Low cost",
+          "materials": [
+            "tortillas or flatbread",
+            "tinned beans"
+          ],
+          "description": "Bean tacos."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "tortillas",
+            "beans",
+            "sweetcorn",
+            "tomato",
+            "lime"
+          ],
+          "description": "Add a fresh tomato salsa (adult chops)."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "corn flour (masa)",
+            "tortilla press or heavy pan"
+          ],
+          "description": "Make tortillas from scratch."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "tortillas",
+          "use": "chapati, flatbread or lettuce leaves"
+        },
+        {
+          "instead": "black beans",
+          "use": "any beans or lentils"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety"
+        }
+      ],
+      "competencies": [
+        "prj-world-projects",
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "greetings",
+        "numbers",
+        "food",
+        "geography"
+      ],
+      "connects": [
+        "geography",
+        "history",
+        "languages",
+        "cooking",
+        "economics",
+        "environment",
+        "social studies"
+      ]
+    },
+    {
+      "id": "prj-vegetable-garden",
+      "kind": "project",
+      "area": "projects",
+      "subject": "garden project",
+      "title": "Build a vegetable garden",
+      "emoji": "🥕",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 4,
+      "minutes": 240,
+      "summary": "Plan, plant and look after a vegetable garden, in the ground or in containers. Learn biology, maths, money and more.",
+      "steps": [
+        "📋 Plan: pick 3 vegetables that grow in your climate and season (biology, weather).",
+        "🟫 Soil: feel and test it. Is it sandy, clay or loamy? Add compost (soil science).",
+        "📐 Measure the space or containers and draw a plan to scale (mathematics).",
+        "💰 Budget: list the cost of seeds, compost and tools; stay within the budget (budgeting).",
+        "🌱 Sow and plant with spacing from the packet.",
+        "💧 Water: work out how much water each plant needs and collect rainwater if you can (water, environment).",
+        "📒 Keep a diary: height, weather, pests, harvest weight (responsibility).",
+        "🥗 Harvest and cook a healthy meal from your crop (nutrition).",
+        "🚜 Research: how do farmers grow food on a large scale? (agriculture)",
+        "🎤 Present your garden and reflect on what you would change."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "garden tools",
+          "lifting heavy bags",
+          "soil germs",
+          "garden chemicals"
+        ],
+        "notes": "An adult supervises digging tools. Wear gloves, wash hands and harvested food. Children never use pesticides or weedkillers."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "reused buckets, tins or bags",
+            "garden or local soil",
+            "seeds saved from food"
+          ],
+          "description": "Basic container version: grow three vegetables in reused containers on a windowsill, balcony or doorstep."
+        },
+        "better": {
+          "cost": "Under 15 USD",
+          "materials": [
+            "compost",
+            "seed packets",
+            "watering can",
+            "gloves"
+          ],
+          "description": "A small raised bed or row of grow bags."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "raised bed kit",
+            "water butt",
+            "trowel and fork",
+            "plant supports"
+          ],
+          "description": "A full raised-bed garden with rainwater collection."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "garden",
+          "use": "containers: buckets, crates, sacks or bottles"
+        },
+        {
+          "instead": "seed packets",
+          "use": "seeds from tomatoes, peppers, beans or potato pieces with eyes"
+        },
+        {
+          "instead": "watering can",
+          "use": "a bottle with holes in the lid"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gardening advice",
+          "publisher": "Royal Horticultural Society",
+          "url": "https://www.rhs.org.uk/"
+        },
+        {
+          "title": "Food safety fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety"
+        }
+      ],
+      "competencies": [
+        "prj-grow-vegetable-garden",
+        "prj-complete-project",
+        "life-grow-5-plants",
+        "fin-create-budget"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "plan"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "test"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "reflect"
+        }
+      ],
+      "interests": [
+        "plants",
+        "nature",
+        "cooking"
+      ],
+      "languageHooks": [
+        "food",
+        "nature",
+        "weather",
+        "numbers"
+      ],
+      "connects": [
+        "biology",
+        "soil science",
+        "water",
+        "weather",
+        "mathematics",
+        "budgeting",
+        "nutrition",
+        "environment",
+        "agriculture",
+        "responsibility"
+      ]
+    },
+    {
+      "id": "prj-bicycle-repair-workshop",
+      "kind": "project",
+      "area": "projects",
+      "subject": "engineering project",
+      "title": "Bicycle repair workshop",
+      "emoji": "🔧",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 240,
+      "summary": "Give a tired bike a full check-up: clean, oil, fix a puncture, adjust brakes, and learn the science behind it.",
+      "steps": [
+        "📋 Plan: inspect the bike and write a job list with an adult.",
+        "🔍 Research: how do gears and brakes use forces and friction?",
+        "🧽 Clean the frame and chain; oil the chain lightly and wipe off extra.",
+        "🛞 Check tyres; repair any puncture.",
+        "🛑 Check brake pads and cable with an adult.",
+        "📏 Measure the wheel and work out how far one turn goes (circumference = 3.14 x diameter).",
+        "💰 Cost the parts you used and compare with a bike shop service price.",
+        "✅ Test: an adult does a final safety check and a slow test ride in a safe place.",
+        "🎤 Present a before-and-after report."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "pinched fingers in chain and spokes",
+          "sharp objects in tyres",
+          "brakes refitted wrongly",
+          "oil on hands and rims"
+        ],
+        "notes": "An adult supervises and checks brakes, wheels and steering before any ride. Wear a helmet for test rides. Keep oil off brake surfaces."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "bike",
+            "rags",
+            "bucket of soapy water"
+          ],
+          "description": "Clean, inspect and do a safety check."
+        },
+        "better": {
+          "cost": "Under 15 USD",
+          "materials": [
+            "puncture kit",
+            "tyre levers",
+            "pump",
+            "chain oil",
+            "allen keys"
+          ],
+          "description": "Clean, oil, fix a puncture and adjust brakes."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "bike stand",
+            "chain checker",
+            "spare parts"
+          ],
+          "description": "A fuller service, or volunteer at a community bike workshop."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "bike stand",
+          "use": "turn the bike upside down on a mat, or hang it from a strong branch with a rope (adult sets up)"
+        },
+        {
+          "instead": "chain oil",
+          "use": "a small amount of light machine or sewing-machine oil"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cycling advice and bike maintenance",
+          "publisher": "Cycling UK",
+          "url": "https://www.cyclinguk.org/"
+        },
+        {
+          "title": "Bicycle safety",
+          "publisher": "US National Highway Traffic Safety Administration",
+          "url": "https://www.nhtsa.gov/road-safety/bicycle-safety"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project",
+        "life-fix-puncture",
+        "life-bike-safety-check"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "plan"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "test"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        },
+        {
+          "tree": "life-bicycle",
+          "node": "cleaning"
+        },
+        {
+          "tree": "life-bicycle",
+          "node": "overhaul"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "machines",
+        "building"
+      ],
+      "languageHooks": [
+        "tools",
+        "numbers",
+        "maths"
+      ],
+      "connects": [
+        "physics",
+        "mathematics",
+        "engineering",
+        "financial-literacy",
+        "life-skills"
+      ]
+    },
+    {
+      "id": "prj-world-kenya",
+      "kind": "world-project",
+      "area": "projects",
+      "subject": "world project",
+      "title": "Visit Kenya: savannah, runners and sukuma wiki",
+      "emoji": "🦒",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 120,
+      "summary": "Cook sukuma wiki (greens), map Kenya's landscapes and learn some Kiswahili.",
+      "steps": [
+        "🍲 Food: with an adult, cook sukuma wiki: chopped greens (like kale) fried with onion and tomato. It is often eaten with ugali, a maize porridge.",
+        "🗺️ Geography: find Kenya in East Africa on the equator. Mark Nairobi, Mount Kenya, Lake Victoria and the Indian Ocean coast.",
+        "📜 History: learn about early human fossils found in East Africa, ancient trading towns on the coast, and Kenya's independence in 1963.",
+        "🗣️ Language: say \"jambo\" or \"habari\" (hello) and \"asante\" (thank you) in Kiswahili.",
+        "🏭 Economics: Kenya grows tea, coffee and flowers, has a big technology and mobile money sector, and welcomes tourists.",
+        "🌿 Environment: the savannah has lions, giraffes and elephants; Kenya also has forests, mountains and coral reefs. Learn how parks protect wildlife.",
+        "🏘️ Society: Kenya has more than 40 ethnic groups and busy modern cities; find out what a school day is like.",
+        "🎤 Present: share your map, dish and three facts with your family. What surprised you?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "knife cuts",
+          "hot oil",
+          "hot porridge"
+        ],
+        "notes": "An adult supervises chopping and frying. Ugali is very hot; let it cool before shaping."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Low cost",
+          "materials": [
+            "greens",
+            "onion",
+            "oil",
+            "salt"
+          ],
+          "description": "Simple fried greens."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "greens",
+            "onion",
+            "tomato",
+            "maize flour"
+          ],
+          "description": "Sukuma wiki with ugali."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "spices",
+            "beans"
+          ],
+          "description": "Add beans and make a full plate with a recipe card."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "kale",
+          "use": "spinach, cabbage or any leafy greens"
+        },
+        {
+          "instead": "maize flour",
+          "use": "polenta, semolina or rice"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety"
+        }
+      ],
+      "competencies": [
+        "prj-world-projects",
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        }
+      ],
+      "interests": [
+        "animals",
+        "cooking",
+        "nature"
+      ],
+      "languageHooks": [
+        "greetings",
+        "animals",
+        "food",
+        "geography"
+      ],
+      "connects": [
+        "geography",
+        "history",
+        "languages",
+        "cooking",
+        "economics",
+        "environment",
+        "social studies"
+      ]
+    },
+    {
+      "id": "prj-world-india",
+      "kind": "world-project",
+      "area": "projects",
+      "subject": "world project",
+      "title": "Visit India: dal, rivers and many languages",
+      "emoji": "🍛",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 150,
+      "summary": "Cook a lentil dal, map India's rivers and mountains and learn greetings in Hindi.",
+      "steps": [
+        "🍲 Food: with an adult, cook a simple dal: rinse red lentils, simmer with water, turmeric and salt, then add fried onion, garlic and cumin.",
+        "🗺️ Geography: find India in South Asia. Mark the Himalayas, the Ganges river, Delhi, Mumbai and the coasts.",
+        "📜 History: research the Indus Valley civilisation, the many empires, and India's independence in 1947.",
+        "🗣️ Language: say \"namaste\" (hello) and \"dhanyavaad\" (thank you) in Hindi; India has 22 officially recognised languages.",
+        "🏭 Economics: India has large farming, software and technology, film, textile and space industries.",
+        "🌿 Environment: India has mountains, deserts, rainforests and mangroves; find out about the monsoon and the Bengal tiger.",
+        "🏘️ Society: India is home to many religions, foods and festivals; compare a regional dish from the north and the south.",
+        "🎤 Present: share your map, dish and three facts with your family. What surprised you?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "hot oil and spices spitting",
+          "boiling liquid",
+          "knife cuts"
+        ],
+        "notes": "An adult is present at the hob. Add spices to oil carefully and stand back."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Low cost",
+          "materials": [
+            "red lentils",
+            "turmeric",
+            "salt",
+            "onion"
+          ],
+          "description": "Plain dal with rice."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "lentils",
+            "onion",
+            "garlic",
+            "cumin",
+            "tomato",
+            "flour for chapati"
+          ],
+          "description": "Dal with home-made chapati."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "several spices",
+            "yoghurt",
+            "vegetables"
+          ],
+          "description": "A full thali plate with several small dishes."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "red lentils",
+          "use": "yellow split peas or any lentils (cook longer)"
+        },
+        {
+          "instead": "whole spices",
+          "use": "a general curry powder"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety"
+        }
+      ],
+      "competencies": [
+        "prj-world-projects",
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "reflect"
+        }
+      ],
+      "interests": [
+        "cooking",
+        "space"
+      ],
+      "languageHooks": [
+        "greetings",
+        "food",
+        "geography"
+      ],
+      "connects": [
+        "geography",
+        "history",
+        "languages",
+        "cooking",
+        "economics",
+        "environment",
+        "social studies"
+      ]
+    },
+    {
+      "id": "prj-recycling-campaign",
+      "kind": "project",
+      "area": "projects",
+      "subject": "community project",
+      "title": "Run a recycling campaign",
+      "emoji": "📣",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 300,
+      "summary": "Measure how much waste your home or class makes, design a campaign, and measure the change.",
+      "steps": [
+        "📋 Plan: choose your home, class or street (with permission).",
+        "⚖️ Measure: weigh or count rubbish bags for one week.",
+        "🔍 Research: what can be recycled locally? Ask the council or waste service.",
+        "🎨 Build: make posters, labels and a sorting station.",
+        "📊 Test: measure again after two weeks. Calculate the percentage change.",
+        "🎤 Present results with a chart.",
+        "🤔 Reflect: what worked best to change habits?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "sharp or dirty waste",
+          "germs"
+        ],
+        "notes": "Wear gloves. Do not handle broken glass, needles or chemicals; tell an adult."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "paper",
+            "pens",
+            "boxes"
+          ],
+          "description": "Hand-drawn posters and box bins."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "kitchen scale",
+            "labels"
+          ],
+          "description": "Weigh waste and make printed labels."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "spreadsheet",
+            "community notice board"
+          ],
+          "description": "Analyse data in a spreadsheet and share with the community."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "weighing scale",
+          "use": "count bags or measure volume with a bucket"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project",
+        "prj-present-project",
+        "env-sort-recycling"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "plan"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "test"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "reflect"
+        }
+      ],
+      "interests": [
+        "nature"
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths"
+      ],
+      "connects": [
+        "environment",
+        "mathematics",
+        "civics",
+        "art",
+        "english"
+      ]
+    },
+    {
+      "id": "prj-world-peru",
+      "kind": "world-project",
+      "area": "projects",
+      "subject": "world project",
+      "title": "Visit Peru: mountains, potatoes and the Andes",
+      "emoji": "🏔️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 180,
+      "summary": "Cook a potato or quinoa dish, map the Andes and Amazon, and explore Peru's history and economy.",
+      "steps": [
+        "🍲 Food: with an adult, cook a potato dish or a quinoa salad. Peru has thousands of potato varieties first grown in the Andes.",
+        "🗺️ Geography: map Peru on the west coast of South America: the desert coast, the Andes mountains and the Amazon rainforest. Mark Lima and Lake Titicaca.",
+        "📜 History: research the Inca Empire, Machu Picchu, Spanish colonisation and independence in 1821.",
+        "🗣️ Language: say \"hola\" and \"gracias\" in Spanish, and learn that Quechua is also widely spoken; find the Quechua word for hello.",
+        "🏭 Economics: Peru exports copper, gold, fish, coffee and fruit; think about how mining affects jobs and the environment.",
+        "🌿 Environment: compare three ecosystems: coastal desert, high mountain grassland and rainforest.",
+        "🏘️ Society: compare life in a big city like Lima with life in a mountain village.",
+        "🎤 Present: share your map, dish and three facts with your family. What surprised you?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "boiling water",
+          "knife cuts",
+          "hot pans"
+        ],
+        "notes": "Cook with an adult in the home. Drain potatoes and quinoa away from your body."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Low cost",
+          "materials": [
+            "potatoes",
+            "salt",
+            "oil"
+          ],
+          "description": "Simple boiled potatoes with a herb dressing."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "quinoa or rice",
+            "tomato",
+            "onion",
+            "lime",
+            "corn"
+          ],
+          "description": "Quinoa salad with vegetables."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "several potato varieties",
+            "cheese",
+            "chilli"
+          ],
+          "description": "Compare potato varieties in a taste test."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "quinoa",
+          "use": "rice, couscous or bulgur"
+        },
+        {
+          "instead": "Peruvian yellow chilli",
+          "use": "a small amount of mild chilli or paprika"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety"
+        }
+      ],
+      "competencies": [
+        "prj-world-projects",
+        "life-cook-10-meals",
+        "prj-present-project"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "reflect"
+        }
+      ],
+      "interests": [
+        "cooking",
+        "nature"
+      ],
+      "languageHooks": [
+        "greetings",
+        "food",
+        "geography"
+      ],
+      "connects": [
+        "geography",
+        "history",
+        "languages",
+        "cooking",
+        "economics",
+        "environment",
+        "social studies"
+      ]
+    },
+    {
+      "id": "prj-world-italy",
+      "kind": "world-project",
+      "area": "projects",
+      "subject": "world project",
+      "title": "Visit Italy: bread, volcanoes and the Roman Empire",
+      "emoji": "🍅",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 150,
+      "summary": "Make a tomato bread topping, map Italy and its volcanoes, and trace history from Rome to today.",
+      "steps": [
+        "🍲 Food: with an adult, toast bread and top with chopped tomato, olive oil and basil.",
+        "🗺️ Geography: map Italy, the boot-shaped peninsula in southern Europe. Mark Rome, the Alps and the volcanoes Vesuvius and Etna.",
+        "📜 History: research the Roman Empire, the Renaissance artists and scientists, and modern Italy.",
+        "🗣️ Language: say \"ciao\" (hello) and \"grazie\" (thank you).",
+        "🏭 Economics: Italy makes machinery, cars, fashion and food products, and has a large tourism industry.",
+        "🌿 Environment: learn how volcanoes and earthquakes shape the land, and about Mediterranean plants like olive trees.",
+        "🏘️ Society: compare everyday life, school and meal times in Italy with your home.",
+        "🎤 Present: share your map, dish and three facts with your family. What surprised you?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "knife cuts",
+          "hot grill or toaster"
+        ],
+        "notes": "An adult supervises the knife and the grill."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Low cost",
+          "materials": [
+            "bread",
+            "tomato",
+            "oil"
+          ],
+          "description": "Simple tomato toast."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "bread",
+            "tomatoes",
+            "olive oil",
+            "basil",
+            "garlic"
+          ],
+          "description": "Classic topping with herbs."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "flour",
+            "yeast",
+            "oven"
+          ],
+          "description": "Bake your own bread first."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "olive oil",
+          "use": "any cooking oil"
+        },
+        {
+          "instead": "fresh basil",
+          "use": "dried herbs or home-grown herbs"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety"
+        }
+      ],
+      "competencies": [
+        "prj-world-projects",
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "greetings",
+        "food",
+        "geography"
+      ],
+      "connects": [
+        "geography",
+        "history",
+        "languages",
+        "cooking",
+        "economics",
+        "environment",
+        "social studies"
+      ]
+    },
+    {
+      "id": "prj-home-energy-project",
+      "kind": "project",
+      "area": "projects",
+      "subject": "engineering project",
+      "title": "Home energy and money audit",
+      "emoji": "🏠",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 300,
+      "summary": "Measure your home's electricity use, calculate costs and carbon, and propose savings with real numbers.",
+      "steps": [
+        "📋 Plan: list 10 appliances and how long each is used.",
+        "🏷️ Research: read watts from labels (do not open or unplug anything).",
+        "🧮 Calculate kWh (watts x hours / 1000) and cost (kWh x price).",
+        "🌍 Calculate carbon (kWh x your country's carbon factor).",
+        "💡 Test one change for a week, such as LED bulbs or switching off standby, and read the meter before and after if you can.",
+        "💰 Calculate yearly savings and the payback time of any purchase (cost / yearly saving).",
+        "🎤 Present a report to your family with a chart.",
+        "🤔 Reflect on what was hard to measure."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "electricity"
+        ],
+        "notes": "Read labels and meters only. Never open appliances, sockets or the consumer unit."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "labels",
+            "family bill",
+            "paper"
+          ],
+          "description": "Calculations from labels and the bill."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "plug-in energy monitor"
+          ],
+          "description": "Measure real use with a plug-in monitor (adult plugs it in)."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "smart meter display",
+            "spreadsheet"
+          ],
+          "description": "Analyse half-hourly data in a spreadsheet."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "energy monitor",
+          "use": "the ratings on appliance labels and your own time estimates"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project",
+        "life-electricity-bill",
+        "env-home-energy-audit"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "plan"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "test"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "reflect"
+        },
+        {
+          "tree": "life-electrical-safety",
+          "node": "energy-use"
+        }
+      ],
+      "interests": [
+        "machines",
+        "money"
+      ],
+      "languageHooks": [
+        "maths",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "physics",
+        "financial-literacy",
+        "environment"
+      ]
+    },
+    {
+      "id": "prj-small-business",
+      "kind": "project",
+      "area": "projects",
+      "subject": "business project",
+      "title": "Start a mini business",
+      "emoji": "💼",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 360,
+      "summary": "Plan, launch and run a small, safe business for a month: seedlings, repairs, crafts or tutoring.",
+      "steps": [
+        "📋 Plan: choose a product or service and get permission from a parent or carer.",
+        "🔍 Research customers and competitors; set a fair price.",
+        "💰 Budget: start-up costs, cost per item, price and break-even point (costs / profit per item).",
+        "🛠️ Build: make the product or set up the service.",
+        "📈 Test: sell for 4 weeks and track income and spending.",
+        "🎤 Present a profit-and-loss summary.",
+        "🤔 Reflect: what would you change?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "meeting strangers",
+          "handling money",
+          "online selling risks"
+        ],
+        "notes": "Sell to family, neighbours or school events with an adult aware. Never meet online buyers alone or share personal details. Food selling must follow local rules."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "skills you already have",
+            "paper posters"
+          ],
+          "description": "A service like tutoring or garden help."
+        },
+        "better": {
+          "cost": "Under 20 USD",
+          "materials": [
+            "materials",
+            "simple record book"
+          ],
+          "description": "Make and sell a simple product."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "market stall fee",
+            "card reader through a parent"
+          ],
+          "description": "Run a stall at a community market."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "printed flyers",
+          "use": "hand-written posters or word of mouth"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project",
+        "fin-create-budget",
+        "prj-present-project"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "plan"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "test"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "reflect"
+        },
+        {
+          "tree": "fin-money-skills",
+          "node": "entrepreneurship"
+        }
+      ],
+      "interests": [
+        "money"
+      ],
+      "languageHooks": [
+        "numbers",
+        "maths"
+      ],
+      "connects": [
+        "financial-literacy",
+        "mathematics",
+        "english",
+        "careers"
+      ]
+    }
+  ]
+}

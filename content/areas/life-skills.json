@@ -1,0 +1,3430 @@
+{
+  "area": "life-skills",
+  "title": "Life skills",
+  "emoji": "🏠",
+  "description": "Cooking, hygiene, household care, gardening, plumbing, electrical safety, bicycles, sewing, tools and caring for others: practical skills for every child, whatever their gender.",
+  "skillTrees": [
+    {
+      "id": "life-plumbing",
+      "area": "life-skills",
+      "title": "Plumbing",
+      "emoji": "🚰",
+      "nodes": [
+        {
+          "id": "awareness",
+          "title": "Awareness",
+          "description": "Water comes in through pipes and goes out through drains."
+        },
+        {
+          "id": "components",
+          "title": "Components",
+          "description": "Know taps, pipes, traps, valves and seals by name."
+        },
+        {
+          "id": "tools",
+          "title": "Tools",
+          "description": "Know what a plunger, adjustable spanner, bucket and sealing tape are for."
+        },
+        {
+          "id": "water-systems",
+          "title": "Water systems",
+          "description": "Follow clean water from the street to the tap, and find the shut-off valve."
+        },
+        {
+          "id": "drainage",
+          "title": "Drainage",
+          "description": "Understand how drains, traps and vents carry waste water away."
+        },
+        {
+          "id": "leak-diagnosis",
+          "title": "Leak diagnosis",
+          "description": "Find where a leak comes from and judge how serious it is."
+        },
+        {
+          "id": "maintenance",
+          "title": "Maintenance",
+          "description": "Do simple, safe upkeep such as replacing a tap washer with an adult."
+        },
+        {
+          "id": "advanced-systems",
+          "title": "Advanced systems",
+          "description": "Understand water heaters, pressure and heating circuits."
+        },
+        {
+          "id": "professional-pathway",
+          "title": "Professional pathway",
+          "description": "Know when to call a qualified plumber, and how people train to become one."
+        }
+      ]
+    },
+    {
+      "id": "life-cooking",
+      "area": "life-skills",
+      "title": "Cooking",
+      "emoji": "🍳",
+      "nodes": [
+        {
+          "id": "kitchen-hygiene",
+          "title": "Kitchen hygiene",
+          "description": "Clean hands, clean surfaces, clean food."
+        },
+        {
+          "id": "no-cook-food",
+          "title": "No-cook food",
+          "description": "Make snacks and meals without heat."
+        },
+        {
+          "id": "measuring",
+          "title": "Measuring",
+          "description": "Use cups, spoons and scales to follow a recipe."
+        },
+        {
+          "id": "knife-skills",
+          "title": "Knife skills",
+          "description": "Hold and use a knife safely with an adult."
+        },
+        {
+          "id": "heat-basics",
+          "title": "Heat basics",
+          "description": "Cook on a hob or in an oven safely with an adult."
+        },
+        {
+          "id": "simple-meals",
+          "title": "Simple meals",
+          "description": "Cook a full simple meal from a recipe."
+        },
+        {
+          "id": "meal-planning",
+          "title": "Meal planning",
+          "description": "Plan balanced meals for a week and a budget."
+        }
+      ]
+    },
+    {
+      "id": "life-bicycle",
+      "area": "life-skills",
+      "title": "Bicycle care",
+      "emoji": "🚲",
+      "nodes": [
+        {
+          "id": "parts",
+          "title": "Bike parts",
+          "description": "Name the frame, wheels, tyres, brakes, chain and gears."
+        },
+        {
+          "id": "safety-check",
+          "title": "Safety check",
+          "description": "Check air, brakes and chain before every ride."
+        },
+        {
+          "id": "cleaning",
+          "title": "Cleaning and oiling",
+          "description": "Keep the bike and chain clean and lightly oiled."
+        },
+        {
+          "id": "puncture-repair",
+          "title": "Puncture repair",
+          "description": "Find a hole in an inner tube and patch it."
+        },
+        {
+          "id": "brakes",
+          "title": "Brakes",
+          "description": "Understand friction and adjust brakes with an adult."
+        },
+        {
+          "id": "gears",
+          "title": "Gears",
+          "description": "Understand gear ratios and keep gears working."
+        },
+        {
+          "id": "overhaul",
+          "title": "Full service",
+          "description": "Plan a full bike service and know when a bike shop is needed."
+        }
+      ]
+    },
+    {
+      "id": "life-electrical-safety",
+      "area": "life-skills",
+      "title": "Electrical safety",
+      "emoji": "⚡",
+      "nodes": [
+        {
+          "id": "danger-awareness",
+          "title": "Danger awareness",
+          "description": "Sockets, plugs and wires are not toys."
+        },
+        {
+          "id": "safe-habits",
+          "title": "Safe habits",
+          "description": "Dry hands, no water near electricity, tell an adult about damage."
+        },
+        {
+          "id": "appliances",
+          "title": "Appliances",
+          "description": "Read appliance labels and spot warning signs like frayed cables."
+        },
+        {
+          "id": "energy-use",
+          "title": "Energy use",
+          "description": "Calculate how much electricity appliances use and what it costs."
+        },
+        {
+          "id": "circuits-protection",
+          "title": "Circuits and protection",
+          "description": "Understand fuses, breakers and safety switches, without opening anything."
+        },
+        {
+          "id": "professional-pathway",
+          "title": "Professional pathway",
+          "description": "Mains wiring is only for qualified electricians; learn how they train."
+        }
+      ]
+    },
+    {
+      "id": "life-gardening",
+      "area": "life-skills",
+      "title": "Gardening",
+      "emoji": "🌱",
+      "nodes": [
+        {
+          "id": "plant-needs",
+          "title": "What plants need",
+          "description": "Light, water, air and food from soil."
+        },
+        {
+          "id": "watering",
+          "title": "Watering",
+          "description": "Give the right amount of water at the right time."
+        },
+        {
+          "id": "seeds",
+          "title": "Seeds",
+          "description": "Sow seeds and watch them sprout."
+        },
+        {
+          "id": "containers",
+          "title": "Containers",
+          "description": "Grow plants in pots, tins and boxes when there is no garden."
+        },
+        {
+          "id": "soil",
+          "title": "Soil and compost",
+          "description": "Understand soil and feed it with compost."
+        },
+        {
+          "id": "growing-food",
+          "title": "Growing food",
+          "description": "Grow herbs and vegetables to eat."
+        },
+        {
+          "id": "seasons-planning",
+          "title": "Seasons and planning",
+          "description": "Plan what to grow through the year."
+        }
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "life-cook-10-meals",
+      "area": "life-skills",
+      "group": "life",
+      "title": "Can cook 10 meals",
+      "emoji": "🍲",
+      "target": 10
+    },
+    {
+      "id": "life-grow-5-plants",
+      "area": "life-skills",
+      "group": "life",
+      "title": "Can grow 5 plants",
+      "emoji": "🪴",
+      "target": 5
+    },
+    {
+      "id": "life-fix-puncture",
+      "area": "life-skills",
+      "group": "practical",
+      "title": "Can repair a bicycle puncture",
+      "emoji": "🛞"
+    },
+    {
+      "id": "life-electricity-bill",
+      "area": "life-skills",
+      "group": "life",
+      "title": "Can calculate household electricity use and cost",
+      "emoji": "🔌"
+    },
+    {
+      "id": "life-find-water-shutoff",
+      "area": "life-skills",
+      "group": "practical",
+      "title": "Can find and explain the water shut-off valve",
+      "emoji": "🚰"
+    },
+    {
+      "id": "life-sew-button",
+      "area": "life-skills",
+      "group": "practical",
+      "title": "Can sew on a button",
+      "emoji": "🧵"
+    },
+    {
+      "id": "life-wash-hands",
+      "area": "life-skills",
+      "group": "life",
+      "title": "Washes hands well",
+      "emoji": "🧼"
+    },
+    {
+      "id": "life-bike-safety-check",
+      "area": "life-skills",
+      "group": "practical",
+      "title": "Can do a bicycle safety check",
+      "emoji": "🚲"
+    },
+    {
+      "id": "life-electrical-safety-rules",
+      "area": "life-skills",
+      "group": "life",
+      "title": "Knows the electrical safety rules",
+      "emoji": "⚡"
+    },
+    {
+      "id": "life-care-younger-child",
+      "area": "life-skills",
+      "group": "personal",
+      "title": "Can safely help care for a younger child",
+      "emoji": "🧸"
+    }
+  ],
+  "items": [
+    {
+      "id": "life-wash-hands",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "hygiene",
+      "title": "Bubbles for clean hands",
+      "emoji": "🧼",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Wet, soap, scrub, rinse, dry. Clean hands keep germs away!",
+      "steps": [
+        "💧 Wet your hands.",
+        "🧼 Add soap.",
+        "👏 Scrub palms, backs, fingers and thumbs. Sing a short song twice.",
+        "💦 Rinse the bubbles away.",
+        "🧻 Dry your hands."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "slippery wet floor",
+          "very hot tap water"
+        ],
+        "notes": "Use warm, not hot, water. An adult checks the tap temperature for little ones."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "soap",
+            "water"
+          ],
+          "description": "Wash at any sink or with a jug of water."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "soap",
+            "step stool",
+            "small towel"
+          ],
+          "description": "A safe step stool so a small child can reach the sink."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "germ glitter or flour",
+            "timer"
+          ],
+          "description": "Dust hands with flour, then wash: see how scrubbing removes it all."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "running tap",
+          "use": "a jug of clean water poured by a helper over a bowl"
+        },
+        {
+          "instead": "liquid soap",
+          "use": "any bar soap or ash where soap is not available"
+        }
+      ],
+      "competencies": [
+        "life-wash-hands"
+      ],
+      "skills": [
+        {
+          "tree": "life-cooking",
+          "node": "kitchen-hygiene"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "body",
+        "numbers"
+      ],
+      "connects": [
+        "health",
+        "science"
+      ],
+      "adultNote": "Model the routine before meals, after the toilet and after playing outside."
+    },
+    {
+      "id": "life-tidy-toys",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "household",
+      "title": "Toys go home",
+      "emoji": "🧸",
+      "ageBands": [
+        "3-5"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Every toy has a home. Let us help them get there!",
+      "steps": [
+        "👀 Look at the floor.",
+        "🧺 Pick up one toy.",
+        "🏠 Put it in its home box.",
+        "🔁 Do it again until the floor is clear.",
+        "🎉 Say \"well done\" to yourself!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "tripping",
+          "small parts"
+        ],
+        "notes": "Keep small parts away from babies. Lift only light things."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "a cardboard box"
+          ],
+          "description": "One box for all the toys."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "three boxes",
+            "picture labels"
+          ],
+          "description": "Sort toys by kind with drawn picture labels."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "shelves",
+            "baskets"
+          ],
+          "description": "A shelf with a picture for each basket."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "storage baskets",
+          "use": "cardboard boxes, bags or a corner of the room"
+        }
+      ],
+      "competencies": [],
+      "skills": [],
+      "interests": [
+        "building"
+      ],
+      "languageHooks": [
+        "colours",
+        "shapes",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "adultNote": "Sorting by colour or shape turns tidying into early maths."
+    },
+    {
+      "id": "life-water-a-plant",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "gardening",
+      "title": "Give a plant a drink",
+      "emoji": "🪴",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Plants get thirsty too. Touch the soil, then give a little drink.",
+      "steps": [
+        "👆 Touch the soil.",
+        "🏜️ Dry? The plant is thirsty.",
+        "💧 Pour a little water near the stem.",
+        "⏸️ Stop when the soil is damp, not a puddle.",
+        "☀️ Put the plant in the light."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "spilled water",
+          "soil on hands"
+        ],
+        "notes": "Wash hands after touching soil."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "a cup of water",
+            "a plant"
+          ],
+          "description": "Use a cup to water any plant."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "small watering can"
+          ],
+          "description": "A child-sized watering can."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "spray bottle",
+            "plant chart"
+          ],
+          "description": "A sticker chart for watering days."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "watering can",
+          "use": "a cup or a bottle with holes in the lid"
+        }
+      ],
+      "competencies": [
+        "life-grow-5-plants"
+      ],
+      "skills": [
+        {
+          "tree": "life-gardening",
+          "node": "plant-needs"
+        },
+        {
+          "tree": "life-gardening",
+          "node": "watering"
+        }
+      ],
+      "interests": [
+        "plants",
+        "nature"
+      ],
+      "languageHooks": [
+        "nature",
+        "colours"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "id": "life-fruit-snack",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "cooking",
+      "title": "Rainbow fruit plate",
+      "emoji": "🍓",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Wash fruit, peel a banana, and make a rainbow on a plate. No knife needed!",
+      "steps": [
+        "🧼 Wash your hands.",
+        "💧 Wash the fruit in water.",
+        "🍌 Peel a banana and break it into pieces.",
+        "🌈 Put red, orange, yellow and green fruit in rows.",
+        "😋 Share and eat!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "choking on whole grapes or hard pieces",
+          "allergies"
+        ],
+        "notes": "An adult cuts grapes and cherry tomatoes into quarters for young children and checks for allergies."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "any fruit you have",
+            "a plate"
+          ],
+          "description": "Use whatever fruit is in the home."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "three or more fruits"
+          ],
+          "description": "Make a full rainbow with several colours."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "yoghurt for dipping",
+            "cookie cutters"
+          ],
+          "description": "Press soft fruit into shapes with cutters."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "fresh fruit",
+          "use": "tinned fruit (drained) or dried fruit pieces"
+        }
+      ],
+      "competencies": [
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "life-cooking",
+          "node": "kitchen-hygiene"
+        },
+        {
+          "tree": "life-cooking",
+          "node": "no-cook-food"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "fruit",
+        "colours",
+        "food"
+      ],
+      "connects": [
+        "nutrition",
+        "mathematics"
+      ],
+      "adultNote": "Cut round foods such as grapes lengthways into quarters for under-fives to reduce choking risk."
+    },
+    {
+      "id": "life-sockets-not-toys",
+      "kind": "lesson",
+      "area": "life-skills",
+      "subject": "electrical safety",
+      "title": "Sockets are not toys",
+      "emoji": "🔌",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 5,
+      "summary": "Electricity is strong and can hurt. We never touch sockets or wires.",
+      "steps": [
+        "👀 Point to a socket from far away.",
+        "✋ Say: \"I do not touch.\"",
+        "💧 Water and electricity are never friends.",
+        "🗣️ See a broken wire? Tell a grown-up straight away."
+      ],
+      "practical": false,
+      "competencies": [
+        "life-electrical-safety-rules"
+      ],
+      "skills": [
+        {
+          "tree": "life-electrical-safety",
+          "node": "danger-awareness"
+        }
+      ],
+      "interests": [
+        "machines"
+      ],
+      "languageHooks": [
+        "family",
+        "feelings"
+      ],
+      "connects": [
+        "science",
+        "health"
+      ],
+      "check": [
+        {
+          "question": "You see a wire with a broken cover. What do you do?",
+          "options": [
+            "Touch it",
+            "Tell a grown-up",
+            "Pull it"
+          ],
+          "answer": 1,
+          "explain": "Yes! Tell a grown-up and stay away."
+        }
+      ],
+      "adultNote": "Children never open sockets, plugs or appliances. Fit socket covers only where local guidance recommends them."
+    },
+    {
+      "id": "life-set-the-table",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "household",
+      "title": "Set the table",
+      "emoji": "🍽️",
+      "ageBands": [
+        "3-5",
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 10,
+      "summary": "Count the people, then give each one a plate, a cup and a spoon.",
+      "steps": [
+        "🔢 Count the people who will eat.",
+        "🍽️ Put one plate for each person.",
+        "🥄 Put a spoon or fork next to each plate.",
+        "🥤 Add a cup for everyone.",
+        "😊 Call the family to eat!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "breakable plates",
+          "sharp knives"
+        ],
+        "notes": "Use unbreakable plates if possible. Adults handle sharp knives and hot dishes."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "family plates and cups"
+          ],
+          "description": "Use what the family has."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "paper place mats"
+          ],
+          "description": "Draw a place mat showing where things go."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "napkins",
+            "flowers"
+          ],
+          "description": "Fold napkins and add a small decoration."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "table",
+          "use": "a mat or cloth on the floor"
+        }
+      ],
+      "competencies": [],
+      "skills": [],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "numbers",
+        "family",
+        "kitchen"
+      ],
+      "connects": [
+        "mathematics"
+      ]
+    },
+    {
+      "id": "life-make-a-sandwich",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "cooking",
+      "title": "Make a sandwich",
+      "emoji": "🥪",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Spread, fill and press: a sandwich is your first real meal!",
+      "steps": [
+        "🧼 Wash your hands and clean the table.",
+        "🍞 Put two slices of bread on a plate.",
+        "🧈 Spread with a blunt table knife, away from your hand.",
+        "🥒 Add a filling, like cheese, egg an adult cooked, or salad.",
+        "🔪 An adult helps you cut it in half.",
+        "🧽 Clean up and put food back in the fridge."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "knife cuts",
+          "food allergies",
+          "food left out too long"
+        ],
+        "notes": "Use a blunt table knife for spreading. An adult supervises any cutting and checks allergies. Chill fillings quickly."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "bread",
+            "any filling at home"
+          ],
+          "description": "One simple filling."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "bread",
+            "two or three fillings",
+            "salad"
+          ],
+          "description": "Add vegetables for colour and goodness."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "wraps",
+            "flatbreads",
+            "cutters"
+          ],
+          "description": "Try wraps or flatbreads from different countries."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "sliced bread",
+          "use": "flatbread, chapati, tortilla or crackers"
+        },
+        {
+          "instead": "butter",
+          "use": "mashed avocado, hummus or nothing"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety"
+        }
+      ],
+      "competencies": [
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "life-cooking",
+          "node": "kitchen-hygiene"
+        },
+        {
+          "tree": "life-cooking",
+          "node": "no-cook-food"
+        },
+        {
+          "tree": "life-cooking",
+          "node": "knife-skills"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "food",
+        "kitchen"
+      ],
+      "connects": [
+        "nutrition"
+      ]
+    },
+    {
+      "id": "life-seed-in-a-pot",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "gardening",
+      "title": "Grow a plant in a container",
+      "emoji": "🌱",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 30,
+      "summary": "No garden? No problem. A tin, a cup or a bottle can grow a plant.",
+      "steps": [
+        "🥫 Find a clean container and make small holes in the bottom (an adult helps).",
+        "🪨 Put a few stones in the bottom, then fill with soil.",
+        "🫘 Push two or three seeds in, as deep as your fingernail.",
+        "💧 Water gently.",
+        "☀️ Put it near a window.",
+        "📅 Check every day and draw what you see."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "soil germs",
+          "sharp edges on tins"
+        ],
+        "notes": "Wash hands after touching soil. An adult makes the drainage holes and checks for sharp edges."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "used tin or yoghurt pot",
+            "garden soil",
+            "dried beans from the kitchen"
+          ],
+          "description": "Grow a bean from the kitchen cupboard."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "plant pot",
+            "potting compost",
+            "seed packet"
+          ],
+          "description": "Grow herbs like basil or cress from seed."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "window box",
+            "grow light"
+          ],
+          "description": "A window box with several plants."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "garden",
+          "use": "containers on a windowsill, balcony or doorstep"
+        },
+        {
+          "instead": "seed packet",
+          "use": "dried beans, lentils or seeds from fruit like tomatoes"
+        }
+      ],
+      "competencies": [
+        "life-grow-5-plants"
+      ],
+      "skills": [
+        {
+          "tree": "life-gardening",
+          "node": "seeds"
+        },
+        {
+          "tree": "life-gardening",
+          "node": "containers"
+        }
+      ],
+      "interests": [
+        "plants",
+        "nature"
+      ],
+      "languageHooks": [
+        "nature",
+        "time",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "environment"
+      ]
+    },
+    {
+      "id": "life-bike-abc-check",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "bicycle maintenance",
+      "title": "Bike safety check: A, B, C",
+      "emoji": "🚲",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Before you ride: Air in the tyres, Brakes that work, Chain that is clean.",
+      "steps": [
+        "🅰️ Air: squeeze each tyre. It should feel firm.",
+        "🅱️ Brakes: squeeze each lever and push the bike. The wheel should stop.",
+        "©️ Chain: look for rust or dirt.",
+        "🔩 Wobble the wheels: they should not be loose.",
+        "🗣️ Anything wrong? Tell an adult and do not ride."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "pinched fingers in chain or spokes"
+        ],
+        "notes": "Keep fingers away from moving chain and spokes. Do the check with the bike still or slowly pushed."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "your bike"
+          ],
+          "description": "Check by hand and eye."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "pump",
+            "rag"
+          ],
+          "description": "Pump up soft tyres and wipe the chain."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "tyre pressure gauge",
+            "bike stand"
+          ],
+          "description": "Measure tyre pressure and compare with the number on the tyre side."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "bike stand",
+          "use": "turn the bike upside down on a soft mat, or have a helper hold it"
+        }
+      ],
+      "competencies": [
+        "life-bike-safety-check"
+      ],
+      "skills": [
+        {
+          "tree": "life-bicycle",
+          "node": "parts"
+        },
+        {
+          "tree": "life-bicycle",
+          "node": "safety-check"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "machines"
+      ],
+      "languageHooks": [
+        "tools",
+        "numbers"
+      ],
+      "connects": [
+        "physical-education",
+        "science"
+      ]
+    },
+    {
+      "id": "life-where-water-goes",
+      "kind": "lesson",
+      "area": "life-skills",
+      "subject": "plumbing",
+      "title": "Where does water go?",
+      "emoji": "🚿",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Clean water comes in through pipes. Used water goes out down the drain.",
+      "steps": [
+        "🚰 Turn on a tap: clean water comes from pipes under the ground.",
+        "🛁 Pull the plug: used water goes down the drain.",
+        "🔍 Look under a sink with an adult and find the bendy pipe (the trap).",
+        "🗺️ Draw a picture: street, pipe, tap, drain, sewer."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "awareness"
+        }
+      ],
+      "interests": [
+        "building",
+        "machines"
+      ],
+      "languageHooks": [
+        "science",
+        "kitchen"
+      ],
+      "connects": [
+        "science",
+        "environment"
+      ],
+      "check": [
+        {
+          "question": "What does the bendy pipe under a sink do?",
+          "options": [
+            "Makes music",
+            "Holds water to block smells",
+            "Heats the water"
+          ],
+          "answer": 1,
+          "explain": "Right! The trap keeps a little water to stop drain smells coming up."
+        }
+      ]
+    },
+    {
+      "id": "life-fold-laundry",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "household",
+      "title": "Sort and fold the laundry",
+      "emoji": "👕",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Match socks, fold shirts and help the whole family.",
+      "steps": [
+        "🧦 Find pairs of socks.",
+        "👕 Lay a shirt flat, fold in the sleeves, then fold in half.",
+        "🧺 Make a pile for each person.",
+        "📦 Put them away in drawers."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "hot iron",
+          "washing powder"
+        ],
+        "notes": "Children do not use the iron and keep detergents and capsules away from younger children."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "clean laundry"
+          ],
+          "description": "Fold by hand."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "sorting baskets"
+          ],
+          "description": "One basket per person."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "folding board made from cardboard"
+          ],
+          "description": "Make a cardboard folding board for neat shirts."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "laundry baskets",
+          "use": "bags, boxes or a clean sheet"
+        }
+      ],
+      "competencies": [],
+      "skills": [],
+      "interests": [
+        "building"
+      ],
+      "languageHooks": [
+        "colours",
+        "family",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "adultNote": "Laundry capsules are a poisoning risk for young children; store them high and closed."
+    },
+    {
+      "id": "life-plumbing-parts",
+      "kind": "lesson",
+      "area": "life-skills",
+      "subject": "plumbing",
+      "title": "Meet the pipes: plumbing parts",
+      "emoji": "🔧",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Taps, pipes, traps, valves and washers: learn the names of the parts that keep water flowing.",
+      "steps": [
+        "🚰 Tap: opens and closes the water flow.",
+        "🟢 Washer or cartridge: the seal inside a tap that stops drips.",
+        "↪️ Trap: the U-shaped pipe under a sink.",
+        "🔴 Shut-off (stop) valve: turns off water to the house or one appliance.",
+        "🧪 Look under the kitchen sink with an adult and name each part you can see. Do not touch anything that is wet or near electricity."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "components"
+        }
+      ],
+      "interests": [
+        "building",
+        "machines"
+      ],
+      "languageHooks": [
+        "tools",
+        "kitchen"
+      ],
+      "connects": [
+        "science",
+        "technology"
+      ],
+      "check": [
+        {
+          "question": "Which part stops a tap from dripping?",
+          "options": [
+            "The trap",
+            "The washer",
+            "The drain"
+          ],
+          "answer": 1,
+          "explain": "Yes. A worn washer is the most common cause of a dripping tap."
+        }
+      ]
+    },
+    {
+      "id": "life-plumbing-tools",
+      "kind": "lesson",
+      "area": "life-skills",
+      "subject": "plumbing",
+      "title": "The plumber's toolbox",
+      "emoji": "🧰",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Every job needs the right tool. Learn what plumbing tools do and which ones are for adults.",
+      "steps": [
+        "🪠 Plunger: pushes and pulls water to clear a blocked sink.",
+        "🔧 Adjustable spanner: grips nuts of different sizes.",
+        "🪣 Bucket and old towels: catch water before it spreads.",
+        "🎗️ Sealing tape: wraps threads so joints do not leak.",
+        "🔦 Torch: see into dark cupboards.",
+        "🚫 Pipe cutters, blowtorches and drain chemicals are for trained adults only."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "tools"
+        }
+      ],
+      "interests": [
+        "building",
+        "machines"
+      ],
+      "languageHooks": [
+        "tools"
+      ],
+      "connects": [
+        "technology"
+      ],
+      "check": [
+        {
+          "question": "What is the first thing to grab when a pipe drips?",
+          "options": [
+            "A blowtorch",
+            "A bucket and towel",
+            "Drain chemicals"
+          ],
+          "answer": 1,
+          "explain": "A bucket and towels stop the water spreading while you get help."
+        }
+      ]
+    },
+    {
+      "id": "life-find-water-shutoff",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "plumbing",
+      "title": "Find the water shut-off valve",
+      "emoji": "🚰",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "In a leak, the shut-off valve is your best friend. Find yours with an adult.",
+      "steps": [
+        "🗣️ Ask an adult to help you look.",
+        "🔍 Look under the kitchen sink, near the water meter, or where the pipe enters the home.",
+        "🔴 It is usually a tap handle or lever on a pipe.",
+        "🔄 With the adult, learn which way closes it (often clockwise, \"righty-tighty\").",
+        "🏷️ Make a label: \"Water shut-off\".",
+        "📍 Draw a map so everyone in the home can find it."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "stiff or old valves breaking",
+          "water near electrical sockets",
+          "dark cupboards"
+        ],
+        "notes": "An adult decides whether the valve is tested. Never force a stiff valve. Keep away from wet electrical items."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "torch or phone light",
+            "paper",
+            "pen"
+          ],
+          "description": "Find it, label it and draw a map."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "waterproof tag"
+          ],
+          "description": "Fix a tag to the valve."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "home emergency card"
+          ],
+          "description": "Make a home emergency card showing water, gas and electricity shut-offs (for adults to use)."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "waterproof tag",
+          "use": "a strip of tape with writing on it"
+        }
+      ],
+      "sources": [
+        {
+          "title": "WaterSense: fix a leak and save water",
+          "publisher": "US Environmental Protection Agency",
+          "url": "https://www.epa.gov/watersense"
+        },
+        {
+          "title": "Home and leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        }
+      ],
+      "competencies": [
+        "life-find-water-shutoff"
+      ],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "water-systems"
+        }
+      ],
+      "interests": [
+        "building"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "tools"
+      ],
+      "connects": [
+        "geography",
+        "science"
+      ],
+      "adultNote": "In flats and rented homes the main valve may be shared or in a communal area; ask the landlord or building manager."
+    },
+    {
+      "id": "life-leaking-sink",
+      "kind": "simulation",
+      "area": "life-skills",
+      "subject": "plumbing",
+      "title": "Water under the kitchen sink",
+      "emoji": "💧",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 10,
+      "summary": "There is water leaking under the kitchen sink. What do you do?",
+      "steps": [
+        "Read each situation.",
+        "Choose what you would do.",
+        "Read the feedback and think about why."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "water near electricity",
+          "slippery floor",
+          "dirty water"
+        ],
+        "notes": "In real life, stay away from water near sockets or appliances and fetch an adult first."
+      },
+      "sources": [
+        {
+          "title": "WaterSense: fix a leak and save water",
+          "publisher": "US Environmental Protection Agency",
+          "url": "https://www.epa.gov/watersense"
+        },
+        {
+          "title": "Electrical safety at home",
+          "publisher": "Electrical Safety First",
+          "url": "https://www.electricalsafetyfirst.org.uk/"
+        }
+      ],
+      "competencies": [
+        "life-find-water-shutoff"
+      ],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "leak-diagnosis"
+        },
+        {
+          "tree": "life-plumbing",
+          "node": "professional-pathway"
+        }
+      ],
+      "interests": [
+        "building"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "tools"
+      ],
+      "connects": [
+        "science"
+      ],
+      "simulation": {
+        "scenario": "You open the cupboard under the kitchen sink and the floor is wet. Water is dripping from a pipe.",
+        "steps": [
+          {
+            "prompt": "Step 1 - Remain safe. The water is spreading towards a plugged-in appliance. What first?",
+            "options": [
+              {
+                "text": "Keep away from the water near the appliance and call an adult.",
+                "correct": true,
+                "feedback": "Yes. Water and electricity together are dangerous. Safety first, then help."
+              },
+              {
+                "text": "Pull the plug out with wet hands.",
+                "correct": false,
+                "feedback": "No. Never touch plugs or switches with wet hands or while standing in water."
+              },
+              {
+                "text": "Ignore it and close the cupboard.",
+                "correct": false,
+                "feedback": "Leaks get worse. Telling an adult quickly saves damage."
+              }
+            ]
+          },
+          {
+            "prompt": "Step 2 - Identify the problem. With an adult, where do you look?",
+            "options": [
+              {
+                "text": "Shine a torch and dry the pipes to see where drops start.",
+                "correct": true,
+                "feedback": "Good detective work. Dry pipes make it easy to spot the drip."
+              },
+              {
+                "text": "Pour more water in to make it worse.",
+                "correct": false,
+                "feedback": "That only makes more mess."
+              },
+              {
+                "text": "Guess without looking.",
+                "correct": false,
+                "feedback": "Look first. Is it the tap, a joint, the trap or the drain?"
+              }
+            ]
+          },
+          {
+            "prompt": "Step 3 - Locate the shut-off. The drip is from the pipe that brings water in. What helps most?",
+            "options": [
+              {
+                "text": "Find the shut-off valve under the sink or the main one and let the adult close it.",
+                "correct": true,
+                "feedback": "Exactly. Turning off the water stops the leak while you decide what to do."
+              },
+              {
+                "text": "Hold your hand over the leak for an hour.",
+                "correct": false,
+                "feedback": "You would get tired, and it does not stop the water."
+              }
+            ]
+          },
+          {
+            "prompt": "Step 4 - Decide what can be attempted. The trap nut is a little loose. What could the adult try?",
+            "options": [
+              {
+                "text": "With the water off and a bucket under it, gently hand-tighten the nut.",
+                "correct": true,
+                "feedback": "A loose trap nut is a simple, safe fix with an adult."
+              },
+              {
+                "text": "Cut the pipe off.",
+                "correct": false,
+                "feedback": "Never cut pipes without training."
+              },
+              {
+                "text": "Pour strong drain chemicals in.",
+                "correct": false,
+                "feedback": "Drain chemicals burn skin and eyes and do not fix leaks."
+              }
+            ]
+          },
+          {
+            "prompt": "Step 5 - Decide when professional help is required. The pipe is cracked and water sprays when turned on. Now what?",
+            "options": [
+              {
+                "text": "Keep the water off and call a qualified plumber.",
+                "correct": true,
+                "feedback": "Right. Cracked pipes, leaks near electrics, or anything you are unsure of need a professional."
+              },
+              {
+                "text": "Wrap it in sticky tape and forget it.",
+                "correct": false,
+                "feedback": "Tape will not hold water pressure for long. Get a plumber."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "life-cook-scrambled-eggs",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "cooking",
+      "title": "Cook scrambled eggs",
+      "emoji": "🍳",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 20,
+      "summary": "Your first hot meal: soft, golden scrambled eggs, cooked with an adult beside you.",
+      "steps": [
+        "🧼 Wash your hands. Wash them again after cracking eggs.",
+        "🥚 Crack 2 eggs into a bowl and whisk with a fork.",
+        "🍳 With an adult, warm a pan on low heat with a little oil or butter.",
+        "↪️ Turn the pan handle inwards so nobody knocks it.",
+        "🥄 Pour in the eggs and stir slowly until there is no runny liquid left.",
+        "🔥 Turn the heat off first, then serve."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "hot pan and hob",
+          "burns from oil",
+          "raw egg germs"
+        ],
+        "notes": "An adult stays beside the child at the hob. Handles turned inwards. Eggs cooked until set, with no liquid egg."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "eggs",
+            "pan",
+            "fork"
+          ],
+          "description": "Plain scrambled eggs."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "eggs",
+            "tomato",
+            "herbs"
+          ],
+          "description": "Add chopped tomato and herbs (adult cuts)."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "spinach",
+            "cheese",
+            "toast"
+          ],
+          "description": "Make a full breakfast plate."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "eggs",
+          "use": "crumbled tofu or chickpea flour batter for an egg-free version"
+        },
+        {
+          "instead": "hob",
+          "use": "a camping stove or electric hot plate used by an adult"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety basics",
+          "publisher": "FoodSafety.gov (US Department of Health and Human Services)",
+          "url": "https://www.foodsafety.gov/"
+        }
+      ],
+      "competencies": [
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "life-cooking",
+          "node": "heat-basics"
+        },
+        {
+          "tree": "life-cooking",
+          "node": "simple-meals"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "food",
+        "kitchen"
+      ],
+      "connects": [
+        "nutrition",
+        "science"
+      ]
+    },
+    {
+      "id": "life-electricity-rules",
+      "kind": "lesson",
+      "area": "life-skills",
+      "subject": "electrical safety",
+      "title": "Five rules for electricity at home",
+      "emoji": "⚡",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 15,
+      "summary": "Electricity powers our homes. These five rules keep you safe around it.",
+      "steps": [
+        "💧 Dry hands only. Never use electrical things near water.",
+        "🔌 Pull the plug, not the cable, and only when the switch is off.",
+        "🚫 Never open sockets, plugs or appliances, or poke anything inside.",
+        "🔥 Frayed cable, burning smell, sparks or hot plug? Stop, step back, tell an adult.",
+        "🪁 Fly kites far from power lines and never climb pylons or substations."
+      ],
+      "practical": false,
+      "competencies": [
+        "life-electrical-safety-rules"
+      ],
+      "skills": [
+        {
+          "tree": "life-electrical-safety",
+          "node": "safe-habits"
+        },
+        {
+          "tree": "life-electrical-safety",
+          "node": "appliances"
+        }
+      ],
+      "interests": [
+        "machines"
+      ],
+      "languageHooks": [
+        "science",
+        "tools"
+      ],
+      "connects": [
+        "science",
+        "health"
+      ],
+      "check": [
+        {
+          "question": "Your phone charger cable is frayed. What should you do?",
+          "options": [
+            "Tape it and keep using it",
+            "Stop using it and tell an adult",
+            "Open the plug to fix it"
+          ],
+          "answer": 1,
+          "explain": "Damaged cables can shock or start fires. Stop using it and tell an adult."
+        }
+      ],
+      "adultNote": "All wiring repairs, including plugs and sockets, are for a qualified electrician."
+    },
+    {
+      "id": "life-fix-puncture",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "bicycle maintenance",
+      "title": "Repair a bicycle puncture",
+      "emoji": "🛞",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 60,
+      "summary": "Flat tyre? Find the hole, patch it and ride again. A real repair you can be proud of.",
+      "steps": [
+        "🔄 With an adult, turn the bike over or lift it onto a stand.",
+        "🔓 Open the brake if needed and remove the wheel.",
+        "🥄 Use tyre levers to lift one side of the tyre off the rim.",
+        "🎈 Pull out the inner tube, pump a little air in and listen or feel for the hole.",
+        "💧 Can not find it? Dip the tube in a bowl of water and look for bubbles.",
+        "🔍 Check inside the tyre for the thorn or glass that caused it (feel slowly and carefully, or look).",
+        "🩹 Roughen the area, add glue if the kit needs it, wait, and press the patch on firmly.",
+        "🔁 Put the tube back, refit the tyre with your thumbs, pump to the pressure written on the tyre.",
+        "✅ Refit the wheel, close the brake and test the brakes before riding."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "sharp glass or thorns in the tyre",
+          "pinched fingers",
+          "brakes refitted wrongly",
+          "glue fumes"
+        ],
+        "notes": "An adult checks that the wheel is tight and the brakes work before anyone rides. Use glue in fresh air."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "bowl of water",
+            "borrowed pump"
+          ],
+          "description": "Find the hole with water and learn the steps on a borrowed bike."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "puncture repair kit",
+            "tyre levers",
+            "pump"
+          ],
+          "description": "Patch the tube with a standard kit."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "spare inner tube",
+            "bike stand",
+            "pressure gauge"
+          ],
+          "description": "Carry a spare tube and fix flats at the roadside."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "tyre levers",
+          "use": "the rounded handles of two old spoons (they may bend)"
+        },
+        {
+          "instead": "bike stand",
+          "use": "turn the bike upside down on a mat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cycling advice and bike maintenance",
+          "publisher": "Cycling UK",
+          "url": "https://www.cyclinguk.org/"
+        },
+        {
+          "title": "Bicycle safety",
+          "publisher": "US National Highway Traffic Safety Administration",
+          "url": "https://www.nhtsa.gov/road-safety/bicycle-safety"
+        }
+      ],
+      "competencies": [
+        "life-fix-puncture"
+      ],
+      "skills": [
+        {
+          "tree": "life-bicycle",
+          "node": "puncture-repair"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "machines"
+      ],
+      "languageHooks": [
+        "tools",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "life-sew-button",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "sewing",
+      "title": "Sew on a button",
+      "emoji": "🧵",
+      "ageBands": [
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "level": 3,
+      "minutes": 30,
+      "summary": "A button fell off? Thread, needle and a few stitches put it back.",
+      "steps": [
+        "🪡 Cut a long arm's length of thread and push it through the needle. Tie a knot at the end.",
+        "📍 Mark where the button goes.",
+        "⬆️ Push the needle up from the back, through one hole.",
+        "⬇️ Go down through the opposite hole. Repeat 6 times.",
+        "🔁 Wind the thread around under the button 3 times to make a stalk.",
+        "🪢 Push to the back, make two small stitches and cut the thread.",
+        "📌 Put the needle back in a pin cushion."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "needle pricks",
+          "scissors",
+          "small buttons near babies"
+        ],
+        "notes": "An adult supervises younger learners. Keep needles in a pin cushion and away from small children."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "needle",
+            "thread",
+            "old shirt"
+          ],
+          "description": "Practise on an old piece of fabric."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "sewing kit",
+            "thimble"
+          ],
+          "description": "A basic sewing kit with a thimble."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "buttons in different sizes"
+          ],
+          "description": "Make a button sampler with 2-hole and 4-hole buttons."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "sewing thread",
+          "use": "dental floss or thin wool for strong practice stitches"
+        },
+        {
+          "instead": "thimble",
+          "use": "a bottle cap on your fingertip"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Home and leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        }
+      ],
+      "competencies": [
+        "life-sew-button"
+      ],
+      "skills": [],
+      "interests": [
+        "building"
+      ],
+      "languageHooks": [
+        "numbers",
+        "colours"
+      ],
+      "connects": [
+        "arts",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "life-grow-herbs",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "gardening",
+      "title": "Windowsill herb garden",
+      "emoji": "🌿",
+      "ageBands": [
+        "9-11",
+        "12-14"
+      ],
+      "level": 3,
+      "minutes": 40,
+      "summary": "Grow herbs you can smell, taste and cook with, right on a windowsill.",
+      "steps": [
+        "🥫 Collect three containers with drainage holes.",
+        "🟫 Fill with soil or compost.",
+        "🌱 Sow herb seeds such as cress, basil or coriander, or plant a cutting from a bought herb.",
+        "💧 Water when the top of the soil is dry.",
+        "📏 Measure the height every 3 days and make a chart.",
+        "✂️ Snip leaves from the top to help them grow bushy, then cook with them."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "soil germs",
+          "scissors"
+        ],
+        "notes": "Wash hands and herbs before eating. Use child scissors."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "tins or cut bottles",
+            "garden soil",
+            "kitchen seeds"
+          ],
+          "description": "Sow seeds from coriander or mustard from the spice cupboard."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "pots",
+            "compost",
+            "seed packets"
+          ],
+          "description": "Three herbs side by side."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "self-watering planter"
+          ],
+          "description": "A self-watering planter to compare growth."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "windowsill",
+          "use": "a doorstep, balcony or any bright spot"
+        },
+        {
+          "instead": "compost",
+          "use": "garden soil mixed with tea leaves or coffee grounds"
+        }
+      ],
+      "competencies": [
+        "life-grow-5-plants"
+      ],
+      "skills": [
+        {
+          "tree": "life-gardening",
+          "node": "containers"
+        },
+        {
+          "tree": "life-gardening",
+          "node": "growing-food"
+        }
+      ],
+      "interests": [
+        "plants",
+        "cooking"
+      ],
+      "languageHooks": [
+        "nature",
+        "food",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "life-unblock-sink",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "plumbing",
+      "title": "Clear a slow sink with a plunger",
+      "emoji": "🪠",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 20,
+      "summary": "Sink draining slowly? A plunger and some patience usually fix it, with no chemicals.",
+      "steps": [
+        "🧤 Wear rubber gloves.",
+        "🧽 Scoop out any food or hair you can see.",
+        "💧 Leave a little water in the sink so the plunger seals.",
+        "🪠 Cover the overflow hole with a wet cloth.",
+        "⬆️⬇️ Push and pull the plunger firmly 10 to 15 times.",
+        "🚰 Run water to test. Still blocked? An adult may clean the trap over a bucket."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "dirty water and germs",
+          "splashing",
+          "chemical burns from drain cleaners"
+        ],
+        "notes": "Never use or mix chemical drain cleaners. Wear gloves and wash hands after. An adult decides if the trap is opened."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "gloves",
+            "bucket"
+          ],
+          "description": "Remove visible debris and flush with hot (not boiling) water."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "sink plunger"
+          ],
+          "description": "Use a cup plunger."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "drain snake"
+          ],
+          "description": "An adult uses a hand drain snake for deeper blocks."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "plunger",
+          "use": "a cut-off plastic bottle pushed over the drain, or bicarbonate of soda and vinegar fizz followed by warm water"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Home and leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        },
+        {
+          "title": "WaterSense: fix a leak and save water",
+          "publisher": "US Environmental Protection Agency",
+          "url": "https://www.epa.gov/watersense"
+        }
+      ],
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "drainage"
+        },
+        {
+          "tree": "life-plumbing",
+          "node": "tools"
+        }
+      ],
+      "interests": [
+        "building"
+      ],
+      "languageHooks": [
+        "kitchen",
+        "tools"
+      ],
+      "connects": [
+        "science"
+      ]
+    },
+    {
+      "id": "life-electricity-bill",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "electricity",
+      "title": "How much does it cost to run?",
+      "emoji": "🔌",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 30,
+      "summary": "Use one simple formula to find out what each appliance costs: watts x hours / 1000 = kWh, then kWh x price.",
+      "steps": [
+        "🏷️ Find the power (watts, W) on each appliance label or manual. Do not open or unplug anything to look.",
+        "⏱️ Estimate the hours it is used each day.",
+        "🧮 Energy (kWh) = watts x hours / 1000.",
+        "💰 Cost = kWh x price per kWh (find the price on a family bill, or use 0.30 as an example).",
+        "📝 Example: kettle 2000 W x 0.25 h / 1000 = 0.5 kWh. 0.5 x 0.30 = 0.15 per day, about 4.50 per 30 days.",
+        "📝 Example: LED bulb 10 W x 5 h / 1000 = 0.05 kWh. 0.05 x 0.30 = 0.015 per day.",
+        "📊 Make a table for 5 appliances and find the biggest user.",
+        "💡 Suggest one change that would save energy, and work out the saving."
+      ],
+      "practical": false,
+      "competencies": [
+        "life-electricity-bill"
+      ],
+      "skills": [
+        {
+          "tree": "life-electrical-safety",
+          "node": "energy-use"
+        },
+        {
+          "tree": "life-electrical-safety",
+          "node": "appliances"
+        }
+      ],
+      "interests": [
+        "machines",
+        "money"
+      ],
+      "languageHooks": [
+        "maths",
+        "numbers",
+        "time"
+      ],
+      "connects": [
+        "mathematics",
+        "financial-literacy",
+        "environment"
+      ],
+      "check": [
+        {
+          "question": "A 1500 W heater runs for 2 hours. How many kWh?",
+          "options": [
+            "0.75 kWh",
+            "3 kWh",
+            "3000 kWh"
+          ],
+          "answer": 1,
+          "explain": "1500 x 2 = 3000, and 3000 / 1000 = 3 kWh."
+        },
+        {
+          "question": "Electricity costs 0.30 per kWh. What do 3 kWh cost?",
+          "options": [
+            "0.09",
+            "0.90",
+            "9.00"
+          ],
+          "answer": 1,
+          "explain": "3 x 0.30 = 0.90."
+        },
+        {
+          "question": "A 100 W TV runs 4 hours a day for 30 days. How many kWh?",
+          "options": [
+            "12 kWh",
+            "120 kWh",
+            "1.2 kWh"
+          ],
+          "answer": 0,
+          "explain": "100 x 4 / 1000 = 0.4 kWh per day, and 0.4 x 30 = 12 kWh."
+        }
+      ],
+      "adultNote": "Share a real bill if you are comfortable so the price per kWh is local. Prices vary by country and tariff."
+    },
+    {
+      "id": "life-cook-pasta-meal",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "cooking",
+      "title": "Cook a pasta and vegetable meal",
+      "emoji": "🍝",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 45,
+      "summary": "Boil, chop, stir and serve: a full meal for the family.",
+      "steps": [
+        "📋 Read the recipe and get everything ready.",
+        "🧼 Wash hands and vegetables.",
+        "🔪 Chop vegetables on a board, using the claw grip (fingertips tucked in), with an adult nearby.",
+        "💧 Boil water for pasta. Lower pasta in with a spoon, not your hand.",
+        "🍅 Fry vegetables gently, add chopped tomatoes and simmer for 10 minutes.",
+        "🫗 An adult or you, carefully, drains the pasta away from your body.",
+        "🍽️ Mix, serve, and wash up."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "boiling water scalds",
+          "knife cuts",
+          "hot pans",
+          "steam burns"
+        ],
+        "notes": "An adult is in the kitchen. Pan handles turned inwards. Drain pasta pouring away from the body. Cool burns under cool running water and get help."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Low cost",
+          "materials": [
+            "pasta or rice",
+            "tinned tomatoes",
+            "onion"
+          ],
+          "description": "A simple tomato pasta."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "pasta",
+            "tomatoes",
+            "two or three vegetables",
+            "beans"
+          ],
+          "description": "Add beans or lentils for protein."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "fresh herbs",
+            "cheese",
+            "salad"
+          ],
+          "description": "Make a salad on the side and a table menu."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "pasta",
+          "use": "rice, noodles, couscous or any local grain"
+        },
+        {
+          "instead": "colander",
+          "use": "hold the lid slightly open and pour carefully, or lift pasta out with a slotted spoon"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety basics",
+          "publisher": "FoodSafety.gov (US Department of Health and Human Services)",
+          "url": "https://www.foodsafety.gov/"
+        },
+        {
+          "title": "Child accident prevention",
+          "publisher": "Child Accident Prevention Trust",
+          "url": "https://capt.org.uk/"
+        }
+      ],
+      "competencies": [
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "life-cooking",
+          "node": "knife-skills"
+        },
+        {
+          "tree": "life-cooking",
+          "node": "heat-basics"
+        },
+        {
+          "tree": "life-cooking",
+          "node": "simple-meals"
+        }
+      ],
+      "interests": [
+        "cooking"
+      ],
+      "languageHooks": [
+        "food",
+        "kitchen",
+        "time"
+      ],
+      "connects": [
+        "nutrition",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "life-tool-safety",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "tools",
+      "title": "Hand tools: hammer and screwdriver",
+      "emoji": "🔨",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 40,
+      "summary": "Learn to use a hammer and screwdriver safely by building a small box or shelf with an adult.",
+      "steps": [
+        "🥽 Wear safety glasses, tie back long hair, and clear the work area.",
+        "🔍 Check tools are not damaged.",
+        "🔨 Hold the hammer near the end of the handle. Start a nail with gentle taps, then move fingers away.",
+        "🪛 Choose a screwdriver that fits the screw head exactly. Turn clockwise to tighten.",
+        "🧱 Work on a stable surface, never on your lap.",
+        "🧹 Put tools away when you finish."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "hit fingers",
+          "flying pieces",
+          "sharp points",
+          "splinters"
+        ],
+        "notes": "Adult supervision required. No power tools without proper training. Never use tools on anything connected to electricity."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "borrowed hammer",
+            "scrap wood",
+            "old nails"
+          ],
+          "description": "Practise knocking nails into scrap wood."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "small tool set",
+            "safety glasses"
+          ],
+          "description": "Build a simple box from scrap wood."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "clamps",
+            "measuring square",
+            "workbench"
+          ],
+          "description": "Build a small shelf with measured cuts (adult cuts the wood)."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "safety glasses",
+          "use": "well-fitting swimming goggles or any wrap-around glasses"
+        },
+        {
+          "instead": "workbench",
+          "use": "a sturdy table protected with cardboard"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Home and leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        }
+      ],
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "tools"
+        }
+      ],
+      "interests": [
+        "building",
+        "machines"
+      ],
+      "languageHooks": [
+        "tools",
+        "shapes"
+      ],
+      "connects": [
+        "technology",
+        "mathematics"
+      ]
+    },
+    {
+      "id": "life-bike-brakes",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "bicycle maintenance",
+      "title": "Brakes and friction",
+      "emoji": "🛑",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 45,
+      "summary": "Brakes turn movement into heat using friction. Learn to check and adjust them with an adult.",
+      "steps": [
+        "🔍 Look at the brake pads: are the grooves still visible? Worn pads need replacing.",
+        "🎯 Pads should hit the rim (or disc) squarely, not the tyre.",
+        "✋ Squeeze the lever: it should stop well before touching the handlebar.",
+        "🔩 With an adult, turn the barrel adjuster a little to tighten a loose cable.",
+        "🧪 Test at walking speed in a safe place before any ride.",
+        "🧠 Science: more friction means more stopping force, but wet rims reduce friction, so you stop slower in rain."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "brakes failing if adjusted wrongly",
+          "pinched fingers",
+          "hot discs after riding"
+        ],
+        "notes": "An adult checks the brakes before the bike is ridden. If unsure, take the bike to a trained mechanic."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "your bike"
+          ],
+          "description": "Inspect pads and lever travel."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "allen keys",
+            "rag"
+          ],
+          "description": "Adjust the barrel adjuster and clean the rims."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "replacement brake pads"
+          ],
+          "description": "Fit new pads with an adult."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "bike stand",
+          "use": "a helper holding the bike or the bike upside down on a mat"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cycling advice and bike maintenance",
+          "publisher": "Cycling UK",
+          "url": "https://www.cyclinguk.org/"
+        },
+        {
+          "title": "Bicycle safety",
+          "publisher": "US National Highway Traffic Safety Administration",
+          "url": "https://www.nhtsa.gov/road-safety/bicycle-safety"
+        }
+      ],
+      "competencies": [
+        "life-bike-safety-check"
+      ],
+      "skills": [
+        {
+          "tree": "life-bicycle",
+          "node": "brakes"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "machines"
+      ],
+      "languageHooks": [
+        "science",
+        "tools"
+      ],
+      "connects": [
+        "science",
+        "physics"
+      ]
+    },
+    {
+      "id": "life-bike-gears",
+      "kind": "lesson",
+      "area": "life-skills",
+      "subject": "bicycle maintenance",
+      "title": "How bike gears work",
+      "emoji": "⚙️",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 20,
+      "summary": "Count the teeth and you can work out how far one push of the pedals takes you.",
+      "steps": [
+        "🔢 Count the teeth on the front chainring (example: 40).",
+        "🔢 Count the teeth on a back sprocket (example: 20).",
+        "➗ Gear ratio = front / back = 40 / 20 = 2. The wheel turns 2 times for each pedal turn.",
+        "📏 A wheel that is 2 m around travels 2 x 2 = 4 m per pedal turn.",
+        "⛰️ Hills: a lower ratio (like 30 / 30 = 1) is easier to push but slower.",
+        "🧠 This is the same idea engineers use in cars, clocks and robots."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "life-bicycle",
+          "node": "gears"
+        }
+      ],
+      "interests": [
+        "bicycles",
+        "machines"
+      ],
+      "languageHooks": [
+        "maths",
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "physics",
+        "engineering"
+      ],
+      "check": [
+        {
+          "question": "Front 48 teeth, back 16 teeth. What is the gear ratio?",
+          "options": [
+            "2",
+            "3",
+            "32"
+          ],
+          "answer": 1,
+          "explain": "48 / 16 = 3. Each pedal turn spins the wheel 3 times."
+        }
+      ]
+    },
+    {
+      "id": "life-babysitting-basics",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "caring for younger children",
+      "title": "Helping care for a younger child",
+      "emoji": "🧸",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 40,
+      "summary": "Playing with, feeding and keeping a younger child safe is a big responsibility and a real skill.",
+      "steps": [
+        "📞 Always know how to reach the parent or carer and the emergency number.",
+        "👀 Keep the child in sight. Never leave a baby alone on a bed, table or in water, even for a second.",
+        "🧩 Choose toys without small parts for under-threes.",
+        "🍎 Offer only food the parent has agreed, cut small, and sit the child down to eat.",
+        "🛏️ Babies sleep on their back, in a clear cot.",
+        "😊 Be calm and kind. If the child is hurt or unwell, call the parent; in an emergency call the emergency number."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "falls",
+          "choking",
+          "drowning",
+          "burns",
+          "medicines and cleaning products"
+        ],
+        "notes": "Teenagers help under the guidance of a responsible adult who stays reachable. A babysitting or first-aid course is strongly recommended."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "family toys",
+            "picture books"
+          ],
+          "description": "Help a parent care for a younger sibling or cousin while they are nearby."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "activity bag"
+          ],
+          "description": "Make an activity bag with crayons, books and safe games."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "babysitting course",
+            "first-aid course"
+          ],
+          "description": "Take an accredited babysitting or paediatric first-aid course."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "activity bag",
+          "use": "a box of household items that are safe: cups, spoons, cloths, cardboard tubes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Parenting and child safety",
+          "publisher": "UNICEF",
+          "url": "https://www.unicef.org/parenting"
+        },
+        {
+          "title": "Child accident prevention",
+          "publisher": "Child Accident Prevention Trust",
+          "url": "https://capt.org.uk/"
+        },
+        {
+          "title": "First aid and safety",
+          "publisher": "International Federation of Red Cross and Red Crescent Societies",
+          "url": "https://www.ifrc.org/"
+        }
+      ],
+      "competencies": [
+        "life-care-younger-child"
+      ],
+      "skills": [],
+      "interests": [],
+      "languageHooks": [
+        "family",
+        "feelings"
+      ],
+      "connects": [
+        "health",
+        "first-aid"
+      ],
+      "certificationNote": "Knowing these steps is not a qualification. Many Red Cross and Red Crescent societies run babysitting and paediatric first-aid courses.",
+      "adultNote": "Laws and norms on the age for babysitting differ by country; a responsible adult should always be reachable."
+    },
+    {
+      "id": "life-mend-a-tear",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "sewing",
+      "title": "Mend a tear with running and back stitch",
+      "emoji": "🪡",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 4,
+      "minutes": 40,
+      "summary": "Do not throw it away: a few strong stitches give clothes a longer life.",
+      "steps": [
+        "🔄 Turn the item inside out and pin the edges together.",
+        "🪡 Running stitch: in and out in a straight line, small even stitches.",
+        "🔙 Back stitch: go one stitch back each time for a strong seam.",
+        "🪢 Tie off with two small stitches.",
+        "👖 Turn it back and admire your mend."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "needle pricks",
+          "scissors"
+        ],
+        "notes": "Keep needles and pins in a cushion and away from younger children."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "needle",
+            "thread",
+            "old clothes"
+          ],
+          "description": "Mend a sock or a seam."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "patch fabric",
+            "pins"
+          ],
+          "description": "Sew a patch over a hole."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "embroidery thread"
+          ],
+          "description": "Decorate the mend with visible colourful stitching."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "patch fabric",
+          "use": "fabric cut from worn-out clothes"
+        }
+      ],
+      "competencies": [],
+      "skills": [],
+      "interests": [
+        "building"
+      ],
+      "languageHooks": [
+        "colours",
+        "shapes"
+      ],
+      "connects": [
+        "arts",
+        "environment"
+      ]
+    },
+    {
+      "id": "life-grow-vegetables",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "gardening",
+      "title": "Grow vegetables in containers",
+      "emoji": "🥬",
+      "ageBands": [
+        "12-14",
+        "15-17"
+      ],
+      "level": 5,
+      "minutes": 60,
+      "summary": "Lettuce, tomatoes and beans can grow in buckets and bags. Plan, plant and harvest your own food.",
+      "steps": [
+        "📅 Check what grows in your season and climate.",
+        "🪣 Choose deep containers (at least 20 cm) with drainage holes.",
+        "🟫 Fill with compost or soil mixed with compost.",
+        "🌱 Sow seeds at the depth on the packet, or plant seedlings.",
+        "💧 Water in the morning or evening. Feel the soil first.",
+        "🐌 Check for pests and pick them off by hand.",
+        "📒 Keep a diary of height, flowers and harvest weight."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "soil germs",
+          "lifting heavy pots",
+          "garden chemicals"
+        ],
+        "notes": "Wash hands and vegetables. Lift with bent knees or ask for help. Children do not use garden chemicals."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "old buckets or bags",
+            "soil",
+            "saved seeds"
+          ],
+          "description": "Grow from saved seeds in reused containers."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "compost",
+            "seed packets",
+            "watering can"
+          ],
+          "description": "Three kinds of vegetable side by side."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "grow bags",
+            "stakes",
+            "water butt"
+          ],
+          "description": "Collect rainwater and support tall plants."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "garden bed",
+          "use": "buckets, sacks, crates or old tyres lined with plastic"
+        },
+        {
+          "instead": "compost",
+          "use": "home-made compost from vegetable peelings"
+        }
+      ],
+      "competencies": [
+        "life-grow-5-plants"
+      ],
+      "skills": [
+        {
+          "tree": "life-gardening",
+          "node": "soil"
+        },
+        {
+          "tree": "life-gardening",
+          "node": "growing-food"
+        },
+        {
+          "tree": "life-gardening",
+          "node": "seasons-planning"
+        }
+      ],
+      "interests": [
+        "plants",
+        "nature",
+        "cooking"
+      ],
+      "languageHooks": [
+        "food",
+        "nature",
+        "weather"
+      ],
+      "connects": [
+        "science",
+        "environment",
+        "nutrition"
+      ]
+    },
+    {
+      "id": "life-fix-dripping-tap",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "plumbing",
+      "title": "Fix a dripping tap",
+      "emoji": "🚰",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 60,
+      "summary": "A dripping tap can waste thousands of litres a year. Replace the washer with an adult.",
+      "steps": [
+        "🔴 Turn off the water at the isolating valve or main shut-off. Open the tap to drain it.",
+        "🧴 Put the plug in so small parts can not fall down the drain.",
+        "🔧 Remove the handle cover and unscrew the tap head with an adjustable spanner (protect the chrome with a cloth).",
+        "🟢 Take out the old washer or cartridge and take it to match a new one.",
+        "🔁 Fit the new washer, reassemble, and turn the water back on slowly.",
+        "👀 Check for drips. Still dripping or anything cracked? Call a plumber."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "water damage",
+          "stuck or broken parts",
+          "hot water taps"
+        ],
+        "notes": "Adult supervision required. Turn off and cool hot water first. Stop and call a qualified plumber if a valve will not close or parts break."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "borrowed spanner",
+            "cloth"
+          ],
+          "description": "Inspect and learn the parts with the water off."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "tap washer",
+            "adjustable spanner"
+          ],
+          "description": "Replace a rubber washer."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "tap cartridge",
+            "sealing tape"
+          ],
+          "description": "Replace a ceramic cartridge."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "adjustable spanner",
+          "use": "a correctly sized spanner borrowed from a neighbour or tool library"
+        }
+      ],
+      "sources": [
+        {
+          "title": "WaterSense: fix a leak and save water",
+          "publisher": "US Environmental Protection Agency",
+          "url": "https://www.epa.gov/watersense"
+        },
+        {
+          "title": "Home and leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        }
+      ],
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "maintenance"
+        }
+      ],
+      "interests": [
+        "building",
+        "machines"
+      ],
+      "languageHooks": [
+        "tools",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "environment"
+      ],
+      "check": [
+        {
+          "question": "A tap drips once a second. Each drip is about 0.05 ml. How much in a day?",
+          "options": [
+            "About 4.3 litres",
+            "About 43 ml",
+            "About 430 litres"
+          ],
+          "answer": 0,
+          "explain": "86,400 seconds x 0.05 ml = 4,320 ml, about 4.3 litres a day."
+        }
+      ]
+    },
+    {
+      "id": "life-plumbing-systems",
+      "kind": "lesson",
+      "area": "life-skills",
+      "subject": "plumbing",
+      "title": "Hot water, pressure and becoming a plumber",
+      "emoji": "🛠️",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 30,
+      "summary": "How water heaters, pressure and heating pipes work, and how people train to be plumbers.",
+      "steps": [
+        "🔥 Water heaters store hot water in a tank or heat it instantly as it flows.",
+        "📈 Pressure: water is pushed through pipes; a pressure relief valve stops a heater building too much pressure.",
+        "♨️ Central heating loops hot water through radiators and back to a boiler or heat pump.",
+        "⚠️ Gas appliances and boilers are only for registered, qualified engineers.",
+        "🎓 Plumbers learn through apprenticeships or college courses, combining classroom and on-the-job training.",
+        "📝 Research the training route for plumbers in your country."
+      ],
+      "practical": false,
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "advanced-systems"
+        },
+        {
+          "tree": "life-plumbing",
+          "node": "professional-pathway"
+        }
+      ],
+      "interests": [
+        "building",
+        "machines"
+      ],
+      "languageHooks": [
+        "science"
+      ],
+      "connects": [
+        "physics",
+        "careers"
+      ],
+      "check": [
+        {
+          "question": "Who should work on a gas boiler?",
+          "options": [
+            "Anyone with a spanner",
+            "A registered, qualified engineer",
+            "A teenager with a video"
+          ],
+          "answer": 1,
+          "explain": "Gas work is dangerous and regulated. Only qualified engineers do it."
+        }
+      ]
+    },
+    {
+      "id": "life-electrical-work-is-for-electricians",
+      "kind": "lesson",
+      "area": "life-skills",
+      "subject": "electrical safety",
+      "title": "Fuses, breakers and the electrician's job",
+      "emoji": "👷",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 25,
+      "summary": "Learn what protects a home's wiring, and why mains wiring is only for qualified electricians.",
+      "steps": [
+        "🧠 A fuse or circuit breaker cuts power if too much current flows, preventing fires.",
+        "🛡️ A residual current device (RCD or GFCI) cuts power very fast if current leaks, for example through a person.",
+        "📍 Know where the consumer unit or fuse box is so an adult can switch off power in an emergency.",
+        "🚫 Never open sockets, switches, plugs, appliances or the consumer unit, and never touch mains wiring.",
+        "🔁 If a breaker keeps tripping, there is a fault: an adult unplugs appliances and calls a qualified electrician.",
+        "🎓 Electricians train through apprenticeships and must meet national safety standards."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "red",
+        "hazards": [
+          "electric shock",
+          "burns",
+          "fire"
+        ],
+        "notes": "Any work on mains wiring, sockets, switches or the consumer unit is for qualified electricians only. This lesson is knowledge, not permission."
+      },
+      "sources": [
+        {
+          "title": "Electrical safety at home",
+          "publisher": "Electrical Safety First",
+          "url": "https://www.electricalsafetyfirst.org.uk/"
+        },
+        {
+          "title": "Home electrical safety",
+          "publisher": "Electrical Safety Foundation International",
+          "url": "https://www.esfi.org/"
+        }
+      ],
+      "competencies": [
+        "life-electrical-safety-rules"
+      ],
+      "skills": [
+        {
+          "tree": "life-electrical-safety",
+          "node": "circuits-protection"
+        },
+        {
+          "tree": "life-electrical-safety",
+          "node": "professional-pathway"
+        }
+      ],
+      "interests": [
+        "machines"
+      ],
+      "languageHooks": [
+        "science"
+      ],
+      "connects": [
+        "physics",
+        "careers"
+      ],
+      "check": [
+        {
+          "question": "A socket has a scorch mark. What is the right action?",
+          "options": [
+            "Unscrew it to look",
+            "Stop using it and get a qualified electrician",
+            "Paint over it"
+          ],
+          "answer": 1,
+          "explain": "Scorch marks mean overheating. Stop using it; an electrician must inspect it."
+        }
+      ],
+      "certificationNote": "Electrical installation work requires a qualified, and in many countries registered, electrician.",
+      "adultNote": "Show the teen where the consumer unit is and how an adult would switch it off in an emergency; never ask them to work inside it."
+    },
+    {
+      "id": "life-plan-week-meals",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "cooking",
+      "title": "Plan and cook a week of meals",
+      "emoji": "📅",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 7,
+      "minutes": 120,
+      "summary": "Plan five balanced dinners on a budget, shop for them and cook at least one yourself.",
+      "steps": [
+        "🥗 Plan 5 dinners with vegetables, a protein and a grain or starch.",
+        "📝 Write a shopping list and check what is already at home.",
+        "💰 Estimate the cost and stay inside a budget agreed with your family.",
+        "🧊 Store food safely: raw meat at the bottom of the fridge, cooked food cooled and chilled within 2 hours.",
+        "🍲 Cook at least one meal start to finish, using a thermometer or checking that meat is hot all the way through.",
+        "♻️ Use leftovers for lunch the next day."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "burns",
+          "knife cuts",
+          "food poisoning from undercooked or badly stored food"
+        ],
+        "notes": "An adult is in the home. Follow food safety rules for chilling, cooking and reheating."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Low cost",
+          "materials": [
+            "staple foods",
+            "paper plan"
+          ],
+          "description": "Plan from what the family already buys."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "budget",
+            "local market"
+          ],
+          "description": "Shop at a local market and compare prices."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "food thermometer",
+            "batch-cooking containers"
+          ],
+          "description": "Batch-cook and freeze portions safely."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "food thermometer",
+          "use": "cut into the thickest part: no pink meat and juices run clear, steaming hot"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Food safety and hygiene",
+          "publisher": "Food Standards Agency (UK)",
+          "url": "https://www.food.gov.uk/"
+        },
+        {
+          "title": "Food safety fact sheet",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety"
+        }
+      ],
+      "competencies": [
+        "life-cook-10-meals"
+      ],
+      "skills": [
+        {
+          "tree": "life-cooking",
+          "node": "simple-meals"
+        },
+        {
+          "tree": "life-cooking",
+          "node": "meal-planning"
+        }
+      ],
+      "interests": [
+        "cooking",
+        "money"
+      ],
+      "languageHooks": [
+        "food",
+        "numbers",
+        "time"
+      ],
+      "connects": [
+        "nutrition",
+        "mathematics",
+        "financial-literacy"
+      ]
+    },
+    {
+      "id": "life-home-maintenance-check",
+      "kind": "activity",
+      "area": "life-skills",
+      "subject": "household maintenance",
+      "title": "Seasonal home safety check",
+      "emoji": "🏠",
+      "ageBands": [
+        "15-17"
+      ],
+      "level": 6,
+      "minutes": 45,
+      "summary": "Small checks prevent big problems. Run a home check-up with an adult twice a year.",
+      "steps": [
+        "🔔 Press the test button on smoke alarms (and carbon monoxide alarms if fitted).",
+        "🚰 Look for drips under sinks and around the toilet.",
+        "🔌 Look for damaged cables or overloaded sockets (look only, do not open).",
+        "🪟 Check windows and doors close and lock.",
+        "🧯 Check where the fire blanket or extinguisher is, if you have one.",
+        "📝 Write a list for adults: what is fine, what needs a professional."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "amber",
+        "hazards": [
+          "ladders and heights",
+          "electrical faults",
+          "water damage"
+        ],
+        "notes": "No ladder work without an adult holding it. Anything electrical or gas found faulty goes to a qualified professional."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "checklist on paper"
+          ],
+          "description": "A walk-round with a paper checklist."
+        },
+        "better": {
+          "cost": "Low cost",
+          "materials": [
+            "torch",
+            "new alarm batteries"
+          ],
+          "description": "Replace alarm batteries where needed."
+        },
+        "advanced": {
+          "cost": "Optional",
+          "materials": [
+            "plug-in socket tester used by an adult",
+            "damp meter"
+          ],
+          "description": "Use simple testers with adult guidance."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "printed checklist",
+          "use": "a list written in a notebook or on a phone"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Home and leisure safety",
+          "publisher": "Royal Society for the Prevention of Accidents (RoSPA)",
+          "url": "https://www.rospa.com/"
+        },
+        {
+          "title": "Electrical safety at home",
+          "publisher": "Electrical Safety First",
+          "url": "https://www.electricalsafetyfirst.org.uk/"
+        }
+      ],
+      "competencies": [],
+      "skills": [
+        {
+          "tree": "life-plumbing",
+          "node": "maintenance"
+        },
+        {
+          "tree": "life-electrical-safety",
+          "node": "appliances"
+        }
+      ],
+      "interests": [
+        "building"
+      ],
+      "languageHooks": [
+        "time",
+        "tools"
+      ],
+      "connects": [
+        "science",
+        "civics"
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "id": "pw-bicycle",
+      "interest": "bicycles",
+      "title": "From bicycles to robots",
+      "emoji": "🚲",
+      "ageBands": [
+        "6-8",
+        "9-11",
+        "12-14",
+        "15-17"
+      ],
+      "steps": [
+        {
+          "title": "Bicycle",
+          "area": "life-skills",
+          "subject": "bicycle maintenance",
+          "description": "Name the parts and do a safety check.",
+          "itemIds": [
+            "life-bike-abc-check"
+          ]
+        },
+        {
+          "title": "Measurement",
+          "area": "core-academics",
+          "subject": "mathematics",
+          "description": "Measure wheel size, tyre pressure and how far one wheel turn goes.",
+          "itemIds": [
+            "life-bike-gears"
+          ]
+        },
+        {
+          "title": "Forces",
+          "area": "core-academics",
+          "subject": "physics",
+          "description": "Pushes and pulls: pedalling, braking and balance."
+        },
+        {
+          "title": "Friction",
+          "area": "core-academics",
+          "subject": "physics",
+          "description": "Why brakes and tyres grip, and why wet roads are slippery.",
+          "itemIds": [
+            "life-bike-brakes"
+          ]
+        },
+        {
+          "title": "Gears",
+          "area": "core-academics",
+          "subject": "physics",
+          "description": "Count teeth and calculate gear ratios.",
+          "itemIds": [
+            "life-bike-gears"
+          ]
+        },
+        {
+          "title": "Mechanical engineering",
+          "area": "careers",
+          "subject": "engineering",
+          "description": "How engineers design machines with levers, gears and bearings.",
+          "itemIds": [
+            "prj-bicycle-repair-workshop"
+          ]
+        },
+        {
+          "title": "Materials",
+          "area": "core-academics",
+          "subject": "chemistry",
+          "description": "Steel, aluminium, rubber and carbon fibre: strength, weight and cost."
+        },
+        {
+          "title": "Manufacturing",
+          "area": "careers",
+          "subject": "engineering",
+          "description": "How bikes are made in factories, from tubes to finished frames."
+        },
+        {
+          "title": "Business",
+          "area": "financial-literacy",
+          "subject": "entrepreneurship",
+          "description": "Plan a small bike-cleaning or repair service: costs, prices and profit.",
+          "itemIds": [
+            "fin-start-small-business"
+          ]
+        },
+        {
+          "title": "Economics",
+          "area": "financial-literacy",
+          "subject": "economics",
+          "description": "Supply, demand and why prices change.",
+          "itemIds": [
+            "fin-compare-prices"
+          ]
+        },
+        {
+          "title": "Repair skills",
+          "area": "life-skills",
+          "subject": "bicycle maintenance",
+          "description": "Fix punctures, adjust brakes and run a repair workshop.",
+          "itemIds": [
+            "life-fix-puncture",
+            "life-bike-brakes",
+            "prj-bicycle-repair-workshop"
+          ]
+        },
+        {
+          "title": "Physics",
+          "area": "core-academics",
+          "subject": "physics",
+          "description": "Energy, speed, momentum and balance on two wheels."
+        },
+        {
+          "title": "CAD",
+          "area": "technology-ai",
+          "subject": "computer-aided design",
+          "description": "Draw a bike part on a computer or on squared paper first."
+        },
+        {
+          "title": "Programming",
+          "area": "technology-ai",
+          "subject": "programming",
+          "description": "Write a program to calculate gear ratios or speed."
+        },
+        {
+          "title": "Robotics",
+          "area": "technology-ai",
+          "subject": "robotics",
+          "description": "Use wheels, gears and motors to build a moving robot."
+        }
+      ]
+    }
+  ]
+}
