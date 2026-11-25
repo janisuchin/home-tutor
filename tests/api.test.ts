@@ -222,3 +222,23 @@ describe('attendance records', () => {
     expect(r.body.changes.find((c: any) => c.kind === 'attendance').data.childIds).toEqual(['a', 'b']);
   });
 });
+
+describe('e2e clean-up check (test leftovers)', () => {
+  const e2eEmail = (n: number) => `pk-${1764000000000 + n}-abc${n}@example.org`;
+  it('counts accounts still present for e2e addresses only', async () => {
+    const a = e2eEmail(1);
+    const b = e2eEmail(2);
+    const s = await signup(a);
+    await signup(b);
+    expect((await call('POST', '/test/leftovers', { emails: [a, b, e2eEmail(3)] })).body).toEqual({ checked: 3, left: 2 });
+    await call('DELETE', '/account', undefined, s.token);
+    expect((await call('POST', '/test/leftovers', { emails: [a, b] })).body.left).toBe(1);
+  });
+  it('refuses real-looking addresses, so it cannot probe real families', async () => {
+    await signup();
+    expect((await call('POST', '/test/leftovers', { emails: [EMAIL] })).status).toBe(400);
+    expect((await call('POST', '/test/leftovers', { emails: ['pk-1764000000000-abc@gmail.com'] })).status).toBe(400);
+    expect((await call('POST', '/test/leftovers', { emails: 'x' })).status).toBe(400);
+    expect((await call('POST', '/test/leftovers', { emails: Array.from({ length: 101 }, (_, i) => e2eEmail(i)) })).status).toBe(400);
+  });
+});

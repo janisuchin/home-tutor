@@ -26,13 +26,18 @@ test('add a passkey, sign out, then sign in with the passkey', async ({ page }) 
     await tid(page, 'account-mode-login').click();
     await tid(page, 'passkey-login').click();
     await expect(page.getByText('All saved in the cloud.').locator('visible=true')).toBeVisible();
-    // A new session token was issued by the passkey sign-in.
+    // A new session token was issued by the passkey sign-in. Signing out ended the first session,
+    // so the account must be deleted with the new one (round 2 used the old token, got 401 and
+    // left the account, its session, records and passkey behind on the live site).
     await expect.poll(() => accountToken(page)).not.toBe(token);
-    const old = token;
     token = await accountToken(page);
     expect(token).toBeTruthy();
-    await deleteAccountByToken(page, old); // also ends the first session (whole account goes)
+    const gone = await page.request.delete('/api/account', { headers: { authorization: `Bearer ${token}` } });
+    expect(gone.status()).toBe(200);
     token = null;
+    // Nothing is left: the passkey session is gone and so is the account.
+    const after = await page.request.post('/api/sync', { headers: { authorization: `Bearer ${await accountToken(page)}` }, data: { cursor: 0, changes: [] } });
+    expect(after.status()).toBe(401);
   } finally {
     await deleteAccountByToken(page, token);
   }

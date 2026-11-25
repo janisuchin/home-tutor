@@ -263,6 +263,27 @@ async function deleteAccount(env: Env, accountId: string) {
   return json({ ok: true });
 }
 
+// ---------------- e2e clean-up check ----------------
+/** The e2e helper testEmail() makes addresses of exactly this shape on the reserved example.org domain. */
+export const TEST_EMAIL = /^[a-z0-9]{1,16}-\d{10,16}-[a-z0-9]{1,16}@example\.org$/;
+
+/**
+ * Test-only clean-up verification: given the addresses an e2e run signed up with, reports how many
+ * still have an account. Only e2e-shaped addresses on example.org (reserved by IANA, so no real
+ * family can use it) are accepted, so this cannot be used to probe real accounts. Count only.
+ */
+async function testLeftovers(req: Request, env: Env) {
+  if (!(await rateLimit(env.DB, `leftovers:${clientIp(req)}`, 30, 3600))) throw new HttpError(429, 'rate_limited');
+  const body = await readJson(req);
+  const emails: unknown = body.emails;
+  if (!Array.isArray(emails) || emails.length > 100 || !emails.every((e) => typeof e === 'string' && TEST_EMAIL.test(e))) throw new HttpError(400, 'test_emails_only');
+  let left = 0;
+  for (const e of new Set(emails as string[])) {
+    if (await env.DB.prepare('SELECT id FROM accounts WHERE email_hash = ?').bind(emailHash(e)).first()) left++;
+  }
+  return json({ checked: emails.length, left });
+}
+
 export async function handleApi(req: Request, env: Env): Promise<Response> {
   const url = new URL(req.url);
   const path = url.pathname.replace(/^\/api/, '');
@@ -286,6 +307,7 @@ export async function handleApi(req: Request, env: Env): Promise<Response> {
     const passport = path.match(/^\/passport\/([A-Za-z0-9-]{8,40})$/);
     if (passport && m === 'GET') return await readPassport(req, env, passport[1]);
     if (path === '/ai-tutor' && m === 'POST') return aiTutorStub(env);
+    if (path === '/test/leftovers' && m === 'POST') return await testLeftovers(req, env);
 
     const accountId = await requireAccount(req, env);
     if (path === '/sync' && m === 'POST') return await sync(req, env, accountId);

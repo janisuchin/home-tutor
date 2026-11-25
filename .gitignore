@@ -15,3 +15,4 @@ public/content/
 src/content-generated/
 test-results/
 wrangler.deploy.jsonc
+.e2e-run/

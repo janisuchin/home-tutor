@@ -1,4 +1,6 @@
 import type { Page, Locator } from '@playwright/test';
+import { appendFileSync, mkdirSync } from 'node:fs';
+import { join } from 'node:path';
 import { hashPin } from '../src/core/crypto';
 import { DEFAULT_FAMILY_SETTINGS, newChild, type Child, type ModeId } from '../src/core/model';
 
@@ -88,6 +90,8 @@ export async function accountToken(page: Page): Promise<string | null> {
 export async function deleteAccountByToken(page: Page, token: string | null) {
   if (!token) return;
   const res = await page.request.delete('/api/account', { headers: { authorization: `Bearer ${token}` } });
+  // 401 means this session is gone (signed out, or the account was already deleted). That is only
+  // fine when the account itself is gone too; the final no-leftovers check catches it if not.
   if (!res.ok() && res.status() !== 401) throw new Error(`account clean-up failed: ${res.status()}`);
 }
 
@@ -100,8 +104,18 @@ export async function signUp(page: Page, email: string, password = 'our family l
   await tid(page, 'account-submit').click();
 }
 
+/** Where every e2e worker records the addresses it signs up with (cleared by e2e/run.setup.ts). */
+export const RUN_LEDGER = join(__dirname, '..', '.e2e-run');
+
+/**
+ * A fresh address on the reserved example.org domain. Every address is written to the run ledger,
+ * so the final check (e2e/no-leftovers.teardown.ts) can ask the API that no account is left behind.
+ */
 export function testEmail(prefix: string) {
-  return `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2)}@example.org`;
+  const email = `${prefix.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 16)}-${Date.now()}-${Math.random().toString(36).slice(2, 12)}@example.org`;
+  mkdirSync(RUN_LEDGER, { recursive: true });
+  appendFileSync(join(RUN_LEDGER, `emails-${process.pid}.txt`), email + '\n');
+  return email;
 }
 
 /** Axe check (WCAG 2 A/AA): no serious or critical violations on the current screen. */
