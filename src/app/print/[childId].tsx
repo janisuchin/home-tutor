@@ -32,7 +32,7 @@ function Print() {
   return (
     <Screen title={t('print.title')} bg={colors.white} testID="print">
       {Platform.OS === 'web' ? (
-        <View style={{ gap: 8 }} dataSet={{ noprint: '1' }}>
+        <View style={{ gap: 8 }} {...({ dataSet: { noprint: '1' } } as object)}>
           <Txt variant="small">{t('print.hint')}</Txt>
           <Button icon="🖨️" label={t('print.button')} onPress={() => window.print()} testID="print-button" />
         </View>

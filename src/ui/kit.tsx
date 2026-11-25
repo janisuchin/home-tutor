@@ -34,7 +34,9 @@ export function Txt({
   bold,
   numberOfLines,
   role,
+  testID,
 }: {
+  testID?: string;
   children: ReactNode;
   variant?: TxtVariant;
   color?: string;
@@ -49,6 +51,7 @@ export function Txt({
   const heavy = bold || variant === 'display' || variant === 'title' || variant === 'h2' || variant === 'h3' || variant === 'label';
   return (
     <Text
+      testID={testID}
       accessibilityRole={role ?? (variant === 'title' || variant === 'display' || variant === 'h2' ? 'header' : undefined)}
       numberOfLines={numberOfLines}
       style={[

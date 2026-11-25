@@ -1,0 +1,27 @@
+{
+  // Home Tutor: one Worker serves the PWA (static assets from the Cloudflare edge) and the API.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "home-tutor",
+  "main": "api/src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "home-tutor",
+      // Filled in by scripts/deploy.sh after `wrangler d1 create home-tutor`.
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "api/migrations"
+    }
+  ],
+  "vars": {
+    "AI_TUTOR_ENABLED": "false"
+  },
+  "observability": { "enabled": false }
+}

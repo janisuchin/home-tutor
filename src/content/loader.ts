@@ -18,6 +18,6 @@ export async function loadPack(area: string): Promise<AreaPack> {
 export const loadEmergencyNumbers = async () => gen.emergencyNumbers as EmergencyNumber[];
 export const loadCareers = async () => gen.careers as Career[];
 export const loadVocab = async (code: string) => gen.languages[code] as VocabPack | undefined;
-export async function downloadAllForOffline(): Promise<number> {
+export async function downloadAllForOffline(_onProgress?: (done: number, total: number) => void): Promise<number> {
   return 0; // already on the device
 }

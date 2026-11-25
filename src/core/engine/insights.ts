@@ -48,12 +48,17 @@ export function tutorInsights(
 
   // Connect an academic lesson to a strong interest ("connect today's fractions lesson to recipes").
   for (const interest of child.interests) {
-    const bridge = visible.find(
-      (i) =>
-        i.area === 'core-academics' &&
-        !p.completed.has(i.id) &&
-        (i.interests.includes(interest) || (i.connects ?? []).map((c) => c.toLowerCase()).includes(interest)),
-    );
+    const level = p.subjectLevels.get('mathematics') ?? 1;
+    const candidates = visible
+      .filter((i) => i.area === 'core-academics' && !p.completed.has(i.id))
+      .map((i) => {
+        const connects = (i.connects ?? []).map((c) => c.toLowerCase()).includes(interest);
+        const tagged = i.interests.includes(interest);
+        return { i, rank: (connects ? 2 : 0) + (tagged ? 1 : 0) - Math.abs(i.level - level) * 0.1 };
+      })
+      .filter((x) => x.rank > 0.5)
+      .sort((a, b) => b.rank - a.rank);
+    const bridge = candidates[0]?.i;
     if (bridge)
       out.push({
         kind: 'connect-interest',
