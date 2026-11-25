@@ -17,3 +17,4 @@ test-results/
 wrangler.deploy.jsonc
 .e2e-run/
 dist-unlocked/
+.vitest/
