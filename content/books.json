@@ -4844,5 +4844,4439 @@
    "source": "Standard Ebooks",
    "licence": "Public domain"
   }
+ },
+ {
+  "id": "long-walk-to-water",
+  "title": "A Long Walk to Water",
+  "author": "Linda Sue Park",
+  "year": 2008,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "historical fiction",
+  "interests": [
+   "stories",
+   "helping"
+  ],
+  "areas": [
+   "civics-social",
+   "environment"
+  ],
+  "why": "Two Sudanese children, decades apart: a refugee boy and a girl who walks for water.",
+  "contentNotes": "War, refugee camps, deaths of family members.",
+  "origin": "USA (Korean heritage)",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17113467W",
+   "isbn": "9780358265108",
+   "catalogueTitle": "A Long Walk to Water( Linda Sue Park)"
+  }
+ },
+ {
+  "id": "really-short-history",
+  "title": "A Really Short History of Nearly Everything",
+  "author": "Bill Bryson",
+  "year": 2008,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "space",
+   "dinosaurs",
+   "body"
+  ],
+  "areas": [
+   "core-academics",
+   "independent-learning"
+  ],
+  "why": "A funny, illustrated tour of the universe, Earth and life.",
+  "origin": "USA/UK",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL14991884W",
+   "isbn": "9780241451939"
+  }
+ },
+ {
+  "id": "angry-river",
+  "title": "Angry River",
+  "author": "Ruskin Bond",
+  "year": 1972,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "nature",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "environment"
+  ],
+  "why": "A girl survives a monsoon flood on a river island; brave and calm storytelling.",
+  "contentNotes": "A flood puts a child in danger.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL62926W",
+   "isbn": "9780140306484"
+  }
+ },
+ {
+  "id": "beastly-tales",
+  "title": "Beastly Tales from Here and There",
+  "author": "Vikram Seth",
+  "year": 1992,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "poetry",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity"
+  ],
+  "why": "Witty animal fables in rhyming verse from India, China, Greece and beyond.",
+  "contentNotes": "Some fables end darkly for the animals.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL11923W",
+   "isbn": "9780060171155"
+  }
+ },
+ {
+  "id": "better-than-lemonade-stand",
+  "title": "Better Than a Lemonade Stand!",
+  "author": "Daryl Bernstein",
+  "year": 1992,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "money",
+  "interests": [
+   "money"
+  ],
+  "areas": [
+   "financial-literacy",
+   "careers",
+   "projects"
+  ],
+  "why": "Small business ideas for kids, written by a teenage entrepreneur.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3522354W",
+   "isbn": "9780613651691"
+  }
+ },
+ {
+  "id": "black-beauty",
+  "title": "Black Beauty",
+  "author": "Anna Sewell",
+  "year": 1877,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "animal story",
+  "interests": [
+   "horses",
+   "animals"
+  ],
+  "areas": [
+   "nature-animals",
+   "civics-social"
+  ],
+  "why": "A horse tells his own life story and argues for treating animals kindly.",
+  "contentNotes": "Scenes of cruelty to horses and a horse's death.",
+  "origin": "UK",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15854658W",
+   "isbn": "9780001840423"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/anna-sewell/black-beauty",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "bronze-and-sunflower",
+  "title": "Bronze and Sunflower",
+  "author": "Cao Wenxuan",
+  "year": 2015,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "realistic fiction",
+  "interests": [
+   "farming",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "A city girl and a mute village boy become family in rural China.",
+  "contentNotes": "Poverty, a father's death, the Cultural Revolution in the background.",
+  "origin": "China",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20796777W",
+   "isbn": "9780763693688"
+  }
+ },
+ {
+  "id": "brown-girl-dreaming",
+  "title": "Brown Girl Dreaming",
+  "author": "Jacqueline Woodson",
+  "year": 2014,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "memoir in verse",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "civics-social"
+  ],
+  "why": "The author's childhood in South Carolina and New York, told in poems.",
+  "contentNotes": "Civil-rights-era racism; a grandparent's illness and death.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17108369W",
+   "isbn": "9780147515827"
+  }
+ },
+ {
+  "id": "charlottes-web",
+  "title": "Charlotte's Web",
+  "author": "E. B. White",
+  "year": 1952,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "animal story",
+  "interests": [
+   "animals",
+   "farming"
+  ],
+  "areas": [
+   "languages",
+   "nature-animals"
+  ],
+  "why": "A pig, a spider and a lasting lesson in friendship on a farm.",
+  "contentNotes": "A main character dies at the end.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL483391W",
+   "isbn": "9780008139414"
+  }
+ },
+ {
+  "id": "chike-and-the-river",
+  "title": "Chike and the River",
+  "author": "Chinua Achebe",
+  "year": 1966,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "financial-literacy"
+  ],
+  "why": "A village boy in Nigeria dreams of crossing the River Niger and saves his sixpences.",
+  "contentNotes": "Brief encounter with thieves.",
+  "origin": "Nigeria",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL891773W",
+   "isbn": "9780307473868"
+  }
+ },
+ {
+  "id": "children-just-like-me",
+  "title": "Children Just Like Me",
+  "author": "Barnabas Kindersley",
+  "year": 1995,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "civics",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "languages"
+  ],
+  "why": "Meet children from dozens of countries: homes, schools, food and games.",
+  "origin": "UK",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3751613W",
+   "isbn": "9780751353273"
+  }
+ },
+ {
+  "id": "coding-games-in-scratch",
+  "title": "Coding Games in Scratch",
+  "author": "Jon Woodcock",
+  "year": 2016,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "how-to",
+  "interests": [
+   "computers",
+   "games"
+  ],
+  "areas": [
+   "technology-ai",
+   "projects"
+  ],
+  "why": "Step-by-step projects to build your own games in Scratch.",
+  "origin": "UK",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20014143W",
+   "isbn": "9781465439352"
+  }
+ },
+ {
+  "id": "el-deafo",
+  "title": "El Deafo",
+  "author": "Cece Bell",
+  "year": 2014,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "graphic memoir",
+  "interests": [
+   "drawing",
+   "stories"
+  ],
+  "areas": [
+   "health",
+   "civics-social"
+  ],
+  "why": "A graphic memoir about growing up deaf, with a superhero twist.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17095216W",
+   "isbn": "9781419710209"
+  }
+ },
+ {
+  "id": "emil-and-the-detectives",
+  "title": "Emil and the Detectives",
+  "author": "Erich Kästner",
+  "year": 1930,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "mystery",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "languages"
+  ],
+  "why": "A gang of Berlin kids track down the thief who stole Emil's money.",
+  "origin": "Germany",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL970122W",
+   "isbn": "9780099293613",
+   "catalogueTitle": "Emil und die Detektive"
+  }
+ },
+ {
+  "id": "esperanza-rising",
+  "title": "Esperanza Rising",
+  "author": "Pam Muñoz Ryan",
+  "year": 2000,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "historical fiction",
+  "interests": [
+   "farming",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "financial-literacy"
+  ],
+  "why": "A wealthy Mexican girl must start over as a farm worker in California.",
+  "contentNotes": "A father's murder (off-page); poverty, illness and labour conflict.",
+  "origin": "USA (Mexican heritage)",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL784051W",
+   "isbn": "9780030663512"
+  }
+ },
+ {
+  "id": "finn-family-moomintroll",
+  "title": "Finn Family Moomintroll",
+  "author": "Tove Jansson",
+  "year": 1950,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "fantasy",
+  "interests": [
+   "nature",
+   "stories"
+  ],
+  "areas": [
+   "arts-creativity",
+   "philosophy-worldviews"
+  ],
+  "why": "Strange, cosy adventures of the Moomin family in a Finnish valley.",
+  "origin": "Finland",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2195990W",
+   "isbn": "9780140301502",
+   "catalogueTitle": "Trollkarlens hatt"
+  }
+ },
+ {
+  "id": "rebel-girls",
+  "title": "Good Night Stories for Rebel Girls",
+  "author": "Elena Favilli",
+  "year": 2016,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "careers",
+   "civics-social"
+  ],
+  "why": "One-page lives of 100 women from history and today.",
+  "origin": "Italy",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19670680W",
+   "isbn": "9780241369999"
+  }
+ },
+ {
+  "id": "grandmas-bag-of-stories-911",
+  "title": "Grandma's Bag of Stories",
+  "author": "Sudha Murti",
+  "year": 2015,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "short stories",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "philosophy-worldviews"
+  ],
+  "why": "A grandmother's folk tales told to her grandchildren over a summer holiday.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL29133549W",
+   "isbn": "9780143432838"
+  }
+ },
+ {
+  "id": "guts-telgemeier",
+  "title": "Guts",
+  "author": "Raina Telgemeier",
+  "year": 2019,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "graphic memoir",
+  "interests": [
+   "body",
+   "drawing"
+  ],
+  "areas": [
+   "health",
+   "life-skills"
+  ],
+  "why": "Graphic memoir about anxiety, tummy troubles and learning to cope.",
+  "contentNotes": "Anxiety, vomiting, therapy.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20140528W",
+   "isbn": "9780545852500"
+  }
+ },
+ {
+  "id": "hatchet",
+  "title": "Hatchet",
+  "author": "Gary Paulsen",
+  "year": 1986,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "survival",
+  "interests": [
+   "nature",
+   "tools"
+  ],
+  "areas": [
+   "life-skills",
+   "nature-animals"
+  ],
+  "why": "A boy survives alone in the Canadian wilderness after a plane crash.",
+  "contentNotes": "Plane crash and a dead pilot; parents' divorce and infidelity mentioned.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL8125760W",
+   "isbn": "9780025274037"
+  }
+ },
+ {
+  "id": "heidi",
+  "title": "Heidi",
+  "author": "Johanna Spyri",
+  "year": 1880,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "classic",
+  "interests": [
+   "nature",
+   "farming"
+  ],
+  "areas": [
+   "languages",
+   "health"
+  ],
+  "why": "An orphan girl thrives with her grandfather in the Swiss Alps.",
+  "contentNotes": "Religious themes of its era; a disabled character is 'cured'.",
+  "origin": "Switzerland",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL28815175W",
+   "isbn": "9780307122117"
+  },
+  "freeRead": {
+   "url": "https://www.gutenberg.org/ebooks/20271",
+   "source": "Project Gutenberg",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "hidden-figures-young",
+  "title": "Hidden Figures Young Readers' Edition",
+  "author": "Margot Lee Shetterly",
+  "year": 2016,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "space",
+   "computers"
+  ],
+  "areas": [
+   "careers",
+   "technology-ai",
+   "civics-social"
+  ],
+  "why": "Black women mathematicians who helped send Americans into space (young readers' edition).",
+  "contentNotes": "Racial segregation in the USA.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL43492087W",
+   "isbn": "9781441743541"
+  }
+ },
+ {
+  "id": "how-i-taught-my-grandmother",
+  "title": "How I Taught My Grandmother to Read",
+  "author": "Sudha Murti",
+  "year": 2004,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "stories",
+   "helping"
+  ],
+  "areas": [
+   "life-skills",
+   "philosophy-worldviews"
+  ],
+  "why": "True short stories from the author's life about kindness, learning and fairness.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5764476W",
+   "isbn": "9780143335986",
+   "catalogueTitle": "How I taught my grandmother to read and other stories",
+   "catalogueAuthor": "Sudhā Mūrti"
+  }
+ },
+ {
+  "id": "if-the-world-were-a-village-911",
+  "title": "If the World Were a Village",
+  "author": "David J. Smith",
+  "year": 2002,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "civics",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "core-academics"
+  ],
+  "why": "Imagines the world as a village of 100 people to explain global facts.",
+  "origin": "Canada",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15831281W",
+   "isbn": "9781550747799"
+  }
+ },
+ {
+  "id": "journey-to-joburg",
+  "title": "Journey to Jo'burg",
+  "author": "Beverley Naidoo",
+  "year": 1985,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "historical fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "core-academics"
+  ],
+  "why": "Two children walk to Johannesburg under apartheid to find their mother.",
+  "contentNotes": "Racism and injustice of apartheid South Africa.",
+  "origin": "South Africa",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3285806W",
+   "isbn": "9780006726937"
+  }
+ },
+ {
+  "id": "kikis-delivery-service",
+  "title": "Kiki's Delivery Service",
+  "author": "Eiko Kadono",
+  "year": 1992,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "fantasy",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "careers",
+   "life-skills"
+  ],
+  "why": "A young witch moves to a new town and starts her own delivery business.",
+  "origin": "Japan",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL26649W",
+   "isbn": "9780241768815"
+  }
+ },
+ {
+  "id": "letters-from-a-father",
+  "title": "Letters from a Father to His Daughter",
+  "author": "Jawaharlal Nehru",
+  "year": 1930,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "history",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "civics-social"
+  ],
+  "why": "Letters explaining Earth's and humanity's early history, written to a 10-year-old.",
+  "contentNotes": "Written in 1928; some ideas about early peoples are dated.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL296153W",
+   "isbn": "9780670058167"
+  }
+ },
+ {
+  "id": "lunch-money",
+  "title": "Lunch Money",
+  "author": "Andrew Clements",
+  "year": 2005,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "realistic fiction",
+  "interests": [
+   "money",
+   "drawing"
+  ],
+  "areas": [
+   "financial-literacy",
+   "careers"
+  ],
+  "why": "A boy who loves making money starts a comic-book business at school.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL102505W",
+   "isbn": "9780689866838"
+  }
+ },
+ {
+  "id": "matilda",
+  "title": "Matilda",
+  "author": "Roald Dahl",
+  "year": 1988,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "humour",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "independent-learning"
+  ],
+  "why": "A brilliant girl who loves books stands up to cruel adults.",
+  "contentNotes": "Comic cruelty by adults, including violent punishments.",
+  "origin": "UK",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL45846W",
+   "isbn": "9780060536176"
+  }
+ },
+ {
+  "id": "my-journey-kalam",
+  "title": "My Journey",
+  "author": "A. P. J. Abdul Kalam",
+  "year": 2014,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "space",
+   "stories"
+  ],
+  "areas": [
+   "careers",
+   "philosophy-worldviews"
+  ],
+  "why": "India's 'Missile Man' and former President tells short stories from his life.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL24369817W",
+   "isbn": "9788129124913"
+  }
+ },
+ {
+  "id": "number-the-stars",
+  "title": "Number the Stars",
+  "author": "Lois Lowry",
+  "year": 1989,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "historical fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "civics-social"
+  ],
+  "why": "A Danish girl helps her Jewish friend escape the Nazis.",
+  "contentNotes": "Wartime danger, persecution, a young woman's death mentioned.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1846074W",
+   "isbn": "9780001841611",
+   "catalogueYear": 1901,
+   "yearNote": "Open Library first_publish_year is 1901, a catalogue error; first published 1989."
+  }
+ },
+ {
+  "id": "our-solar-system-simon",
+  "title": "Our Solar System",
+  "author": "Seymour Simon",
+  "year": 1992,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "space"
+  ],
+  "areas": [
+   "core-academics",
+   "independent-learning"
+  ],
+  "why": "Big photos and clear facts about the Sun, planets and moons.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL118098W",
+   "isbn": "9780061140082"
+  }
+ },
+ {
+  "id": "philosophy-for-kids",
+  "title": "Philosophy for Kids",
+  "author": "David A. White",
+  "year": 2021,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "philosophy",
+  "interests": [
+   "games"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "independent-learning"
+  ],
+  "why": "Forty big questions about fairness, knowledge and reality to argue about.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL26345493W",
+   "isbn": "9781000495171"
+  }
+ },
+ {
+  "id": "pippi-longstocking-911",
+  "title": "Pippi Longstocking",
+  "author": "Astrid Lindgren",
+  "year": 1945,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "humour",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity"
+  ],
+  "why": "The strongest girl in the world lives alone and breaks every rule, joyfully.",
+  "contentNotes": "Older editions contain racist language about her father's island; newer editions revise it.",
+  "origin": "Sweden",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL14872925W",
+   "isbn": "9780050043295",
+   "catalogueTitle": "Pippi Långstrump"
+  }
+ },
+ {
+  "id": "rickshaw-girl",
+  "title": "Rickshaw Girl",
+  "author": "Mitali Perkins",
+  "year": 2007,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "realistic fiction",
+  "interests": [
+   "art",
+   "money"
+  ],
+  "areas": [
+   "arts-creativity",
+   "financial-literacy"
+  ],
+  "why": "A girl in Bangladesh uses her painting skill to help her family earn a living.",
+  "origin": "USA (Bengali heritage)",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3937328W",
+   "isbn": "9781580893084"
+  }
+ },
+ {
+  "id": "ruskin-bond-book-of-nature",
+  "title": "Ruskin Bond's Book of Nature",
+  "author": "Ruskin Bond",
+  "year": 2004,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "nature",
+  "interests": [
+   "nature",
+   "birds",
+   "plants"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "Bond's stories, essays and poems about the mountains, trees and creatures.",
+  "origin": "India",
+  "classic": false,
+  "languages": [],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL384650W",
+   "isbn": "9780670057764",
+   "catalogueTitle": "Ruskin's Bond Book of Nature"
+  }
+ },
+ {
+  "id": "sadako-cranes",
+  "title": "Sadako and the Thousand Paper Cranes",
+  "author": "Eleanor Coerr",
+  "year": 1977,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "history",
+  "interests": [
+   "art",
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "civics-social"
+  ],
+  "why": "The true story of a Hiroshima girl who folded paper cranes while ill with leukaemia.",
+  "contentNotes": "A child dies from radiation-caused leukaemia.",
+  "origin": "USA/Canada",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3506116W",
+   "isbn": "9780142401132"
+  }
+ },
+ {
+  "id": "storm-boy",
+  "title": "Storm Boy",
+  "author": "Colin Thiele",
+  "year": 1963,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "animal story",
+  "interests": [
+   "birds",
+   "ocean"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "A boy and his pelican on the wild South Australian coast.",
+  "contentNotes": "The pelican is shot by hunters.",
+  "origin": "Australia",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2901393W",
+   "isbn": "9780060261337"
+  }
+ },
+ {
+  "id": "swami-and-friends",
+  "title": "Swami and Friends",
+  "author": "Rasipuram Krishnaswamy Narayan",
+  "year": 1935,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "school story",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "civics-social"
+  ],
+  "why": "Funny, gentle schoolboy adventures in the made-up South Indian town of Malgudi.",
+  "contentNotes": "Colonial-era setting; a few scenes of corporal punishment at school.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1057179W",
+   "isbn": "9780192745248"
+  }
+ },
+ {
+  "id": "the-blue-umbrella",
+  "title": "The Blue Umbrella",
+  "author": "Ruskin Bond",
+  "year": 1974,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "village story",
+  "interests": [
+   "stories",
+   "nature"
+  ],
+  "areas": [
+   "languages",
+   "philosophy-worldviews"
+  ],
+  "why": "A short Himalayan tale about envy, kindness and a much-wanted umbrella.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL62908W",
+   "isbn": "9780241023242"
+  }
+ },
+ {
+  "id": "boy-who-harnessed-the-wind",
+  "title": "The Boy Who Harnessed the Wind",
+  "author": "William Kamkwamba",
+  "year": 2009,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "machines",
+   "building"
+  ],
+  "areas": [
+   "technology-ai",
+   "projects",
+   "environment"
+  ],
+  "why": "A Malawian teenager builds a windmill from scrap to bring power to his village.",
+  "contentNotes": "Famine and hunger.",
+  "origin": "Malawi",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15190422W",
+   "isbn": "9780007307401"
+  }
+ },
+ {
+  "id": "feluda",
+  "title": "The Complete Adventures of Feluda",
+  "author": "Satyajit Ray",
+  "year": 2000,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "mystery",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "independent-learning",
+   "languages"
+  ],
+  "why": "Classic Bengali detective stories with a sharp-minded sleuth and his teenage cousin.",
+  "contentNotes": "Mild crime and peril; there are murders in some cases.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1041277W",
+   "isbn": "9780141000145"
+  }
+ },
+ {
+  "id": "young-chefs-cookbook",
+  "title": "The Complete Cookbook for Young Chefs",
+  "author": "America's Test Kitchen Kids",
+  "year": 2018,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "how-to",
+  "interests": [
+   "cooking"
+  ],
+  "areas": [
+   "life-skills",
+   "health",
+   "projects"
+  ],
+  "why": "Kid-tested recipes that teach real kitchen skills and safety.",
+  "contentNotes": "Uses knives and hot stoves; adult help suggested.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19763118W",
+   "isbn": "9781492670025",
+   "catalogueAuthor": "America's Test Kitchen (Firm)"
+  }
+ },
+ {
+  "id": "jungle-book",
+  "title": "The Jungle Book",
+  "author": "Rudyard Kipling",
+  "year": 1893,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "classic",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "languages"
+  ],
+  "why": "Mowgli, raised by wolves, and other animal stories set mostly in India.",
+  "contentNotes": "Colonial-era attitudes; animal fights and killing.",
+  "origin": "UK (born in India)",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19870W",
+   "isbn": "9780001004740"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/rudyard-kipling/the-jungle-book",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "no-1-car-spotter",
+  "title": "The No. 1 Car Spotter",
+  "author": "Atinuke",
+  "year": 2010,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "realistic fiction",
+  "interests": [
+   "machines",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "languages"
+  ],
+  "why": "Funny stories of a boy who spots cars by the roadside in a Nigerian village.",
+  "origin": "Nigeria",
+  "classic": false,
+  "languages": [],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL21644039W",
+   "isbn": "9781406320770"
+  }
+ },
+ {
+  "id": "panchatantra",
+  "title": "The Panchatantra",
+  "author": "Visnu Sarma",
+  "year": 2001,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "fables",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "philosophy-worldviews"
+  ],
+  "why": "Ancient Indian animal fables about wisdom, friendship and clever thinking.",
+  "contentNotes": "Some fables include animals being tricked or killed.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL7982975W",
+   "isbn": "9780140448757",
+   "catalogueTitle": "The Pancatantra",
+   "yearNote": "Ancient text (composed c. 300 BCE); year is Open Library's first_publish_year for the catalogued work."
+  }
+ },
+ {
+  "id": "phantom-tollbooth",
+  "title": "The Phantom Tollbooth",
+  "author": "Norton Juster",
+  "year": 1961,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "fantasy",
+  "interests": [
+   "games",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "core-academics"
+  ],
+  "why": "A bored boy travels through a land of words and numbers.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1636262W",
+   "isbn": "9780001846531"
+  }
+ },
+ {
+  "id": "the-post-office-tagore",
+  "title": "The Post Office",
+  "author": "Rabindranath Tagore",
+  "year": 1910,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "play",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity"
+  ],
+  "why": "A short, tender play about a sick boy who dreams of the wide world outside his window.",
+  "contentNotes": "A child is seriously ill; the ending suggests death.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16312658W",
+   "isbn": "9780312147037",
+   "catalogueTitle": "Ḍākaghara"
+  },
+  "freeRead": {
+   "url": "https://www.gutenberg.org/ebooks/6523",
+   "source": "Project Gutenberg",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "the-secret-garden",
+  "title": "The Secret Garden",
+  "author": "Frances Hodgson Burnett",
+  "year": 1911,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "classic",
+  "interests": [
+   "plants",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "health"
+  ],
+  "why": "Two lonely children bring a hidden garden, and themselves, back to life.",
+  "contentNotes": "Opens with parents dying of cholera; colonial-era attitudes to India.",
+  "origin": "UK",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL69612W",
+   "isbn": "9780001847699"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/frances-hodgson-burnett/the-secret-garden",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "way-things-work",
+  "title": "The Way Things Work",
+  "author": "David Macaulay",
+  "year": 1988,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "how things work",
+  "interests": [
+   "machines",
+   "tools",
+   "building"
+  ],
+  "areas": [
+   "technology-ai",
+   "core-academics"
+  ],
+  "why": "Mammoth-themed explanations of how hundreds of machines work.",
+  "origin": "UK/USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15130328W",
+   "isbn": "9780395428573"
+  }
+ },
+ {
+  "id": "the-way-we-work",
+  "title": "The Way We Work",
+  "author": "David Macaulay",
+  "year": 2008,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "body",
+   "medicine"
+  ],
+  "areas": [
+   "health",
+   "core-academics"
+  ],
+  "why": "A detailed, illustrated tour of how the human body works.",
+  "origin": "UK/USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL8071559W",
+   "isbn": "9780103862224"
+  }
+ },
+ {
+  "id": "wind-in-the-willows",
+  "title": "The Wind in the Willows",
+  "author": "Kenneth Grahame",
+  "year": 1908,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "classic",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "languages",
+   "nature-animals"
+  ],
+  "why": "Mole, Rat, Badger and the reckless Toad on the riverbank.",
+  "origin": "UK",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL28570037W",
+   "isbn": "9780006920960"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/kenneth-grahame/the-wind-in-the-willows",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "totto-chan",
+  "title": "Totto-chan",
+  "author": "Tetsuko Kuroyanagi",
+  "year": 1981,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "independent-learning",
+   "philosophy-worldviews"
+  ],
+  "why": "A real girl's joyful years at an unusual school in a train carriage in Tokyo.",
+  "contentNotes": "Wartime ending; a classmate dies.",
+  "origin": "Japan",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5920437W",
+   "isbn": "9780870115370",
+   "catalogueTitle": "Madogiwa no Totto-chan"
+  }
+ },
+ {
+  "id": "where-the-mountain-meets-the-moon",
+  "title": "Where the Mountain Meets the Moon",
+  "author": "Grace Lin",
+  "year": 2009,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "fantasy",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "philosophy-worldviews"
+  ],
+  "why": "A girl's quest, woven with Chinese folk tales, to change her family's fortune.",
+  "origin": "USA (Taiwanese heritage)",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1913873W",
+   "isbn": "9780307711274"
+  }
+ },
+ {
+  "id": "who-was-albert-einstein",
+  "title": "Who Was Albert Einstein?",
+  "author": "Jess M. Brallier",
+  "year": 2002,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "space"
+  ],
+  "areas": [
+   "core-academics",
+   "careers"
+  ],
+  "why": "An easy, illustrated life of the scientist who rethought space and time.",
+  "contentNotes": "Fleeing Nazi Germany; the atomic bomb.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15074204W",
+   "isbn": "9780448424965"
+  }
+ },
+ {
+  "id": "wild-animals-i-have-known",
+  "title": "Wild Animals I Have Known",
+  "author": "Ernest Thompson Seton",
+  "year": 1898,
+  "band": "9-11",
+  "type": "non-fiction",
+  "genre": "nature",
+  "interests": [
+   "animals",
+   "dogs",
+   "birds"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "True-to-life stories of wolves, foxes, crows and more, from a naturalist.",
+  "contentNotes": "Many animals die, some at the hands of hunters.",
+  "origin": "Canada/UK",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL549962W",
+   "isbn": "9780486410845"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/ernest-thompson-seton/wild-animals-i-have-known",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "wonder",
+  "title": "Wonder",
+  "author": "R. J. Palacio",
+  "year": 2012,
+  "band": "9-11",
+  "type": "fiction",
+  "genre": "realistic fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "health"
+  ],
+  "why": "A boy with a facial difference starts school; a book about kindness.",
+  "contentNotes": "Bullying; a pet dog dies.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16142094W",
+   "isbn": "9780141378244",
+   "catalogueYear": 2001,
+   "yearNote": "Open Library first_publish_year is 2001, a catalogue error; first published 2012."
+  }
+ },
+ {
+  "id": "wrinkle-in-time",
+  "title": "A Wrinkle in Time",
+  "author": "Madeleine L'Engle",
+  "year": 1962,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "science fiction",
+  "interests": [
+   "space",
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "philosophy-worldviews"
+  ],
+  "why": "Meg travels through space and time to rescue her scientist father.",
+  "contentNotes": "Frightening scenes of mind control.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL41495W",
+   "isbn": "9780007154388"
+  }
+ },
+ {
+  "id": "akata-witch",
+  "title": "Akata Witch",
+  "author": "Nnedi Okorafor",
+  "year": 2011,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "fantasy",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "arts-creativity",
+   "philosophy-worldviews"
+  ],
+  "why": "An albino Nigerian-American girl discovers she belongs to a secret society of magic.",
+  "contentNotes": "A ritual serial killer is the villain; some gore.",
+  "origin": "Nigeria/USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16116603W",
+   "isbn": "9780142420911"
+  }
+ },
+ {
+  "id": "anne-of-green-gables",
+  "title": "Anne of Green Gables",
+  "author": "Lucy Maud Montgomery",
+  "year": 1908,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "classic",
+  "interests": [
+   "stories",
+   "nature"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity"
+  ],
+  "why": "A talkative, imaginative orphan finds a home on Prince Edward Island.",
+  "contentNotes": "A beloved character dies.",
+  "origin": "Canada",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL77746W",
+   "isbn": "9780007535286"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/l-m-montgomery/anne-of-green-gables",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "around-the-world-80-days",
+  "title": "Around the World in Eighty Days",
+  "author": "Jules Verne",
+  "year": 1872,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "machines",
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "languages"
+  ],
+  "why": "A race around the world by steamship, rail and elephant against the clock.",
+  "contentNotes": "Colonial-era stereotypes, including of India (a sati scene).",
+  "origin": "France",
+  "classic": true,
+  "languages": [
+   "en",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1100007W",
+   "isbn": "9780004226729",
+   "catalogueTitle": "Le Tour du Monde en Quatre-Vingts Jours"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/jules-verne/around-the-world-in-eighty-days/george-makepeace-towle",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "astrophysics-young-people",
+  "title": "Astrophysics for Young People in a Hurry",
+  "author": "Neil deGrasse Tyson",
+  "year": 2019,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "space"
+  ],
+  "areas": [
+   "core-academics",
+   "independent-learning"
+  ],
+  "why": "Big ideas of the universe in short, clear chapters.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20162664W",
+   "isbn": "9780393356502"
+  }
+ },
+ {
+  "id": "bomb-sheinkin",
+  "title": "Bomb",
+  "author": "Steve Sheinkin",
+  "year": 2012,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "history",
+  "interests": [
+   "machines"
+  ],
+  "areas": [
+   "core-academics",
+   "technology-ai"
+  ],
+  "why": "The race to build, and steal, the atomic bomb.",
+  "contentNotes": "War, nuclear destruction of Hiroshima and Nagasaki.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL16216256W",
+   "isbn": "9780545595971"
+  }
+ },
+ {
+  "id": "born-free",
+  "title": "Born Free",
+  "author": "Joy Adamson",
+  "year": 1960,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "nature",
+  "interests": [
+   "animals",
+   "cats"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "Raising the lioness Elsa in Kenya and returning her to the wild.",
+  "contentNotes": "Animals are hunted and killed.",
+  "origin": "Kenya/Austria",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20464691W",
+   "isbn": "9780003701159"
+  }
+ },
+ {
+  "id": "chew-on-this",
+  "title": "Chew on This",
+  "author": "Eric Schlosser",
+  "year": 2006,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "health",
+  "interests": [
+   "cooking",
+   "body"
+  ],
+  "areas": [
+   "health",
+   "environment"
+  ],
+  "why": "What's really in fast food, and how the industry works.",
+  "contentNotes": "Descriptions of meat processing.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5801796W",
+   "isbn": "9780141318448"
+  }
+ },
+ {
+  "id": "city-of-the-beasts",
+  "title": "City of the Beasts",
+  "author": "Isabel Allende",
+  "year": 2002,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "environment",
+   "nature-animals"
+  ],
+  "why": "A teen joins an Amazon expedition hunting a mysterious beast.",
+  "contentNotes": "Violence and danger; exploitation of Indigenous people.",
+  "origin": "Chile",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1905269W",
+   "isbn": "9780007146352",
+   "catalogueTitle": "La ciudad de las bestias"
+  }
+ },
+ {
+  "id": "endurance-lansing",
+  "title": "Endurance",
+  "author": "Alfred Lansing",
+  "year": 1959,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "history",
+  "interests": [
+   "ocean",
+   "nature"
+  ],
+  "areas": [
+   "life-skills",
+   "core-academics"
+  ],
+  "why": "Shackleton's crew survives the Antarctic after their ship is crushed by ice.",
+  "contentNotes": "Hardship; dogs are shot for food.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL874159W",
+   "isbn": "9780246123084"
+  }
+ },
+ {
+  "id": "haroun-sea-of-stories",
+  "title": "Haroun and the Sea of Stories",
+  "author": "Salman Rushdie",
+  "year": 1990,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "fantasy",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "civics-social"
+  ],
+  "why": "A boy travels to a moon to restore his storyteller father's gift.",
+  "contentNotes": "A parent leaves the family.",
+  "origin": "India/UK",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL457172W",
+   "isbn": "9780099583042"
+  }
+ },
+ {
+  "id": "holes",
+  "title": "Holes",
+  "author": "Louis Sachar",
+  "year": 1998,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "languages"
+  ],
+  "why": "A cursed boy digs holes at a desert detention camp and uncovers a mystery.",
+  "contentNotes": "Racist murder in a historical subplot; violence at the camp.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL116250W",
+   "isbn": "8935089800079",
+   "catalogueYear": 1988,
+   "yearNote": "Open Library first_publish_year is 1988, a catalogue error; first published 1998."
+  }
+ },
+ {
+  "id": "i-am-malala",
+  "title": "I Am Malala",
+  "author": "Malala Yousafzai",
+  "year": 2012,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "careers"
+  ],
+  "why": "A Pakistani girl's fight for education, and surviving a Taliban attack.",
+  "contentNotes": "She is shot; terrorism and violence.",
+  "origin": "Pakistan",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19669045W",
+   "isbn": "9780297870913"
+  }
+ },
+ {
+  "id": "inside-out-back-again",
+  "title": "Inside Out & Back Again",
+  "author": "Thanhha Lai",
+  "year": 2011,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "verse novel",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "languages"
+  ],
+  "why": "A Vietnamese girl's year as a refugee in Alabama, in poems.",
+  "contentNotes": "War, a missing father, bullying.",
+  "origin": "Vietnam/USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15987908W",
+   "isbn": "9780061962783"
+  }
+ },
+ {
+  "id": "it-s-trevor-noah",
+  "title": "It's Trevor Noah: Born a Crime",
+  "author": "Trevor Noah",
+  "year": 2019,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "Growing up mixed-race under apartheid, adapted for young readers.",
+  "contentNotes": "Racism, domestic violence, a parent is shot.",
+  "origin": "South Africa",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20161699W",
+   "isbn": "9780525582168",
+   "catalogueTitle": "It's Trevor Noah"
+  }
+ },
+ {
+  "id": "kampung-boy",
+  "title": "Kampung Boy",
+  "author": "Lat",
+  "year": 1979,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "graphic memoir",
+  "interests": [
+   "drawing",
+   "farming"
+  ],
+  "areas": [
+   "arts-creativity",
+   "civics-social"
+  ],
+  "why": "A cartoonist's childhood in a Malaysian village, drawn with humour.",
+  "origin": "Malaysia",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2327954W",
+   "isbn": "9781596431218",
+   "catalogueTitle": "Lat, the kampung boy"
+  }
+ },
+ {
+  "id": "kensukes-kingdom",
+  "title": "Kensuke's Kingdom",
+  "author": "Michael Morpurgo",
+  "year": 1999,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "ocean",
+   "animals"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "A boy washed up on a Pacific island meets an old Japanese man living there.",
+  "contentNotes": "Memories of the Nagasaki bombing.",
+  "origin": "UK",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL42746W",
+   "isbn": "9780007179404"
+  }
+ },
+ {
+  "id": "kon-tiki",
+  "title": "Kon-Tiki",
+  "author": "Thor Heyerdahl",
+  "year": 1950,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "adventure",
+  "interests": [
+   "ocean",
+   "building"
+  ],
+  "areas": [
+   "core-academics",
+   "projects"
+  ],
+  "why": "Six men cross the Pacific on a balsa-wood raft to test a theory.",
+  "origin": "Norway",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL34648229W",
+   "isbn": "9780318167121"
+  }
+ },
+ {
+  "id": "malgudi-days",
+  "title": "Malgudi Days",
+  "author": "Rasipuram Krishnaswamy Narayan",
+  "year": 1982,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "short stories",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "civics-social"
+  ],
+  "why": "Short stories of ordinary lives in the much-loved town of Malgudi.",
+  "contentNotes": "Some stories involve death and hardship.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1057177W",
+   "isbn": "9780140185430"
+  }
+ },
+ {
+  "id": "man-eaters-of-kumaon",
+  "title": "Man-Eaters of Kumaon",
+  "author": "Jim Corbett",
+  "year": 1945,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "nature",
+  "interests": [
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "environment"
+  ],
+  "why": "True accounts of tracking man-eating tigers in the Himalayan foothills.",
+  "contentNotes": "People killed by tigers; tigers shot.",
+  "origin": "India/UK",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2075791W",
+   "isbn": "9780192730183"
+  }
+ },
+ {
+  "id": "journey-to-the-west",
+  "title": "Monkey King",
+  "author": "Wu Ch'eng-en",
+  "year": 2010,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "classic",
+  "interests": [
+   "animals",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "philosophy-worldviews"
+  ],
+  "why": "Julia Lovell's lively translation of the Monkey King's wild journey to India (Journey to the West).",
+  "contentNotes": "Fights with demons.",
+  "origin": "China",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL21696406W",
+   "isbn": "9780141393445"
+  }
+ },
+ {
+  "id": "my-family-and-other-animals",
+  "title": "My Family and Other Animals",
+  "author": "Gerald Malcolm Durrell",
+  "year": 1956,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "animals",
+   "insects",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "independent-learning"
+  ],
+  "why": "A boy naturalist's hilarious years on the island of Corfu.",
+  "origin": "UK",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL10509141W",
+   "isbn": "9780049250017"
+  }
+ },
+ {
+  "id": "other-words-for-home",
+  "title": "Other Words for Home",
+  "author": "Jasmine Warga",
+  "year": 2019,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "verse novel",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "languages"
+  ],
+  "why": "A Syrian girl leaves her war-torn home and starts again in Ohio.",
+  "contentNotes": "War, Islamophobia, a brother in danger.",
+  "origin": "USA (Jordanian heritage)",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19912651W",
+   "isbn": "9780062747808"
+  }
+ },
+ {
+  "id": "playing-beatie-bow",
+  "title": "Playing Beatie Bow",
+  "author": "Ruth Park",
+  "year": 1980,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "time travel",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "languages"
+  ],
+  "why": "A Sydney girl slips back to the 1870s Rocks.",
+  "contentNotes": "Poverty, a drunken violent character, death.",
+  "origin": "Australia/New Zealand",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3192815W",
+   "isbn": "9780140314601"
+  }
+ },
+ {
+  "id": "rain-in-the-mountains",
+  "title": "Rain in the Mountains",
+  "author": "Ruskin Bond",
+  "year": 1993,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "nature",
+  "interests": [
+   "nature",
+   "birds",
+   "plants"
+  ],
+  "areas": [
+   "nature-animals",
+   "languages"
+  ],
+  "why": "Bond's notes on hill life, birds, trees and seasons in Mussoorie.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL62929W",
+   "isbn": "9780140236910"
+  }
+ },
+ {
+  "id": "rocket-boys",
+  "title": "Rocket Boys",
+  "author": "Homer H. Hickam",
+  "year": 1998,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "space",
+   "machines",
+   "building"
+  ],
+  "areas": [
+   "projects",
+   "careers"
+  ],
+  "why": "Coal-town teens build rockets and chase a science-fair dream.",
+  "contentNotes": "Mining accidents; some swearing.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17049W",
+   "isbn": "9780385333207"
+  }
+ },
+ {
+  "id": "roll-of-thunder",
+  "title": "Roll of Thunder, Hear My Cry",
+  "author": "Mildred D. Taylor",
+  "year": 1976,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "historical fiction",
+  "interests": [
+   "farming",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "core-academics"
+  ],
+  "why": "A Black family fights to keep its land in 1930s Mississippi.",
+  "contentNotes": "Racist violence, lynching threats, racist slurs of the era.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL40867W",
+   "isbn": "9780130677143"
+  }
+ },
+ {
+  "id": "rusty-boy-from-the-hills",
+  "title": "Rusty, the Boy from the Hills",
+  "author": "Ruskin Bond",
+  "year": 2014,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "coming of age",
+  "interests": [
+   "nature",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "independent-learning"
+  ],
+  "why": "An Anglo-Indian boy's growing-up years in the hills of Dehradun.",
+  "contentNotes": "A strict guardian; loneliness.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL28016212W",
+   "isbn": "9780143333432"
+  }
+ },
+ {
+  "id": "steve-jobs-blumenthal",
+  "title": "Steve Jobs",
+  "author": "Karen Blumenthal",
+  "year": 2012,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "biography",
+  "interests": [
+   "computers",
+   "machines"
+  ],
+  "areas": [
+   "technology-ai",
+   "careers"
+  ],
+  "why": "The life of Apple's co-founder, written for teens.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL21774601W",
+   "isbn": "9781250014610",
+   "catalogueTitle": "Steve Jobs : the Man Who Thought Different"
+  }
+ },
+ {
+  "id": "seven-habits-teens",
+  "title": "The 7 Habits of Highly Effective Teens",
+  "author": "Sean Covey",
+  "year": 1998,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "self-help",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "life-skills",
+   "independent-learning"
+  ],
+  "why": "Practical habits for goals, friendships and choices.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL482313W",
+   "isbn": "9780613237642"
+  }
+ },
+ {
+  "id": "the-arrival",
+  "title": "The Arrival",
+  "author": "Shaun Tan",
+  "year": 2006,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "graphic novel",
+  "interests": [
+   "art",
+   "drawing"
+  ],
+  "areas": [
+   "arts-creativity",
+   "civics-social"
+  ],
+  "why": "A wordless graphic novel about a migrant starting life in a strange new land.",
+  "origin": "Australia",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5934430W",
+   "isbn": "9780439895293"
+  }
+ },
+ {
+  "id": "the-breadwinner",
+  "title": "The Breadwinner",
+  "author": "Deborah Ellis",
+  "year": 2000,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "realistic fiction",
+  "interests": [
+   "money",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "financial-literacy"
+  ],
+  "why": "An Afghan girl disguises herself as a boy to support her family under the Taliban.",
+  "contentNotes": "War, arrest of a parent, violence against women.",
+  "origin": "Canada",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL20639649W",
+   "isbn": "9780192734020"
+  }
+ },
+ {
+  "id": "call-of-the-wild",
+  "title": "The Call of the Wild",
+  "author": "Jack London",
+  "year": 1903,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "dogs",
+   "animals",
+   "nature"
+  ],
+  "areas": [
+   "nature-animals",
+   "languages"
+  ],
+  "why": "A stolen pet dog becomes a sled dog in the Klondike gold rush.",
+  "contentNotes": "Animal cruelty and violent deaths; racist depiction of Indigenous people.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL14942956W",
+   "isbn": "9780007420230"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/jack-london/the-call-of-the-wild",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "conch-bearer",
+  "title": "The Conch Bearer",
+  "author": "Chitra Banerjee Divakaruni",
+  "year": 2003,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "fantasy",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "languages"
+  ],
+  "why": "A Kolkata tea-shop boy guards a magical conch on a journey to the Himalayas.",
+  "contentNotes": "Peril; a missing father.",
+  "origin": "India/USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1927003W",
+   "isbn": "9780606333825"
+  }
+ },
+ {
+  "id": "diary-of-a-young-girl",
+  "title": "The Diary of a Young Girl",
+  "author": "Anne Frank",
+  "year": 1944,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "diary",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "civics-social"
+  ],
+  "why": "The diary of a Jewish girl hiding from the Nazis in Amsterdam.",
+  "contentNotes": "Holocaust; the writer's death is in the afterword; some frank passages about puberty.",
+  "origin": "Netherlands/Germany",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL266178W",
+   "isbn": "9780090549405",
+   "catalogueTitle": "Het Achterhuis"
+  }
+ },
+ {
+  "id": "the-giver",
+  "title": "The Giver",
+  "author": "Lois Lowry",
+  "year": 1993,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "dystopian",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "civics-social"
+  ],
+  "why": "In a 'perfect' community a boy discovers what has been taken away.",
+  "contentNotes": "Euthanasia of a baby and the elderly; war memories.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1846076W",
+   "isbn": "9780006748281"
+  }
+ },
+ {
+  "id": "the-hobbit",
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "year": 1937,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "fantasy",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "arts-creativity"
+  ],
+  "why": "Bilbo Baggins is swept into a quest with dwarves, a wizard and a dragon.",
+  "contentNotes": "Battles and some deaths.",
+  "origin": "UK",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL27482W",
+   "isbn": "9780001046764"
+  }
+ },
+ {
+  "id": "house-on-mango-street",
+  "title": "The House on Mango Street",
+  "author": "Sandra Cisneros",
+  "year": 1983,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "vignettes",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "civics-social"
+  ],
+  "why": "A Mexican-American girl in Chicago dreams of a house of her own.",
+  "contentNotes": "Sexual harassment and assault are referred to; domestic abuse.",
+  "origin": "USA (Mexican heritage)",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3243765W",
+   "isbn": "9780072435177"
+  }
+ },
+ {
+  "id": "the-little-prince",
+  "title": "The Little Prince",
+  "author": "Antoine de Saint-Exupéry",
+  "year": 1943,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "philosophical tale",
+  "interests": [
+   "space",
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "arts-creativity"
+  ],
+  "why": "A pilot meets a boy from a tiny planet; a fable about what matters.",
+  "contentNotes": "The ending suggests death.",
+  "origin": "France",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL10263W",
+   "isbn": "9780008589615",
+   "catalogueTitle": "Le petit prince"
+  }
+ },
+ {
+  "id": "neverending-story",
+  "title": "The Neverending Story",
+  "author": "Michael Ende",
+  "year": 1979,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "fantasy",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "philosophy-worldviews"
+  ],
+  "why": "A boy reading a book finds himself pulled into the story.",
+  "origin": "Germany",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2271589W",
+   "isbn": "9780140063851",
+   "catalogueTitle": "Die unendliche Geschichte"
+  }
+ },
+ {
+  "id": "story-of-my-life-keller",
+  "title": "The Story of My Life",
+  "author": "Helen Keller",
+  "year": 1903,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "autobiography",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "health",
+   "languages"
+  ],
+  "why": "How a deafblind girl learned to communicate and went to university.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL4002681W",
+   "isbn": "9780029713907"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/helen-keller/the-story-of-my-life",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "village-by-the-sea",
+  "title": "The Village by the Sea",
+  "author": "Anita Desai",
+  "year": 1982,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "realistic fiction",
+  "interests": [
+   "ocean",
+   "money"
+  ],
+  "areas": [
+   "life-skills",
+   "civics-social"
+  ],
+  "why": "Two siblings hold their poor fishing family together near Bombay.",
+  "contentNotes": "Poverty, an alcoholic father, a sick mother.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL37701W",
+   "isbn": "9780140072501"
+  }
+ },
+ {
+  "id": "treasure-island",
+  "title": "Treasure Island",
+  "author": "Robert Louis Stevenson",
+  "year": 1880,
+  "band": "12-14",
+  "type": "fiction",
+  "genre": "adventure",
+  "interests": [
+   "ocean",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "independent-learning"
+  ],
+  "why": "Pirates, a treasure map and the unforgettable Long John Silver.",
+  "contentNotes": "Violence and killing among pirates; drinking.",
+  "origin": "UK",
+  "classic": true,
+  "languages": [
+   "en",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL24034W",
+   "isbn": "3176101030790"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/robert-louis-stevenson/treasure-island",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "we-are-displaced",
+  "title": "We Are Displaced",
+  "author": "Malala Yousafzai",
+  "year": 2019,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social"
+  ],
+  "why": "Malala and refugee girls tell their own stories of leaving home.",
+  "contentNotes": "War and displacement.",
+  "origin": "Pakistan",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19918015W",
+   "isbn": "9780316523646"
+  }
+ },
+ {
+  "id": "wings-of-fire",
+  "title": "Wings of Fire",
+  "author": "A. P. J. Abdul Kalam",
+  "year": 1999,
+  "band": "12-14",
+  "type": "non-fiction",
+  "genre": "autobiography",
+  "interests": [
+   "space",
+   "machines"
+  ],
+  "areas": [
+   "careers",
+   "technology-ai"
+  ],
+  "why": "From a Rameswaram boyhood to India's rocket programme.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1037811W",
+   "isbn": "9788173711466"
+  }
+ },
+ {
+  "id": "brief-history-of-time",
+  "title": "A Brief History of Time",
+  "author": "Stephen Hawking",
+  "year": 1988,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "space"
+  ],
+  "areas": [
+   "core-academics",
+   "independent-learning"
+  ],
+  "why": "Black holes, the Big Bang and time, explained by Hawking.",
+  "origin": "UK",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1892617W",
+   "isbn": "9780385365765"
+  }
+ },
+ {
+  "id": "long-way-gone",
+  "title": "A Long Way Gone",
+  "author": "Ishmael Beah",
+  "year": 2007,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "health"
+  ],
+  "why": "A boy forced to be a child soldier in Sierra Leone, and his recovery.",
+  "contentNotes": "Graphic war violence, drug use, killing by children.",
+  "origin": "Sierra Leone",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL8034119W",
+   "isbn": "8935077060058"
+  }
+ },
+ {
+  "id": "experiments-with-truth",
+  "title": "An Autobiography, or The Story of My Experiments with Truth",
+  "author": "Mohandas Karamchand Gandhi",
+  "year": 1927,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "autobiography",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "civics-social"
+  ],
+  "why": "Gandhi's own account of his life and ideas, first written in Gujarati.",
+  "contentNotes": "Frank about child marriage and his own failings; racism in South Africa.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL298031W",
+   "isbn": "9780060902254",
+   "catalogueTitle": "An autobiography",
+   "languageNote": "Hindi edition catalogued under /works/OL35763797W"
+  }
+ },
+ {
+  "id": "animal-farm",
+  "title": "Animal Farm",
+  "author": "George Orwell",
+  "year": 1945,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "satire",
+  "interests": [
+   "animals",
+   "farming"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "Farm animals overthrow their farmer, and power corrupts.",
+  "contentNotes": "Animal killings and executions.",
+  "origin": "UK (born in India)",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1168007W",
+   "isbn": "9780008322052"
+  }
+ },
+ {
+  "id": "cosmos",
+  "title": "Cosmos",
+  "author": "Carl Sagan",
+  "year": 1980,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "space"
+  ],
+  "areas": [
+   "core-academics",
+   "philosophy-worldviews"
+  ],
+  "why": "Sagan's wonder-filled journey through the universe and science history.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL15829966W",
+   "isbn": "9780307291868"
+  }
+ },
+ {
+  "id": "factfulness",
+  "title": "Factfulness",
+  "author": "Hans Rosling",
+  "year": 2018,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "data",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "civics-social"
+  ],
+  "why": "Why the world is better than we think, and how to read data well.",
+  "origin": "Sweden",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17877260W",
+   "isbn": "9781250107817"
+  }
+ },
+ {
+  "id": "rabbit-proof-fence",
+  "title": "Follow the Rabbit-Proof Fence",
+  "author": "Doris Pilkington Garimara",
+  "year": 2007,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "history",
+  "interests": [
+   "running",
+   "nature"
+  ],
+  "areas": [
+   "civics-social",
+   "core-academics"
+  ],
+  "why": "Three Aboriginal girls walk 1,600 km home after being taken from their families.",
+  "contentNotes": "Forced removal of children (the Stolen Generations); racism.",
+  "origin": "Australia",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL9329414W",
+   "isbn": "9780194233101"
+  }
+ },
+ {
+  "id": "frankenstein",
+  "title": "Frankenstein",
+  "author": "Mary Shelley",
+  "year": 1818,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "science fiction",
+  "interests": [
+   "body",
+   "medicine"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "technology-ai"
+  ],
+  "why": "A scientist creates life and abandons it; the first science-fiction novel.",
+  "contentNotes": "Murders, including of a child; grief.",
+  "origin": "UK",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL450063W",
+   "isbn": "9780007350964",
+   "catalogueTitle": "Frankenstein; or, The Modern Prometheus"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/mary-shelley/frankenstein",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "gitanjali",
+  "title": "Gitanjali",
+  "author": "Rabindranath Tagore",
+  "year": 1910,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "poetry",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "philosophy-worldviews"
+  ],
+  "why": "Nobel-winning devotional poems, translated by Tagore himself.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL308575W",
+   "isbn": "9780020896302",
+   "catalogueTitle": "Gitanjali (song offerings)"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/rabindranath-tagore/gitanjali",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "godaan",
+  "title": "Godaan",
+  "author": "Munshi Premchand",
+  "year": 1939,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "farming",
+   "money"
+  ],
+  "areas": [
+   "civics-social",
+   "financial-literacy"
+  ],
+  "why": "A poor farmer's dream of owning a cow, and the debts that crush him.",
+  "contentNotes": "Poverty, debt, death.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL332076W",
+   "isbn": "9780253215673",
+   "catalogueTitle": "Godāna"
+  }
+ },
+ {
+  "id": "hello-world-fry",
+  "title": "Hello World",
+  "author": "Hannah Fry",
+  "year": 2018,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "technology",
+  "interests": [
+   "computers",
+   "machines"
+  ],
+  "areas": [
+   "technology-ai",
+   "civics-social"
+  ],
+  "why": "How algorithms decide things in medicine, justice and cars, and where they fail.",
+  "contentNotes": "Crime cases and medical errors discussed.",
+  "origin": "UK",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL19761312W",
+   "isbn": "9780393357363"
+  }
+ },
+ {
+  "id": "hiroshima-hersey",
+  "title": "Hiroshima",
+  "author": "John Hersey",
+  "year": 1946,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "history",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "civics-social"
+  ],
+  "why": "Six survivors of the atomic bomb tell what happened.",
+  "contentNotes": "Graphic injuries and deaths.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL2700123W",
+   "isbn": "9780140006032",
+   "catalogueYear": 1702,
+   "yearNote": "Open Library first_publish_year is 1702, a catalogue error; first published 1946."
+  }
+ },
+ {
+  "id": "ignited-minds",
+  "title": "Ignited Minds",
+  "author": "A. P. J. Abdul Kalam",
+  "year": 2002,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "essays",
+  "interests": [
+   "space"
+  ],
+  "areas": [
+   "careers",
+   "civics-social"
+  ],
+  "why": "Kalam's call to young Indians to dream big and build the nation.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1037802W",
+   "isbn": "9780670049288"
+  }
+ },
+ {
+  "id": "kokoro",
+  "title": "Kokoro",
+  "author": "Natsume Sōseki",
+  "year": 1914,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "languages"
+  ],
+  "why": "A student and his mysterious mentor in Meiji-era Japan.",
+  "contentNotes": "Suicide.",
+  "origin": "Japan",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1174972W",
+   "isbn": "9780099339106",
+   "catalogueAuthor": "夏目漱石"
+  }
+ },
+ {
+  "id": "long-walk-to-freedom",
+  "title": "Long Walk to Freedom",
+  "author": "Nelson Mandela",
+  "year": 1994,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "autobiography",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "core-academics"
+  ],
+  "why": "Mandela's life, from village boyhood through 27 years in prison to president.",
+  "contentNotes": "Apartheid violence, massacres, imprisonment.",
+  "origin": "South Africa",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1783377W",
+   "isbn": "9780030565816"
+  }
+ },
+ {
+  "id": "man-s-search-for-meaning",
+  "title": "Man's Search for Meaning",
+  "author": "Viktor Emil Frankl",
+  "year": 1946,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "health"
+  ],
+  "why": "A psychiatrist's survival of Nazi camps and what gives life meaning.",
+  "contentNotes": "Holocaust, death camps, suicide discussed.",
+  "origin": "Austria",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1268413W",
+   "isbn": "9780340012994",
+   "catalogueTitle": "... Trotzdem Ja zum Leben sagen"
+  }
+ },
+ {
+  "id": "meditations",
+  "title": "Meditations",
+  "author": "Marcus Aurelius",
+  "year": 1626,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "philosophy",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "life-skills"
+  ],
+  "why": "A Roman emperor's private notes on calm, duty and self-control.",
+  "origin": "Roman Empire (Italy)",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1317211W",
+   "isbn": "9780008425012",
+   "yearNote": "Ancient text (composed c. 170-180 CE); year is Open Library's first_publish_year for the catalogued work."
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/marcus-aurelius/meditations/george-long",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "douglass-narrative",
+  "title": "Narrative of the Life of Frederick Douglass",
+  "author": "Frederick Douglass",
+  "year": 1845,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "autobiography",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "core-academics"
+  ],
+  "why": "An escaped slave's own account of slavery and learning to read.",
+  "contentNotes": "Slavery, whipping, racial slurs.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL69178W",
+   "isbn": "9780008403447"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/frederick-douglass/narrative-of-the-life-of-frederick-douglass",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "night-wiesel",
+  "title": "Night",
+  "author": "Elie Wiesel",
+  "year": 1960,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "philosophy-worldviews"
+  ],
+  "why": "A teen's survival of Auschwitz and Buchenwald.",
+  "contentNotes": "Holocaust, executions, death of a father.",
+  "origin": "Romania/USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL13341644W",
+   "isbn": "9780374534752"
+  }
+ },
+ {
+  "id": "pather-panchali",
+  "title": "Pather Panchali",
+  "author": "Bibhūtibhūshaṇa Bandyopādhyāẏa",
+  "year": 1968,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "nature",
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "civics-social"
+  ],
+  "why": "Childhood in a poor Bengal village, the novel behind Satyajit Ray's film.",
+  "contentNotes": "Poverty; a child's and an elder's death.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL8640095W",
+   "isbn": "9780048230829"
+  }
+ },
+ {
+  "id": "persepolis",
+  "title": "Persepolis",
+  "author": "Marjane Satrapi",
+  "year": 2000,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "graphic memoir",
+  "interests": [
+   "drawing",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "arts-creativity"
+  ],
+  "why": "Growing up in Iran during the Islamic Revolution and war.",
+  "contentNotes": "Torture, execution, war deaths.",
+  "origin": "Iran",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5735175W",
+   "isbn": "9780099523994",
+   "catalogueTitle": "Persepolis 1-4"
+  }
+ },
+ {
+  "id": "pride-and-prejudice",
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "year": 1813,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "classic",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "civics-social"
+  ],
+  "why": "Elizabeth Bennet and Mr Darcy misjudge each other in Regency England.",
+  "contentNotes": "An elopement scandal.",
+  "origin": "UK",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL66554W",
+   "isbn": "9780003700756"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "purple-hibiscus",
+  "title": "Purple Hibiscus",
+  "author": "Chimamanda Ngozi Adichie",
+  "year": 2003,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "A Nigerian girl finds her voice away from her violent, devout father.",
+  "contentNotes": "Severe domestic abuse, a parent's death.",
+  "origin": "Nigeria",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5731538W",
+   "isbn": "9780007176113"
+  }
+ },
+ {
+  "id": "sapiens",
+  "title": "Sapiens",
+  "author": "Yuval Noah Harari",
+  "year": 2011,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "history",
+  "interests": [
+   "body",
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "philosophy-worldviews"
+  ],
+  "why": "A big-picture history of humankind; read critically and compare views.",
+  "contentNotes": "Some claims debated by historians; frank about violence.",
+  "origin": "Israel",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL17075811W",
+   "isbn": "9780062316097"
+  }
+ },
+ {
+  "id": "silent-spring",
+  "title": "Silent Spring",
+  "author": "Rachel Carson",
+  "year": 1962,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "environment",
+  "interests": [
+   "birds",
+   "insects",
+   "nature"
+  ],
+  "areas": [
+   "environment",
+   "nature-animals"
+  ],
+  "why": "The book that exposed pesticide harm and started the environmental movement.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1884862W",
+   "isbn": "9780140022681"
+  }
+ },
+ {
+  "id": "sophies-world",
+  "title": "Sophie's World",
+  "author": "Jostein Gaarder",
+  "year": 1991,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "philosophical novel",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "core-academics"
+  ],
+  "why": "A teenager gets mysterious letters that teach her the history of philosophy.",
+  "origin": "Norway",
+  "classic": false,
+  "languages": [
+   "en",
+   "hi"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL922430W",
+   "isbn": "9780001050464",
+   "catalogueTitle": "Sofies verden"
+  }
+ },
+ {
+  "id": "surely-youre-joking",
+  "title": "Surely You're Joking, Mr. Feynman!",
+  "author": "Richard Phillips Feynman",
+  "year": 1984,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "music",
+   "machines"
+  ],
+  "areas": [
+   "core-academics",
+   "careers"
+  ],
+  "why": "A Nobel physicist's funny stories of curiosity and safe-cracking.",
+  "contentNotes": "Some dated attitudes to women.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL514629W",
+   "isbn": "9780045300235"
+  }
+ },
+ {
+  "id": "tao-te-ching",
+  "title": "Tao Te Ching",
+  "author": "Laozi",
+  "year": 1842,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "philosophy",
+  "interests": [
+   "nature"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "languages"
+  ],
+  "why": "Short ancient Chinese verses on simplicity and the Way.",
+  "origin": "China",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL45499W",
+   "isbn": "9780042990033",
+   "catalogueAuthor": "老子",
+   "yearNote": "Ancient text (composed c. 4th century BCE); year is Open Library's first_publish_year for the catalogued work."
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/laozi/tao-te-ching/james-legge",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "the-alchemist",
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "year": 1988,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "fable",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "careers"
+  ],
+  "why": "A shepherd boy follows his dream from Spain to the Egyptian pyramids.",
+  "origin": "Brazil",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL796465W",
+   "isbn": "9780007155668",
+   "catalogueTitle": "O Alquimista"
+  }
+ },
+ {
+  "id": "analects",
+  "title": "The Analects",
+  "author": "Confucius",
+  "year": 1979,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "philosophy",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "civics-social"
+  ],
+  "why": "Sayings of Confucius on learning, kindness and good government.",
+  "origin": "China",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL27033818W",
+   "isbn": "9780141906249",
+   "yearNote": "Ancient text (composed c. 5th-3rd century BCE); year is Open Library's first_publish_year for the catalogued work."
+  },
+  "freeRead": {
+   "url": "https://www.gutenberg.org/ebooks/3330",
+   "source": "Project Gutenberg",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "the-book-thief",
+  "title": "The Book Thief",
+  "author": "Markus Zusak",
+  "year": 2005,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "historical fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "languages"
+  ],
+  "why": "A girl in Nazi Germany steals books and shares them, narrated by Death.",
+  "contentNotes": "Holocaust, bombing raids, many deaths, swearing.",
+  "origin": "Australia",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5819456W",
+   "isbn": "9780307391995",
+   "catalogueYear": 1998,
+   "yearNote": "Open Library first_publish_year is 1998, a catalogue error; first published 2005."
+  }
+ },
+ {
+  "id": "the-code-book",
+  "title": "The Code Book",
+  "author": "Simon Singh",
+  "year": 1999,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "computers",
+   "games"
+  ],
+  "areas": [
+   "technology-ai",
+   "core-academics"
+  ],
+  "why": "Secret codes from Mary Queen of Scots to the Enigma and internet encryption.",
+  "contentNotes": "Executions and war in the history.",
+  "origin": "UK",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL31157W",
+   "isbn": "9780007378302"
+  }
+ },
+ {
+  "id": "discovery-of-india",
+  "title": "The Discovery of India",
+  "author": "Jawaharlal Nehru",
+  "year": 1946,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "history",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "core-academics",
+   "civics-social"
+  ],
+  "why": "Nehru's sweeping history of India, written in prison in 1944.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL296039W",
+   "isbn": "9780143031031"
+  }
+ },
+ {
+  "id": "the-guide",
+  "title": "The Guide",
+  "author": "Rasipuram Krishnaswamy Narayan",
+  "year": 1958,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "careers"
+  ],
+  "why": "A tour guide turned con man is mistaken for a holy man.",
+  "contentNotes": "An affair; prison.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL1057183W",
+   "isbn": "9780140054538"
+  }
+ },
+ {
+  "id": "the-hunger-games",
+  "title": "The Hunger Games",
+  "author": "Suzanne Collins",
+  "year": 2008,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "dystopian",
+  "interests": [
+   "sport",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "A girl volunteers for a televised fight to the death to save her sister.",
+  "contentNotes": "Children killing children; violence and starvation.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL5735363W",
+   "isbn": "9780439023481"
+  }
+ },
+ {
+  "id": "immortal-life-henrietta-lacks",
+  "title": "The Immortal Life of Henrietta Lacks",
+  "author": "Rebecca Skloot",
+  "year": 2009,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "science",
+  "interests": [
+   "medicine",
+   "body"
+  ],
+  "areas": [
+   "health",
+   "civics-social"
+  ],
+  "why": "The woman whose cells changed medicine, taken without her consent.",
+  "contentNotes": "Cancer, medical racism, abuse in the family.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL13850788W",
+   "isbn": "9780230748699"
+  }
+ },
+ {
+  "id": "motorcycle-diaries",
+  "title": "The Motorcycle Diaries",
+  "author": "Che Guevara",
+  "year": 1993,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "travel memoir",
+  "interests": [
+   "machines",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "special-interests"
+  ],
+  "why": "A young medical student's road trip across South America.",
+  "contentNotes": "The author later became a violent revolutionary; read with that context.",
+  "origin": "Argentina",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL63457W",
+   "isbn": "9780007172337",
+   "catalogueTitle": "Diarios de Motocicleta"
+  }
+ },
+ {
+  "id": "the-namesake",
+  "title": "The Namesake",
+  "author": "Jhumpa Lahiri",
+  "year": 2003,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "languages"
+  ],
+  "why": "A Bengali-American son wrestles with his name, family and identity.",
+  "contentNotes": "Sex, a parent's death, divorce.",
+  "origin": "USA (Indian heritage)",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL27442324W",
+   "isbn": "9780008609986"
+  }
+ },
+ {
+  "id": "the-prophet",
+  "title": "The Prophet",
+  "author": "Kahlil Gibran",
+  "year": 1923,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "poetry",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "languages"
+  ],
+  "why": "Poetic prose on love, work, freedom and death.",
+  "origin": "Lebanon/USA",
+  "classic": true,
+  "languages": [
+   "en",
+   "gu"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL318900W",
+   "isbn": "9780001000391"
+  },
+  "freeRead": {
+   "url": "https://standardebooks.org/ebooks/kahlil-gibran/the-prophet",
+   "source": "Standard Ebooks",
+   "licence": "Public domain"
+  }
+ },
+ {
+  "id": "psychology-of-money",
+  "title": "The Psychology of Money",
+  "author": "Morgan Housel",
+  "year": 2020,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "money",
+  "interests": [
+   "money"
+  ],
+  "areas": [
+   "financial-literacy",
+   "life-skills"
+  ],
+  "why": "Short stories about how people really think about saving, risk and wealth.",
+  "origin": "USA",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL21640039W",
+   "isbn": "9780857197689"
+  }
+ },
+ {
+  "id": "room-on-the-roof",
+  "title": "The Room on the Roof",
+  "author": "Ruskin Bond",
+  "year": 1956,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "coming of age",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "languages",
+   "independent-learning"
+  ],
+  "why": "A 16-year-old runs away from his strict guardian to live on his own terms in Dehra.",
+  "contentNotes": "A friend's mother dies in an accident; drinking.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL62930W",
+   "isbn": "9780140107838",
+   "catalogueTitle": "Room On the Roop"
+  }
+ },
+ {
+  "id": "things-fall-apart",
+  "title": "Things Fall Apart",
+  "author": "Chinua Achebe",
+  "year": 1958,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "farming",
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "core-academics"
+  ],
+  "why": "An Igbo leader's world collapses under colonialism.",
+  "contentNotes": "Violence, a child's killing, suicide, domestic violence.",
+  "origin": "Nigeria",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL891786W",
+   "isbn": "8936024911577"
+  }
+ },
+ {
+  "id": "to-kill-a-mockingbird",
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "year": 1960,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "A lawyer defends a Black man in 1930s Alabama, seen through his daughter's eyes.",
+  "contentNotes": "Racism and racial slurs, false rape accusation, violence.",
+  "origin": "USA",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3140822W",
+   "isbn": "0 330 24118 4"
+  }
+ },
+ {
+  "id": "tomorrow-when-the-war-began",
+  "title": "Tomorrow, When the War Began",
+  "author": "John Marsden",
+  "year": 1993,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "thriller",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "life-skills",
+   "civics-social"
+  ],
+  "why": "Teens return from a bush camping trip to find Australia invaded.",
+  "contentNotes": "War violence, killing, some sexual content.",
+  "origin": "Australia",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL7918874W",
+   "isbn": "9780440219859",
+   "catalogueTitle": "Tomorrow, when the war began (Tomorrow #1)"
+  }
+ },
+ {
+  "id": "unbowed",
+  "title": "Unbowed",
+  "author": "Wangari Maathai",
+  "year": 2006,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "memoir",
+  "interests": [
+   "plants",
+   "nature"
+  ],
+  "areas": [
+   "environment",
+   "civics-social"
+  ],
+  "why": "The Nobel laureate who planted millions of trees in Kenya.",
+  "contentNotes": "Political violence and imprisonment.",
+  "origin": "Kenya",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL4436882W",
+   "isbn": "9780099493099",
+   "catalogueYear": 1999,
+   "yearNote": "Open Library first_publish_year is 1999, a catalogue error; first published 2006."
+  }
+ },
+ {
+  "id": "untouchable",
+  "title": "Untouchable",
+  "author": "Mulk Raj Anand",
+  "year": 1933,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "One day in the life of a young sweeper facing caste discrimination.",
+  "contentNotes": "Caste abuse, slurs and humiliation; attempted molestation.",
+  "origin": "India",
+  "classic": true,
+  "languages": [
+   "en",
+   "hi"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL354692W",
+   "isbn": "9780140079203",
+   "catalogueTitle": "Untouchable [by] Mulk Raj Anand"
+  }
+ },
+ {
+  "id": "weed-paro-anand",
+  "title": "Weed",
+  "author": "Paro Anand",
+  "year": 2008,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "realistic fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "philosophy-worldviews"
+  ],
+  "why": "A Kashmiri boy whose father joined militants is pulled between violence and hope.",
+  "contentNotes": "Terrorism, violence, grief.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL3430720W",
+   "isbn": "9788186939413"
+  }
+ },
+ {
+  "id": "weep-not-child",
+  "title": "Weep Not, Child",
+  "author": "Ngũgĩ wa Thiongʼo",
+  "year": 1964,
+  "band": "15-17",
+  "type": "fiction",
+  "genre": "literary fiction",
+  "interests": [
+   "stories"
+  ],
+  "areas": [
+   "civics-social",
+   "core-academics"
+  ],
+  "why": "A Kenyan boy's hope for education amid the Mau Mau uprising.",
+  "contentNotes": "Torture, killings, attempted suicide.",
+  "origin": "Kenya",
+  "classic": true,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL10245W",
+   "isbn": "9780143026242"
+  }
+ },
+ {
+  "id": "wise-and-otherwise",
+  "title": "Wise and Otherwise",
+  "author": "Sudha Murti",
+  "year": 2002,
+  "band": "15-17",
+  "type": "non-fiction",
+  "genre": "essays",
+  "interests": [
+   "helping",
+   "stories"
+  ],
+  "areas": [
+   "philosophy-worldviews",
+   "civics-social"
+  ],
+  "why": "Short true sketches of people met through charity work across India.",
+  "contentNotes": "Poverty and corruption.",
+  "origin": "India",
+  "classic": false,
+  "languages": [
+   "en"
+  ],
+  "verify": {
+   "source": "openlibrary",
+   "workKey": "/works/OL13683225W",
+   "isbn": "9780143062226"
+  }
  }
 ]
