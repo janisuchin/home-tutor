@@ -31,9 +31,15 @@ jobs:
         run: npm run build:web
       - name: Bundle-size budget (entry below 200 KB gzip)
         run: npm run check:bundle
+      - name: Build the unlocked review edition
+        run: npm run build:web:unlocked
+      - name: Bundle-size budget (review edition)
+        run: npm run check:bundle
+        env:
+          HT_DIST: dist-unlocked
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
-      - name: End-to-end tests (phone, tablet, desktop, projector) with accessibility checks
+      - name: End-to-end tests (phone, tablet, desktop, projector, review edition) with accessibility checks
         run: npx playwright test --trace off
         env:
           CI: 'true'

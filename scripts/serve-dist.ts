@@ -9,7 +9,7 @@ import { join, extname, normalize } from 'node:path';
 import { handleApi } from '../api/src/index';
 import { createTestDb } from '../api/test/d1-sqlite';
 
-const root = join(__dirname, '..', 'dist');
+const root = join(__dirname, '..', process.env.HT_DIST ?? 'dist');
 const port = Number(process.argv[2] ?? process.env.PORT ?? 8787);
 const types: Record<string, string> = {
   '.html': 'text/html; charset=utf-8',
@@ -18,12 +18,14 @@ const types: Record<string, string> = {
   '.css': 'text/css',
   '.svg': 'image/svg+xml',
   '.png': 'image/png',
+  '.webp': 'image/webp',
+  '.txt': 'text/plain; charset=utf-8',
   '.ico': 'image/x-icon',
   '.ttf': 'font/ttf',
   '.webmanifest': 'application/manifest+json',
 };
 const db = createTestDb();
-const env = { DB: db, PASSWORD_ITERATIONS: '20000' } as any;
+const env = { DB: db, PASSWORD_ITERATIONS: '20000', EDITION: process.env.HT_DIST === 'dist-unlocked' ? 'unlocked' : 'standard' } as any;
 
 createServer(async (req, res) => {
   const url = new URL(req.url ?? '/', `http://localhost:${port}`);

@@ -8,6 +8,7 @@ import { useChild } from '../../../data/hooks';
 import { loadCareers } from '../../../content/loader';
 import type { Career } from '../../../core/content-types';
 import { ageBandFor, ageFromBirth } from '../../../core/model';
+import { isUnlocked } from '../../../core/edition';
 
 export default function Careers() {
   const t = useT();
@@ -20,7 +21,7 @@ export default function Careers() {
   }, []);
   const band = ageBandFor(ageFromBirth(child.birth));
   const families = useMemo(() => {
-    const list = careers.filter((c) => c.ageBands.includes(band));
+    const list = careers.filter((c) => isUnlocked() || c.ageBands.includes(band));
     const fams = [...new Set(list.map((c) => c.family))];
     const score = (c: Career) => c.interests.filter((i) => child.interests.includes(i)).length;
     return fams.map((f) => ({ family: f, careers: list.filter((c) => c.family === f).sort((a, b) => score(b) - score(a)) }));

@@ -6,7 +6,7 @@ import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { gzipSync } from 'node:zlib';
 
-const dist = join(__dirname, '..', 'dist');
+const dist = join(__dirname, '..', process.env.HT_DIST ?? 'dist');
 export const BUDGET_ENTRY_KB = 200; // owner goal: entry bundle below 200 KB gzip
 const BUDGET_CHUNK_KB = 60; // any single lazy chunk (screens, locales)
 

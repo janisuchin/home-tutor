@@ -10,7 +10,9 @@ import { join, relative } from 'node:path';
 import { createHash } from 'node:crypto';
 
 const root = join(__dirname, '..');
-const dist = join(root, 'dist');
+// HT_DIST picks the output folder (dist-unlocked for the review edition).
+const dist = join(root, process.env.HT_DIST ?? 'dist');
+const unlocked = process.env.EXPO_PUBLIC_EDITION === 'unlocked';
 
 function walk(dir: string): string[] {
   return readdirSync(dir).flatMap((f) => {
@@ -134,7 +136,14 @@ const reg = `
         window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); });
       }
     </script>`;
-let out = html.replace('</head>', head + '\n  </head>').replace('</body>', reg + '\n  </body>');
+// Review edition (D-051): never indexed by search engines.
+const robots = unlocked ? '\n    <meta name="robots" content="noindex, nofollow" />' : '';
+if (unlocked) {
+  writeFileSync(join(dist, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
+  const hp = join(dist, '_headers');
+  writeFileSync(hp, readFileSync(hp, 'utf8').replace('/*\n', '/*\n  X-Robots-Tag: noindex, nofollow\n'));
+}
+let out = html.replace('</head>', head + robots + '\n  </head>').replace('</body>', reg + '\n  </body>');
 out = out.replace('<noscript> You need to enable JavaScript to run this app. </noscript>', '<noscript>Home Tutor needs JavaScript. Please enable it in your browser settings.</noscript>');
 writeFileSync(join(dist, 'index.html'), out);
 // Static hosts without SPA fallback still serve deep links.

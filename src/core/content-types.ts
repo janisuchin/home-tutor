@@ -240,3 +240,50 @@ export interface VocabPack {
   rtl?: boolean;
   concepts: Record<string, { en: string; word: string; romanised?: string }[]>;
 }
+
+/** Reading list (round 3, D-053). Real books only: each one is verified in a library catalogue. */
+export interface Book {
+  id: string;
+  title: string;
+  author: string;
+  year: number;
+  band: AgeBand;
+  type: 'fiction' | 'non-fiction';
+  genre: string;
+  interests: string[];
+  areas: AreaId[];
+  why: string;
+  contentNotes?: string;
+  origin?: string;
+  classic?: boolean;
+  /** UI/reading languages with a known edition, e.g. en, hi, gu. */
+  languages?: string[];
+  verify: { source: 'openlibrary'; workKey: string; isbn?: string };
+  /** Free and legal to read online (public domain or openly licensed). */
+  freeRead?: { url: string; source: string; licence: string };
+}
+
+/** Openly licensed photo, self-hosted on the Worker assets (round 3, D-052). */
+export interface Photo {
+  id: string;
+  title: string;
+  alt: string;
+  areas: AreaId[];
+  /** Content ids it illustrates: items, skill trees, pathways or careers. */
+  links: string[];
+  tags: string[];
+  width: number;
+  height: number;
+  bytes: number;
+  thumbBytes: number;
+  credit: {
+    title: string;
+    author: string;
+    authorUrl?: string;
+    sourceUrl: string;
+    licence: string;
+    licenceUrl: string;
+    provider: string;
+    changes: string;
+  };
+}

@@ -38,6 +38,7 @@ export const ROUTES: WebRoute[] = [
   { path: '/passport/open', load: () => import('../app/passport/open') },
   { path: '/print/[childId]', load: () => import('../app/print/[childId]') },
   { path: '/privacy', load: () => import('../app/privacy') },
+  { path: '/review', load: () => import('../app/review') },
   { path: '/setup', load: () => import('../app/setup') },
   { path: '/tutor', load: () => import('../app/tutor') },
   { path: '/tutoring', load: () => import('../app/tutoring') },

@@ -3,7 +3,7 @@
  * and cached by the service worker, so the JavaScript bundle stays small for slow connections.
  */
 import type { Catalog } from '../core/catalog';
-import type { AreaPack, Career, EmergencyNumber, VocabPack } from '../core/content-types';
+import type { AreaPack, Book, Career, EmergencyNumber, Photo, VocabPack } from '../core/content-types';
 
 let catalog: Catalog | undefined;
 const packCache = new Map<string, AreaPack>();
@@ -34,6 +34,8 @@ export async function loadPack(area: string): Promise<AreaPack> {
 
 export const loadEmergencyNumbers = () => getJson<EmergencyNumber[]>('/content/emergency-numbers.json');
 export const loadCareers = () => getJson<Career[]>('/content/careers.json');
+export const loadBooks = () => getJson<Book[]>('/content/books.json');
+export const loadPhotos = () => getJson<Photo[]>('/content/photos.json');
 export const loadVocab = (code: string) => getJson<VocabPack>(`/content/languages/${code}.json`).catch(() => undefined);
 
 /** Fetch every pack once so the service worker keeps them for offline use. */
@@ -44,6 +46,8 @@ export async function downloadAllForOffline(onProgress?: (done: number, total: n
     ...c.areas.map((a) => `/content/areas/${a.area}.json`),
     '/content/emergency-numbers.json',
     '/content/careers.json',
+    '/content/books.json',
+    '/content/photos.json',
     ...langs.map((l) => `/content/languages/${l}.json`),
   ];
   let done = 0;

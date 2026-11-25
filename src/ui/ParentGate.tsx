@@ -10,6 +10,7 @@ import { colors, radius, space, useTheme } from './theme';
 import { useT } from '../i18n';
 import { getState, unlockParent, useAppState, useParentUnlocked } from '../data/store';
 import { hashPin } from '../core/crypto';
+import { isUnlocked } from '../core/edition';
 
 export function ParentGate({ children, title, optional }: { children: ReactNode; title?: string; optional?: boolean }) {
   const unlocked = useParentUnlocked();
@@ -22,7 +23,8 @@ export function ParentGate({ children, title, optional }: { children: ReactNode;
       </Screen>
     );
   }
-  if (unlocked || !family.pinHash) return <>{children}</>;
+  // The review edition has no parent PIN (owner decision, round 3).
+  if (unlocked || !family.pinHash || isUnlocked()) return <>{children}</>;
   return <PinPad title={title} />;
 }
 

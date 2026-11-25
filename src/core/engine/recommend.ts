@@ -46,6 +46,8 @@ export interface RecommendContext {
   progress?: ChildProgress;
   /** Restrict to areas, e.g. when browsing. */
   areas?: AreaId[];
+  /** Normal-edition gates even in the review edition (View as). */
+  strict?: boolean;
 }
 
 function interestOverlap(item: ItemMeta, child: Child): string | undefined {
@@ -60,8 +62,9 @@ export function scoreItem(
   progress: ChildProgress,
   catalog: Catalog,
   now: number,
+  strict = false,
 ): Recommendation | null {
-  const vis = visibilityFor(item, child, family, new Date(now));
+  const vis = visibilityFor(item, child, family, new Date(now), { strict });
   if (!vis.visible) return null;
   const reasons: Reason[] = [];
   let score = 0;
@@ -186,7 +189,7 @@ export function recommend(
   const out: Recommendation[] = [];
   for (const item of catalog.items) {
     if (ctx.areas && !ctx.areas.includes(item.area)) continue;
-    const r = scoreItem(item, child, family, progress, catalog, now);
+    const r = scoreItem(item, child, family, progress, catalog, now, ctx.strict);
     if (r) out.push(r);
   }
   return out.sort((a, b) => b.score - a.score);
@@ -202,8 +205,9 @@ export function todayPlan(
   catalog: Catalog,
   events: ProgressEvent[],
   now = Date.now(),
+  strict = false,
 ): Recommendation[] {
-  const recs = recommend(child, family, catalog, events, { now });
+  const recs = recommend(child, family, catalog, events, { now, strict });
   const intensity = family?.settings.intensity ?? 'balanced';
   const count = intensity === 'light' ? 3 : intensity === 'full' ? 6 : 4;
   const budget = child.dailyMinutes > 0 ? child.dailyMinutes : 90;

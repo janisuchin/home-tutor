@@ -15,7 +15,9 @@
     "build:web": "npm run validate && npm run content && expo export -p web && tsx scripts/postbuild-pwa.ts",
     "e2e": "playwright test",
     "serve": "tsx scripts/serve-dist.ts",
-    "check:bundle": "tsx scripts/check-bundle.ts"
+    "check:bundle": "tsx scripts/check-bundle.ts",
+    "build:web:unlocked": "npm run validate && npm run content && EXPO_PUBLIC_EDITION=unlocked expo export -p web --output-dir dist-unlocked && EXPO_PUBLIC_EDITION=unlocked HT_DIST=dist-unlocked tsx scripts/postbuild-pwa.ts",
+    "serve:unlocked": "HT_DIST=dist-unlocked tsx scripts/serve-dist.ts 8788"
   },
   "dependencies": {
     "@expo-google-fonts/atkinson-hyperlegible": "^0.4.1",

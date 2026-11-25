@@ -294,7 +294,7 @@ export async function handleApi(req: Request, env: Env): Promise<Response> {
         status: 204,
         headers: { 'access-control-allow-origin': '*', 'access-control-allow-methods': 'GET,POST,PUT,DELETE', 'access-control-allow-headers': 'content-type,authorization', 'access-control-max-age': '86400' },
       });
-    if (path === '/health' && m === 'GET') return json({ ok: true, service: 'home-tutor' });
+    if (path === '/health' && m === 'GET') return json({ ok: true, service: 'home-tutor', edition: env.EDITION === 'unlocked' ? 'unlocked' : 'standard' });
     if (path === '/auth/signup' && m === 'POST') return await signup(req, env);
     if (path === '/auth/login' && m === 'POST') return await login(req, env);
     if (path === '/auth/recover' && m === 'POST') return await recover(req, env);

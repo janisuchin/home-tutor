@@ -18,6 +18,8 @@ export interface Env {
   ASSETS?: { fetch(req: Request): Promise<Response> };
   PASSWORD_ITERATIONS?: string;
   AI_TUTOR_ENABLED?: string;
+  /** 'unlocked' for the review edition Worker (home-tutor-unlocked), else the normal edition. */
+  EDITION?: string;
 }
 
 export const json = (data: unknown, status = 200) =>

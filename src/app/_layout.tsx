@@ -10,6 +10,9 @@ import { availableLanguages, isRtl, setLanguage } from '../i18n';
 import { defaultsFromLocale, deviceLocaleTag } from '../core/locale';
 import { colors } from '../ui/theme';
 import { Mascot } from '../ui/Mascot';
+import { isUnlocked } from '../core/edition';
+import { ReviewBanner } from '../ui/ReviewBanner';
+import { ensureReviewFamily } from '../data/review';
 
 let started = false;
 
@@ -19,6 +22,7 @@ export default function RootLayout() {
 
   useEffect(() => {
     loadState().then(() => {
+      if (isUnlocked()) ensureReviewFamily();
       setReady(true);
       if (!started) {
         started = true;
@@ -54,6 +58,7 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <StatusBar style="dark" />
+      {isUnlocked() ? <ReviewBanner /> : null}
       {ready ? (
         <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg }, animation: 'fade' }} />
       ) : (

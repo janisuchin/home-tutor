@@ -22,7 +22,7 @@ mkdirSync(gen, { recursive: true });
 const packs: AreaPack[] = AREA_IDS.map((a) => JSON.parse(readFileSync(join(root, 'content', 'areas', `${a}.json`), 'utf8')));
 const hash = createHash('sha256');
 for (const p of packs) hash.update(JSON.stringify(p));
-const extras = ['emergency-numbers', 'careers'];
+const extras = ['emergency-numbers', 'careers', 'books', 'photos'];
 for (const e of extras) hash.update(readFileSync(join(root, 'content', `${e}.json`), 'utf8'));
 const langFiles = readdirSync(join(root, 'content', 'languages')).filter((f) => f.endsWith('.json'));
 for (const f of langFiles) hash.update(readFileSync(join(root, 'content', 'languages', f), 'utf8'));
@@ -45,6 +45,8 @@ const lines = [
   '};',
   `export const emergencyNumbers = require('../../public/content/emergency-numbers.json');`,
   `export const careers = require('../../public/content/careers.json');`,
+  `export const books = require('../../public/content/books.json');`,
+  `export const photos = require('../../public/content/photos.json');`,
   'export const languages: Record<string, any> = {',
   ...langCodes.map((c) => `  ${JSON.stringify(c)}: require('../../public/content/languages/${c}.json'),`),
   '};',

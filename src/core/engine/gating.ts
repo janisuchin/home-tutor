@@ -6,6 +6,7 @@ import { AGE_BANDS } from '../content-types';
 import type { ItemMeta } from '../catalog';
 import type { Child, Family } from '../model';
 import { ageBandFor, ageFromBirth } from '../model';
+import { isUnlocked } from '../edition';
 
 export type Visibility =
   | { visible: true; needsAdult: boolean; needsProfessional: boolean }
@@ -23,7 +24,15 @@ export function allowedBands(child: Child, now = new Date()): AgeBand[] {
   return out;
 }
 
-export function visibilityFor(item: ItemMeta, child: Child, family: Family | undefined, now = new Date()): Visibility {
+export interface GateOptions {
+  /** Apply the normal edition's gates even in the unlocked review edition (the View as panel). */
+  strict?: boolean;
+}
+
+export function visibilityFor(item: ItemMeta, child: Child, family: Family | undefined, now = new Date(), opts: GateOptions = {}): Visibility {
+  // Review edition: everything is open, but Amber and Red items keep their adult flags.
+  if (!opts.strict && isUnlocked() && !child.id.startsWith('viewas-'))
+    return { visible: true, needsAdult: item.rating === 'amber' || item.rating === 'red', needsProfessional: item.rating === 'red' };
   if (item.healthModule && !child.health.modules[item.healthModule]) return { visible: false, reason: 'health-off' };
   if (child.areasOff.includes(item.area)) return { visible: false, reason: 'area-off' };
   // Health modules are never offered outside their own age bands, whatever the level.
@@ -43,6 +52,6 @@ export function visibilityFor(item: ItemMeta, child: Child, family: Family | und
   };
 }
 
-export function isVisible(item: ItemMeta, child: Child, family?: Family, now = new Date()): boolean {
-  return visibilityFor(item, child, family, now).visible;
+export function isVisible(item: ItemMeta, child: Child, family?: Family, now = new Date(), opts: GateOptions = {}): boolean {
+  return visibilityFor(item, child, family, now, opts).visible;
 }
