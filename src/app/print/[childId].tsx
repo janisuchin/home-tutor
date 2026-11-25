@@ -12,6 +12,7 @@ import { useT } from '../../i18n';
 import { useCatalog, useChild, useChildEvents } from '../../data/hooks';
 import { buildPassport } from '../../core/engine/passport';
 import { colors } from '../../ui/theme';
+import { downloadJson } from '../../ui/download';
 
 export default function PrintScreen() {
   const t = useT();
@@ -37,7 +38,10 @@ function Print() {
           <Button icon="🖨️" label={t('print.button')} onPress={() => window.print()} testID="print-button" />
         </View>
       ) : (
-        <Txt variant="small">{t('print.nativeLater')}</Txt>
+        <View style={{ gap: 8 }}>
+          <Txt variant="small">{t('print.nativeLater')}</Txt>
+          {snap ? <Button icon="📤" label={t('print.share')} testID="share-passport" onPress={() => downloadJson(`passport-${snap.name}.json`, snap)} /> : null}
+        </View>
       )}
       {snap ? <PassportView snap={snap} print /> : <Txt>{t('common.loading')}</Txt>}
       <Txt variant="small">{t('print.footer')}</Txt>

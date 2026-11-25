@@ -683,6 +683,7 @@
   "account.err.passkey_failed": "The passkey could not be checked. Please try again.",
   "account.err.passkey_exists": "This passkey is already added.",
   "account.err.bad_origin": "Passkeys work only on the Home Tutor website itself.",
+  "print.share": "Share passport file",
   "tutor.title": "Tutor dashboard",
   "tutor.intro": "Learner profiles, gaps, suggested lessons, safety requirements and special interests for every learner.",
   "tutor.compat": "Group compatibility: {score}/100",
