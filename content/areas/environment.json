@@ -1376,6 +1376,206 @@
         }
       ],
       "adultNote": "Give a small cup so the plant is not drowned. Let the child feel the soil first: wet means wait. Some house plants are toxic, so choose a safe one."
+    },
+    {
+      "id": "env-carton-seed-tray",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "recycling",
+      "title": "Rubbish to seed tray",
+      "emoji": "♻️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 30,
+      "summary": "Give rubbish a second life! Turn an old box or carton into a tray for growing seeds.",
+      "steps": [
+        "Find a clean empty carton, egg box or tin.",
+        "Ask an adult to poke small holes in the bottom for water to drain.",
+        "Fill it with soil.",
+        "Push in a few seeds from the kitchen, like coriander, mustard or beans.",
+        "Water a little and put it in a bright spot.",
+        "Count: how many things did you reuse this week instead of throwing away?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Sharp edges on tins",
+          "Poking holes with sharp tools",
+          "Dirty soil on hands"
+        ],
+        "notes": "An adult makes the holes and checks tins for sharp edges. Wash hands after touching soil."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Used carton or egg box",
+            "Soil",
+            "Seeds from the kitchen"
+          ],
+          "description": "One reused tray with a few seeds."
+        },
+        "better": {
+          "cost": "Under 1 USD",
+          "materials": [
+            "Several containers",
+            "Labels made from scrap card",
+            "Two kinds of seeds"
+          ],
+          "description": "Make three trays and label them with seed names and dates."
+        },
+        "advanced": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Cut plastic bottles",
+            "Compost",
+            "Seed packets"
+          ],
+          "description": "Make a bottle mini-greenhouse and move the seedlings to a pot when they grow."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Carton",
+          "use": "Old cup, coconut shell, leaf cup or tin"
+        },
+        {
+          "instead": "Soil",
+          "use": "Damp cotton wool or paper for sprouting seeds"
+        }
+      ],
+      "competencies": [
+        "env-sort-recycling"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "reduce-reuse-recycle"
+        }
+      ],
+      "interests": [
+        "plants",
+        "nature",
+        "building"
+      ],
+      "languageHooks": [
+        "nature",
+        "numbers"
+      ],
+      "connects": [
+        "science",
+        "life-skills"
+      ],
+      "adultNote": "Talk about reduce, reuse and recycle. Reusing something at home often saves more than recycling it."
+    },
+    {
+      "id": "env-shade-test",
+      "kind": "activity",
+      "area": "environment",
+      "subject": "plants",
+      "title": "Why trees keep us cool",
+      "emoji": "🌳",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Find out if the ground under a tree is cooler than the ground in the sun.",
+      "steps": [
+        "Choose a sunny spot and a spot in the shade of a tree or wall.",
+        "Put one hand flat on the ground in the sun for 3 seconds. Is it warm or hot?",
+        "Now try the ground in the shade.",
+        "Which felt cooler? Draw a sun or a cloud face for each spot.",
+        "Look for animals or people resting in the shade.",
+        "Talk: why might towns plant more trees?"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Very hot ground or metal can burn",
+          "Too much sun"
+        ],
+        "notes": "Test with the back of the hand first and lift it at once if it feels hot. Never touch metal or dark roads in strong sun. Wear a hat and drink water."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Your hand",
+            "Paper and pencil"
+          ],
+          "description": "Feel and compare two spots."
+        },
+        "better": {
+          "cost": "Under 1 USD",
+          "materials": [
+            "Two cups of water from the same jug",
+            "Paper and pencil"
+          ],
+          "description": "Leave one cup in sun and one in shade for 20 minutes, then feel which is warmer."
+        },
+        "advanced": {
+          "cost": "Under 5 USD",
+          "materials": [
+            "A simple thermometer",
+            "Notebook"
+          ],
+          "description": "Measure the temperature in sun and shade at three times of day and make a chart."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Tree shade",
+          "use": "The shadow of a wall, building or umbrella"
+        },
+        {
+          "instead": "Thermometer",
+          "use": "Two cups of water and your fingers to compare"
+        }
+      ],
+      "competencies": [
+        "env-keep-weather-diary"
+      ],
+      "skills": [
+        {
+          "tree": "env-earth-care",
+          "node": "observe"
+        },
+        {
+          "tree": "env-earth-care",
+          "node": "ecosystems"
+        }
+      ],
+      "interests": [
+        "plants",
+        "nature",
+        "animals"
+      ],
+      "languageHooks": [
+        "weather",
+        "nature"
+      ],
+      "connects": [
+        "science",
+        "nature-animals"
+      ],
+      "check": [
+        {
+          "question": "Where is the ground usually cooler on a sunny day?",
+          "options": [
+            "Under a tree",
+            "In full sun"
+          ],
+          "answer": 0,
+          "explain": "Leaves block sunlight, so the ground underneath stays cooler."
+        }
+      ],
+      "adultNote": "Best done in the morning or late afternoon in hot places. Make sure the child never touches very hot surfaces."
     }
   ]
 }

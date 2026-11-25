@@ -1202,6 +1202,182 @@
         }
       ],
       "adultNote": "This is a first taste of saving and waiting. Keep the goal small and close (a few days). Real coins can come later, from about age 6."
+    },
+    {
+      "id": "fin-fair-day-sim",
+      "kind": "simulation",
+      "area": "financial-literacy",
+      "subject": "saving",
+      "title": "Ten tokens at the fair",
+      "emoji": "🎡",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "You have 10 tokens at a fair. Choose how to spend and save so you get what matters most.",
+      "steps": [
+        "Read the story.",
+        "Count your tokens at each step.",
+        "Choose what to do. There can be more than one good choice."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A pretend money game. No real money needed."
+      },
+      "competencies": [
+        "fin-count-money",
+        "fin-reach-saving-goal"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "needs-wants"
+        },
+        {
+          "tree": "fin-money-skills",
+          "node": "saving"
+        }
+      ],
+      "interests": [
+        "money",
+        "games"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "simulation": {
+        "scenario": "You are at a fair with 10 tokens. You really want to ride the big wheel. It costs 6 tokens.",
+        "steps": [
+          {
+            "prompt": "First you see a sweet stall. A sweet costs 5 tokens. What do you do?",
+            "options": [
+              {
+                "text": "Wait. If I buy it, I will only have 5 left, and the wheel costs 6",
+                "correct": true,
+                "feedback": "Smart thinking! You kept your tokens for what you want most."
+              },
+              {
+                "text": "Buy it straight away",
+                "correct": false,
+                "feedback": "Now you have 5 tokens. That is not enough for the big wheel."
+              }
+            ]
+          },
+          {
+            "prompt": "You ride the big wheel. You have 4 tokens left. What now?",
+            "options": [
+              {
+                "text": "Buy a drink of water for 1 token because I am thirsty",
+                "correct": true,
+                "feedback": "Good. Water when thirsty is a need."
+              },
+              {
+                "text": "Save the 4 tokens for next time",
+                "correct": true,
+                "feedback": "Also a good choice. Saving helps you later."
+              },
+              {
+                "text": "Spend all 4 on a toy I will forget about tomorrow",
+                "correct": false,
+                "feedback": "It is okay to want things, but think: will I still care tomorrow?"
+              }
+            ]
+          },
+          {
+            "prompt": "Your friend has no tokens left and is sad. What could you do?",
+            "options": [
+              {
+                "text": "Share a snack or play a free game together",
+                "correct": true,
+                "feedback": "Kind! Some of the best fun costs nothing."
+              },
+              {
+                "text": "Tease them for spending too fast",
+                "correct": false,
+                "feedback": "Everyone makes money mistakes while learning. Kindness helps more."
+              }
+            ]
+          }
+        ]
+      },
+      "adultNote": "Use buttons or seeds as tokens to act it out. Talk about choosing what matters most before spending."
+    },
+    {
+      "id": "fin-shopping-list-challenge",
+      "kind": "activity",
+      "area": "financial-literacy",
+      "subject": "prices",
+      "title": "Shopping list challenge",
+      "emoji": "🛒",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Make a pretend shop with price cards. Can you buy everything on your list with 20 coins?",
+      "steps": [
+        "Make price cards for 6 things: rice 5, apples 4, milk 3, bread 2, a toy 9, biscuits 4.",
+        "Your list is: rice, milk, bread and apples.",
+        "Add up the prices. How much is your list?",
+        "You have 20 coins. Is there any left over?",
+        "Can you also buy the toy? Count and check.",
+        "Change the prices and play again."
+      ],
+      "practical": false,
+      "competencies": [
+        "fin-count-money",
+        "fin-compare-prices"
+      ],
+      "skills": [
+        {
+          "tree": "fin-money-skills",
+          "node": "prices"
+        },
+        {
+          "tree": "fin-money-skills",
+          "node": "needs-wants"
+        }
+      ],
+      "interests": [
+        "money",
+        "cooking",
+        "games"
+      ],
+      "languageHooks": [
+        "numbers",
+        "food"
+      ],
+      "connects": [
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "Rice 5 + milk 3 + bread 2 + apples 4 costs...",
+          "options": [
+            "14 coins",
+            "20 coins",
+            "9 coins"
+          ],
+          "answer": 0,
+          "explain": "5 + 3 + 2 + 4 = 14. You have 6 coins left from 20."
+        },
+        {
+          "question": "You have 6 coins left. Can you buy the toy for 9?",
+          "options": [
+            "No, it costs more than I have",
+            "Yes, easily"
+          ],
+          "answer": 0,
+          "explain": "6 is less than 9, so you would need to save 3 more coins."
+        }
+      ],
+      "adultNote": "Use any local currency or just 'coins'. Make the numbers smaller or bigger to fit the child's maths level."
     }
   ]
 }

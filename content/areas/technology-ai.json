@@ -1650,6 +1650,76 @@
         }
       ],
       "adultNote": "The World Health Organization advises that young children sit still in front of screens as little as possible and move a lot; watch together when you can. A warning (\"two more minutes\") and a set routine make stopping easier. Model it yourself."
+    },
+    {
+      "id": "tech-find-the-bug",
+      "kind": "activity",
+      "area": "technology-ai",
+      "subject": "programming",
+      "title": "Find the bug",
+      "emoji": "🐞",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "A bug is a mistake in instructions. Follow the steps exactly and find what went wrong!",
+      "steps": [
+        "Read these instructions for drawing a house: 1 draw a triangle, 2 draw a square under it, 3 draw a door on the roof.",
+        "Follow them exactly, even if they are silly.",
+        "Look at your drawing. Which step is the bug?",
+        "Fix the step so the door goes on the square. Draw again.",
+        "Now write 4 steps for something else, add one bug, and let someone find it."
+      ],
+      "practical": false,
+      "competencies": [
+        "tech-debug",
+        "tech-follow-algorithm"
+      ],
+      "skills": [
+        {
+          "tree": "tech-programming",
+          "node": "sequences"
+        },
+        {
+          "tree": "tech-programming",
+          "node": "debugging"
+        }
+      ],
+      "interests": [
+        "computers",
+        "drawing",
+        "games"
+      ],
+      "languageHooks": [
+        "shapes",
+        "numbers"
+      ],
+      "connects": [
+        "art",
+        "mathematics"
+      ],
+      "check": [
+        {
+          "question": "What is a bug in a program?",
+          "options": [
+            "A mistake in the instructions",
+            "An insect inside the computer"
+          ],
+          "answer": 0,
+          "explain": "Programmers call mistakes bugs. Finding and fixing them is called debugging."
+        },
+        {
+          "question": "How do you find a bug?",
+          "options": [
+            "Check each step one by one",
+            "Give up and start a new drawing"
+          ],
+          "answer": 0,
+          "explain": "Going step by step shows exactly where things went wrong."
+        }
+      ],
+      "adultNote": "No computer needed. Debugging teaches patience and careful checking, skills used in coding and in everyday problem solving."
     }
   ]
 }

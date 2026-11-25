@@ -1090,6 +1090,62 @@
         }
       ],
       "adultNote": "Keep it descriptive and neutral: \"some families...\". Include birthdays and family days, and families who do not mark religious festivals. No family way is better than another."
+    },
+    {
+      "id": "phil-what-is-a-friend",
+      "kind": "activity",
+      "area": "philosophy-worldviews",
+      "subject": "wonder",
+      "title": "What makes a friend?",
+      "emoji": "💭",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "A big question with no single right answer. Think, give reasons and listen to others.",
+      "steps": [
+        "Sit with a grown-up or friends. The big question is: what makes someone a friend?",
+        "Each person says one idea and starts with \"I think... because...\".",
+        "Try harder questions: Can a pet be a friend? Can you be friends with someone far away?",
+        "Listen. Did someone say something that made you change your mind?",
+        "Draw a picture of what friendship means to you."
+      ],
+      "practical": false,
+      "competencies": [
+        "phil-ask-big-questions",
+        "phil-give-reasons"
+      ],
+      "skills": [
+        {
+          "tree": "phil-thinking",
+          "node": "wonder"
+        },
+        {
+          "tree": "phil-thinking",
+          "node": "reasons"
+        }
+      ],
+      "interests": [
+        "stories",
+        "animals",
+        "helping"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "check": [
+        {
+          "question": "Two people have different answers to a big question. What is a good thing to do?",
+          "options": [
+            "Listen to each other's reasons",
+            "Decide who is the winner"
+          ],
+          "answer": 0,
+          "explain": "With big questions, listening to reasons helps everyone think more."
+        }
+      ],
+      "adultNote": "There is no correct answer. Ask \"why do you think that?\" and \"can you give an example?\" rather than correcting ideas."
     }
   ]
 }

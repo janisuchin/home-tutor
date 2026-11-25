@@ -1202,6 +1202,164 @@
         }
       ],
       "adultNote": "Use whatever your family eats. Show that farmers, drivers and cooks can be anyone. Point out the journey next time you shop together."
+    },
+    {
+      "id": "car-who-can-help-sim",
+      "kind": "simulation",
+      "area": "careers",
+      "subject": "community helpers",
+      "title": "Who can help?",
+      "emoji": "🧑‍🔧",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Things go wrong in a busy day. Choose which worker has the right skills to help.",
+      "steps": [
+        "Read the story.",
+        "Choose the worker who can help at each step.",
+        "Think: which of these jobs would you like to try?"
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A thinking game. No physical activity."
+      },
+      "competencies": [
+        "car-name-jobs"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "community-helpers"
+        }
+      ],
+      "interests": [
+        "helping",
+        "machines",
+        "animals"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "simulation": {
+        "scenario": "It is a busy day in your town. A few problems pop up. Who has the right skills?",
+        "steps": [
+          {
+            "prompt": "The water pipe under the kitchen sink is dripping. Who can fix it?",
+            "options": [
+              {
+                "text": "A plumber",
+                "correct": true,
+                "feedback": "Yes! Plumbers fix pipes, taps and drains."
+              },
+              {
+                "text": "A baker",
+                "correct": false,
+                "feedback": "Bakers make bread and cakes. A plumber fixes pipes."
+              }
+            ]
+          },
+          {
+            "prompt": "Your neighbour's goat has a sore leg. Who can help?",
+            "options": [
+              {
+                "text": "A vet",
+                "correct": true,
+                "feedback": "Right. Vets are doctors for animals."
+              },
+              {
+                "text": "A tailor",
+                "correct": false,
+                "feedback": "Tailors make and mend clothes. A vet cares for animals."
+              },
+              {
+                "text": "A pilot",
+                "correct": false,
+                "feedback": "Pilots fly planes. A vet is the animal doctor."
+              }
+            ]
+          },
+          {
+            "prompt": "The bicycle chain keeps falling off. Who can help?",
+            "options": [
+              {
+                "text": "A bicycle mechanic",
+                "correct": true,
+                "feedback": "Yes! Mechanics know how machines work and fix them."
+              },
+              {
+                "text": "A teacher",
+                "correct": false,
+                "feedback": "Teachers help us learn. A mechanic fixes bicycles, though a teacher could help you learn how!"
+              }
+            ]
+          },
+          {
+            "prompt": "Can a girl or a boy grow up to do any of these jobs?",
+            "options": [
+              {
+                "text": "Yes, anyone can learn any of these jobs",
+                "correct": true,
+                "feedback": "That is right. Jobs need skills, and anyone can learn skills."
+              },
+              {
+                "text": "No, some jobs are only for some people",
+                "correct": false,
+                "feedback": "Every job here can be done by anyone who learns the skills."
+              }
+            ]
+          }
+        ]
+      },
+      "adultNote": "Swap in workers the child sees locally. Point out real people in your community who do these jobs."
+    },
+    {
+      "id": "car-job-charades",
+      "kind": "activity",
+      "area": "careers",
+      "subject": "role play",
+      "title": "Job charades",
+      "emoji": "🎭",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 1,
+      "minutes": 15,
+      "summary": "Act out a job without words. Can your family guess what it is?",
+      "steps": [
+        "Write or draw jobs on small papers: farmer, nurse, driver, cook, builder, singer.",
+        "Fold them and put them in a cup.",
+        "Pick one. Act it out with no talking!",
+        "Others guess the job.",
+        "When someone guesses, say one tool that worker uses.",
+        "Take turns until all the jobs are done."
+      ],
+      "practical": false,
+      "competencies": [
+        "car-name-jobs"
+      ],
+      "skills": [
+        {
+          "tree": "car-discovery",
+          "node": "role-play"
+        },
+        {
+          "tree": "car-discovery",
+          "node": "community-helpers"
+        }
+      ],
+      "interests": [
+        "games",
+        "helping",
+        "dance"
+      ],
+      "connects": [
+        "arts-creativity"
+      ],
+      "adultNote": "Include jobs from your area, such as fishers, shopkeepers, health workers or coders. Mix up who acts which job so every child sees that anyone can do any work."
     }
   ]
 }

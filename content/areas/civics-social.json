@@ -1384,6 +1384,176 @@
         }
       ],
       "adultNote": "Keep each turn short. Model good listening yourself. Any object works: a spoon, a stone or a toy. Use it at mealtimes to build the habit."
+    },
+    {
+      "id": "civ-pebble-vote",
+      "kind": "activity",
+      "area": "civics-social",
+      "subject": "voting",
+      "title": "Pebble vote",
+      "emoji": "🗳️",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Help your family choose something together by voting with pebbles. Everyone gets one vote!",
+      "steps": [
+        "Pick a choice to make, like which game to play or what to have for a snack.",
+        "Put out two or three cups, one for each choice.",
+        "Give everyone one pebble or seed.",
+        "Each person drops their pebble in a cup in secret.",
+        "Count the pebbles. The cup with the most wins.",
+        "Talk: how does it feel if your choice did not win?"
+      ],
+      "practical": false,
+      "competencies": [
+        "civ-explain-voting",
+        "civ-take-turns"
+      ],
+      "skills": [
+        {
+          "tree": "civ-citizenship",
+          "node": "voting-laws"
+        },
+        {
+          "tree": "civ-citizenship",
+          "node": "rules-fairness"
+        }
+      ],
+      "interests": [
+        "games",
+        "helping"
+      ],
+      "languageHooks": [
+        "numbers"
+      ],
+      "connects": [
+        "mathematics",
+        "philosophy-worldviews"
+      ],
+      "check": [
+        {
+          "question": "Why does everyone get only one pebble?",
+          "options": [
+            "So it is fair and every person counts the same",
+            "So the game is quick"
+          ],
+          "answer": 0,
+          "explain": "One person, one vote makes voting fair."
+        },
+        {
+          "question": "Why do we vote in secret?",
+          "options": [
+            "So nobody feels pushed to choose something",
+            "Because voting is naughty"
+          ],
+          "answer": 0,
+          "explain": "A secret vote lets everyone choose freely."
+        }
+      ],
+      "adultNote": "Keep pebbles and seeds away from toddlers. Talk about being a good sport when your choice loses, and how a next vote gives another chance."
+    },
+    {
+      "id": "civ-new-child-sim",
+      "kind": "simulation",
+      "area": "civics-social",
+      "subject": "friendship",
+      "title": "The new child",
+      "emoji": "🤝",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "A new child comes to play but does not speak your language well. How can you include them?",
+      "steps": [
+        "Read the story.",
+        "Choose what to do at each step.",
+        "Think of one way you could help someone feel welcome."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A talking game. No physical activity."
+      },
+      "competencies": [
+        "civ-active-listener"
+      ],
+      "skills": [
+        {
+          "tree": "civ-social-skills",
+          "node": "friendship"
+        },
+        {
+          "tree": "civ-social-skills",
+          "node": "kindness-cooperation"
+        }
+      ],
+      "interests": [
+        "games",
+        "helping"
+      ],
+      "connects": [
+        "languages"
+      ],
+      "simulation": {
+        "scenario": "A new child has moved to your street. They stand alone near your group's game. They speak a different language at home.",
+        "steps": [
+          {
+            "prompt": "What could you do?",
+            "options": [
+              {
+                "text": "Smile and wave them over",
+                "correct": true,
+                "feedback": "Lovely. A smile means welcome in every language."
+              },
+              {
+                "text": "Pretend you did not see them",
+                "correct": false,
+                "feedback": "They might feel lonely. A small smile can help a lot."
+              }
+            ]
+          },
+          {
+            "prompt": "They do not understand the rules. What helps?",
+            "options": [
+              {
+                "text": "Show the rules with your hands and play slowly",
+                "correct": true,
+                "feedback": "Yes! Showing works even without the same words."
+              },
+              {
+                "text": "Laugh at them for not knowing",
+                "correct": false,
+                "feedback": "Laughing at someone hurts. Everyone was new once."
+              },
+              {
+                "text": "Ask them to teach you a word from their language",
+                "correct": true,
+                "feedback": "Great idea. Now you are both learning!"
+              }
+            ]
+          },
+          {
+            "prompt": "Another child says, \"They can't play, they talk funny.\" What can you say?",
+            "options": [
+              {
+                "text": "\"Everyone can play. They are learning, like us.\"",
+                "correct": true,
+                "feedback": "Brave and kind. You stood up for fairness."
+              },
+              {
+                "text": "Say nothing and let them be left out",
+                "correct": false,
+                "feedback": "Speaking up kindly, or asking a grown-up, helps everyone feel safe."
+              }
+            ]
+          }
+        ]
+      },
+      "adultNote": "Talk about times the child felt new. In many communities children grow up with several languages; treat that as a strength."
     }
   ]
 }

@@ -1231,6 +1231,326 @@
         }
       ],
       "adultNote": "Keep the same order each day so it becomes a habit. Tidy alongside the child at first, then step back. A picture on each box helps children work alone."
+    },
+    {
+      "id": "il-practice-ladder",
+      "kind": "activity",
+      "area": "independent-learning",
+      "subject": "learning how to learn",
+      "title": "Practice ladder",
+      "emoji": "🪜",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Pick one small thing that is tricky for you. Practise it a little every day and watch yourself climb!",
+      "steps": [
+        "Pick one small tricky thing, like a hard word, a times fact or a tongue twister.",
+        "Draw a ladder with 5 steps on paper.",
+        "Practise for 5 minutes today. Colour one step.",
+        "Do it again tomorrow, and the day after.",
+        "On day 5, try it. Is it easier than on day 1?",
+        "Tell someone what helped you get better."
+      ],
+      "practical": false,
+      "competencies": [
+        "il-plan-goal"
+      ],
+      "skills": [
+        {
+          "tree": "il-learning",
+          "node": "practice"
+        },
+        {
+          "tree": "il-learning",
+          "node": "reflection"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "connects": [
+        "mathematics",
+        "reading"
+      ],
+      "check": [
+        {
+          "question": "What helps a tricky thing get easier?",
+          "options": [
+            "Practising a little every day",
+            "Trying once and stopping"
+          ],
+          "answer": 0,
+          "explain": "Short practice, again and again, helps your brain remember."
+        },
+        {
+          "question": "You got it wrong on day 2. What does that mean?",
+          "options": [
+            "You are still learning",
+            "You can never do it"
+          ],
+          "answer": 0,
+          "explain": "Mistakes are part of learning. Keep climbing!"
+        }
+      ],
+      "adultNote": "Keep practice short and regular. Praise effort and strategy, not being clever. Any skill works: reading, maths, music or sport."
+    },
+    {
+      "id": "il-memory-story",
+      "kind": "lesson",
+      "area": "independent-learning",
+      "subject": "learning how to learn",
+      "title": "Memory story trick",
+      "emoji": "🧠",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 15,
+      "summary": "Turn a list into a silly story in your head. Silly pictures are easy to remember!",
+      "steps": [
+        "Ask someone to say 6 things, like mango, shoe, cat, cup, moon, drum.",
+        "Make a silly story: a mango wears a shoe, a cat drinks from it like a cup...",
+        "Close your eyes and see the story like a film.",
+        "Now say the list. How many did you remember?",
+        "Try a new list without a story. Which way worked better?"
+      ],
+      "practical": false,
+      "competencies": [
+        "il-take-notes"
+      ],
+      "skills": [
+        {
+          "tree": "il-learning",
+          "node": "memory"
+        }
+      ],
+      "interests": [
+        "stories",
+        "games"
+      ],
+      "languageHooks": [
+        "food",
+        "animals"
+      ],
+      "connects": [
+        "reading",
+        "art"
+      ],
+      "check": [
+        {
+          "question": "Why do silly pictures help us remember?",
+          "options": [
+            "They are unusual, so they stick in our mind",
+            "They make the list shorter"
+          ],
+          "answer": 0,
+          "explain": "Our brains notice and keep things that are funny or strange."
+        }
+      ],
+      "adultNote": "Play along and use everyday words. This builds a strategy children can use for spellings, shopping lists or new vocabulary."
+    },
+    {
+      "id": "il-when-im-stuck-sim",
+      "kind": "simulation",
+      "area": "independent-learning",
+      "subject": "learning how to learn",
+      "title": "When I am stuck",
+      "emoji": "🧩",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 10,
+      "summary": "Everyone gets stuck sometimes. Choose what to do when a puzzle feels too hard.",
+      "steps": [
+        "Read the story.",
+        "Choose what to do at each step.",
+        "Make your own list of 3 things to try when you are stuck."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "A thinking game. No physical activity."
+      },
+      "competencies": [
+        "il-plan-goal"
+      ],
+      "skills": [
+        {
+          "tree": "il-learning",
+          "node": "reflection"
+        },
+        {
+          "tree": "il-learning",
+          "node": "practice"
+        }
+      ],
+      "interests": [
+        "games"
+      ],
+      "connects": [
+        "civics-social"
+      ],
+      "simulation": {
+        "scenario": "You are doing a picture puzzle. You have tried and tried, but one piece will not fit. You feel cross.",
+        "steps": [
+          {
+            "prompt": "What can you do first?",
+            "options": [
+              {
+                "text": "Take three slow breaths",
+                "correct": true,
+                "feedback": "Yes. A calm body helps your brain think."
+              },
+              {
+                "text": "Throw the puzzle on the floor",
+                "correct": false,
+                "feedback": "Feeling cross is okay, but throwing things does not help. Try calming down first."
+              }
+            ]
+          },
+          {
+            "prompt": "Now you feel calmer. What can you try?",
+            "options": [
+              {
+                "text": "Turn the piece around and look at the colours",
+                "correct": true,
+                "feedback": "Good idea. Trying a new way often works."
+              },
+              {
+                "text": "Do a different part first, then come back",
+                "correct": true,
+                "feedback": "Yes! Coming back later with fresh eyes helps."
+              },
+              {
+                "text": "Say \"I am bad at puzzles\" and stop",
+                "correct": false,
+                "feedback": "You are not bad at it, you are still learning. Try one more way."
+              }
+            ]
+          },
+          {
+            "prompt": "You have tried two new ways and it still will not fit. What now?",
+            "options": [
+              {
+                "text": "Ask someone for a small hint",
+                "correct": true,
+                "feedback": "Great. Asking for help is a smart learning skill."
+              },
+              {
+                "text": "Never do puzzles again",
+                "correct": false,
+                "feedback": "That would be sad. A small hint can get you going again."
+              }
+            ]
+          }
+        ]
+      },
+      "adultNote": "Talk about times you got stuck and what you did. Give hints, not answers, so the child keeps ownership of the solution."
+    },
+    {
+      "id": "il-animal-fact-file",
+      "kind": "project",
+      "area": "independent-learning",
+      "subject": "research skills",
+      "title": "My animal fact file",
+      "emoji": "🗂️",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 40,
+      "summary": "Be a researcher! Pick an animal, ask questions, find answers in two places and make a fact file.",
+      "steps": [
+        "Pick an animal you want to know more about.",
+        "Write 3 questions, like: What does it eat? Where does it live?",
+        "Look for answers in a book, and ask a grown-up or another source too.",
+        "Write each answer in a short note, in your own words.",
+        "Draw your animal and add your facts around it.",
+        "Show your fact file and tell one new thing you learned."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "Reading, writing and drawing. If searching online, do it with an adult."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil",
+            "One library or school book"
+          ],
+          "description": "One page with a drawing and 3 facts."
+        },
+        "better": {
+          "cost": "Under 1 USD",
+          "materials": [
+            "Card",
+            "Coloured pencils",
+            "Two books or sources"
+          ],
+          "description": "A folded fact card with facts from two sources and the names of the sources."
+        },
+        "advanced": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Several sheets",
+            "Stapler or thread",
+            "Access to a library or shared device"
+          ],
+          "description": "A small booklet with a contents page, 5 facts and a map of where the animal lives."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Library book",
+          "use": "A school textbook, a local nature guide or asking a farmer, vet or older relative"
+        },
+        {
+          "instead": "Coloured pencils",
+          "use": "A pencil for shading, or colours from leaves and flowers rubbed on paper"
+        }
+      ],
+      "competencies": [
+        "il-ask-good-questions",
+        "il-take-notes"
+      ],
+      "skills": [
+        {
+          "tree": "il-research",
+          "node": "question-words"
+        },
+        {
+          "tree": "il-research",
+          "node": "finding-info"
+        },
+        {
+          "tree": "il-research",
+          "node": "note-taking"
+        }
+      ],
+      "interests": [
+        "animals",
+        "nature",
+        "drawing"
+      ],
+      "languageHooks": [
+        "animals"
+      ],
+      "connects": [
+        "nature-animals",
+        "reading",
+        "art"
+      ],
+      "adultNote": "Help the child write where each fact came from. If two sources disagree, talk about how to check which is right."
     }
   ]
 }

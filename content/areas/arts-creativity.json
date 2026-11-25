@@ -1750,6 +1750,165 @@
         }
       ],
       "adultNote": "Peel the paper off old crayons and use them on their side. Hold the paper still for small hands. Name the shapes and lines you see together."
+    },
+    {
+      "id": "art-floor-patterns",
+      "kind": "activity",
+      "area": "arts-creativity",
+      "subject": "design",
+      "title": "Floor pattern art",
+      "emoji": "🌸",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 30,
+      "summary": "People in many places make patterns on floors and doorsteps. Design your own pattern with dots, lines and colour.",
+      "steps": [
+        "Look at patterns around you: tiles, cloth, flowers.",
+        "Make a grid of dots on paper or the ground: 5 rows of 5.",
+        "Join the dots with lines and curves to make a shape.",
+        "Repeat the shape so the pattern is the same on both sides.",
+        "Add colour with chalk, petals, leaves or coloured powder.",
+        "Take a photo or draw it, because floor art does not last!"
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Slipping on powder or petals",
+          "Dust from chalk or powder"
+        ],
+        "notes": "Work in a spot where people do not walk. Sweep up when finished. Do not blow powder near faces."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper and pencil, or a stick and a patch of earth"
+          ],
+          "description": "Draw a dot-grid pattern on paper or in soil."
+        },
+        "better": {
+          "cost": "Under 1 USD",
+          "materials": [
+            "Chalk",
+            "Fallen petals and leaves",
+            "Rice flour or flour"
+          ],
+          "description": "Make a small pattern on a step or path with chalk lines and natural colour."
+        },
+        "advanced": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Coloured powders",
+            "Small funnel made from paper",
+            "Stones or seeds"
+          ],
+          "description": "Design a large pattern with a family member, plan it on paper first, then make it together."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Chalk",
+          "use": "Flour or rice flour sprinkled from a paper cone"
+        },
+        {
+          "instead": "Coloured powder",
+          "use": "Fallen petals, leaves, sand, seeds or small stones"
+        }
+      ],
+      "competencies": [
+        "art-design-solution",
+        "art-make-crafts"
+      ],
+      "skills": [
+        {
+          "tree": "art-design-craft",
+          "node": "make"
+        },
+        {
+          "tree": "art-drawing",
+          "node": "colour"
+        }
+      ],
+      "interests": [
+        "art",
+        "drawing",
+        "plants"
+      ],
+      "languageHooks": [
+        "colours",
+        "shapes"
+      ],
+      "connects": [
+        "mathematics",
+        "philosophy-worldviews"
+      ],
+      "adultNote": "Floor and doorstep patterns are made in many cultures, for example rangoli and kolam in India and sand or tile patterns elsewhere. Use only fallen petals, and choose a spot that can be swept."
+    },
+    {
+      "id": "art-sound-effects-story",
+      "kind": "activity",
+      "area": "arts-creativity",
+      "subject": "storytelling",
+      "title": "Sound effects story",
+      "emoji": "🥁",
+      "ageBands": [
+        "6-8"
+      ],
+      "level": 2,
+      "minutes": 20,
+      "summary": "Tell a story and add the sounds with your voice, hands and feet. Rain, footsteps, a door creak!",
+      "steps": [
+        "Pick a short story, or make one up about a walk in the rain.",
+        "List the sounds in it: wind, rain, footsteps, a dog barking.",
+        "Find a way to make each sound: rub hands, tap fingers, stamp feet.",
+        "Practise each sound loud and soft.",
+        "Tell the story while a helper makes the sounds, then swap.",
+        "Perform it for your family."
+      ],
+      "practical": false,
+      "competencies": [
+        "art-tell-a-story",
+        "art-perform"
+      ],
+      "skills": [
+        {
+          "tree": "art-story-drama",
+          "node": "tell"
+        },
+        {
+          "tree": "art-music",
+          "node": "rhythm"
+        }
+      ],
+      "interests": [
+        "music",
+        "stories",
+        "dance"
+      ],
+      "languageHooks": [
+        "weather",
+        "animals"
+      ],
+      "connects": [
+        "reading",
+        "science"
+      ],
+      "check": [
+        {
+          "question": "How could you make the sound of light rain?",
+          "options": [
+            "Tap your fingertips softly on a table",
+            "Shout as loud as you can"
+          ],
+          "answer": 0,
+          "explain": "Soft, fast taps sound like raindrops. Louder taps sound like heavy rain."
+        }
+      ],
+      "adultNote": "No equipment is needed. This builds listening, timing and confidence speaking in front of others."
     }
   ]
 }

@@ -1890,6 +1890,205 @@
         }
       ],
       "adultNote": "Write the child's words exactly as they say them. Name the days of the week as you go. Missed a day? Just carry on."
+    },
+    {
+      "id": "prj-paper-bridge",
+      "kind": "project",
+      "area": "projects",
+      "subject": "engineering project",
+      "title": "Paper bridge challenge",
+      "emoji": "🌉",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 3,
+      "minutes": 40,
+      "summary": "Can one sheet of paper hold up coins? Fold it, test it and make the strongest bridge.",
+      "steps": [
+        "Put two books 15 cm apart. That is the river!",
+        "Lay a flat sheet of paper across. Add coins one by one. How many before it falls?",
+        "Now fold the paper like a fan, or roll the edges, and test again.",
+        "Count the coins each time and write them down.",
+        "Which shape held the most? Why do you think so?",
+        "Show your best bridge and tell what you learned."
+      ],
+      "practical": true,
+      "safety": {
+        "rating": "green",
+        "hazards": [
+          "Coins can choke small children",
+          "Paper cuts"
+        ],
+        "notes": "Keep coins away from babies and toddlers. Use scissors only with an adult nearby."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Scrap paper",
+            "Two books",
+            "Coins, stones or bottle caps"
+          ],
+          "description": "Test a flat sheet and one folded sheet."
+        },
+        "better": {
+          "cost": "Under 1 USD",
+          "materials": [
+            "Several sheets",
+            "Tape",
+            "Ruler"
+          ],
+          "description": "Try 4 different shapes and make a results table."
+        },
+        "advanced": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Card",
+            "Straws or sticks",
+            "Tape",
+            "Small cup for weights"
+          ],
+          "description": "Build a longer bridge with supports, and test how far apart the books can go."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Coins",
+          "use": "Stones, bottle caps, washers or dried beans in a cup"
+        },
+        {
+          "instead": "Books",
+          "use": "Two bricks, boxes or tins of the same height"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project",
+        "prj-present-project"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "build"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "test"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        }
+      ],
+      "interests": [
+        "building",
+        "machines"
+      ],
+      "languageHooks": [
+        "numbers",
+        "shapes"
+      ],
+      "connects": [
+        "science",
+        "mathematics"
+      ],
+      "adultNote": "Let the child guess before each test. A folded fan shape is much stronger than flat paper; let them discover this."
+    },
+    {
+      "id": "prj-family-recipe-book",
+      "kind": "project",
+      "area": "projects",
+      "subject": "family project",
+      "title": "Family recipe book",
+      "emoji": "📒",
+      "ageBands": [
+        "6-8",
+        "9-11"
+      ],
+      "level": 2,
+      "minutes": 45,
+      "summary": "Ask your family about a favourite dish and make a little recipe book with pictures.",
+      "steps": [
+        "Ask a family member: what is a dish you love, and who taught you to make it?",
+        "Write the list of things it needs.",
+        "Write the steps in order: first, next, then, last.",
+        "Draw a picture of the dish.",
+        "Collect 2 or 3 recipes and staple or tie the pages together.",
+        "Read your book to your family."
+      ],
+      "practical": false,
+      "safety": {
+        "rating": "green",
+        "hazards": [],
+        "notes": "This is about collecting and writing recipes, not cooking. If you cook a recipe, an adult must help with knives and heat."
+      },
+      "versions": {
+        "basic": {
+          "cost": "Free",
+          "materials": [
+            "Paper",
+            "Pencil"
+          ],
+          "description": "One recipe page with a drawing."
+        },
+        "better": {
+          "cost": "Under 1 USD",
+          "materials": [
+            "Several sheets",
+            "Coloured pencils",
+            "String or staples"
+          ],
+          "description": "A small book with 3 recipes and a cover."
+        },
+        "advanced": {
+          "cost": "Under 3 USD",
+          "materials": [
+            "Notebook",
+            "Colours",
+            "Ingredients for one recipe"
+          ],
+          "description": "Make the book, then cook one easy recipe together with an adult."
+        }
+      },
+      "substitutions": [
+        {
+          "instead": "Staples",
+          "use": "Thread, wool or a folded paper pocket"
+        },
+        {
+          "instead": "Coloured pencils",
+          "use": "A pencil, or stick on cut-out pictures"
+        }
+      ],
+      "competencies": [
+        "prj-complete-project",
+        "prj-present-project"
+      ],
+      "skills": [
+        {
+          "tree": "prj-project-skills",
+          "node": "research"
+        },
+        {
+          "tree": "prj-project-skills",
+          "node": "present"
+        }
+      ],
+      "interests": [
+        "cooking",
+        "stories",
+        "drawing"
+      ],
+      "languageHooks": [
+        "food",
+        "family"
+      ],
+      "connects": [
+        "life-skills",
+        "reading",
+        "civics-social"
+      ],
+      "adultNote": "A good way to share family history. Recipes can come from any family member, friend or neighbour."
     }
   ]
 }
