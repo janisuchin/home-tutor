@@ -29,6 +29,8 @@ jobs:
         run: npm test
       - name: Build web (PWA)
         run: npm run build:web
+      - name: Bundle-size budget (entry below 200 KB gzip)
+        run: npm run check:bundle
       - name: Install Playwright browser
         run: npx playwright install --with-deps chromium
       - name: End-to-end tests (phone, tablet, desktop, projector) with accessibility checks

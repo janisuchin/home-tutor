@@ -2,7 +2,7 @@
   "name": "home-tutor",
   "version": "0.1.0",
   "private": true,
-  "main": "expo-router/entry",
+  "main": "index",
   "scripts": {
     "start": "expo start",
     "web": "expo start --web",
@@ -14,7 +14,8 @@
     "test": "vitest run",
     "build:web": "npm run validate && npm run content && expo export -p web && tsx scripts/postbuild-pwa.ts",
     "e2e": "playwright test",
-    "serve": "tsx scripts/serve-dist.ts"
+    "serve": "tsx scripts/serve-dist.ts",
+    "check:bundle": "tsx scripts/check-bundle.ts"
   },
   "dependencies": {
     "@expo-google-fonts/atkinson-hyperlegible": "^0.4.1",
